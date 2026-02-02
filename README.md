@@ -1,3 +1,14 @@
+
+## Content flow
+
+Markdown files are added to `src/content-raw`.
+
+These contain details of chart component to be inserted as metadata within fenced metadata blocks.
+
+
+Running `npm run build:content` calls `scripts/preprocessCharts.mjs`, which adds import statements and replaces the YAML with a usage of a Svelte component, writing these to `src/content`; because the contents of this directory are auto-generated, it is gitignored.
+It also calls `velite` to re-index the markdown files it has written.
+
 ## Architecture
 
 This app uses [Velite](https://velite.js.org/) as an application data layer.
