@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { readFileSync, writeFileSync, existsSync, globSync } from 'fs';
+import { mkdirSync, readFileSync, writeFileSync, existsSync, globSync } from 'fs';
 import path from 'node:path';
 
 // import { glob } from 'node:glob';
@@ -68,6 +68,11 @@ const convertFile = (inFilePath, outFilePath) => {
                 outLines.push(line);
             }
         }
+    }
+
+    const outDir = path.dirname(outFilePath);
+    if (!existsSync(outDir)) {
+        mkdirSync(outDir, { recursive: true });
     }
 
     writeFileSync(outFilePath, [
