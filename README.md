@@ -57,6 +57,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi.
 
 ```
 
+Note that if the markdown fle in `content-raw` is being generated from a Word document by Pandoc, then the initial word document should contain the `---` character sequence (not the horizontal rule that Word suggests replacing this with); Pandoc will convert this to `\-\--`, and `scripts/preprocessCharts.mjs` will convert this back to `---` before replacing the block with a Svelte component.
+
 
 ## Architecture
 
