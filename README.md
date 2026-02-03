@@ -5,9 +5,58 @@ Markdown files are added to `src/content-raw`.
 
 These contain details of chart component to be inserted as metadata within fenced metadata blocks.
 
-
 Running `npm run build:content` calls `scripts/preprocessCharts.mjs`, which adds import statements and replaces the YAML with a usage of a Svelte component, writing these to `src/content`; because the contents of this directory are auto-generated, it is gitignored.
 It also calls `velite` to re-index the markdown files it has written.
+
+For example, if `src/content-raw/state-of-london/index.md` contains:
+
+```md
+
+---
+title: Key stories for London
+description: Highlights across a range of the report’s chapters
+section: London in Figures
+navLabel: London in Figures
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi.
+
+
+---
+Chart: MultipleLine
+Title: In London, all variable values have fallen steadily since 2017, with Variable A experiencing the most significant fall
+Subtitle: London monthly estimated variable values (GBP), January 2015 to March 2024
+Byline: GLA City Intelligence
+---
+
+```
+
+Then after running the script, ` src/content/state-of-london/index.md` will contain:
+
+```md
+---
+title: Key stories for London
+description: Highlights across a range of the report’s chapters
+section: London in Figures
+navLabel: London in Figures
+---
+
+<script>
+import MultipleLine from "$lib/components/charts/MultipleLine.svelte";
+</script>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi.
+
+
+<MultipleLine
+ title="In London, all variable values have fallen steadily since 2017, with Variable A experiencing the most significant fall"
+ subtitle="London monthly estimated variable values (GBP), January 2015 to March 2024"
+ byline="GLA City Intelligence"
+ />
+
+```
+
 
 ## Architecture
 
