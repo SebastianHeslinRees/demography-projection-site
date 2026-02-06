@@ -48,18 +48,6 @@
     "slugFull": "/state-of-london/demography"
   },
   {
-    "title": "Economy",
-    "description": "The performance of London's economy and how it is benefiting Londoners.",
-    "path": "state-of-london/economy",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/economy",
-    "slugFull": "/state-of-london/economy"
-  },
-  {
     "title": "Environment",
     "description": "The most up-to-date information available on the state of London’s environment",
     "path": "state-of-london/environment",
@@ -82,6 +70,18 @@
     "section": "Foreword",
     "slug": "state-of-london/foreword",
     "slugFull": "/state-of-london/foreword"
+  },
+  {
+    "title": "Economy",
+    "description": "The performance of London's economy and how it is benefiting Londoners.",
+    "path": "state-of-london/economy",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "state-of-london/economy",
+    "slugFull": "/state-of-london/economy"
   },
   {
     "title": "Global city and Culture",
