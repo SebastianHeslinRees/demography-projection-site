@@ -42,7 +42,7 @@
 
 <div class="flex min-h-dvh flex-col">
 	<Header>
-		<HeaderTitle base={resolve('/', {})}>State of London 2026</HeaderTitle>
+		<HeaderTitle base={resolve('/')}>State of London 2026</HeaderTitle>
 		<HeaderRight>
 			{#if breakPoint >= 768}
 				<HeaderItem>
