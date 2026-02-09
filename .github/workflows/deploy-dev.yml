@@ -1,4 +1,4 @@
-name: Build and trigger deploy to prod server
+name: Build and trigger deploy to dev server
 
 on:
   workflow_dispatch:
