@@ -46,85 +46,85 @@ export const navigation = [
 	{
 		title: 'Foreword',
 		id: 'foreword',
-		href: '/state-of-london/foreword',
+		href: '/report/foreword',
 		children: introduction
 	},
 	{
 		title: 'London in Figures',
 		id: 'london-in-figures',
-		href: '/state-of-london/london-in-figures',
+		href: '/report/london-in-figures',
 		children: foundations
 	},
 	{
 		title: 'Key Stories for London',
 		id: 'key-stories-for-london',
-		href: '/state-of-london/key-stories-for-london',
+		href: '/report/key-stories-for-london',
 		children: applicationDesign
 	},
 	{
 		title: 'Demography',
 		id: 'demography',
-		href: '/state-of-london/demography',
+		href: '/report/demography',
 		children: applicationDesign
 	},
 	{
 		title: 'Economy',
 		id: 'economy',
-		href: '/state-of-london/economy',
+		href: '/report/economy',
 		children: applicationDesign
 	},
 	{
 		title: 'Global city and culture',
 		id: 'global-city-and-culture',
-		href: '/state-of-london/global-city-and-culture',
+		href: '/report/global-city-and-culture',
 		children: applicationDesign
 	},
 	{
 		title: 'Skills',
 		id: 'skills',
-		href: '/state-of-london/skills',
+		href: '/report/skills',
 		children: applicationDesign
 	},
 	{
 		title: 'Social justice',
 		id: 'social-justice',
-		href: '/state-of-london/social-justice',
+		href: '/report/social-justice',
 		children: applicationDesign
 	},
 	{
 		title: 'Housing',
 		id: 'housing',
-		href: '/state-of-london/housing',
+		href: '/report/housing',
 		children: applicationDesign
 	},
 	{
 		title: 'Environment',
 		id: 'environment',
-		href: '/state-of-london/environment',
+		href: '/report/environment',
 		children: applicationDesign
 	},
 	{
 		title: 'Crime',
 		id: 'crime',
-		href: '/state-of-london/crime',
+		href: '/report/crime',
 		children: applicationDesign
 	},
 	{
 		title: 'Transport',
 		id: 'transport',
-		href: '/state-of-london/transport',
+		href: '/report/transport',
 		children: applicationDesign
 	},
 	{
 		title: 'Children and young people',
 		id: 'children-and-young-people',
-		href: '/state-of-london/children-and-young-people',
+		href: '/report/children-and-young-people',
 		children: applicationDesign
 	},
 	{
 		title: 'Health',
 		id: 'health',
-		href: '/state-of-london/health',
+		href: '/report/health',
 		children: applicationDesign
 	},
 ];

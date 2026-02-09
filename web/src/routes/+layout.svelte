@@ -22,7 +22,7 @@
 	import '../app.postcss';
 
 	let mainMenu = [
-		{ title: 'State of London', id: 'state-of-london', href: '/state-of-london' },
+		{ title: 'Report', id: 'report', href: '/report' },
 		{ title: 'Contact', id: 'contact', href: '/contact' }
 	];
 

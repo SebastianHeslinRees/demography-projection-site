@@ -1,182 +1,182 @@
 [
   {
-    "title": "London City Data",
+    "title": "Report",
     "description": "Home page",
-    "path": "state-of-london",
-    "content": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <placeholderimage>\n        </placeholderimage></div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <button href=\"/state-of-london\" variant=\"outline\">Read the report</button>\n    </div>\n</div>",
+    "path": "report",
+    "content": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n<p>Report</p>",
     "navLabel": "Home",
-    "raw": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <PlaceholderImage />\n        </div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <Button href=\"/state-of-london\" variant=\"outline\">Read the report</Button>\n    </div>\n</div>",
+    "raw": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n\nReport",
     "toc": [],
     "section": "Foreword",
-    "slug": "state-of-london",
-    "slugFull": "/state-of-london"
+    "slug": "report",
+    "slugFull": "/report"
   },
   {
     "title": "Children and young people",
     "description": "Reports on children and young people",
-    "path": "state-of-london/children-and-young-people",
+    "path": "report/children-and-young-people",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/children-and-young-people",
-    "slugFull": "/state-of-london/children-and-young-people"
+    "slug": "report/children-and-young-people",
+    "slugFull": "/report/children-and-young-people"
   },
   {
     "title": "Crime",
     "description": "A broad overview of crime and safety issues affecting London.",
-    "path": "state-of-london/crime",
+    "path": "report/crime",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/crime",
-    "slugFull": "/state-of-london/crime"
-  },
-  {
-    "title": "Economy",
-    "description": "The performance of London's economy and how it is benefiting Londoners.",
-    "path": "state-of-london/economy",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/economy",
-    "slugFull": "/state-of-london/economy"
+    "slug": "report/crime",
+    "slugFull": "/report/crime"
   },
   {
     "title": "Demography",
     "description": "Data and recent trends on London's demographics.",
-    "path": "state-of-london/demography",
+    "path": "report/demography",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/demography",
-    "slugFull": "/state-of-london/demography"
+    "slug": "report/demography",
+    "slugFull": "/report/demography"
   },
   {
-    "title": "Environment",
-    "description": "The most up-to-date information available on the state of London’s environment",
-    "path": "state-of-london/environment",
+    "title": "Economy",
+    "description": "The performance of London's economy and how it is benefiting Londoners.",
+    "path": "report/economy",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/environment",
-    "slugFull": "/state-of-london/environment"
-  },
-  {
-    "title": "Global city and Culture",
-    "description": "London’s standing as a world-leading global city",
-    "path": "state-of-london/global-city-and-culture",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/global-city-and-culture",
-    "slugFull": "/state-of-london/global-city-and-culture"
-  },
-  {
-    "title": "Health",
-    "description": "A high-level overview of health in London,",
-    "path": "state-of-london/health",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/health",
-    "slugFull": "/state-of-london/health"
+    "slug": "report/economy",
+    "slugFull": "/report/economy"
   },
   {
     "title": "Foreword",
     "description": "The Foreword",
-    "path": "state-of-london/foreword",
+    "path": "report/foreword",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "Foreword",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "Foreword",
-    "slug": "state-of-london/foreword",
-    "slugFull": "/state-of-london/foreword"
+    "slug": "report/foreword",
+    "slugFull": "/report/foreword"
   },
   {
-    "title": "Housing",
-    "description": "A selection of key housing indicators",
-    "path": "state-of-london/housing",
+    "title": "Environment",
+    "description": "The most up-to-date information available on the state of London’s environment",
+    "path": "report/environment",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/housing",
-    "slugFull": "/state-of-london/housing"
+    "slug": "report/environment",
+    "slugFull": "/report/environment"
+  },
+  {
+    "title": "Global city and Culture",
+    "description": "London’s standing as a world-leading global city",
+    "path": "report/global-city-and-culture",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "report/global-city-and-culture",
+    "slugFull": "/report/global-city-and-culture"
+  },
+  {
+    "title": "Health",
+    "description": "A high-level overview of health in London,",
+    "path": "report/health",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "report/health",
+    "slugFull": "/report/health"
+  },
+  {
+    "title": "Housing",
+    "description": "A selection of key housing indicators",
+    "path": "report/housing",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "report/housing",
+    "slugFull": "/report/housing"
   },
   {
     "title": "Key stories for London",
     "description": "Highlights across a range of the report’s chapters",
-    "path": "state-of-london/key-stories-for-london",
+    "path": "report/key-stories-for-london",
     "content": "<script>\nimport MultipleLine from \"$lib/components/charts/MultipleLine.svelte\";\n</script>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>\n<p><multipleline title=\"In London, all variable values have fallen steadily since 2017, with Variable A experiencing the most significant fall\" subtitle=\"London monthly estimated variable values (GBP), January 2015 to March 2024\" byline=\"GLA City Intelligence\"></multipleline></p>",
     "navLabel": "London in Figures",
     "raw": "<script>\nimport MultipleLine from \"$lib/components/charts/MultipleLine.svelte\";\n</script>\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\n\n\n<MultipleLine\n title=\"In London, all variable values have fallen steadily since 2017, with Variable A experiencing the most significant fall\"\n subtitle=\"London monthly estimated variable values (GBP), January 2015 to March 2024\"\n byline=\"GLA City Intelligence\"\n />",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/key-stories-for-london",
-    "slugFull": "/state-of-london/key-stories-for-london"
+    "slug": "report/key-stories-for-london",
+    "slugFull": "/report/key-stories-for-london"
   },
   {
     "title": "London in Figures",
     "description": "Fundamental statistics for London, compared to New York, Paris, and Tokyo",
-    "path": "state-of-london/london-in-figures",
+    "path": "report/london-in-figures",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/london-in-figures",
-    "slugFull": "/state-of-london/london-in-figures"
+    "slug": "report/london-in-figures",
+    "slugFull": "/report/london-in-figures"
   },
   {
     "title": "Skills",
     "description": "The skills of London’s population.",
-    "path": "state-of-london/skills",
+    "path": "report/skills",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/skills",
-    "slugFull": "/state-of-london/skills"
+    "slug": "report/skills",
+    "slugFull": "/report/skills"
   },
   {
     "title": "Social Justice",
     "description": "Cover themes such as support for those most in need and reducing inequalities",
-    "path": "state-of-london/social-justice",
+    "path": "report/social-justice",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/social-justice",
-    "slugFull": "/state-of-london/social-justice"
+    "slug": "report/social-justice",
+    "slugFull": "/report/social-justice"
   },
   {
     "title": "Transport",
     "description": "A subset of the Mayor’s Transport Strategy tracker metrics,",
-    "path": "state-of-london/transport",
+    "path": "report/transport",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/transport",
-    "slugFull": "/state-of-london/transport"
+    "slug": "report/transport",
+    "slugFull": "/report/transport"
   }
 ]
