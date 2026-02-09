@@ -4,6 +4,9 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsx } from 'mdsx';
 import contentIndex from './.velite/docs.json' with { type: 'json' }; //TODO - other content beyond docs
 import { mdsxConfig } from './mdsx.config.ts';
+
+const dev = process.env.NODE_ENV === 'development';
+
 const config = {
 	preprocess: [vitePreprocess(), mdsx(mdsxConfig)],
 	kit: {

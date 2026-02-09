@@ -96,18 +96,6 @@
     "slugFull": "/state-of-london/health"
   },
   {
-    "title": "Housing",
-    "description": "A selection of key housing indicators",
-    "path": "state-of-london/housing",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/housing",
-    "slugFull": "/state-of-london/housing"
-  },
-  {
     "title": "Foreword",
     "description": "The Foreword",
     "path": "state-of-london/foreword",
@@ -118,6 +106,18 @@
     "section": "Foreword",
     "slug": "state-of-london/foreword",
     "slugFull": "/state-of-london/foreword"
+  },
+  {
+    "title": "Housing",
+    "description": "A selection of key housing indicators",
+    "path": "state-of-london/housing",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "state-of-london/housing",
+    "slugFull": "/state-of-london/housing"
   },
   {
     "title": "Key stories for London",
