@@ -2,9 +2,9 @@
   "title": "London City Data",
   "description": "Home page",
   "path": "index",
-  "content": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <placeholderimage>\n        </placeholderimage></div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <button href=\"/state-of-london\" variant=\"outline\">Read the report</button>\n    </div>\n</div>",
+  "content": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <placeholderimage>\n        </placeholderimage></div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <button href=\"/report\" variant=\"outline\">Read the report</button>\n    </div>\n</div>",
   "navLabel": "Home",
-  "raw": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <PlaceholderImage />\n        </div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <Button href=\"/state-of-london\" variant=\"outline\">Read the report</Button>\n    </div>\n</div>",
+  "raw": "<script>\n\timport { Button, PlaceholderImage } from '@ldn-viz/ui'\n</script>\n\n<div class=\"grid grid-cols-2 gap-4\">\n    <div>\n        <div class=\"h-60 block\">\n            <PlaceholderImage />\n        </div>\n        <h3 class=\"title-md format\">The State of London</h3>\n        <p class=\"pb-4\">A review of London's economy and society.</p>\n        <Button href=\"/report\" variant=\"outline\">Read the report</Button>\n    </div>\n</div>",
   "slug": "index",
   "slugFull": "/index"
 }
