@@ -11,7 +11,8 @@ const config = {
 			'$content/*': '.velite/*'
 		},
 		adapter: adapter(),
-		prerender: { entries: ['*', ...contentIndex.map((d) => d.slugFull)] }
+		prerender: { entries: ['*', ...contentIndex.map((d) => d.slugFull)] },
+		paths: { base: dev ? '' : '/state-of-london' }
 	},
 	onwarn: (warning, handler) => {
 		if (warning.code === 'css_unused_selector') return;
