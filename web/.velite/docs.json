@@ -12,18 +12,6 @@
     "slugFull": "/state-of-london"
   },
   {
-    "title": "Children and young people",
-    "description": "Reports on children and young people",
-    "path": "state-of-london/children-and-young-people",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/children-and-young-people",
-    "slugFull": "/state-of-london/children-and-young-people"
-  },
-  {
     "title": "Crime",
     "description": "A broad overview of crime and safety issues affecting London.",
     "path": "state-of-london/crime",
@@ -36,16 +24,16 @@
     "slugFull": "/state-of-london/crime"
   },
   {
-    "title": "Demography",
-    "description": "Data and recent trends on London's demographics.",
-    "path": "state-of-london/demography",
+    "title": "Children and young people",
+    "description": "Reports on children and young people",
+    "path": "state-of-london/children-and-young-people",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/demography",
-    "slugFull": "/state-of-london/demography"
+    "slug": "state-of-london/children-and-young-people",
+    "slugFull": "/state-of-london/children-and-young-people"
   },
   {
     "title": "Environment",
@@ -72,16 +60,16 @@
     "slugFull": "/state-of-london/foreword"
   },
   {
-    "title": "Economy",
-    "description": "The performance of London's economy and how it is benefiting Londoners.",
-    "path": "state-of-london/economy",
+    "title": "Health",
+    "description": "A high-level overview of health in London,",
+    "path": "state-of-london/health",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "state-of-london/economy",
-    "slugFull": "/state-of-london/economy"
+    "slug": "state-of-london/health",
+    "slugFull": "/state-of-london/health"
   },
   {
     "title": "Global city and Culture",
@@ -96,18 +84,6 @@
     "slugFull": "/state-of-london/global-city-and-culture"
   },
   {
-    "title": "Health",
-    "description": "A high-level overview of health in London,",
-    "path": "state-of-london/health",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/health",
-    "slugFull": "/state-of-london/health"
-  },
-  {
     "title": "Housing",
     "description": "A selection of key housing indicators",
     "path": "state-of-london/housing",
@@ -118,6 +94,30 @@
     "section": "London in Figures",
     "slug": "state-of-london/housing",
     "slugFull": "/state-of-london/housing"
+  },
+  {
+    "title": "Demography",
+    "description": "Data and recent trends on London's demographics.",
+    "path": "state-of-london/demography",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "state-of-london/demography",
+    "slugFull": "/state-of-london/demography"
+  },
+  {
+    "title": "Economy",
+    "description": "The performance of London's economy and how it is benefiting Londoners.",
+    "path": "state-of-london/economy",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "state-of-london/economy",
+    "slugFull": "/state-of-london/economy"
   },
   {
     "title": "Key stories for London",
@@ -156,18 +156,6 @@
     "slugFull": "/state-of-london/skills"
   },
   {
-    "title": "Social Justice",
-    "description": "Cover themes such as support for those most in need and reducing inequalities",
-    "path": "state-of-london/social-justice",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "state-of-london/social-justice",
-    "slugFull": "/state-of-london/social-justice"
-  },
-  {
     "title": "Transport",
     "description": "A subset of the Mayor’s Transport Strategy tracker metrics,",
     "path": "state-of-london/transport",
@@ -178,5 +166,17 @@
     "section": "London in Figures",
     "slug": "state-of-london/transport",
     "slugFull": "/state-of-london/transport"
+  },
+  {
+    "title": "Social Justice",
+    "description": "Cover themes such as support for those most in need and reducing inequalities",
+    "path": "state-of-london/social-justice",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "state-of-london/social-justice",
+    "slugFull": "/state-of-london/social-justice"
   }
 ]
