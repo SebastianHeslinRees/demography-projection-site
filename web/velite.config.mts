@@ -61,6 +61,9 @@ const docs = defineCollection({
 
 export default defineConfig({
 	root: './src/content',
+	markdown: {
+		copyLinkedFiles: false
+	},
 	collections: {
 		index,
 		docs,
