@@ -32,7 +32,7 @@ find "$BASE_DIR" -type f -name '*.docx' -print0 | while IFS= read -r -d '' docx;
 
   # Output Markdown path: same folder next to the .docx, same basename with .md. No spaces in filename.
   md_out="${docx%.*}.md"
-  md_out=$(echo "$md_out" | sed 's/ /-/g')
+  md_out=${md_out// /-}
 
   echo "Converting: $docx"
   echo "  -> Markdown: $md_out"
