@@ -37,13 +37,7 @@ const docSchema = baseSchema
 		};
 	});
 
-const guideSchema = baseSchema.transform((data) => {
-	return {
-		...data,
-		slug: data.path,
-		slugFull: `/${data.path}`
-	};
-});
+
 
 const index = defineCollection({
 	name: 'Index',
@@ -60,13 +54,16 @@ const index = defineCollection({
 
 const docs = defineCollection({
 	name: 'Doc',
-	pattern: './state-of-london/**/*.md',
+	pattern: './report/**/*.md',
 	schema: docSchema
 });
 
 
 export default defineConfig({
 	root: './src/content',
+	markdown: {
+		copyLinkedFiles: false
+	},
 	collections: {
 		index,
 		docs,

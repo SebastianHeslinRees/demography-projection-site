@@ -2,36 +2,8 @@ import { getAllDocs } from './utils.js';
 
 const allDocs = getAllDocs();
 
-const introduction = allDocs
-	.filter((doc) => doc.section === 'Getting Started')
-	.filter((doc) => doc.slugFull !== '/design-system/getting-started')
-	.map((doc) => ({
-		title: doc.navLabel,
-		id: `${doc.title.toLowerCase()}-getting-started`,
-		href: `/${doc.slug}`
-	}));
-
-const foundations = allDocs
-	.filter((doc) => doc.section === 'Foundations')
-	.filter((doc) => doc.slugFull !== '/design-system/foundations')
-	.map((doc) => ({
-		title: doc.navLabel,
-		id: `${doc.title.toLowerCase()}-foundations`,
-		href: `/${doc.slug}`
-	}));
-
-const applicationDesign = allDocs
-	.filter((doc) => doc.section === 'Application design')
-	.filter((doc) => doc.slugFull !== '/design-system/application-design')
-	.map((doc) => ({
-		title: doc.navLabel,
-		id: `${doc.title.toLowerCase()}-application-design`,
-		href: `/${doc.slug}`
-	}));
-
-//Non alphabetic sort index. N.B reverse order so non listed pages are appended
-const dvPageOrder = ['Charts', 'Colour', 'Accessibility', 'Getting started'];
-
+// Can do something like this to enumerate child entries for a menu entry
+/*
 const dataVisualisation = allDocs
 	.filter((doc) => doc.section === 'Data visualisation')
 	.filter((doc) => doc.slugFull !== '/design-system/data-visualisation')
@@ -41,90 +13,91 @@ const dataVisualisation = allDocs
 		href: `/${doc.slug}`
 	}))
 	.sort((a, b) => dvPageOrder.indexOf(b.title) - dvPageOrder.indexOf(a.title));
+*/
 
 export const navigation = [
 	{
 		title: 'Foreword',
 		id: 'foreword',
-		href: '/state-of-london/foreword',
-		children: introduction
+		href: '/report/foreword',
+		children: []
 	},
 	{
 		title: 'London in Figures',
 		id: 'london-in-figures',
-		href: '/state-of-london/london-in-figures',
-		children: foundations
+		href: '/report/london-in-figures',
+		children: []
 	},
 	{
 		title: 'Key Stories for London',
 		id: 'key-stories-for-london',
-		href: '/state-of-london/key-stories-for-london',
-		children: applicationDesign
+		href: '/report/key-stories-for-london',
+		children: []
 	},
 	{
 		title: 'Demography',
 		id: 'demography',
-		href: '/state-of-london/demography',
-		children: applicationDesign
+		href: '/report/demography',
+		children: []
 	},
 	{
 		title: 'Economy',
 		id: 'economy',
-		href: '/state-of-london/economy',
-		children: applicationDesign
+		href: '/report/economy',
+		children: []
 	},
 	{
 		title: 'Global city and culture',
 		id: 'global-city-and-culture',
-		href: '/state-of-london/global-city-and-culture',
-		children: applicationDesign
+		href: '/report/global-city-and-culture',
+		children: []
 	},
 	{
 		title: 'Skills',
 		id: 'skills',
-		href: '/state-of-london/skills',
-		children: applicationDesign
+		href: '/report/skills',
+		children: []
 	},
 	{
 		title: 'Social justice',
 		id: 'social-justice',
-		href: '/state-of-london/social-justice',
-		children: applicationDesign
+		href: '/report/social-justice',
+		children: []
 	},
 	{
 		title: 'Housing',
 		id: 'housing',
-		href: '/state-of-london/housing',
-		children: applicationDesign
+		href: '/report/housing',
+		children: []
 	},
 	{
 		title: 'Environment',
 		id: 'environment',
-		href: '/state-of-london/environment',
-		children: applicationDesign
+		href: '/report/environment',
+		children: []
 	},
 	{
 		title: 'Crime',
 		id: 'crime',
-		href: '/state-of-london/crime',
-		children: applicationDesign
+		href: '/report/crime',
+		children: []
 	},
 	{
 		title: 'Transport',
 		id: 'transport',
-		href: '/state-of-london/transport',
-		children: applicationDesign
+		href: '/report/transport',
+		children: []
 	},
 	{
 		title: 'Children and young people',
 		id: 'children-and-young-people',
-		href: '/state-of-london/children-and-young-people',
-		children: applicationDesign
+		href: '/report/children-and-young-people',
+		children: []
 	},
 	{
 		title: 'Health',
 		id: 'health',
-		href: '/state-of-london/health',
-		children: applicationDesign
+		href: '/report/health',
+		children: []
 	},
 ];

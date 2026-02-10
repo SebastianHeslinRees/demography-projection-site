@@ -22,8 +22,8 @@
 	import '../app.postcss';
 
 	let mainMenu = [
-		{ title: 'State of London', id: 'state-of-london', href: '/state-of-london' },
-		{ title: 'Contact', id: 'contact', href: '/contact' }
+		{ title: 'Report', id: 'report', href: resolve('/report') },
+		{ title: 'Contact', id: 'contact', href: resolve('/contact') }
 	];
 
 	let menuOpen = $state(false);
@@ -42,7 +42,7 @@
 
 <div class="flex min-h-dvh flex-col">
 	<Header>
-		<HeaderTitle base={resolve('/', {})}>London City Data</HeaderTitle>
+		<HeaderTitle base={resolve('/')}>State of London 2026</HeaderTitle>
 		<HeaderRight>
 			{#if breakPoint >= 768}
 				<HeaderItem>

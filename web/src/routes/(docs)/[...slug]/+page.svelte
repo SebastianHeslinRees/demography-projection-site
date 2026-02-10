@@ -19,4 +19,4 @@
 	<PageComponent />
 </div>
 
-<Toc toc={{ items: tocItems }} />
+<!-- <Toc toc={{ items: tocItems }} /> -->
