@@ -22,8 +22,8 @@
 	import '../app.postcss';
 
 	let mainMenu = [
-		{ title: 'Report', id: 'report', href: '/report' },
-		{ title: 'Contact', id: 'contact', href: '/contact' }
+		{ title: 'Report', id: 'report', href: resolve('/report') },
+		{ title: 'Contact', id: 'contact', href: resolve('/contact') }
 	];
 
 	let menuOpen = $state(false);
