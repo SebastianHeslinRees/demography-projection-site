@@ -24,18 +24,6 @@
     "slugFull": "/report/children-and-young-people"
   },
   {
-    "title": "Crime",
-    "description": "A broad overview of crime and safety issues affecting London.",
-    "path": "report/crime",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "London in Figures",
-    "slug": "report/crime",
-    "slugFull": "/report/crime"
-  },
-  {
     "title": "Demography",
     "description": "Data and recent trends on London's demographics.",
     "path": "report/demography",
@@ -48,28 +36,16 @@
     "slugFull": "/report/demography"
   },
   {
-    "title": "Economy",
-    "description": "The performance of London's economy and how it is benefiting Londoners.",
-    "path": "report/economy",
+    "title": "Crime",
+    "description": "A broad overview of crime and safety issues affecting London.",
+    "path": "report/crime",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
     "navLabel": "London in Figures",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
     "section": "London in Figures",
-    "slug": "report/economy",
-    "slugFull": "/report/economy"
-  },
-  {
-    "title": "Foreword",
-    "description": "The Foreword",
-    "path": "report/foreword",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "Foreword",
-    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "toc": [],
-    "section": "Foreword",
-    "slug": "report/foreword",
-    "slugFull": "/report/foreword"
+    "slug": "report/crime",
+    "slugFull": "/report/crime"
   },
   {
     "title": "Environment",
@@ -84,6 +60,18 @@
     "slugFull": "/report/environment"
   },
   {
+    "title": "Economy",
+    "description": "The performance of London's economy and how it is benefiting Londoners.",
+    "path": "report/economy",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "report/economy",
+    "slugFull": "/report/economy"
+  },
+  {
     "title": "Global city and Culture",
     "description": "London’s standing as a world-leading global city",
     "path": "report/global-city-and-culture",
@@ -96,16 +84,16 @@
     "slugFull": "/report/global-city-and-culture"
   },
   {
-    "title": "Health",
-    "description": "A high-level overview of health in London,",
-    "path": "report/health",
+    "title": "Foreword",
+    "description": "The Foreword",
+    "path": "report/foreword",
     "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
-    "navLabel": "London in Figures",
+    "navLabel": "Foreword",
     "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
     "toc": [],
-    "section": "London in Figures",
-    "slug": "report/health",
-    "slugFull": "/report/health"
+    "section": "Foreword",
+    "slug": "report/foreword",
+    "slugFull": "/report/foreword"
   },
   {
     "title": "Housing",
@@ -118,6 +106,18 @@
     "section": "London in Figures",
     "slug": "report/housing",
     "slugFull": "/report/housing"
+  },
+  {
+    "title": "Health",
+    "description": "A high-level overview of health in London,",
+    "path": "report/health",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>",
+    "navLabel": "London in Figures",
+    "raw": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac aliquet mi. Nullam quis nisl erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque imperdiet est quis fermentum aliquet. Nunc porta risus et tellus convallis gravida. Phasellus in condimentum nibh. Sed bibendum ex id congue egestas. Nam enim justo, ultrices et scelerisque quis, vehicula a sem. Aliquam sed porttitor odio, non pulvinar sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "toc": [],
+    "section": "London in Figures",
+    "slug": "report/health",
+    "slugFull": "/report/health"
   },
   {
     "title": "Key stories for London",
