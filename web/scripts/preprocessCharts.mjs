@@ -11,7 +11,7 @@ const outDirPath = "./src/content";
 
 
 const formatBlock = (metadata) => {
-    const attributes = Object.keys(metadata).filter(k => k !== 'Chart').map(k => `${k.toLowerCase()}="${metadata[k]}"\n`);
+    const attributes = Object.keys(metadata).filter(k => k !== 'Chart').map(k => `${k.toLowerCase()}="${metadata[k].replace(/"/g, '&quot;')}"\n`);
     return `<${metadata.Chart}\n ${attributes.join(" ") } />`
 };
 
@@ -24,7 +24,7 @@ const convertFile = (inFilePath, outFilePath) => {
 
     // any section-dividing lines/rules in the original word doc will be stripped out by Pandoc
     // any instance of "---" gets replaced by "\-\--" by pandoc (to prevent it from being interpreted as a section divider)
-    const inLines = fileContent.replaceAll("\\-\\--", "---").split("\n");
+    const inLines = fileContent.replaceAll("\\-\\--", "---").split("\n").map(l => l.trimEnd().replace(/\\$/, ''));
 
     let outLines = [];
     let imports = []
@@ -38,7 +38,7 @@ const convertFile = (inFilePath, outFilePath) => {
         if (inBlock){
             if (!line){
                 continue;
-            } else if (line.includes("---")){
+            } else if (line.trim() === "---"){
                 if (havePassedInitialMetadata){
                     outLines = outLines.concat(formatBlock(blockData))
                     imports.push(getImport(blockData))
@@ -50,21 +50,24 @@ const convertFile = (inFilePath, outFilePath) => {
                 inBlock = false;
             } else {
                 if (havePassedInitialMetadata){
-                    const [key, value] = line.split(":");
+                    const colonIndex = line.indexOf(":");
+                    if (colonIndex === -1) continue;
+                    const key = line.slice(0, colonIndex);
+                    const value = line.slice(colonIndex + 1);
                     blockData[key.trim()] = value.trim();
                 } else {
                     initialYAML.push(line)
                 }
             }
         } else {
-            if (line.includes("---")){
+            if (line.trim() === "---"){
                 inBlock = true;
 
                 if (!havePassedInitialMetadata){
                     initialYAML.push(line);
                 }
 
-            } else {
+            } else if (!line.match(/<img\s[^>]*src="attachments\//)) {
                 outLines.push(line);
             }
         }
@@ -75,9 +78,11 @@ const convertFile = (inFilePath, outFilePath) => {
         mkdirSync(outDir, { recursive: true });
     }
 
+    const uniqueImports = [...new Set(imports)];
+
     writeFileSync(outFilePath, [
         ...initialYAML,
-            ...( imports.length  > 0 ? ["\n<script>", ...imports, "</script>\n"] : []),
+            ...( uniqueImports.length  > 0 ? ["\n<script>", ...uniqueImports, "</script>\n"] : []),
         ...outLines
     ].join("\n"));
 };
