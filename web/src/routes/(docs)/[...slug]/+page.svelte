@@ -20,3 +20,15 @@
 </div>
 
 <!-- <Toc toc={{ items: tocItems }} /> -->
+
+<style>
+	:global(.container > ul) {
+		/* @apply list-desc; */
+		list-style-type: disc;
+	}
+
+	:global(.container > ol) {
+		/* @apply list-decimal; */
+		list-style-type: decimal;
+	}
+</style>

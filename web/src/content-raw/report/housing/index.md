@@ -23,7 +23,7 @@ The GLA’s annual [Housing in London report](https://data.london.gov.uk/housing
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Londoners’ ability to meet their housing costs
 
@@ -53,7 +53,7 @@ Over the same period, the majority of people reported being able to keep up with
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Affordability in the private rental sector
 
@@ -81,7 +81,7 @@ The ONS rental data shown here reflects rents paid on all tenancies and therefor
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Londoners’ ability to pay their rent
 
@@ -107,7 +107,7 @@ The proportion of social sector tenants in London who found it difficult to pay 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Households in temporary accommodation
 
@@ -139,7 +139,7 @@ The number of homeless households in private sector temporary accommodation has 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Decent Homes
 
@@ -169,7 +169,7 @@ In 2022 there was further improvement in the proportion of homes in the private 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Remediation of tall residential buildings with unsafe cladding
 
@@ -201,7 +201,7 @@ The remediation process is complete for 31% of monitored buildings in London, co
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: New rough sleepers
 
@@ -227,7 +227,7 @@ Rough sleeping rates in London have consistently been higher than in the rest of
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: New rough sleepers
 
@@ -253,7 +253,7 @@ In Q4 2024, outreach teams recorded 2,085 new people who were seen sleeping roug
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Households accepted as statutorily homeless
 
@@ -283,7 +283,7 @@ Between Q3 2023 and Q3 2024, the number of households owed a prevention or relie
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Satisfaction with local neighbourhood
 
@@ -307,7 +307,7 @@ In the absence of a metric to assess the quality of neighbourhood planning and d
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Sense of belonging to local neighbourhoods
 

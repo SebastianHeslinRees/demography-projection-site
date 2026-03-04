@@ -27,7 +27,7 @@ Greenhouse gas emissions (GHG) in London are reported annually in the [London En
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Greenhouse Gas emissions in London
 
@@ -55,7 +55,7 @@ London’s population has grown by 30% since 1990, and the city’s economy has 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Energy efficiency ratings of new and existing homes, London
 
@@ -91,7 +91,7 @@ Figure 3 shows the amount of electricity generated in London via renewable sourc
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Household waste recycling rate
 
@@ -143,7 +143,7 @@ The averages were calculated from air quality monitoring sites in Central, Inner
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Connections with nature
 
@@ -201,7 +201,7 @@ The Health Security Agency (UKHSA) defines heat episodes as at least one day wit
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Heat-associated deaths
 

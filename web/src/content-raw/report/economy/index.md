@@ -21,7 +21,7 @@ Economic growth benefits people in many ways, most importantly through job creat
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: London’s economic growth rate
 
@@ -51,7 +51,7 @@ Current estimates suggest that although London was hit harder by the COVID-19 pa
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: London's productivity
 
@@ -79,7 +79,7 @@ However, it is important to stress that London remains the most productive regio
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Change in economic output by industry
 
@@ -121,7 +121,7 @@ Business sentiment in London has been more stable. The PMI Business Activity and
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Business births and closures
 
@@ -183,7 +183,7 @@ Taken together with jobs data from alternative sources — one based on employer
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Involuntary worklessness
 
@@ -213,7 +213,7 @@ However, since then, the proportion of the total made up by the unemployment com
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Job quality
 
@@ -265,7 +265,7 @@ The fall in London’s average score of 0.3 percentage points (pp) between 2020 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: High streets and town centres with increased visitor footfall
 
@@ -292,7 +292,7 @@ Overall, visitor footfall in 2024 increased in more than 90 per cent of London�
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: High streets and town centres with increased spend
 
@@ -319,7 +319,7 @@ Total retail spend in 2024 increased for only about one third of London’s high
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: High streets and town centres with increased purchases
 
@@ -346,7 +346,7 @@ These data suggest that from 2023 to 2024, London’s high streets have generall
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Vacancy rates for London high streets and town centres, 2024
 

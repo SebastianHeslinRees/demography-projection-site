@@ -51,7 +51,7 @@ London’s average ranking across these four indices was 1.5 in 2024, the same a
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Foreign Direct Investment in London
 
@@ -91,7 +91,7 @@ Tourism in London continued to strengthen between 2022 and 2024, with total visi
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Visitor nights in London
 
@@ -117,7 +117,7 @@ Domestic nights hovered near 38 million each year, while international visitor n
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Spend in London
 
@@ -143,7 +143,7 @@ Meanwhile, international visitor spending rose consistently, from £12.43 billio
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: International visits to London
 
@@ -175,7 +175,7 @@ Cultural engagement is an essential element of London’s identity as a global c
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Physical engagement with the arts
 
@@ -211,7 +211,7 @@ Engagement with the arts varies significantly between boroughs, with values rang
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Digital engagement with the arts
 

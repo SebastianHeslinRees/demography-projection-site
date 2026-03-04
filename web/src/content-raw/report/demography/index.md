@@ -15,7 +15,7 @@ Total population (millions)
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Total population, London
 
@@ -47,7 +47,7 @@ Persons per 1,000 total population, estimates for year ending June 2023<img src=
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Population age structure
 
@@ -75,7 +75,7 @@ Annual change in population to mid-2023
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Annual change in population, London
 
@@ -105,7 +105,7 @@ Annual live births, for years ending June 2002 to December 2023
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Annual births in London
 
@@ -133,7 +133,7 @@ Annual live births, for calendar years 2002 to 2023
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Annual births by age of mother, London
 
@@ -161,7 +161,7 @@ Annual live births, for calendar years 2001 to 2023
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Annual births by mother’s country of birth, London
 
@@ -187,7 +187,7 @@ Children per woman<img src="attachments/demography/media/image36.svg" style="wid
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Total fertility rate
 

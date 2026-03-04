@@ -21,7 +21,7 @@ The Mayor is championing [inclusive education in London](https://www.london.gov.
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Prevalence of obesity in children
 
@@ -49,7 +49,7 @@ Comparing rates of obesity by sex, there is no significant difference at Recepti
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Children’s self-reported happiness with life
 
@@ -75,7 +75,7 @@ The score was highest among White British children (7.09) and lowest for Black c
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Children with a probable mental disorder
 
@@ -99,7 +99,7 @@ In 2009-10, 8% of Londoners aged 10-15 had a probable mental disorder, compared 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: School readiness at age 5
 
@@ -131,7 +131,7 @@ In 2023/24, 58% of children in London eligible for free school meals (FSM) did n
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Average Attainment 8 (Key Stage 4/GCSEs) score
 
@@ -167,7 +167,7 @@ In London in 2023/24, there were gaps in Attainment 8 scores by sex, ethnicity, 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Children’s perception of safety
 
@@ -208,7 +208,7 @@ Note: Labour Force Survey (LFS) data has been reweighted from January 2019 onwar
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Young people Not in Education, Employment, or Training (NEET)
 
@@ -238,7 +238,7 @@ Source: [Department for Education](https://www.gov.uk/government/collections/sta
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Achievement of Level 3 qualifications by age 19
 
@@ -266,7 +266,7 @@ Source: [Department for Education](https://explore-education-statistics.service.
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: School absence
 
@@ -312,7 +312,7 @@ The rate of suspension for pupils in London in 2022/23 varied substantially by p
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: School suspension rate
 

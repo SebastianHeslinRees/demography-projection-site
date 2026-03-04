@@ -17,7 +17,7 @@ For more information on skills in London see the [GLA Adult Skills Fund Data Pub
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: People with no qualifications in London
 
@@ -41,7 +41,7 @@ In London, the proportion of the working age population without qualifications h
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: People with a Level 3 or above qualification in London
 
@@ -65,7 +65,7 @@ Correspondingly, the proportion of working-age Londoners with higher level quali
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Outcomes for Further Education (FE) learners
 
@@ -91,7 +91,7 @@ The SPD rate was particularly high in 2020/21 (81%) due to increases in sustaine
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Outcomes for Higher Education (HE) learners
 
@@ -117,7 +117,7 @@ The latest available data shows that 84% of London HEI graduates in academic yea
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Employers' views on the proficiency of their workforce
 
@@ -141,7 +141,7 @@ Since 2015, the percentage of employees who are judged as ‘not fully proficien
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Skills shortage vacancies
 
@@ -165,7 +165,7 @@ Source: Employer Skills Survey, 2022
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Employer provision of training
 
@@ -189,7 +189,7 @@ Since 2015, training provision by London employers has fallen by 5 percentage po
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Online job postings over time
 
@@ -213,7 +213,7 @@ Online job posting numbers represent a useful, albeit imperfect, indicator of re
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Most in-demand common skills
 
@@ -237,7 +237,7 @@ Lightcast data examining job postings provides insights into the common and spec
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Most in-demand technical skills
 

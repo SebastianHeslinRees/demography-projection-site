@@ -25,7 +25,7 @@ There is a clear pattern that Londoners living in the most deprived areas have p
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Struggling financially
 
@@ -55,7 +55,7 @@ Disabled Londoners, lower income groups, renters, Black Londoners and lower soci
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Relative poverty
 
@@ -83,7 +83,7 @@ Looking across the UK, London is the region[^3] with the highest proportion of r
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Household bills arrears
 
@@ -111,7 +111,7 @@ In the three years to 2022-23, in London, social renters are much more likely to
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Food security
 
@@ -137,7 +137,7 @@ Furthermore, in 2023/24, four per cent of households in London had used a food b
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Unfair treatment
 
@@ -167,7 +167,7 @@ The pattern of how different ethnic groups experienced unfair treatment has larg
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Recorded hate crime
 
@@ -193,7 +193,7 @@ A hate crime is defined as ‘any incident perceived by the victim or any other 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Gender pay gap
 
@@ -219,7 +219,7 @@ On average, female employees are paid less per hour than male employees (15% les
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Ethnicity pay gap
 
@@ -245,7 +245,7 @@ The ethnicity pay gap has been narrowing over time in both geographical areas. B
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Disability pay gap
 
@@ -271,7 +271,7 @@ In 2022, the pay gap between disabled and non-disabled workers within London, ba
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Voter registration
 
@@ -299,7 +299,7 @@ It should be noted that the denominator used is all adults aged 18 and over. Thi
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Influencing decisions in local area
 
@@ -329,7 +329,7 @@ The feeling of influence has regularly been higher in London compared with Engla
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Neighbourhood cohesion
 
@@ -355,7 +355,7 @@ In 2008, neighbourhood cohesion was much lower than it is today, with agreement 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Social isolation
 
@@ -381,7 +381,7 @@ Social isolation has regularly been slightly lower in London compared with Engla
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Formal volunteering
 
@@ -407,7 +407,7 @@ Since 2013-14, the percentage of people reporting that they had formally volunte
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Informal volunteering
 
@@ -435,7 +435,7 @@ Informal volunteering rates in London in 2023-24 were 11 percentage points lower
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Social action
 
@@ -461,7 +461,7 @@ The decline seen in London since 2013-14 is also mirrored across England, which 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Neighbourhood trust
 
@@ -487,7 +487,7 @@ Neighbourhood trust has regularly been lower in London compared with England sin
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Talking to neighbours
 

@@ -25,7 +25,7 @@ This chapter contains material which is covered in greater depth in the report â
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Life expectancy at birth
 
@@ -53,7 +53,7 @@ However, there is significant variation in life expectancy by local authority in
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Healthy life expectancy at birth
 
@@ -81,7 +81,7 @@ These values mask persistent and significant variation in HLE between and within
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Infant mortality rate
 
@@ -107,7 +107,7 @@ There is substantial variation in the IMR across London boroughs, reflecting ine
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Prevalence of low birth weight of term babies
 
@@ -145,7 +145,7 @@ Across London in 2023/24, more than half (57.8%) of adults were overweight or ob
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Smoking prevalence in adults
 
@@ -173,7 +173,7 @@ Data from the GP Patient Survey (GPPS) in 2022-23 show that smoking prevalence i
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Anxiety and life satisfaction for adults
 
@@ -202,7 +202,7 @@ Anxiety levels increased slightly between 2021-22 and 2022-23, from 3.28 to 3.34
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Premature death from cardiovascular disease
 
@@ -230,7 +230,7 @@ There are differences in CVD rates by gender: in London in 2021-23, the rate for
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Premature death from cancer
 
@@ -254,7 +254,7 @@ The rate of premature mortality from cancer has consistently decreased over the 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Childhood vaccination rates in London
 
@@ -286,7 +286,7 @@ Other vaccines with relatively low uptake rates in London include the Hib/MenC a
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Public satisfaction with the NHS
 
@@ -312,7 +312,7 @@ The NHS Health Survey for England measures the publicâ€™s satisfaction with the 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Public satisfaction with social care
 

@@ -13,7 +13,7 @@ For a more in-depth analysis of the performance of London’s transport network 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Active, efficient and sustainable mode share
 
@@ -37,7 +37,7 @@ The Mayor’s Transport Strategy set a target for 80% of trips in London to be m
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Travel demand by mode
 
@@ -63,7 +63,7 @@ As well as pandemic-related changes in travel behaviour, such as the more widesp
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Active travel
 
@@ -91,7 +91,7 @@ Historically, the proportion of Londoners achieving at least 20 minutes of activ
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Safety on London’s roads
 
@@ -119,7 +119,7 @@ Data for 2023 suggests that while London is outperforming other UK regions, we a
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Accessibility of the transport network
 
@@ -145,7 +145,7 @@ The Mayor’s Transport Strategy aims to reduce this journey time differential, 
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Quality of the bus network
 

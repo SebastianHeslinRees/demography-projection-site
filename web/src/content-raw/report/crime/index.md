@@ -31,7 +31,7 @@ Number of offences recorded annually by the Metropolitan Police Service (MPS)
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Total Notifiable Offences (TNOs)
 
@@ -65,7 +65,7 @@ Number of offences recorded monthly by the MPS
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Violence with Injury
 
@@ -97,7 +97,7 @@ Figure 3: Proven reoffending rate
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Proven reoffending rate
 
@@ -131,7 +131,7 @@ Figure 4: Victimisation rate
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Victimisation rate
 
@@ -167,7 +167,7 @@ Percentage of survey participants
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Satisfaction level of reporting victims
 
@@ -205,7 +205,7 @@ Percentage of Londoners worried about crime and ASB in their local area
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Worried about Crime
 
@@ -237,7 +237,7 @@ Percentage of survey participants (PAS) who agree that the MPS is an organisatio
 
 ---
 
-Chart: MultipleLine
+Chart: Chart
 
 title: Trust in the Metropolitan Police Service
 
