@@ -31,4 +31,9 @@
 		/* @apply list-decimal; */
 		list-style-type: decimal;
 	}
+
+	:global(.footnotes > ol) {
+		/* @apply list-decimal; */
+		list-style-type: decimal;
+	}
 </style>

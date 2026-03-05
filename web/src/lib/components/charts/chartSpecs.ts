@@ -1,4 +1,4 @@
-import {Plot} from "@ldn-viz/charts";
+import {Plot, preprocessOptions} from "@ldn-viz/charts";
 import {theme} from "@ldn-viz/ui";
 
 export const horizontalBarChart = (options, data, colorChoice) => ({
@@ -43,6 +43,7 @@ export const horizontalBarChart = (options, data, colorChoice) => ({
             fy: "xd",
             x: "y",
             fill: "b",
+            tip: "xy"
         }),
     ],
 })
@@ -82,6 +83,7 @@ export const verticalBarChart = (options, data, colorChoice) => ({
             fx: "xd",
             y: "y",
             fill: "b",
+            tip: "xy"
             //  inset: 0.5,
         }),
     ],
@@ -113,6 +115,7 @@ export const stackedBarChart = (options, data, colorChoice) => ({
             x: "xd",
             y: "y",
             fill: "b",
+            tip: "xy"
         }),
     ],
 });
@@ -122,18 +125,19 @@ export const lineChart = (options, data, colorChoice) => ({
     x: {
         label: null,
         insetLeft: 80,
-        insetRight: 120, // need space for labels to right of plot
+        insetRight: options.insetRight ?? 120, // need space for labels to right of plot
 
         // 'Financial year' values are like "2013-14"
         type: options.timeperiod_type === 'Financial Year' ? "point" : undefined,
         tickFormat: options.timeperiod_type === 'Financial Year' ? (d, i) => (i % 2 === 0 ? d : "") : undefined,
 
-        ticks: 5,
+        ticks: 5
     },
 
     y: {
         label: null,
-        domain: (options.forceYDomain_b == 0 && options.forceYDomain_t == 0) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        domain: (!options.forceYDomain_b && !options.forceYDomain_t) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        includeZero: options.includeZero
     },
 
     color: {
@@ -151,10 +155,13 @@ export const lineChart = (options, data, colorChoice) => ({
             tickFormat: options.ytickformat
         }),
 
+        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
+
         Plot.line(data, {
             x: "xd",
             y: "y",
             stroke: "b",
+            tip: "xy"
         }),
 
         // reference lines
@@ -218,6 +225,6 @@ export const stackedHistogram = (options, data, colorChoice) => ({
             tickFormat: options.ytickformat
         }),
 
-        Plot.rectY(data, Plot.binX({y2: "count"}, {x: "y", fill: "b", mixBlendMode: "multiply"})),
+        Plot.rectY(data, Plot.binX({y2: "count"}, {x: "y", fill: "b", mixBlendMode: "multiply",  tip: "xy"})),
     ]
 })

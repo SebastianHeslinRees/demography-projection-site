@@ -66,30 +66,43 @@
         );
 
     const getColorScale = (data: Data) => {
-        let colorChoice = {};
-            const domain = new Array(...new Set(data.map(d => d.b))).sort();
-            if (domain.length === 2 && (domain[0].includes("London") || domain[1].includes("London")) ) {
-                colorChoice = {
-                    type: "ordinal",
-                    domain,
-                    range: domain.map(v => v.includes('London') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.context'))
-                };
-            } else if (domain.length == 2 && domain[0].includes('Domestic') && domain[1].includes('International')) {
-                colorChoice = {
-                    type: "ordinal",
-                    domain,
-                    range: domain.map(v => v.includes('Domestic') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
-                }
-            } else if (domain.length == 2 && domain[0].includes('Inner') && domain[1].includes('Outer')) {
-                colorChoice = {
-                    type: "ordinal",
-                    domain,
-                    range: domain.map(v => v.includes('Inner') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
-                }
-            }
-            return colorChoice;
-    }
+        const domain = new Array(...new Set(data.map(d => d.b))).sort();
 
+        const colors = [
+            theme.tokenNameToValue('data.primary'),
+            theme.tokenNameToValue('data.secondary'),
+            theme.tokenNameToValue('data.tertiary'),
+            theme.tokenNameToValue('data.categorical.turquoise'),
+            theme.tokenNameToValue('data.categorical.purple'),
+        ];
+
+        if (domain.length === 2 && (domain[0].includes("London") || domain[1].includes("London"))) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('London') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.context'))
+            };
+        } else if (domain.length == 2 && domain[0].includes('Domestic') && domain[1].includes('International')) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('Domestic') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
+            }
+        } else if (domain.length == 2 && domain[0].includes('Inner') && domain[1].includes('Outer')) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('Inner') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
+            }
+        } else if (domain.length <= colors.length) {
+            return {
+                type: "ordinal",
+                range: colors.slice(0, domain.length),
+            }
+        }
+
+        return {};
+    }
 
     let spec = $derived.by(() => {
         const colorChoice = getColorScale(data);
