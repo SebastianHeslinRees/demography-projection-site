@@ -244,6 +244,18 @@ export const chartOptions: Record<string, ChartOptions> = {
         includeZero: true
     },
 
+    "income_inequality": {
+        "dataset": "income_inequality",
+        "chartType": "incomeSlope",
+        "type": "ordinal",
+        "ytickformat": ",.2r",
+        "stack": false,
+        "horiz": false,
+        "x_order": null,
+        "timeperiod_type": "Quarter",
+        includeZero: true
+    },
+
     "extended_unemployment": {
         "dataset": "extended_unemployment",
         "chartType": "bar",

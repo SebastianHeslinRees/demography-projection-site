@@ -2,7 +2,14 @@
     import {ObservablePlot} from "@ldn-viz/charts";
     import {theme} from "@ldn-viz/ui";
 
-    import {horizontalBarChart, lineChart, verticalBarChart, stackedBarChart, stackedHistogram} from "$lib/components/charts/chartSpecs";
+    import {
+        horizontalBarChart,
+        lineChart,
+        verticalBarChart,
+        stackedBarChart,
+        stackedHistogram,
+        incomeSlopeChart
+    } from "$lib/components/charts/chartSpecs";
     import {chartOptions} from "$lib/components/charts/chartOptions";
 
     type ChartProps = {
@@ -119,6 +126,8 @@
             }
         } else if (options.chartType === 'line') {
             return lineChart(options, data, colorChoice);
+        } else if (options.chartType === 'incomeSlope'){
+            return incomeSlopeChart(options, data, colorChoice);
         }
     });
 </script>
