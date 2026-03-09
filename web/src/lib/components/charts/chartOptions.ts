@@ -96,6 +96,13 @@ export type ChartOptions = {
      * Specify what horizontal reference lines/rules should be drawn.
      */
     reference_lines?: { label: string, y: number }[];
+
+    /**
+     * If `true`, then chart is faceted.
+     */
+     faceted?: boolean;
+
+     facetOrder?: string[];
 }
 
 export const chartOptions: Record<string, ChartOptions> = {
@@ -347,7 +354,9 @@ export const chartOptions: Record<string, ChartOptions> = {
         "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
-        includeZero: true
+        includeZero: true,
+        faceted: true,
+        facetOrder: ['Projects', 'Capex']
     },
 
     "gc_int_visitor_nights": {

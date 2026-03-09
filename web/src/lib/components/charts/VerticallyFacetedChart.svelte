@@ -1,0 +1,162 @@
+<script lang="ts">
+    import {ChartContainer, ObservablePlot, ObservablePlotInner} from "@ldn-viz/charts";
+    import {theme} from "@ldn-viz/ui";
+
+    import {horizontalBarChart, lineChart, verticalBarChart, stackedBarChart, stackedHistogram} from "$lib/components/charts/chartSpecs";
+    import {chartOptions} from "$lib/components/charts/chartOptions";
+
+    type ChartProps = {
+        title: string;
+
+        /**
+         * N.B. this prop name is lowercase as all YAML keys are converted to lowercase by our pipeline
+         */
+        subtitle?: string;
+        source?: string;
+        byline?: string;
+
+        dataset: string;
+    }
+
+    let {
+        title,
+        subtitle,
+        source,
+        byline,
+        dataset,
+    }: ChartProps = $props();
+
+    let options = $derived(chartOptions[dataset])
+
+    type Data = {
+        dataset: string;
+        xd: string;
+        b: string;
+        y: number;
+    }[];
+
+
+    const convertVal = (val) => {
+        if (options.type === "integer"){
+            return +val;
+        } else if (options.type === "date" && !["Financial Year"].includes(options.timeperiod_type) ){
+            return new Date(val);
+        }
+        return val;
+    }
+
+    // fetch data
+    let data = $state([]);
+    fetch(`https://api2.ldn-gis.co.uk/tables/state_of_london/chart_data?dataset=eq.${dataset}`)
+        .then(res => res.json())
+        .then(dataRes => {
+
+                const newData = data = dataRes.map(d => ({
+                    ...d,
+                    xd: convertVal(d.xd)
+                }))
+                    .filter(d => !options.hide || !options.hide.includes(d.b));
+
+                if (dataset === "job_posts"){
+                    newData.sort((a, b) => a.xd - b.xd)
+                }
+                data = newData;
+
+            }
+        );
+
+    const getColorScale = (data: Data) => {
+        const domain = new Array(...new Set(data.map(d => d.b))).sort();
+
+        const colors = [
+            theme.tokenNameToValue('data.primary'),
+            theme.tokenNameToValue('data.secondary'),
+            theme.tokenNameToValue('data.tertiary'),
+            theme.tokenNameToValue('data.categorical.turquoise'),
+            theme.tokenNameToValue('data.categorical.purple'),
+        ];
+
+        if (domain.length === 2 && (domain[0].includes("London") || domain[1].includes("London"))) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('London') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.context'))
+            };
+        } else if (domain.length == 2 && domain[0].includes('Domestic') && domain[1].includes('International')) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('Domestic') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
+            }
+        } else if (domain.length == 2 && domain[0].includes('Inner') && domain[1].includes('Outer')) {
+            return {
+                type: "ordinal",
+                domain,
+                range: domain.map(v => v.includes('Inner') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
+            }
+        } else if (domain.length <= colors.length) {
+            return {
+                type: "ordinal",
+                domain,
+                range: colors.slice(0, domain.length),
+            }
+        }
+
+        return {};
+    }
+
+    let facetVals = $derived(options.facetOrder ?? (new Set(data.map(d => d.b))).values())
+
+    let spec = $derived.by(() => (facetVal) => {
+
+        const filteredDate = data.filter(d => d.b === facetVal);
+
+        // filter the colors, so each facet only includes legend for corresponding color
+        const colorChoice = getColorScale(data);
+        const colorChoiceFacet = colorChoice ? {
+            domain: [facetVal],
+            range: [colorChoice.range[ colorChoice.domain.indexOf(facetVal) ]]
+        } : {};
+
+
+        if (options.chartType === "stackedHistogram"){
+            return stackedHistogram(options, filteredDate, colorChoiceFacet)
+        } else if (options.chartType == 'bar') {
+            if (options.horiz) {
+                return horizontalBarChart(options, filteredDate, colorChoiceFacet);
+            } else if (options.stack) {
+                return stackedBarChart(options, filteredDate, colorChoiceFacet);
+            } else {
+                return verticalBarChart(options, filteredDate, colorChoiceFacet);
+            }
+        } else if (options.chartType === 'line') {
+            return lineChart(options, filteredDate, colorChoiceFacet);
+        }
+    });
+</script>
+
+<!--
+<pre>{JSON.stringify(options, null, 2)}</pre>
+-->
+
+{#if spec && data.length > 0}
+    <div class="w-[1000px]">
+        <ChartContainer
+                data={data}
+                {title}
+                subTitle={subtitle}
+                {source}
+                {byline}
+                dataDownloadButton={true}
+                imageDownloadButton
+                chartHeight="h-fit"
+        >
+            {#each facetVals as facetVal}
+                <ObservablePlotInner
+                        {data}
+                        spec={spec(facetVal)}
+                />
+            {/each}
+        </ChartContainer>
+    </div>
+{/if}
