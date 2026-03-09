@@ -915,7 +915,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
-        includeZero: true
+        includeZero: true,
+        insetRight: 155
     },
 
     "neighbourhood_satisfaction": {
