@@ -1204,7 +1204,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     /* Children and young people */
     "yr6_obesity": {
         "dataset": "yr6_obesity",
-        "chartType": "line",
+        "chartType": "lineChartWithLineStyles",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,

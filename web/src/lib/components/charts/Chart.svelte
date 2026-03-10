@@ -8,7 +8,8 @@
         verticalBarChart,
         stackedBarChart,
         stackedHistogram,
-        incomeSlopeChart
+        incomeSlopeChart,
+        lineChartWithLineStyles
     } from "$lib/components/charts/chartSpecs";
     import {chartOptions} from "$lib/components/charts/chartOptions";
 
@@ -128,6 +129,8 @@
             return lineChart(options, data, colorChoice);
         } else if (options.chartType === 'incomeSlope'){
             return incomeSlopeChart(options, data, colorChoice);
+        } else if (options.chartType === 'lineChartWithLineStyles'){
+            return lineChartWithLineStyles(options, data, colorChoice);
         }
     });
 </script>
