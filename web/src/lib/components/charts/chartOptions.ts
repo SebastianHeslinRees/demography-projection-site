@@ -355,7 +355,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
-        faceted: true,
         facetOrder: ['Projects', 'Capex']
     },
 
@@ -1350,7 +1349,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "stack": false,
         "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Three Year Average"
+        "timeperiod_type": "Three Year Average",
+        faceted: true
     },
 
     "health_hle_m": {
@@ -1363,7 +1363,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "stack": false,
         "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Three Year Average"
+        "timeperiod_type": "Three Year Average",
+        faceted: true
     },
 
     "inf_mort": {
@@ -1420,8 +1421,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
-        includeZero: true
-
+        includeZero: true,
+        faceted: true
     },
 
     "u75_m_cardio": {

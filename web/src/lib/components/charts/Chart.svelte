@@ -64,7 +64,7 @@
                 }))
                     .filter(d => !options.hide || !options.hide.includes(d.b));
 
-                if (dataset === "job_posts"){
+                if (options.type === "date"){
                     newData.sort((a, b) => a.xd - b.xd)
                 }
                 data = newData;

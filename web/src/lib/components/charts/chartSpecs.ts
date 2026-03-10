@@ -141,6 +141,10 @@ export const lineChart = (options, data, colorChoice) => ({
         includeZero: options.includeZero
     },
 
+    fx: options.faceted ? {
+        label: null
+    } : undefined,
+
     color: {
         legend: true,
         ...colorChoice
@@ -161,6 +165,9 @@ export const lineChart = (options, data, colorChoice) => ({
         Plot.line(data, {
             x: "xd",
             y: "y",
+
+            fx: options.faceted ? 'z2' : undefined,
+
             stroke: "b",
             tip: "xy"
         }),
@@ -179,6 +186,8 @@ export const lineChart = (options, data, colorChoice) => ({
         Plot.dot(data, Plot.selectLast({
                 x: "xd",
                 y: "y",
+                fx: options.faceted ? 'z2' : undefined,
+
                 stroke: 'b',
                 strokeWidth: 2,
                 fill: 'white',
@@ -190,6 +199,8 @@ export const lineChart = (options, data, colorChoice) => ({
         Plot.text(data, Plot.selectLast({
                 x: "xd",
                 y: "y",
+                fx: options.faceted ? 'z2' : undefined,
+
                 text: "b",
                 fill: "b",
                 textAnchor: "start",
