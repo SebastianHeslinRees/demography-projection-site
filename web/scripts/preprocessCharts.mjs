@@ -11,12 +11,14 @@ const outDirPath = "./src/content";
 
 
 const formatBlock = (metadata) => {
+    const componentName = metadata.chart ?? metadata.component;
     const attributes = Object.keys(metadata).filter(k => k !== 'Chart').map(k => `${k.toLowerCase()}="${metadata[k].replace(/"/g, '&quot;')}"\n`);
-    return `<${metadata.Chart}\n ${attributes.join(" ") } />`
+    return `<${componentName}\n ${attributes.join(" ") } />`
 };
 
 const getImport = (metadata) => {
-    return `import ${metadata.Chart} from "${componentBase}/${metadata.Chart}.svelte";`
+    const componentName = metadata.chart ?? metadata.component;
+    return `import ${componentName} from "${componentBase}/${componentName}.svelte";`
 }
 
 const convertFile = (inFilePath, outFilePath) => {
@@ -52,7 +54,7 @@ const convertFile = (inFilePath, outFilePath) => {
                 if (havePassedInitialMetadata){
                     const colonIndex = line.indexOf(":");
                     if (colonIndex === -1) continue;
-                    const key = line.slice(0, colonIndex);
+                    const key = line.slice(0, colonIndex).toLowerCase();
                     const value = line.slice(colonIndex + 1);
                     blockData[key.trim()] = value.trim();
                 } else {
