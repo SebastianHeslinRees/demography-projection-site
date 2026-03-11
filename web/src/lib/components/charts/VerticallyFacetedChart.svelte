@@ -2,8 +2,12 @@
     import {ChartContainer, ObservablePlot, ObservablePlotInner} from "@ldn-viz/charts";
     import {theme} from "@ldn-viz/ui";
 
-    import {horizontalBarChart, lineChart, verticalBarChart, stackedBarChart, stackedHistogram} from "$lib/components/charts/chartSpecs";
     import {chartOptions} from "$lib/components/charts/chartOptions";
+    import {stackedHistogram} from "$lib/components/charts/chartTypes/stackedHistogram";
+    import {barChartHorizontalGrouped} from "$lib/components/charts/chartTypes/barChartHorizontalGrouped";
+    import {barChartVerticalGrouped} from "$lib/components/charts/chartTypes/barChartVerticalGrouped";
+    import {barChartStacked} from "$lib/components/charts/chartTypes/barChartStacked";
+    import {lineChart} from "$lib/components/charts/chartTypes/lineChart";
 
     type ChartProps = {
         title: string;
@@ -123,11 +127,11 @@
             return stackedHistogram(options, filteredDate, colorChoiceFacet)
         } else if (options.chartType == 'bar') {
             if (options.horiz) {
-                return horizontalBarChart(options, filteredDate, colorChoiceFacet);
+                return barChartHorizontalGrouped(options, filteredDate, colorChoiceFacet);
             } else if (options.stack) {
-                return stackedBarChart(options, filteredDate, colorChoiceFacet);
+                return barChartStacked(options, filteredDate, colorChoiceFacet);
             } else {
-                return verticalBarChart(options, filteredDate, colorChoiceFacet);
+                return barChartVerticalGrouped(options, filteredDate, colorChoiceFacet);
             }
         } else if (options.chartType === 'line') {
             return lineChart(options, filteredDate, colorChoiceFacet);

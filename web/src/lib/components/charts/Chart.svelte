@@ -2,16 +2,17 @@
     import {ObservablePlot} from "@ldn-viz/charts";
     import {theme} from "@ldn-viz/ui";
 
-    import {
-        horizontalBarChart,
-        lineChart,
-        verticalBarChart,
-        stackedBarChart,
-        stackedHistogram,
-        incomeSlopeChart,
-        lineChartWithLineStyles
-    } from "$lib/components/charts/chartSpecs";
     import {chartOptions} from "$lib/components/charts/chartOptions";
+    import {stackedHistogram} from "$lib/components/charts/chartTypes/stackedHistogram";
+    import {incomeSlopeChart} from "$lib/components/charts/chartTypes/incomeSlopeChart";
+    import {barChartHorizontalGrouped} from "$lib/components/charts/chartTypes/barChartHorizontalGrouped";
+    import {barChartVerticalGrouped} from "$lib/components/charts/chartTypes/barChartVerticalGrouped";
+    import {barChartStacked} from "$lib/components/charts/chartTypes/barChartStacked";
+    import {lineChart} from "$lib/components/charts/chartTypes/lineChart";
+    import {lineChartWithLineStyles} from "$lib/components/charts/chartTypes/lineChartWithLineStyles";
+    import {barChartVertical} from "$lib/components/charts/chartTypes/barChartVertical";
+    import {barChartHorizontal} from "$lib/components/charts/chartTypes/barChartHorizontal";
+    import {barChartStackedTimeseries} from "$lib/components/charts/chartTypes/barChartStackedTimeseries";
 
     type ChartProps = {
         title: string;
@@ -117,15 +118,24 @@
 
         if (options.chartType === "stackedHistogram"){
             return stackedHistogram(options, data, colorChoice)
-        } else if (options.chartType == 'bar') {
-            if (options.horiz) {
-                return horizontalBarChart(options, data, colorChoice);
-            } else if (options.stack) {
-                return stackedBarChart(options, data, colorChoice);
-            } else {
-                return verticalBarChart(options, data, colorChoice);
-            }
-        } else if (options.chartType === 'line') {
+        } else if (options.chartType === 'barChartStacked') {
+            return barChartStacked(options, data, colorChoice)
+        } else if (options.chartType === 'barChartStackedTimeseries'){
+            return barChartStackedTimeseries(options, data, colorChoice)
+        } else if (options.chartType === 'barChartHorizontalGrouped'){
+            return barChartHorizontalGrouped(options, data, colorChoice)
+        } else if (options.chartType === 'barChartVerticalGrouped'){
+            return barChartVerticalGrouped(options, data, colorChoice)
+        } else if (options.chartType === 'barChartVertical'){
+            return barChartVertical(options, data, colorChoice)
+        } else if (options.chartType === 'barChartHorizontal'){
+            return barChartHorizontal(options, data, colorChoice)
+        }
+
+
+
+
+        else if (options.chartType === 'line') {
             return lineChart(options, data, colorChoice);
         } else if (options.chartType === 'incomeSlope'){
             return incomeSlopeChart(options, data, colorChoice);

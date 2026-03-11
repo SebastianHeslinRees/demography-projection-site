@@ -4,11 +4,6 @@ export type ChartOptions = {
     /* Definitions of the structure of the data */
     /********************************************/
     /**
-     * Name of the dataset being plotted.
-     */
-    dataset: string;
-
-    /**
      * Type of the `xd` variable.
      */
     type: 'character' | 'date' | 'integer';
@@ -43,27 +38,25 @@ export type ChartOptions = {
     /**
      * Plot type.
      */
-    chartType: 'bar' | 'line' | 'stackedHistogram';
-
-    /**
-     * Determines whether to stack bars.
-     */
-    stack: boolean;
-
-    /**
-     * Determines whether bars should be drawn horizontally (rather than vertically)
-     */
-    horiz: boolean;
-
+    chartType: 'line' | 'lineChartWithLineStyles' |
+        'barChartVertical' | 'barChartVerticalGrouped' | 'barChartHorizontal' | 'barChartHorizontalGrouped' | 'barChartStacked' | 'barChartStackedTimeseries' |
+        'stackedHistogram' |
+        'incomeSlope';
 
     /**
      * If `true`, force 0 to be included in the domain of the y-axis.
      */
     includeZero?: boolean;
 
+    /**
+     * Indicates that scale doesn't start at 0, but crosses 0, so that we need to draw a rule at y=0.
+     * In principle, we could determine this automatically.
+     */
+    includeZeroLine?: boolean;
+
 
     /**
-     * Value of insetRight to override default (e.g., to increase space for line labels to the right of the chart.
+     * Value of insetRight to override default (e.g., to increase space for line labels to the right of the chart).
      */
     insetRight?: number;
 
@@ -103,31 +96,51 @@ export type ChartOptions = {
      faceted?: boolean;
 
      facetOrder?: string[];
+
+     /**
+      * Sets the `type` of the x scale. Can be set to `'band'` to silence warnings when ObservablePlot thinks a date or numeric scale should be applied to the x-axis.
+      */
+     xScaleType?: string;
+
+
+     /**
+      * Time interval of bars in `barChartStackedTimeseries` plot
+      */
+     xInterval?: string;
 }
+
+export type ChartDataRow = {
+    dataset?: string;
+    xd: string | number | Date;
+    b: string;
+    y: number;
+    z2?: string;
+    [key: string]: unknown;
+};
+
+export type ColorChoice = {
+    type?: string;
+    domain?: string[];
+    range?: string[];
+};
 
 export const chartOptions: Record<string, ChartOptions> = {
 
     /** Demography **/
     "total_population_year": {
-        "dataset": "total_population_year",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".2s",
         "forceYDomain_b": 6000000,
         "forceYDomain_t": 10000000,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
 
     "population_age_structure": {
-        "dataset": "population_age_structure",
         "chartType": "line",
         "type": "integer",
         "ytickformat": ".0f",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         insetRight: 160,
@@ -135,62 +148,47 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "annual_change_component": {
-        "dataset": "annual_change_component",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
     },
 
     "annual_births": {
-        "dataset": "annual_births",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Bi-annual",
         includeZero: true
     },
 
     "births_age_mother": {
-        "dataset": "births_age_mother",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
     },
 
     "births_mothers_cob": {
-        "dataset": "births_mothers_cob",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "total_fertility_rate": {
-        "dataset": "total_fertility_rate",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 2.3,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
@@ -199,14 +197,11 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /** Economy ***/
     "annual_gva_growth": {
-        "dataset": "annual_gva_growth",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
@@ -214,129 +209,106 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "gva_per_hour_worked_rhc": {
-        "dataset": "gva_per_hour_worked_rhc",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 76,
         "forceYDomain_t": 120,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
 
     "gva_composition": {
-        "dataset": "gva_composition",
-        "chartType": "bar",
+        "chartType": "barChartHorizontal",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": -0.22,
         "forceYDomain_t": 0.22,
-        "stack": false,
-        "horiz": true,
         "x_order": "Transport and storage|Human health and \nsocial work|Construction|Accommodation \nand food services|Arts and \nentertainment|Real estate \nactivities|Wholesale and retail|Financial and \ninsurance activities|Manufacturing|Administrative and \nsupport service activities|Professional and \ntechnical activities|Education|Information and \ncommunication",
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "bbc": {
-        "dataset": "bbc",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true
     },
 
     "income_inequality": {
-        "dataset": "income_inequality",
         "chartType": "incomeSlope",
-        "type": "ordinal",
+        "type": "character",
         "ytickformat": ",.2r",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true
     },
 
     "extended_unemployment": {
-        "dataset": "extended_unemployment",
-        "chartType": "bar",
+        "chartType": "barChartStackedTimeseries",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "12-month period"
+        "timeperiod_type": "12-month period",
+        includeZero: true,
+        xInterval: 'quarter'
     },
 
     "jq_score": {
-        "dataset": "jq_score",
-        "chartType": "bar",
+        "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": true,
         "x_order": "Average job quality indicator||Desired contract|Not on zero hours contract|Satisfactory hours|No unpaid overtime|Not in low pay|Positive employee involvement|Positive career progression",
-        "timeperiod_type": "Multi-year period"
+        "timeperiod_type": "Multi-year period",
+        includeZero: true
     },
 
     "increased_footfall": {
-        "dataset": "increased_footfall",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "hs_spend": {
-        "dataset": "hs_spend",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.5,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "hs_increased_purchases": {
-        "dataset": "hs_increased_purchases",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.8,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "vacancy_rate": {
-        "dataset": "vacancy_rate",
         "chartType": "stackedHistogram",
         "type": "date",
         "ytickformat": null,
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
@@ -344,14 +316,11 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /**  global city and culture **/
     "gc_fdi_capex": {
-        "dataset": "gc_fdi_capex",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -359,304 +328,244 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "gc_int_visitor_nights": {
-        "dataset": "gc_int_visitor_nights",
-        "chartType": "bar",
+        "chartType": "barChartStacked",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 161,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true,
+        xScaleType: 'band'
     },
 
     "gc_visitor_spend": {
-        "dataset": "gc_visitor_spend",
-        "chartType": "bar",
+        "chartType": "barChartStacked",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 161,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        xScaleType: 'band'
     },
 
     "gc_int_vist_ldn": {
-        "dataset": "gc_int_vist_ldn",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "gc_physical_engagement_arts": {
-        "dataset": "gc_physical_engagement_arts",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "gc_digital_engagement_arts": {
-        "dataset": "gc_digital_engagement_arts",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Financial Year"
+        "timeperiod_type": "Financial Year",
+        includeZero: true
     },
 
     /** Skills */
     "neets": {
-        "dataset": "neets",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.105,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "level3": {
-        "dataset": "level3",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "grad_outcomes": {
-        "dataset": "grad_outcomes",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
 
     "fe_skills": {
-        "dataset": "fe_skills",
-        "chartType": "bar",
+        "chartType": "barChartStacked",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Academic Year"
+        "timeperiod_type": "Academic Year",
+        includeZero: true
     },
 
     "emp_prof": {
-        "dataset": "emp_prof",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.068,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "skills_short": {
-        "dataset": "skills_short",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "bus_train": {
-        "dataset": "bus_train",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.82,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "job_posts": {
-        "dataset": "job_posts",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".2s",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true
     },
 
     "top_skills_common": {
-        "dataset": "top_skills_common",
-        "chartType": "bar",
+        "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.42,
-        "stack": false,
-        "horiz": true,
         "x_order": "<keep>",
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "top_skills_technical": {
-        "dataset": "top_skills_technical",
-        "chartType": "bar",
+        "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": true,
         "x_order": "<keep>",
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
 
     /* Social justice */
     "strugg": {
-        "dataset": "strugg",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.28,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "monthly",
         includeZero: true
     },
 
     "med_hhi": {
-        "dataset": "med_hhi",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "bills_arrears": {
-        "dataset": "bills_arrears",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.11,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "food_sec": {
-        "dataset": "food_sec",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "unfair": {
-        "dataset": "unfair",
-        "chartType": "bar",
+        "chartType": "barChartVertical",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Financial Year"
+        "timeperiod_type": "Financial Year",
+        includeZero: true,
+        xScaleType: 'band'
     },
 
     "hate_crimes": {
-        "dataset": "hate_crimes",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true
     },
 
     "pay_gap_gender": {
-        "dataset": "pay_gap_gender",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "pay_gap_ethnicity": {
-        "dataset": "pay_gap_ethnicity",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -664,137 +573,107 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "pay_gap_disability": {
-        "dataset": "pay_gap_disability",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.21,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "voter_reg": {
-        "dataset": "voter_reg",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0.6,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
     },
 
     "decision_influence": {
-        "dataset": "decision_influence",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 47,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "locals": {
-        "dataset": "locals",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0.8,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly"
     },
 
     "help": {
-        "dataset": "help",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0.81,
         "forceYDomain_t": 1,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "volunt_formal": {
-        "dataset": "volunt_formal",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.61,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "volunt_informal": {
-        "dataset": "volunt_informal",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.71,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "social_action": {
-        "dataset": "social_action",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 28,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "trust_neigh": {
-        "dataset": "trust_neigh",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 54,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "talk_neigh": {
-        "dataset": "talk_neigh",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 40,
         "forceYDomain_t": 90,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -802,14 +681,11 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /* Housing */
     "missed_payment": {
-        "dataset": "missed_payment",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -817,27 +693,21 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "rent_affordability": {
-        "dataset": "rent_affordability",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly"
     },
 
     "rent_payment": {
-        "dataset": "rent_payment",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -845,67 +715,55 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "hmls": {
-        "dataset": "hmls",
-        "chartType": "bar",
+        "chartType": "barChartStackedTimeseries",
         "type": "date",
         "ytickformat": ".2s",
         "forceYDomain_b": 0,
         "forceYDomain_t": 70100,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Quarter"
+        "timeperiod_type": "Quarter",
+        includeZero: true,
+        xInterval: 'quarter'
     },
 
     "dec_homes": {
-        "dataset": "dec_homes",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
 
     "cladding_remediation": {
-        "dataset": "cladding_remediation",
-        "chartType": "bar",
+        "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": true,
         "x_order": "London|South East|North West|South West|East of England|West Midlands|Yorkshire and The Humber|East Midlands|North East",
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true
     },
 
     "sleep_rough": {
-        "dataset": "sleep_rough",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true
     },
 
     "roughsleeping_first_time": {
-        "dataset": "roughsleeping_first_time",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -913,14 +771,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "homeless_decisions": {
-        "dataset": "homeless_decisions",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -928,92 +783,71 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "neighbourhood_satisfaction": {
-        "dataset": "neighbourhood_satisfaction",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "neighbourhood_belonging": {
-        "dataset": "neighbourhood_belonging",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     /* Environment */
     "green_gas": {
-        "dataset": "green_gas",
-        "chartType": "bar",
+        "chartType": "barChartStackedTimeseries",
         "type": "date",
-        "ytickformat": ".2s",
-        "stack": true,
-        "horiz": false,
+        "ytickformat": ".0s",
         "x_order": "<keep>",
         "timeperiod_type": "year"
     },
 
     "energy_performance": {
-        "dataset": "energy_performance",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
     },
 
     "recycling_rates": {
-        "dataset": "recycling_rates",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.55,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
     },
 
     "part_of_nature": {
-        "dataset": "part_of_nature",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.83,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
     },
 
     "heat_associated_deaths": {
-        "dataset": "heat_associated_deaths",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 3600,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1022,53 +856,41 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /* Crime */
     "tno": {
-        "dataset": "tno",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
         "forceYDomain_b": 500000,
         "forceYDomain_t": 1000100,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
 
     "violence_with_injury": {
-        "dataset": "violence_with_injury",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 8100,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true,
     },
 
     "proven_reoffending": {
-        "dataset": "proven_reoffending",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.48,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
     },
 
     "victimisation_rate": {
-        "dataset": "victimisation_rate",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true,
@@ -1076,26 +898,20 @@ export const chartOptions: Record<string, ChartOptions> = {
 
 
     "victim_satisfaction": {
-        "dataset": "victim_satisfaction",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
     },
 
     "worried_crime_asb": {
-        "dataset": "worried_crime_asb",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.69,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -1103,14 +919,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "trust_in_mps": {
-        "dataset": "trust_in_mps",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.99,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -1119,56 +932,44 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /* Transport */
     "tfl_journeys": {
-        "dataset": "tfl_journeys",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 141,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "TfL Period",
         includeZero: true
     },
 
     "tfl_demand_idx": {
-        "dataset": "tfl_demand_idx",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0.4,
         "forceYDomain_t": 0.8,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "tfl_active20_daily": {
-        "dataset": "tfl_active20_daily",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0.54,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
     },
 
     "tfl_ksi": {
-        "dataset": "tfl_ksi",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 6225,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1176,12 +977,9 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "tfl_sfdelay_reduction": {
-        "dataset": "tfl_sfdelay_reduction",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1189,149 +987,119 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "tfl_bus_speed": {
-        "dataset": "tfl_bus_speed",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 80,
         "forceYDomain_t": 123,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
 
     /* Children and young people */
     "yr6_obesity": {
-        "dataset": "yr6_obesity",
         "chartType": "lineChartWithLineStyles",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
     },
 
     "sch_happ": {
-        "dataset": "sch_happ",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".1f",
         "forceYDomain_b": 6,
         "forceYDomain_t": 8,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
 
     "cyp_mental_disorder": {
-        "dataset": "cyp_mental_disorder",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 25,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
 
     "cyp_gld": {
-        "dataset": "cyp_gld",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0.5,
         "forceYDomain_t": 0.8,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
 
     "cyp_attainment8": {
-        "dataset": "cyp_attainment8",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 60,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Academic Year"
+        "timeperiod_type": "Academic Year",
+        includeZero: true
     },
 
     "cyp_safe": {
-        "dataset": "cyp_safe",
-        "chartType": "bar",
+        "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true,
+        xScaleType: 'band'
     },
 
     "cyp_neet": {
-        "dataset": "cyp_neet",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 19.3,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true
     },
 
     "cyp_level3": {
-        "dataset": "cyp_level3",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 100,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
     },
 
     "cyp_absence": {
-        "dataset": "cyp_absence",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 9.8,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
     },
 
     "cyp_suspension": {
-        "dataset": "cyp_suspension",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 10,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1340,70 +1108,55 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /* Health */
     "health_le_m": {
-        "dataset": "health_le_m",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 75,
         "forceYDomain_t": 90,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         faceted: true
     },
 
     "health_hle_m": {
-        "dataset": "health_hle_m",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 50,
         "forceYDomain_t": 70,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         faceted: true
     },
 
     "inf_mort": {
-        "dataset": "inf_mort",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 6,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
     },
 
     "lbw": {
-        "dataset": "lbw",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 6.2,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
     },
 
     "smoking": {
-        "dataset": "smoking",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 24,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1411,14 +1164,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "anxiety_lifesat": {
-        "dataset": "anxiety_lifesat",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 10,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
@@ -1426,14 +1176,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "u75_m_cardio": {
-        "dataset": "u75_m_cardio",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
@@ -1441,14 +1188,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "u75_m_cancer": {
-        "dataset": "u75_m_cancer",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
@@ -1456,27 +1200,21 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "childhood_vacc": {
-        "dataset": "childhood_vacc",
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 68,
         "forceYDomain_t": 100,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
 
     "sat_nhs": {
-        "dataset": "sat_nhs",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1484,14 +1222,11 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "usat_scs": {
-        "dataset": "usat_scs",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -1502,27 +1237,21 @@ export const chartOptions: Record<string, ChartOptions> = {
     /* UNSORTED or currently unused */
 
     "emp": {
-        "dataset": "emp",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Quarter"
     },
 
     "aqpm25": {
-        "dataset": "aqpm25",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "year",
 
@@ -1533,14 +1262,11 @@ export const chartOptions: Record<string, ChartOptions> = {
         "hide": ["UK limit", "WHO limit"]
     },
     "aqno2": {
-        "dataset": "aqno2",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "year",
 
@@ -1552,29 +1278,25 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     },
     "cyp_exclusion": {
-        "dataset": "cyp_exclusion",
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
         "forceYDomain_b": 0,
         "forceYDomain_t": 0,
-        "stack": false,
-        "horiz": false,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
 
     "gc_ldn_domint": {
-        "dataset": "gc_ldn_domint",
-        "chartType": "bar",
+        "chartType": "barChartStacked",
         "type": "character",
         "ytickformat": ".0f",
         "forceYDomain_b": 0,
         "forceYDomain_t": 41,
-        "stack": true,
-        "horiz": false,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        includeZero: true,
+        xScaleType: 'band'
     },
 
 
