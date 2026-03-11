@@ -2,6 +2,42 @@ import {Plot} from "@ldn-viz/charts";
 import {theme} from "@ldn-viz/ui";
 import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
 
+import {extent, ticks, tickStep} from "d3-array";
+
+const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
+
+    const nt = options.numTicks ?? 5;
+
+    const range = extent( data.map(d => d.y)  )
+
+    if (options.includeZero && range[0] > 0){
+        range[0] = 0;
+    }
+
+
+    const tickVals = ticks(range[0], range[1], nt)
+    const stepSize = tickStep(range[0], range[1], nt)
+
+    let start = tickVals[0];
+    if (start > range[0]){
+        start -= stepSize;
+    }
+    if (start !== 0){
+        start -= stepSize * 0.2;
+    }
+
+    let end = tickVals.slice(-1)[0];
+
+    if (end < range[1]){
+        end += stepSize;
+    }
+    if (end !== 0){
+        end += stepSize * 0.2;
+    }
+
+    return [start, end];
+}
+
 export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
     x: {
         label: null,
@@ -17,7 +53,7 @@ export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoi
 
     y: {
         label: null,
-        domain: (!options.forceYDomain_b && !options.forceYDomain_t) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        domain: (!options.forceYDomain_b && !options.forceYDomain_t) ? getDomain(data, options) : [options.forceYDomain_b, options.forceYDomain_t],
         includeZero: options.includeZero
     },
 

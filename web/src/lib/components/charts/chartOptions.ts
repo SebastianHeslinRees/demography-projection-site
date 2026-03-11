@@ -107,6 +107,11 @@ export type ChartOptions = {
       * Time interval of bars in `barChartStackedTimeseries` plot
       */
      xInterval?: string;
+
+     /**
+      * This is not the number of ticks that *should* be drawn, but rather an indication of how many ObservablePlot chooses to draw, used to determine the y-axis overhangs.
+      */
+     numTicks?: number;
 }
 
 export type ChartDataRow = {
@@ -131,8 +136,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".2s",
-        "forceYDomain_b": 6000000,
-        "forceYDomain_t": 10000000,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
@@ -153,7 +156,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        includeZeroLine: true
+        includeZeroLine: true,
+        numTicks: 3,
     },
 
     "annual_births": {
@@ -162,7 +166,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Bi-annual",
-        includeZero: true
+        includeZero: true,
+        numTicks: 3,
     },
 
     "births_age_mother": {
@@ -171,12 +176,14 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        includeZeroLine: true
+        includeZeroLine: true,
+        numTicks: 4
     },
 
     "births_mothers_cob": {
         "chartType": "line",
         "type": "date",
+
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
@@ -187,8 +194,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 2.3,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
@@ -200,8 +205,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true
@@ -212,8 +215,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 76,
-        "forceYDomain_t": 120,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
@@ -222,8 +223,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartHorizontal",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": -0.22,
-        "forceYDomain_t": 0.22,
         "x_order": "Transport and storage|Human health and \nsocial work|Construction|Accommodation \nand food services|Arts and \nentertainment|Real estate \nactivities|Wholesale and retail|Financial and \ninsurance activities|Manufacturing|Administrative and \nsupport service activities|Professional and \ntechnical activities|Education|Information and \ncommunication",
         "timeperiod_type": "Annual",
         includeZero: true
@@ -251,8 +250,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartStackedTimeseries",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "12-month period",
         includeZero: true,
@@ -319,8 +316,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -385,8 +380,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.105,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -396,6 +389,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
+        "forceYDomain_b": 0,
+        "forceYDomain_t": 1,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -408,15 +403,14 @@ export const chartOptions: Record<string, ChartOptions> = {
         "forceYDomain_b": 0,
         "forceYDomain_t": 1,
         "x_order": null,
-        "timeperiod_type": "Academic Year"
+        "timeperiod_type": "Academic Year",
+        includeZero: true
     },
 
     "fe_skills": {
         "chartType": "barChartStacked",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -426,8 +420,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.068,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -437,8 +429,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -459,8 +449,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".2s",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true
@@ -470,8 +458,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.42,
         "x_order": "<keep>",
         "timeperiod_type": "Annual",
         includeZero: true
@@ -481,8 +467,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": "<keep>",
         "timeperiod_type": "Annual",
         includeZero: true
@@ -494,8 +478,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.28,
         "x_order": null,
         "timeperiod_type": "monthly",
         includeZero: true
@@ -505,8 +487,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -515,8 +495,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.11,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -526,8 +504,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -536,8 +512,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartVertical",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
@@ -576,8 +550,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.21,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -597,8 +569,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 47,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -628,8 +598,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.61,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -639,8 +607,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.71,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -650,8 +616,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 28,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -661,8 +625,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 54,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -684,8 +646,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -696,8 +656,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Monthly"
     },
@@ -706,8 +664,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -718,8 +674,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartStackedTimeseries",
         "type": "date",
         "ytickformat": ".2s",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 70100,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -730,18 +684,15 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        numTicks: 3
     },
 
     "cladding_remediation": {
         "chartType": "barChartHorizontalGrouped",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": "London|South East|North West|South West|East of England|West Midlands|Yorkshire and The Humber|East Midlands|North East",
         "timeperiod_type": "Annual",
         includeZero: true
@@ -751,8 +702,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true
@@ -762,8 +711,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -774,8 +721,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -786,8 +731,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -796,8 +739,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -824,8 +765,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.55,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
@@ -835,19 +774,16 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.83,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
+        numTicks: 4
     },
 
     "heat_associated_deaths": {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 3600,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -859,8 +795,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".1s",
-        "forceYDomain_b": 500000,
-        "forceYDomain_t": 1000100,
+        includeZero: true,
         "x_order": null,
         "timeperiod_type": "Annual"
     },
@@ -869,8 +804,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 8100,
         "x_order": null,
         "timeperiod_type": "Monthly",
         includeZero: true,
@@ -880,8 +813,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.48,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -910,8 +841,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.69,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true,
@@ -922,8 +851,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.99,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -935,8 +862,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 141,
         "x_order": null,
         "timeperiod_type": "TfL Period",
         includeZero: true
@@ -946,8 +871,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0.4,
-        "forceYDomain_t": 0.8,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -957,8 +880,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0.54,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -968,8 +889,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 6225,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -990,10 +909,9 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 80,
-        "forceYDomain_t": 123,
         "x_order": null,
-        "timeperiod_type": "Annual"
+        "timeperiod_type": "Annual",
+        numTicks: 3
     },
 
     /* Children and young people */
@@ -1001,8 +919,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "lineChartWithLineStyles",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1022,18 +938,15 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 25,
         "x_order": null,
-        "timeperiod_type": "Academic Year"
+        "timeperiod_type": "Academic Year",
+        includeZero: true
     },
 
     "cyp_gld": {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0.5,
-        "forceYDomain_t": 0.8,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
@@ -1042,8 +955,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 60,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1053,8 +964,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "barChartVerticalGrouped",
         "type": "character",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true,
@@ -1065,8 +974,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 19.3,
         "x_order": null,
         "timeperiod_type": "Quarter",
         includeZero: true
@@ -1076,8 +983,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 100,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1087,8 +992,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 9.8,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1098,8 +1001,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 10,
         "x_order": null,
         "timeperiod_type": "Academic Year",
         includeZero: true
@@ -1111,8 +1012,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 75,
-        "forceYDomain_t": 90,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         faceted: true
@@ -1122,19 +1021,16 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 50,
-        "forceYDomain_t": 70,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
-        faceted: true
+        faceted: true,
+        numTicks: 4
     },
 
     "inf_mort": {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 6,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
@@ -1144,19 +1040,16 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 6.2,
         "x_order": null,
         "timeperiod_type": "Annual",
-        includeZero: true
+        includeZero: true,
+        numTicks: 4
     },
 
     "smoking": {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 24,
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZero: true
@@ -1167,8 +1060,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 10,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true,
@@ -1179,8 +1070,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
@@ -1191,8 +1080,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Three Year Average",
         includeZero: true
@@ -1203,8 +1090,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "character",
         "ytickformat": ".0f",
-        "forceYDomain_b": 68,
-        "forceYDomain_t": 100,
         "x_order": null,
         "timeperiod_type": "Financial Year"
     },
@@ -1213,11 +1098,10 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Annual",
-        includeZero: true
+        includeZero: true,
+        numTicks: 4
 
     },
 
@@ -1225,8 +1109,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Financial Year",
         includeZero: true
@@ -1240,8 +1122,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Quarter"
     },
@@ -1250,8 +1130,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "year",
 
@@ -1265,8 +1143,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0f",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "year",
 
@@ -1281,8 +1157,6 @@ export const chartOptions: Record<string, ChartOptions> = {
         "chartType": "line",
         "type": "date",
         "ytickformat": ".0%",
-        "forceYDomain_b": 0,
-        "forceYDomain_t": 0,
         "x_order": null,
         "timeperiod_type": "Academic Year"
     },
