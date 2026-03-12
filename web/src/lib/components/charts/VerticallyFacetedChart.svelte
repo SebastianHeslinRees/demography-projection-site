@@ -51,7 +51,7 @@
 
     // fetch data
     let data = $state([]);
-    fetch(`https://api2.ldn-gis.co.uk/tables/state_of_london/chart_data?dataset=eq.${dataset}`)
+    fetch(`https://apps.london.gov.uk/api/tables/state_of_london/chart_data?dataset=eq.${dataset}`)
         .then(res => res.json())
         .then(dataRes => {
 
