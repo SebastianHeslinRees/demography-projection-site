@@ -7,6 +7,12 @@
 	const tocItems = $derived(data.metadata.toc);
 </script>
 
+
+<svelte:head>
+    <title>State of London - {data.metadata.title}</title>
+</svelte:head>
+
+
 <!-- TODO: adding container her is of course restrictive to items that may want to break out of the column -->
 <div class="container prose responsive p-0">
 	<div class="my-typography-spacing-xl">

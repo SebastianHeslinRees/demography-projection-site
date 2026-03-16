@@ -4,6 +4,11 @@
 	const PageComponent = $derived(data.component);
 </script>
 
+<svelte:head>
+    <title>The State of London Report</title>
+</svelte:head>
+
+
 <!-- TODO: this might be better as standalone page not from markdown -->
 <div class="container mx-auto py-8">
 	<div class="prose responsive max-w-full">
