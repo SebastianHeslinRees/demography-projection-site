@@ -2,14 +2,16 @@ import { defineConfig } from 'mdsx';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import type { ElementContent } from 'hast';
 import type { Root as HastRoot } from 'hast';
 import type { Root as MdastRoot } from 'mdast';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypePrettyCode from 'rehype-pretty-code';
 import rehypeSlug from 'rehype-slug';
 import remarkGfm from 'remark-gfm';
+import remarkRehype from 'remark-rehype';
 import { createHighlighter } from 'shiki';
-import type { Transformer } from 'unified';
+import type { PluggableList, Transformer } from 'unified';
 import { visit } from 'unist-util-visit';
 
 type MdastTransformer = Transformer<MdastRoot, MdastRoot>;
@@ -44,8 +46,23 @@ const prettyCodeOptions = {
 	}
 };
 
-export const baseRemarkPlugins = [remarkGfm, remarkRemovePrettierIgnore];
-export const baseRehypePlugins = [
+/**
+ * Override how mdast-util-to-hast formats back-refs for footnotes
+ * (the link from the footnote abck to the link in the text that references it)
+ * to remove the back emoji.
+ */
+function footnoteBackContent(_referenceIndex: number, rereferenceIndex: number): ElementContent[] {
+	// by default, this would begin with a ↩ emoji; we strip this out to insert the equivalent icon form our icon set
+	const backrefs = rereferenceIndex > 1 ? `${rereferenceIndex}` : '';
+	return [{ type: 'text', value: backrefs }];
+}
+
+export const baseRemarkPlugins: PluggableList = [
+	remarkGfm,
+	remarkRemovePrettierIgnore,
+	[remarkRehype, { allowDangerousHtml: true, footnoteBackContent }]
+];
+export const baseRehypePlugins: PluggableList = [
 	rehypeSlug,
 	[rehypePrettyCode, prettyCodeOptions],
 	rehypeAutolinkHeadings,
