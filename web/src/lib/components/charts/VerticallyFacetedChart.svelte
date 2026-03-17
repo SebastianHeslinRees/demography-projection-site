@@ -144,7 +144,7 @@
 -->
 
 {#if spec && data.length > 0}
-    <div class="w-[1000px]">
+    <div class="w-full">
         <ChartContainer
                 data={data}
                 {title}
