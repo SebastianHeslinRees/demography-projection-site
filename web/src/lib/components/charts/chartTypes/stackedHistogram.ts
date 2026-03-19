@@ -27,6 +27,6 @@ export const stackedHistogram = (options: ChartOptions, data: ChartDataRow[], co
             tickFormat: options.ytickformat
         }),
 
-        Plot.rectY(data, Plot.binX({y2: "count"}, {x: "y", fill: "b", mixBlendMode: "multiply", tip: "xy"} as any)),
+        Plot.rectY(data, Plot.binX({y2: "count"}, {x: "y", fill: "b", mixBlendMode: "multiply", title: d => d.b, tip: "xy"} as any)),
     ]
 })

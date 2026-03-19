@@ -85,6 +85,7 @@ export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoi
             fx: options.faceted ? 'z2' : undefined,
 
             stroke: "b",
+            title: d => [d.b, d.xd, d.y].join("\n"),
             tip: "xy"
         }),
 

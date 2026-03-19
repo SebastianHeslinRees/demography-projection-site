@@ -36,6 +36,7 @@ export const barChartVerticalGrouped = (options: ChartOptions, data: ChartDataRo
             fx: "xd",
             y: "y",
             fill: "b",
+            title: d => [d.b, d.xd, d.y].join("\n"),
             tip: "xy"
             //  inset: 0.5,
         }),

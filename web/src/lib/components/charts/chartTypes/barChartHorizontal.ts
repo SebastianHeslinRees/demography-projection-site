@@ -30,6 +30,7 @@ export const barChartHorizontal = (options: ChartOptions, data: ChartDataRow[], 
             y: "xd",
             x: "y",
             fill: "b",
+            title: d => [d.b, d.xd, d.y].join("\n"),
             tip: "xy"
         }),
 

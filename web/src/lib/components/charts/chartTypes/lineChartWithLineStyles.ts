@@ -50,6 +50,7 @@ export const lineChartWithLineStyles = (options: ChartOptions, data: ChartDataRo
 
 
             stroke: "b",
+            title: d => [d.b, d.xd, d.y].join("\n"),
             tip: "xy"
         }),),
 

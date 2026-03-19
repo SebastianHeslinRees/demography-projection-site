@@ -45,6 +45,7 @@ export const incomeSlopeChart = (options: ChartOptions, data: ChartDataRow[], co
 
             stroke: theme.tokenNameToValue('data.context'),
             strokeDasharray: "4,4",
+            title: d => [d.b, d.xd, d.y].join("\n"),
             tip: "xy"
         }),
 
