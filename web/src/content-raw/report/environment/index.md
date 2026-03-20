@@ -59,7 +59,7 @@ Chart: Chart
 
 title: Energy efficiency ratings of new and existing homes, London
 
-subTitle: % of all domestic Energy Performance Certificates (EPCs) with a rating of A-C out of all domestic EPCs registered on the Energy Performance of Buildings Register
+subTitle: "% of all domestic Energy Performance Certificates (EPCs) with a rating of A-C out of all domestic EPCs registered on the Energy Performance of Buildings Register"
 
 byline: GLA City Intelligence
 
@@ -95,7 +95,7 @@ Chart: Chart
 
 title: Household waste recycling rate
 
-subTitle: % of collected household waste that is recycled
+subTitle: "% of collected household waste that is recycled"
 
 byline: GLA City Intelligence
 

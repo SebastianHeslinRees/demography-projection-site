@@ -28,6 +28,7 @@
 		"@ldn-viz/ui": "*",
 		"@ldn-viz/utils": "*",
 		"d3-format": "^3.1.2",
+		"js-yaml": "^4.1.1",
 		"mdsvex": "^0.12.6"
 	},
 	"devDependencies": {

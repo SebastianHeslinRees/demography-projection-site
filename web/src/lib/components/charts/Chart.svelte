@@ -23,6 +23,7 @@
         subtitle?: string;
         source?: string;
         byline?: string;
+        lloindicator?: string;
 
         dataset: string;
     }
@@ -33,6 +34,7 @@
         source,
         byline,
         dataset,
+        lloindicator,
     }: ChartProps = $props();
 
     let options = $derived(chartOptions[dataset])
@@ -158,6 +160,7 @@
                 subTitle={subtitle}
                 {source}
                 {byline}
+                note={lloindicator === "core" ? "Core indicator" : "Supplementary indicator"}
         />
     </div>
 {/if}

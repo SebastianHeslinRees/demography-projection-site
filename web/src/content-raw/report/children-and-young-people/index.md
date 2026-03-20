@@ -7,17 +7,29 @@ navLabel: London in Figures\
 
 This chapter reports on children and young people, focusing in particular on the following three London-Level Outcomes:
 
-- Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
+---
+component: LLOintro
+llos:
+  - Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
+  - Children and young Londoners are safe from harm.
+  - Children and young Londoners have the positive opportunities needed to be successful.
+---
 
-- Children and young Londoners are safe from harm. 
-
-- Children and young Londoners have the positive opportunities needed to be successful.
 
 It sets out trends across several indicators covering health and wellbeing, education and safety. Further metrics related to the health and wellbeing of children and young people are covered in the Health chapter, and the wider determinants of health are covered in other chapters (e.g. pollution exposure in the Environment chapter).
 
 The Mayor is championing [inclusive education in London](https://www.london.gov.uk/what-we-do/education-and-youth/london-curriculum/inclusive-education), and is working to tackle mental health issues affecting young people, [child poverty and health inequality](https://www.london.gov.uk/what-we-do/education-and-youth/support-families-and-early-years/tackling-child-poverty-and-health) across the city. The [Health Inequalities Strategy](https://www.london.gov.uk/what-we-do/health/health-inequalities/london-health-inequalities-strategy) provides more information on health inequalities for children across London.
 
-## Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development 
+
+## Health and education of children and young Londoners
+
+---
+component: LLOSection
+llos:
+  - Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
+---
+
+
 
 ---
 
@@ -34,6 +46,8 @@ source: Public health profiles, OHID (based on National Child Measurement Progra
 dataset: yr6_obesity
 
 theme: CYP
+
+lloIndicator: core
 
 ---
 
@@ -163,7 +177,15 @@ In London in 2023/24, there were gaps in Attainment 8 scores by sex, ethnicity, 
 
 - Pupils who are eligible for FSM achieved a lower Average Attainment 8 score (42.1) compared to all other pupils not classed as eligible for FSM (54.3).
 
-## Children and young Londoners are safe from harm 
+
+## Safety of children and young Londoners
+
+---
+component: LLOSection
+llos:
+  - Children and young Londoners are safe from harm.
+---
+
 
 ---
 
@@ -194,7 +216,16 @@ Certain groups of young people were less likely to say they felt safe at school 
 
 In the most recent survey (2021-22), approximately four in five (81%) of young people reported that they felt safe online. Despite this, around one in five (19%) reported that something happened to them online during the last year that made them worried.
 
-## Children and young Londoners have the positive opportunities needed to be successful
+
+
+## Opportunities for children and young Londoners
+
+---
+component: LLOSection
+llos:
+  - Children and young Londoners have the positive opportunities needed to be successful.
+---
+
 
 Figure 7: Young people Not in Education, Employment, or Training (NEET)
 

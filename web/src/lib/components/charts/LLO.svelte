@@ -1,3 +1,5 @@
+<!-- This is now deprecated: the Figma designs now use the LLOIntro and LLOSection components instead, but I'll keep this around for now in case we revert. -->
+
 <script lang="ts">
     type LLOProps = {
         title: string;

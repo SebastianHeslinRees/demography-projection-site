@@ -101,11 +101,11 @@ Chart: Chart
 
 title: Proven reoffending rate
 
-subTitle: % of offender cohort that committed a further proven offence within 12 months
+subTitle: "% of offender cohort that committed a further proven offence within 12 months"
 
 byline: GLA City Intelligence
 
-source: Ministry of Justice, Proven Reoffending Statistics: April to June 2023
+source: "Ministry of Justice, Proven Reoffending Statistics: April to June 2023"
 
 dataset: proven_reoffending
 
