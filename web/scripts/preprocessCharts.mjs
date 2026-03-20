@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { mkdirSync, readFileSync, writeFileSync, existsSync, globSync } from 'fs';
+import yaml from 'js-yaml';
 import path from 'node:path';
 
 // import { glob } from 'node:glob';
@@ -12,9 +13,16 @@ const outDirPath = "./src/content";
 
 const formatBlock = (metadata) => {
     const componentName = metadata.chart ?? metadata.component;
-    const attributes = Object.keys(metadata).filter(k => k !== 'Chart').map(k => `${k.toLowerCase()}="${metadata[k].replace(/"/g, '&quot;')}"\n`);
+
+    const attributes = Object.keys(metadata)
+    .filter(k => metadata[k])
+    .filter(k => k !== 'Chart')
+    .map(k => typeof metadata[k] === 'string' ? 
+        `${k.toLowerCase()}="${metadata[k].replace(/"/g, '&quot;')}"\n` : 
+        `${k.toLowerCase()}={${ JSON.stringify(metadata[k]).replace(/\\"/g, '\\\\"')}}\n`); // we need to map " in the source docs to \\" in .velite/docs.json
     return `<${componentName}\n ${attributes.join(" ") } />`
 };
+
 
 const getImport = (metadata) => {
     const componentName = metadata.chart ?? metadata.component;
@@ -35,34 +43,12 @@ const convertFile = (inFilePath, outFilePath) => {
     let havePassedInitialMetadata = false;
 
     let inBlock = false;
-    let blockData = {};
+    let blockYAML = "";
+
     for (const line of inLines){
-        if (inBlock){
-            if (!line){
-                continue;
-            } else if (line.trim() === "---"){
-                if (havePassedInitialMetadata){
-                    outLines = outLines.concat(formatBlock(blockData))
-                    imports.push(getImport(blockData))
-                    blockData = {};
-                } else {
-                    initialYAML.push(line)
-                    havePassedInitialMetadata = true;
-                }
-                inBlock = false;
-            } else {
-                if (havePassedInitialMetadata){
-                    const colonIndex = line.indexOf(":");
-                    if (colonIndex === -1) continue;
-                    const key = line.slice(0, colonIndex).toLowerCase();
-                    const value = line.slice(colonIndex + 1);
-                    blockData[key.trim()] = value.trim();
-                } else {
-                    initialYAML.push(line)
-                }
-            }
-        } else {
-            if (line.trim() === "---"){
+
+        if (!inBlock){
+          if (line.trim() === "---"){
                 inBlock = true;
 
                 if (!havePassedInitialMetadata){
@@ -71,6 +57,43 @@ const convertFile = (inFilePath, outFilePath) => {
 
             } else if (!line.match(/<img\s[^>]*src="attachments\//)) {
                 outLines.push(line);
+            }
+        } else {
+            if (!line){
+                continue;
+            } else if (line.trim() === "---"){
+                if (havePassedInitialMetadata){
+
+                    let blockData = yaml.load(blockYAML);
+                    blockData = Object.fromEntries( Object.entries(blockData).map( ([k, v]) => ([k.toLowerCase(), v]) ) )
+
+
+                    console.log("blockData:", blockData)
+
+                    outLines = outLines.concat(formatBlock(blockData))
+                    imports.push(getImport(blockData))
+
+                    blockYAML = "";
+                } else {
+                    initialYAML.push(line)
+                    havePassedInitialMetadata = true;
+                }
+                inBlock = false;
+            } else {
+                if (havePassedInitialMetadata){
+                    blockYAML += "\n";
+                    blockYAML += line;
+
+                    /*
+                    const colonIndex = line.indexOf(":");
+                    if (colonIndex === -1) continue;
+                    const key = line.slice(0, colonIndex).toLowerCase();
+                    const value = line.slice(colonIndex + 1);
+                    blockData[key.trim()] = value.trim();
+                    */
+                } else {
+                    initialYAML.push(line)
+                }
             }
         }
     }
