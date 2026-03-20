@@ -8,7 +8,7 @@ navLabel: London in Figures\
 This chapter reports on children and young people, focusing in particular on the following three London-Level Outcomes:
 
 ---
-component: LLOintro
+component: LLOIntro
 llos:
   - Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
   - Children and young Londoners are safe from harm.
