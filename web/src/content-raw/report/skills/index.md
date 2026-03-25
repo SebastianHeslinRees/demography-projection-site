@@ -260,4 +260,3 @@ Source: Lightcast 2025.
 Similarly, technical or specialised skills (e.g., core business skills such as project management, finance and marketing) have remained robustly in demand since before the pandemic.
 
 \
-=

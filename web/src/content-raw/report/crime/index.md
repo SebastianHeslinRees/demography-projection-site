@@ -264,7 +264,6 @@ Looking at demographic characteristics, trust levels varied across the categorie
 Respondents in the Black and Mixed ethnic groups had significantly low levels of trust in the MPS. The proportion in these groups agreeing with the MPS trust statement was at least 10 percentage points lower than the average. In addition, the gap between LGBT+ respondents and non-LGBT+ respondents has increased further from 5% in 2020 to 18%.
 
 \
-=
 
 [^1]: For more information see: MOPAC (2025), [‘Police and Crime Plan Performance Framework’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20Performance%20Framework.pdf); and MOPAC (2025),[’Oversight Framework Explanatory Note’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20-%20Performance%20Framework%20Technical%20Note.pdf).
 

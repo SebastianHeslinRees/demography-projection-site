@@ -330,4 +330,3 @@ Source: Community Life Survey
 In 2023- 24, 57% of Londoners felt that they belonged very or fairly strongly to their immediate neighbourhood. This marks an increase from 2014-15, when neighbourhood belonging in London was at its lowest point at 49%, before rising to a peak of 59% in both 2019 and 2020. Since 2013, the sense of neighbourhood belonging in London has, on average, been 5 percentage points lower than the national average for England.
 
 \
-=

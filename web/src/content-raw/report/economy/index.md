@@ -373,7 +373,6 @@ Across London as a whole, the average vacancy rate in a high street or town cent
 In the rest of the UK, about one in ten shopfronts (10.5%) were vacant. The majority of both Inner London's (64%) and Outer London's (72%) high streets and town centres had vacancy rates below this 10.5% nationwide rate.
 
 \
-=
 
 [^1]: Hobbs & Mutebi (2022), '[The impact of remote and hybrid working on workers and organisations'](https://researchbriefings.files.parliament.uk/documents/POST-PB-0049/POST-PB-0049.pdf)
 

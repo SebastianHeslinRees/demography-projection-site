@@ -234,7 +234,6 @@ Source: DCMS Participation Survey[^4]
 In contrast to physical engagement, London residents are more likely than people in other regions to engage with arts and culture online. In 2023/24, 38.3% of Londoners said they had engaged with the arts online in the last 12 months, compared to the England average of 36.4%. This represent an increase from the 30% rate in 2021/22.
 
 \
-=
 
 [^1]: Methodological changes limit longer-term comparisons of domestic tourism visits.
 
