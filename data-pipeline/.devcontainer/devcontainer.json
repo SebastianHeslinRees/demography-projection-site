@@ -1,7 +1,7 @@
 {
   "name": "State of London Data Pipeline",
   "image": "mcr.microsoft.com/devcontainers/r:4",
-  "postCreateCommand": "R -e 'install.packages(c(\"targets\", \"tibble\", \"tarchetypes\"), repos = \"https://cloud.r-project.org\")'",
+  "postCreateCommand": "mkdir -p ~/R/library && R -e 'dir.create(Sys.getenv(\"R_LIBS_USER\"), recursive = TRUE, showWarnings = FALSE); .libPaths(Sys.getenv(\"R_LIBS_USER\")); install.packages(c(\"targets\", \"tibble\", \"tarchetypes\", \"dplyr\", \"tidyr\", \"purrr\", \"readr\", \"jsonlite\", \"lubridate\", \"openxlsx\", \"readxl\", \"rlang\"), repos = \"https://cloud.r-project.org\")'",
   "customizations": {
     "vscode": {
       "extensions": [
