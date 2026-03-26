@@ -1,0 +1,17 @@
+{
+  "name": "State of London Data Pipeline",
+  "image": "mcr.microsoft.com/devcontainers/r:4",
+  "postCreateCommand": "R -e 'install.packages(c(\"targets\", \"tibble\", \"tarchetypes\"), repos = \"https://cloud.r-project.org\")'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "RDebugger.r-debugger"
+      ],
+      "settings": {
+        "r.bracketedPaste": true,
+        "r.plot.useHttpgd": true
+      }
+    }
+  }
+}
