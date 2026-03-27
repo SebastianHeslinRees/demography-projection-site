@@ -1,8 +1,8 @@
----\
-title: Housing\
-description: A selection of key housing indicators\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Housing
+description: A selection of key housing indicators
+section: London in Figures
+navLabel: London in Figures
 ---
 
 ---
@@ -55,8 +55,7 @@ theme: Housing
 
 ---
 
-<img src="attachments/housing/media/image134.svg" style="width:6.26389in;height:3.13194in" />\
-\
+<img src="attachments/housing/media/image134.svg" style="width:6.26389in;height:3.13194in" />
 Source: All figures are from YouGov Plc on behalf of the GLA. The surveys were carried out online. The figures have been weighted and are representative of all London adults (aged 18+).
 
 According to GLA cost of living polling data from January 2025, 31% of people in London had either fallen behind, or struggled to keep up with, rent or mortgage payments.
@@ -369,5 +368,4 @@ Source: Community Life Survey
 
 In 2023- 24, 57% of Londoners felt that they belonged very or fairly strongly to their immediate neighbourhood. This marks an increase from 2014-15, when neighbourhood belonging in London was at its lowest point at 49%, before rising to a peak of 59% in both 2019 and 2020. Since 2013, the sense of neighbourhood belonging in London has, on average, been 5 percentage points lower than the national average for England.
 
-\
 =

@@ -1,8 +1,8 @@
----\
-title: Transport\
-description: A subset of the Mayor’s Transport Strategy tracker metrics,\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Transport
+description: A subset of the Mayor’s Transport Strategy tracker metrics,
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This section draws on a subset of the [Mayor’s Transport Strategy](https://greaterlondonauthority.sharepoint.com/sites/IU/Shared%20Documents/Shared%20Projects/State%20of%20London%20report/Version%206%20(June%202025)/Chapter%20Text/Transport%20and%20infrastructure/Drafts%20of%20v6%20chapter/State%20of%20London%20June%202024%20-%20Transport%20draft%20AYMD%20Edits.docx) tracker metrics, which are used to monitor progress against the aims of the strategy. They provide a high-level assessment of the London-level outcome ‘London’s transport system enables everyone to get to where they want to go safely, sustainably, reliably and affordably.

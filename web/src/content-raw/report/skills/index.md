@@ -1,8 +1,8 @@
----\
-title: Skills\
-description: The skills of London’s population.\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Skills
+description: The skills of London’s population.
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter examines the skills of London’s population, focussing on the following two London-Level Outcomes:
@@ -283,5 +283,4 @@ Source: Lightcast 2025.
 
 Similarly, technical or specialised skills (e.g., core business skills such as project management, finance and marketing) have remained robustly in demand since before the pandemic.
 
-\
 =

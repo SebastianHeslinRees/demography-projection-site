@@ -1,8 +1,8 @@
----\
-title: Social Justice\
-description: Cover themes such as support for those most in need and reducing inequalities\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Social Justice
+description: Cover themes such as support for those most in need and reducing inequalities
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter covers themes such as support for those most in need and reducing inequalities. It sets out trends across measures related to income levels, fairness, civic participation, local communities and relationships.
@@ -151,9 +151,10 @@ Furthermore, in 2023/24, four per cent of households in London had used a food b
 
 ---
 
-component: LLO
+component: LLOSection
 
-title: Fairness and equality
+llos:
+- Fairness and equality
 
 ---
 
