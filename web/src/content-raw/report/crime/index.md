@@ -23,6 +23,14 @@ The collated data for these seven indicators will be included in the PCP in due 
 
 ## London is a safe city
 
+---
+
+component: LLOSection
+
+title: Safety
+
+---
+
 Figure 1: Total Notifiable Offences (TNOs)
 
 Number of offences recorded annually by the Metropolitan Police Service (MPS)
@@ -31,7 +39,7 @@ Number of offences recorded annually by the Metropolitan Police Service (MPS)
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Total Notifiable Offences (TNOs)
 
@@ -65,7 +73,7 @@ Number of offences recorded monthly by the MPS
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Violence with Injury
 
@@ -97,15 +105,15 @@ Figure 3: Proven reoffending rate
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Proven reoffending rate
 
-subTitle: "% of offender cohort that committed a further proven offence within 12 months"
+subTitle: % of offender cohort that committed a further proven offence within 12 months
 
 byline: GLA City Intelligence
 
-source: "Ministry of Justice, Proven Reoffending Statistics: April to June 2023"
+source: Ministry of Justice, Proven Reoffending Statistics: April to June 2023
 
 dataset: proven_reoffending
 
@@ -131,7 +139,7 @@ Figure 4: Victimisation rate
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Victimisation rate
 
@@ -167,7 +175,7 @@ Percentage of survey participants
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Satisfaction level of reporting victims
 
@@ -205,7 +213,7 @@ Percentage of Londoners worried about crime and ASB in their local area
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Worried about Crime
 
@@ -237,7 +245,7 @@ Percentage of survey participants (PAS) who agree that the MPS is an organisatio
 
 ---
 
-Chart: Chart
+Chart: MultipleLine
 
 title: Trust in the Metropolitan Police Service
 
@@ -264,6 +272,7 @@ Looking at demographic characteristics, trust levels varied across the categorie
 Respondents in the Black and Mixed ethnic groups had significantly low levels of trust in the MPS. The proportion in these groups agreeing with the MPS trust statement was at least 10 percentage points lower than the average. In addition, the gap between LGBT+ respondents and non-LGBT+ respondents has increased further from 5% in 2020 to 18%.
 
 \
+=
 
 [^1]: For more information see: MOPAC (2025), [‘Police and Crime Plan Performance Framework’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20Performance%20Framework.pdf); and MOPAC (2025),[’Oversight Framework Explanatory Note’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20-%20Performance%20Framework%20Technical%20Note.pdf).
 

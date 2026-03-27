@@ -234,3 +234,4 @@ The 2023 international flow estimate is the highest on record and may yet be rev
 Domestic outflows from London have been increasing since the low point of 2009 that followed the 2008 Financial Crisis. Excluding the sharp spike in 2021 that was a consequence of the COVID-19 pandemic, net outflows from London are now at their highest level this century.
 
 \
+=

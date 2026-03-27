@@ -8,28 +8,27 @@ navLabel: London in Figures\
 This chapter reports on children and young people, focusing in particular on the following three London-Level Outcomes:
 
 ---
-component: LLOIntro
-llos:
-  - Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
-  - Children and young Londoners are safe from harm.
-  - Children and young Londoners have the positive opportunities needed to be successful.
----
 
+Component: LLOIntro
+
+llos:
+
+- Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
+
+- Children and young Londoners are safe from harm. 
+
+- Children and young Londoners have the positive opportunities needed to be successful.
+
+---
 
 It sets out trends across several indicators covering health and wellbeing, education and safety. Further metrics related to the health and wellbeing of children and young people are covered in the Health chapter, and the wider determinants of health are covered in other chapters (e.g. pollution exposure in the Environment chapter).
 
 The Mayor is championing [inclusive education in London](https://www.london.gov.uk/what-we-do/education-and-youth/london-curriculum/inclusive-education), and is working to tackle mental health issues affecting young people, [child poverty and health inequality](https://www.london.gov.uk/what-we-do/education-and-youth/support-families-and-early-years/tackling-child-poverty-and-health) across the city. The [Health Inequalities Strategy](https://www.london.gov.uk/what-we-do/health/health-inequalities/london-health-inequalities-strategy) provides more information on health inequalities for children across London.
 
-
-## Health and education of children and young Londoners
-
+---\
+component: LLOSection\
+llos: Health and education of children and young Londoners\
 ---
-component: LLOSection
-llos:
-  - Children and young Londoners achieve the health and learning outcomes they need to thrive at every stage of development.
----
-
-
 
 ---
 
@@ -37,7 +36,7 @@ Chart: Chart
 
 title: Prevalence of obesity in children
 
-subTitle: Proportion of children in Reception and Year 6 that are overweight or obese1 in London and England, 2007/08 to 2023/24
+subTitle: Proportion of children in Reception and Year 6 that are overweight or obese1 in London and England, 2007/08 to 2024/25
 
 byline: GLA City Intelligence
 
@@ -47,19 +46,17 @@ dataset: yr6_obesity
 
 theme: CYP
 
-lloIndicator: core
-
 ---
 
 <img src="attachments/children-and-young-people/media/image2.svg" style="width:6.26389in;height:3.13194in" />
 
 Source: [Public health profiles](https://fingertips.phe.org.uk/profile/child-health-profiles), OHID (based on National Child Measurement Programme data)
 
-As of 2023/24, 20.9% of London’s children in Reception were classified as overweight or obese, which is lower than the percentage for England (22.1%). This is higher than in 2022/23 (20.0%) but lower than before the COVID-19 pandemic (2019/20: 21.6%). Compared to Reception, the prevalence of obesity in Year 6 children was higher in both London (37.8%) and England (35.8%).
+As of 2024/25, 21.1% of London’s children in Reception were classified as overweight or obese, which is lower than the percentage for England (23.5%). This is similar to 2023/24 (20.9%) but lower than before the COVID-19 pandemic (2019/20: 21.6%). Compared to Reception, the prevalence of obesity in Year 6 children was higher in both London (37.3%) and England (36.2%).
 
-Higher rates were seen among deprived Londoners, with 26.0% of children in Reception classified as obese or overweight in the most deprived decile compared to 15.3% in the least deprived decile. This inequality widens for children in Year 6, at 44.2% in the most deprived decile and 25.4% in the least deprived decile. Similarly, the rates vary by London borough, with the rates among Year 6 children the highest in Barking and Dagenham (44.2%) and lowest in Richmond Upon Thames (25.5%)
+Higher rates were seen among deprived Londoners, with 25.9% of children in Reception classified as obese or overweight in the most deprived decile compared to 16.0% in the least deprived decile. This inequality widens for children in Year 6, at 44.0% in the most deprived decile and 25.7% in the least deprived decile. Similarly, the rates vary by London borough, with the rates among Year 6 children the highest in Southwark (44.3%) and lowest in Richmond Upon Thames (23.6%)
 
-Comparing rates of obesity by sex, there is no significant difference at Reception age, but by Year 6 they are significantly higher for boys (40.8%) than girls (34.7%).
+Comparing rates of obesity by sex in London, there is no significant difference at Reception age, but by Year 6 they are significantly higher for boys (40.1%) than girls (34.3%).
 
 ---
 
@@ -67,7 +64,7 @@ Chart: Chart
 
 title: Children’s self-reported happiness with life
 
-subTitle: Children in Years 3-11 mean self-reported happiness score with life (out of 10) in London and England, 2018/18 to 2023/24
+subTitle: Children in Years 3-11 mean self-reported happiness score with life (out of 10) in London and England, 2018/18 to 2024/25
 
 byline: GLA City Intelligence
 
@@ -83,9 +80,9 @@ theme: CYP
 
 Source: [*Active Lives Children and Young People Survey, Sports England*](https://activelives.sportengland.org/Home/ActivityData)
 
-The average happiness score (out of 10) for children in Years 3-11 in London in 2023-24 was 6.95, similar to England’s (6.85). This has remained relatively stable, although it has decreased slightly overall since 2017/18 when it was 7.13 in London.
+The average happiness score (out of 10) for children in Years 3-11 in London in 2024-25 was 6.97, similar to England’s (6.93). This has remained relatively stable, although it has decreased slightly overall since 2017/18 when it was 7.13 in London.
 
-The score was highest among White British children (7.09) and lowest for Black children (6.71), and higher for boys (7.24) than girls (6.73).
+The score was highest among White British children (7.12) and lowest for Black children (6.68), and higher for boys (7.29) than girls (6.77).
 
 ---
 
@@ -117,11 +114,11 @@ Chart: Chart
 
 title: School readiness at age 5
 
-subTitle: Percentage of children with a good level of development (GLD) at age 5, 2013/14 to 2023/24
+subTitle: Percentage of children with a good level of development (GLD) at age 5, 2013/14 to 2024/25
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on ONS data)
+source: Department for Education
 
 dataset: cyp_gld
 
@@ -133,15 +130,15 @@ theme: CYP
 
 Note: reforms introduced in September 2021 resulted in significant revision of the early years foundation stage profile (EYFS) including GLD. It is therefore not possible to directly compare assessment outcomes since 2021/22 with earlier years. No data is available for 2020/21 as data collection was disrupted by the pandemic.
 
-*Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/early-years-foundation-stage-profile-results/2023-24)*
+*Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/early-years-foundation-stage-profile-results/2024-25)*
 
 Children are defined as having a Good Level of Development (GLD) if they are at the expected level for the 12 early learning goals within five areas of learning relating to: communication and language; personal, social and emotional development; physical development; literacy; and mathematics.
 
-In 2023/24, 70.0% of pupils in London achieved a GLD by age 5, compared to 67.7% in England. This is an increase over the last two years for both London (2021/22: 67.8%) and England (65.2%).
+In 2024/25, 70.7% of pupils in London achieved a GLD by age 5, compared to 68.3% in England. This is an increase over the last three years for both London and England.
 
 When broken down by various characteristics – ethnicity, first language, eligibility for free school meals, those with SEN support needs – London pupils do at least as well, and in most cases better, than those in England overall with the same characteristics. There are still differences between these sub-groups, however, with Chinese, Indian and Mixed White and Asian children most likely to achieve a Good Level of Development (GLD) in London.
 
-In 2023/24, 58% of children in London eligible for free school meals (FSM) did not achieve a GLD by age 5, compared to 73.7% among children not classed as eligible for FSM. A lower proportion of Black children achieved a GLD by age 5 (62.9%), compared to their White (73.1%), Mixed ethnicity (73.3%) and Asian (71.6%) counterparts.
+In 2024/25, 58.9% of children in London eligible for free school meals (FSM) achieved a GLD by age 5, compared to 74.3% among children not classed as eligible for FSM. A lower proportion of Black children achieved a GLD by age 5 (62.9%), compared to their White (73.8%), Mixed ethnicity (73.4%) and Asian (72.8%) counterparts.
 
 ---
 
@@ -149,11 +146,11 @@ Chart: Chart
 
 title: Average Attainment 8 (Key Stage 4/GCSEs) score
 
-subTitle: Average Attainment 8 score (out of 90)3 per pupil in London and England, 2015/16 to 2022/23
+subTitle: Average Attainment 8 score (out of 90)3 per pupil in London and England, 2015/16 to 2024/25
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on Active Lives Adult Survey, Sport England)
+source: Department for Education
 
 dataset: cyp_attainment8
 
@@ -163,29 +160,27 @@ theme: CYP
 
 <img src="attachments/children-and-young-people/media/image10.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-4-performance/2023-24)
+Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-4-performance/2024-25)
 
-Attainment 8 score is a measure of a student's overall achievement at GCSE, summing grades in eight key subjects with Maths and English double-weighted, with a maximum score of 90. The average Attainment 8 score for London’s pupils is consistently higher than that for England, and in 2023/24 it was 50.8 compared to 46.1 in England.
+Attainment 8 score is a measure of a student's overall achievement at GCSE, summing grades in eight key subjects with Maths and English double-weighted, with a maximum score of 90. The average Attainment 8 score for London’s pupils is consistently higher than that for England, and in 2024/25 it was 50.5 compared to 46.0 in England.
 
-London pupils do better than those across England as a whole, on each element of the Attainment 8 score and across almost all attributes from ethnicity to free school meal (FSM) status. The exception is that Black pupils – both boys and girls in London - had slightly lower average attainment 8 scores than Black pupils for England as a whole.
+London pupils do better than those across England as a whole, on each element of the Attainment 8 score and across almost all attributes from ethnicity to free school meal (FSM) status. The exception is that Black pupils had slightly lower average attainment 8 scores than Black pupils for England as a whole.
 
-In London in 2023/24, there were gaps in Attainment 8 scores by sex, ethnicity, first language, Free School Meal (FSM) eligibility, Special Educational Needs (SEN) and disadvantaged status:
+In London in 2024/25, there were gaps in Attainment 8 scores by sex, ethnicity, first language, Free School Meal (FSM) eligibility, Special Educational Needs (SEN) and disadvantaged status:
 
-- Among ethnic groups, Asian pupils achieved the highest Average Attainment 8 score (56.8) and Black pupils the lowest (46.7).
+- Among ethnic groups, Asian pupils achieved the highest Average Attainment 8 score (56.2) and Black pupils the lowest (45.9).
 
-- Pupils whose first language was English achieved a slightly lower Average Attainment 8 score (50.3) than those who have a first language other than English (51.8).
+- Pupils whose first language was English achieved a slightly lower Average Attainment 8 score (50.3) than those who have a first language other than English (51.2).
 
-- Pupils who are eligible for FSM achieved a lower Average Attainment 8 score (42.1) compared to all other pupils not classed as eligible for FSM (54.3).
+- Pupils who are eligible for FSM achieved a lower Average Attainment 8 score (42.0) compared to all other pupils not classed as eligible for FSM (54.4).
 
-
-## Safety of children and young Londoners
-
----
-component: LLOSection
+---\
+component: LLOSection\
 llos:
-  - Children and young Londoners are safe from harm.
----
 
+- Safety of children and young Londoners
+
+---
 
 ---
 
@@ -216,16 +211,13 @@ Certain groups of young people were less likely to say they felt safe at school 
 
 In the most recent survey (2021-22), approximately four in five (81%) of young people reported that they felt safe online. Despite this, around one in five (19%) reported that something happened to them online during the last year that made them worried.
 
-
-
-## Opportunities for children and young Londoners
-
----
-component: LLOSection
+---\
+component: LLOSection\
 llos:
-  - Children and young Londoners have the positive opportunities needed to be successful.
----
 
+- Opportunities for children and young Londoners
+
+---
 
 Figure 7: Young people Not in Education, Employment, or Training (NEET)
 
@@ -233,7 +225,7 @@ Figure 7: Young people Not in Education, Employment, or Training (NEET)
 
 <img src="attachments/children-and-young-people/media/image14.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/neet-statistics-annual-brief/2024) (based on the Labour Force Survey, ONS)
+Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/neet-statistics-annual-brief/2025) (based on the Labour Force Survey, ONS)
 
 Note: Labour Force Survey (LFS) data has been reweighted from January 2019 onwards. There is a discontinuity in the timeseries at this point and comparisons to earlier data should be made with caution.
 
@@ -243,7 +235,7 @@ Chart: Chart
 
 title: Young people Not in Education, Employment, or Training (NEET)
 
-subTitle: Proportion of young people aged 16-24 NEET in Q4 (October-December), 2000-2024
+subTitle: Proportion of young people aged 16-24 NEET in Q4 (October-December), 2000-2025
 
 byline: GLA City Intelligence
 
@@ -255,9 +247,9 @@ theme: CYP
 
 ---
 
-In Q4 2024, over 156,000 16–24-year-olds in London were NEET, equivalent to 15.2%. This was a increase of over 4 percentage points from a year earlier in Q4 2023 (11.0%), and higher than the rate for England (13.6%).
+In Q4 2025, 126,000 16–24-year-olds in London were NEET, equivalent to 12.0%. This was a decrease of over 3 percentage points from a year earlier in Q4 2024 (15.2%), and higher than the rate for England (13.3%).
 
-Prior to this recent increase, the proportion of young adults that are NEET fell between 2012 and 2016, but then stabilised, and then fell again as more young people stayed on in education during the coronavirus pandemic.
+The proportion of young adults that are NEET fell between 2012 and 2016, but then stabilised, and then fell again as more young people stayed on in education during the coronavirus pandemic.
 
 Figure 8: Achievement of Level 3 qualifications by age 19
 
@@ -301,7 +293,7 @@ Chart: Chart
 
 title: School absence
 
-subTitle: Overall school absence rates (%) for pupils in state-funded schools in London and England, 2006/07 to 2023/24
+subTitle: Overall school absence rates (%) for pupils in state-funded schools in London and England, 2006/07 to 2024/25
 
 byline: GLA City Intelligence
 
@@ -313,33 +305,33 @@ theme: CYP
 
 ---
 
-Overall school absence rates in London increased rapidly during the pandemic, from 4.5% in 2020/21 to a peak of 7.0% in 2022/23. Absence rates have since decreased to 6.4% in 2023/24. The absence rate in London is lower than that in England (2023/24: 7.1%).
+Overall school absence rates in London increased rapidly during the pandemic, from 4.5% in 2020/21 to a peak of 7.0% in 2022/23. Absence rates have since decreased to 6.3% in 2024/25. The absence rate in London is lower than that in England (2024/25: 6.8%).
 
-The rate in London in 2023/24 varied by school type, and was highest for special schools (12.7%), followed by state-funded secondary (7.4%) and lowest for state-funded primary schools (7.4%). The overall rates do not reflect inequalities by pupil characteristics. For example, in 2023/24 in London:
+The rate in London in 2024/25 varied by school type, and was highest for special schools (12.6%), followed by state-funded secondary (7.2%) and lowest for state-funded primary schools (5.3%). The overall rates do not reflect inequalities by pupil characteristics. For example, in 2024/25 in London:
 
-- The rate was higher for Free School Meal (FSM) eligible pupils (8.7%) than those not eligible for FSM (5.4%)
+- The rate was higher for Free School Meal (FSM) eligible pupils (8.7%) than those not eligible for FSM (5.3%)
 
-- Special Educational Needs (SEN) pupils had the higher rates at 9.2%, compared to 5.7% for those with no SEN.
+- Special Educational Needs (SEN) pupils had the higher rates at 9.1%, compared to 5.6% for those with no SEN.
 
-- The rate also varied by ethnicity, with the lowest rate being among Black pupils (5.4%) and highest among Unclassified (7.5%) and Mixed ethnicity pupils (7.1%).
+- The rate also varied by ethnicity, with the lowest rate being among Black pupils (5.5%) and highest among Unclassified (7.6%) and Mixed ethnicity pupils (7.0%).
 
 Figure 10: School suspension rate
 
-Suspension rate per 100 pupils in state-funded schools in London and England, 2006/7 to 2022/23[^4]
+Suspension rate per 100 pupils in state-funded schools in London and England, 2006/7 to 2023/24[^4]
 
 <img src="attachments/children-and-young-people/media/image20.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2022-23)
+Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2023-24)
 
-The suspension rate in London schools increased from 4.3 per 100 pupils in 2021/22 to 5.0 per 100 pupils in 2022/23, continuing an upward trend since the pandemic (2019/20: 2.5 per 100 pupils). A similar trend is seen for England, with a consistently higher suspension rate and a more rapid increase to 9.3 per 100 pupils in 2022/23. Prior to the pandemic, the suspension rate had been increasing more gradually (from 2.9 per 100 pupils in 2013/14 in London).
+The suspension rate in London schools increased from 5.0 per 100 pupils in 2022/23 to 5.7 per 100 pupils in 2023/24, continuing an upward trend since the pandemic (2019/20: 2.5 per 100 pupils). A similar trend is seen for England, with a consistently higher suspension rate and a more rapid increase to 11.3 per 100 pupils in 2023/24. Prior to the pandemic, the suspension rate had been increasing more gradually (from 2.9 per 100 pupils in 2013/14 in London).
 
-The rate of suspension for pupils in London in 2022/23 varied substantially by pupil characteristics, including by ethnicity, FSM-eligibility, and SEN status:
+The rate of suspension for pupils in London in 2023/24 varied substantially by pupil characteristics, including by ethnicity, FSM-eligibility, and SEN status:
 
-- Black pupils (7.4) had the highest suspension rate among pupils, over four times the rate for Asian pupils (1.8), which is the lowest.
+- Black pupils (8.6) had the highest suspension rate among pupils, over four times the rate for Asian pupils (2.1), which is the lowest.
 
-- Pupils who were eligible for FSM (9.7) were almost three times more likely to have a suspension than pupils not eligible for FSM (3.3).
+- Pupils who were eligible for FSM (12.1) were almost four times more likely to have a suspension than pupils not eligible for FSM (3.3).
 
-- Pupils with SEN were more likely to have a suspension (12.2) than those with no SEN (3.5).
+- Pupils with SEN were more likely to have a suspension (12.8) than those with no SEN (4.0).
 
 ---
 
@@ -363,19 +355,37 @@ theme: CYP
 
 <img src="attachments/children-and-young-people/media/image22.svg" style="width:6.26389in;height:3.13194in" />
 
-*Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2022-23)*
+*Source: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/suspensions-and-permanent-exclusions-in-england/2023-24)*
 
-A similar trend to the suspension rate can be observed for the exclusion rate. The exclusion rate in London schools increased from 0.04 per 100 pupils in 2021/22 to 0.06 per 100 pupils in 2022/23, continuing an upward trend since 2020/21 (0.03 per 100 pupils). The rate remains below the England average, which in 2022/23 was 0.11 per 100 pupils.
+---
+
+Chart: Chart
+
+title: School permanent exclusion rate (PER)
+
+subTitle: Permanent exclusion rate per 100 pupils for London and England, 2006/07 to 2022/23
+
+byline: GLA City Intelligence
+
+source: Department for Education
+
+dataset: cyp_exclusion
+
+theme: CYP
+
+---
+
+A similar trend to the suspension rate can be observed for the exclusion rate. The exclusion rate in London schools increased from 0.06 per 100 pupils in 2022/23 to 0.07 per 100 pupils in 2023/24, continuing an upward trend since 2020/21 (0.03 per 100 pupils). The rate remains below the England average, which in 2023/24 was 0.13 per 100 pupils.
 
 The exclusion rate in London has trended downwards since the mid-2000s. Prior to 2013/14, the rate in London was higher than the national average but since then it has remained below it.
 
-There were inequalities in the exclusion rate by pupil characteristics in London in 2022/23:
+There were inequalities in the exclusion rate by pupil characteristics in London in 2023/24:
 
-- Black pupils (0.08) had the highest exclusion rate among pupils of different ethnicities, and Asian pupils the lowest (0.02).
+- Mixed pupils (0.10) had the highest exclusion rate among pupils of different ethnicities, and Asian pupils the lowest (0.03).
 
-- FSM-eligible pupils (0.13) were more likely to have an exclusion than pupils not eligible for FSM (0.04).
+- FSM-eligible pupils (0.15) were more likely to have an exclusion than pupils not eligible for FSM (0.04).
 
-- SEN pupils were more likely to have an exclusion (0.16) compared to those with no SEN (0.04).
+- SEN pupils were more likely to have an exclusion (0.17) compared to those with no SEN (0.05).
 
 [^1]: PRUs are for children who are unable to attend school and may not otherwise receive suitable education. This could be because they have a short- or long-term illness, have been excluded, or are a new starter waiting for a mainstream school place. See [DfE](https://www.gov.uk/guidance/pupil-referral-units-converting-to-alternative-provision-academies#:~:text=Pupil%20referral%20units%20(%20PRUs%20)%20teach,for%20a%20mainstream%20school%20place.).
 

@@ -9,6 +9,12 @@ This chapter covers themes such as support for those most in need and reducing i
 
 The chapter is structured around the following four London-Level Outcomes:
 
+---
+
+Component: LLOIntro
+
+llos:
+
 - Londoners’ incomes meet their everyday needs.
 
 - Londoners are treated fairly and with dignity.
@@ -17,11 +23,21 @@ The chapter is structured around the following four London-Level Outcomes:
 
 - Londoners get on with and support each other.
 
+---
+
 The majority of measures covered in this section are reported annually, though some are reported more frequently. Much of the data is drawn from the Department for Culture, Media and Sport’s (DCMS) [Community Life Survey](https://www.gov.uk/government/collections/community-life-survey--2). This is a key source for understanding more about community engagement, volunteering and social cohesion throughout England. In previous years, the GLA published [summaries](https://data.london.gov.uk/dataset/community-life-survey-london) of this survey, providing a comparison between London and the rest of England. In 2022, the GLA also published the headline findings from the [Survey of Londoners 2021-22](https://data.london.gov.uk/dataset/survey-of-londoners-2021-22), which has data relating to many of these issues.
 
 There is a clear pattern that Londoners living in the most deprived areas have poorer outcomes compared with those living in the least deprived areas across various measures (e.g., neighbourhood relationships, trust and social isolation).
 
-## Londoners’ incomes meet their everyday needs
+---
+
+component: LLOSection
+
+llos:
+
+- Income and poverty
+
+---
 
 ---
 
@@ -133,7 +149,13 @@ Food security measures whether households have sufficient food to facilitate an 
 
 Furthermore, in 2023/24, four per cent of households in London had used a food bank within the last 12 months, the same as food bank use in the last 12 months across the UK.
 
-## Londoners are treated fairly and with dignity
+---
+
+component: LLO
+
+title: Fairness and equality
+
+---
 
 ---
 
@@ -267,7 +289,15 @@ theme: Social Justice
 
 In 2022, the pay gap between disabled and non-disabled workers within London, based on the median pay, is estimated at 10% in London and 14% for the UK as a whole. There is a degree of volatility in the data, due to smaller sample sizes. In the past, it was the case that the London disability pay gap was larger than that for the UK as a whole in most years. However, in recent years, the disability pay gap in London has fallen below the disability pay gap for the UK.
 
-## Londoners can have their say in the running of the city
+---
+
+component: LLOSection
+
+llos:
+
+- Community participation
+
+---
 
 ---
 
@@ -325,7 +355,15 @@ Since 2013-14, the percentage of people in London reporting that they could pers
 
 The feeling of influence has regularly been higher in London compared with England since 2013-14, on average, by six percentage points. Both across England and in London, it is at its lowest level compared with 2013-14.
 
-## Londoners get on with and support each other
+---
+
+component: LLOSection
+
+llos:
+
+- Community cohesion
+
+---
 
 ---
 

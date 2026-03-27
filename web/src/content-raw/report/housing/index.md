@@ -5,6 +5,12 @@ section: London in Figures\
 navLabel: London in Figures\
 ---
 
+---
+
+Component: LLOIntro
+
+llos:
+
 - Londoners live in homes they can afford
 
 - Londoners’ homes are safe and decent
@@ -13,13 +19,23 @@ navLabel: London in Figures\
 
 - Londoners live in neighbourhoods that are well planned and designed.
 
+---
+
 There were around 3.82 million homes in London in 2024, a number that has increased by just under 40,000 a year on average in the last five years. Housing supply in London has not kept up with demand, which has contributed to the city’s very high housing costs: the median price of homes sold in London in the year to February 2025 was £557,500, while the average private rent was £2,163 per month in the year ending March 2025.
 
 The high cost of housing and the scarcity of suitable accommodation means that London has particularly high rates of housing need. According to official statistics, around 1.7% of all households in London are homeless and living in temporary accommodation, compared to around 0.2% in the rest of England.
 
 The GLA’s annual [Housing in London report](https://data.london.gov.uk/housing/housing-in-london/) provides a more in-depth analysis of London’s housing market.
 
-## Londoners live in homes they can afford  
+---
+
+component: LLOSection
+
+llos:
+
+- Housing affordability
+
+---
 
 ---
 
@@ -29,9 +45,9 @@ title: Londoners’ ability to meet their housing costs
 
 subTitle: Percentage of London adults who say they have not been able to meet housing payments over the last six months, or have struggled to do so.
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: YouGov Plc on behalf of the GLA
+source: GLA cost of living polling (YouGov Plc on behalf of the GLA)
 
 dataset: missed_payment
 
@@ -59,9 +75,9 @@ title: Affordability in the private rental sector
 
 subTitle: Index of private rent, earnings and implied affordability
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: YouGov Plc on behalf of the GLA
+source: ONS Pay As You Earn Real Time Information, ONS Price Index of Private Rents
 
 dataset: rent_affordability
 
@@ -87,7 +103,7 @@ title: Londoners’ ability to pay their rent
 
 subTitle: Percentage of households that find it fairly or very difficult to pay rent
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
 source: English Housing Survey
 
@@ -113,9 +129,9 @@ title: Households in temporary accommodation
 
 subTitle: Number of homeless households in temporary accommodation arranged by London boroughs
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: MHCLG
+source: MHCLG Homelessness statistics
 
 dataset: hmls
 
@@ -135,7 +151,15 @@ London has more households in temporary accommodation than the rest of England c
 
 The number of homeless households in private sector temporary accommodation has risen sharply in the last year. In December 2023, there were 23,180 households in private sector accommodation, but by December 2024 this had risen to 30,040. In December 2024, 5,940 households were being temporarily accommodated in Bed and Breakfasts (B&B), including 1,700 households with children (of which 1,400 had been in the B&B for more than 6 weeks), a 3% increase from the previous year after a recent peak earlier in the year. There were 12,690 homeless households being temporarily accommodated in social housing in December 2024, a figure that rose sharply from 2018 to early 2023, but which fell marginally before steadily increasing in the last year.
 
-## Londoners’ homes are safe and decent
+---
+
+component: LLOSection
+
+llos:
+
+- Housing safety and quality
+
+---
 
 ---
 
@@ -145,7 +169,7 @@ title: Decent Homes
 
 subTitle: Percentage of homes meeting the Decent Homes Standard
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
 source: English Housing Survey
 
@@ -173,11 +197,11 @@ Chart: Chart
 
 title: Remediation of tall residential buildings with unsafe cladding
 
-subTitle: "% of residential buildings with unsafe cladding remediated"
+subTitle: % of residential buildings with unsafe cladding remediated
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: MHCLG
+source: MHCLG Building Safety Remediation data
 
 dataset: cladding_remediation
 
@@ -197,7 +221,15 @@ As of the end of February 2025, 5,014 residential buildings 11 metres and over i
 
 The remediation process is complete for 31% of monitored buildings in London, compared to 32% across England, even though the higher density and greater complexity of buildings in London can make access for works more difficult.
 
-## Londoners should not be homeless  
+---
+
+component: LLOSection
+
+llos:
+
+- Homelessness
+
+---
 
 ---
 
@@ -207,9 +239,9 @@ title: New rough sleepers
 
 subTitle: Number of people seen rough sleeping for the first time by outcome of the second night.
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: CHAIN quarterly rough sleeping reports
+source: MHCLG Homelessness statistics
 
 dataset: roughsleeping_first_time
 
@@ -233,7 +265,7 @@ title: New rough sleepers
 
 subTitle: Number of people seen rough sleeping for the first time by outcome of the second night.
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
 source: CHAIN quarterly rough sleeping reports
 
@@ -259,9 +291,9 @@ title: Households accepted as statutorily homeless
 
 subTitle: Number of households owed a prevention or relief duty and accepted as statutorily homeless in London
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: MHCLG
+source: MHCLG Homelessness statistics
 
 dataset: homeless_decisions
 
@@ -279,7 +311,15 @@ There were 17,550 households assessed as owed a new prevention or relief duty in
 
 Between Q3 2023 and Q3 2024, the number of households owed a prevention or relief duty increased by almost 18%, rising from 14,640 to 17,270. Over the same period, main duty acceptances rose by 22%, from 3,800 households to 4,650.
 
-## Londoners live in neighbourhoods that are well planned and designed 
+---
+
+component: LLOSection
+
+llos:
+
+- Neighbourhood planning and design
+
+---
 
 ---
 
@@ -289,9 +329,9 @@ title: Satisfaction with local neighbourhood
 
 subTitle: Percentage of adults very or fairly satisfied with their neighbourhood area as a place to live
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: Satisfaction with local neighbourhood
+source: DCMS Community Life Survey
 
 dataset: neighbourhood_satisfaction
 
@@ -313,9 +353,9 @@ title: Sense of belonging to local neighbourhoods
 
 subTitle: Percentage of adults feeling a sense of belonging in their local neighbourhood area
 
-byline: GLA City Intelligence
+byline: GLA Housing Policy and Strategy
 
-source: Community Life Survey
+source: DCMS Community Life Survey
 
 dataset: neighbourhood_belonging
 
@@ -330,3 +370,4 @@ Source: Community Life Survey
 In 2023- 24, 57% of Londoners felt that they belonged very or fairly strongly to their immediate neighbourhood. This marks an increase from 2014-15, when neighbourhood belonging in London was at its lowest point at 49%, before rising to a peak of 59% in both 2019 and 2020. Since 2013, the sense of neighbourhood belonging in London has, on average, been 5 percentage points lower than the national average for England.
 
 \
+=

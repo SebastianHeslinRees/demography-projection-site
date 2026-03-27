@@ -9,7 +9,15 @@ This section draws on a subset of the [Mayor’s Transport Strategy](https://gre
 
 For a more in-depth analysis of the performance of London’s transport network see the [Travel in London Annual Overview](https://tfl.gov.uk/corporate/publications-and-reports/travel-in-london-reports), a publication by TfL which summarises trends and developments related to transport and travel in London.
 
-## London’s transport system enables everyone to get to where they want to go safely, sustainably, reliably and affordably
+---
+
+component: LLOSection
+
+llos:
+
+- Transport
+
+---
 
 ---
 

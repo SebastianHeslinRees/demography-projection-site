@@ -11,17 +11,31 @@ London consistently ranks among the foremost global cities, underpinned by its d
 
 The chapter is structured around the following three London-level outcomes:
 
+---
+
+Component: LLOIntro
+
+llos:
+
 - London is a world-leading global city.
 
 - London is an attractive and high-quality destination for visitors.
 
 - Londoners feel able to take part in the city’s cultural life.
 
+---
+
 Further data and information are available through the research and insights pages of [London & Partners](https://www.londonandpartners.com/our-insight).
 
-## 
+---
 
-## London is a world-leading global city
+component: LLOSection
+
+llos:
+
+- Global city status
+
+---
 
 Figure 1: London’s global city competitiveness
 
@@ -51,7 +65,7 @@ London’s average ranking across these four indices was 1.5 in 2024, the same a
 
 ---
 
-Chart: Chart
+Chart: VerticallyFacetedChart
 
 title: Foreign Direct Investment in London
 
@@ -77,7 +91,15 @@ Capital expenditure (Capex) associated with FDI has exhibited notable fluctuatio
 
 Such variability is anticipated, as Capex figures are influenced by the scale and nature of individual projects, shifts in sectoral investment patterns, and broader economic conditions that affect investor confidence and risk appetite.
 
-## London is an attractive and high-quality destination for visitors 
+---
+
+component: LLOSection
+
+llos:
+
+- Tourism
+
+---
 
 Figure 3: Visits to London
 
@@ -169,7 +191,15 @@ A gradual recovery followed: in 2022, visits rebounded to 16.1 million, rising f
 
 Similar patterns can be observed for international visitor expenditure, which dropped dramatically during the pandemic, from £15.7 billion in 2019 to £2.6 billion in 2020 (2019 prices), before recovering to £14.2 billion in 2024 according to provisional figures.
 
-## Londoners feel able to take part in the city’s cultural life
+---
+
+component: LLOSection
+
+llos:
+
+- Engagement in culture
+
+---
 
 Cultural engagement is an essential element of London’s identity as a global capital of creative arts and cultural enrichment. It enhances wellbeing, supports the city’s economy, and fosters community cohesion. Understanding who participates—and who does not—helps identify inequalities and improve access to cultural life for all Londoners.
 
@@ -234,6 +264,7 @@ Source: DCMS Participation Survey[^4]
 In contrast to physical engagement, London residents are more likely than people in other regions to engage with arts and culture online. In 2023/24, 38.3% of Londoners said they had engaged with the arts online in the last 12 months, compared to the England average of 36.4%. This represent an increase from the 30% rate in 2021/22.
 
 \
+=
 
 [^1]: Methodological changes limit longer-term comparisons of domestic tourism visits.
 
