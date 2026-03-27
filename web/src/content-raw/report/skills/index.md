@@ -11,6 +11,8 @@ This chapter examines the skills of London’s population, focussing on the foll
 
 Component: LLOIntro
 
+llos:
+
 - Londoners have the skills they need to improve their lives.
 
 - London’s economy has the skills it needs to thrive.

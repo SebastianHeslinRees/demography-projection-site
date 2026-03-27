@@ -1,8 +1,8 @@
----\
-title: Children and young people\
-description: Reports on children and young people\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Children and young people
+description: Reports on children and young people
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter reports on children and young people, focusing in particular on the following three London-Level Outcomes:
@@ -25,9 +25,10 @@ It sets out trends across several indicators covering health and wellbeing, educ
 
 The Mayor is championing [inclusive education in London](https://www.london.gov.uk/what-we-do/education-and-youth/london-curriculum/inclusive-education), and is working to tackle mental health issues affecting young people, [child poverty and health inequality](https://www.london.gov.uk/what-we-do/education-and-youth/support-families-and-early-years/tackling-child-poverty-and-health) across the city. The [Health Inequalities Strategy](https://www.london.gov.uk/what-we-do/health/health-inequalities/london-health-inequalities-strategy) provides more information on health inequalities for children across London.
 
----\
-component: LLOSection\
-llos: Health and education of children and young Londoners\
+---
+component: LLOSection
+llos:
+- Health and education of children and young Londoners
 ---
 
 ---
@@ -174,8 +175,8 @@ In London in 2024/25, there were gaps in Attainment 8 scores by sex, ethnicity, 
 
 - Pupils who are eligible for FSM achieved a lower Average Attainment 8 score (42.0) compared to all other pupils not classed as eligible for FSM (54.4).
 
----\
-component: LLOSection\
+---
+component: LLOSection
 llos:
 
 - Safety of children and young Londoners
@@ -202,7 +203,7 @@ theme: CYP
 
 <img src="attachments/children-and-young-people/media/image12.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Youth Survey, MOPAC ([2018](https://www.london.gov.uk/sites/default/files/youth_voice_survey_report_2018_final.pdf) and [2021-22](https://www.london.gov.uk/sites/default/files/2023-10/MOPAC%20Youth%20Survey%20202122%20FINAL.pdf)).\
+Source: Youth Survey, MOPAC ([2018](https://www.london.gov.uk/sites/default/files/youth_voice_survey_report_2018_final.pdf) and [2021-22](https://www.london.gov.uk/sites/default/files/2023-10/MOPAC%20Youth%20Survey%20202122%20FINAL.pdf)).
 Note: No data available on perceptions of online safety for 2018.
 
 In 2021-22, 88% of young people aged 11-16 in London reported that they felt safe at school, an increase from 84% in 2018. 76% of young people reported that they felt safe in the area they live, a small increase from 74% in 2018. There was also an overlap between these locations, with 5% of the sample reporting that they felt unsafe both at home and at school in 2021-22. This reveals a small but potentially vulnerable group of young Londoners growing up in the capital without a sense of safety across either of these locations.
@@ -211,8 +212,8 @@ Certain groups of young people were less likely to say they felt safe at school 
 
 In the most recent survey (2021-22), approximately four in five (81%) of young people reported that they felt safe online. Despite this, around one in five (19%) reported that something happened to them online during the last year that made them worried.
 
----\
-component: LLOSection\
+---
+component: LLOSection
 llos:
 
 - Opportunities for children and young Londoners

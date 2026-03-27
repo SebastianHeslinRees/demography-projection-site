@@ -165,11 +165,11 @@ Chart: Chart
 
 title: Smoking prevalence in adults
 
-subTitle: % of adults aged 18 and over who are current smokers in London and England, 2011 to 2023
+subTitle: Percentage of adults aged 18 and over who are current smokers in London and England, 2011 to 2023
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on the Annual Population Survey, ONS)
+source: Public health profiles, OHID (based on the Annual Population Survey, ONS
 
 dataset: smoking
 

@@ -197,7 +197,7 @@ Chart: Chart
 
 title: Remediation of tall residential buildings with unsafe cladding
 
-subTitle: % of residential buildings with unsafe cladding remediated
+subTitle: Percentage of residential buildings with unsafe cladding remediated
 
 byline: GLA Housing Policy and Strategy
 
