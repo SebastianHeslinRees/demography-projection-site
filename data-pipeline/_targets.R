@@ -10,7 +10,7 @@ tar_option_set(
   packages = c(
     "tibble", "dplyr", "tidyr", "purrr",
     "readr", "jsonlite", "lubridate",
-    "openxlsx", "readxl"
+    "openxlsx2", "readxl"
   )
 )
 

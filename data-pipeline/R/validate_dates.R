@@ -1,3 +1,27 @@
+#' Convert legacy date formats in the xd column to YYYY/MM/DD
+#'
+#' Handles both DD/MM/YYYY (legacy) and YYYY/MM/DD (current) date strings,
+#' converting legacy formats to the standard YYYY/MM/DD. Non-date values
+#' (years, fiscal years, categories) are left unchanged.
+#'
+#' @param df A tibble with an xd column
+#' @return The input tibble with date values in xd converted to YYYY/MM/DD
+convert_xd_dates <- function(df) {
+  df |>
+    dplyr::mutate(
+      xd = dplyr::case_when(
+        # Already in YYYY/MM/DD format
+        grepl("^\\d{4}/\\d{2}/\\d{2}$", xd) ~ xd,
+        # DD/MM/YYYY or DD-MM-YYYY (legacy) — convert to YYYY/MM/DD
+        grepl("^\\d{2}[/-]\\d{2}[/-]\\d{4}$", xd) ~
+          format(suppressWarnings(lubridate::dmy(xd)), "%Y/%m/%d"),
+        # Everything else (years, fiscal years, categories) — keep as-is
+        TRUE ~ xd
+      )
+    )
+}
+
+
 #' Classify the xd column type based on timeperiod_type
 #'
 #' Determines how the xd value should be validated based on
@@ -20,22 +44,23 @@ classify_xd_type <- function(timeperiod_type) {
 
 #' Validate xd values based on their classified type
 #'
-#' Applies type-specific validation rules to each row. For date types,
-#' validates DD/MM/YYYY format using lubridate::dmy(). For years,
-#' checks four-digit format and reasonable range. For fiscal years,
-#' checks YYYY-YY or YYYY/YY patterns. Categorical text passes
-#' without validation.
+#' Converts legacy date formats to YYYY/MM/DD, then applies type-specific
+#' validation rules to each row. For date types, validates YYYY/MM/DD
+#' format using lubridate::ymd(). For years, checks four-digit format
+#' and reasonable range. For fiscal years, checks YYYY-YY or YYYY/YY
+#' patterns. Categorical text passes without validation.
 #'
 #' @param df A tibble with xd and timeperiod_type columns
 #' @return The input tibble with xd_type and xd_valid columns added
 validate_xd <- function(df) {
   df |>
+    convert_xd_dates() |>
     dplyr::mutate(
       xd_type = classify_xd_type(timeperiod_type),
-      # Refine fiscal_year: if xd is actually a DD/MM/YYYY date, treat as "date"
+      # Refine fiscal_year: if xd is actually a YYYY/MM/DD date, treat as "date"
       xd_type = dplyr::case_when(
         xd_type == "fiscal_year" &
-          grepl("^\\d{2}[/-]\\d{2}[/-]\\d{4}$", xd) ~ "date",
+          grepl("^\\d{4}/\\d{2}/\\d{2}$", xd) ~ "date",
         TRUE ~ xd_type
       ),
       # Refine year_or_category: if xd matches a 4-digit year, call it "year";
@@ -46,7 +71,7 @@ validate_xd <- function(df) {
         TRUE ~ xd_type
       ),
       xd_valid = dplyr::case_when(
-        # Date validation: DD/MM/YYYY or DD-MM-YYYY
+        # Date validation: YYYY/MM/DD
         xd_type == "date" ~ validate_date_string(xd),
         # Plain year validation
         xd_type == "year" ~ validate_year_string(xd),
@@ -62,16 +87,16 @@ validate_xd <- function(df) {
 }
 
 
-#' Validate a DD/MM/YYYY date string
+#' Validate a YYYY/MM/DD date string
 #'
-#' Checks format matches the expected pattern and that lubridate::dmy()
+#' Checks format matches the expected pattern and that lubridate::ymd()
 #' can parse it successfully (catches invalid days like 31st February).
 #'
 #' @param xd Character vector of date strings
 #' @return Logical vector: TRUE if valid, FALSE otherwise
 validate_date_string <- function(xd) {
-  format_ok <- grepl("^\\d{2}[/-]\\d{2}[/-]\\d{4}$", xd)
-  parse_ok <- !is.na(suppressWarnings(lubridate::dmy(xd)))
+  format_ok <- grepl("^\\d{4}/\\d{2}/\\d{2}$", xd)
+  parse_ok <- !is.na(suppressWarnings(lubridate::ymd(xd)))
   format_ok & parse_ok
 }
 
