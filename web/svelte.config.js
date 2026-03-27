@@ -14,7 +14,10 @@ const config = {
 			'$content/*': '.velite/*'
 		},
 		adapter: adapter(),
-		prerender: { entries: ['*', ...contentIndex.map((d) => d.slugFull)] },
+		prerender: {
+			 entries: ['*', ...contentIndex.map((d) => d.slugFull)],
+			 handleMissingId: 'ignore' 
+			},
 		paths: { base: dev ? '' : '/state-of-london' }
 	},
 	onwarn: (warning, handler) => {
