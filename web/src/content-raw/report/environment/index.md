@@ -1,8 +1,8 @@
----\
-title: Environment\
-description: The most up-to-date information available on the state of London’s environment\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Environment
+description: The most up-to-date information available on the state of London’s environment
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter provides the most up-to-date information available on the state of London’s environment. It focuses on four London-level outcomes:

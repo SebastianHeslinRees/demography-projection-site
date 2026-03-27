@@ -1,8 +1,8 @@
----\
-title: Crime\
-description: A broad overview of crime and safety issues affecting London.\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Crime
+description: A broad overview of crime and safety issues affecting London.
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter provides a broad overview of crime and safety issues affecting London. The seven featured indicators mirror the Tier 1 and Tier 2 measures in the Outcomes Framework for the [Mayor’s Police and Crime Plan](https://www.london.gov.uk/programmes-strategies/mayors-office-policing-and-crime-mopac/mayors-police-and-crime-plan-2025-2029) (PCP).
@@ -27,7 +27,8 @@ The collated data for these seven indicators will be included in the PCP in due 
 
 component: LLOSection
 
-title: Safety
+llos:
+- Safety
 
 ---
 
@@ -271,7 +272,7 @@ Looking at demographic characteristics, trust levels varied across the categorie
 
 Respondents in the Black and Mixed ethnic groups had significantly low levels of trust in the MPS. The proportion in these groups agreeing with the MPS trust statement was at least 10 percentage points lower than the average. In addition, the gap between LGBT+ respondents and non-LGBT+ respondents has increased further from 5% in 2020 to 18%.
 
-\
+
 =
 
 [^1]: For more information see: MOPAC (2025), [‘Police and Crime Plan Performance Framework’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20Performance%20Framework.pdf); and MOPAC (2025),[’Oversight Framework Explanatory Note’](https://www.london.gov.uk/sites/default/files/2025-03/Police%20and%20Crime%20Plan%202025-29%20-%20Performance%20Framework%20Technical%20Note.pdf).

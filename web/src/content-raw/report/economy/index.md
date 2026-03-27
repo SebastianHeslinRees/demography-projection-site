@@ -1,8 +1,8 @@
----\
-title: Economy\
-description: The performance of London's economy and how it is benefiting Londoners.\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Economy
+description: The performance of London's economy and how it is benefiting Londoners.
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter focuses on the performance of London’s economy and how it is benefiting Londoners. Indicators have been chosen which relate to the following three London-level outcomes:
@@ -11,7 +11,7 @@ This chapter focuses on the performance of London’s economy and how it is bene
 
 Component: LLOIntro
 
-Llos:
+llos:
 
 - Stable, long-term economic growth benefits all of Londoners.
 
@@ -347,7 +347,7 @@ theme: Economy
 
 <img src="attachments/economy/media/image18.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by BT, via the High Streets Data Service\
+Source: Aggregated and anonymised data by BT, via the High Streets Data Service
 Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
 
 Footfall is a useful proxy for business and economic activity in high streets and town centres. By specifically looking at an area’s visitors (that is, not its workers or residents), these counts can approximate retail activity (including shopping and dining). Footfall data are supplied by BT, which produces an estimate of workers, residents, and visitors for each high street and town centre based on a model of BT/EE mobile handset movements combined with census population estimates.
@@ -374,7 +374,7 @@ theme: Economy
 
 <img src="attachments/economy/media/image20.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service\
+Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service
 Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
 
 In-store spending data can be used to estimate the retail growth of London’s high streets and town centres. One measure is the total retail spend in an area, while a second measure is the total number of purchases made in that area. Retail spend data are supplied by Mastercard, reporting relative transaction amounts and counts occurring in its own network of debit and credit cards in physical shops. The data are further adjusted with a model to better estimate total retail spending on all merchant cards, as well as with cash.
@@ -401,7 +401,7 @@ theme: Economy
 
 <img src="attachments/economy/media/image22.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service.\
+Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service.
 Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
 
 Total purchases in 2024 increased for approximately two thirds of London’s high streets and town centres compared to 2023. 70% of Inner- and Outer-London retail areas showed a year-on-year increase in the number of purchases during the day, while the percentage of Outer-London high streets and town centres with increased purchasing at night (72%) slightly outpaced that seen for Inner-London areas (60%).
@@ -436,7 +436,6 @@ Across London as a whole, the average vacancy rate in a high street or town cent
 
 In the rest of the UK, about one in ten shopfronts (10.5%) were vacant. The majority of both Inner London's (64%) and Outer London's (72%) high streets and town centres had vacancy rates below this 10.5% nationwide rate.
 
-\
 =
 
 [^1]: Hobbs & Mutebi (2022), '[The impact of remote and hybrid working on workers and organisations'](https://researchbriefings.files.parliament.uk/documents/POST-PB-0049/POST-PB-0049.pdf)

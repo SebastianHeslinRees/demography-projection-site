@@ -1,8 +1,8 @@
----\
-title: Health\
-description: A high-level overview of health in London,\
-section: London in Figures\
-navLabel: London in Figures\
+---
+title: Health
+description: A high-level overview of health in London,
+section: London in Figures
+navLabel: London in Figures
 ---
 
 This chapter provides a high-level overview of health in London, focussing on the following two London-Level Outcomes:
@@ -213,10 +213,9 @@ Source: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulation
 
 Anxiety levels increased slightly between 2021-22 and 2022-23, from 3.28 to 3.34 in London and from 3.13 to 3.24 in England. Similarly, life satisfaction fell slightly from 2021-22 to 2022-23, from 7.46 to 7.35 in London and 7.55 to 7.44 in England.
 
-\
 -
 
-##  
+##
 
 ---
 
