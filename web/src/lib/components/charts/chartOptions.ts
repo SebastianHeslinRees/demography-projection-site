@@ -41,7 +41,8 @@ export type ChartOptions = {
     chartType: 'line' | 'lineChartWithLineStyles' |
         'barChartVertical' | 'barChartVerticalGrouped' | 'barChartHorizontal' | 'barChartHorizontalGrouped' | 'barChartStacked' | 'barChartStackedTimeseries' |
         'stackedHistogram' |
-        'incomeSlope';
+        'incomeSlope' |
+        'choropleth';
 
     /**
      * If `true`, force 0 to be included in the domain of the y-axis.
@@ -112,6 +113,15 @@ export type ChartOptions = {
       * This is not the number of ticks that *should* be drawn, but rather an indication of how many ObservablePlot chooses to draw, used to determine the y-axis overhangs.
       */
      numTicks?: number;
+
+     /**
+      * Can be used to override threshold color scale for a choropleth map.
+      * TODO: may need to generalise to allow customization of colors on other map types too,
+      */
+     colorScale?: {
+        domain: number[];
+        range: string[];
+     }
 }
 
 export type ChartDataRow = {
@@ -1055,6 +1065,20 @@ export const chartOptions: Record<string, ChartOptions> = {
         includeZero: true
 
     },
+
+    "overweight_percentage": {
+        "chartType": "choropleth",
+        "type": "character",
+        "timeperiod_type": null,
+        "ytickformat": ".0%",
+        "x_order": null,
+
+        colorScale: {
+            range: ['#E0E8F3', '#93AECB', '#58708A', '#2A323D'],
+            domain: [0.5, 0.57, 0.62]
+        }
+    },
+
 
     "anxiety_lifesat": {
         "chartType": "line",
