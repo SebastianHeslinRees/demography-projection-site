@@ -7,13 +7,29 @@ navLabel: London in Figures\
 
 This chapter examines the skills of London’s population, focussing on the following two London-Level Outcomes:
 
+---
+
+Component: LLOIntro
+
+llos:
+
 - Londoners have the skills they need to improve their lives.
 
 - London’s economy has the skills it needs to thrive.
 
+---
+
 For more information on skills in London see the [GLA Adult Skills Fund Data Publication](https://data.london.gov.uk/dataset/gla-adult-skills-fund), analysis of the [London Learner Survey](https://data.london.gov.uk/dataset/london-learner-survey), [Apprenticeships Statistics for London](https://data.london.gov.uk/dataset/gla-economics-skills-and-employment-analysis), analysis of the [Employer Skills Survey](https://data.london.gov.uk/blog/evidence-from-the-employer-skills-survey-2022/#:~:text=According%20to%20the%202022%20Employer,recorded%20by%20employers%20in%202019.), and [Labour Market Analysis of London’s Priority Sectors](https://data.london.gov.uk/dataset/labour-market-analysis-of-london-s-priority-sectors).
 
-## Londoners have the skills they need to improve their lives  
+---
+
+component: LLOSection
+
+llos:
+
+- Skills and learner outcomes
+
+---
 
 ---
 
@@ -113,7 +129,15 @@ theme: Skills
 
 The latest available data shows that 84% of London HEI graduates in academic year 2019/20 were in a positive destination (i.e., either employment or further study) the year after graduating. This is a marginal decline from a peak of 88% in 2016/17. The proportion is slightly lower (by 4 percentage points in 2019/20) than for English HEIs overall. This is due to London having a more competitive labour market, with a higher share of the workforce having degree qualifications or higher and London attracting international talent, making it comparatively more difficult for new graduates to enter the labour market.
 
-## London’s economy has the skills it needs to thrive 
+---
+
+component: LLOSection
+
+llos:
+
+- Skills in the economy
+
+---
 
 ---
 
@@ -125,7 +149,7 @@ subTitle: Percentage of employees who are not fully proficient at their job
 
 byline: GLA City Intelligence
 
-source: Employer Skills Survey, 2022
+source: Employer Skills Survey, 2024
 
 dataset: emp_prof
 
@@ -135,9 +159,9 @@ theme: Skills
 
 <img src="attachments/skills/media/image10.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: Employer Skills Survey, 2022
+Source: Employer Skills Survey, 2024
 
-Since 2015, the percentage of employees who are judged as ‘not fully proficient at their job’ by their employer has remained relatively stable, with a small rise in 2022 (5% in 2015 and 6% in 2022). A similar trend and proportions were seen across England.
+Between 2015 and 2022, the percentage of employees who are judged as ‘not fully proficient at their job’ by their employer, also called the skills gap density, has remained relatively stable, with a small rise in 2022 (5% in 2015 and 6% in 2022). A similar trend and proportions were seen across England. In 2024, in London, the skills gap density declined to 5.6%, however this was still higher than the pre-pandemic percentage of 3.8% and only marginally below the 2022 peak of 5.8%. At the England level the skills gap declined to below the pre-pandemic level in 2024.
 
 ---
 
@@ -149,7 +173,7 @@ subTitle: Percentage of skills shortage vacancies
 
 byline: GLA City Intelligence
 
-source: Employer Skills Survey, 2022
+source: Employer Skills Survey, 2024
 
 dataset: skills_short
 
@@ -159,9 +183,9 @@ theme: Skills
 
 <img src="attachments/skills/media/image12.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: Employer Skills Survey, 2022
+Source: Employer Skills Survey, 2024
 
-‘Skills shortage vacancies’ refer to vacancies that employers struggle to fill due to a lack of skills, qualifications or experience amongst applicants. The share of skills shortage vacancies, amongst all vacancies in London, increased significantly between 2015 and 2022, from 20% to 32%. In 2022, the share of skills shortage vacancies was 4 percentage points below the share across all of England.
+‘Skills shortage vacancies’ refer to vacancies that employers struggle to fill due to a lack of skills, qualifications or experience amongst applicants. The share of skills shortage vacancies, amongst all vacancies in London, increased significantly between 2015 and 2022, from 20% to 32%. In 2022, the share of skills shortage vacancies was 4 percentage points below the share across all of England. Data for 2024 shows some easing, with the share of skills shortage vacancies in London declining to 24% but remaining above the 2019 level of 21%, a similar trend was seen at the England level.
 
 ---
 
@@ -173,7 +197,7 @@ subTitle: Percentage of establishments that have funded or arranged any training
 
 byline: GLA City Intelligence
 
-source: Employer Skills Survey, 2022
+source: Employer Skills Survey, 2024
 
 dataset: bus_train
 
@@ -181,11 +205,11 @@ theme: Skills
 
 ---
 
-<img src="attachments/skills/media/image14.svg" style="width:6.26389in;height:3.19306in" />Source: Employer Skills Survey, 2022
+<img src="attachments/skills/media/image14.svg" style="width:6.26389in;height:3.19306in" />Source: Employer Skills Survey, 2024
 
-Employer provision of training is important to ensure that courses are well tailored to the needs of firms and in turn London’s economy. Employers can provide either training that equips employees for the requirements of their current job (defined in the Employer Skills Survey as on-the-job training) or training that goes beyond that (off-the-job training).
+Employer provision of training is important to ensure that courses are well tailored to the needs of firms and in turn London’s economy. Employers can provide either training that equips employees for the requirements of their current job (defined in the Employer Skills Survey as on-the-job training) or training that goes beyond that (off-the-job training). Despite easing recruitment pressures, employer investment in training has declined over recent years.
 
-Since 2015, training provision by London employers has fallen by 5 percentage points (from 65% to 60%), potentially due to increased cost constraints for employers. The overall trend in provision in London is similar to that for the whole of England.
+Since 2015, training provision by London employers has fallen by 6 percentage points (from 65% to 59%). Evidence suggests that a wide range of factors including rising costs pressures, constraints on employer capacity to plan and deliver training and the shift towards responsibility for training falling on individuals could be driving these trends. The overall trend in provision in London is similar to that for the whole of England.
 
 ---
 

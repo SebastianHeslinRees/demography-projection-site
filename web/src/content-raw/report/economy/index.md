@@ -7,15 +7,31 @@ navLabel: London in Figures\
 
 This chapter focuses on the performance of London’s economy and how it is benefiting Londoners. Indicators have been chosen which relate to the following three London-level outcomes:
 
+---
+
+Component: LLOIntro
+
+Llos:
+
 - Stable, long-term economic growth benefits all of Londoners.
 
 - Londoners have access to good work.
 
 - High streets and town centres are thriving across London.
 
+---
+
 For more information about London’s economy, see the monthly GLA Economics publication, [‘London’s Economy Today’](https://www.london.gov.uk/what-we-do/research-and-analysis/economic-analysis/monitoring-londons-economy). An assessment of London’s economic prospects, including forecasts, is provided in the bi-annual publication [‘London’s Economic Outlook’](https://www.london.gov.uk/what-we-do/research-and-analysis/economic-analysis/monitoring-londons-economy#Stub-412102). Detailed analysis on London’s labour market, including GLA Economics’ monthly Labour Market Update, can be found on the [London Datastore](https://data.london.gov.uk/london-labour-market/). For in-depth analysis on fairness and inclusivity in London’s economy, see the Economic Fairness section of the [London Datastore](https://data.london.gov.uk/economic-fairness/).
 
-## Stable, long-term economic growth benefits all Londoners
+---
+
+component: LLOSection
+
+llos:
+
+- Economic growth and income inequality
+
+---
 
 Economic growth benefits people in many ways, most importantly through job creation, rising wages, and improvements in living standards. This section examines London’s economic growth rate, some of the key drivers of growth, and income inequality in London.
 
@@ -151,6 +167,24 @@ Figure 6: Household income inequality
 
 \*90:10 ratio of weekly equivalised household income (after housing costs), London and the UK (2021/22 - 2023/24, 2023/24 prices)
 
+---
+
+Chart: Chart
+
+title: Household income inequality
+
+subTitle: 90:10 ratio of weekly equivalised household income (after housing costs), London and the UK(2021/22 - 2023/24, 2023/24 prices)
+
+byline: GLA City Intelligence
+
+source: GLA analysis of DWP HBAI data
+
+dataset: income_inequality
+
+theme: Economy
+
+---
+
 <img src="attachments/economy/media/image10.png" style="width:6.37443in;height:3.15609in" />
 
 Source: GLA analysis of DWP HBAI data
@@ -161,13 +195,35 @@ Incomes for the lowest tenth of earners in London are 39% lower than the lowest 
 
 Looking at “typical” earners, median equivalised income after housing costs for a household in London is now roughly 10% higher than households in the rest of the UK – at £632 per week and £574 per week for London and the rest of the UK respectively.
 
-## Londoners have access to good work
+---
+
+component: LLOSection
+
+llos:
+
+- Access to good work
+
+---
 
 Another important London-level outcome is whether Londoners can access employment, and whether that work offers fair pay and conditions, opportunities for progression and positive relationships between workers and employers.
 
-Figure 7: Employment rate
+---
 
-\*Percentage of the working age population in employment in London
+Chart: Chart
+
+title: Employment rate
+
+subTitle: Percentage of the working age population in employment
+
+byline: GLA City Intelligence
+
+source: ONS Labour Force Survey
+
+dataset: emp
+
+theme: Economy
+
+---
 
 <img src="attachments/economy/media/image12.svg" style="width:6.26389in;height:3.19306in" />
 
@@ -261,7 +317,15 @@ Londoners were also more likely to work unpaid overtime (only 77.0% in London di
 
 The fall in London’s average score of 0.3 percentage points (pp) between 2020 and 2022 included fewer employees (-2.1 pp) earning above the 60% London median wage, and fewer respondents reporting positive career progression (-1.5 pp). There were smaller drops in non-zero hours contracts, satisfactory hours and desired contracts, which were offset by a falling share of those doing unpaid overtime (1.2 pp) and seeing positive employee involvement (up 1.0 pp).
 
-## High streets and town centres are thriving across London
+---
+
+component: LLOSection
+
+llos:
+
+- High streets and town centres
+
+---
 
 ---
 

@@ -34,7 +34,7 @@ const convertFile = (inFilePath, outFilePath) => {
 
     // any section-dividing lines/rules in the original word doc will be stripped out by Pandoc
     // any instance of "---" gets replaced by "\-\--" by pandoc (to prevent it from being interpreted as a section divider)
-    const inLines = fileContent.replaceAll("\\-\\--", "---").split("\n").map(l => l.trimEnd().replace(/\\$/, ''));
+    const inLines = fileContent.replaceAll("\\-\\--", "---").split("\n").map(l => l.trimEnd().replace(/\\$/, '')).filter(l => l.trim() !== '=');
 
     let outLines = [];
     let imports = []

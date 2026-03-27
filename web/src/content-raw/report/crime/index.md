@@ -23,6 +23,14 @@ The collated data for these seven indicators will be included in the PCP in due 
 
 ## London is a safe city
 
+---
+
+component: LLOSection
+
+title: Safety
+
+---
+
 Figure 1: Total Notifiable Offences (TNOs)
 
 Number of offences recorded annually by the Metropolitan Police Service (MPS)
@@ -101,11 +109,11 @@ Chart: Chart
 
 title: Proven reoffending rate
 
-subTitle: "% of offender cohort that committed a further proven offence within 12 months"
+subTitle: Percentage of offender cohort that committed a further proven offence within 12 months
 
 byline: GLA City Intelligence
 
-source: "Ministry of Justice, Proven Reoffending Statistics: April to June 2023"
+source: Ministry of Justice Proven Reoffending Statistics April to June 2023
 
 dataset: proven_reoffending
 

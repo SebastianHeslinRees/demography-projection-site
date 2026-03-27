@@ -7,6 +7,12 @@ navLabel: London in Figures\
 
 This chapter provides the most up-to-date information available on the state of London’s environment. It focuses on four London-level outcomes:
 
+---
+
+Component: LLOIntro
+
+llos:
+
 - London is a net zero carbon city
 
 - Londoners are breathing clean air
@@ -15,13 +21,23 @@ This chapter provides the most up-to-date information available on the state of 
 
 - London is resilient to extreme weather and the impacts of climate change.
 
+---
+
 To compare London’s progress on reducing Greenhouse Gas emissions with other C40 Cities, see the [C40 Knowledge Hub interactive dashboard](https://www.c40knowledgehub.org/s/article/C40-cities-greenhouse-gas-emissions-interactive-dashboard?language=en_US).
 
 For more information on air quality, the [London Air Quality Network](https://www.londonair.org.uk/LondonAir/nowcast.aspx) provides a London-wide map of hourly concentration of air pollutants. [Breathe London](https://www.breathelondon.org/) also provides a map with charts showing hourly updates of the concentration of air pollutants at several measurement sites across London.
 
 The [People and Nature Surveys for England](https://www.gov.uk/government/collections/people-and-nature-survey-for-england) provide further regional evidence on people's access, understanding and enjoyment of nature, and how it contributes to wellbeing.
 
-## London is a net zero carbon city
+---
+
+component: LLOSection
+
+llos:
+
+- Carbon emissions
+
+---
 
 Greenhouse gas emissions (GHG) in London are reported annually in the [London Energy and Greenhouse Gas Inventory (LEGGI)](https://data.london.gov.uk/dataset/leggi). The latest report, published in November 2024, shows data for 2022 - the most recent year for which information is available.
 
@@ -59,7 +75,7 @@ Chart: Chart
 
 title: Energy efficiency ratings of new and existing homes, London
 
-subTitle: "% of all domestic Energy Performance Certificates (EPCs) with a rating of A-C out of all domestic EPCs registered on the Energy Performance of Buildings Register"
+subTitle: Percent of all domestic Energy Performance Certificates (EPCs) with a rating of A-C out of all domestic EPCs registered on the Energy Performance of Buildings Register
 
 byline: GLA City Intelligence
 
@@ -95,7 +111,7 @@ Chart: Chart
 
 title: Household waste recycling rate
 
-subTitle: "% of collected household waste that is recycled"
+subTitle: Percent of collected household waste that is recycled
 
 byline: GLA City Intelligence
 
@@ -115,7 +131,15 @@ Recycling helps reduce the GHG emissions associated with the entire product life
 
 Figure 4 shows the share of household waste collected by Local Authorities in London and England that is sent for recycling. The recycling rate in London has stayed the same for the last three years, at 32.7%. Since 2014/15, London’s household waste recycling rate has remained consistently below England’s. Nationally, recycling rates in England are slightly higher in 2023/24 than the previous year at 42.3% but remain lower than in 2019/20.
 
-## Londoners are breathing clean air
+---
+
+component: LLOSection
+
+llos:
+
+- Air quality
+
+---
 
 There is strong evidence linking adverse health impacts to levels of nitrogen dioxide (NO<sub>2</sub>) and particulate matter (PM), especially the smaller-sized particulate matter (PM<sub>2.5</sub>).
 
@@ -139,7 +163,15 @@ Figure 6 shows that the annual mean roadside concentration of PM<sub>2.5</sub> i
 
 The averages were calculated from air quality monitoring sites in Central, Inner and Outer London, between January and December 2024. For both site types, the averages are well below the requirements of UK legislation (the Air Quality Standards Regulations 2010 state that the annual average concentration must not exceed 20µg/m<sup>3</sup>) but remain above the WHO Air Quality Guideline target of 5 µg/m<sup>3</sup>.
 
-## Londoners can enjoy green and wild spaces across the capital
+---
+
+component: LLOSection
+
+llos:
+
+- Green and wild spaces
+
+---
 
 ---
 
@@ -189,7 +221,15 @@ While the latest data would indicate a decrease in tree canopy cover, there is n
 
 By comparison, London’s tree canopy cover figures surpass both the UK urban average of 17.3% and the England average of 17.5% reported in Forest Research’s 2017 UK Urban Canopy Cover study[^8]. Although figures are not directly comparable due to differing methodology, the study finds that approximately one-quarter of urban wards in the UK have canopy cover exceeding 20%, a benchmark often suggested as a minimum target. GLA’s analysis indicates that London’s overall canopy cover is just below this threshold.
 
-## London is resilient to extreme weather and the impacts of climate change
+---
+
+component: LLOSection
+
+llos:
+
+- Climate change resilience
+
+---
 
 The [London Climate Resilience Review](https://www.london.gov.uk/programmes-strategies/environment-and-climate-change/climate-change/climate-adaptation/london-climate-resilience-review) published in June 2024 is an independent report, commissioned by the Mayor of London, to take stock of London’s preparations for climate impacts and make recommendations. The three most urgent climate risks facing London are: 1) extreme heat; 2) drought; and 3) surface water flooding. These risks and resulting negative impacts are likely to increase even with significant investment in adaptation measures.
 

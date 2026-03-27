@@ -2,3 +2,4 @@
 preprocess/input-files/
 preprocess/attachments/
 web/.velite
+.DS_Store

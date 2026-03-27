@@ -1,0 +1,17 @@
+{
+  "name": "State of London Data Pipeline",
+  "image": "mcr.microsoft.com/devcontainers/r:4",
+  "postCreateCommand": "mkdir -p ~/R/library && R -e 'dir.create(Sys.getenv(\"R_LIBS_USER\"), recursive = TRUE, showWarnings = FALSE); .libPaths(Sys.getenv(\"R_LIBS_USER\")); install.packages(c(\"targets\", \"tibble\", \"tarchetypes\", \"dplyr\", \"tidyr\", \"purrr\", \"readr\", \"jsonlite\", \"lubridate\", \"openxlsx2\", \"readxl\", \"rlang\"), repos = \"https://cloud.r-project.org\")'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "RDebugger.r-debugger"
+      ],
+      "settings": {
+        "r.bracketedPaste": true,
+        "r.plot.useHttpgd": true
+      }
+    }
+  }
+}

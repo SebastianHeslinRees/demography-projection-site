@@ -7,9 +7,17 @@ navLabel: London in Figures\
 
 This chapter provides a high-level overview of health in London, focussing on the following two London-Level Outcomes:
 
-- Londoners live in a city that supports their mental and physical health  
+---
 
-- Londoners have access to a health and care system that supports them when they need it  
+Component: LLOIntro
+
+llos:
+
+- Londoners live in a city that supports their mental and physical health
+
+- Londoners have access to a health and care system that supports them when they need it
+
+---
 
 Physical and mental health is determined by a complex interaction between several factors, including wider determinants of health and access to the health and care system.
 
@@ -21,7 +29,15 @@ Similarly, equality of access to health and care systems is vital to ensure ever
 
 This chapter contains material which is covered in greater depth in the report ‘[Snapshot of Health Inequalities in London](https://data.london.gov.uk/dataset/snapshot-of-health-inequalities-in-london)’ and the Office for Health Improvement and Disparities’ (OHID) [Public health profiles](https://fingertips.phe.org.uk/profiles).
 
-## Londoners live in a city that supports their mental and physical health
+---
+
+Component: LLOSection
+
+llos:
+
+- Londoners live in a city that supports their mental and physical health
+
+---
 
 ---
 
@@ -149,11 +165,11 @@ Chart: Chart
 
 title: Smoking prevalence in adults
 
-subTitle: "% of adults aged 18 and over who are current smokers in London and England, 2011 to 2023"
+subTitle: Percentage of adults aged 18 and over who are current smokers in London and England, 2011 to 2023
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on the Annual Population Survey, ONS)
+source: Public health profiles, OHID (based on the Annual Population Survey, ONS
 
 dataset: smoking
 
@@ -170,6 +186,8 @@ In 2023, adult (18+) smoking prevalence in London was 11.7%, similar to the leve
 In 2023, the prevalence of smoking in London for working-age adults (aged 18-64) in routine and manual occupations was 15.2%, higher than the rate among all adults (11.7% in adults 18+). Smoking prevalence among routine and manual occupations has fallen over time (from 25.7% in London in 2013)[^4].
 
 Data from the GP Patient Survey (GPPS) in 2022-23 show that smoking prevalence in London is higher in adults (18+) with a long-term mental health condition at 26.3%, compared to 15.0% in the general adult population identified from the GPPS.[^5]
+
+[^6]
 
 ---
 
@@ -198,7 +216,17 @@ Anxiety levels increased slightly between 2021-22 and 2022-23, from 3.28 to 3.34
 \
 -
 
-## Londoners have access to a health and care system when they need it 
+##  
+
+---
+
+Component: LLOSection
+
+llos:
+
+- Londoners have access to a health and care system when they need it
+
+---
 
 ---
 
@@ -222,7 +250,7 @@ theme: Health
 
 Source: [Public health profiles, OHID](https://fingertips.phe.org.uk/profile/mortality-profile) (based on ONS data)
 
-Cardiovascular diseases (CVD) and cancer are leading causes of death in London[^6] and major causes of death in those under 75, which are considered premature. There have been large improvements over the last 20 years as treatments and lifestyles have improved, but there is a continued focus on improving outcomes in these areas through prevention and treatment.
+Cardiovascular diseases (CVD) and cancer are leading causes of death in London[^7] and major causes of death in those under 75, which are considered premature. There have been large improvements over the last 20 years as treatments and lifestyles have improved, but there is a continued focus on improving outcomes in these areas through prevention and treatment.
 
 Twenty years ago, in 2001-03, the under-75 mortality rate from CVD in London was 145.0 per 100,000 and in 2021-23 this had reduced to 74.5 per 100,000, noticeably lower than the rate for England (77.1 per 100,000) in the same period. However, there has been little change in the last five years as the rates have plateaued.
 
@@ -334,7 +362,7 @@ Source: [Personal Social Services Adult Social Care Survey, NHS Digital](https:/
 
 Note: The 2020-21 survey was voluntary due to the impact of the COVID-19 pandemic, and only select councils participated. Caution should be taken when comparing other years to 2020-21.
 
-The NHS Personal Social Services Adult Social Care Survey measures the public’s satisfaction with social care. As seen with satisfaction with the NHS, the public’s satisfaction with social care is higher in England than London, at 86% for London and 89% for England in 2023-24. Satisfaction varies slightly among boroughs in London, varying from 80% in Southwark to 90% in Bexley.[^7]
+The NHS Personal Social Services Adult Social Care Survey measures the public’s satisfaction with social care. As seen with satisfaction with the NHS, the public’s satisfaction with social care is higher in England than London, at 86% for London and 89% for England in 2023-24. Satisfaction varies slightly among boroughs in London, varying from 80% in Southwark to 90% in Bexley.[^8]
 
 [^1]: [What are health inequalities? \| The King's Fund (kingsfund.org.uk)](https://www.kingsfund.org.uk/publications/what-are-health-inequalities)
 
@@ -346,6 +374,8 @@ The NHS Personal Social Services Adult Social Care Survey measures the public’
 
 [^5]: OHID, Fingertips. Smoking Profile. Available from: https://fingertips.phe.org.uk/profile/tobacco-control (accessed 10/03/25)
 
-[^6]: Nomis, ONS. Mortality statistics 2023 - underlying cause, sex and age.
+[^6]:
 
-[^7]: Excludes City of London, which had a 100% satisfaction rate but a small sample size, so there is a lot of uncertainty in this figure.
+[^7]: Nomis, ONS. Mortality statistics 2023 - underlying cause, sex and age.
+
+[^8]: Excludes City of London, which had a 100% satisfaction rate but a small sample size, so there is a lot of uncertainty in this figure.
