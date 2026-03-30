@@ -7,7 +7,7 @@ import path from 'node:path';
 // import { glob } from 'node:glob';
 
 const componentBase = "$lib/components/charts";
-const inDirPath = './src/content-raw';
+const inDirPath = '../content-raw';
 const outDirPath = "./src/content";
 
 
