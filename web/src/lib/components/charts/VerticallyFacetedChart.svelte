@@ -3,6 +3,7 @@
     import {theme} from "@ldn-viz/ui";
 
     import {chartOptions} from "$lib/components/charts/chartOptions";
+    import {loadChartData, type ChartDataRow} from "$lib/components/charts/utils";
     import {stackedHistogram} from "$lib/components/charts/chartTypes/stackedHistogram";
     import {barChartHorizontalGrouped} from "$lib/components/charts/chartTypes/barChartHorizontalGrouped";
     import {barChartVerticalGrouped} from "$lib/components/charts/chartTypes/barChartVerticalGrouped";
@@ -32,44 +33,11 @@
 
     let options = $derived(chartOptions[dataset])
 
-    type Data = {
-        dataset: string;
-        xd: string;
-        b: string;
-        y: number;
-    }[];
-
-
-    const convertVal = (val) => {
-        if (options.type === "integer"){
-            return +val;
-        } else if (options.type === "date" && !["Financial Year"].includes(options.timeperiod_type) ){
-            return new Date(val);
-        }
-        return val;
-    }
-
     // fetch data
     let data = $state([]);
-    fetch(`https://apps.london.gov.uk/api/tables/state_of_london/chart_data?dataset=eq.${dataset}`)
-        .then(res => res.json())
-        .then(dataRes => {
+    loadChartData(dataset, options).then(newData => { data = newData; });
 
-                const newData = data = dataRes.map(d => ({
-                    ...d,
-                    xd: convertVal(d.xd)
-                }))
-                    .filter(d => !options.hide || !options.hide.includes(d.b));
-
-                if (dataset === "job_posts"){
-                    newData.sort((a, b) => a.xd - b.xd)
-                }
-                data = newData;
-
-            }
-        );
-
-    const getColorScale = (data: Data) => {
+    const getColorScale = (data: ChartDataRow[]) => {
         const domain = new Array(...new Set(data.map(d => d.b))).sort();
 
         const colors = [
