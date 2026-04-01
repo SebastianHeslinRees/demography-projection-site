@@ -2,14 +2,19 @@ import { defineConfig } from 'mdsx';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+import type { ElementContent } from 'hast';
 import type { Root as HastRoot } from 'hast';
 import type { Root as MdastRoot } from 'mdast';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypePrettyCode from 'rehype-pretty-code';
 import rehypeSlug from 'rehype-slug';
-import remarkGfm from 'remark-gfm';
+import { gfmFootnote } from 'micromark-extension-gfm-footnote';
+import { gfmFootnoteFromMarkdown, gfmFootnoteToMarkdown } from 'mdast-util-gfm-footnote';
+import { gfmTable } from 'micromark-extension-gfm-table';
+import { gfmTableFromMarkdown, gfmTableToMarkdown } from 'mdast-util-gfm-table';
+import remarkRehype from 'remark-rehype';
 import { createHighlighter } from 'shiki';
-import type { Transformer } from 'unified';
+import type { PluggableList, Transformer } from 'unified';
 import { visit } from 'unist-util-visit';
 
 type MdastTransformer = Transformer<MdastRoot, MdastRoot>;
@@ -44,8 +49,48 @@ const prettyCodeOptions = {
 	}
 };
 
-export const baseRemarkPlugins = [remarkGfm, remarkRemovePrettierIgnore];
-export const baseRehypePlugins = [
+/**
+ * Override how mdast-util-to-hast formats back-refs for footnotes
+ * (the link from the footnote abck to the link in the text that references it)
+ * to remove the back emoji.
+ */
+function footnoteBackContent(_referenceIndex: number, rereferenceIndex: number): ElementContent[] {
+	// by default, this would begin with a ↩ emoji; we strip this out to insert the equivalent icon from our icon set
+	const backrefs = rereferenceIndex > 1 ? `${rereferenceIndex}` : '';
+	return [{ type: 'text', value: backrefs }];
+}
+
+// N.B. we want the tables and footnote features from GitHub Flavoured Markdwon
+//  (GFM), but we can't just use remarkGfm, as this also enables "autolink 
+// literals", which replaces URLs passed as props to components with <a>
+//  elements. This gives errors for components like <FurtherReading>.
+// Arguably this is an upstream bug.
+// remark-gfm is a thin wrapper around micromark-extensions-gfm 
+// (https://github.com/remarkjs/remark-gfm/blob/main/lib/index.js)
+// which combines micromark-extension-gfm-footnote and micromark-extension-gfm-table;
+// we can write similar wrappers for the separarate micromark pacakges.
+
+function remarkGfmFootnote(this: any): void {
+	const data = this.data();
+	(data.micromarkExtensions ??= []).push(gfmFootnote());
+	(data.fromMarkdownExtensions ??= []).push(gfmFootnoteFromMarkdown());
+	(data.toMarkdownExtensions ??= []).push(gfmFootnoteToMarkdown());
+}
+
+function remarkGfmTable(this: any): void {
+	const data = this.data();
+	(data.micromarkExtensions ??= []).push(gfmTable());
+	(data.fromMarkdownExtensions ??= []).push(gfmTableFromMarkdown());
+	(data.toMarkdownExtensions ??= []).push(gfmTableToMarkdown());
+}
+
+export const baseRemarkPlugins: PluggableList = [
+	remarkGfmFootnote,
+	remarkGfmTable,
+	remarkRemovePrettierIgnore,
+	[remarkRehype, { allowDangerousHtml: true, footnoteBackContent }]
+];
+export const baseRehypePlugins: PluggableList = [
 	rehypeSlug,
 	[rehypePrettyCode, prettyCodeOptions],
 	rehypeAutolinkHeadings,

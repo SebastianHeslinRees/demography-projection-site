@@ -34,4 +34,5 @@ Filenames are sanitised to lowercase with hyphens replacing spaces and special c
 
 ## Output format
 
-The conversion uses GFM (GitHub Flavoured Markdown) which supports pipe tables, strikethrough, and task lists. Complex tables with merged cells fall back to HTML `<table>` elements. This matches the `remark-gfm` plugin used in the web application's Markdown pipeline.
+The conversion supports *some* GFM (GitHub Flavoured Markdown) features, including pipe tables, and footnotes (but currently not strikethrough or task lists).
+Complex tables with merged cells fall back to HTML `<table>` elements. This matches the `remark-gfm` plugin used in the web application's Markdown pipeline.

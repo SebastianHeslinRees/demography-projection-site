@@ -1,0 +1,33 @@
+name: Build and trigger deploy to dev server
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PUBLIC_CHART_DATA_API_URL: https://apps.london.gov.uk/api/tables/state_of_london/chart_data_preview
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./web/
+
+      - name: Build
+        run: npm run build
+        working-directory: ./web/
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: build-artifact
+          path: web/build
+          retention-days: 5

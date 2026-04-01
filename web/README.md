@@ -1,14 +1,14 @@
 
 ## Content flow
 
-Markdown files are added to `src/content-raw`.
+Markdown files are added to `../content-raw`.
 
 These contain details of chart component to be inserted as metadata within fenced metadata blocks.
 
 Running `npm run build:content` calls `scripts/preprocessCharts.mjs`, which adds import statements and replaces the YAML with a usage of a Svelte component, writing these to `src/content`; because the contents of this directory are auto-generated, it is gitignored.
 It also calls `velite` to re-index the markdown files it has written.
 
-For example, if `src/content-raw/state-of-london/index.md` contains:
+For example, if `../content-raw/state-of-london/index.md` contains:
 
 ```md
 

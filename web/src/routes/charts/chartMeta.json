@@ -1,0 +1,850 @@
+[
+  {
+    "dataset": "emp",
+    "timeperiod_type": "Quarter",
+    "title": "Employment rate",
+    "subtitle": "Percentage of the working age population in employment",
+    "source": "ONS Labour Force Survey",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "dec_homes",
+    "timeperiod_type": "Annual",
+    "title": "Decent Homes ",
+    "subtitle": "Percentage of homes meeting the Decent Homes Standard",
+    "source": "English Housing Survey",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "med_hhi",
+    "timeperiod_type": "Financial Year",
+    "title": "Relative poverty",
+    "subtitle": "Percentage of people living in London households with income below 50% contemporary median – After Housing Costs (AHC)",
+    "source": "DWP Households Below Average Income",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "locals",
+    "timeperiod_type": "Monthly",
+    "title": "Neighbourhood cohesion",
+    "subtitle": "Proportion of Londoners who agree that people from different backgrounds get on well in their local area (%)",
+    "source": "MOPAC, Public Attitude Survey (PAS)",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "help",
+    "timeperiod_type": "Financial Year",
+    "title": "Social isolation",
+    "subtitle": "Proportion who agree that if they needed help there are people who would be there for them (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "hate_crimes",
+    "timeperiod_type": "Monthly",
+    "title": "Recorded hate crime",
+    "subtitle": "Number of hate crime offences in London as recorded by the MPS",
+    "source": "Met Police, MPS Monthly Crime Dashboard Data",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "green_gas",
+    "timeperiod_type": "Annual",
+    "title": "Greenhouse Gas emissions in London",
+    "subtitle": "Megatons of carbon dioxide equivalent (MtCO2e)",
+    "source": "London Energy and Greenhouse Gas Inventory (LEGGI), GLA",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "aqpm25",
+    "timeperiod_type": "annual",
+    "title": "Annual mean concentration of PM2.5 at the roadside between 2015 and 2024",
+    "subtitle": "Micrograms per cubic meter (µg/m3)",
+    "source": "London Air, Air Quality England, UK-Air",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "aqno2",
+    "timeperiod_type": "annual",
+    "title": "Annual mean concentration of NO2 at the roadside between 2015 and 2024",
+    "subtitle": "Micrograms per cubic meter (µg/m3)",
+    "source": "London Air, Air Quality England, UK-Air",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "part_of_nature",
+    "timeperiod_type": "Financial Year",
+    "title": "Connections with nature",
+    "subtitle": "Percentage of adult Londoners who agree/ strongly agree/completely agree that they ‘feel part of nature’",
+    "source": "Natural England (2024) People and Nature Surveys for England",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "heat_associated_deaths",
+    "timeperiod_type": "Annual",
+    "title": "Heat-associated deaths",
+    "subtitle": "Estimated number of heat-associated deaths in London",
+    "source": "UKHSA Heat mortality monitoring reports 2020-2024, Public Health England",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "recycling_rates",
+    "timeperiod_type": "Financial Year",
+    "title": "Household waste recycling rate",
+    "subtitle": "% of collected household waste that is recycled",
+    "source": "DEFRA, Local authority collected waste management - annual results",
+    "theme": "Environment"
+  },
+  {
+    "dataset": "emp_prof",
+    "timeperiod_type": "Annual",
+    "title": "Employers' views on the proficiency of their workforce",
+    "subtitle": "Percentage of employees who are not fully proficient at their job",
+    "source": "Employer Skills Survey, 2022",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "skills_short",
+    "timeperiod_type": "Annual",
+    "title": "Skills shortage vacancies",
+    "subtitle": "Percentage of skills shortage vacancies",
+    "source": "Employer Skills Survey, 2022",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "bus_train",
+    "timeperiod_type": "Annual",
+    "title": "Employer provision of training",
+    "subtitle": "Percentage of establishments that have funded or arranged any training for staff over the past 12 months",
+    "source": "Employer Skills Survey, 2022",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "fe_skills",
+    "timeperiod_type": "Academic Year",
+    "title": "Outcomes for Higher Education (HE) learners",
+    "subtitle": "Percentage of students from a London Higher Education Institution (HEI) who have a positive destination (%)",
+    "source": "Department of Education, LEO Graduate and Postgraduate Outcomes",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "grad_outcomes",
+    "timeperiod_type": "Academic Year",
+    "title": "Outcomes for Further Education (FE) learners",
+    "subtitle": "Percentage of FE and Skills learners with a positive destination (including employment and further learning), London 2017/18 - 2021/22",
+    "source": "Department of Education",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "job_posts",
+    "timeperiod_type": "Monthly",
+    "title": "Online job postings over time",
+    "subtitle": "Number of unique monthly job postings in London, all occupations",
+    "source": "Lightcast 2025",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "neets",
+    "timeperiod_type": "Annual",
+    "title": "People with no qualifications in London",
+    "subtitle": "Percentage of people aged 16-64 with no qualifications",
+    "source": "ONS Annual Population Survey, 2014-2023",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "level3",
+    "timeperiod_type": "Annual",
+    "title": "People with a Level 3 or above qualification in London",
+    "subtitle": "Percentage of people aged 16-64 with Level3+ qualifications",
+    "source": "ONS Annual Population Survey, 2014-2023",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "top_skills_common",
+    "timeperiod_type": "Annual",
+    "title": "Most in-demand common skills",
+    "subtitle": "Top common skills in demand as measured by frequency in job postings (%)",
+    "source": "Lightcast 2025",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "top_skills_technical",
+    "timeperiod_type": "Annual",
+    "title": "Most in-demand technical skills",
+    "subtitle": "Top technical skills in demand as measured by frequency in job postings (%)",
+    "source": "Lightcast 2025",
+    "theme": "Skills"
+  },
+  {
+    "dataset": "violence_with_injury",
+    "timeperiod_type": "Monthly",
+    "title": "Violence with Injury",
+    "subtitle": "Number of offences recorded monthly by the MPS",
+    "source": "MPS Monthly Crime Dashboard",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "proven_reoffending",
+    "timeperiod_type": "Annual",
+    "title": "Proven reoffending rate",
+    "subtitle": "% of offender cohort that committed a further proven offence within 12 months",
+    "source": "Ministry of Justice, Proven Reoffending Statistics: April to June 2023",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "victimisation_rate",
+    "timeperiod_type": "Monthly",
+    "title": "Victimisation rate",
+    "subtitle": "Percentage experiencing something they consider to be a crime during the month/quarter prior",
+    "source": "MOPAC, Public Attitude Survey (PAS)",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "victim_satisfaction",
+    "timeperiod_type": "Quarter",
+    "title": "Satisfaction level of reporting victims",
+    "subtitle": "Percentage of survey participants",
+    "source": "MOPAC, Public Attitude Survey (PAS)",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "worried_crime_asb",
+    "timeperiod_type": "Quarter",
+    "title": "Worried about Crime",
+    "subtitle": "Percentage of Londoners worried about crime and ASB in their local area",
+    "source": "MOPAC, Public Attitude Survey (PAS)",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "trust_in_mps",
+    "timeperiod_type": "Annual",
+    "title": "Trust in the Metropolitan Police Service",
+    "subtitle": "Percentage of survey participants (PAS) who agree that the MPS is an organisation that they can trust",
+    "source": "MOPAC, Public Attitude Survey (PAS)",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "tno",
+    "timeperiod_type": "Annual",
+    "title": "Total Notifiable Offences (TNOs)",
+    "subtitle": "Number of offences recorded annually by the Metropolitan Police Service (MPS)",
+    "source": "MOPAC Crime Dashboard, MPS Crime Dashboard",
+    "theme": "Crime"
+  },
+  {
+    "dataset": "health_le_m",
+    "timeperiod_type": "Three Year Average",
+    "title": "Life expectancy at birth",
+    "subtitle": "Life expectancy at birth in London and England by sex, 2011-13 to 2021-23 (three year rolling averages) ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "health_hle_m",
+    "timeperiod_type": "Three Year Average",
+    "title": "Healthy life expectancy at birth",
+    "subtitle": "Healthy life expectancy at birth in London and England by sex, 2011-13 to 2021-23 (three year rolling averages)",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "inf_mort",
+    "timeperiod_type": "Three Year Average",
+    "title": "Infant mortality rate ",
+    "subtitle": "Infant deaths under 1 year of age per 1,000 live births in London and England, 2001-03 to 2021–23 (three year rolling averages) ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "u75_m_cardio",
+    "timeperiod_type": "Three Year Average",
+    "title": "Premature death from cardiovascular disease",
+    "subtitle": "Under 75 directly standardised mortality rate per 100,000 from all circulatory diseases in London and England, 2001-03 to 2021-23 (three year rolling averages) ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "u75_m_cancer",
+    "timeperiod_type": "Three Year Average",
+    "title": "Premature death from cancer",
+    "subtitle": "Under 75 directly standardised mortality rate per 100,000 from cancer in London and England, 2001-03 to 2021-23 (three year rolling averages) ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "sat_nhs",
+    "timeperiod_type": "Annual",
+    "title": "Public satisfaction with the NHS",
+    "subtitle": "Percentage of individuals responding either ‘Very satisfied’ or ‘Quite satisfied’ to ‘How satisfied or dissatisfied would you say you are with the way in which the NHS runs nowadays?’, London and England, 2015-2021 ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "usat_scs",
+    "timeperiod_type": "Financial Year",
+    "title": "Public satisfaction with social care  ",
+    "subtitle": "Proportion of individuals either ‘Extremely or very satisfied’ or ‘Quite satisfied' with the care and support services you receive?’, London and England, 2016/17 to 2023/24 ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "lbw",
+    "timeperiod_type": "Annual",
+    "title": "Prevalence of low birth weight of term babies ",
+    "subtitle": "Percentage of all live births in London and England with gestational age of 37+ weeks, with a birth weight of <2.5 kg, 2006-2022 ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "smoking",
+    "timeperiod_type": "Annual",
+    "title": "Smoking prevalence in adults",
+    "subtitle": "% of adults aged 18 and over who are current smokers in London and England, 2011 to 2023 ",
+    "source": "Public health profiles, OHID (based on the Annual Population Survey, ONS)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "anxiety_lifesat",
+    "timeperiod_type": "Financial Year",
+    "title": "Anxiety and life satisfaction for adults ",
+    "subtitle": "Mean responses on a scale from 0-10 to “Overall, how anxious did you feel yesterday”, and \"Overall, how satisfied are you with your life nowadays?” for adults in London and England, 2011-12 to 2022-23 ",
+    "source": "Office for National Statistics (Based on Labour Force Survey)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "childhood_vacc",
+    "timeperiod_type": "Financial Year",
+    "title": "Childhood vaccination rates in London ",
+    "subtitle": "Childhood vaccination rates (%) for selected vaccinations, 2011/12 to 2023/24 ",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "Health"
+  },
+  {
+    "dataset": "energy_performance",
+    "timeperiod_type": "Quarter",
+    "title": "Energy efficiency ratings of new and existing homes, London",
+    "subtitle": "% of all domestic Energy Performance Certificates (EPCs) with a rating of A-C out of all domestic EPCs registered on the Energy Performance of Buildings Register",
+    "source": null,
+    "theme": "Environment"
+  },
+  {
+    "dataset": "cyp_gld",
+    "timeperiod_type": "Academic Year",
+    "title": "School readiness at age 5",
+    "subtitle": "Percentage of children with a good level of development (GLD) at age 5, 2013/14 to 2023/24",
+    "source": "Public health profiles, OHID (based on ONS data)",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_attainment8",
+    "timeperiod_type": "Academic Year",
+    "title": "Average Attainment 8 (Key Stage 4/GCSEs) score",
+    "subtitle": "Average Attainment 8 score (out of 90)3 per pupil in London and England, 2015/16 to 2022/23",
+    "source": "Public health profiles, OHID (based on Active Lives Adult Survey, Sport England)",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "sch_happ",
+    "timeperiod_type": "Academic Year",
+    "title": "Children’s self-reported happiness with life",
+    "subtitle": "Children in Years 3-11 mean self-reported happiness score with life (out of 10) in London and England, 2018/18 to 2023/24",
+    "source": "Active Lives Children and Young People Survey, Sports England",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_safe",
+    "timeperiod_type": "Annual",
+    "title": "Children’s perception of safety",
+    "subtitle": "Proportion of young people aged 11-16 in London who feel safe at school, in the area they live and online, 2018 and 2021/22",
+    "source": "Youth Survey, MOPAC (2018 and 2021-22)",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_level3",
+    "timeperiod_type": "Academic Year",
+    "title": "Achievement of Level 3 qualifications by age 19",
+    "subtitle": "Proportion of 19-year-olds achieving a Level-3 qualification in London and England, 2007/08 to 2023/24",
+    "source": "Department for Education",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_neet",
+    "timeperiod_type": "Quarter",
+    "title": "Young people Not in Education, Employment, or Training (NEET)",
+    "subtitle": "Proportion of young people aged 16-24 NEET in Q4 (October-December), 2000-2024",
+    "source": "Department for Education (based on the Labour Force Survey, ONS)",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "yr6_obesity",
+    "timeperiod_type": "Academic Year",
+    "title": "Prevalence of obesity in children",
+    "subtitle": "Proportion of children in Reception and Year 6 that are overweight or obese1 in London and England, 2007/08 to 2023/24",
+    "source": "Public health profiles, OHID (based on National Child Measurement Programme data)",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_mental_disorder",
+    "timeperiod_type": "Academic Year",
+    "title": "Children with a probable mental disorder",
+    "subtitle": "Proportion of children aged 10-15 in UK and London with high or very high total difficulties score (18 or more)2, 2009/10 to 2021/22",
+    "source": "Understanding Society Survey",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_suspension",
+    "timeperiod_type": "Academic Year",
+    "title": "School suspension rate",
+    "subtitle": "Suspension rate per 100 pupils in state-funded schools in London and England, 2006/7 to 2022/23",
+    "source": "Department for Education",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_exclusion",
+    "timeperiod_type": "Academic Year",
+    "title": "School permanent exclusion rate (PER)",
+    "subtitle": "Permanent exclusion rate per 100 pupils for London and England, 2006/07 to 2022/23",
+    "source": "Department for Education",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "cyp_absence",
+    "timeperiod_type": "Academic Year",
+    "title": "School absence",
+    "subtitle": "Overall school absence rates (%) for pupils in state-funded schools in London and England, 2006/07 to 2023/24",
+    "source": "Department for Education",
+    "theme": "CYP"
+  },
+  {
+    "dataset": "decision_influence",
+    "timeperiod_type": "Financial Year",
+    "title": "Influencing decisions in local area",
+    "subtitle": "Proportion who feel able to influence decisions affecting their local area (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "food_sec",
+    "timeperiod_type": "Financial Year",
+    "title": "Food security",
+    "subtitle": "Percentage of households with differing levels of food insecurity",
+    "source": "DWP Family Resources Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "talk_neigh",
+    "timeperiod_type": "Financial Year",
+    "title": "Talking to neighbours",
+    "subtitle": "Proportion who chat to their neighbours at least once a month (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "pay_gap_disability",
+    "timeperiod_type": "Annual",
+    "title": "Disability pay gap",
+    "subtitle": "Percentage difference between median hourly earnings of disabled and non-disabled workers, expressed as a percentage of disabled workers’ earnings - London vs UK",
+    "source": "ONS, Annual Population Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "pay_gap_gender",
+    "timeperiod_type": "Annual",
+    "title": "Gender pay gap",
+    "subtitle": "Percentage difference between median hourly earnings of men and women, expressed as a percentage of men's earnings - London vs UK",
+    "source": "Office for National Statistics, ASHE",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "voter_reg",
+    "timeperiod_type": "Annual",
+    "title": "Voter registration",
+    "subtitle": "Proportion of eligible adults aged 18+ who are registered for local elections (%)",
+    "source": "Electoral statistics for the UK; Mid-Year Population Estimates",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "unfair",
+    "timeperiod_type": "Financial Year",
+    "title": "Unfair treatment",
+    "subtitle": "Proportion of Londoners treated unfairly in the last 12 months because of one or several protected characteristics or because of their social class",
+    "source": "GLA Survey of Londoners",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "social_action",
+    "timeperiod_type": "Financial Year",
+    "title": "Social action",
+    "subtitle": "Proportion who were personally involved in social action in the last year (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "volunt_formal",
+    "timeperiod_type": "Financial Year",
+    "title": "Formal volunteering",
+    "subtitle": "Proportion who formally volunteered at least once in the last year (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "volunt_informal",
+    "timeperiod_type": "Financial Year",
+    "title": "Informal volunteering",
+    "subtitle": "Proportion who informally volunteered at least once in the last year (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "trust_neigh",
+    "timeperiod_type": "Financial Year",
+    "title": "Neighbourhood trust",
+    "subtitle": "Proportion who agree that many of the people can be trusted in their local neighbourhood (%)",
+    "source": "DCMS, Community Life Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "bills_arrears",
+    "timeperiod_type": "Financial Year",
+    "title": "Household bills arrears",
+    "subtitle": "Proportion with household bills in arrears",
+    "source": "Understanding Society",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "pay_gap_ethnicity",
+    "timeperiod_type": "Annual",
+    "title": "Ethnicity pay gap",
+    "subtitle": "Percentage difference between median hourly earnings of Black, Asian and minority ethnic groups and all White groups, expressed as a percentage of all White groups’ earnings - London vs Rest of England and Wales",
+    "source": "ONS, Annual Population Survey",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "gva_per_hour_worked_rhc",
+    "timeperiod_type": "Annual",
+    "title": "London's productivity",
+    "subtitle": "Real GVA per hour worked (2019 = 100),London and the UK",
+    "source": "ONS regional productivity",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "annual_gva_growth",
+    "timeperiod_type": "Annual",
+    "title": "London’s economic growth rate",
+    "subtitle": "Real annual Gross Value Added (GVA) growth rate (%)",
+    "source": "GLA calculations, Office for National Statistics",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "extended_unemployment",
+    "timeperiod_type": "12-month period",
+    "title": "Involuntary worklessness  ",
+    "subtitle": "Share of 16-64 unemployed or inactive and would like to work ",
+    "source": "ONS Labour Force Survey",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "jq_score",
+    "timeperiod_type": "Multi-year period",
+    "title": "Job quality",
+    "subtitle": "Average job quality indicator and components, % share of employees, 2022 ",
+    "source": null,
+    "theme": "Economy"
+  },
+  {
+    "dataset": "increased_footfall",
+    "timeperiod_type": "Annual",
+    "title": "High streets and town centres with increased visitor footfall",
+    "subtitle": "Percentage of high streets and town centres that saw an increase in footfall on previous year, 2023-2024. ",
+    "source": null,
+    "theme": "Economy"
+  },
+  {
+    "dataset": "hs_spend",
+    "timeperiod_type": "Annual",
+    "title": "High streets and town centres with increased spend",
+    "subtitle": "Percentage of high streets and town centres that saw an increase in real-terms spend on the previous year, 2023-2024",
+    "source": null,
+    "theme": "Economy"
+  },
+  {
+    "dataset": "vacancy_rate",
+    "timeperiod_type": "Annual",
+    "title": "Vacancy rates for London high streets and town centres, 2024 ",
+    "subtitle": "Distribution of vacancy rates for inner and outer London high streets and town centres. ",
+    "source": "Data by LDC/Green Street, via the High Streets Data Service",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "bbc",
+    "timeperiod_type": "Quarter",
+    "title": "Business births and closures",
+    "subtitle": "Number of births and closures (four-quarter moving average) ",
+    "source": "GLA calculations, Office for National Statistics",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "gva_composition",
+    "timeperiod_type": "Annual",
+    "title": "Change in economic output by industry",
+    "subtitle": "Percentage change in real GVA by industry in London 2019 – 2023",
+    "source": "GLA Economics based on ONS – UK regional GVA and GDP data",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "hs_increased_purchases",
+    "timeperiod_type": "Annual",
+    "title": "High streets and town centres with increased purchases ",
+    "subtitle": "Percentage of London high streets and town centres that saw increased purchases on the previous year, 2023-2024 ",
+    "source": "Aggregated and anonymised data by Mastercard, via the High Streets Data Service",
+    "theme": "Economy"
+  },
+  {
+    "dataset": "tfl_demand_idx",
+    "timeperiod_type": "Annual",
+    "title": "Travel demand by mode",
+    "subtitle": "Travel demand on the principal modes, index 2019/20=100.",
+    "source": "Transport for London",
+    "theme": "Transport"
+  },
+  {
+    "dataset": "tfl_active20_daily",
+    "timeperiod_type": "Financial Year",
+    "title": "Active travel",
+    "subtitle": "Proportion of London residents undertaking 20 mins of active travel per day",
+    "source": "London Travel Demand Survey",
+    "theme": "Transport"
+  },
+  {
+    "dataset": "tfl_ksi",
+    "timeperiod_type": "Annual",
+    "title": "Safety on London’s roads",
+    "subtitle": "Number of people killed or seriously injured on London’s roads",
+    "source": "Transport for London",
+    "theme": "Transport"
+  },
+  {
+    "dataset": "tfl_sfdelay_reduction",
+    "timeperiod_type": "Annual",
+    "title": "Accessibility of the transport network",
+    "subtitle": "Reduction from the 2016 baseline in the additional journey time using only the step-free transport network.",
+    "source": null,
+    "theme": "Transport"
+  },
+  {
+    "dataset": "tfl_bus_speed",
+    "timeperiod_type": "Annual",
+    "title": "Quality of the bus network",
+    "subtitle": "Average bus network speed in London, index (100=2015).",
+    "source": "Transport for London",
+    "theme": "Transport"
+  },
+  {
+    "dataset": "tfl_journeys",
+    "timeperiod_type": "TfL Period",
+    "title": "Active, efficient and sustainable mode share",
+    "subtitle": "Percentage of trips made by walking, cycling and public transport (%)",
+    "source": "Transport for London",
+    "theme": "Transport"
+  },
+  {
+    "dataset": "gc_ldn_domint",
+    "timeperiod_type": "Annual",
+    "title": "Visits to London",
+    "subtitle": "Annual domestic and international visits to London (2022–2024)",
+    "source": "VisitBritain and GLA",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_fdi_capex",
+    "timeperiod_type": "Quarter",
+    "title": "Foreign Direct Investment in London",
+    "subtitle": "Number of projects (top series) and Capex £m (bottom series)",
+    "source": "London & Partners, using fDi Markets from the Financial Times",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_int_vist_ldn",
+    "timeperiod_type": "Annual",
+    "title": "International visits to London",
+    "subtitle": "Annual inbound visits to London (`000) 2015-2024",
+    "source": "VisitBritain and GLA",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_digital_engagement_arts",
+    "timeperiod_type": "Financial Year",
+    "title": "Digital engagement with the arts",
+    "subtitle": "Percentage of adults who engaged with the arts digitally in the last 12 months.",
+    "source": "DCMS Participation Survey",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_visitor_spend",
+    "timeperiod_type": "Annual",
+    "title": "Spend in London",
+    "subtitle": "Annual domestic and international spend in London (£ million, 2019 prices), 2022–2024",
+    "source": "VisitBritain and GLA",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_physical_engagement_arts",
+    "timeperiod_type": "Financial Year",
+    "title": "Physical engagement with the arts",
+    "subtitle": "Percentage of adults who engaged with the arts in-person in the last 12 months, 2021/22 -2023/24",
+    "source": "Data from Participation Survey",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "gc_int_visitor_nights",
+    "timeperiod_type": "Annual",
+    "title": "Visitor nights in London",
+    "subtitle": "Annual domestic and international nights in London (2022–2024)",
+    "source": "VisitBritain and GLA",
+    "theme": "Global City"
+  },
+  {
+    "dataset": "strugg",
+    "timeperiod_type": "monthly",
+    "title": "Struggling financially",
+    "subtitle": "Proportion of Londoners struggling to make ends meet or having to go without basic needs, London monthly data shown Jan 22-Jan 25",
+    "source": "YouGov survey January 2022 – January 2025",
+    "theme": "Social Justice"
+  },
+  {
+    "dataset": "cladding_remediation",
+    "timeperiod_type": "Annual",
+    "title": "Remediation of tall residential buildings with unsafe cladding",
+    "subtitle": "% of residential buildings with unsafe cladding remediated ",
+    "source": "MHCLG",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "missed_payment",
+    "timeperiod_type": "Quarterly",
+    "title": "Londoners’ ability to meet their housing costs",
+    "subtitle": "Percentage of London adults who say they have not been able to meet housing payments over the last six months, or have struggled to do so.",
+    "source": "YouGov Plc on behalf of the GLA",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "rent_affordability",
+    "timeperiod_type": "Monthly",
+    "title": "Affordability in the private rental sector ",
+    "subtitle": "Index of private rent, earnings and implied affordability",
+    "source": "YouGov Plc on behalf of the GLA",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "rent_payment",
+    "timeperiod_type": "Annual",
+    "title": "Londoners’ ability to pay their rent ",
+    "subtitle": "Percentage of households that find it fairly or very difficult to pay rent ",
+    "source": "English Housing Survey",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "roughsleeping_first_time",
+    "timeperiod_type": "Quarter",
+    "title": "New rough sleepers",
+    "subtitle": "Number of people seen rough sleeping for the first time by outcome of the second night.",
+    "source": "CHAIN quarterly rough sleeping reports",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "neighbourhood_belonging",
+    "timeperiod_type": "Financial Year",
+    "title": "Sense of belonging to local neighbourhoods",
+    "subtitle": "Percentage of adults feeling a sense of belonging in their local neighbourhood area",
+    "source": "Community Life Survey",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "neighbourhood_satisfaction",
+    "timeperiod_type": "Financial Year",
+    "title": "Satisfaction with local neighbourhood  ",
+    "subtitle": "Percentage of adults very or fairly satisfied with their neighbourhood area as a place to live",
+    "source": "Satisfaction with local neighbourhood",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "hmls",
+    "timeperiod_type": "Quarter",
+    "title": "Households in temporary accommodation ",
+    "subtitle": "Number of homeless households in temporary accommodation arranged by London boroughs ",
+    "source": "MHCLG",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "sleep_rough",
+    "timeperiod_type": "Monthly",
+    "title": "Rough sleeping ",
+    "subtitle": "Number of people sleeping rough over the month per 100,000 people",
+    "source": "MHCLG",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "homeless_decisions",
+    "timeperiod_type": "Quarter",
+    "title": "Households accepted as statutorily homeless ",
+    "subtitle": "Number of households owed a prevention or relief duty and accepted as statutorily homeless in London",
+    "source": "MHCLG",
+    "theme": "Housing"
+  },
+  {
+    "dataset": "total_fertility_rate",
+    "timeperiod_type": "Annual",
+    "title": "Total fertility rate",
+    "subtitle": "Children per woman",
+    "source": "ONS Live birth estimates; calculations GLA",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "births_mothers_cob",
+    "timeperiod_type": "Annual",
+    "title": "Annual births by mother’s country of birth, London",
+    "subtitle": "Annual live births (thousands), for calendar years 2001 to 2023",
+    "source": "ONS Live birth estimates",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "annual_births",
+    "timeperiod_type": "Bi-annual",
+    "title": "Annual births in London",
+    "subtitle": "Annual live births (thousands), for years ending June 2002 to December 2023",
+    "source": "ONS Live birth estimates, ONS mid-year estimates",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "births_age_mother",
+    "timeperiod_type": "Annual",
+    "title": "Annual births by age of mother, London",
+    "subtitle": "Annual live births (thousands), for calendar years 2002 to 2023",
+    "source": "ONS Live birth estimates",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "annual_change_component",
+    "timeperiod_type": "Annual",
+    "title": "Annual change in population, London",
+    "subtitle": "(thousands)",
+    "source": "ONS Population estimates for England and Wales; GLA modelled estimates",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "population_age_structure",
+    "timeperiod_type": "Annual",
+    "title": "Population age structure",
+    "subtitle": "(Persons per 1,000 total population), estimates for year ending June 2023",
+    "source": "ONS Population estimates for England and Wales",
+    "theme": "Demography"
+  },
+  {
+    "dataset": "total_population_year",
+    "timeperiod_type": "Annual",
+    "title": "Total population, London",
+    "subtitle": "Total population (millions)",
+    "source": "ONS Population estimates for England and Wales",
+    "theme": "Demography"
+  }
+]

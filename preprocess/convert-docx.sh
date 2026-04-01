@@ -44,6 +44,10 @@ find "$BASE_DIR" -type f -name '*.docx' -print0 | while IFS= read -r -d '' docx;
     --extract-media="$media_dir" \
     "$docx" \
     -o "$md_out"
+
+  # Fix accidental bold/italic wrapping around YAML block delimiters (---).
+  # Pandoc sometimes converts Word section dividers to **---** or similar.
+  sed -i '' -E 's/^[*_]+---[*_]+$/---/' "$md_out"
 done
 
 echo "Done."
