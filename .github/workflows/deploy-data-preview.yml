@@ -1,4 +1,4 @@
-name: Build and trigger deploy to dev server
+name: Build and trigger deploy to dev server (data preview)
 
 on:
   workflow_dispatch:
