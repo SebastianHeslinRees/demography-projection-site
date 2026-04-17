@@ -63,6 +63,12 @@ validate_dates <- function(df) {
           grepl("^\\d{4}/\\d{2}/\\d{2}$", date) ~ "date",
         TRUE ~ date_type
       ),
+      # Refine fiscal_year: if source provides only the starting year (YYYY),
+      # accept it as a plain year rather than forcing YYYY-YY format
+      date_type = dplyr::case_when(
+        date_type == "fiscal_year" & grepl("^\\d{4}$", date) ~ "year",
+        TRUE ~ date_type
+      ),
       # Refine year_or_category: if date matches a 4-digit year, call it "year";
       # otherwise call it "category"
       date_type = dplyr::case_when(
