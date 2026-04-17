@@ -34,8 +34,8 @@ extract_unmapped_datasets <- function(master_df) {
     dplyr::group_by(dataset) |>
     dplyr::summarise(
       row_count = dplyr::n(),
-      sample_xd_values = paste(
-        utils::head(unique(xd), 5),
+      sample_date_values = paste(
+        utils::head(unique(date), 5),
         collapse = ", "
       ),
       .groups = "drop"

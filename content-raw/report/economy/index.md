@@ -1,8 +1,8 @@
----
-title: Economy
-description: The performance of London's economy and how it is benefiting Londoners.
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Economy\
+description: The performance of London's economy and how it is benefiting Londoners.\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This chapter focuses on the performance of London’s economy and how it is benefiting Londoners. Indicators have been chosen which relate to the following three London-level outcomes:
@@ -11,7 +11,7 @@ This chapter focuses on the performance of London’s economy and how it is bene
 
 Component: LLOIntro
 
-llos:
+Llos:
 
 - Stable, long-term economic growth benefits all of Londoners.
 
@@ -41,7 +41,7 @@ Chart: Chart
 
 title: London’s economic growth rate
 
-subTitle: Real annual Gross Value Added (GVA) growth rate (%)
+subTitle: Real annual Gross Value Added (GVA) growth rate percent
 
 byline: GLA City Intelligence
 
@@ -71,7 +71,7 @@ Chart: Chart
 
 title: London's productivity
 
-subTitle: Real GVA per hour worked (2019 = 100),London and the UK
+subTitle: Real GVA per hour worked (2019 = 100), London and the UK
 
 byline: GLA City Intelligence
 
@@ -103,7 +103,7 @@ subTitle: Percentage change in real GVA by industry in London 2019 – 2023
 
 byline: GLA City Intelligence
 
-source: GLA Economics based on ONS – UK regional GVA and GDP data
+source: "GLA Economics based on ONS – UK regional GVA and GDP data. The following smaller industries have been excluded for simplification purposes: Primary sector and utilities, Public administration and defence, Other service activities, and Activities of households"
 
 dataset: gva_composition
 
@@ -112,8 +112,6 @@ theme: Economy
 ---
 
 <img src="attachments/economy/media/image6.svg" style="width:6.26389in;height:3.13194in" />
-
-*Source: GLA Economics based on ONS – UK regional GVA and GDP data. The following smaller industries have been excluded for simplification purposes: Primary sector and utilities, Public administration and defence, Other service activities, and Activities of households.*
 
 While London’s economy has bounced back strongly from the pandemic, the recovery has been uneven across sectors. Several high-value industries have outpaced their pre-pandemic output, reinforcing the city’s strengths in knowledge-intensive sectors. Information and communication grew by over 15%, while professional and technical services and education expanded by nearly 10% and 11%, respectively. Financial and insurance activities also posted positive growth, albeit more modestly.
 
@@ -227,8 +225,6 @@ theme: Economy
 
 <img src="attachments/economy/media/image12.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: ONS Labour Force Survey
-
 Employment measures the number of people aged 16 and over in paid work and those who had a job that they were temporarily away from (for example, because they were on holiday or off sick). The employment rate is the proportion of people aged between 16 and 64 years who are in employment. Data for this indicator comes from the ONS Labour Force Survey, which, due to data quality concerns, is badged as an “Official Statistic in Development” indicating that it should be used with caution.
 
 For the three-month period between December 2024 and February 2025, London’s employment rate was estimated at 73.9%. This represents a decrease of 1.4 percentage points compared to the same period in the previous year and is 1.2 percentage points below the current UK rate of 75.1%. However, as the chart above suggests, there are significant concerns about data quality since mid-2023, with quarterly readings becoming more volatile than before.
@@ -257,8 +253,6 @@ theme: Economy
 
 <img src="attachments/economy/media/image14.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: ONS Labour Force Survey
-
 This indicator shows the share of the 16-64 year-old population that are unemployed or that are economically inactive but would like a job. Many people who are inactive do not want to work – for example, many students, parents of young people, or those who have retired early. However, a substantial fraction say they would like a job – usually around one-quarter of the total number of economically inactive Londoners.
 
 By adding these people to the number of unemployed, the indicator shows the share of 16–64 year-olds that would like, or need, to work but cannot find a suitable job.
@@ -273,11 +267,11 @@ Chart: Chart
 
 title: Job quality
 
-subTitle: Average job quality indicator and components, % share of employees, 2022
+subTitle: Average job quality indicator and components, percent share of employees, 2022
 
 byline: GLA City Intelligence
 
-source: null
+source: ONS Labour Force Survey and GLA Economics
 
 dataset: jq_score
 
@@ -286,8 +280,6 @@ theme: Economy
 ---
 
 <img src="attachments/economy/media/image16.svg" style="width:6.26389in;height:3.13194in" />
-
-Source: ONS Labour Force Survey and GLA Economics
 
 The average job quality score summarises ONS Labour Force Survey responses across seven separate questions.
 
@@ -333,11 +325,11 @@ Chart: Chart
 
 title: High streets and town centres with increased visitor footfall
 
-subTitle: Percentage of high streets and town centres that saw an increase in footfall on previous year, 2023-2024.
+subTitle: Percentage of high streets and town centres that saw an increase in footfall on previous year, 2024-2025.
 
 byline: GLA City Intelligence
 
-source: null
+source: Aggregated and anonymised data by BT, via the High Streets Data Service
 
 dataset: increased_footfall
 
@@ -347,12 +339,9 @@ theme: Economy
 
 <img src="attachments/economy/media/image18.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by BT, via the High Streets Data Service
-Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
-
 Footfall is a useful proxy for business and economic activity in high streets and town centres. By specifically looking at an area’s visitors (that is, not its workers or residents), these counts can approximate retail activity (including shopping and dining). Footfall data are supplied by BT, which produces an estimate of workers, residents, and visitors for each high street and town centre based on a model of BT/EE mobile handset movements combined with census population estimates.
 
-Overall, visitor footfall in 2024 increased in more than 90 per cent of London’s high streets and town centres compared to 2023. This increase was similar for both Inner- and Outer-London high streets and town centres, for both daytime (6AM-6PM) and nighttime (6PM-6AM) visitors, demonstrating that retail activity is growing across all of London, over both day and night.
+Overall, visitor footfall in 2025 increased in less than half of London’s high streets and town centres compared to 2024. Inner London fared moderately better than Outer London for both daytime (6AM-6PM; 48% vs. 32%) and nighttime (6PM-6AM; 34% vs. 23%) visitors. While the number of areas with increased year-on-year footfall has fallen from 2024 (where over 90% of areas showed growth), the actual change in footfall was very modest: the average change in visitors from 2024 to 2025 was <u>–</u>1.5% for Inner London and –5.5% for Outer London, suggesting stabilising retail activity after several years of post-COVID-19 recovery.
 
 ---
 
@@ -360,11 +349,11 @@ Chart: Chart
 
 title: High streets and town centres with increased spend
 
-subTitle: Percentage of high streets and town centres that saw an increase in real-terms spend on the previous year, 2023-2024
+subTitle: Percentage of London high streets and town centres that saw an increase in real-terms spend on the previous year, 2024-2025.
 
 byline: GLA City Intelligence
 
-source: null
+source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service
 
 dataset: hs_spend
 
@@ -374,12 +363,12 @@ theme: Economy
 
 <img src="attachments/economy/media/image20.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service
-Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
+Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service\
+Notes: "Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; nighttime: 6PM-6AM"
 
 In-store spending data can be used to estimate the retail growth of London’s high streets and town centres. One measure is the total retail spend in an area, while a second measure is the total number of purchases made in that area. Retail spend data are supplied by Mastercard, reporting relative transaction amounts and counts occurring in its own network of debit and credit cards in physical shops. The data are further adjusted with a model to better estimate total retail spending on all merchant cards, as well as with cash.
 
-Total retail spend in 2024 increased for only about one third of London’s high streets and town centres compared to 2023. More Inner-London high streets and town centres showed increased spend during daytime hours (43%) compared to Outer London (32%), while slightly more Outer-London areas showed increased spend during night-time hours (36%) compared to Inner London (31%).
+Total retail spend in 2025 increased for only about one third of London’s high streets and town centres compared to 2024. More Inner-London high streets and town centres showed increased spend during daytime hours (46%) compared to Outer London (39%), while nighttime performance was more similar between Inner London (39%) and Outer London (37%).
 
 ---
 
@@ -387,7 +376,7 @@ Chart: Chart
 
 title: High streets and town centres with increased purchases
 
-subTitle: Percentage of London high streets and town centres that saw increased purchases on the previous year, 2023-2024
+subTitle: Percentage of London high streets and town centres that saw increased purchases on the previous year, 2024-2025.
 
 byline: GLA City Intelligence
 
@@ -401,20 +390,20 @@ theme: Economy
 
 <img src="attachments/economy/media/image22.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service.
-Notes: Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; night-time: 6PM-6AM
+Source: Aggregated and anonymised data by Mastercard, via the High Streets Data Service.\
+Notes: "Inner: inner-London boroughs; Outer: outer-London boroughs. Daytime: 6AM-6PM; nighttime: 6PM-6AM"
 
-Total purchases in 2024 increased for approximately two thirds of London’s high streets and town centres compared to 2023. 70% of Inner- and Outer-London retail areas showed a year-on-year increase in the number of purchases during the day, while the percentage of Outer-London high streets and town centres with increased purchasing at night (72%) slightly outpaced that seen for Inner-London areas (60%).
+Total purchases in 2025 increased for over half of London’s high streets and town centres compared to 2024. 63% of Outer-London and 59% of Inner-London retail areas showed a year-on-year increase in the number of purchases during the day; the percentage of Outer-London high streets and town centres with increased purchasing at night (59%) also slightly outpaced that seen for Inner-London areas (54%).
 
-These data suggest that from 2023 to 2024, London’s high streets have generally seen increased retail activity and visitor footfall, as the capital sustained its post-COVID recovery and continued to attract visitors.
+These data suggest that from 2024 to 2025, London’s high streets have entered a plateau of retail activity and visitor footfall after several years of post-COVID recovery.
 
 ---
 
 Chart: Chart
 
-title: Vacancy rates for London high streets and town centres, 2024
+title: Vacancy rates for London high streets and town centres, 2025
 
-subTitle: Distribution of vacancy rates for inner and outer London high streets and town centres.
+subTitle: Distribution of vacancy rates for London high streets and town centres.
 
 byline: GLA City Intelligence
 
@@ -432,10 +421,11 @@ Source: Data by LDC/Green Street, via the High Streets Data Service
 
 The number of vacant storefronts can serve as an indicator of the overall health of a high street or town centre, with healthier high streets having fewer vacant shops. Premises-level data are supplied by Local Data Company, with the status of each location recorded as either vacant or occupied. Premises are assigned to high street and town centre boundaries, and the vacancy rate is reported as the percentage of all vacant premises out of total premises.
 
-Across London as a whole, the average vacancy rate in a high street or town centre was 9.6% in 2024. Rates in Inner-London high streets and town centres were similar to the London-wide rate (at 9.7%), while Outer London high streets and town centres had a lower vacancy rate on average (8.6%).
+Across London as a whole, the average vacancy rate in a high street or town centre was 9.3% in 2025. Rates in Inner-London high streets and town centres were similar to the London-wide rate (at 9.7%), while Outer London high streets and town centres had a lower vacancy rate on average (8.4%).
 
-In the rest of the UK, about one in ten shopfronts (10.5%) were vacant. The majority of both Inner London's (64%) and Outer London's (72%) high streets and town centres had vacancy rates below this 10.5% nationwide rate.
+In the rest of the UK, about one in ten shopfronts (10.3%) were vacant. The majority of both Inner London's (63%) and Outer London's (71%) high streets and town centres had vacancy rates below this 10.3% nationwide rate.
 
+\
 =
 
 [^1]: Hobbs & Mutebi (2022), '[The impact of remote and hybrid working on workers and organisations'](https://researchbriefings.files.parliament.uk/documents/POST-PB-0049/POST-PB-0049.pdf)

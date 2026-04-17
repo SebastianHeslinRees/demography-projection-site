@@ -1,8 +1,8 @@
----
-title: Transport
-description: A subset of the Mayor’s Transport Strategy tracker metrics,
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Transport\
+description: A subset of the Mayor’s Transport Strategy tracker metrics,\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This section draws on a subset of the [Mayor’s Transport Strategy](https://greaterlondonauthority.sharepoint.com/sites/IU/Shared%20Documents/Shared%20Projects/State%20of%20London%20report/Version%206%20(June%202025)/Chapter%20Text/Transport%20and%20infrastructure/Drafts%20of%20v6%20chapter/State%20of%20London%20June%202024%20-%20Transport%20draft%20AYMD%20Edits.docx) tracker metrics, which are used to monitor progress against the aims of the strategy. They provide a high-level assessment of the London-level outcome ‘London’s transport system enables everyone to get to where they want to go safely, sustainably, reliably and affordably.
@@ -37,11 +37,9 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image186.svg" style="width:6.26389in;height:3.13194in" />
+<img src="attachments/transport/media/image2.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Transport for London
-
-The Mayor’s Transport Strategy set a target for 80% of trips in London to be made by walking, cycling or public transport by 2041. The proportion of total trips made by these modes steadily increased from 59.6% in 2010 to 63.6% in 2019. Following a decline during the pandemic, the mode share increased to 63.2% in 2023.
+The Mayor’s Transport Strategy set a target for 80% of trips in London to be made by walking, cycling or public transport by 2041. The proportion of total trips made by these modes steadily increased from 60.1% in 2010 to 63.6% in 2019. Following a decline during the pandemic, the mode share increased to 63.4% in 2024, still 0.2 percentage points lower than 2019.
 
 ---
 
@@ -61,7 +59,7 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image188.svg" style="width:6.26389in;height:3.13194in" />Source: Transport for London
+<img src="attachments/transport/media/image4.svg" style="width:6.26389in;height:3.13194in" />
 
 During 2023 and 2024, travel demand recovery in London following the pandemic continued and, towards the end of 2024, achieved what appear to be broadly settled conditions, albeit at a lower level than prior to the pandemic.
 
@@ -87,15 +85,13 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image190.svg" style="width:6.26389in;height:3.19306in" />
-
-Source: London Travel Demand Survey
+<img src="attachments/transport/media/image6.svg" style="width:6.26389in;height:3.19306in" />
 
 To promote the health of Londoners, the Mayor’s Transport Strategy set a goal for all London residents to undertake at least 20 minutes of active travel per day by 2041, defined as either walking or cycling. By measuring the number of residents who report doing at least 20 minutes of walking or cycling, we can show how many are achieving minimum healthy levels of activity through active travel alone. Note, however, that this does not include other forms of physical activity, such as sport, which are additional to this measure.
 
 This is measured using the [London Travel Demand Survey](https://tfl.gov.uk/campaign/consultations-and-surveys) (LTDS), which provides a daily snapshot of travel behaviour. It is acknowledged that a proportion of residents who are routinely active may not have travelled on the LTDS travel day (typically the day before the survey interview). Therefore, the Mayor’s Transport Strategy aim for all London residents translates to 70% of the LTDS sample of London residents achieving 20 minutes of active travel on the day they were surveyed.
 
-Historically, the proportion of Londoners achieving at least 20 minutes of active travel per day has been relatively flat at around 40%. This fell during the pandemic due to the significant decline in public transport usage. In 2023/24 the proportion of Londoners achieving 20 minutes of active travel was 37%, a similar proportion to 2022/23 (38%). This remains slightly lower than pre-pandemic, likely due to the continuing shortfall in the post-pandemic recovery of public transport use, where intermediate walking journey stages are often made as part of longer trips where public transport is the main mode.
+Historically, the proportion of Londoners achieving at least 20 minutes of active travel per day has been relatively flat at around 40%. This fell during the pandemic due to the significant decline in public transport usage. In 2024/25 the proportion of Londoners achieving 20 minutes of active travel was 43%, three percentage points higher than in 2022/23 (40%). This is slightly higher than pre-pandemic, likely due to an increase in active travel as public transport demand remains lower than before the pandemic.
 
 ---
 
@@ -115,15 +111,13 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image192.svg" style="width:6.26389in;height:3.19306in" />
+<img src="attachments/transport/media/image8.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: Transport for London
-
-The number of people killed or seriously injured on London’s roads followed a downward trend over the decade from 2010 to 2020. During the pandemic, reduced traffic levels led to a further decline in fatalities and serious injuries. However, 2022 saw a reversion to numbers and patterns of injury seen prior to the pandemic, as travel demand returned.
+The number of people killed or seriously injured on London’s roads followed a downward trend over the decade from 2010 to 2020. During the pandemic, reduced traffic levels led to a further decline in fatalities and serious injuries. However, 2021 and 2022 saw a reversion to numbers and patterns of injury seen prior to the pandemic, as travel demand returned.
 
 The Mayor’s Transport Strategy sets out the ambition for reducing road casualties in London, with a target to deliver a 70% reduction (against the 2010-14 baseline) in the number of people killed or seriously injured on London’s roads by 2030.
 
-Data for 2023 suggests that while London is outperforming other UK regions, we are not on track to meet the 2041 Vision Zero ambition. In 2023 there was a 24 per cent reduction in the number of people killed or seriously injured compared to the 2010-14 baseline. This represents approximately a six per cent reduction compared to 2022.
+Data for 2023 and 2024 suggests a return to the pre-pandemic trend of declining road casualties. In 2024 there was a 24 per cent reduction in the number of people killed or seriously injured compared to the 2010-14 baseline.
 
 ---
 
@@ -135,7 +129,7 @@ subTitle: Reduction from the 2016 baseline in the additional journey time using 
 
 byline: GLA City Intelligence
 
-source: null
+source: Transport for London
 
 dataset: tfl_sfdelay_reduction
 
@@ -143,13 +137,11 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image194.svg" style="width:6.26389in;height:3.19306in" />
-
-Source: Transport for London
+<img src="attachments/transport/media/image10.svg" style="width:6.26389in;height:3.19306in" />
 
 Improving the physical accessibility of public transport is key to creating a fully inclusive network for all. People who are older or disabled or who are travelling with luggage or young children can sometimes find it hard to get around and often face longer journeys if they are only able to use the step-free network.
 
-The Mayor’s Transport Strategy aims to reduce this journey time differential, with a working aim of a 50% reduction from a 2016 baseline by 2041. Despite funding challenges, good progress towards this target has been made in recent years. Note that historical figures have been revised to account for modelling improvements, and totals for 2021 and 2022 have been revised to account fully for the new step-free connections provided at Liverpool Street and Moorgate.
+The Mayor’s Transport Strategy aims to reduce this journey time differential, with a working aim of a 50% reduction from a 2016 baseline by 2041. Despite funding challenges, good progress towards this target has been made in recent years, with the 50% target forecast to be reached by 2030.
 
 ---
 
@@ -169,9 +161,7 @@ theme: Transport
 
 ---
 
-<img src="attachments/transport/media/image196.svg" style="width:6.26389in;height:3.13194in" />
-
-Source: Transport for London
+<img src="attachments/transport/media/image12.svg" style="width:6.26389in;height:3.13194in" />
 
 The annual average bus network speed is another metric to track progress against the Mayor’s Transport Strategy ‘quality’ outcome. The Mayor’s Transport Strategy sets a target of a 10% increase in bus speeds (from a 2015 baseline) by 2030. Figure 6 shows the trend for this metric since 2013, indexed to the 2015 baseline.
 

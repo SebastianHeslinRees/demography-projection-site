@@ -1,8 +1,8 @@
----
-title: Global city and Culture
-description: London’s standing as a world-leading global city
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Global city and Culture\
+description: London’s standing as a world-leading global city\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This chapter assesses London’s standing as a world-leading global city, drawing together a range of indicators that reflect its economic strength, cultural vibrancy, and international reach.
@@ -41,23 +41,23 @@ Figure 1: London’s global city competitiveness
 
 \*London’s average ranking in several global competitiveness indices
 
-| Index Name                     | 2020 | 2021 | 2022 | 2023 | 2024 |
-|--------------------------------|------|------|------|------|------|
-| GPCI – Global Power City Index | 1    | 1    | 1    | 1    | 1    |
-| Kearney Global Cities Index    | 2    | 2    | 2    | 2    | 2    |
-| Schroders Global Cities Index  | \-   | \-   | \-   | 3    | 2    |
-| Anholt City Brands Index       | \-   | \-   | \-   | \-   | 1    |
-| Average ranking<sup>\*</sup>   | 1.5  | 1.5  | 1.5  | 2    | 1.5  |
+| Index Name                     | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|--------------------------------|------|------|------|------|------|------|
+| GPCI – Global Power City Index | 1    | 1    | 1    | 1    | 1    | 1    |
+| Kearney Global Cities Index    | 2    | 2    | 2    | 2    | 2    | 2    |
+| Schroders Global Cities Index  | \-   | \-   | \-   | 3    | 2    | 2    |
+| Anholt City Brands Index       | \-   | \-   | \-   | \-   | 1    |      |
+| Average ranking<sup>\*</sup>   | 1.5  | 1.5  | 1.5  | 2    | 1.5  |      |
 
 *Source: Mori Memorial Foundation, Schroders, Kearney, Ipsos Anholt. Note: Dash (–) indicates data unavailable or not published in that year. \* Average of available indexes*
 
 A number of organisations attempt to compare and rank cities by their global competitiveness and attractiveness. These rankings are composite measures combining multiple aspects of city performance. Looking at London’s performance in some of the more commonly cited indices:
 
-- The Global Power City Index placed London first in 2024, highlighting its strengths in economic performance, research and development, cultural interaction, liveability, environment, and accessibility.
+- The Global Power City Index placed London first in 2025, highlighting its strengths in economic performance, research and development, cultural interaction, urban greenery, and accessibility.
 
-- The Kearney Global Cities Index placed London second in 2024, emphasising London’s business activity, human capital, information exchange, cultural experience, and political engagement. New York ranked first in this index.
+- The Kearney Global Cities Index placed London second in 2024, emphasising London’s business activity, cultural experience, and digital experience. New York ranked first in this index.
 
-- Schroders’ Global Cities Index, which incorporates economic performance, sustainability, and investment appeal, placed London second in 2024, behind San Francisco, which retained the top spot for the second consecutive year.
+- Schroders’ Global Cities Index, which incorporates economic performance, sustainability, and investment appeal, placed London second in 2025, behind San Francisco, which retained the top spot for the third consecutive year.
 
 - Anholt City Brands Index, which measures international perceptions based on presence, place, potential, pulse, people, and prerequisites, ranked London first in 2024.
 
@@ -73,7 +73,7 @@ subTitle: Number of projects (top series) and Capex £m (bottom series)
 
 byline: GLA City Intelligence
 
-source: London & Partners, using fDi Markets from the Financial Times
+source: London & Partners, using fDi Markets from the Financial Times. Capital investment includes estimated values
 
 dataset: gc_fdi_capex
 
@@ -83,9 +83,7 @@ theme: Global City
 
 <img src="attachments/global-city-and-culture/media/image65.svg" style="width:6.26389in;height:4.38472in" />
 
-Source: London & Partners, using fDi Markets from the Financial Times. Capital investment includes estimated values.
-
-The number of Foreign Direct Investment (FDI) projects in London peaked in Q1 2019 at 254, with a total of 669 projects for the whole of 2019, following steady growth from 2015. Project numbers declined during the pandemic, reaching a low of 69 in Q2 2020 (372 for the year), before rebounding to peak at 155 in Q2 2022 (485 for the year). The number of projects then stabilised to reach 439 in 2024.
+The number of Foreign Direct Investment (FDI) projects in London peaked in Q1 2019 at 254, with a total of 669 projects for the whole of 2019, following steady growth from 2015. Project numbers declined during the pandemic, reaching a low of 69 in Q2 2020 (372 for the year), before rebounding to peak at 155 in Q2 2022 (485 for the year). The number of projects then moderated a touch to stand at 361 in 2024.
 
 Capital expenditure (Capex) associated with FDI has exhibited notable fluctuations over recent years. In Q1 2024, it peaked at £3.4 billion and reached a total of £7.1 billion for the year. That equalled the previous pre-Covid quarterly peak of £3.4 billion in Q1 2018 but was below the annual total for 2018 of £9.7bn. During the pandemic, Capex declined reaching a low of £312m in Q2 2020 (£3.1bn for the year), amid the global economic downturn.
 
@@ -105,7 +103,7 @@ Figure 3: Visits to London
 
 \*Annual domestic and international visits to London, million (2022–2024)<img src="attachments/global-city-and-culture/media/image67.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: VisitBritain and GLA. Note: 2024 International Visits data is provisional.
+Source: "VisitBritain and GLA. Note: 2024 International Visits data is provisional."
 
 London is a world-class tourism destination, attracting millions of domestic and international visitors each year. With tourism steadily rebounding post-pandemic, the city’s appeal remains strong, supported by its culture, diversity, and global reputation.
 
@@ -131,7 +129,7 @@ theme: Global City
 
 <img src="attachments/global-city-and-culture/media/image69.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: VisitBritain and GLA. Note: 2024 data is provisional.
+Source: "VisitBritain and GLA. Note: 2024 data is provisional."
 
 The total number of nights spent in London increased from 140.7 million in 2022 to 156 million in 2024, driven by a strong recovery in international visitors after the pandemic.
 
@@ -157,7 +155,7 @@ theme: Global City
 
 <img src="attachments/global-city-and-culture/media/image71.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: VisitBritain and GLA. Note: 2024 data is provisional.
+Source: "VisitBritain and GLA. Note: 2024 data is provisional."
 
 Spending trends broadly mirrored those for visitors. Adjusted for inflation, domestic tourism expenditure was approximately £4.49 billion in 2022, it declined to £4.10 billion in 2023 before recovering to £4.58 billion in 2024. While the 2024 figure modestly exceeded 2022 levels in real terms, the overall pattern suggests stability rather than strong growth.
 
@@ -183,7 +181,7 @@ theme: Global City
 
 <img src="attachments/global-city-and-culture/media/image73.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: VisitBritain and GLA. Note: 2024 data is provisional.
+Source: "VisitBritain and GLA. Note: 2024 data is provisional."
 
 Examining the number of international visits[^1] to the capital over a longer time series reveals pre-pandemic growth and a solid recovery since. Between 2015 and 2019, the number of international visits increased steadily from 19.4 million in 2015 to 21.7 million in 2019. This growth was disrupted sharply by the pandemic, with visits collapsing to just 3.7 million in 2020 and 2.7 million in 2021—representing declines of over 80% compared to 2019.
 
@@ -209,7 +207,7 @@ Chart: Chart
 
 title: Physical engagement with the arts
 
-subTitle: Percentage of adults who engaged with the arts in-person in the last 12 months, 2021/22 -2023/24
+subTitle: Percentage of adults who engaged with the arts in-person in the last 12 months, 2021/22 -2024/25
 
 byline: GLA City Intelligence
 
@@ -225,9 +223,9 @@ theme: Global City
 
 Source: DCMS Participation Survey[^2]
 
-In 2023/24, 89.6% of London residents said they had engaged with the arts in person in the last 12 months. This is slightly lower than the national average (90.4%).
+In 2024/25, 89.9% of London residents said they had engaged with the arts in person in the last 12 months. This is marginally higher than the national average (89.7%).
 
-Engagement with the arts in London has increased in recent years. Moreover, the gap between London and England has closed since the two previous years for which comparable data are available. Elsewhere in the country, the regions with the highest rate of engagement with the arts are the South-East (92.7%) and South-West (93.1%).
+Engagement with the arts in London has increased in recent years. Moreover, the gap between London (which previously had lower engagement) and England has closed since the three previous years for which comparable data are available. Elsewhere in the country, the regions with the highest rate of engagement with the arts are the South-East (91.4%) and South-West (also at 91.4%).
 
 Figure 8: Physical engagement with the arts by borough
 
@@ -235,9 +233,9 @@ Percentage of adults who engaged with the arts in-person in the last 12 months, 
 
 <img src="attachments/global-city-and-culture/media/image76.png" style="width:6.26042in;height:3.86458in" />
 
-Source: Data from Participation Survey[^3]. Note: City of London is not included in this comparison as the confidence intervals around the estimates are much wider than for other boroughs.
+Source: "Data from Participation Survey[^3]. Note: City of London is not included in this comparison as the confidence intervals around the estimates are much wider than for other boroughs."
 
-Engagement with the arts varies significantly between boroughs, with values ranging from 96% in Richmond Upon Thames down to 83% in Barking and Dagenham, and 84% in Redbridge.
+Data for borough level engagement is published less frequently. Nevertheless, the latest data shows that engagement with the arts varies significantly between boroughs, with values ranging from 96% in Richmond Upon Thames down to 83% in Barking and Dagenham, and 84% in Redbridge.
 
 ---
 
@@ -261,14 +259,15 @@ theme: Global City
 
 Source: DCMS Participation Survey[^4]
 
-In contrast to physical engagement, London residents are more likely than people in other regions to engage with arts and culture online. In 2023/24, 38.3% of Londoners said they had engaged with the arts online in the last 12 months, compared to the England average of 36.4%. This represent an increase from the 30% rate in 2021/22.
+London residents are also more likely than people in England to engage with arts and culture online. In 2024/25, 36.2% of Londoners said they had engaged with the arts online in the last 12 months, compared to the England average of 34.8%. The only region with a higher digital engagement was the South-West (37.6%).
 
+\
 =
 
 [^1]: Methodological changes limit longer-term comparisons of domestic tourism visits.
 
-[^2]: Department for Digital, Culture, Media and Sport. (2025), [‘Participation Survey’](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=9350), 2023–24. \[data collection\]. UK Data Service. SN: 9350. (n=18,649), digital engagement sub-sample (n=7,231)
+[^2]: Department for Digital, Culture, Media and Sport. (2026), [‘Participation Survey’](https://datacatalogue.ukdataservice.ac.uk/studies/study/9459#details), 2024–25. \[data collection\]. UK Data Service. SN: 9459. (n=18,651), digital engagement sub-sample (n=1,784)
 
 [^3]: Department for Digital, Culture, Media and Sport. (2025), [‘Participation Survey’](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=9350), 2023–24. \[data collection\]. UK Data Service. SN: 9350.
 
-[^4]: Department for Digital, Culture, Media and Sport. (2025), [‘Participation Survey’](https://beta.ukdataservice.ac.uk/datacatalogue/studies/study?id=9350), 2023–24. \[data collection\]. UK Data Service. SN: 9350. (n=18,649), digital engagement sub-sample (n=7,231)
+[^4]: Department for Digital, Culture, Media and Sport. (2026), [‘Participation Survey’](https://datacatalogue.ukdataservice.ac.uk/studies/study/9459#details), 2024–25. \[data collection\]. UK Data Service. SN: 9459. (n=18,651), digital engagement sub-sample (n=1,784)

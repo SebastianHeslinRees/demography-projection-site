@@ -1,8 +1,8 @@
----
-title: Foreword
-description: The Foreword
-section: Foreword
-navLabel: Foreword
+---\
+title: Foreword\
+description: The Foreword\
+section: Foreword\
+navLabel: Foreword\
 ---
 
 This is the sixth edition of the State of London report, a publication that provides the most up-to-date statistics on London’s performance across a range of economic and social outcomes.
@@ -21,5 +21,5 @@ Many thanks go to all the teams and people who contributed to this publication, 
 
 We welcome any feedback you have on this report via email to: <intelligence@london.gov.uk>.
 
-Adam Yousef,
+Adam Yousef,\
 Senior Manager, City Intelligence

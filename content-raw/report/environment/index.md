@@ -1,8 +1,8 @@
----
-title: Environment
-description: The most up-to-date information available on the state of London’s environment
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Environment\
+description: The most up-to-date information available on the state of London’s environment\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This chapter provides the most up-to-date information available on the state of London’s environment. It focuses on four London-level outcomes:
@@ -61,8 +61,6 @@ theme: Environment
 
 <img src="attachments/environment/media/image2.svg" style="width:6.26389in;height:3.75833in" />
 
-*Source: London Energy and Greenhouse Gas Inventory (LEGGI), GLA*
-
 In 2022, London’s GHG emissions were 28.4 million tonnes (MtCO<sub>2</sub>e). Emissions from domestic, industrial and commercial buildings were responsible for 66% of the total, transport emissions for 27%, with other sources responsible for the remainder.
 
 GHG emissions slightly increased from 28.37 million tonnes in 2021[^1] to 28.4 million tonnes in 2022. Before the pandemic, emissions were higher, at 31.94 million tonnes in 2019. The slight increase in 2022 reflects a “post-pandemic rebound effect” as London recovered from COVID-19. Since 1990, emissions have fallen by 37%, and they are also 44% lower than their peak in 2000.
@@ -89,7 +87,7 @@ theme: Environment
 
 <img src="attachments/environment/media/image4.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: DLUHC, MHCLG, [Live tables on Energy Performance of Buildings Certificates](https://www.gov.uk/government/statistical-data-sets/live-tables-on-energy-performance-of-buildings-certificates), Table D1: [domestic EPCs for all dwellings by energy efficiency rating](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1050433/D1_-_Domestic_EPCs.ods). Experimental statistics.
+Source: "DLUHC, MHCLG, [Live tables on Energy Performance of Buildings Certificates](https://www.gov.uk/government/statistical-data-sets/live-tables-on-energy-performance-of-buildings-certificates), Table D1: [domestic EPCs for all dwellings by energy efficiency rating](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1050433/D1_-_Domestic_EPCs.ods). Experimental statistics."
 
 Improving the energy efficiency of the housing stock is vital for achieving London’s net zero ambitions because it reduces the overall demand for energy, which in turn lowers the amount of GHG emissions associated with energy production and consumption. An Energy Performance Certificate (EPC) indicates how energy efficient a building is, from A (most efficient) to G (least efficient). EPCs are required when properties are built, sold or let, and all new EPCs are added to the Energy Performance of Buildings Register.
 
@@ -101,7 +99,7 @@ Gigawatt-hours (GWh)
 
 <img src="attachments/environment/media/image6.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: Department for energy security and net-zero, [Regional Renewable Statistics](https://www.gov.uk/government/statistics/regional-renewable-statistics): Generation 2003-2023
+Source: "Department for energy security and net-zero, [Regional Renewable Statistics](https://www.gov.uk/government/statistics/regional-renewable-statistics): Generation 2003-2023"
 
 Figure 3 shows the amount of electricity generated in London via renewable sources (including wind, solar photovoltaic, landfill and sewage gas or other biomasses and waste). Since 2014, renewable electricity generation in London increased by over 50%. It peaked at 1,393 GWh in 2020, while decreasing slightly in 2022 and in 2023, to 1,172 GWh mainly due to a decrease in generation from biomass and waste. Total electricity consumption in London in 2022 was almost 34,000 GWh (the latest data available from LEGGI) – meaning that local renewable electricity generation accounted for around 3% of London’s electricity consumption.
 

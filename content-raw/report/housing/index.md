@@ -1,8 +1,8 @@
----
-title: Housing
-description: A selection of key housing indicators
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Housing\
+description: A selection of key housing indicators\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 ---
@@ -21,7 +21,7 @@ llos:
 
 ---
 
-There were around 3.82 million homes in London in 2024, a number that has increased by just under 40,000 a year on average in the last five years. Housing supply in London has not kept up with demand, which has contributed to the city’s very high housing costs: the median price of homes sold in London in the year to February 2025 was £557,500, while the average private rent was £2,163 per month in the year ending March 2025.
+London’s population reached 9.09 million in mid-2024, a number that has increased by more than 140,000 since 2023. Housing supply in London has not kept up with demand, which has contributed to the city’s very high housing costs: the average price of homes sold in London January 2026 was £554,000, as 17% annual decrease, while the average private rent was £2,275 per month in February 2026, a 2% increase from the previous year.
 
 The high cost of housing and the scarcity of suitable accommodation means that London has particularly high rates of housing need. According to official statistics, around 1.7% of all households in London are homeless and living in temporary accommodation, compared to around 0.2% in the rest of England.
 
@@ -41,13 +41,13 @@ llos:
 
 Chart: Chart
 
-title: Londoners’ ability to meet their housing costs
+title: Housing payment arrears and financial strain in London
 
 subTitle: Percentage of London adults who say they have not been able to meet housing payments over the last six months, or have struggled to do so.
 
 byline: GLA Housing Policy and Strategy
 
-source: GLA cost of living polling (YouGov Plc on behalf of the GLA)
+source: All figures are from YouGov Plc on behalf of the GLA. The surveys were carried out online. The figures have been weighted and are representative of all London adults (aged 18+)
 
 dataset: missed_payment
 
@@ -56,7 +56,6 @@ theme: Housing
 ---
 
 <img src="attachments/housing/media/image134.svg" style="width:6.26389in;height:3.13194in" />
-Source: All figures are from YouGov Plc on behalf of the GLA. The surveys were carried out online. The figures have been weighted and are representative of all London adults (aged 18+).
 
 According to GLA cost of living polling data from January 2025, 31% of people in London had either fallen behind, or struggled to keep up with, rent or mortgage payments.
 
@@ -86,11 +85,11 @@ theme: Housing
 
 <img src="attachments/housing/media/image136.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: ONS Pay As You Earn Real Time Information, ONS Price Index of Private Rents
+Source: [ONS Pay As You Earn Real Time Information](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/earningsandemploymentfrompayasyouearnrealtimeinformationuk/previousreleases), [ONS Price Index of Private Rents](https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/priceindexofprivaterentsukmonthlypricestatistics)
 
 The ‘affordability index’ in Figure 2 is calculated as the cumulative change in earnings divided by the cumulative change in private rents (on all tenancies). A higher index value means earnings are increasing by more than private rents, thereby improving affordability (other things equal).
 
-Between 2015 and 2020, rents were relatively stable in nominal terms while earnings increased at a marginally higher rate, leading to a modest improvement in affordability compared to the start of 2015. Rents then fell in 2020 and 2021 while earnings rose strongly. Rents increased sharply from 2022 onwards and are currently outpacing earnings growth, leading to a deterioration in affordability.
+Between 2015 and 2020, rents were relatively stable in nominal terms while earnings increased at a marginally higher rate, leading to a modest improvement in affordability compared to the start of 2015. Rents then fell in 2020 and 2021 while earnings rose strongly. Rents increased sharply from 2022 onwards and are currently outpacing earnings growth, leading to a deterioration in affordability. The rate of growth in rents has been slower since late 2024, lessening the impact on the affordability index.
 
 The ONS rental data shown here reflects rents paid on all tenancies and therefore reacts more slowly to changes in the market for new tenancies. Another caveat to note is that earnings data only reflects payrolled employees and does not reflect changes in income from benefits and non-employment sources of income.
 
@@ -114,9 +113,9 @@ theme: Housing
 
 <img src="attachments/housing/media/image138.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: English Housing Survey.
+Source: [English Housing Survey](https://www.gov.uk/government/collections/english-housing-survey).
 
-Data from the English Housing Survey shows that the proportion of renting households in London who find it difficult to pay rent has remained consistently higher than in the rest of England. In 2022, 38% of private renters and 32% of social sector tenants in London reported difficulty making rent payments. This contrasts with lower levels reported in the rest of England, with 26% of social sector tenants and private renters struggling to pay rent in the same year.
+Data from the English Housing Survey shows that the proportion of renting households in London who find it difficult to pay rent has remained consistently higher than in the rest of England. In 2023, 38% of private renters and 32% of social sector tenants in London reported difficulty making rent payments. This contrasts with lower levels reported in the rest of England, with 26% of social sector tenants and private renters struggling to pay rent in the same year.
 
 The proportion of social sector tenants in London who found it difficult to pay rent fell by 7 percentage points between 2018 and 2022, while the rest of England saw a slight increase of 2 percentage points over the same period. Among private tenants, Londoners were more likely to struggle to pay rent than those in the rest of England, but the figure remained largely unchanged for the rest of England.
 
@@ -140,11 +139,11 @@ theme: Housing
 
 <img src="attachments/housing/media/image140.svg" style="width:6.26389in;height:3.13194in" />
 
-*Source: MHCLG*
+*Source: [MHCLG Homelessness statistics](https://www.gov.uk/government/collections/homelessness-statistics)*
 
 The number of homeless households in temporary accommodation arranged by London boroughs provides a gauge as to whether Londoners most in need of a home can access social rented accommodation. This indicator measures the number of households who have been accepted as requiring a permanent social rented home but who have not yet been allocated one.
 
-London has more households in temporary accommodation than the rest of England combined. According to MHCLG statistics, there were 70,180 homeless households in temporary accommodation arranged by London boroughs at the end of December 2024, up from 63,240 a year before and the highest value since the data series began in 1988. Compared to the rest of England, there were 55,730 homeless households in temporary accommodation in the same period, 77% of those in London.
+London has more households in temporary accommodation than the rest of England combined. According to MHCLG statistics, there were 75,800 homeless households in temporary accommodation arranged by London boroughs at the end of September 2025, up from 63,240 a year before and the highest value since the data series began in 1988. Compared to the rest of England, there were 55,730 homeless households in temporary accommodation in the same period, 77% of those in London.
 
 47,690 of the homeless London households in temporary accommodation in December 2024 had children, with a total of 93,890 children between them. Across the rest of England, there were 33,370 such households and 71,620 children.
 
@@ -164,7 +163,7 @@ llos:
 
 Chart: Chart
 
-title: Decent Homes
+title: Quality of homes
 
 subTitle: Percentage of homes meeting the Decent Homes Standard
 
@@ -180,21 +179,21 @@ theme: Housing
 
 <img src="attachments/housing/media/image142.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: English Housing Survey
+Source: [English Housing Survey](https://www.gov.uk/government/collections/english-housing-survey)
 
 The Decent Homes Standard is a long-established and widely used composite indicator of housing conditions, reported through the official English Housing Survey. For a home to meet the Standard it must satisfy four criteria: it must not contain any serious ‘Category 1’ health hazards, it must be in a reasonable state of repair, it must have reasonably modern facilities or services and it must provide a reasonable degree of thermal comfort, meaning effective insulation and efficient heating.
 
-The proportion of homes in London across all tenures estimated to meet the official Decent Homes Standard rose from 63% in 2006 to 90% in 2022.
+The proportion of homes in London across all tenures estimated to meet the official Decent Homes Standard rose from 63% in 2006 to 89% in 2023.
 
-The highest recorded share of decent homes was in 2021, with 91%. The fall in 2022 was driven by a decrease of the share of decent homes in the social housing and owner-occupied sectors. However, note that data from 2020 and 2021 (and part of 2022) was modelled by MHCLG as surveyors were unable to carry out internal inspections due to the Covid-19 pandemic.
+The highest recorded share of decent homes was in 2021, with 91%. The fall in subsequent years was driven by a decrease of the share of decent homes in the social housing and owner-occupied sectors. However, note that data from 2020 and 2021 (and part of 2022) was modelled by MHCLG as surveyors were unable to carry out internal inspections due to the Covid-19 pandemic. This means that comparisons over time should be made with caution.
 
-In 2022 there was further improvement in the proportion of homes in the private rented sector meeting the Standard (from 80% in 2020 and 86% in 2021 to 88% in 2022). Historically the private rented sector had the smallest share of decent homes, but it is now on par with the social rented sector (88% and 89%, respectively).
+In 2023, conditions in the private rented sector stagnated (they stayed at 12% between 2022 and 2023). Historically, the private rented sector had the largest share of non-decent homes; but it is now on par with the social rented sector (both at 12%).
 
 ---
 
 Chart: Chart
 
-title: Remediation of tall residential buildings with unsafe cladding
+title: Building remediation
 
 subTitle: Percentage of residential buildings with unsafe cladding remediated
 
@@ -210,7 +209,7 @@ theme: Housing
 
 <img src="attachments/housing/media/image144.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: MHCLG
+Source: [MHCLG Building Safety Remediation data](https://www.gov.uk/government/collections/building-safety-remediation)
 
 Fire safety concerns remain a priority, particularly in the wake of the Grenfell tragedy.
 
@@ -234,15 +233,15 @@ llos:
 
 Chart: Chart
 
-title: New rough sleepers
+title: Rough sleeping rate in London
 
-subTitle: Number of people seen rough sleeping for the first time by outcome of the second night.
+subTitle: Number of people sleeping rough over the month per 100,000 people.
 
 byline: GLA Housing Policy and Strategy
 
 source: MHCLG Homelessness statistics
 
-dataset: roughsleeping_first_time
+dataset: sleep_rough
 
 theme: Housing
 
@@ -250,7 +249,7 @@ theme: Housing
 
 <img src="attachments/housing/media/image146.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: MHCLG
+Source: [MHCLG Homelessness statistics](https://www.gov.uk/government/collections/homelessness-statistics)
 
 According to MHCLG data, the total number of people sleeping rough in London remained relatively low throughout 2021 and 2022 but increased sharply over the past two years. In November 2024, 28.5 out of every 100,000 Londoners were sleeping rough, equivalent to 2,551 people, the highest rate recorded since this data series began in October 2020. This represents an 8% increase from the previous year and a 37% rise compared to 2022.
 
@@ -260,7 +259,7 @@ Rough sleeping rates in London have consistently been higher than in the rest of
 
 Chart: Chart
 
-title: New rough sleepers
+title: New rough sleepers in London
 
 subTitle: Number of people seen rough sleeping for the first time by outcome of the second night.
 
@@ -276,9 +275,9 @@ theme: Housing
 
 <img src="attachments/housing/media/image148.svg" style="width:5.52083in;height:2.76042in" />
 
-Source: CHAIN quarterly rough sleeping reports.
+Source: [CHAIN quarterly rough sleeping reports](https://data.london.gov.uk/dataset/rough-sleeping-in-london-chain-reports-2n88x/).
 
-In Q4 2024, outreach teams recorded 2,085 new people who were seen sleeping rough in London for the first time, an 8% decrease compared to the same period the previous year. Of these, 1,520 individuals were seen sleeping rough for only one night. Another 487 people were recorded sleeping rough on multiple occasions but were not considered to be living on the streets, marking a 14% decrease from the previous year. Despite the overall decline in new rough sleepers, 78 individuals were assessed as having joined the population living on the streets—defined as being seen multiple times over a period of three weeks or more, a 22% increase from the previous year.
+In Q4 2025, outreach teams recorded 2,250 new people who were seen sleeping rough in London for the first time, a 6% increase compared to the same period the previous year. Of these, 1,649 individuals were seen sleeping rough for only one night. Another 516 people were recorded sleeping rough for a second night but were not considered to be living on the streets, marking a 12% increase from the previous year. 85 individuals were assessed as having joined the population living on the streets, a 9% increase from the previous year.
 
  
 
@@ -302,13 +301,13 @@ theme: Housing
 
 <img src="attachments/housing/media/image150.svg" style="width:6.26389in;height:3.13194in" />
 
-Source: MHCLG
+Source: [MHCLG Homelessness statistics](https://www.gov.uk/government/collections/homelessness-statistics)
 
 Under the Homelessness Reduction Act, a prevention duty is owed to households threatened with homelessness within 56 days and a relief duty is owed to households that are already homeless and require help to secure accommodation. The relief duty lasts 56 days, after which a household can be accepted as statutorily homeless and owed a main homelessness duty.
 
-There were 17,550 households assessed as owed a new prevention or relief duty in London in Q3 2024, including 7,050 prevention and 10,500 relief duties, accounting for 21% of the national total. Additionally, 4,650 households in London had their main duty accepted, which represents 27% of England’s total. All three figures, in line with national trends, rose sharply towards the end of 2023 and early 2024, following several quarters of steady growth since mid-2022, but have since begun to decline gradually in recent quarters.
+There were 16,590 households assessed as owed a new prevention or relief duty in London in Q3 2025, including 6,620 prevention and 9,970 relief duties, accounting for 21% of the national total. Additionally, 4,400 households in London had their main duty accepted, which represents 27% of England’s total. All three figures, in line with national trends, rose sharply towards the end of 2023 and early 2024, following several quarters of steady growth since mid-2022, but have since begun to decline gradually in recent quarters.
 
-Between Q3 2023 and Q3 2024, the number of households owed a prevention or relief duty increased by almost 18%, rising from 14,640 to 17,270. Over the same period, main duty acceptances rose by 22%, from 3,800 households to 4,650.
+Between Q3 2024 and Q3 2025, the number of households owed a prevention or relief duty fell by 4%, from 17,270 to 16,590. Over the same period, main duty acceptances fell by 5%, from 4,650 to 44,000 households.
 
 ---
 
@@ -340,15 +339,15 @@ theme: Housing
 
 <img src="attachments/housing/media/image152.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: Community Life Survey
+Source: [DCMS Community Life Survey](https://www.gov.uk/government/collections/community-life-survey--2)
 
-In the absence of a metric to assess the quality of neighbourhood planning and design across London, satisfaction with an area as a place to live has been selected as a proxy indicator. However, it is important to note that this measure is also influenced by factors beyond planning and design. As of 2023, 70% of adult Londoners reported being satisfied with their local area as a place to live, the lowest level recorded in the past decade. This also marks the largest year-on-year decline, with satisfaction falling by 4 percentage points. By comparison, satisfaction across England declined by only 2 percentage points over the same period and has consistently remained around 3 percentage points higher than in London.
+In the absence of a metric to assess the quality of neighbourhood planning and design across London, satisfaction with an area as a place to live has been selected as a proxy indicator. However, it is important to note that this measure is also influenced by factors beyond planning and design. As of 2024, 70% of adult Londoners reported being satisfied with their local area as a place to live, unchanged from previous year and the lowest level recorded in the past decade, after three years of decline. By comparison, satisfaction across England fell to 73% in the last year.
 
 ---
 
 Chart: Chart
 
-title: Sense of belonging to local neighbourhoods
+title: Sense of belonging to local neighbourhood
 
 subTitle: Percentage of adults feeling a sense of belonging in their local neighbourhood area
 
@@ -364,8 +363,9 @@ theme: Housing
 
 <img src="attachments/housing/media/image154.svg" style="width:6.26389in;height:3.19306in" />
 
-Source: Community Life Survey
+Source: [DCMS Community Life Survey](https://www.gov.uk/government/collections/community-life-survey--2)
 
-In 2023- 24, 57% of Londoners felt that they belonged very or fairly strongly to their immediate neighbourhood. This marks an increase from 2014-15, when neighbourhood belonging in London was at its lowest point at 49%, before rising to a peak of 59% in both 2019 and 2020. Since 2013, the sense of neighbourhood belonging in London has, on average, been 5 percentage points lower than the national average for England.
+In 2024- 25, 59% of Londoners felt that they belonged very or fairly strongly to their immediate neighbourhood, one of the highest proportions recorded. This marks an increase from 2014-15, when neighbourhood belonging in London was at its lowest point at 49%, before rising to a peak of 59% in 2019 and 2020. Sense of belonging in London fell in 2021 but has since been trending upwards, while the national average has been falling since 2020.
 
+\
 =

@@ -47,10 +47,10 @@ list(
     filter_mapped(master_df)
   ),
 
-  # -- Validate xd values --
+  # -- Validate date values --
   tar_target(
     validated_df,
-    validate_xd(mapped_df)
+    validate_dates(mapped_df)
   ),
 
   # -- Validation report --
