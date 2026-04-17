@@ -1,4 +1,4 @@
-name: Build and trigger deploy to dev server
+name: Build and trigger deploy to dev server (data preview)
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      PUBLIC_CHART_DATA_API_URL: https://apps.london.gov.uk/api/tables/state_of_london/chart_data
+      PUBLIC_CHART_DATA_API_URL: https://apps.london.gov.uk/api/tables/state_of_london/chart_data_preview
     steps:
       - uses: actions/checkout@v6
 

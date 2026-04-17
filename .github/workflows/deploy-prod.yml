@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_CHART_DATA_API_URL: https://apps.london.gov.uk/api/tables/state_of_london/chart_data
     steps:
       - uses: actions/checkout@v6
 
