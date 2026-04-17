@@ -1,16 +1,16 @@
----
-title: London in Figures
-description: Fundamental statistics for London, compared to New York, Paris, and Tokyo
-section: London in Figures
-navLabel: London in Figures
+---\
+title: London in Figures\
+description: Fundamental statistics for London, compared to New York, Paris, and Tokyo\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This section provides some fundamental statistics for London and compares the capital to three other global cities – New York, Paris, and Tokyo – across geographic, demographic and economic parameters.
 
 Table 1: Geography, demography and economy statistics for London
 
----
-component: GeographyDemographyEconomyTable
+---\
+component: GeographyDemographyEconomyTable\
 ---
 
 Table 2: London compared to New York, Paris and Tokyo

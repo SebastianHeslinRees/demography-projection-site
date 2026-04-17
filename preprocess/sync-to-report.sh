@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 INPUT_DIR="input-files"
-REPORT_DIR="./content-raw/report"
+REPORT_DIR="../content-raw/report"
 
 for md in "$INPUT_DIR"/*.md; do
   [ -f "$md" ] || continue

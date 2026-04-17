@@ -1,8 +1,8 @@
----
-title: Social Justice
-description: Cover themes such as support for those most in need and reducing inequalities
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Social Justice\
+description: Cover themes such as support for those most in need and reducing inequalities\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This chapter covers themes such as support for those most in need and reducing inequalities. It sets out trends across measures related to income levels, fairness, civic participation, local communities and relationships.
@@ -151,10 +151,9 @@ Furthermore, in 2023/24, four per cent of households in London had used a food b
 
 ---
 
-component: LLOSection
+component: LLO
 
-llos:
-- Fairness and equality
+title: Fairness and equality
 
 ---
 
@@ -175,8 +174,6 @@ dataset: unfair
 theme: Social Justice
 
 ---
-
-\*Proportion of Londoners treated unfairly in the last 12 months because of one or several protected characteristics or because of their social class
 
 <img src="attachments/social-justice/media/image106.svg" style="width:6.26389in;height:3.13194in" />
 
@@ -206,7 +203,7 @@ theme: Social Justice
 
 ---
 
-*Note: Grey line represents* *<span class="mark">XXX</span>.*
+*Note: Grey line represents* *XXX.*
 
 <img src="attachments/social-justice/media/image108.svg" style="width:6.26389in;height:3.13194in" />
 
@@ -306,7 +303,7 @@ Chart: Chart
 
 title: Voter registration
 
-subTitle: Proportion of eligible adults aged 18+ who are registered for local elections (%)
+subTitle: Proportion of eligible adults aged 18+ who are registered for local elections (percent)
 
 byline: GLA City Intelligence
 
@@ -334,7 +331,7 @@ Chart: Chart
 
 title: Influencing decisions in local area
 
-subTitle: Proportion who feel able to influence decisions affecting their local area (%)
+subTitle: Proportion who feel able to influence decisions affecting their local area (percent)
 
 byline: GLA City Intelligence
 
@@ -372,7 +369,7 @@ Chart: Chart
 
 title: Neighbourhood cohesion
 
-subTitle: Proportion of Londoners who agree that people from different backgrounds get on well in their local area (%)
+subTitle: Proportion of Londoners who agree that people from different backgrounds get on well in their local area (percent)
 
 byline: GLA City Intelligence
 
@@ -398,7 +395,7 @@ Chart: Chart
 
 title: Social isolation
 
-subTitle: Proportion who agree that if they needed help there are people who would be there for them (%)
+subTitle: Proportion who agree that if they needed help there are people who would be there for them (percent)
 
 byline: GLA City Intelligence
 
@@ -424,7 +421,7 @@ Chart: Chart
 
 title: Formal volunteering
 
-subTitle: Proportion who formally volunteered at least once in the last year (%)
+subTitle: Proportion who formally volunteered at least once in the last year (percent)
 
 byline: GLA City Intelligence
 
@@ -450,7 +447,7 @@ Chart: Chart
 
 title: Informal volunteering
 
-subTitle: Proportion who informally volunteered at least once in the last year (%)
+subTitle: Proportion who informally volunteered at least once in the last year (percent)
 
 byline: GLA City Intelligence
 
@@ -478,7 +475,7 @@ Chart: Chart
 
 title: Social action
 
-subTitle: Proportion who were personally involved in social action in the last year (%)
+subTitle: Proportion who were personally involved in social action in the last year (percent)
 
 byline: GLA City Intelligence
 
@@ -504,7 +501,7 @@ Chart: Chart
 
 title: Neighbourhood trust
 
-subTitle: Proportion who agree that many of the people can be trusted in their local neighbourhood (%)
+subTitle: Proportion who agree that many of the people can be trusted in their local neighbourhood (percent)
 
 byline: GLA City Intelligence
 
@@ -530,7 +527,7 @@ Chart: Chart
 
 title: Talking to neighbours
 
-subTitle: Proportion who chat to their neighbours at least once a month (%)
+subTitle: Proportion who chat to their neighbours at least once a month (percent)
 
 byline: GLA City Intelligence
 

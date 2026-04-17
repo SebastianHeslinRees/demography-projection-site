@@ -1,8 +1,8 @@
----
-title: Health
-description: A high-level overview of health in London,
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Health\
+description: A high-level overview of health in London,\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 This chapter provides a high-level overview of health in London, focussing on the following two London-Level Outcomes:
@@ -45,7 +45,7 @@ Chart: Chart
 
 title: Life expectancy at birth
 
-subTitle: Life expectancy at birth in London and England by sex, 2011-13 to 2021-23 (three year rolling averages)
+subTitle: Life expectancy at birth in London and England by sex, 2011-13 to 2022-24 (three year rolling averages)
 
 byline: GLA City Intelligence
 
@@ -73,7 +73,7 @@ Chart: Chart
 
 title: Healthy life expectancy at birth
 
-subTitle: Healthy life expectancy at birth in London and England by sex, 2011-13 to 2021-23 (three year rolling averages)
+subTitle: Healthy life expectancy at birth in London and England by sex, 2011-13 to 2022-24 (three year rolling averages)
 
 byline: GLA City Intelligence
 
@@ -127,7 +127,7 @@ Chart: Chart
 
 title: Prevalence of low birth weight of term babies
 
-subTitle: Percentage of all live births in London and England with gestational age of 37+ weeks, with a birth weight of \<2.5 kg, 2006-2022
+subTitle: Percentage of all live births in London and England with gestational age of 37+ weeks, with a birth weight of \<2.5 kg, 2006-2024
 
 byline: GLA City Intelligence
 
@@ -165,7 +165,7 @@ Chart: Chart
 
 title: Smoking prevalence in adults
 
-subTitle: Percentage of adults aged 18 and over who are current smokers in London and England, 2011 to 2023
+subTitle: Percentage of adults aged 18 and over who are current smokers in London and England, 2011 to 2024
 
 byline: GLA City Intelligence
 
@@ -213,9 +213,10 @@ Source: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulation
 
 Anxiety levels increased slightly between 2021-22 and 2022-23, from 3.28 to 3.34 in London and from 3.13 to 3.24 in England. Similarly, life satisfaction fell slightly from 2021-22 to 2022-23, from 7.46 to 7.35 in London and 7.55 to 7.44 in England.
 
+\
 -
 
-##
+##  
 
 ---
 
@@ -233,7 +234,7 @@ Chart: Chart
 
 title: Premature death from cardiovascular disease
 
-subTitle: Under 75 directly standardised mortality rate per 100,000 from all circulatory diseases in London and England, 2001-03 to 2021-23 (three year rolling averages)
+subTitle: Under 75 directly standardised mortality rate per 100,000 from all circulatory diseases in London and England, 2001-03 to 2022-24 (three year rolling averages)
 
 byline: GLA City Intelligence
 
@@ -261,7 +262,7 @@ Chart: Chart
 
 title: Premature death from cancer
 
-subTitle: Under 75 directly standardised mortality rate per 100,000 from cancer in London and England, 2001-03 to 2021-23 (three year rolling averages)
+subTitle: Under 75 directly standardised mortality rate per 100,000 from cancer in London and England, 2001-03 to 2022-24 (three year rolling averages)
 
 byline: GLA City Intelligence
 
@@ -289,7 +290,7 @@ subTitle: Childhood vaccination rates (%) for selected vaccinations, 2011/12 to 
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on ONS data)
+source: Childhood Vaccination Coverage Statistics, NHS England
 
 dataset: childhood_vacc
 
@@ -317,11 +318,11 @@ Chart: Chart
 
 title: Public satisfaction with the NHS
 
-subTitle: Percentage of individuals responding either ‘Very satisfied’ or ‘Quite satisfied’ to ‘How satisfied or dissatisfied would you say you are with the way in which the NHS runs nowadays?’, London and England, 2015-2021
+subTitle: Percentage of individuals responding either ‘Very satisfied’ or ‘Quite satisfied’ to ‘How satisfied or dissatisfied would you say you are with the way in which the NHS runs nowadays?’, London and England, 2015-2022
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on ONS data)
+source: Health Survey for England, NHS Digital
 
 dataset: sat_nhs
 
@@ -347,7 +348,7 @@ subTitle: Proportion of individuals either ‘Extremely or very satisfied’ or 
 
 byline: GLA City Intelligence
 
-source: Public health profiles, OHID (based on ONS data)
+source: Personal Social Services Adult Social Care Survey, NHS Digital
 
 dataset: usat_scs
 

@@ -1,8 +1,8 @@
----
-title: Key stories for London
-description: Highlights across a range of the report’s chapters
-section: London in Figures
-navLabel: London in Figures
+---\
+title: Key stories for London\
+description: Highlights across a range of the report’s chapters\
+section: London in Figures\
+navLabel: London in Figures\
 ---
 
 While it is not possible to summarise all the information presented in this report, this section presents highlights across a range of the report’s chapters.
@@ -61,9 +61,10 @@ Around 1 in 5 Londoners (19%) live in relative poverty (after housing costs), or
 
 <img src="attachments/key-stories-for-london/media/image10.svg" style="width:6.26806in;height:4.23403in" />
 
-**
+**\**
 
-**Housing**
+**Housing**\
+\
 28.5 out of every 100,000 Londoners were sleeping rough in November 2024, the highest rate recorded since 2020.
 
 The proportion of homes in London across all tenures estimated to meet the official Decent Homes Standard rose from 63% in 2006 to 90% in 2022.
