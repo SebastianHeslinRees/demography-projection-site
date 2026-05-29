@@ -12,6 +12,7 @@ const baseSchema = s.object({
 const docSchema = baseSchema
 	.extend({
 		toc: s.toc(),
+		heroImage: s.string().optional(),
 		section: s.enum([
 			'Foreword',
 			'London in Figures',

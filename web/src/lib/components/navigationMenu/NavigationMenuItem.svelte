@@ -6,7 +6,6 @@
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { getContext } from 'svelte';
 	import { classNames, randomId, Button } from '@ldn-viz/ui';
-  import { resolve } from '$app/paths';
 
 	let {
 		id = randomId(),
@@ -145,7 +144,7 @@
 			{/if}
 		</div>
 	{:else}
-		<a href={resolve(href?.toString())} {id}  class={textClasses} {...currentPage} onclick={() => onChange(id)}>
+		<a href={href || '#'} {id}  class={textClasses} {...currentPage} onclick={() => onChange(id)}>
 			{title}
 		</a>
 	{/if}

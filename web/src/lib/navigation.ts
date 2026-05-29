@@ -17,87 +17,45 @@ const dataVisualisation = allDocs
 
 export const navigation = [
 	{
-		title: 'Foreword',
-		id: 'foreword',
-		href: '/report/foreword',
+		title: 'Executive summary',
+		id: 'executive-summary',
+		href: '/report',
 		children: []
 	},
 	{
-		title: 'London in Figures',
-		id: 'london-in-figures',
-		href: '/report/london-in-figures',
+		title: 'Overview of the projections',
+		id: 'overview-of-the-projections',
+		href: '/report/overview-of-the-projections',
 		children: []
 	},
 	{
-		title: 'Key Stories for London',
-		id: 'key-stories-for-london',
-		href: '/report/key-stories-for-london',
+		title: 'Projected population',
+		id: 'projected-population',
+		href: '/report/projected-population',
 		children: []
 	},
 	{
-		title: 'Demography',
-		id: 'demography',
-		href: '/report/demography',
+		title: 'Components of change',
+		id: 'components-of-change',
+		href: '/report/components-of-change',
 		children: []
 	},
 	{
-		title: 'Economy',
-		id: 'economy',
-		href: '/report/economy',
+		title: 'Interpreting the results',
+		id: 'interpreting-the-results',
+		href: '/report/interpreting-the-results',
 		children: []
 	},
 	{
-		title: 'Global city and culture',
-		id: 'global-city-and-culture',
-		href: '/report/global-city-and-culture',
+		title: 'Comparisons with 2021-based projections',
+		id: 'comparisons-with-2021-based-projections',
+		href: '/report/comparisons-with-2021-based-projections',
 		children: []
 	},
 	{
-		title: 'Skills',
-		id: 'skills',
-		href: '/report/skills',
-		children: []
-	},
-	{
-		title: 'Social justice',
-		id: 'social-justice',
-		href: '/report/social-justice',
-		children: []
-	},
-	{
-		title: 'Housing',
-		id: 'housing',
-		href: '/report/housing',
-		children: []
-	},
-	{
-		title: 'Environment',
-		id: 'environment',
-		href: '/report/environment',
-		children: []
-	},
-	{
-		title: 'Crime',
-		id: 'crime',
-		href: '/report/crime',
-		children: []
-	},
-	{
-		title: 'Transport',
-		id: 'transport',
-		href: '/report/transport',
-		children: []
-	},
-	{
-		title: 'Children and young people',
-		id: 'children-and-young-people',
-		href: '/report/children-and-young-people',
-		children: []
-	},
-	{
-		title: 'Health',
-		id: 'health',
-		href: '/report/health',
+		title: 'Data sources',
+		id: 'data-sources',
+		href: '/report/data-sources',
 		children: []
 	},
 ];

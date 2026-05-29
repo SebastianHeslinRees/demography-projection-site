@@ -1,5 +1,5 @@
-import { getContent } from '$lib/utils';
+import { redirect } from '@sveltejs/kit';
 
-export async function load() {
-	return getContent();
+export function load() {
+	throw redirect(307, '/report');
 }
