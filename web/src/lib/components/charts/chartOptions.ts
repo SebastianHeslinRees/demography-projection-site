@@ -27,7 +27,8 @@ export type ChartOptions = {
 
         'year' | /* e.g., 2014  */
 
-        'Multi-year period' /* xd is not actually a date */
+        'Multi-year period' | /* xd is not actually a date */
+        null
 
     ;
 
@@ -114,6 +115,11 @@ export type ChartOptions = {
       */
      numTicks?: number;
 
+    /**
+     * If provided for date-based line charts, shades the chart area from this date onward.
+     */
+    projectedStart?: string;
+
      /**
       * Can be used to override threshold color scale for a choropleth map.
       * TODO: may need to generalise to allow customization of colors on other map types too,
@@ -148,6 +154,71 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".2s",
         "x_order": null,
         "timeperiod_type": "Annual"
+    },
+
+    "proj_total_population": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj_annual_population_change": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        numTicks: 4,
+        projectedStart: "2025-01-01"
+    },
+
+    "proj_age_structure_median_age": {
+        "chartType": "line",
+        "type": "integer",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "year",
+        includeZero: true
+    },
+
+    "proj_working_age_population": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj_primary_school_age_children": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj_secondary_school_age_children": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj_population_age_65_plus": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".2s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
     },
 
     "population_age_structure": {
@@ -1197,5 +1268,63 @@ export const chartOptions: Record<string, ChartOptions> = {
         xScaleType: 'band'
     },
 
+    // Components of Change datasets
+    "births": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "deaths": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "natural_change": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2025-01-01"
+    },
+
+    "international_net_migration": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2025-01-01"
+    },
+
+    "domestic_net_migration": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2025-01-01"
+    },
+
+    "total_net_migration": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2025-01-01"
+    },
 
 }

@@ -1,4 +1,6 @@
 import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
+import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
+import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
 
 export type ChartDataRow = {
   dataset: string;
@@ -28,8 +30,16 @@ export function loadChartData(
     return val;
   };
 
-  return fetchChartData(dataset)
-    .then((res) => res.json())
+  const localData = (projectedPopulationChartData as ChartDataRow[])
+    .concat(componentsOfChangeData as ChartDataRow[])
+    .filter((d) => d.dataset === dataset);
+
+  const dataPromise =
+    localData.length > 0
+      ? Promise.resolve(localData)
+      : fetchChartData(dataset).then((res) => res.json());
+
+  return dataPromise
     .then((dataRes) => {
       const newData = dataRes
         .map((d: ChartDataRow) => ({ ...d, xd: convertVal(d.xd as string) }))
