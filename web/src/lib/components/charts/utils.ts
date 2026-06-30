@@ -1,5 +1,7 @@
 import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
+// Bundled projected population chart rows shipped with the app build.
 import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
+// Bundled components-of-change chart rows shipped with the app build.
 import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
 
 export type ChartDataRow = {
@@ -30,13 +32,19 @@ export function loadChartData(
     return val;
   };
 
+  // Start from the projected population local dataset.
   const localData = (projectedPopulationChartData as ChartDataRow[])
+    // Merge in the components-of-change local dataset.
     .concat(componentsOfChangeData as ChartDataRow[])
+    // Keep only rows for the requested dataset key.
     .filter((d) => d.dataset === dataset);
 
+  // Prefer local bundled data when available; otherwise fetch from API.
   const dataPromise =
+    // If local rows were found, resolve immediately from local memory.
     localData.length > 0
       ? Promise.resolve(localData)
+      // If no local rows exist for this dataset, request them from the API endpoint.
       : fetchChartData(dataset).then((res) => res.json());
 
   return dataPromise

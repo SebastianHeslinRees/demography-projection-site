@@ -41,7 +41,7 @@
     let options = $derived(chartOptions[dataset])
 
     // fetch data
-    let data = $state([]);
+    let data = $state<ChartDataRow[]>([]);
     loadChartData(dataset, options).then(newData => { data = newData; });
 
     const getColorScale = (data: ChartDataRow[]) => {
@@ -84,6 +84,10 @@
     }
 
     let spec = $derived.by(() => {
+        if (data.length === 0) {
+            return undefined;
+        }
+
         const colorChoice = getColorScale(data);
 
         if (options.chartType === "stackedHistogram"){
@@ -122,7 +126,7 @@
 {#if spec && data.length > 0}
     <div class="w-full">
         <ObservablePlot
-                {data}
+                data={data}
                 {spec}
                 {title}
                 subTitle={subtitle}
