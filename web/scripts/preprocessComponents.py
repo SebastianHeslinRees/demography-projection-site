@@ -15,6 +15,7 @@ from collections import defaultdict
 OUTPUT_DIR = Path(__file__).parent.parent / "src" / "lib" / "data"
 OUTPUT_FILE = OUTPUT_DIR / "ComponentsOfChangeChartData.json"
 INPUT_DIR = Path("/Users/user1/Downloads/output_pq")
+LONDON_GSS_CODE = "E12000007"
 
 # Variant mapping
 VARIANT_MAPPING = {
@@ -28,7 +29,10 @@ COMPONENT_MAPPING = {
     "births": "births",
     "deaths": "deaths",
     "international_net": "international_net_migration",
-    "domestic_net": "domestic_net_migration",
+    "internal_in": "domestic_in_migration",
+    "internal_out": "domestic_out_migration",
+    "internal_net": "domestic_net_migration",
+    "total_net": "total_net_migration",
 }
 
 def extract_variant_name(folder_name):
@@ -53,8 +57,18 @@ def read_component_data(variant_path, year, component):
         # Read all parquet files for this component
         dfs = [pd.read_parquet(f) for f in parquet_files]
         df = pd.concat(dfs, ignore_index=True)
-        
-        # Aggregate across all ages and sexes (sum values)
+
+        # Enforce London-only aggregation. Do not silently sum all geographies.
+        if "gss_code" not in df.columns:
+            print(f"Warning: missing gss_code for {component_path}; skipping")
+            return None
+
+        df = df[df["gss_code"] == LONDON_GSS_CODE]
+        if df.empty:
+            print(f"Warning: no London rows ({LONDON_GSS_CODE}) for {component_path}; skipping")
+            return None
+
+        # Aggregate across age/sex rows for the selected geography.
         total_value = df["value"].sum()
         return total_value
     except Exception as e:
@@ -102,13 +116,11 @@ def main():
                     "y": value
                 })
     
-    # Calculate derived metrics (natural_change and total_net_migration)
+    # Calculate derived metric: natural_change
     for variant in sorted(data_by_variant.keys()):
         for year in sorted(data_by_variant[variant].keys()):
             births = data_by_variant[variant][year].get("births")
             deaths = data_by_variant[variant][year].get("deaths")
-            intl_mig = data_by_variant[variant][year].get("international_net_migration")
-            dom_mig = data_by_variant[variant][year].get("domestic_net_migration")
             
             # Natural change = births - deaths
             if births is not None and deaths is not None:
@@ -118,16 +130,6 @@ def main():
                     "xd": f"{year:04d}-01-01",
                     "b": variant,
                     "y": natural_change
-                })
-            
-            # Total net migration = international + domestic
-            if intl_mig is not None and dom_mig is not None:
-                total_mig = intl_mig + dom_mig
-                rows.append({
-                    "dataset": "total_net_migration",
-                    "xd": f"{year:04d}-01-01",
-                    "b": variant,
-                    "y": total_mig
                 })
     
     # Write output JSON
@@ -143,8 +145,10 @@ def main():
     print("  - deaths")
     print("  - natural_change (calculated: births - deaths)")
     print("  - international_net_migration")
+    print("  - domestic_in_migration")
+    print("  - domestic_out_migration")
     print("  - domestic_net_migration")
-    print("  - total_net_migration (calculated: intl + domestic)")
+    print("  - total_net_migration")
 
 if __name__ == "__main__":
     main()

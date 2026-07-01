@@ -124,7 +124,7 @@
 -->
 
 {#if spec && data.length > 0}
-    <div class="w-full">
+    <div class="w-full mb-16">
         <ObservablePlot
                 data={data}
                 {spec}

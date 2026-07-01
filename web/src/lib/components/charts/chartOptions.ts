@@ -1275,7 +1275,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0f",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
     },
 
     "deaths": {
@@ -1284,7 +1284,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0f",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
     },
 
     "natural_change": {
@@ -1294,7 +1294,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true,
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
     },
 
     "international_net_migration": {
@@ -1304,7 +1304,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true,
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
     },
 
     "domestic_net_migration": {
@@ -1314,7 +1314,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true,
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
+    },
+
+    "domestic_in_migration": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "domestic_out_migration": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ".0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
     },
 
     "total_net_migration": {
@@ -1324,7 +1342,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         includeZeroLine: true,
-        projectedStart: "2025-01-01"
+        projectedStart: "2024-01-01"
     },
 
 }

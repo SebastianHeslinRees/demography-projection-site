@@ -21,6 +21,50 @@ export function fetchChartData(dataset: string): Promise<Response> {
   return fetch(`${PUBLIC_CHART_DATA_API_URL}?dataset=eq.${dataset}`);
 }
 
+function getLocalDatasetRows(dataset: string): ChartDataRow[] {
+  return (projectedPopulationChartData as ChartDataRow[])
+    .concat(componentsOfChangeData as ChartDataRow[])
+    .filter((d) => d.dataset === dataset);
+}
+
+function getDatasetRows(dataset: string): Promise<ChartDataRow[]> {
+  const localRows = getLocalDatasetRows(dataset);
+
+  if (localRows.length > 0) {
+    return Promise.resolve(localRows);
+  }
+
+  return fetchChartData(dataset).then((res) => res.json());
+}
+
+function deriveTotalNetMigrationRows(
+  internationalRows: ChartDataRow[],
+  domesticRows: ChartDataRow[],
+): ChartDataRow[] {
+  const internationalByKey = new Map<string, ChartDataRow>();
+
+  for (const row of internationalRows) {
+    internationalByKey.set(`${row.b}::${row.xd}`, row);
+  }
+
+  const combinedRows: ChartDataRow[] = [];
+
+  for (const domesticRow of domesticRows) {
+    const matchingInternational = internationalByKey.get(`${domesticRow.b}::${domesticRow.xd}`);
+
+    if (!matchingInternational) continue;
+
+    combinedRows.push({
+      dataset: "total_net_migration",
+      xd: domesticRow.xd,
+      b: domesticRow.b,
+      y: matchingInternational.y + domesticRow.y,
+    });
+  }
+
+  return combinedRows;
+}
+
 export function loadChartData(
   dataset: string,
   options: ChartDataOptions,
@@ -32,20 +76,18 @@ export function loadChartData(
     return val;
   };
 
-  // Start from the projected population local dataset.
-  const localData = (projectedPopulationChartData as ChartDataRow[])
-    // Merge in the components-of-change local dataset.
-    .concat(componentsOfChangeData as ChartDataRow[])
-    // Keep only rows for the requested dataset key.
-    .filter((d) => d.dataset === dataset);
+  const dataPromise = getDatasetRows(dataset).then((rows) => {
+    if (rows.length > 0 || dataset !== "total_net_migration") {
+      return rows;
+    }
 
-  // Prefer local bundled data when available; otherwise fetch from API.
-  const dataPromise =
-    // If local rows were found, resolve immediately from local memory.
-    localData.length > 0
-      ? Promise.resolve(localData)
-      // If no local rows exist for this dataset, request them from the API endpoint.
-      : fetchChartData(dataset).then((res) => res.json());
+    return Promise.all([
+      getDatasetRows("international_net_migration"),
+      getDatasetRows("domestic_net_migration"),
+    ]).then(([internationalRows, domesticRows]) =>
+      deriveTotalNetMigrationRows(internationalRows, domesticRows),
+    );
+  });
 
   return dataPromise
     .then((dataRes) => {
