@@ -45,6 +45,8 @@ export const lineChartWithLineStyles = (options: ChartOptions, data: ChartDataRo
         ...(new Set(data.map(d => d.z2))).values().map((v, i) => Plot.line(data.filter(d => d.z2 === v), {
             x: "xd",
             y: "y",
+            curve: "catmull-rom",
+            tension: 0.4,
 
             strokeDasharray: ['4,0', '4,4'][i],
 
