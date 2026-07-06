@@ -6,8 +6,6 @@ Reads from /Users/user1/Downloads/output_pq/ and outputs ComponentsOfChangeChart
 
 import pandas as pd
 import json
-import glob
-import os
 from pathlib import Path
 from collections import defaultdict
 
