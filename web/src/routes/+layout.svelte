@@ -101,7 +101,7 @@
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-secondary">
-					<li>email:</li>
+					<li>email: Demography@london.gov.uk</li>
 				</ul>
 			</nav>
 		</div>

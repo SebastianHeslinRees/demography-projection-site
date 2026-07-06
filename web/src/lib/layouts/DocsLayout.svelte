@@ -32,7 +32,7 @@
 	{/snippet}
 
 	{#snippet main()}
-		<div class="flex space-x-24 p-4 lg:p-8">
+		<div class="flex space-x-24 p-4 lg:p-8 pt-0 lg:pt-0">
 			{@render children?.()}
 		</div>
 		<PageNav />

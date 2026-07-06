@@ -101,8 +101,6 @@ export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoi
                     x: "xd",
                     y: "y",
                     fx: options.faceted ? 'z2' : undefined,
-                    curve: "catmull-rom",
-                    tension: 0.4,
                     stroke: "b",
                     title: d => [d.b, d.xd, d.y].join("\n"),
                     tip: "xy"
@@ -137,8 +135,6 @@ export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoi
                 x: "xd",
                 y: "y",
                 fx: options.faceted ? 'z2' : undefined,
-                curve: "catmull-rom",
-                tension: 0.4,
                 stroke: "b",
                 title: d => [d.b, d.xd, d.y].join("\n"),
                 tip: "xy"
@@ -147,8 +143,6 @@ export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoi
                 x: "xd",
                 y: "y",
                 fx: options.faceted ? 'z2' : undefined,
-                curve: "catmull-rom",
-                tension: 0.4,
                 stroke: "b",
                 strokeDasharray: "5,4",
                 title: d => [d.b, d.xd, d.y].join("\n"),

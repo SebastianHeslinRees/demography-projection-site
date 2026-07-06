@@ -89,7 +89,7 @@ def main():
         if not variant_name:
             continue
         
-        print(f"Processing variant: {variant_name} ({variant_folder.name})")
+        print(f"Proces ant: {variant_name} ({variant_folder.name})")
         
         # Find all year subdirectories
         year_dirs = sorted([d for d in variant_folder.iterdir() if d.is_dir() and d.name.startswith("year=")])
