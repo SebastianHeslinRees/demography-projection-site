@@ -18,7 +18,7 @@ const config = {
 			 entries: ['*', ...contentIndex.map((d) => d.slugFull)],
 			 handleMissingId: 'ignore' 
 			},
-		paths: { base: dev ? '' : '/state-of-london' }
+		paths: { base: dev ? '' : '/analysis/population-projections' }
 	},
 	onwarn: (warning, handler) => {
 		if (warning.code === 'css_unused_selector') return;
