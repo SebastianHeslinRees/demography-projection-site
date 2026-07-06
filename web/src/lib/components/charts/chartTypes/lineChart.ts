@@ -39,9 +39,7 @@ const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
 }
 
 export const lineChart = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => {
-    const yDomain = (!options.forceYDomain_b && !options.forceYDomain_t)
-        ? getDomain(data, options)
-        : [options.forceYDomain_b, options.forceYDomain_t];
+    const yDomain = options.yDomain ?? getDomain(data, options);
 
     const hasProjectedShading =
         Boolean(options.projectedStart) &&

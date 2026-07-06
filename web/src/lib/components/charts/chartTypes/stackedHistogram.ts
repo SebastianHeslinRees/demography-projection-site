@@ -11,7 +11,7 @@ export const stackedHistogram = (options: ChartOptions, data: ChartDataRow[], co
 
     y: {
         label: "Count",
-        domain: (options.forceYDomain_b == 0 && options.forceYDomain_t == 0) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        ...(options.yDomain ? { domain: options.yDomain } : {})
     },
 
     color: {
