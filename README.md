@@ -1,24 +1,21 @@
 ---
-Title: State of London
+Title: Population projection analysis
 Public: true
-URL: https://apps.london.gov.uk/state-of-london
+URL: https://apps.london.gov.uk/analysis/population-projections
 Framework: Svelte
-Mapping: maplibre, Deck.gl
 Services:
 ---
 
-# State of London - Digital 
+# Population projection analysis 
 
 A repo for the State of London digital project. Started 2026.
 
 ## Folder Structure
 
-### Web
+### `web/`
 This folder contains the files for the web publishing workflow. To develop here, `cd` into this folder and run `npm install` then `npm run dev` as usual.
 
 For more details, see [web/README.md](./web/README.md)
 
-### Preprocess
-This folder contains the scripts for preprocessing the report content with pandoc etc.
-
-For more details, see [preprocess/README.md](./preprocess/README.md)
+### `data-pipeline/`
+This folder contains R code for processing data.
