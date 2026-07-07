@@ -18,7 +18,7 @@ export const incomeSlopeChart = (options: ChartOptions, data: ChartDataRow[], co
 
     y: {
         label: null,
-        domain: (!options.forceYDomain_b && !options.forceYDomain_t) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        ...(options.yDomain ? { domain: options.yDomain } : {}),
         includeZero: options.includeZero
     },
 

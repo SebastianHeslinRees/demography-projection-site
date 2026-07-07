@@ -17,7 +17,7 @@ export const lineChartWithLineStyles = (options: ChartOptions, data: ChartDataRo
 
     y: {
         label: null,
-        domain: (!options.forceYDomain_b && !options.forceYDomain_t) ? undefined : [options.forceYDomain_b, options.forceYDomain_t],
+        ...(options.yDomain ? { domain: options.yDomain } : {}),
         includeZero: options.includeZero
     },
 

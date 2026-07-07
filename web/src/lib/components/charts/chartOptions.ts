@@ -68,14 +68,9 @@ export type ChartOptions = {
     ytickformat: string | null;
 
     /**
-     * Overrides for the extent of the y-axis.
-     */
-    forceYDomain_b?: number;
-
-    /**
-     * Overrides for the extent of the y-axis.
-     */
-    forceYDomain_t?: number;
+	 * Overrides for the extent of the y-axis as [min, max].
+	 */
+	yDomain?: [number | undefined, number | undefined];
 
     /**
      * Overrides for the ordering of bars.
