@@ -9,7 +9,7 @@
 
 
 <svelte:head>
-    <title>State of London - {data.metadata.title}</title>
+    <title>Population Projections - {data.metadata.title}</title>
 </svelte:head>
 
 <!-- TODO: adding container her is of course restrictive to items that may want to break out of the column -->

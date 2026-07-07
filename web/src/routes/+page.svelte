@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>The State of London Report</title>
+    <title>Population Projections</title>
 </svelte:head>
 
 
