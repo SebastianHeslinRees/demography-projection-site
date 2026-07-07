@@ -101,7 +101,7 @@
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-secondary">
-					<li>email: Demography@london.gov.uk</li>
+					<li>email: <a href="mailto:Demography@london.gov.uk?subject=Population%20Projection%20Analysis%20website">Demography@london.gov.uk</a></li>
 				</ul>
 			</nav>
 		</div>
