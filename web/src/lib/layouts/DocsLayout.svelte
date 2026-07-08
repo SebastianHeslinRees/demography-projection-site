@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import PageNav from '$lib/components/pageNav/PageNav.svelte';
 	import { page } from '$app/state';
 	import { AppShell } from '@ldn-viz/ui';
@@ -6,7 +7,7 @@
 
 	let { children, navigation } = $props();
 
-	const heroImage = $derived(page.data?.metadata?.heroImage ?? '/images/hero/london-rush-hour.jpg');
+	const heroImage = $derived(resolve(page.data?.metadata?.heroImage ?? '/images/hero/Crowds_542479473.jpg'));
 	const heroTitle = $derived(page.data?.metadata?.title ?? 'Demographic update');
 	const heroDescription = $derived(page.data?.metadata?.description ?? '');
 </script>
