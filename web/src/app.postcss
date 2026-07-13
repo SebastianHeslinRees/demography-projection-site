@@ -1,15 +1,53 @@
 /* Write your global styles here, in PostCSS syntax */
-@import '@ldn-viz/themes/styles/global.css';
+@import '@ldn-viz/themes/styles/primitives.css';
 @import '@ldn-viz/themes/styles/light.css';
 @import '@ldn-viz/themes/styles/dark.css';
+@import '@ldn-viz/themes/styles/spacing.css';
+@import '@ldn-viz/themes/styles/typography.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	html,
-	body {
-		color: var(--theme-text-primary);
+html {
+	scroll-behavior: smooth;
+}
+
+html.disable-smooth-scroll {
+	scroll-behavior: auto;
+}
+
+[id] {
+	scroll-margin-top: 66px;
+}
+
+@layer components {
+	.tooltip p {
+		@apply prose !body-sm responsive;
+	}
+
+	.footnotes-section p {
+		@apply prose !body-xs responsive;
+	}
+
+	.footnotes-section .data-footnote-backref {
+		@apply inline-flex;
+	}
+
+	.ldn-viz-sidebar-toggle {
+		@apply hidden;
+	}
+
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	tbody tr:nth-child(even) td {
+		background-color: var(--color-canvas-muted);
+	}
+
+	thead tr th {
+		text-align: left;
 	}
 }

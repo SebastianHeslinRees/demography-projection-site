@@ -1,0 +1,17 @@
+<script lang="ts">
+	import type { PageProps } from './$types';
+
+	let { data }: PageProps = $props();
+
+	const PageComponent = $derived(data.component);
+</script>
+
+<svelte:head>
+	<title>Population Projections - {data.metadata.title}</title>
+</svelte:head>
+
+<PageComponent />
+
+<!--
+<PageNav />
+ -->

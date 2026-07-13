@@ -1,80 +1,93 @@
+
 <script lang="ts">
 	import { resolve } from '$app/paths';
+
+	import { afterNavigate, beforeNavigate } from '$app/navigation';
+	import { Bars3, XMark } from '@steeze-ui/heroicons';
+	import { Icon } from '@steeze-ui/svelte-icon';
+
 	import { page } from '$app/state';
-
-	import { afterNavigate } from '$app/navigation';
-	import { findActiveItem } from '$lib/components/navigationMenu/utils'
-
+	import { sidebarState } from '$lib/state.svelte';
 	import {
+		AnalyticsAndCookieConsent,
 		Button,
+		CookieControlSettings,
 		Footer,
 		Header,
-		HeaderItem,
-		HeaderRight,
 		HeaderTitle,
-		NavigationMenu,
+		PrivacyPolicyLink,
 		Theme,
 		ThemeSwitcher
 	} from '@ldn-viz/ui';
-	import { Bars3, XMark } from '@steeze-ui/heroicons';
-	import { Icon } from '@steeze-ui/svelte-icon';
-	import { slide } from 'svelte/transition';
 	import '../app.postcss';
 
-	let mainMenu = [
-		{ title: 'Report', id: 'report', href: resolve('/report') },
-		{ title: 'Contact', id: 'contact', href: resolve('/contact') }
-	];
+	import { PageMetadata } from '@ldn-viz/ui';
 
-	let menuOpen = $state(false);
 	let breakPoint: number = $state(0);
 
+	$effect(() => {
+		sidebarState.state.isOpen = breakPoint >= 1280;
+	});
+
+	beforeNavigate(() => {
+		document.documentElement.classList.add('disable-smooth-scroll');
+	});
+
+	afterNavigate(() => {
+		requestAnimationFrame(() => {
+			document.documentElement.classList.remove('disable-smooth-scroll');
+		});
+	});
+
+	afterNavigate(() => (sidebarState.state.isOpen = breakPoint >= 1280));
+
 	let { children } = $props();
-
-	let activeMenuItem = $derived(findActiveItem(mainMenu, page, resolve));
-
-	afterNavigate(() => (menuOpen = false));
 </script>
 
 <Theme />
 
 <svelte:window bind:innerWidth={breakPoint} />
+<!--
+<PageMetadata
+	title="The State of London report"
+	description="The State of London report brings together an array of data about how London is performing across its economy, society and environment. Published annually by the GLA’s City Intelligence unit, it provides an up‑to‑date, data‑led picture of life in the capital, drawing on a wide range of official and administrative sources."
+	url="https://apps.london.gov.uk/state-of-london"
+	image="https://apps.london.gov.uk/state-of-london/preview.jpg"
+	imageAlt="Screenshot of the State of London report"
+	imageWidth={1200}
+	imageHeight={630}
+/>
+-->
+<svelte:head>
+	<script>
+		window.ldnVizCivicApiKey = 'b08bca6362c188d40519ea5501ffd4a94d8003dc';
+		window.ldnVizCivicAppName = 'state-of-london';
+	</script>
+</svelte:head>
+
+<AnalyticsAndCookieConsent />
 
 <div class="flex min-h-dvh flex-col">
-	<Header>
-		<HeaderTitle base={resolve('/report')}>GLA 2024-based Population Projections</HeaderTitle>
-		<HeaderRight>
-			{#if breakPoint >= 768}
-				<HeaderItem>
-					<NavigationMenu
-						items={mainMenu}
-						orientation="horizontal"
-						ariaLabel="main menu"
-						activeMenuItemId={activeMenuItem?.id}
-					/>
-				</HeaderItem>
-
-			{:else}
+	<div class="sticky top-0 z-50">
+		<Header>
+			{#if page.url.pathname !== resolve('/')}
 				<Button
-					variant="text"
-					class=" !text-color-static-white no-underline"
-					onclick={() => (menuOpen = !menuOpen)}
+					variant="square"
+					size="sm"
+					emphasis="secondary"
+					class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
+					onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
 				>
-					Menu {#if !menuOpen}
-						<Icon src={Bars3} class="ml-2 h-5 w-5"></Icon>
+					{#if !sidebarState.state.isOpen}
+						<Icon src={Bars3} class="h-5 w-5"></Icon>
 					{:else}
-						<Icon src={XMark} class="ml-2 h-5 w-5"></Icon>
+						<Icon src={XMark} class="h-5 w-5"></Icon>
 					{/if}
 				</Button>
 			{/if}
-		</HeaderRight>
-
-		{#if breakPoint <= 768 && menuOpen}
-			<div class="absolute inset-x-0 top-[48px] z-50 bg-color-container-level-0" transition:slide>
-				<NavigationMenu ariaLabel="Main Menu" items={mainMenu}></NavigationMenu>
-			</div>
-		{/if}
-	</Header>
+			<HeaderTitle base={resolve('/')}>GLA 2024-based Population Projections Report</HeaderTitle>
+		</Header>
+	</div>
 
 	{@render children()}
 
@@ -82,15 +95,14 @@
 		<div class="pb-4 text-sm lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Links</h3>
-				<ul class=" text-color-text-secondary">
+				<ul class="text-color-text-muted">
 					<li>
-						<a href="https://data.london.gov.uk/" target="_blank" class="hover:underline">
+						<a
+							href="https://data.london.gov.uk/dataset/state-of-london/"
+							target="_blank"
+							class="hover:underline"
+						>
 							London Data Store
-						</a>
-					</li>
-					<li>
-						<a href="https://dfl.london.gov.uk/library" target="_blank" class="hover:underline">
-							Data for London Library
 						</a>
 					</li>
 				</ul>
@@ -100,14 +112,19 @@
 		<div class="pb-4 text-sm lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
-				<ul class="text-color-text-secondary">
+				<ul class="text-color-text-muted">
 					<li>email: <a href="mailto:Demography@london.gov.uk?subject=Population%20Projection%20Analysis%20website">Demography@london.gov.uk</a></li>
 				</ul>
 			</nav>
 		</div>
 
+
 		{#snippet footerCookieMenu()}
-			<div class="flex justify-end">
+			<div class="flex justify-between">
+				<ul class="flex space-x-2">
+					<li><CookieControlSettings /></li>
+					<li><PrivacyPolicyLink /></li>
+				</ul>
 				<ThemeSwitcher size="xs" />
 			</div>
 		{/snippet}

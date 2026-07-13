@@ -14,20 +14,7 @@ const docSchema = baseSchema
 		toc: s.toc(),
 		heroImage: s.string().optional(),
 		section: s.enum([
-			'Foreword',
-			'London in Figures',
-			'Key Stories for London',
 			'Demography',
-			'Economy',
-			'Global city and culture',
-			'Skills',
-			'Social justice',
-			'Housing',
-			'Environment',
-			'Crime',
-			'Transport',
-			'Children and young people',
-			'Health'
 		])
 	})
 	.transform((data) => {
