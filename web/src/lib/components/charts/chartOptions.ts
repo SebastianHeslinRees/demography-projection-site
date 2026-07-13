@@ -142,6 +142,31 @@ export type ColorChoice = {
 
 export const chartOptions: Record<string, ChartOptions> = {
 
+    /** Borough choropleth **/
+    "borough_population": {
+        "chartType": "choropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [150000, 200000, 250000, 300000, 350000, 400000],
+            "range": ["#f7fbff", "#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c", "#08306b"]
+        }
+    },
+
+    "borough_population_pct_change": {
+        "chartType": "choropleth",
+        "type": "character",
+        "ytickformat": "+.1f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [-20, 0, 5, 10, 15, 20],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#2171b5", "#08306b"]
+        }
+    },
+
     /** Demography **/
     "total_population_year": {
         "chartType": "line",

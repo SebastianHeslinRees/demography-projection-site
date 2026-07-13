@@ -3,6 +3,8 @@ import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
 import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
 // Bundled components-of-change chart rows shipped with the app build.
 import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
+// Bundled borough-level population data.
+import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
 
 export type ChartDataRow = {
   dataset: string;
@@ -24,6 +26,7 @@ export function fetchChartData(dataset: string): Promise<Response> {
 function getLocalDatasetRows(dataset: string): ChartDataRow[] {
   return (projectedPopulationChartData as ChartDataRow[])
     .concat(componentsOfChangeData as ChartDataRow[])
+    .concat(boroughPopulationData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 
