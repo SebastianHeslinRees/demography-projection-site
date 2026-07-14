@@ -1,5 +1,5 @@
 <script>
-	import PageContainer from '$lib/components/pageContainer.svelte';
+	import PageContainer from '$lib/components/PageContainer.svelte';
 	import PageHead from '$lib/components/PageHead.svelte';
 
 	let { data, children } = $props();
