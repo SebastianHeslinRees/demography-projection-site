@@ -42,7 +42,7 @@ const index = defineCollection({
 
 const docs = defineCollection({
 	name: 'Doc',
-	pattern: './report/**/*.md',
+	pattern: './**/*.md',
 	schema: docSchema
 });
 
