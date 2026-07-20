@@ -123,7 +123,17 @@ const componentFiles =  globSync('./**/*.md', {
 for (const componentPath of componentFiles) {
     const inFilePath = path.join(inDirPath, componentPath);
 
-    const outFilePath = path.join(outDirPath, path.relative(inDirPath, inFilePath)) // remove 'raw/' from path and add 'processed/'
+    let relativePath = path.relative(inDirPath, inFilePath);
+
+    if (relativePath !== 'index.md') {
+        if (relativePath.startsWith('executive-summary/')) {
+            relativePath = relativePath.replace('executive-summary/', 'report/');
+        } else {
+            relativePath = path.join('report', relativePath);
+        }
+    }
+
+    const outFilePath = path.join(outDirPath, relativePath)
 
 
     console.log("Converting", inFilePath, " -> ", outFilePath)

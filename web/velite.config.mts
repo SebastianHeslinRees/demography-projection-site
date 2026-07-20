@@ -15,6 +15,7 @@ const docSchema = baseSchema
 		heroImage: s.string().optional(),
 		section: s.enum([
 			'Demography',
+			'Foreword'
 		])
 	})
 	.transform((data) => {

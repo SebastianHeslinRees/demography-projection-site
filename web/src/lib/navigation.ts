@@ -19,43 +19,43 @@ export const navigation = [
 	{
 		title: 'Executive summary',
 		id: 'executive-summary',
-		href: '',
+		href: '/report',
 		children: []
 	},
 	{
 		title: 'Overview of the projections',
 		id: 'overview-of-the-projections',
-		href: '/overview-of-the-projections',
+		href: '/report/overview-of-the-projections',
 		children: []
 	},
 	{
 		title: 'Projected population',
 		id: 'projected-population',
-		href: '/projected-population',
+		href: '/report/projected-population',
 		children: []
 	},
 	{
 		title: 'Components of change',
 		id: 'components-of-change',
-		href: '/components-of-change',
+		href: '/report/components-of-change',
 		children: []
 	},
 	{
 		title: 'Interpreting the results',
 		id: 'interpreting-the-results',
-		href: '/interpreting-the-results',
+		href: '/report/interpreting-the-results',
 		children: []
 	},
 	{
 		title: 'Comparisons with 2021-based projections',
 		id: 'comparisons-with-2021-based-projections',
-		href: '/comparisons-with-2021-based-projections',
+		href: '/report/comparisons-with-2021-based-projections',
 		children: []
 	},
 	{
 		title: 'Data sources',
 		id: 'data-sources',
-		href: '/data-sources',
+		href: '/report/data-sources',
 		children: []
 	},
 ];
