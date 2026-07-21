@@ -3,6 +3,7 @@ Title: Population projection analysis
 Public: true
 URL: https://apps.london.gov.uk/analysis/population-projections
 Framework: Svelte
+package_json_path: web/package.json
 Services:
 ---
 
