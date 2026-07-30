@@ -1,9 +1,11 @@
 ---
-title: Population Projections Report Summary
+title: Population Projections Report
 description: Demographic Update, August 2024
 section: Demography
 navLabel: Report summary
 ---
+
+## Report summary
 
 A summary of the key London-level results from the Greater London Authority's 2022-based population projections.
 
@@ -31,8 +33,6 @@ A summary of the key London-level results from the Greater London Authority's 20
 
 - Growth rates are lower than in the 2021-based projections, though annual growth remains similar because lower natural change is offset by lower net migration outflows.
 
-For more information please contact the Demography Team, GLA City Intelligence Unit.
+For more information please contact the GLA's City Intelligence Demography Team at <demography@london.gov.uk>
 
-demography@london.gov.uk
-
-Copyright (c) Greater London Authority, 2024
+**Copyright &#169; 2026 Greater London Authority**

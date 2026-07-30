@@ -50,4 +50,12 @@ html.disable-smooth-scroll {
 	thead tr th {
 		text-align: left;
 	}
+
+	/* MB-Note: added override to adjust margin-top of H2s that start content */
+	.prose :where(h2):where(:first-child) {
+    	margin-top: 24px
+	}
+	.prose :where(h3):where(:first-child) {
+    	margin-top: 24px
+	}
 }

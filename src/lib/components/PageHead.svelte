@@ -47,7 +47,7 @@
 			: imageModules[`/src/lib/assets/images/pageheads/${slugify(title, { lower: true })}.jpg`]
 				? imageModules[`/src/lib/assets/images/pageheads/${slugify(title, { lower: true })}.jpg`]
 						.default
-				: imageModules['/src/lib/assets/images/pageheads/general.jpg'].default
+				: imageModules['/src/lib/assets/images/pageheads/general-crop.jpg'].default
 	);
 </script>
 
