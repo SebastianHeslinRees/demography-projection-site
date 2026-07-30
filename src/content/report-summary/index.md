@@ -1,21 +1,11 @@
 ---
-title: GLA 2022-based Population Projections
+title: Report Summary
 description: Demographic Update, August 2024
 section: Demography
-navLabel: Executive summary
+navLabel: Report summary
 ---
 
-## CIU Logo
-
-# GLA 2022-based Population Projections
-
-Demographic Update
-
-August 2024
-
-## Executive Summary
-
-This document summarises the key London-level results from the Greater London Authority's 2022-based population projections.
+A summary of the key London-level results from the Greater London Authority's 2022-based population projections.
 
 As part of its 2022-based projections, the GLA has published:
 

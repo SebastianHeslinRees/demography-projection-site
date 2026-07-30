@@ -17,8 +17,8 @@ const dataVisualisation = allDocs
 
 export const navigation = [
 	{
-		title: 'Executive summary',
-		id: 'executive-summary',
+		title: 'Report summary',
+		id: 'report-summary',
 		href: '',
 		children: []
 	},
