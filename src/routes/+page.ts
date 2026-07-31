@@ -1,6 +1,5 @@
-import { resolve } from '$app/paths';
-import { redirect } from '@sveltejs/kit';
+import { getContent } from '$lib/utils';
 
-export function load() {
-	throw redirect(307, resolve('/report-summary'));
+export async function load({ params }) {
+	return getContent(params.slug);
 }

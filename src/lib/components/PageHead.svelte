@@ -71,12 +71,7 @@
 		<!--TODO: fixed height may need adjustment-->
 		<div class="container relative mx-auto flex h-full pb-48 pt-24">
 			<div class="prose responsive">
-				<!-- YOu can remove this conditional if you don't want the larger text of the homepage -->
-				{#if page.route.id === '/'}
-					<h1 class="display format pt-12 lg:pt-6 xl:pt-0">{title}</h1>
-				{:else}
-					<h1 class="headline format pt-12">{title}</h1>
-				{/if}
+				<h1 class="headline format pt-12">{title}</h1>
 
 				{#if subTitle}
 					<p

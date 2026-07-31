@@ -1,5 +1,8 @@
 
 <script lang="ts">
+	import PageContainer from '$lib/components/PageContainer.svelte';
+	import PageHead from '$lib/components/PageHead.svelte';
+
 	import { resolve } from '$app/paths';
 
 	import { afterNavigate, beforeNavigate } from '$app/navigation';
@@ -41,7 +44,8 @@
 
 	afterNavigate(() => (sidebarState.state.isOpen = breakPoint >= 1280));
 
-	let { children } = $props();
+	let { data, children } = $props();
+	const tocItems = $derived(data.metadata.toc);
 </script>
 
 <Theme />
@@ -89,7 +93,16 @@
 		</Header>
 	</div>
 
+<PageHead
+	title={data.metadata.title}
+	subTitle={data.metadata.description}
+	image={data.metadata.heroImage}
+	intro={data.metadata.intro}
+></PageHead>
+
+<PageContainer {tocItems}>
 	{@render children()}
+</PageContainer>
 
 	<Footer showCiuLogo>
 		<div class="pb-4 text-sm lg:w-1/6">
