@@ -1,4 +1,6 @@
-import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
+// import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
+export const PUBLIC_CHART_DATA_API_URL = "";
+
 // Bundled projected population chart rows shipped with the app build.
 import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
 // Bundled components-of-change chart rows shipped with the app build.
