@@ -1,6 +1,6 @@
 ---
 title: Components of change
-description: Births, deaths and migration components used to interpret projected population change.
+description: Births, deaths and migration components used to interpret projected population change
 section: Demography
 navLabel: Components of change
 ---
@@ -10,13 +10,14 @@ import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
 
-## 3 Components of change
 
 Births, deaths and migration all contribute to London's changing population. Natural change, which is the difference between the number of births and deaths, is the largest direct contributor to London's population growth. Natural change is comparatively high in London because its age structure is much younger than that of the rest of the UK meaning more births and fewer deaths.
 
 As noted above, London's relatively youthful population is a result of established patterns of migration to and from the capital, which give rise to a net inflow of young adults and a net outflow of all other age groups.
 
-### 3.1 Total net migration
+## Migration
+
+### Total net migration
 
 Total net migration is the sum of all flows in to and out of an area. Historically, London has experienced very high levels of population turnover, with annual international and domestic flows in to and out of the capital estimated to have exceeded one million persons in some years. These flows typically tend to balance one another out, resulting in comparatively small overall net flows. Over the period 2002-2019 total net migration ranged between -46 thousand and 61 thousand.
 
@@ -31,7 +32,7 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-### 3.2 International migration
+### International & domestic net migration
 
 <Chart
  chart="Chart"
@@ -42,7 +43,6 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-### 3.3 Domestic migration
 
 <Chart
  chart="Chart"
@@ -53,7 +53,7 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-### 3.4 Births
+## Births, deaths & natural change
 
 <Chart
  chart="Chart"
@@ -64,7 +64,7 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-### 3.5 Deaths
+<!-- ### 3.5 Deaths -->
 
 <Chart
  chart="Chart"
@@ -75,7 +75,7 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-### 3.6 Natural change
+<!-- ### 3.6 Natural change -->
 
 <Chart
  chart="Chart"

@@ -98,7 +98,7 @@
 				<ul class="text-color-text-muted">
 					<li>
 						<a
-							href="https://data.london.gov.uk/dataset/state-of-london/"
+							href="https://data.london.gov.uk/demography"
 							target="_blank"
 							class="hover:underline"
 						>
@@ -113,7 +113,7 @@
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-muted">
-					<li>email: <a href="mailto:Demography@london.gov.uk?subject=Population%20Projection%20Analysis%20website">Demography@london.gov.uk</a></li>
+					<li><a href="mailto:demography@london.gov.uk?subject=Population Projections Report">demography@london.gov.uk</a></li>
 				</ul>
 			</nav>
 		</div>

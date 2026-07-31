@@ -1,6 +1,6 @@
 ---
 title: Projected population
-description: Total population and age-related projected trends under the 2022-based variants.
+description: Total population and age-related projected trends under the 2022-based variants
 section: Demography
 navLabel: Projected population
 ---
@@ -9,10 +9,7 @@ navLabel: Projected population
 import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
-
-## 2 Projected population
-
-### 2.1 Total population
+## Total population
 
 <Chart
  chart="Chart"
@@ -32,7 +29,7 @@ import Chart from "$lib/components/charts/Chart.svelte";
 | 15-year trend | 8.32 | 8.78 | 8.87 | 9.16 | 9.37 | 9.59 | 9.78 | 9.91 |
 | 20-year trend | 8.32 | 8.78 | 8.87 | 9.17 | 9.39 | 9.61 | 9.81 | 9.95 |
 
-### 2.2 Annual population change
+## Population change
 
 <Chart
  chart="Chart"
@@ -43,7 +40,7 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
-### 2.3 Age structure
+## Age structure
 
 <Chart
  chart="Chart"
@@ -54,7 +51,9 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
-### 2.4 Working age population
+## Population by age group
+
+<!-- ### Working age population -->
 
 <Chart
  chart="Chart"
@@ -65,7 +64,7 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
-### 2.5 Primary school age children
+<!-- ### Primary school age children -->
 
 <Chart
  chart="Chart"
@@ -76,7 +75,7 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
-### 2.6 Secondary school age children
+<!-- ### Secondary school age children -->
 
 <Chart
  chart="Chart"
@@ -87,7 +86,7 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
-### 2.7 Population age 65 and over
+<!-- ### Population age 65 and over -->
 
 <Chart
  chart="Chart"
