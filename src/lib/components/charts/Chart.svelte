@@ -2,7 +2,7 @@
 	import type { Snippet } from 'svelte';
 
 	import { ChartContainer, ObservablePlot } from '@ldn-viz/charts';
-	import { NonIdealState } from '@ldn-viz/ui';
+	import { NonIdealState, theme } from '@ldn-viz/ui';
 
 	import { chartOptions } from '$lib/components/charts/chartOptions';
 
@@ -75,7 +75,11 @@
 
 	let width = $state(0);
 
-	let colorChoice = $derived(options.colorScale ?? getColorScale(data));
+	let colorChoice = $derived(
+			theme.currentMode === 'light' ? 
+				( options.colorScaleLight?.range ?? options.colorScale?.range  ?? [0]) :
+				( options.colorScaleDark?.range ?? options.colorScale?.range  ?? [0]) 
+			);
 
 	let spec = $derived.by(() => {
 		const chartFn = chartFns[options.chartType];

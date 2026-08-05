@@ -1,4 +1,6 @@
 import { Plot } from '@ldn-viz/charts';
+import { theme } from '@ldn-viz/ui';
+
 import type { ChartDataRow, ChartOptions, ColorChoice } from '../chartOptions';
 
 import rewind from '@turf/rewind';
@@ -63,7 +65,9 @@ export const boroughChoropleth = (
 		),
 		color: {
 			domain: options.colorScale?.domain ?? [0],
-			range: options.colorScale?.range ?? [0],
+			range: theme.currentMode === 'light' ? 
+				( options.colorScaleLight?.range ?? options.colorScale?.range  ?? [0]) :
+				( options.colorScaleDark?.range ?? options.colorScale?.range  ?? [0]) ,
 			type: 'threshold',
 			legend: true,
 			label: '',

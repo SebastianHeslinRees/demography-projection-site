@@ -122,7 +122,18 @@ export type ChartOptions = {
      colorScale?: {
         domain: number[];
         range: string[];
+     },
+
+    colorScaleLight?: {
+        domain: number[];
+        range: string[];
+     },
+
+    colorScaleDark: {
+        domain: number[];
+        range: string[];
      }
+
 }
 
 export type ChartDataRow = {
@@ -152,7 +163,12 @@ export const chartOptions: Record<string, ChartOptions> = {
         "colorScale": {
             "domain": [-5, 0, 5, 10, 15, 20],
             "range": ["#d73027", "#f46d43", "#deebf7", "#abd9e9", "#74add1", "#2171b5", "#084594"]
+        },
+                "colorScaleDark": {
+            "domain": [-5, 0, 5, 10, 15, 20],
+            "range": ["#ff0000", "#00ff00", "#0000ff", "#ff0000", "#00ff00", "#0000ff", "#ff0000"]
         }
+
     },
 
       "ward_population": {

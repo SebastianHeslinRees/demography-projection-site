@@ -8,6 +8,7 @@ import { geoMercator } from 'd3-geo';
 import type { Feature, FeatureCollection } from 'geojson';
 
   import wards from "./wards_simplified.json" with { type: "json" };
+import { theme } from '@ldn-viz/ui';
 
 export const wardChoropleth = (
 	options: ChartOptions,
@@ -63,7 +64,9 @@ export const wardChoropleth = (
 		),
 		color: {
 			domain: options.colorScale?.domain ?? [0],
-			range: options.colorScale?.range ?? [0],
+			range: theme.currentMode === 'light' ? 
+				( options.colorScaleLight?.range ?? options.colorScale?.range  ?? [0]) :
+				( options.colorScaleDark?.range ?? options.colorScale?.range  ?? [0]) ,
 			type: 'threshold',
 			legend: true,
 			label: '',
