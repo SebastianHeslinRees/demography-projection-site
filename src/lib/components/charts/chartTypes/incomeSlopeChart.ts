@@ -1,94 +1,103 @@
-import {Plot} from "@ldn-viz/charts";
-import {theme} from "@ldn-viz/ui";
-import {format} from "d3-format";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import { theme } from '@ldn-viz/ui';
+import { format } from 'd3-format';
+import type { ChartDataRow, ChartOptions, ColorChoice } from '../chartOptions';
+import { getAxisTypeAndTickFormat, getZeroYLine, makeTooltip } from '../utils';
 
-export const incomeSlopeChart = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    x: {
-        label: null,
-        insetLeft: 80,
-        insetRight: options.insetRight ?? 120, // need space for labels to right of plot
+const thresholds = ['10', '50', '90'];
 
-        // 'Financial year' values are like "2013-14"
-        type: options.timeperiod_type === 'Financial Year' ? "point" : undefined,
-        tickFormat: options.timeperiod_type === 'Financial Year' ? (d: unknown, i: number) => (i % 2 === 0 ? d : "") : undefined,
+export const incomeSlopeChart = (
+	options: ChartOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	x: {
+		label: null,
+		insetLeft: options.insetLeft ?? 80,
+		insetRight: options.insetRight ?? 120, // need space for labels to right of plot
 
-        ticks: 5
-    },
+		...getAxisTypeAndTickFormat(options.timeperiod_type),
+		ticks: 5
+	},
 
-    y: {
-        label: null,
-        ...(options.yDomain ? { domain: options.yDomain } : {}),
-        includeZero: options.includeZero
-    },
+	y: {
+		label: null,
+		domain: options.yDomain,
+		includeZero: options.includeZero
+	},
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+	color: {
+		legend: true,
+		type: 'ordinal' as const,
+		domain: ['London', 'Rest of UK'],
+		range: [theme.tokenNameToValue('data.primary'), theme.tokenNameToValue('data.context')]
+	},
 
-    marks: [
+	marks: [
+		Plot.gridY(),
 
-        Plot.gridY(),
+		Plot.axisY({
+			tickFormat: (d: number) => '£' + format(options.ytickformat ?? '2r')(d)
+		}),
 
-        Plot.axisY({
-            tickFormat: (d: number) => "£" + format(options.ytickformat ?? "2r")(d)
-        }),
+		...getZeroYLine(options),
 
-        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
+		// sloped line
+		Plot.line(data, {
+			x: 'xd',
+			z: 'b',
+			y: 'y',
 
-        // sloped line
-        Plot.line(data, {
-            x: "xd",
-            z: "b",
-            y: "y",
+			stroke: theme.tokenNameToValue('data.context'),
+			strokeDasharray: '4,4',
+			title: makeTooltip(options),
+			tip: 'xy'
+		}),
 
-            stroke: theme.tokenNameToValue('data.context'),
-            strokeDasharray: "4,4",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy"
-        }),
+		// vertical lines
+		Plot.line(data, {
+			x: 'xd',
+			z: 'xd',
+			y: 'y',
 
+			stroke: 'xd'
+		}),
 
-        // vertical lines
-        Plot.line(data, {
-            x: "xd",
-            z: "xd",
-            y: "y",
+		Plot.dot(
+			data.filter((d) => thresholds.includes(d.b)),
+			{
+				x: 'xd',
+				y: 'y',
+				stroke: 'xd',
+				strokeWidth: 2,
+				fill: 'white',
+				fillOpacity: 1,
+				r: 5
+			}
+		),
 
-            stroke: "xd",
-        }),
+		Plot.text(
+			data.filter((d) => thresholds.includes(d.b) && d.xd === 'London'),
+			{
+				x: 'xd',
+				y: 'y',
+				text: (d) => (d.b === '50' ? 'Median' : d.b + 'th Percentile'),
+				fill: 'xd',
+				textAnchor: 'end',
+				dx: -10
+			}
+		),
 
-
-        Plot.dot(data.filter(d => ["10", "50", "90"].includes(d.b)), {
-                x: "xd",
-                y: "y",
-                stroke: 'xd',
-                strokeWidth: 2,
-                fill: 'white',
-                fillOpacity: 1,
-                r: 5
-            }
-        ),
-
-        Plot.text(data.filter(d => ["10", "50", "90"].includes(d.b) && d.xd === "London"), {
-                x: "xd",
-                y: "y",
-                text: d => d.b === "50" ? "Median" : d.b + "th Percentile",
-                fill: "xd",
-                textAnchor: "end",
-                dx: -10
-            }
-        ),
-
-        Plot.text(data.filter(d => ["10", "50", "90"].includes(d.b) && d.xd !== "London"), {
-                x: "xd",
-                y: "y",
-                text: d => d.b === "50" ? "Median" : d.b + "th Percentile",
-                fill: "xd",
-                textAnchor: "start",
-                dx: 10
-            }
-        )
-    ]
+		Plot.text(
+			data.filter((d) => thresholds.includes(d.b) && d.xd !== 'London'),
+			{
+				x: 'xd',
+				y: 'y',
+				text: (d) => (d.b === '50' ? 'Median' : d.b + 'th Percentile'),
+				fill: 'xd',
+				textAnchor: 'start',
+				dx: 10
+			}
+		)
+	]
 });

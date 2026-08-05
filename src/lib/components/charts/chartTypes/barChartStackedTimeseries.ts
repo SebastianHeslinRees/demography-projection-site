@@ -1,35 +1,51 @@
-import {Plot} from "@ldn-viz/charts";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import type { BarChartStackedTimeseriesOptions, ChartDataRow, ColorChoice } from '../chartOptions';
+import { getZeroYLine, makeTooltip } from '../utils';
 
-export const barChartStackedTimeseries = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    x: {
-        label: null,
-        type: options.xScaleType ?? undefined
-    },
+export const barChartStackedTimeseries = (
+	options: BarChartStackedTimeseriesOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	x: {
+		label: null,
+		type: options.xScaleType ?? undefined,
+		insetRight: options.insetRight ?? 0,
+		...(options.insetLeft ? { insetLeft: options.insetLeft } : {})
+	},
 
-    y: {
-        label: null,
-    },
+	y: {
+		label: null,
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+		domain: options.yDomain
+	},
 
-    marks: [
-        Plot.axisY({
-            tickFormat: options.ytickformat
-        }),
+	color: {
+		legend: true,
+		...colorChoice
+	},
 
-        Plot.gridY(),
+	marks: [
+		Plot.axisY({
+			tickFormat: options.ytickformat
+		}),
 
-        Plot.rectY(data, Plot.stackY({
-            x: "xd",
-            y: "y",
-            fill: "b",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy",
-            interval: (options.xInterval ?? "year") as any
-        })),
-    ],
+		Plot.gridY(),
+
+		Plot.rectY(
+			data,
+			Plot.stackY({
+				x: 'xd',
+				y: 'y',
+				fill: 'b',
+				title: makeTooltip(options),
+				tip: 'xy',
+				interval: (options.xInterval ?? 'year') as any,
+				order: 'sum',
+				reverse: true
+			})
+		),
+
+		...getZeroYLine(options)
+	]
 });

@@ -1,39 +1,49 @@
-import {Plot} from "@ldn-viz/charts";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import type { BarChartHorizontalOptions, ChartDataRow, ColorChoice } from '../chartOptions';
+import { getZeroXLine, makeTooltip } from '../utils';
 
-export const barChartHorizontal = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    marginLeft: 220, // space for bar labels
+export const barChartHorizontal = (
+	options: BarChartHorizontalOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	marginLeft: options.marginLeft ?? 180, // space for bar labels
 
-    y: {
-        label: null,
-        domain: (options.x_order && options.x_order.includes("|")) ? options.x_order.split("|") : undefined,
-    },
+	height: 500, // slightly taller than default for other charts
 
-    x: {
-        label: null,
-        insetLeft: 0,
-    },
+	y: {
+		label: null,
+		domain:
+			options.x_order && options.x_order.includes('|') ? options.x_order.split('|') : undefined,
+		padding: 0.2
+	},
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+	x: {
+		label: null,
+		insetLeft: 0,
+		insetRight: options.insetRight ?? 0
+	},
 
-    marks: [
-        Plot.axisX({
-            tickFormat: options.ytickformat
-        }),
+	color: {
+		legend: colorChoice.domain?.length > 1 ? true : false,
+		...colorChoice
+	},
 
-        Plot.gridX(),
+	marks: [
+		Plot.axisX({
+			tickFormat: options.ytickformat
+		}),
 
-        Plot.barX(data, {
-            y: "xd",
-            x: "y",
-            fill: "b",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy"
-        }),
+		Plot.gridX(),
 
-        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleX([0])] : []),
-    ],
-})
+		Plot.barX(data, {
+			y: 'xd',
+			x: 'y',
+			fill: 'b',
+			title: makeTooltip(options),
+			tip: 'xy'
+		}),
+
+		...getZeroXLine(options)
+	]
+});

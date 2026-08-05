@@ -1,98 +1,110 @@
-import {Plot} from "@ldn-viz/charts";
-import {theme} from "@ldn-viz/ui";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import type { ChartDataRow, ColorChoice, LineChartWithLineStylesOptions } from '../chartOptions';
+import {
+	getAxisTypeAndTickFormat,
+	getGridStrokeOpacity,
+	getReferenceLineMarks,
+	getZeroYLine,
+	makeTooltip
+} from '../utils';
 
-export const lineChartWithLineStyles = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    x: {
-        label: null,
-        insetLeft: 80,
-        insetRight: options.insetRight ?? 120, // need space for labels to right of plot
+export const lineChartWithLineStyles = (
+	options: LineChartWithLineStylesOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	x: {
+		label: null,
+		insetRight: options.insetRight ?? 120, // need space for labels to right of plot
 
-        // 'Financial year' values are like "2013-14"
-        type: options.timeperiod_type === 'Financial Year' ? "point" : undefined,
-        tickFormat: options.timeperiod_type === 'Financial Year' ? (d: unknown, i: number) => (i % 2 === 0 ? d : "") : undefined,
+		...getAxisTypeAndTickFormat(options.timeperiod_type),
 
-        ticks: 5
-    },
+		ticks: 5
+	},
 
-    y: {
-        label: null,
-        ...(options.yDomain ? { domain: options.yDomain } : {}),
-        includeZero: options.includeZero
-    },
+	y: {
+		label: null,
+		domain: options.yDomain,
+		includeZero: options.includeZero
+	},
 
-    fx: options.faceted ? {
-        label: null
-    } : undefined,
+	fx: options.faceted
+		? {
+				label: null
+			}
+		: undefined,
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+	color: {
+		legend: true,
+		...colorChoice
+	},
 
-    marks: [
-        Plot.gridX(
-            //    {interval: '2 years'}
-        ),
-        Plot.gridY(),
+	marks: [
+		Plot.gridX({
+			strokeOpacity: getGridStrokeOpacity(options.timeperiod_type)
+		}),
 
-        Plot.axisY({
-            tickFormat: options.ytickformat
-        }),
+		Plot.gridY(),
 
-        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
+		Plot.axisY({
+			tickFormat: options.ytickformat
+		}),
 
-        ...(new Set(data.map(d => d.z2))).values().map((v, i) => Plot.line(data.filter(d => d.z2 === v), {
-            x: "xd",
-            y: "y",
+		...getZeroYLine(options),
 
-            strokeDasharray: ['4,0', '4,4'][i],
+		...new Set(data.map((d) => d.z2)).values().map((v, i) =>
+			Plot.line(
+				data.filter((d) => d.z2 === v),
+				{
+					x: 'xd',
+					y: 'y',
 
+					strokeDasharray: ['4,0', '4,4'][i % 2],
 
-            stroke: "b",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy"
-        }),),
+					stroke: 'b',
+					title: makeTooltip(options),
+					tip: 'xy'
+				}
+			)
+		),
 
+		// reference lines
+		...getReferenceLineMarks(options.reference_lines),
 
-        // reference lines
-        Plot.ruleY((options.reference_lines || []).map(l => l.y), {
-            stroke: theme.tokenNameToValue('data.context'),
-            strokeWidth: 3,
-            strokeDasharray: "4,4"
-        }),
+		// Label end-point with b
+		...Array.from(new Set(data.map((d) => d.z2))).map((z2) => [
+			Plot.dot(
+				data.filter((d) => d.z2 === z2),
+				Plot.selectLast({
+					x: 'xd',
+					y: 'y',
+					fx: options.faceted ? 'z2' : undefined,
 
-        ...(options.reference_lines || []).map(l => Plot.text([l.label], {
-            y: l.y,
-            lineAnchor: 'bottom',
-            dy: -4,
-            frameAnchor: 'right'
-        })),
+					stroke: 'b',
+					strokeWidth: 2,
+					fill: 'white',
+					fillOpacity: 1,
+					r: 5
+				})
+			),
 
-        // Label end-point with b
-        Plot.dot(data, Plot.selectLast({
-                x: "xd",
-                y: "y",
-                fx: options.faceted ? 'z2' : undefined,
+			Plot.text(
+				data.filter((d) => d.z2 === z2),
+				Plot.selectLast({
+					x: 'xd',
+					y: 'y',
+					fx: options.faceted ? 'z2' : undefined,
 
-                stroke: 'b',
-                strokeWidth: 2,
-                fill: 'white',
-                fillOpacity: 1,
-                r: 5
-            })
-        ),
+					text: 'b',
+					fill: 'b',
+					textAnchor: 'start',
+					dx: 10
+				})
+			)
+		]),
 
-        Plot.text(data, Plot.selectLast({
-                x: "xd",
-                y: "y",
-                fx: options.faceted ? 'z2' : undefined,
-
-                text: "b",
-                fill: "b",
-                textAnchor: "start",
-                dx: 10
-            })
-        )
-    ]
+		...(options.extraMarks
+			? [options.extraMarks({ Plot, options, colorChoice, data, makeTooltip })]
+			: [])
+	]
 });

@@ -1,38 +1,44 @@
-import {Plot} from "@ldn-viz/charts";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import type { ChartDataRow, ChartOptions, ColorChoice } from '../chartOptions';
+import { getZeroYLine, makeTooltip } from '../utils';
 
-export const barChartVertical = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    x: {
-        label: null,
-        insetLeft: 80,
-        type: options.xScaleType ?? undefined
-    },
+export const barChartVertical = (
+	options: ChartOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	x: {
+		label: null,
+		insetLeft: options.insetLeft ?? 80,
+		type: options.xScaleType ?? undefined,
+		padding: !colorChoice.domain || colorChoice.domain?.length < 3 ? 0.5 : 0.3
+	},
 
-    y: {
-        label: null,
-    },
+	y: {
+		label: null,
+		domain: options.yDomain
+	},
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+	color: {
+		legend: true,
+		...colorChoice
+	},
 
-    marks: [
-        Plot.axisY({
-            tickFormat: options.ytickformat
-        }),
+	marks: [
+		Plot.axisY({
+			tickFormat: options.ytickformat
+		}),
 
-        Plot.gridY(),
+		Plot.gridY(),
 
-        Plot.barY(data, {
-            x: "xd",
-            y: "y",
-            fill: "b",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy"
-            //  inset: 0.5,
-        }),
+		Plot.barY(data, {
+			x: 'xd',
+			y: 'y',
+			fill: 'b',
+			title: makeTooltip(options),
+			tip: 'xy'
+		}),
 
-        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
-    ],
+		...getZeroYLine(options)
+	]
 });

@@ -1,138 +1,146 @@
 <script lang="ts">
-    import {ObservablePlot} from "@ldn-viz/charts";
-    import {theme} from "@ldn-viz/ui";
+	import type { Snippet } from 'svelte';
 
-    import {chartOptions} from "$lib/components/charts/chartOptions";
-    import {loadChartData, type ChartDataRow} from "$lib/components/charts/utils";
-    import {stackedHistogram} from "$lib/components/charts/chartTypes/stackedHistogram";
-    import {incomeSlopeChart} from "$lib/components/charts/chartTypes/incomeSlopeChart";
-    import {barChartHorizontalGrouped} from "$lib/components/charts/chartTypes/barChartHorizontalGrouped";
-    import {barChartVerticalGrouped} from "$lib/components/charts/chartTypes/barChartVerticalGrouped";
-    import {barChartStacked} from "$lib/components/charts/chartTypes/barChartStacked";
-    import {lineChart} from "$lib/components/charts/chartTypes/lineChart";
-    import {lineChartWithLineStyles} from "$lib/components/charts/chartTypes/lineChartWithLineStyles";
-    import {barChartVertical} from "$lib/components/charts/chartTypes/barChartVertical";
-    import {barChartHorizontal} from "$lib/components/charts/chartTypes/barChartHorizontal";
-    import {barChartStackedTimeseries} from "$lib/components/charts/chartTypes/barChartStackedTimeseries";
+	import { ChartContainer, ObservablePlot } from '@ldn-viz/charts';
+	import { NonIdealState } from '@ldn-viz/ui';
 
-    type ChartProps = {
-        title: string;
+	import { chartOptions } from '$lib/components/charts/chartOptions';
+
+	import { chartFns } from './chartTypes/index';
+
+	import { getColorScale, loadChartData, type ChartDataRow } from '$lib/components/charts/utils';
+	import { getColumnMapping } from '$lib/utils';
+	import { getDescription } from './descriptions';
+
+	type ChartProps = {
+		title: string;
+
+		/**
+		 * N.B. this prop name is lowercase as all YAML keys are converted to lowercase by our pipeline
+		 */
+		subtitle?: string;
+		source?: string;
+		byline?: string;
+		lloindicator?: string;
+		note?: string;
 
         /**
-         * N.B. this prop name is lowercase as all YAML keys are converted to lowercase by our pipeline
+         * Data cna either be provided directly as a `data` array, or as the name of a dataset ot be loaded.
          */
-        subtitle?: string;
-        source?: string;
-        byline?: string;
-        lloindicator?: string;
+		dataset?: string;
+        data?: ChartDataRow[];
 
-        dataset: string;
+		controls?: Snippet;
+	};
+
+	let { title, subtitle, source, byline, dataset, lloindicator, note, data = [], controls }: ChartProps = $props();
+
+	let options = $derived(chartOptions[dataset]);
+
+	// fetch data
+	//let data = $state<ChartDataRow[]>([]);
+	let dataLoadFailed = $state(false);
+	$effect(() => {
+        if (data.length === 0){
+		let cancelled = false;
+		dataLoadFailed = false;
+		loadChartData(dataset, options)
+			.then((newData) => {
+				if (!cancelled) {
+					data = newData;
+				}
+			})
+			.catch(() => {
+				if (!cancelled) {
+					dataLoadFailed = true;
+				}
+			});
+		return () => {
+			cancelled = true;
+		};
     }
+	});
 
-    let {
-        title,
-        subtitle,
-        source,
-        byline,
-        dataset,
-        lloindicator,
-    }: ChartProps = $props();
+	const sortByField = (data, fieldName) => {
+		// sort, placing undefined vals at end
+		return [...data].sort((a, b) => {
+			if (a[fieldName] == null && b[fieldName] == null) return 0;
+			if (a[fieldName] == null) return 1;
+			if (b[fieldName] == null) return -1;
+			if (a[fieldName] < b[fieldName]) return -1;
+			if (a[fieldName] > b[fieldName]) return 1;
+			return 0;
+		});
+	};
 
-    let options = $derived(chartOptions[dataset])
+	let width = $state(0);
 
-    // fetch data
-    let data = $state<ChartDataRow[]>([]);
-    loadChartData(dataset, options).then(newData => { data = newData; });
+	let colorChoice = $derived(options.colorScale ?? getColorScale(data));
 
-    const getColorScale = (data: ChartDataRow[]) => {
-        const domain = new Array(...new Set(data.map(d => d.b))).sort();
+	let spec = $derived.by(() => {
+		const chartFn = chartFns[options.chartType];
 
-        const colors = [
-            theme.tokenNameToValue('data.primary'),
-            theme.tokenNameToValue('data.secondary'),
-            theme.tokenNameToValue('data.tertiary'),
-            theme.tokenNameToValue('data.categorical.turquoise'),
-            theme.tokenNameToValue('data.categorical.purple'),
-        ];
+		if (!chartFn) {
+			console.error('No chart generator function found for chart of type:', options.chartType);
+			return {};
+		}
 
-        if (domain.length === 2 && (domain[0].includes("London") || domain[1].includes("London"))) {
-            return {
-                type: "ordinal",
-                domain,
-                range: domain.map(v => v.includes('London') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.context'))
-            };
-        } else if (domain.length == 2 && domain[0].includes('Domestic') && domain[1].includes('International')) {
-            return {
-                type: "ordinal",
-                domain,
-                range: domain.map(v => v.includes('Domestic') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
-            }
-        } else if (domain.length == 2 && domain[0].includes('Inner') && domain[1].includes('Outer')) {
-            return {
-                type: "ordinal",
-                domain,
-                range: domain.map(v => v.includes('Inner') ? theme.tokenNameToValue('data.primary') : theme.tokenNameToValue('data.secondary'))
-            }
-        } else if (domain.length <= colors.length) {
-            return {
-                type: "ordinal",
-                range: colors.slice(0, domain.length),
-            }
-        }
+		const sortedData = ['line', 'lineChartWithLineStyles'].includes(options.chartType)
+			? sortByField(data, 'xd')
+			: data;
+		return chartFn(options, sortedData, colorChoice, width); // N.B. width is only used by line chart
+	});
 
-        return {};
-    }
+	let lloLabel = $derived(
+		lloindicator === 'core'
+			? 'Core LLO Indicator'
+			: lloindicator
+				? 'Supplementary LLO Indicator'
+				: undefined
+	);
 
-    let spec = $derived.by(() => {
-        if (data.length === 0) {
-            return undefined;
-        }
+	let combinedNote = $derived([lloLabel, note].filter(Boolean).join(' | '));
 
-        const colorChoice = getColorScale(data);
+	let columnMapping = $derived(getColumnMapping(dataset));
 
-        if (options.chartType === "stackedHistogram"){
-            return stackedHistogram(options, data, colorChoice)
-        } else if (options.chartType === 'barChartStacked') {
-            return barChartStacked(options, data, colorChoice)
-        } else if (options.chartType === 'barChartStackedTimeseries'){
-            return barChartStackedTimeseries(options, data, colorChoice)
-        } else if (options.chartType === 'barChartHorizontalGrouped'){
-            return barChartHorizontalGrouped(options, data, colorChoice)
-        } else if (options.chartType === 'barChartVerticalGrouped'){
-            return barChartVerticalGrouped(options, data, colorChoice)
-        } else if (options.chartType === 'barChartVertical'){
-            return barChartVertical(options, data, colorChoice)
-        } else if (options.chartType === 'barChartHorizontal'){
-            return barChartHorizontal(options, data, colorChoice)
-        }
-
-
-
-
-        else if (options.chartType === 'line') {
-            return lineChart(options, data, colorChoice);
-        } else if (options.chartType === 'incomeSlope'){
-            return incomeSlopeChart(options, data, colorChoice);
-        } else if (options.chartType === 'lineChartWithLineStyles'){
-            return lineChartWithLineStyles(options, data, colorChoice);
-        }
-    });
+	let description = $derived(getDescription(options, data, colorChoice));
 </script>
 
-<!--
-<pre>{JSON.stringify(options, null, 2)}</pre>
--->
-
-{#if spec && data.length > 0}
-    <div class="w-full mb-16">
-        <ObservablePlot
-                data={data}
-                {spec}
-                {title}
-                subTitle={subtitle}
-                {source}
-                {byline}
-                note={lloindicator === "core" ? "Core indicator" : "Supplementary indicator"}
-        />
-    </div>
+{#if dataLoadFailed}
+	<div class="w-full">
+		<NonIdealState>Chart data could not be loaded.</NonIdealState>
+	</div>
+{:else if spec && data.length > 0}
+	<div class="w-full py-typography-spacing-3xl" bind:clientWidth={width}>
+		<ObservablePlot
+			{data}
+			{spec}
+			{title}
+			subTitle={subtitle}
+			{source}
+			{byline}
+			note={combinedNote}
+			id={dataset}
+			{columnMapping}
+			filename={dataset}
+			alt={description}
+            {controls}
+		>
+        </ObservablePlot>
+</div>
+{:else}
+	<ChartContainer
+		{data}
+		{title}
+		subTitle={subtitle}
+		{source}
+		{byline}
+		note={combinedNote}
+		id={dataset}
+		{columnMapping}
+		filename={dataset}
+        {controls}
+	>
+		<NonIdealState>Data is loading.</NonIdealState>
+	</ChartContainer>
 {/if}

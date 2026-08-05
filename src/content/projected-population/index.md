@@ -6,7 +6,13 @@ navLabel: Projected population
 ---
 
 <script>
-import Chart from "$lib/components/charts/Chart.svelte";
+    import Chart from "$lib/components/charts/Chart.svelte";
+
+    import PopulationChangeBoroughChoropleth from "$lib/components/charts/PopulationChangeBoroughChoropleth.svelte";
+    import PopulationChangeWardChoropleth from "$lib/components/charts/PopulationChangeWardChoropleth.svelte";
+    import YearSlider from "$lib/components/charts/YearSlider.svelte";
+
+    let selectedYear = $state(2051);
 </script>
 
 ## Total population
@@ -97,4 +103,31 @@ import Chart from "$lib/components/charts/Chart.svelte";
  source="GLA 2024-based population projections"
  />
 
+
+## Borough-level population projections
+
 London's population is projected to grow from 8.87 million in 2022 to between 9.50 million (5-year trend) and 9.89 million (15-year trend) by 2046, with the 10-year trend projection at 9.65 million.
+
+
+<PopulationChangeBoroughChoropleth 
+  {selectedYear} 
+  title="Percentage change in population of each borough"
+  dataset="borough_population"
+  byline="GLA City Intelligence"
+  source="GLA 2024-based population projections">
+    {#snippet controls()}
+        <YearSlider baseYear={2024} bind:selectedYear />
+    {/snippet}
+</PopulationChangeBoroughChoropleth>
+
+<PopulationChangeWardChoropleth 
+  {selectedYear} 
+  title="Percentage change in population of each ward"
+  dataset="ward_population"
+  byline="GLA City Intelligence"
+  source="GLA 2024-based population projections">
+    {#snippet controls()}
+        <YearSlider baseYear={2024} bind:selectedYear />
+    {/snippet}
+</PopulationChangeWardChoropleth>
+

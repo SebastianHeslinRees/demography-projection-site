@@ -2,6 +2,7 @@ import { docs, index, type Doc, type Guide} from '$content/index';
 import { error } from '@sveltejs/kit';
 import type { Component } from 'svelte';
 import type { Attachment } from 'svelte/attachments';
+import { chartColumns } from './components/charts/chartColumns';
 
 const allContent = [...docs, index];
 
@@ -76,4 +77,20 @@ export const clickToCopy: Attachment = (node: HTMLElement, target: any) => {
 			node.removeEventListener('click', copyText);
 		}
 	};
+};
+
+
+export const getColumnMapping = (dataset: string) => {
+	const cols = chartColumns.find((d) => d.dataset === dataset);
+
+	if (cols) {
+		return {
+			xd: cols.xd_source,
+			b: cols.b_source,
+			y: cols.y_source,
+			z2: cols.z2_source
+		};
+	}
+
+	return undefined;
 };

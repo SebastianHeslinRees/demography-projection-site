@@ -1,46 +1,51 @@
-import {Plot} from "@ldn-viz/charts";
-import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
+import { Plot } from '@ldn-viz/charts';
+import type { ChartDataRow, ChartOptions, ColorChoice } from '../chartOptions';
+import { getDomain, getZeroYLine, makeTooltip } from '../utils';
 
-export const barChartVerticalGrouped = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => ({
-    x: {
-        label: null,
-        axis: null,
-        type: options.xScaleType ?? undefined
-    },
+export const barChartVerticalGrouped = (
+	options: ChartOptions,
+	data: ChartDataRow[],
+	colorChoice: ColorChoice
+) => ({
+	height: 440,
 
-    y: {
-        label: null,
-        domain: (options.x_order && options.x_order.includes("|")) ? options.x_order.split("|") : undefined,
-    },
+	x: {
+		label: null,
+		axis: null,
+		type: options.xScaleType ?? undefined
+	},
 
-    fx: {
-        label: null,
-        insetLeft: 80
-    },
+	y: {
+		label: null,
+		domain: options.yDomain ?? getDomain(data, options)
+	},
 
-    color: {
-        legend: true,
-        ...colorChoice
-    },
+	fx: {
+		label: null
+	},
 
-    marks: [
-        Plot.axisY({
-            tickFormat: options.ytickformat
-        }),
+	color: {
+		legend: true,
+		...colorChoice
+	},
 
-        /* these don't join up, as each pair of plots is in a different facet :( */
-        Plot.gridY(),
+	marks: [
+		Plot.axisY({
+			tickFormat: options.ytickformat
+		}),
 
-        Plot.barY(data, {
-            x: "b",
-            fx: "xd",
-            y: "y",
-            fill: "b",
-            title: d => [d.b, d.xd, d.y].join("\n"),
-            tip: "xy"
-            //  inset: 0.5,
-        }),
+		/* these don't join up, as each pair of plots is in a different facet :( */
+		Plot.gridY(),
 
-        ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
-    ],
+		Plot.barY(data, {
+			x: 'b',
+			fx: 'xd',
+			y: 'y',
+			fill: 'b',
+			title: makeTooltip(options),
+			tip: 'xy'
+		}),
+
+		...getZeroYLine(options)
+	]
 });

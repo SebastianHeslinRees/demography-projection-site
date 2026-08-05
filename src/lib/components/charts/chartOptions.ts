@@ -39,11 +39,11 @@ export type ChartOptions = {
     /**
      * Plot type.
      */
-    chartType: 'line' | 'lineChartWithLineStyles' |
+    chartType: 'line' |  'lineChartWithForecast' | 'lineChartWithLineStyles' |
         'barChartVertical' | 'barChartVerticalGrouped' | 'barChartHorizontal' | 'barChartHorizontalGrouped' | 'barChartStacked' | 'barChartStackedTimeseries' |
         'stackedHistogram' |
         'incomeSlope' |
-        'choropleth';
+        'boroughChoropleth' | 'wardChoropleth';
 
     /**
      * If `true`, force 0 to be included in the domain of the y-axis.
@@ -144,32 +144,32 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     /** Borough choropleth **/
     "borough_population": {
-        "chartType": "choropleth",
+        "chartType": "boroughChoropleth",
         "type": "character",
         "ytickformat": ",.0f",
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [150000, 200000, 250000, 300000, 350000, 400000],
-            "range": ["#f7fbff", "#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c", "#08306b"]
+            "domain": [-5, 0, 5, 10, 15, 20],
+            "range": ["#d73027", "#f46d43", "#deebf7", "#abd9e9", "#74add1", "#2171b5", "#084594"]
         }
     },
 
-    "borough_population_pct_change": {
-        "chartType": "choropleth",
+      "ward_population": {
+        "chartType": "wardChoropleth",
         "type": "character",
-        "ytickformat": "+.1f",
+        "ytickformat": ",.0f",
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [-20, 0, 5, 10, 15, 20],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#2171b5", "#08306b"]
+            "domain": [-5, 0, 5, 10, 15, 20],
+            "range": ["#d73027", "#f46d43", "#deebf7", "#abd9e9", "#74add1", "#2171b5", "#084594"]
         }
     },
 
     /** Demography **/
     "total_population_year": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".2s",
         "x_order": null,
@@ -177,7 +177,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_total_population": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -186,7 +186,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_annual_population_change": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -197,7 +197,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_age_structure_median_age": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "integer",
         "ytickformat": ".0s",
         "x_order": null,
@@ -206,7 +206,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_working_age_population": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",
         "x_order": null,
@@ -215,7 +215,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_primary_school_age_children": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -224,7 +224,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_secondary_school_age_children": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -233,7 +233,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_population_age_65_plus": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",
         "x_order": null,
@@ -242,7 +242,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "population_age_structure": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "integer",
         "ytickformat": ".0f",
         "x_order": null,
@@ -252,7 +252,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "annual_change_component": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",
         "x_order": null,
@@ -262,7 +262,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "annual_births": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",
         "x_order": null,
@@ -272,7 +272,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "births_age_mother": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",
         "x_order": null,
@@ -282,7 +282,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "births_mothers_cob": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
 
         "ytickformat": ".1s",
@@ -292,7 +292,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "total_fertility_rate": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1f",
         "x_order": null,
@@ -303,7 +303,7 @@ export const chartOptions: Record<string, ChartOptions> = {
 
     // Components of Change datasets
     "births": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -312,7 +312,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "deaths": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -321,7 +321,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "natural_change": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -331,7 +331,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "international_net_migration": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -341,7 +341,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "domestic_net_migration": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
@@ -351,7 +351,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "domestic_in_migration": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0f",
         "x_order": null,
@@ -360,7 +360,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "domestic_out_migration": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0f",
         "x_order": null,
@@ -369,7 +369,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "total_net_migration": {
-        "chartType": "line",
+        "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
