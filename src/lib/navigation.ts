@@ -35,6 +35,12 @@ export const navigation = [
 		children: []
 	},
 	{
+		title: 'Development capacity',
+		id: 'development-capacity',
+		href: '/development-capacity',
+		children: []
+	},
+	{
 		title: 'Components of change',
 		id: 'components-of-change',
 		href: '/components-of-change',

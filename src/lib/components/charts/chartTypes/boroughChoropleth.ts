@@ -17,6 +17,7 @@ export const boroughChoropleth = (
 	colorChoice: ColorChoice,
 	width: number
 ) => {
+	const optionsWithTooltip = options as ChartOptions & { tooltipFormatValue?: string };
 	const areaNameField = 'xd';
 	const valueField = 'y';
 
@@ -29,7 +30,7 @@ export const boroughChoropleth = (
 		)
 	};
 
-	let joinedData = {};
+	let joinedData: FeatureCollection = geoData;
 
 	if (geoData && data.length > 0) {
 		const joinedFeatures = [];
@@ -40,7 +41,7 @@ export const boroughChoropleth = (
 				...feature,
 				properties: {
 					...feature.properties,
-					value: d ? d[valueField] : undefined
+					value: d ? d[valueField] : 0
 				}
 			});
 		}
@@ -53,7 +54,7 @@ export const boroughChoropleth = (
 		height: width
 	};
 
-	let f = format(options.tooltipFormatValue ?? options.ytickformat ?? '.0f');
+	let f = format(optionsWithTooltip.tooltipFormatValue ?? options.ytickformat ?? '.0f');
 
 	return {
 		projection: geoMercator().fitExtent(

@@ -161,8 +161,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [-5, 0, 5, 10, 15, 20],
-            "range": ["#d73027", "#f46d43", "#deebf7", "#abd9e9", "#74add1", "#2171b5", "#084594"]
+            "domain": [-5, -1, 1, 5, 10, 15, 20],
+            "range": ["#ef8a62", "#ef8a62", "#d9d9d9", "#67a9cf", "#4393c3", "#2166ac", "#08519c", "#08306b"]
         },
     },
 
@@ -173,8 +173,68 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [-5, 0, 5, 10, 15, 20],
-            "range": ["#d73027", "#f46d43", "#deebf7", "#abd9e9", "#74add1", "#2171b5", "#084594"]
+            "domain": [-5, -1, 1, 5, 10, 15, 20],
+            "range": ["#ef8a62", "#ef8a62", "#d9d9d9", "#67a9cf", "#4393c3", "#2166ac", "#08519c", "#08306b"]
+        }
+    },
+
+    "large_sites_polyissues_lsoa": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+        }
+    },
+
+    "large_sites_withpoly_lsoa": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+        }
+    },
+
+    "lsoa_industrial_additionalrelease10y": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+        }
+    },
+
+    "phased_lsoa_longertermgb": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+        }
+    },
+
+    "small_sites_lsoa": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
