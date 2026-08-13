@@ -17,18 +17,9 @@ Boroughs without a value in the source file are displayed as 0.
 
 <Chart
  chart="Chart"
- title="Large sites with polygon issues"
- subtitle="10-year total capacity by borough. Source dataset: large_sites_polyissues_lsoa"
- dataset="large_sites_polyissues_lsoa"
- byline="GLA City Intelligence"
- source="combined_lad_10Y_total_capacity_for_mapping.csv"
- />
-
-<Chart
- chart="Chart"
- title="Large sites with polygon data"
- subtitle="10-year total capacity by borough. Source dataset: large_sites_withpoly_lsoa"
- dataset="large_sites_withpoly_lsoa"
+ title="Large sites"
+ subtitle="10-year total capacity by borough. Source dataset: large_sites_lsoa"
+ dataset="large_sites_lsoa"
  byline="GLA City Intelligence"
  source="combined_lad_10Y_total_capacity_for_mapping.csv"
  />

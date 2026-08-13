@@ -178,27 +178,15 @@ export const chartOptions: Record<string, ChartOptions> = {
         }
     },
 
-    "large_sites_polyissues_lsoa": {
+    "large_sites_lsoa": {
         "chartType": "boroughChoropleth",
         "type": "character",
         "ytickformat": ",.0f",
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
-        }
-    },
-
-    "large_sites_withpoly_lsoa": {
-        "chartType": "boroughChoropleth",
-        "type": "character",
-        "ytickformat": ",.0f",
-        "x_order": null,
-        "timeperiod_type": null,
-        "colorScale": {
-            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -209,8 +197,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -221,8 +209,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -233,8 +221,8 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
