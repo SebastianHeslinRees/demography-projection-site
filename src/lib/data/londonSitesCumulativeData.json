@@ -1,0 +1,602 @@
+[
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2025-01-01",
+    "b": "Large Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2026-01-01",
+    "b": "Large Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2027-01-01",
+    "b": "Large Sites",
+    "y": 48527.726307045
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2028-01-01",
+    "b": "Large Sites",
+    "y": 95344.400960582
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2029-01-01",
+    "b": "Large Sites",
+    "y": 132731.673237464
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2030-01-01",
+    "b": "Large Sites",
+    "y": 160570.247264234
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2031-01-01",
+    "b": "Large Sites",
+    "y": 187230.274347674
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2032-01-01",
+    "b": "Large Sites",
+    "y": 232493.67517081002
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2033-01-01",
+    "b": "Large Sites",
+    "y": 261598.194820043
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2034-01-01",
+    "b": "Large Sites",
+    "y": 284307.98897163
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2035-01-01",
+    "b": "Large Sites",
+    "y": 303315.395268006
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2036-01-01",
+    "b": "Large Sites",
+    "y": 320392.046403968
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2037-01-01",
+    "b": "Large Sites",
+    "y": 366123.66242842004
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2038-01-01",
+    "b": "Large Sites",
+    "y": 405523.171264791
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2039-01-01",
+    "b": "Large Sites",
+    "y": 442073.809364438
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2040-01-01",
+    "b": "Large Sites",
+    "y": 474908.341001281
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2041-01-01",
+    "b": "Large Sites",
+    "y": 504905.899539455
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2042-01-01",
+    "b": "Large Sites",
+    "y": 529507.204594526
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2043-01-01",
+    "b": "Large Sites",
+    "y": 551965.643875616
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2044-01-01",
+    "b": "Large Sites",
+    "y": 572687.442214781
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2045-01-01",
+    "b": "Large Sites",
+    "y": 593071.257397847
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2046-01-01",
+    "b": "Large Sites",
+    "y": 613066.072580916
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2047-01-01",
+    "b": "Large Sites",
+    "y": 632852.887763995
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2048-01-01",
+    "b": "Large Sites",
+    "y": 652340.585686961
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2049-01-01",
+    "b": "Large Sites",
+    "y": 672660.154671976
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2025-01-01",
+    "b": "Industrial Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2026-01-01",
+    "b": "Industrial Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2027-01-01",
+    "b": "Industrial Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2028-01-01",
+    "b": "Industrial Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2029-01-01",
+    "b": "Industrial Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2030-01-01",
+    "b": "Industrial Sites",
+    "y": 6440.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2031-01-01",
+    "b": "Industrial Sites",
+    "y": 12881
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2032-01-01",
+    "b": "Industrial Sites",
+    "y": 19321.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2033-01-01",
+    "b": "Industrial Sites",
+    "y": 25762
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2034-01-01",
+    "b": "Industrial Sites",
+    "y": 32202.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2035-01-01",
+    "b": "Industrial Sites",
+    "y": 38643
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2036-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2037-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2038-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2039-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2040-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2041-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2042-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2043-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2044-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2045-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2046-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2047-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2048-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2049-01-01",
+    "b": "Industrial Sites",
+    "y": 45083.5
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2025-01-01",
+    "b": "Green Belts",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2026-01-01",
+    "b": "Green Belts",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2027-01-01",
+    "b": "Green Belts",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2028-01-01",
+    "b": "Green Belts",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2029-01-01",
+    "b": "Green Belts",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2030-01-01",
+    "b": "Green Belts",
+    "y": 8014.282540935
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2031-01-01",
+    "b": "Green Belts",
+    "y": 16028.56508187
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2032-01-01",
+    "b": "Green Belts",
+    "y": 24042.847622805
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2033-01-01",
+    "b": "Green Belts",
+    "y": 32057.13016374
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2034-01-01",
+    "b": "Green Belts",
+    "y": 40071.412704675
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2035-01-01",
+    "b": "Green Belts",
+    "y": 48085.69524561
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2036-01-01",
+    "b": "Green Belts",
+    "y": 56099.977786545
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2037-01-01",
+    "b": "Green Belts",
+    "y": 65244.0459421535
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2038-01-01",
+    "b": "Green Belts",
+    "y": 74388.114097762
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2039-01-01",
+    "b": "Green Belts",
+    "y": 83532.1822533705
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2040-01-01",
+    "b": "Green Belts",
+    "y": 92676.250408979
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2041-01-01",
+    "b": "Green Belts",
+    "y": 101820.3185645875
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2042-01-01",
+    "b": "Green Belts",
+    "y": 110964.386720196
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2043-01-01",
+    "b": "Green Belts",
+    "y": 120108.4548758045
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2044-01-01",
+    "b": "Green Belts",
+    "y": 129252.523031413
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2045-01-01",
+    "b": "Green Belts",
+    "y": 138396.5911870215
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2046-01-01",
+    "b": "Green Belts",
+    "y": 147540.65934263
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2047-01-01",
+    "b": "Green Belts",
+    "y": 156684.7274982385
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2048-01-01",
+    "b": "Green Belts",
+    "y": 165828.795653847
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2049-01-01",
+    "b": "Green Belts",
+    "y": 174972.8638094555
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2025-01-01",
+    "b": "Small Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2026-01-01",
+    "b": "Small Sites",
+    "y": 0
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2027-01-01",
+    "b": "Small Sites",
+    "y": 13690.918561408
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2028-01-01",
+    "b": "Small Sites",
+    "y": 27381.837122816
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2029-01-01",
+    "b": "Small Sites",
+    "y": 41072.755684224
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2030-01-01",
+    "b": "Small Sites",
+    "y": 54763.674245632
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2031-01-01",
+    "b": "Small Sites",
+    "y": 68454.59280704
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2032-01-01",
+    "b": "Small Sites",
+    "y": 82145.511368448
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2033-01-01",
+    "b": "Small Sites",
+    "y": 95836.42992985599
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2034-01-01",
+    "b": "Small Sites",
+    "y": 109527.348491264
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2035-01-01",
+    "b": "Small Sites",
+    "y": 123218.267052672
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2036-01-01",
+    "b": "Small Sites",
+    "y": 136909.18561408
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2037-01-01",
+    "b": "Small Sites",
+    "y": 148908.763651163
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2038-01-01",
+    "b": "Small Sites",
+    "y": 160908.341688246
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2039-01-01",
+    "b": "Small Sites",
+    "y": 172907.919725329
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2040-01-01",
+    "b": "Small Sites",
+    "y": 184907.497762412
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2041-01-01",
+    "b": "Small Sites",
+    "y": 196907.07579949498
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2042-01-01",
+    "b": "Small Sites",
+    "y": 208906.65383657799
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2043-01-01",
+    "b": "Small Sites",
+    "y": 220906.231873661
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2044-01-01",
+    "b": "Small Sites",
+    "y": 232905.809910744
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2045-01-01",
+    "b": "Small Sites",
+    "y": 244905.387947827
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2046-01-01",
+    "b": "Small Sites",
+    "y": 256904.96598491
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2047-01-01",
+    "b": "Small Sites",
+    "y": 268904.544021993
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2048-01-01",
+    "b": "Small Sites",
+    "y": 280904.122059076
+  },
+  {
+    "dataset": "development_capacity_cumulative_london",
+    "xd": "2049-01-01",
+    "b": "Small Sites",
+    "y": 292903.700096159
+  }
+]

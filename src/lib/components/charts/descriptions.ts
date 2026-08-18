@@ -30,13 +30,17 @@ export const getDescription = (
 ) => {
 	const xds = data.map((d) => d.xd);
 	let timeStatement = `showing values between ${formatDate(min(xds))} and ${formatDate(max(xds))}`;
+	const colorDomain =
+		Array.isArray(colorChoice?.domain) && colorChoice.domain.length > 0
+			? colorChoice.domain
+			: unique(data.map((d) => d.b));
 
 	if (options.chartType === 'line' || options.chartType === 'slopeChart') {
 		let part = '';
-		if (colorChoice.domain.length === 1) {
-			part = `with a single line for ${colorChoice.domain[0]}`;
+		if (colorDomain.length === 1) {
+			part = `with a single line for ${colorDomain[0]}`;
 		} else {
-			part = `with lines for ${join(colorChoice.domain)}`;
+			part = `with lines for ${join(colorDomain)}`;
 		}
 
 		return `Line chart ${part} ${timeStatement}.`;
@@ -49,7 +53,7 @@ export const getDescription = (
 
 		const z2s = data.map((d) => d.z2);
 
-		return `Line chart ${timeStatement}. Line color distinguishes between ${join(colorChoice.domain)}. Line style distinguishes between ${join(unique(z2s))}`;
+		return `Line chart ${timeStatement}. Line color distinguishes between ${join(colorDomain)}. Line style distinguishes between ${join(unique(z2s))}`;
 	} else if (options.chartType === 'barChartStackedTimeseries') {
 		// The stacked bar chart is difficult to compeletely descibe concisely.
 		// For each

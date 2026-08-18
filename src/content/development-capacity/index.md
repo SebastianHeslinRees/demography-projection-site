@@ -17,36 +17,44 @@ Boroughs without a value in the source file are displayed as 0.
 
 <Chart
  chart="Chart"
- title="Large sites"
- subtitle="10-year total capacity by borough. Source dataset: large_sites_lsoa"
+ title="Large Sites"
  dataset="large_sites_lsoa"
- byline="GLA City Intelligence"
- source="combined_lad_10Y_total_capacity_for_mapping.csv"
+ dataDownloadButton={false}
+ imageDownloadButton={false}
  />
 
 <Chart
  chart="Chart"
- title="Industrial additional release"
- subtitle="10-year total capacity by borough. Source dataset: lsoa_industrial_additionalrelease10y"
+ title="Industrial Sites"
  dataset="lsoa_industrial_additionalrelease10y"
- byline="GLA City Intelligence"
- source="combined_lad_10Y_total_capacity_for_mapping.csv"
+ dataDownloadButton={false}
+ imageDownloadButton={false}
  />
 
 <Chart
  chart="Chart"
- title="Phased longer-term Green Belt"
- subtitle="10-year total capacity by borough. Source dataset: phased_lsoa_longertermgb"
+ title="Green Belts"
  dataset="phased_lsoa_longertermgb"
- byline="GLA City Intelligence"
- source="combined_lad_10Y_total_capacity_for_mapping.csv"
+ dataDownloadButton={false}
+ imageDownloadButton={false}
  />
 
 <Chart
  chart="Chart"
- title="Small sites"
- subtitle="10-year total capacity by borough. Source dataset: small_sites_lsoa"
+ title="Small Sites"
  dataset="small_sites_lsoa"
- byline="GLA City Intelligence"
- source="combined_lad_10Y_total_capacity_for_mapping.csv"
+ dataDownloadButton={false}
+ imageDownloadButton={false}
+ />
+
+## Cumulative London totals by dataset
+
+This line chart shows the cumulative total development capacity for London across the four datasets.
+
+<Chart
+ chart="Chart"
+ title="Cumulative London development capacity by year"
+ dataset="development_capacity_cumulative_london"
+ dataDownloadButton={false}
+ imageDownloadButton={false}
  />

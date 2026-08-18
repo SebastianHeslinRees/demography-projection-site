@@ -31,9 +31,23 @@
         data?: ChartDataRow[];
 
 		controls?: Snippet;
+		dataDownloadButton?: true | false | ('CSV' | 'JSON')[];
+		imageDownloadButton?: true | false | ('PNG' | 'SVG')[];
 	};
 
-	let { title, subtitle, source, byline, dataset, lloindicator, note, data = [], controls }: ChartProps = $props();
+	let {
+		title,
+		subtitle,
+		source,
+		byline,
+		dataset,
+		lloindicator,
+		note,
+		data = [],
+		controls,
+		dataDownloadButton,
+		imageDownloadButton
+	}: ChartProps = $props();
 
 	let options = $derived(chartOptions[dataset]);
 
@@ -108,6 +122,10 @@
 	let columnMapping = $derived(getColumnMapping(dataset));
 
 	let description = $derived(getDescription(options, data, colorChoice));
+
+	let isMapChoropleth = $derived(
+		options?.chartType === 'boroughChoropleth' || options?.chartType === 'wardChoropleth'
+	);
 </script>
 
 {#if dataLoadFailed}
@@ -115,7 +133,11 @@
 		<NonIdealState>Chart data could not be loaded.</NonIdealState>
 	</div>
 {:else if spec && data.length > 0}
-	<div class="w-full py-typography-spacing-3xl" bind:clientWidth={width}>
+	<div
+		class="w-full py-typography-spacing-3xl"
+		class:map-legend-rotated={isMapChoropleth}
+		bind:clientWidth={width}
+	>
 		<ObservablePlot
 			{data}
 			{spec}
@@ -123,6 +145,8 @@
 			subTitle={subtitle}
 			{source}
 			{byline}
+			{dataDownloadButton}
+			{imageDownloadButton}
 			note={combinedNote}
 			id={dataset}
 			{columnMapping}
@@ -139,6 +163,8 @@
 		subTitle={subtitle}
 		{source}
 		{byline}
+		{dataDownloadButton}
+		{imageDownloadButton}
 		note={combinedNote}
 		id={dataset}
 		{columnMapping}

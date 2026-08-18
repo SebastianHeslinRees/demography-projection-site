@@ -58,4 +58,11 @@ html.disable-smooth-scroll {
 	.prose :where(h3):where(:first-child) {
     	margin-top: 24px
 	}
+
+	/* Rotate choropleth legend tick labels only (not hover text or other chart text) */
+	.map-legend-rotated .themed-chart svg.defaultColorLegendLabel-ramp g.tick text {
+		transform-box: fill-box;
+		transform-origin: center;
+		transform: rotate(45deg);
+	}
 }

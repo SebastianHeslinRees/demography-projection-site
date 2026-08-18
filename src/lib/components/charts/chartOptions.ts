@@ -186,7 +186,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": null,
         "colorScale": {
             "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -198,7 +198,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": null,
         "colorScale": {
             "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -210,7 +210,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": null,
         "colorScale": {
             "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
 
@@ -222,8 +222,17 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": null,
         "colorScale": {
             "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
-            "range": ["#d9d9d9", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+            "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
+    },
+
+    "development_capacity_cumulative_london": {
+        "chartType": "line",
+        "type": "date",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        "insetRight": 180
     },
 
     /** Demography **/

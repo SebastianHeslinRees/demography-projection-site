@@ -72,7 +72,8 @@ export const boroughChoropleth = (
 			type: 'threshold',
 			legend: true,
 			label: '',
-			tickFormat: options.ytickformat
+			tickFormat: options.ytickformat,
+			tickRotate: 45
 		},
 		width: viewbox.width,
 		height: viewbox.height,
