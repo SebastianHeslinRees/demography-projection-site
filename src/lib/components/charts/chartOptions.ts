@@ -185,7 +185,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "domain": [1, 100, 500, 1000, 2500, 5000, 10000, 15000],
             "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
@@ -197,7 +197,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "domain": [1, 100, 500, 1000, 2500, 5000, 10000, 15000],
             "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
@@ -209,7 +209,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "domain": [1, 100, 500, 1000, 2500, 5000, 10000, 15000],
             "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
@@ -221,7 +221,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": null,
         "colorScale": {
-            "domain": [0, 100, 500, 1000, 2500, 5000, 10000, 15000],
+            "domain": [1, 100, 500, 1000, 2500, 5000, 10000, 15000],
             "range": ["#9ca3af", "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
         }
     },
@@ -232,6 +232,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ",.0f",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "insetLeft": 30,
         "insetRight": 180
     },
 
