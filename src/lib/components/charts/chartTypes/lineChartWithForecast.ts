@@ -38,8 +38,20 @@ const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
     return [start, end];
 }
 
+const getComparableX = (value: ChartDataRow['xd']) => value instanceof Date ? value.getTime() : value;
+
 export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => {
     const yDomain = options.yDomain ?? getDomain(data, options);
+
+    const lastXBySeries = new Map<string, ChartDataRow['xd']>();
+    for (const row of data) {
+        const current = lastXBySeries.get(row.b);
+        if (current == null || getComparableX(row.xd) > getComparableX(current)) {
+            lastXBySeries.set(row.b, row.xd);
+        }
+    }
+    const seriesShareLastX = lastXBySeries.size > 1 && new Set([...lastXBySeries.values()].map(getComparableX)).size === 1;
+    const shouldSuppressEndpointLabels = seriesShareLastX && lastXBySeries.size > 3;
 
     const hasProjectedShading =
         Boolean(options.projectedStart) &&
@@ -98,6 +110,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
                 Plot.line(data, {
                     x: "xd",
                     y: "y",
+                    z: "b",
                     fx: options.faceted ? 'z2' : undefined,
                     stroke: "b",
                     title: d => [d.b, d.xd, d.y].join("\n"),
@@ -132,6 +145,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
             Plot.line(historicalData, {
                 x: "xd",
                 y: "y",
+                z: "b",
                 fx: options.faceted ? 'z2' : undefined,
                 stroke: "b",
                 title: d => [d.b, d.xd, d.y].join("\n"),
@@ -140,6 +154,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
             Plot.line(projectedData, {
                 x: "xd",
                 y: "y",
+                z: "b",
                 fx: options.faceted ? 'z2' : undefined,
                 stroke: "b",
                 strokeDasharray: "5,4",
@@ -207,31 +222,34 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
             frameAnchor: 'right'
         })),
 
-        // Label end-point with b
-        Plot.dot(data, Plot.selectLast({
-                x: "xd",
-                y: "y",
-                fx: options.faceted ? 'z2' : undefined,
+        // Label end-point with b when the series do not all terminate at the same x-value,
+        // or when the comparison is small enough that labels remain readable.
+        ...(!shouldSuppressEndpointLabels ? [
+            Plot.dot(data, Plot.selectLast({
+                    x: "xd",
+                    y: "y",
+                    fx: options.faceted ? 'z2' : undefined,
 
-                stroke: 'b',
-                strokeWidth: 2,
-                fill: 'white',
-                fillOpacity: 1,
-                r: 5
-            })
-        ),
+                    stroke: 'b',
+                    strokeWidth: 2,
+                    fill: 'white',
+                    fillOpacity: 1,
+                    r: 5
+                })
+            ),
 
-        Plot.text(data, Plot.selectLast({
-                x: "xd",
-                y: "y",
-                fx: options.faceted ? 'z2' : undefined,
+            Plot.text(data, Plot.selectLast({
+                    x: "xd",
+                    y: "y",
+                    fx: options.faceted ? 'z2' : undefined,
 
-                text: "b",
-                fill: "b",
-                textAnchor: "start",
-                dx: 10
-            })
-        )
+                    text: "b",
+                    fill: "b",
+                    textAnchor: "start",
+                    dx: 10
+                })
+            )
+        ] : [])
     ]
     };
 };

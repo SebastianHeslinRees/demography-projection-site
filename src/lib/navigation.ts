@@ -41,6 +41,12 @@ export const navigation = [
 		children: []
 	},
 	{
+		title: 'Housing-led projection vs Trend projections',
+		id: 'housing-led-projection-vs-trend-projections',
+		href: '/housing-led-projection-vs-trend-projections',
+		children: []
+	},
+	{
 		title: 'Development capacity',
 		id: 'development-capacity',
 		href: '/development-capacity',

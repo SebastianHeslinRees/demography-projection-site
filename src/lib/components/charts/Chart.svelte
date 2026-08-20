@@ -8,7 +8,7 @@
 
 	import { chartFns } from './chartTypes/index';
 
-	import { getColorScale, loadChartData, type ChartDataRow } from '$lib/components/charts/utils';
+	import { getColorScale, loadChartData, sortChartData, type ChartDataRow } from '$lib/components/charts/utils';
 	import { getColumnMapping } from '$lib/utils';
 	import { getDescription } from './descriptions';
 
@@ -87,6 +87,15 @@
 		});
 	};
 
+	const mapProjectedTrendLabels = (data: ChartDataRow[]) => data.map((row) => {
+		if (row.b === '5-year trend') return { ...row, b: 'Low' };
+		if (row.b === '10-year trend') return { ...row, b: 'Central' };
+		if (row.b === '15-year trend') return { ...row, b: 'High' };
+		return row;
+	});
+
+	const sortBySeriesThenX = (data) => sortChartData(data as ChartDataRow[], 'xd', 'b');
+
 	let width = $state(0);
 
 	let colorChoice = $derived(
@@ -103,9 +112,13 @@
 			return {};
 		}
 
+		const displayData = dataset?.startsWith('proj_') ? mapProjectedTrendLabels(data) : data;
+
 		const sortedData = ['line', 'lineChartWithLineStyles'].includes(options.chartType)
-			? sortByField(data, 'xd')
-			: data;
+			? sortByField(displayData, 'xd')
+			: options.type === 'integer' && displayData.some((row) => typeof row.b === 'string')
+				? sortBySeriesThenX(displayData)
+				: displayData;
 		return chartFn(options, sortedData, colorChoice, width); // N.B. width is only used by line chart
 	});
 

@@ -328,6 +328,70 @@ export const chartOptions: Record<string, ChartOptions> = {
         projectedStart: "2024-01-01"
     },
 
+    "housing_led_vs_trend_total_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_vs_trend_annual_population_change": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        numTicks: 4,
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_vs_trend_age_structure": {
+        "chartType": "lineChartWithForecast",
+        "type": "integer",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "year"
+    },
+
+    "housing_led_vs_trend_working_age_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_vs_trend_primary_school_age_children": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_vs_trend_secondary_school_age_children": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_vs_trend_population_age_65_plus": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
     "proj_annual_population_change": {
         "chartType": "lineChartWithForecast",
         "type": "date",

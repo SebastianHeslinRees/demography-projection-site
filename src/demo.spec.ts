@@ -1,7 +1,105 @@
 import { describe, it, expect } from 'vitest';
+import { lineChartWithForecast } from './lib/components/charts/chartTypes/lineChartWithForecast';
+import { getColorChoice, loadChartData, sortChartData } from './lib/components/charts/utils';
 
-describe('sum test', () => {
-	it('adds 1 + 2 to equal 3', () => {
-		expect(1 + 2).toBe(3);
+describe('comparison chart colors', () => {
+	it('keeps the full comparison scale object so series map to the intended colours', () => {
+		const options = {
+			colorScale: {
+				domain: ['Trend - 5-year trend', 'Housing-led - Low'],
+				range: ['#dbeafe', '#fef9c3']
+			}
+		};
+
+		expect(getColorChoice(options, 'light')).toEqual(options.colorScale);
+	});
+
+	it('removes the 2011 housing-led zero point from the annual population change comparison chart', async () => {
+		const data = await loadChartData('housing_led_vs_trend_annual_population_change', {
+			type: 'date',
+			timeperiod_type: 'Annual'
+		});
+
+		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2011)).toBe(false);
+		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
+	});
+
+	it('keeps each series grouped by series name when plotting comparison lines', () => {
+		const data = [
+			{ dataset: 'proj_age_structure_median_age', xd: 0, b: 'Trend - 5-year trend', y: 200 },
+			{ dataset: 'proj_age_structure_median_age', xd: 0, b: 'Trend - 10-year trend', y: 180 },
+			{ dataset: 'proj_age_structure_median_age', xd: 1, b: 'Trend - 5-year trend', y: 220 },
+			{ dataset: 'proj_age_structure_median_age', xd: 1, b: 'Trend - 10-year trend', y: 210 }
+		];
+
+		const grouped = new Map<string, number[]>();
+		for (const row of sortChartData(data, 'xd', 'b')) {
+			const key = row.b;
+			grouped.set(key, [...(grouped.get(key) ?? []), row.xd as number]);
+		}
+
+		const seriesOrder = [...grouped.keys()];
+		expect(seriesOrder).toEqual(['Trend - 10-year trend', 'Trend - 5-year trend']);
+		expect(grouped.get('Trend - 5-year trend')).toEqual([0, 1]);
+		expect(grouped.get('Trend - 10-year trend')).toEqual([0, 1]);
+	});
+
+	it('maps projected trend labels to low, central and high display names', () => {
+		const rawData = [
+			{ dataset: 'proj_total_population', xd: '2024-01-01', b: '5-year trend', y: 1 },
+			{ dataset: 'proj_total_population', xd: '2024-01-01', b: '10-year trend', y: 2 },
+			{ dataset: 'proj_total_population', xd: '2024-01-01', b: '15-year trend', y: 3 }
+		];
+
+		const displayData = rawData.map((row) => {
+			if (row.b === '5-year trend') return { ...row, b: 'Low' };
+			if (row.b === '10-year trend') return { ...row, b: 'Central' };
+			if (row.b === '15-year trend') return { ...row, b: 'High' };
+			return row;
+		});
+
+		expect(displayData.map((row) => row.b)).toEqual(['Low', 'Central', 'High']);
+	});
+
+	it('keeps housing-led low/central/high labels visible when those series share the same final age', () => {
+		const data = [
+			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - Low', y: 110000 },
+			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - Central', y: 120000 },
+			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - High', y: 130000 },
+			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Trend - 5-year trend', y: 140000 }
+		];
+
+		const spec = lineChartWithForecast(
+			{ type: 'integer', timeperiod_type: 'year', includeZero: true },
+			data,
+			{ domain: ['Housing-led - Low', 'Housing-led - Central', 'Housing-led - High'], range: ['#111827', '#ef4444', '#f59e0b'] }
+		);
+
+		const textPayload = JSON.stringify(spec.marks);
+		expect(textPayload).toContain('Housing-led - Low');
+		expect(textPayload).toContain('Housing-led - Central');
+		expect(textPayload).toContain('Housing-led - High');
+	});
+
+	it('suppresses endpoint labels when all age-structure series end at the same age', () => {
+		const data = [
+			{ dataset: 'proj_age_structure_median_age', xd: 90, b: 'Trend - 5-year trend', y: 110000 },
+			{ dataset: 'proj_age_structure_median_age', xd: 90, b: 'Trend - 10-year trend', y: 120000 },
+			{ dataset: 'proj_age_structure_median_age', xd: 90, b: 'Trend - 15-year trend', y: 130000 },
+			{ dataset: 'proj_age_structure_median_age', xd: 90, b: 'Housing-led - Central', y: 140000 }
+		];
+
+		const spec = lineChartWithForecast(
+			{ type: 'integer', timeperiod_type: 'year', includeZero: true },
+			data,
+			{ domain: ['Trend - 5-year trend', 'Housing-led - Central'], range: ['#111827', '#ef4444'] }
+		);
+
+		const textMarks = spec.marks.filter((mark) => {
+			const channels = (mark as { channels?: Record<string, unknown> }).channels;
+			return Boolean(channels && 'text' in channels);
+		});
+
+		expect(textMarks).toHaveLength(0);
 	});
 });

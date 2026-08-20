@@ -18,6 +18,7 @@ import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { 
 // Bundled ward-level population data.
 import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
 import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
+import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
 import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
 
@@ -46,6 +47,7 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(londonSitesCumulativeData as ChartDataRow[])
     .concat(wardPopulationData as ChartDataRow[])
     .concat(housingLedProjectedPopulationData as ChartDataRow[])
+    .concat(housingLedVsTrendProjectionData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 
@@ -87,6 +89,42 @@ function deriveTotalNetMigrationRows(
   return combinedRows;
 }
 
+export function getColorChoice(
+  options: { colorScale?: { domain: string[]; range: string[] }; colorScaleLight?: { domain: string[]; range: string[] }; colorScaleDark?: { domain: string[]; range: string[] } },
+  mode: 'light' | 'dark' = 'light'
+): { type?: string; domain?: string[]; range?: string[] } {
+  if (mode === 'dark') {
+    return options.colorScaleDark ?? options.colorScale ?? {};
+  }
+
+  return options.colorScaleLight ?? options.colorScale ?? {};
+}
+
+export function sortChartData<T extends ChartDataRow>(
+  rows: T[],
+  xField: keyof ChartDataRow = 'xd',
+  seriesField: keyof ChartDataRow = 'b'
+): T[] {
+  return [...rows].sort((a, b) => {
+    const aSeries = String(a[seriesField] ?? '');
+    const bSeries = String(b[seriesField] ?? '');
+    if (aSeries !== bSeries) return aSeries.localeCompare(bSeries);
+
+    const aX = a[xField];
+    const bX = b[xField];
+
+    if (aX instanceof Date && bX instanceof Date) {
+      return aX.getTime() - bX.getTime();
+    }
+
+    if (typeof aX === 'number' && typeof bX === 'number') {
+      return aX - bX;
+    }
+
+    return String(aX).localeCompare(String(bX));
+  });
+}
+
 export function loadChartData(
   dataset: string,
   options: ChartDataOptions,
@@ -115,7 +153,20 @@ export function loadChartData(
     .then((dataRes) => {
       const newData = dataRes
         .map((d: ChartDataRow) => ({ ...d, xd: convertVal(d.xd as string) }))
-        .filter((d: ChartDataRow) => !options.hide || !options.hide.includes(d.b));
+        .filter((d: ChartDataRow) => !options.hide || !options.hide.includes(d.b))
+        .filter((d: ChartDataRow) => {
+          if (
+            dataset === 'housing_led_vs_trend_annual_population_change' &&
+            typeof d.b === 'string' &&
+            d.b.startsWith('Housing-led') &&
+            d.y === 0 &&
+            d.xd instanceof Date &&
+            d.xd.getFullYear() === 2011
+          ) {
+            return false;
+          }
+          return true;
+        });
 
       if (options.type === "date" || dataset === "job_posts") {
         newData.sort((a: ChartDataRow, b: ChartDataRow) => (a.xd as number) - (b.xd as number));
