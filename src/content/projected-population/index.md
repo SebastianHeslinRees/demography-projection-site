@@ -1,6 +1,6 @@
 ---
 title: Projected population
-description: Total population and age-related projected trends under the 2022-based variants
+description: Projected population trend-based projections
 section: Demography
 navLabel: Projected population
 ---
@@ -16,6 +16,8 @@ navLabel: Projected population
 </script>
 
 ## Total population
+
+Over the period 2024 to 2051 the total population of London is projected to grow from 9.09 million to between 9.79 and 10.52 million, with the central projection giving a population of 10.14 million. This is total growth over the period of 700 thousand to 1.43 million (central: 1.05 million). 
 
 <Chart
  chart="Chart"
@@ -47,6 +49,12 @@ navLabel: Projected population
  />
 
 ## Age structure
+
+In all variants, the population is projected to grow strongly at older ages, with the number of persons aged 65 and over projected to rise from 1.12 million to between 1.74 and 1.84 million (central: 1.79 million). This is a change in the size of this group of between 56 and 65 percent (central: 60 percent) over the projection period. 
+
+Projected growth of the population aged 18 to 64 ranges from 490 thousand (8 percent) and 720 thousand (12 percent) (central: 590 thousand (9.7 percent).
+
+In all variants the number of children age 0 to 17 is projected to fall from an estimated 1.92 million in 2024 to between 1.50 million (-22 percent) and 1.90 million (0 percent) (central: 1.70 million (-11 percent).
 
 <Chart
  chart="Chart"
