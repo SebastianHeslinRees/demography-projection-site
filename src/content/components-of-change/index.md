@@ -17,11 +17,17 @@ As noted above, London's relatively youthful population is a result of establish
 
 ## Migration
 
+Historically, London has experienced very high levels of population turnover, with the sum of annual international and domestic flows in to and out of the capital estimated to have exceeded one million persons in some years. Large net inflows from overseas are typically balanced by similarly sized net domestic outflows, resulting in comparatively small overall net flows. Since 2002, total net migration has typically ranged between +/- 50 thousand persons per year. 2021 was a notable exception, with the impacts of the COVID-19 pandemic pushing net outflows to 100 thousand for the year.
+
+Future annual international flows are modelled using simple averages of the estimated flows from previous years. Annual flows remain constant for the duration of the projection period.
+
+Future internal migration flows are modelled by applying migration rates to the resident population.  Future rates are based on averages of past estimated rates and are held constant for the duration of the projections, but flows will change in line with changes to the population available to move.
+
+The period of past data used to set future migration rates and flows differs between projection variants. To reflect the fact that these different flows are not independent of one another, the same length period is typically used for international inflows, international outflows, and internal rates.
+
+The periods used in the core variants are selected to provide a reasonable range of overall future net migration. 
+
 ### Total net migration
-
-Total net migration is the sum of all flows in to and out of an area. Historically, London has experienced very high levels of population turnover, with annual international and domestic flows in to and out of the capital estimated to have exceeded one million persons in some years. These flows typically tend to balance one another out, resulting in comparatively small overall net flows. Over the period 2002-2019 total net migration ranged between -46 thousand and 61 thousand.
-
-COVID-19 saw significant disruption to migration flows both domestically and internationally. In particular, 2021 saw significantly higher than normal net outflows from London (-116 thousand). Flows in the initial year of the projection (2023) include provisional data from ONS on international migration at the UK level. The year to mid-2023 saw the highest net inflow of international migrants to the UK on record (627 thousand). This UK-level data has been used as the basis for a modelled net international inflow to London of 207 thousand for the year to mid-2023.
 
 <Chart
  chart="Chart"
@@ -55,6 +61,12 @@ COVID-19 saw significant disruption to migration flows both domestically and int
 
 ## Births, deaths & natural change
 
+Births and deaths are projected by applying age-specific fertility and mortality rates to the population.  
+
+Future fertility rates are produced by projecting forward past rates using a time-series model that provides a distribution of future outcomes. The central variant uses the median values of these projected rates up to 2030, after which they are held constant. The low and high variants use scenarios that cover a range of 50 percent of the distribution and are also held constant after 2030.
+
+Future mortality rates trends are taken from the ONS 2024-based National Population Projections for England, using the principal, high, and low life expectancy assumptions for the central, high, and low variants.  Rates for individual local authorities, wards, and MSOA areas are based on scaling the England level mortality rates to be consistent with overall deaths by sex over the preceding four years.
+
 <Chart
  chart="Chart"
  title="Births, London"
@@ -86,4 +98,3 @@ COVID-19 saw significant disruption to migration flows both domestically and int
  source="GLA 2024-based population projections"
  />
 
-Total net migration is the sum of all flows in and out of an area. Historically, London has had high turnover with comparatively small net balances. COVID-19 disrupted both domestic and international migration patterns, including unusually high net outflows in 2021.
