@@ -17,6 +17,7 @@ import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" 
 import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
 // Bundled ward-level population data.
 import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
+import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
 import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
 
@@ -44,6 +45,7 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(boroughCapacityMapData as ChartDataRow[])
 		.concat(londonSitesCumulativeData as ChartDataRow[])
     .concat(wardPopulationData as ChartDataRow[])
+    .concat(housingLedProjectedPopulationData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 

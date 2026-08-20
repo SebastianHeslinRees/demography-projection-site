@@ -1,0 +1,6806 @@
+[
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 22027039.780355223
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 22136696.057959948
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 22240445.8793228
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 22339879.89007505
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 22435188.244303975
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 22527477.189095754
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 22619681.764343668
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 22712100.63295135
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 22804445.614724964
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 22895865.51537074
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 22986216.93305578
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 23075706.88411974
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 23164087.58791063
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 23252266.133413184
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 23339912.378721982
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 23426812.422144823
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 23512215.997707598
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 23596613.656630106
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 23678939.041596293
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 23758595.02292177
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 23835141.750099868
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 23908084.1785808
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 23977235.635439128
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 24042252.234603755
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 24102932.30217153
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 24159035.615624852
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 24210573.721113063
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 22043184.884111896
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 22171966.83964578
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 22297811.798839062
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 22422467.431240078
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 22546601.26195646
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 22671621.462123968
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 22796877.296511337
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 22922744.335474953
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 23049010.423335817
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 23174885.31118435
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 23300284.69919238
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 23425472.396416634
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 23550254.31352382
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 23675552.82865693
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 23801037.96915169
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 23926541.812447254
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 24051338.031930402
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 24175915.98826792
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 24298987.41843123
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 24418732.235325962
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 24535634.642472893
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 24649902.986750588
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 24761829.81971141
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 24871286.349899128
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 24977985.23752858
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 25081999.61760919
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 25183449.3890851
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 22001145.593664642
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 22082966.467605624
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 22157178.020521127
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 22225455.444759555
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 22287647.81222531
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 22344380.045073047
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 22401321.758286983
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 22458637.642585285
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 22515878.06692387
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 22572065.267572336
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 22626999.52466362
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 22680853.760478873
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 22733348.66925188
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 22785411.003294375
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 22836769.549439527
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 22887216.39165003
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 22935915.89324475
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 22983465.36523229
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 23028993.790587842
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 23073067.05144135
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 23114370.06752148
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 23151743.842895348
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 23184607.840232294
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 23212478.360157426
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 23235307.624846727
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 23252648.216269817
+  },
+  {
+    "dataset": "housing_led_projected_population",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 23264483.557252806
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 22027039.780355223
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 22136696.057959948
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 22240445.8793228
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 22339879.89007505
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 22435188.244303975
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 22527477.189095754
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 22619681.764343668
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 22712100.63295135
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 22804445.614724964
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 22895865.51537074
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 22986216.93305578
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 23075706.88411974
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 23164087.58791063
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 23252266.133413184
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 23339912.378721982
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 23426812.422144823
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 23512215.997707598
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 23596613.656630106
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 23678939.041596293
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 23758595.02292177
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 23835141.750099868
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 23908084.1785808
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 23977235.635439128
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 24042252.234603755
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 24102932.30217153
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 24159035.615624852
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 24210573.721113063
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 22043184.884111896
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 22171966.83964578
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 22297811.798839062
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 22422467.431240078
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 22546601.26195646
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 22671621.462123968
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 22796877.296511337
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 22922744.335474953
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 23049010.423335817
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 23174885.31118435
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 23300284.69919238
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 23425472.396416634
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 23550254.31352382
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 23675552.82865693
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 23801037.96915169
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 23926541.812447254
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 24051338.031930402
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 24175915.98826792
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 24298987.41843123
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 24418732.235325962
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 24535634.642472893
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 24649902.986750588
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 24761829.81971141
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 24871286.349899128
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 24977985.23752858
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 25081999.61760919
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 25183449.3890851
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 19763080.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 19978556.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 20197218.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 20421554.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 20633882.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 20836607.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 20938612.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 21065084.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 21202389.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 21231551.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 21284474.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 21446654.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 21709779.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 21903801.0
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 22001145.593664642
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 22082966.467605624
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 22157178.020521127
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 22225455.444759555
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 22287647.81222531
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 22344380.045073047
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 22401321.758286983
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 22458637.642585285
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 22515878.06692387
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 22572065.267572336
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 22626999.52466362
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 22680853.760478873
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 22733348.66925188
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 22785411.003294375
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 22836769.549439527
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 22887216.39165003
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 22935915.89324475
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 22983465.36523229
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 23028993.790587842
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 23073067.05144135
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 23114370.06752148
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 23151743.842895348
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 23184607.840232294
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 23212478.360157426
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 23235307.624846727
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 23252648.216269817
+  },
+  {
+    "dataset": "housing_led_total_population",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 23264483.557252806
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 215476.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 218662.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 224336.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 212328.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 202725.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 102005.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 126472.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 137305.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 29162.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 52923.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 162180.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 263125.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 194022.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 123238.78035522252
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 109656.27760472521
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 103749.82136285305
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 99434.01075224951
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 95308.35422892496
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 92288.94479177892
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 92204.5752479136
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 92418.86860768124
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 92344.98177361488
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 91419.90064577758
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 90351.41768503934
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 89489.95106396079
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 88380.70379088819
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 88178.54550255463
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 87646.2453087978
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 86900.04342284054
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 85403.57556277514
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 84397.65892250836
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 82325.38496618718
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 79655.98132547736
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 76546.72717809677
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 72942.42848093063
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 69151.45685832947
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 65016.59916462749
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 60680.06756777316
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 56103.31345332414
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 51538.10548821092
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 215476.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 218662.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 224336.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 212328.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 202725.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 102005.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 126472.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 137305.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 29162.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 52923.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 162180.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 263125.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 194022.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 139383.88411189616
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 128781.95553388447
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 125844.95919328183
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 124655.63240101561
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 124133.83071638271
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 125020.20016750693
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 125255.83438736945
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 125867.0389636159
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 126266.08786086366
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 125874.88784853369
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 125399.38800802827
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 125187.69722425565
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 124781.91710718721
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 125298.51513310894
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 125485.14049476013
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 125503.84329556301
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 124796.2194831483
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 124577.95633751899
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 123071.43016330898
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 119744.81689473242
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 116902.4071469307
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 114268.34427769482
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 111926.83296082169
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 109456.53018771857
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 106698.8876294531
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 104014.38008061051
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 101449.77147590742
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 215476.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 218662.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 224336.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 212328.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 202725.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 102005.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 126472.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 137305.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 29162.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 52923.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 162180.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 263125.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 194022.0
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 97344.59366464242
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 81820.87394098192
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 74211.55291550234
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 68277.42423842847
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 62192.36746575311
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 56732.23284773901
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 56941.713213935494
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 57315.88429830223
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 57240.42433858663
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 56187.20064846426
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 54934.2570912838
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 53854.23581525311
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 52494.908773008734
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 52062.334042493254
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 51358.5461451523
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 50446.84221050143
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 48699.50159472227
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 47549.47198753804
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 45528.42535555363
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 44073.260853506625
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 41303.01608012989
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 37373.775373868644
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 32863.99733694643
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 27870.519925132394
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 22829.26468930021
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 17340.591423090547
+  },
+  {
+    "dataset": "housing_led_annual_population_change",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 11835.340982988477
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 13032804.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 13099285.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 13203073.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 13325970.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 13458852.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 13568405.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 13604818.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 13666965.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 13740381.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 13752260.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 13772786.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 13863321.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 14081218.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 14240014.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 14334043.408803906
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 14421491.447897462
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 14502403.163642962
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 14575491.250004394
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 14638100.782772169
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 14694111.438127905
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 14751538.086171154
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 14811497.940832041
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 14869275.62052935
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 14923395.838020414
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 14974946.169080306
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 15018562.310527295
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 15062459.647692684
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 15112995.098736653
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 15157279.899757002
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 15198402.32108839
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 15240169.9399485
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 15280420.715588126
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 15312939.80600458
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 15328358.0571922
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 15331611.243163666
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 15333157.9795915
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 15337242.345038319
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 15340452.58349407
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 15343774.513278114
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 15340237.067964831
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 15334628.612733517
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 13032804.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 13099285.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 13203073.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 13325970.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 13458852.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 13568405.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 13604818.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 13666965.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 13740381.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 13752260.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 13772786.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 13863321.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 14081218.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 14240014.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 14334043.408803906
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 14421496.060707018
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 14502427.326815415
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 14575561.170185123
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 14638253.305515498
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 14694392.830994796
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 14752002.918749731
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 14812207.61961193
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 14870297.431226674
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 14924801.490394961
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 14976812.428660208
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 15020963.300343338
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 15065478.539448932
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 15116717.461105071
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 15161796.39898329
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 15203799.114967283
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 15261240.671358615
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 15320054.522845188
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 15373693.29143206
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 15411554.534860346
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 15439832.799052697
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 15469870.344635189
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 15502999.387280064
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 15535946.05379879
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 15569549.173107788
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 15597032.463848863
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 15623237.04790292
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 13032804.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 13099285.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 13203073.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 13325970.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 13458852.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 13568405.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 13604818.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 13666965.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 13740381.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 13752260.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 13772786.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 13863321.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 14081218.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 14240014.0
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 14325839.199999582
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 14404753.695775863
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 14478363.927312456
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 14545331.469449047
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 14603071.052517693
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 14654863.481516909
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 14708856.510448186
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 14765982.841744399
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 14821566.359804196
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 14874043.204697987
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 14924538.951668475
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 14967136.411030717
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 15009997.066026155
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 15059482.930684745
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 15103066.77653691
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 15143467.951998733
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 15171597.95881652
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 15196006.15360815
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 15210979.337949429
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 15208423.693939656
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 15192160.505137771
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 15171608.378016515
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 15153178.990220806
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 15133386.492641324
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 15113319.320555214
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 15086071.12403175
+  },
+  {
+    "dataset": "housing_led_working_age_population",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 15056443.94299443
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 1360861.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 1398162.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 1447615.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 1483480.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 1515396.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 1555539.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 1576990.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 1583909.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 1575418.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 1561428.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 1558532.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 1559444.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 1550002.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 1530457.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 1512607.2011112159
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 1486548.5443964088
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 1461936.588566025
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 1430755.5052706692
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 1403562.72094523
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 1382114.6243524954
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 1361894.2370298586
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 1346594.607134017
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 1327481.2143039033
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 1317984.6085450873
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 1308587.3920260114
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 1301367.3366244803
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 1296615.7634348318
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 1294523.1026251474
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 1294833.089950954
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 1297444.2854162264
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 1302235.1814462056
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 1307448.1172910372
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 1313155.9063173905
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 1319337.1321527187
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 1325847.4995511787
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 1332444.310485349
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 1338767.3304363107
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 1344414.9550775173
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 1349043.1833977634
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 1352313.5626367969
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 1353989.7500296237
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 1360861.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 1398162.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 1447615.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 1483480.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 1515396.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 1555539.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 1576990.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 1583909.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 1575418.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 1561428.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 1558532.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 1559444.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 1550002.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 1530457.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 1512607.2011112152
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 1486548.556479936
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 1461936.6508786418
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 1430755.683285186
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 1403563.1090748769
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 1397590.7122573266
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 1395742.5958182553
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 1401647.571515815
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 1406646.6342614375
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 1424555.2682584198
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 1446064.8403824577
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 1454766.4823504365
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 1463100.634232457
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 1471315.9551456228
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 1479074.1639283788
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 1485891.5513623015
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 1491450.0201643666
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 1497396.7695531845
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 1503798.9182673106
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 1510627.7017445553
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 1517740.620111142
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 1524894.1186572937
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 1531719.3883527596
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 1537830.5419173061
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 1542935.21380534
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 1546734.6587498975
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 1549033.1013906843
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 1360861.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 1398162.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 1447615.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 1483480.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 1515396.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 1555539.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 1576990.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 1583909.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 1575418.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 1561428.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 1558532.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 1559444.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 1550002.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 1530457.0
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 1512749.2915220466
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 1486485.0975483141
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 1461485.321617056
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 1429857.865252166
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 1401724.699518395
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 1365234.6785877116
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 1327769.2355634184
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 1293100.1836779844
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 1252379.7021722703
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 1218478.1037625833
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 1182227.5902179852
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 1161449.8119209036
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 1145641.4178325022
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 1134774.0758864172
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 1128711.6308412421
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 1127566.6566680695
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 1131320.5327663682
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 1135596.1447374136
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 1140482.560190157
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 1145971.7139195988
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 1151924.9115155435
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 1158109.7826364615
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 1164173.0952086847
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 1169703.6060451511
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 1174317.7970385097
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 1177655.1221254542
+  },
+  {
+    "dataset": "housing_led_primary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 1179449.9318903587
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 1155671.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 1138026.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 1117764.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 1111978.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 1116295.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 1135569.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 1157789.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 1191093.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 1228564.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 1252356.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 1281365.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 1311737.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 1328043.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 1325626.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 1326313.506060507
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 1323168.2237392156
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 1317499.2632881338
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 1306709.8916729405
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 1295886.8308718198
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 1281218.4192832774
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 1262471.9205321744
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 1236019.9925051385
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 1216490.9854535786
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 1191075.6169489203
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 1171405.0428223903
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 1153288.7708377927
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 1140169.2341447813
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 1122958.6828762244
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 1114967.087228092
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 1106853.3862701207
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 1098995.0168196566
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 1093570.2247848278
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 1090734.1238351217
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 1090196.8077992776
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 1091838.577185544
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 1095518.2109501206
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 1099491.0181325355
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 1103890.1079137947
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 1108743.9830021402
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 1113983.4026051622
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 1119445.3625624788
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 1155671.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 1138026.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 1117764.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 1111978.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 1116295.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 1135569.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 1157789.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 1191093.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 1228564.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 1252356.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 1281365.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 1311737.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 1328043.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 1325626.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 1326313.5060605071
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 1323168.2452932673
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 1317499.3719216979
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 1306710.19241806
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 1295887.4612941623
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 1281219.5392696792
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 1262473.7004473447
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 1236022.5962520905
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 1216494.6015392533
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 1191080.4208700827
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 1171411.2458494438
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 1168275.8064671669
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 1172960.3263668534
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 1176323.5191102
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 1191742.888319331
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 1210285.6410215937
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 1217837.2625723376
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 1225067.7169001698
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 1232186.2236887717
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 1238819.0570787971
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 1244465.8749009413
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 1248781.9542267653
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 1253358.0681930655
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 1258335.0758029986
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 1263734.5850103442
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 1269482.121632591
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 1275415.2692029423
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 1155671.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 1138026.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 1117764.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 1111978.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 1116295.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 1135569.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 1157789.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 1191093.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 1228564.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 1252356.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 1281365.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 1311737.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 1328043.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 1325626.0
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 1325148.4916452756
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 1322211.4701549392
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 1316505.7232491658
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 1305842.0066806797
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 1295230.6993587324
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 1281226.5600406204
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 1262689.379075652
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 1236255.1498042443
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 1216362.1803888069
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 1190523.8225994678
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 1169820.2381245252
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 1137715.564442697
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 1108295.8735341425
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 1072710.7200451486
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 1043792.5971090783
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 1012438.3551379399
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 991658.0354236219
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 975716.475618465
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 964553.9696958305
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 957996.9894035824
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 956143.9379337713
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 958960.350691946
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 962144.3604352712
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 965835.7092398126
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 970077.0886480375
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 974806.0833493999
+  },
+  {
+    "dataset": "housing_led_secondary_school_age_children",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 979869.1872363423
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2011-01-01",
+    "b": "London Plan central",
+    "y": 2901936.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2012-01-01",
+    "b": "London Plan central",
+    "y": 3005384.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2013-01-01",
+    "b": "London Plan central",
+    "y": 3084001.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2014-01-01",
+    "b": "London Plan central",
+    "y": 3154027.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2015-01-01",
+    "b": "London Plan central",
+    "y": 3201413.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2016-01-01",
+    "b": "London Plan central",
+    "y": 3249113.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2017-01-01",
+    "b": "London Plan central",
+    "y": 3289106.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2018-01-01",
+    "b": "London Plan central",
+    "y": 3329725.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2019-01-01",
+    "b": "London Plan central",
+    "y": 3379760.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2020-01-01",
+    "b": "London Plan central",
+    "y": 3410729.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2021-01-01",
+    "b": "London Plan central",
+    "y": 3454057.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2022-01-01",
+    "b": "London Plan central",
+    "y": 3512350.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2023-01-01",
+    "b": "London Plan central",
+    "y": 3569680.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2024-01-01",
+    "b": "London Plan central",
+    "y": 3640329.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2025-01-01",
+    "b": "London Plan central",
+    "y": 3705675.0992491953
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2026-01-01",
+    "b": "London Plan central",
+    "y": 3770737.2017788575
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2027-01-01",
+    "b": "London Plan central",
+    "y": 3841748.7669930975
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2028-01-01",
+    "b": "London Plan central",
+    "y": 3918210.940064121
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2029-01-01",
+    "b": "London Plan central",
+    "y": 3997227.228372583
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2030-01-01",
+    "b": "London Plan central",
+    "y": 4077671.1405905746
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2031-01-01",
+    "b": "London Plan central",
+    "y": 4156893.638349066
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2032-01-01",
+    "b": "London Plan central",
+    "y": 4233869.549984272
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2033-01-01",
+    "b": "London Plan central",
+    "y": 4307462.059990503
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2034-01-01",
+    "b": "London Plan central",
+    "y": 4377810.265433071
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2035-01-01",
+    "b": "London Plan central",
+    "y": 4441719.081882119
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2036-01-01",
+    "b": "London Plan central",
+    "y": 4508679.878516609
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2037-01-01",
+    "b": "London Plan central",
+    "y": 4566341.834323863
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2038-01-01",
+    "b": "London Plan central",
+    "y": 4618106.431519975
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2039-01-01",
+    "b": "London Plan central",
+    "y": 4663541.2301455485
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2040-01-01",
+    "b": "London Plan central",
+    "y": 4708956.742592298
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2041-01-01",
+    "b": "London Plan central",
+    "y": 4749813.183866164
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2042-01-01",
+    "b": "London Plan central",
+    "y": 4788729.020023324
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2043-01-01",
+    "b": "London Plan central",
+    "y": 4830973.06330757
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2044-01-01",
+    "b": "London Plan central",
+    "y": 4885930.6639167825
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2045-01-01",
+    "b": "London Plan central",
+    "y": 4948764.70102762
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2046-01-01",
+    "b": "London Plan central",
+    "y": 5009072.7218864355
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2047-01-01",
+    "b": "London Plan central",
+    "y": 5064605.187885823
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2048-01-01",
+    "b": "London Plan central",
+    "y": 5118704.634174283
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2049-01-01",
+    "b": "London Plan central",
+    "y": 5170449.51650633
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2050-01-01",
+    "b": "London Plan central",
+    "y": 5226832.293132015
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2051-01-01",
+    "b": "London Plan central",
+    "y": 5283293.591012635
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2011-01-01",
+    "b": "London Plan high",
+    "y": 2901936.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2012-01-01",
+    "b": "London Plan high",
+    "y": 3005384.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2013-01-01",
+    "b": "London Plan high",
+    "y": 3084001.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2014-01-01",
+    "b": "London Plan high",
+    "y": 3154027.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2015-01-01",
+    "b": "London Plan high",
+    "y": 3201413.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2016-01-01",
+    "b": "London Plan high",
+    "y": 3249113.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2017-01-01",
+    "b": "London Plan high",
+    "y": 3289106.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2018-01-01",
+    "b": "London Plan high",
+    "y": 3329725.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2019-01-01",
+    "b": "London Plan high",
+    "y": 3379760.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2020-01-01",
+    "b": "London Plan high",
+    "y": 3410729.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2021-01-01",
+    "b": "London Plan high",
+    "y": 3454057.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2022-01-01",
+    "b": "London Plan high",
+    "y": 3512350.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2023-01-01",
+    "b": "London Plan high",
+    "y": 3569680.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2024-01-01",
+    "b": "London Plan high",
+    "y": 3640329.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2025-01-01",
+    "b": "London Plan high",
+    "y": 3705675.099249194
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2026-01-01",
+    "b": "London Plan high",
+    "y": 3770760.9504555054
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2027-01-01",
+    "b": "London Plan high",
+    "y": 3841874.6856365963
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2028-01-01",
+    "b": "London Plan high",
+    "y": 3918580.8710370576
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2029-01-01",
+    "b": "London Plan high",
+    "y": 3998049.065843313
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2030-01-01",
+    "b": "London Plan high",
+    "y": 4079217.5746375546
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2031-01-01",
+    "b": "London Plan high",
+    "y": 4159499.556715576
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2032-01-01",
+    "b": "London Plan high",
+    "y": 4237933.339565933
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2033-01-01",
+    "b": "London Plan high",
+    "y": 4313443.132911663
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2034-01-01",
+    "b": "London Plan high",
+    "y": 4386224.019984495
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2035-01-01",
+    "b": "London Plan high",
+    "y": 4453128.12932067
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2036-01-01",
+    "b": "London Plan high",
+    "y": 4523699.640023707
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2037-01-01",
+    "b": "London Plan high",
+    "y": 4585631.224883317
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2038-01-01",
+    "b": "London Plan high",
+    "y": 4642339.638064804
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2039-01-01",
+    "b": "London Plan high",
+    "y": 4693407.427482819
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2040-01-01",
+    "b": "London Plan high",
+    "y": 4745170.11185668
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2041-01-01",
+    "b": "London Plan high",
+    "y": 4793098.555773391
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2042-01-01",
+    "b": "London Plan high",
+    "y": 4839829.5925887115
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2043-01-01",
+    "b": "London Plan high",
+    "y": 4890664.731213335
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2044-01-01",
+    "b": "London Plan high",
+    "y": 4955038.498403316
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2045-01-01",
+    "b": "London Plan high",
+    "y": 5028126.953427438
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2046-01-01",
+    "b": "London Plan high",
+    "y": 5099509.694837367
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2047-01-01",
+    "b": "London Plan high",
+    "y": 5166922.890913356
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2048-01-01",
+    "b": "London Plan high",
+    "y": 5233713.822346668
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2049-01-01",
+    "b": "London Plan high",
+    "y": 5298937.242140349
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2050-01-01",
+    "b": "London Plan high",
+    "y": 5369592.563038845
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2051-01-01",
+    "b": "London Plan high",
+    "y": 5441066.950058068
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2011-01-01",
+    "b": "London Plan low",
+    "y": 2901936.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2012-01-01",
+    "b": "London Plan low",
+    "y": 3005384.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2013-01-01",
+    "b": "London Plan low",
+    "y": 3084001.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2014-01-01",
+    "b": "London Plan low",
+    "y": 3154027.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2015-01-01",
+    "b": "London Plan low",
+    "y": 3201413.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2016-01-01",
+    "b": "London Plan low",
+    "y": 3249113.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2017-01-01",
+    "b": "London Plan low",
+    "y": 3289106.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2018-01-01",
+    "b": "London Plan low",
+    "y": 3329725.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2019-01-01",
+    "b": "London Plan low",
+    "y": 3379760.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2020-01-01",
+    "b": "London Plan low",
+    "y": 3410729.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2021-01-01",
+    "b": "London Plan low",
+    "y": 3454057.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2022-01-01",
+    "b": "London Plan low",
+    "y": 3512350.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2023-01-01",
+    "b": "London Plan low",
+    "y": 3569680.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2024-01-01",
+    "b": "London Plan low",
+    "y": 3640329.0
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2025-01-01",
+    "b": "London Plan low",
+    "y": 3704531.58185145
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2026-01-01",
+    "b": "London Plan low",
+    "y": 3768184.431623571
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2027-01-01",
+    "b": "London Plan low",
+    "y": 3837462.780252295
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2028-01-01",
+    "b": "London Plan low",
+    "y": 3911885.542526494
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2029-01-01",
+    "b": "London Plan low",
+    "y": 3988475.075139612
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2030-01-01",
+    "b": "London Plan low",
+    "y": 4066058.929688609
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2031-01-01",
+    "b": "London Plan low",
+    "y": 4141939.592257171
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2032-01-01",
+    "b": "London Plan low",
+    "y": 4215037.778585339
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2033-01-01",
+    "b": "London Plan low",
+    "y": 4284218.785235995
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2034-01-01",
+    "b": "London Plan low",
+    "y": 4349607.891042339
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2035-01-01",
+    "b": "London Plan low",
+    "y": 4408020.850361545
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2036-01-01",
+    "b": "London Plan low",
+    "y": 4468799.391659351
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2037-01-01",
+    "b": "London Plan low",
+    "y": 4519758.299754778
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2038-01-01",
+    "b": "London Plan low",
+    "y": 4564280.645915125
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2039-01-01",
+    "b": "London Plan low",
+    "y": 4601983.536271808
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2040-01-01",
+    "b": "London Plan low",
+    "y": 4639092.305267128
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2041-01-01",
+    "b": "London Plan low",
+    "y": 4671134.525253602
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2042-01-01",
+    "b": "London Plan low",
+    "y": 4700652.181440044
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2043-01-01",
+    "b": "London Plan low",
+    "y": 4732828.482968852
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2044-01-01",
+    "b": "London Plan low",
+    "y": 4776848.464007206
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2045-01-01",
+    "b": "London Plan low",
+    "y": 4827913.744801141
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2046-01-01",
+    "b": "London Plan low",
+    "y": 4875913.60303991
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2047-01-01",
+    "b": "London Plan low",
+    "y": 4918637.144041927
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2048-01-01",
+    "b": "London Plan low",
+    "y": 4959394.757202246
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2049-01-01",
+    "b": "London Plan low",
+    "y": 4997365.510452666
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2050-01-01",
+    "b": "London Plan low",
+    "y": 5039345.127275482
+  },
+  {
+    "dataset": "housing_led_population_age_65_plus",
+    "xd": "2051-01-01",
+    "b": "London Plan low",
+    "y": 5080812.7599561745
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 0,
+    "b": "London Plan central",
+    "y": 223220.80826472794
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 1,
+    "b": "London Plan central",
+    "y": 223188.80688159366
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 2,
+    "b": "London Plan central",
+    "y": 223875.4235910796
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 3,
+    "b": "London Plan central",
+    "y": 224315.50699388538
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 4,
+    "b": "London Plan central",
+    "y": 224615.85904351788
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 5,
+    "b": "London Plan central",
+    "y": 224489.1195583747
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 6,
+    "b": "London Plan central",
+    "y": 225246.5794272539
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 7,
+    "b": "London Plan central",
+    "y": 225714.08466815788
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 8,
+    "b": "London Plan central",
+    "y": 226019.27039440535
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 9,
+    "b": "London Plan central",
+    "y": 226203.42778857233
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 10,
+    "b": "London Plan central",
+    "y": 226317.26819285995
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 11,
+    "b": "London Plan central",
+    "y": 225596.7844686408
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 12,
+    "b": "London Plan central",
+    "y": 224856.27041672516
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 13,
+    "b": "London Plan central",
+    "y": 223928.2285713355
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 14,
+    "b": "London Plan central",
+    "y": 223351.99300076248
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 15,
+    "b": "London Plan central",
+    "y": 221712.08610501493
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 16,
+    "b": "London Plan central",
+    "y": 224003.95539827505
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 17,
+    "b": "London Plan central",
+    "y": 227389.06532271224
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 18,
+    "b": "London Plan central",
+    "y": 229944.79291024862
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 19,
+    "b": "London Plan central",
+    "y": 215999.54744008253
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 20,
+    "b": "London Plan central",
+    "y": 217829.20317182477
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 21,
+    "b": "London Plan central",
+    "y": 229313.69034311362
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 22,
+    "b": "London Plan central",
+    "y": 249415.37902052578
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 23,
+    "b": "London Plan central",
+    "y": 271754.19870294555
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 24,
+    "b": "London Plan central",
+    "y": 281365.17205568333
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 25,
+    "b": "London Plan central",
+    "y": 290241.3980622806
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 26,
+    "b": "London Plan central",
+    "y": 299622.96918976685
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 27,
+    "b": "London Plan central",
+    "y": 308677.91353171715
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 28,
+    "b": "London Plan central",
+    "y": 316967.5301453372
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 29,
+    "b": "London Plan central",
+    "y": 333421.49620735715
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 30,
+    "b": "London Plan central",
+    "y": 334501.2541234762
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 31,
+    "b": "London Plan central",
+    "y": 344115.15668917925
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 32,
+    "b": "London Plan central",
+    "y": 349320.41777359566
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 33,
+    "b": "London Plan central",
+    "y": 356554.93743085617
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 34,
+    "b": "London Plan central",
+    "y": 362206.36689999455
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 35,
+    "b": "London Plan central",
+    "y": 367206.5346811521
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 36,
+    "b": "London Plan central",
+    "y": 365510.95191059203
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 37,
+    "b": "London Plan central",
+    "y": 364032.51358837925
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 38,
+    "b": "London Plan central",
+    "y": 366145.9361549922
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 39,
+    "b": "London Plan central",
+    "y": 369495.641678137
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 40,
+    "b": "London Plan central",
+    "y": 366706.0643322384
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 41,
+    "b": "London Plan central",
+    "y": 360768.1989466491
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 42,
+    "b": "London Plan central",
+    "y": 354360.47992053704
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 43,
+    "b": "London Plan central",
+    "y": 356122.104725458
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 44,
+    "b": "London Plan central",
+    "y": 347163.5814250138
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 45,
+    "b": "London Plan central",
+    "y": 340848.57758560014
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 46,
+    "b": "London Plan central",
+    "y": 336089.42774871504
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 47,
+    "b": "London Plan central",
+    "y": 329671.55061920447
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 48,
+    "b": "London Plan central",
+    "y": 323851.80099574366
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 49,
+    "b": "London Plan central",
+    "y": 319743.4155851833
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 50,
+    "b": "London Plan central",
+    "y": 318202.7032337085
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 51,
+    "b": "London Plan central",
+    "y": 324363.60382369347
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 52,
+    "b": "London Plan central",
+    "y": 330837.01816968276
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 53,
+    "b": "London Plan central",
+    "y": 330421.90765209513
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 54,
+    "b": "London Plan central",
+    "y": 327083.1670622422
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 55,
+    "b": "London Plan central",
+    "y": 316648.7465496066
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 56,
+    "b": "London Plan central",
+    "y": 311489.8077449385
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 57,
+    "b": "London Plan central",
+    "y": 310192.400321975
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 58,
+    "b": "London Plan central",
+    "y": 302838.1850142747
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 59,
+    "b": "London Plan central",
+    "y": 302752.825859364
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 60,
+    "b": "London Plan central",
+    "y": 299408.98585677287
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 61,
+    "b": "London Plan central",
+    "y": 296325.4163825547
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 62,
+    "b": "London Plan central",
+    "y": 290034.69769367104
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 63,
+    "b": "London Plan central",
+    "y": 286704.4595883678
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 64,
+    "b": "London Plan central",
+    "y": 276963.46346400125
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 65,
+    "b": "London Plan central",
+    "y": 270620.18019227235
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 66,
+    "b": "London Plan central",
+    "y": 264833.01656227984
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 67,
+    "b": "London Plan central",
+    "y": 254690.05102888175
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 68,
+    "b": "London Plan central",
+    "y": 251154.62632927528
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 69,
+    "b": "London Plan central",
+    "y": 246629.86868004588
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 70,
+    "b": "London Plan central",
+    "y": 245274.06802480074
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 71,
+    "b": "London Plan central",
+    "y": 241514.77783577456
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 72,
+    "b": "London Plan central",
+    "y": 228565.4271532599
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 73,
+    "b": "London Plan central",
+    "y": 211559.51404797344
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 74,
+    "b": "London Plan central",
+    "y": 203010.1281553188
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 75,
+    "b": "London Plan central",
+    "y": 198777.42577429643
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 76,
+    "b": "London Plan central",
+    "y": 197688.16384941133
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 77,
+    "b": "London Plan central",
+    "y": 191498.157898406
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 78,
+    "b": "London Plan central",
+    "y": 189557.27601361446
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 79,
+    "b": "London Plan central",
+    "y": 186770.2527570309
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 80,
+    "b": "London Plan central",
+    "y": 185293.65869746872
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 81,
+    "b": "London Plan central",
+    "y": 174473.02059124515
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 82,
+    "b": "London Plan central",
+    "y": 169058.84853884132
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 83,
+    "b": "London Plan central",
+    "y": 160835.43445530144
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 84,
+    "b": "London Plan central",
+    "y": 152514.23747361146
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 85,
+    "b": "London Plan central",
+    "y": 143123.27089220512
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 86,
+    "b": "London Plan central",
+    "y": 132910.52350564481
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 87,
+    "b": "London Plan central",
+    "y": 120829.09315569574
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 88,
+    "b": "London Plan central",
+    "y": 108180.81382665098
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 89,
+    "b": "London Plan central",
+    "y": 94441.77875493592
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 90,
+    "b": "London Plan central",
+    "y": 459489.97681839316
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 0,
+    "b": "London Plan high",
+    "y": 259936.6213073256
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 1,
+    "b": "London Plan high",
+    "y": 258964.7668163789
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 2,
+    "b": "London Plan high",
+    "y": 258833.12618260793
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 3,
+    "b": "London Plan high",
+    "y": 258607.8636744463
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 4,
+    "b": "London Plan high",
+    "y": 258354.64254972505
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 5,
+    "b": "London Plan high",
+    "y": 257784.2814097118
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 6,
+    "b": "London Plan high",
+    "y": 258174.69039035743
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 7,
+    "b": "London Plan high",
+    "y": 258316.37213238413
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 8,
+    "b": "London Plan high",
+    "y": 258331.03676272923
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 9,
+    "b": "London Plan high",
+    "y": 258264.30689623242
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 10,
+    "b": "London Plan high",
+    "y": 258162.41379926924
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 11,
+    "b": "London Plan high",
+    "y": 257229.0796876551
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 12,
+    "b": "London Plan high",
+    "y": 256262.97967980208
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 13,
+    "b": "London Plan high",
+    "y": 255126.56172054663
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 14,
+    "b": "London Plan high",
+    "y": 254313.1970443136
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 15,
+    "b": "London Plan high",
+    "y": 252483.45107062496
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 16,
+    "b": "London Plan high",
+    "y": 254602.77347497214
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 17,
+    "b": "London Plan high",
+    "y": 257784.03468046727
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 18,
+    "b": "London Plan high",
+    "y": 259593.86495633988
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 19,
+    "b": "London Plan high",
+    "y": 242390.07311670965
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 20,
+    "b": "London Plan high",
+    "y": 243376.04740444172
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 21,
+    "b": "London Plan high",
+    "y": 255495.4119614032
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 22,
+    "b": "London Plan high",
+    "y": 273868.52536391525
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 23,
+    "b": "London Plan high",
+    "y": 294402.85952710634
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 24,
+    "b": "London Plan high",
+    "y": 301805.8716716534
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 25,
+    "b": "London Plan high",
+    "y": 308194.6123031528
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 26,
+    "b": "London Plan high",
+    "y": 314819.0219495713
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 27,
+    "b": "London Plan high",
+    "y": 308765.700780636
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 28,
+    "b": "London Plan high",
+    "y": 317064.2516714413
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 29,
+    "b": "London Plan high",
+    "y": 333530.7042417459
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 30,
+    "b": "London Plan high",
+    "y": 334618.7811573574
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 31,
+    "b": "London Plan high",
+    "y": 344244.3968140308
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 32,
+    "b": "London Plan high",
+    "y": 349461.1227886906
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 33,
+    "b": "London Plan high",
+    "y": 356708.6886457082
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 34,
+    "b": "London Plan high",
+    "y": 362373.1432242055
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 35,
+    "b": "London Plan high",
+    "y": 367385.441737866
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 36,
+    "b": "London Plan high",
+    "y": 365699.9276458678
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 37,
+    "b": "London Plan high",
+    "y": 364233.12070344837
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 38,
+    "b": "London Plan high",
+    "y": 366361.1043702923
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 39,
+    "b": "London Plan high",
+    "y": 369728.35616394423
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 40,
+    "b": "London Plan high",
+    "y": 366954.1550257749
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 41,
+    "b": "London Plan high",
+    "y": 361028.51464927406
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 42,
+    "b": "London Plan high",
+    "y": 354634.2039080394
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 43,
+    "b": "London Plan high",
+    "y": 356416.2421129902
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 44,
+    "b": "London Plan high",
+    "y": 347469.4919858212
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 45,
+    "b": "London Plan high",
+    "y": 341172.2962971118
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 46,
+    "b": "London Plan high",
+    "y": 336436.21192939003
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 47,
+    "b": "London Plan high",
+    "y": 330041.87178386084
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 48,
+    "b": "London Plan high",
+    "y": 324247.14938416675
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 49,
+    "b": "London Plan high",
+    "y": 320173.54065753863
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 50,
+    "b": "London Plan high",
+    "y": 318673.9155428923
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 51,
+    "b": "London Plan high",
+    "y": 324889.14500936697
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 52,
+    "b": "London Plan high",
+    "y": 331420.78512201813
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 53,
+    "b": "London Plan high",
+    "y": 331064.4586323176
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 54,
+    "b": "London Plan high",
+    "y": 327781.1916865525
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 55,
+    "b": "London Plan high",
+    "y": 317388.9784646275
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 56,
+    "b": "London Plan high",
+    "y": 312288.5724010615
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 57,
+    "b": "London Plan high",
+    "y": 311067.6550725648
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 58,
+    "b": "London Plan high",
+    "y": 303776.80788021686
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 59,
+    "b": "London Plan high",
+    "y": 303783.992093801
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 60,
+    "b": "London Plan high",
+    "y": 300531.4927772984
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 61,
+    "b": "London Plan high",
+    "y": 297544.65080945205
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 62,
+    "b": "London Plan high",
+    "y": 291341.93062823336
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 63,
+    "b": "London Plan high",
+    "y": 288127.1302458562
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 64,
+    "b": "London Plan high",
+    "y": 278474.8274477257
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 65,
+    "b": "London Plan high",
+    "y": 272240.12952802586
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 66,
+    "b": "London Plan high",
+    "y": 266567.29394886456
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 67,
+    "b": "London Plan high",
+    "y": 256512.2587342293
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 68,
+    "b": "London Plan high",
+    "y": 253135.37845375863
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 69,
+    "b": "London Plan high",
+    "y": 248768.6393475074
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 70,
+    "b": "London Plan high",
+    "y": 247595.87233257858
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 71,
+    "b": "London Plan high",
+    "y": 244026.38237064134
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 72,
+    "b": "London Plan high",
+    "y": 231170.12718761188
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 73,
+    "b": "London Plan high",
+    "y": 214211.0725872759
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 74,
+    "b": "London Plan high",
+    "y": 205826.57601522096
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 75,
+    "b": "London Plan high",
+    "y": 201850.27715940957
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 76,
+    "b": "London Plan high",
+    "y": 200914.58841898962
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 77,
+    "b": "London Plan high",
+    "y": 194956.50452917098
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 78,
+    "b": "London Plan high",
+    "y": 193371.93149584098
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 79,
+    "b": "London Plan high",
+    "y": 190901.27009980363
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 80,
+    "b": "London Plan high",
+    "y": 189786.5846005884
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 81,
+    "b": "London Plan high",
+    "y": 179143.92093437805
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 82,
+    "b": "London Plan high",
+    "y": 174182.26629859366
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 83,
+    "b": "London Plan high",
+    "y": 166311.34710424705
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 84,
+    "b": "London Plan high",
+    "y": 158320.09603256168
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 85,
+    "b": "London Plan high",
+    "y": 149216.81557976556
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 86,
+    "b": "London Plan high",
+    "y": 139262.46699662894
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 87,
+    "b": "London Plan high",
+    "y": 127327.35258999752
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 88,
+    "b": "London Plan high",
+    "y": 114714.73899034208
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 89,
+    "b": "London Plan high",
+    "y": 100909.7435039369
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 90,
+    "b": "London Plan high",
+    "y": 519843.31521809957
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 0,
+    "b": "London Plan low",
+    "y": 192406.94103860122
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 1,
+    "b": "London Plan low",
+    "y": 192599.23089968544
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 2,
+    "b": "London Plan low",
+    "y": 193796.29990545093
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 3,
+    "b": "London Plan low",
+    "y": 194388.7783239461
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 4,
+    "b": "London Plan low",
+    "y": 194716.485007815
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 5,
+    "b": "London Plan low",
+    "y": 194417.76693129155
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 6,
+    "b": "London Plan low",
+    "y": 195675.60119461315
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 7,
+    "b": "London Plan low",
+    "y": 196550.07506572202
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 8,
+    "b": "London Plan low",
+    "y": 197223.76361534809
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 9,
+    "b": "London Plan low",
+    "y": 197597.7499322112
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 10,
+    "b": "London Plan low",
+    "y": 197984.97515117278
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 11,
+    "b": "London Plan low",
+    "y": 197293.3542477221
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 12,
+    "b": "London Plan low",
+    "y": 196890.37727287356
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 13,
+    "b": "London Plan low",
+    "y": 196184.13246931764
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 14,
+    "b": "London Plan low",
+    "y": 196102.11894718092
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 15,
+    "b": "London Plan low",
+    "y": 193399.20429924817
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 16,
+    "b": "London Plan low",
+    "y": 196444.1839904331
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 17,
+    "b": "London Plan low",
+    "y": 200879.6585176087
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 18,
+    "b": "London Plan low",
+    "y": 204875.33516955617
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 19,
+    "b": "London Plan low",
+    "y": 192385.4441684329
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 20,
+    "b": "London Plan low",
+    "y": 195322.4594301394
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 21,
+    "b": "London Plan low",
+    "y": 206791.80833570758
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 22,
+    "b": "London Plan low",
+    "y": 228539.05026867383
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 23,
+    "b": "London Plan low",
+    "y": 253088.88605391307
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 24,
+    "b": "London Plan low",
+    "y": 264169.9710344184
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 25,
+    "b": "London Plan low",
+    "y": 275235.59465091967
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 26,
+    "b": "London Plan low",
+    "y": 287370.8407858057
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 27,
+    "b": "London Plan low",
+    "y": 310633.84750619653
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 28,
+    "b": "London Plan low",
+    "y": 319658.3963888131
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 29,
+    "b": "London Plan low",
+    "y": 336057.93511126057
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 30,
+    "b": "London Plan low",
+    "y": 337649.7642268066
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 31,
+    "b": "London Plan low",
+    "y": 347494.6426319255
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 32,
+    "b": "London Plan low",
+    "y": 352769.6469464249
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 33,
+    "b": "London Plan low",
+    "y": 359314.10288786964
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 34,
+    "b": "London Plan low",
+    "y": 364325.73125417973
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 35,
+    "b": "London Plan low",
+    "y": 368741.7737808574
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 36,
+    "b": "London Plan low",
+    "y": 366724.7638807608
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 37,
+    "b": "London Plan low",
+    "y": 364849.2036835913
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 38,
+    "b": "London Plan low",
+    "y": 366668.2479801107
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 39,
+    "b": "London Plan low",
+    "y": 369573.78301032784
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 40,
+    "b": "London Plan low",
+    "y": 366656.9225740626
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 41,
+    "b": "London Plan low",
+    "y": 360739.16864397883
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 42,
+    "b": "London Plan low",
+    "y": 355467.6756627095
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 43,
+    "b": "London Plan low",
+    "y": 356468.2472817019
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 44,
+    "b": "London Plan low",
+    "y": 346914.4007875673
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 45,
+    "b": "London Plan low",
+    "y": 339760.1183761938
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 46,
+    "b": "London Plan low",
+    "y": 334776.37510552874
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 47,
+    "b": "London Plan low",
+    "y": 328052.9529845623
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 48,
+    "b": "London Plan low",
+    "y": 322337.2672287512
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 49,
+    "b": "London Plan low",
+    "y": 318332.83231563366
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 50,
+    "b": "London Plan low",
+    "y": 316577.81470797095
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 51,
+    "b": "London Plan low",
+    "y": 322794.24789962475
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 52,
+    "b": "London Plan low",
+    "y": 328657.28849725367
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 53,
+    "b": "London Plan low",
+    "y": 327641.8647979158
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 54,
+    "b": "London Plan low",
+    "y": 323677.44829555997
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 55,
+    "b": "London Plan low",
+    "y": 312882.692443826
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 56,
+    "b": "London Plan low",
+    "y": 307303.6115758424
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 57,
+    "b": "London Plan low",
+    "y": 305249.97231562005
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 58,
+    "b": "London Plan low",
+    "y": 297442.7972660867
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 59,
+    "b": "London Plan low",
+    "y": 296901.6301099394
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 60,
+    "b": "London Plan low",
+    "y": 293345.00100989366
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 61,
+    "b": "London Plan low",
+    "y": 290100.24668738287
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 62,
+    "b": "London Plan low",
+    "y": 283789.9356945812
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 63,
+    "b": "London Plan low",
+    "y": 280331.4691680849
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 64,
+    "b": "London Plan low",
+    "y": 270676.8898694244
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 65,
+    "b": "London Plan low",
+    "y": 264371.69538470963
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 66,
+    "b": "London Plan low",
+    "y": 258554.7991802207
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 67,
+    "b": "London Plan low",
+    "y": 248414.48862524005
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 68,
+    "b": "London Plan low",
+    "y": 244704.84040305714
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 69,
+    "b": "London Plan low",
+    "y": 240106.64058591
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 70,
+    "b": "London Plan low",
+    "y": 238613.6586562888
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 71,
+    "b": "London Plan low",
+    "y": 234723.9366127786
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 72,
+    "b": "London Plan low",
+    "y": 222005.31917620747
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 73,
+    "b": "London Plan low",
+    "y": 205364.61829186478
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 74,
+    "b": "London Plan low",
+    "y": 196888.66837231247
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 75,
+    "b": "London Plan low",
+    "y": 192616.59852823123
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 76,
+    "b": "London Plan low",
+    "y": 191480.84191250682
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 77,
+    "b": "London Plan low",
+    "y": 185301.61581804452
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 78,
+    "b": "London Plan low",
+    "y": 183204.62919391203
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 79,
+    "b": "London Plan low",
+    "y": 180327.7924996944
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 80,
+    "b": "London Plan low",
+    "y": 178712.68835517776
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 81,
+    "b": "London Plan low",
+    "y": 168114.28411588172
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 82,
+    "b": "London Plan low",
+    "y": 162578.78637670766
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 83,
+    "b": "London Plan low",
+    "y": 154343.33261971702
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 84,
+    "b": "London Plan low",
+    "y": 146057.99180576453
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 85,
+    "b": "London Plan low",
+    "y": 136726.4847207439
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 86,
+    "b": "London Plan low",
+    "y": 126587.12929077185
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 87,
+    "b": "London Plan low",
+    "y": 114649.49640684454
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 88,
+    "b": "London Plan low",
+    "y": 102235.9800510419
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 89,
+    "b": "London Plan low",
+    "y": 88813.52915562139
+  },
+  {
+    "dataset": "housing_led_age_structure_median_age",
+    "xd": 90,
+    "b": "London Plan low",
+    "y": 415312.9138169236
+  }
+]

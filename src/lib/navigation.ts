@@ -35,6 +35,12 @@ export const navigation = [
 		children: []
 	},
 	{
+		title: 'Housing-led projected population',
+		id: 'housing-led-projected-population',
+		href: '/housing-led-projected-population',
+		children: []
+	},
+	{
 		title: 'Development capacity',
 		id: 'development-capacity',
 		href: '/development-capacity',
