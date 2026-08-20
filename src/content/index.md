@@ -1,37 +1,35 @@
 ---
 title: Population Projections Report
-description: Demographic Update, August 2024
+description: Demographic Update, August 2026
 section: Demography
 navLabel: Report summary
 ---
 
 ## Report summary
 
-A summary of the key London-level results from the Greater London Authority's 2022-based population projections.
+A summary of the key London-level results from the Greater London Authority's 2024-based population projections.
 
-**As part of its 2022-based projections, the GLA has published:**
+**As part of its 2026-based projections, the GLA has published:**
 
-- Trend-based projections for all local authority districts in England and Wales to 2050.
+- Trend-based projections for all local authority districts in England and Wales to 2051.
 
-- Housing-led projections for electoral wards and local authorities in London to 2041.
+- Housing-led projections for electoral wards, Middle-layer Super Output Areas (MSOA) and local authorities in London to 2051.
 
-- Three variants of both trend-based and housing-led projections to cover a realistic range of possible outcomes.
+- Three core variants of both trend-based and housing-led projections have been produced, with the intention of covering a realistic range of possible outcomes.
 
 ## Key results
 
-- London's mid-2022 population was estimated as 8.87 million.
+- London's mid-2024 population was estimated as 9.09 million.
 
-- Across the three variants, London's projected 2046 population spans from 9.26 million (5-year trend) to 10.17 million (15-year trend), with the 10-year trend at 9.83 million.
+- Across the three variants, London's projected 2051 population spans from 9.79 million to 10.52 million, with the central variant at 10.14 million.
 
-- Population growth between 2022 and 2046 spans 396 thousand to 1.31 million.
+- Population growth between 2024 and 2051 ranges from 700 thousand to 1.43 million, the growth of 1.05 million in the central variant.
 
-- London's population is projected to age, with increases in those aged 65 and over and declines in children.
+- London's population is projected to age, with increases in the number aged 65 and over of at least 56 percent and declines in the number of children aged 0 to 17 of up to 22 percent.
 
-- Annual deaths are projected to rise from 52 thousand (year to mid-2022) to over 65 thousand by 2046.
+- Annual deaths are projected to rise from 51 thousand (year to mid-2024) to between 66 and 75 thousand by 2051.
 
-- Projected annual births in 2046 span 106 thousand to 122 thousand, below the 2012 peak of 134 thousand.
-
-- Growth rates are lower than in the 2021-based projections, though annual growth remains similar because lower natural change is offset by lower net migration outflows.
+- Annual births are projected to change from 105 thousand (year to mid-2024) to between 97 and 124 thousand by 2051 (in each case, below the 2012 peak of 134 thousand).
 
 For more information please contact the GLA's City Intelligence Demography Team at <demography@london.gov.uk>
 
