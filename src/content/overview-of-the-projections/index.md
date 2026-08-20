@@ -27,6 +27,10 @@ Outputs are available:
 
 Multiple variants, based on alternative scenarios of future fertility, mortality, and migration, are produced as part of the projection process. This document will provide an overview of the ‘core’ set of variants (central, high, and low) that are intended to reflect a reasonable range of possible future outcomes for use in common planning or policy applications. 
 
+For the majority of uses we recommend the central housing-led projections as the default choice.  
+
+***Note:** Unlike previous rounds of GLA projections, the overall results from the trend-based and housing-led projections no longer exactly align for London as a region, and do so only at the level of the larger 'housing market area' used in the model. The results of projections produced on ward and msoa geographies will only fully align when aggregated to this higher geography.*   
+
 The demographic assumptions of the core projections are: 
 
 - **low:** low fertility, low life expectancy, migration based on an average of patterns from the previous 10-years 
