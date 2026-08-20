@@ -334,7 +334,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_annual_population_change": {
@@ -345,7 +363,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": "Annual",
         includeZeroLine: true,
         numTicks: 4,
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_age_structure": {
@@ -353,7 +389,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "type": "integer",
         "ytickformat": ".0s",
         "x_order": null,
-        "timeperiod_type": "year"
+        "timeperiod_type": "year",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_working_age_population": {
@@ -362,7 +416,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_primary_school_age_children": {
@@ -371,7 +443,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_secondary_school_age_children": {
@@ -380,7 +470,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "housing_led_vs_trend_population_age_65_plus": {
@@ -389,7 +497,25 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
-        projectedStart: "2024-01-01"
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": [
+                "Housing-led - Central",
+                "Housing-led - High",
+                "Housing-led - Low",
+                "Trend - 10-year trend",
+                "Trend - 15-year trend",
+                "Trend - 5-year trend"
+            ],
+            "range": [
+                "#fef3c7",
+                "#fde68a",
+                "#f59e0b",
+                "#dbeafe",
+                "#93c5fd",
+                "#2563eb"
+            ]
+        }
     },
 
     "proj_annual_population_change": {

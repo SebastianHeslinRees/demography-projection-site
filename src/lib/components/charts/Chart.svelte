@@ -8,7 +8,13 @@
 
 	import { chartFns } from './chartTypes/index';
 
-	import { getColorScale, loadChartData, sortChartData, type ChartDataRow } from '$lib/components/charts/utils';
+	import {
+		getColorChoice,
+		getColorScale,
+		loadChartData,
+		sortChartData,
+		type ChartDataRow
+	} from '$lib/components/charts/utils';
 	import { getColumnMapping } from '$lib/utils';
 	import { getDescription } from './descriptions';
 
@@ -98,11 +104,7 @@
 
 	let width = $state(0);
 
-	let colorChoice = $derived(
-			theme.currentMode === 'light' ? 
-				( options.colorScaleLight?.range ?? options.colorScale?.range  ?? [0]) :
-				( options.colorScaleDark?.range ?? options.colorScale?.range  ?? [0]) 
-			);
+	let colorChoice = $derived(getColorChoice(options, theme.currentMode === 'light' ? 'light' : 'dark'));
 
 	let spec = $derived.by(() => {
 		const chartFn = chartFns[options.chartType];
