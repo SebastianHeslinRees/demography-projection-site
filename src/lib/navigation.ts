@@ -35,6 +35,12 @@ export const navigation = [
 		children: []
 	},
 	{
+		title: 'Projection population 2',
+		id: 'projection-population-2',
+		href: '/projection-population-2',
+		children: []
+	},
+	{
 		title: 'Housing-led projected population',
 		id: 'housing-led-projected-population',
 		href: '/housing-led-projected-population',

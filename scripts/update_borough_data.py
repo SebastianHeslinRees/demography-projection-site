@@ -1,9 +1,10 @@
-import pandas as pd
 import json
-import os
-import glob
+from pathlib import Path
 
-mapping = {
+import pandas as pd
+
+
+LONDON_BOROUGHS = {
     "E09000001": "City of London",
     "E09000002": "Barking and Dagenham",
     "E09000003": "Barnet",
@@ -36,38 +37,39 @@ mapping = {
     "E09000030": "Tower Hamlets",
     "E09000031": "Waltham Forest",
     "E09000032": "Wandsworth",
-    "E09000033": "Westminster"
+    "E09000033": "Westminster",
 }
 
-base_path = "/Users/user1/Downloads/output_pq/variant=2024_ppt_10yr_26-05-28_2006"
-output_data = []
+SOURCE_ROOT = Path("/Users/user1/Downloads/outputs-2/trend/output_pq/variant=llt10/geography=lad23/component=population")
+OUTPUT_FILE = Path("src/lib/data/boroughPopulationData.json")
 
-# Filter for year folders
-year_folders = glob.glob(os.path.join(base_path, "year=*"))
-year_folders.sort()
 
-for folder in year_folders:
-    year = folder.split("=")[-1]
-    parquet_file = os.path.join(folder, "component=population", "part-0.parquet")
-    
-    if os.path.exists(parquet_file):
-        print(f"Processing year {year}...")
-        df = pd.read_parquet(parquet_file)
-        # Filter for London boroughs
-        london_df = df[df['gss_code'].isin(mapping.keys())]
-        # Group by gss_code and sum value
-        summarized = london_df.groupby('gss_code')['value'].sum().reset_index()
-        
-        for _, row in summarized.iterrows():
-            output_data.append({
-                "dataset": "borough_population",
-                "xd": mapping[row['gss_code']],
-                "b": year,
-                "y": int(row['value'])
-            })
+def main() -> None:
+    output_data: list[dict[str, object]] = []
 
-output_file = "/Users/user1/app-analysis-population-projections/web/src/lib/data/boroughPopulationData.json"
-with open(output_file, 'w') as f:
-    json.dump(output_data, f)
+    for year_dir in sorted(SOURCE_ROOT.glob("year=*")):
+        year = year_dir.name.split("=")[-1]
+        parquet_file = year_dir / "part-0.parquet"
+        if not parquet_file.exists():
+            continue
 
-print(f"Successfully wrote {len(output_data)} records to {output_file}")
+        frame = pd.read_parquet(parquet_file)
+        london_df = frame[frame["gss_code"].isin(LONDON_BOROUGHS.keys())].copy()
+        summarized = london_df.groupby("gss_code", as_index=False)["value"].sum()
+
+        for row in summarized.itertuples(index=False):
+            output_data.append(
+                {
+                    "dataset": "borough_population",
+                    "xd": LONDON_BOROUGHS[row.gss_code],
+                    "b": str(year),
+                    "y": float(row.value),
+                }
+            )
+
+    OUTPUT_FILE.write_text(json.dumps(output_data, indent=2))
+    print(f"Successfully wrote {len(output_data)} records to {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()

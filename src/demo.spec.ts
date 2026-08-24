@@ -102,4 +102,28 @@ describe('comparison chart colors', () => {
 
 		expect(textMarks).toHaveLength(0);
 	});
+
+	it('builds projection population 2 chart specs without throwing', async () => {
+		const datasets = [
+			['proj2_total_population', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_annual_population_change', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_age_structure_median_age', { type: 'integer', timeperiod_type: 'year' }],
+			['proj2_working_age_population', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_primary_school_age_children', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_secondary_school_age_children', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_population_age_65_plus', { type: 'date', timeperiod_type: 'Annual' }]
+		] as const;
+
+		for (const [dataset, options] of datasets) {
+			const data = await loadChartData(dataset, options);
+			expect(data.length).toBeGreaterThan(0);
+			expect(() =>
+				lineChartWithForecast(
+					{ ...options, includeZero: dataset === 'proj2_age_structure_median_age' },
+					data,
+					{}
+				)
+			).not.toThrow();
+		}
+	});
 });

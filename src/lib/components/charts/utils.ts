@@ -11,6 +11,7 @@ import type { ChartOptions } from './chartOptions';
 
 // Bundled projected population chart rows shipped with the app build.
 import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
+import projectedPopulation2ChartData from "$lib/data/projectedPopulation2ChartData.json" with { type: "json" };
 // Bundled components-of-change chart rows shipped with the app build.
 import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
 // Bundled borough-level population data.
@@ -41,6 +42,7 @@ export function fetchChartData(dataset: string): Promise<Response> {
 
 function getLocalDatasetRows(dataset: string): ChartDataRow[] {
   return (projectedPopulationChartData as ChartDataRow[])
+		.concat(projectedPopulation2ChartData as ChartDataRow[])
     .concat(componentsOfChangeData as ChartDataRow[])
     .concat(boroughPopulationData as ChartDataRow[])
 		.concat(boroughCapacityMapData as ChartDataRow[])
