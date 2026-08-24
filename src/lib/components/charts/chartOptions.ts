@@ -357,12 +357,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -386,12 +386,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -413,13 +413,13 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - 2022 structure"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb",
-                "#cbd5e1"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8",
+                "#d1d5db"
             ]
         }
     },
@@ -441,12 +441,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -468,12 +468,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -495,12 +495,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -522,12 +522,12 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
