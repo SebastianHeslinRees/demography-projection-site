@@ -24,6 +24,14 @@ describe('comparison chart colors', () => {
 		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
 	});
 
+	it('uses the new low/central/high trend labels in the housing-led comparison data', async () => {
+		const rows = (await import('./lib/data/housingLedVsTrendProjectionData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - High')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - 5-year trend')).toBe(false);
+	});
+
 	it('keeps each series grouped by series name when plotting comparison lines', () => {
 		const data = [
 			{ dataset: 'proj_age_structure_median_age', xd: 0, b: 'Trend - 5-year trend', y: 200 },

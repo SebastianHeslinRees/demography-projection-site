@@ -340,9 +340,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
@@ -369,9 +369,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
@@ -395,9 +395,10 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low",
+                "Trend - 2022 structure"
             ],
             "range": [
                 "#fef3c7",
@@ -405,7 +406,8 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "#f59e0b",
                 "#dbeafe",
                 "#93c5fd",
-                "#2563eb"
+                "#2563eb",
+                "#cbd5e1"
             ]
         }
     },
@@ -422,9 +424,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
@@ -449,9 +451,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
@@ -476,9 +478,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
@@ -503,9 +505,9 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
                 "#fef3c7",
