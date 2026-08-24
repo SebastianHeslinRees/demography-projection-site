@@ -23,7 +23,7 @@
 
 	const formatThousands = format(',.0f');
 
-	const variants = ['5-year trend', '10-year trend', '15-year trend'];
+	const variants = ['Low', 'Central', 'High'];
 
 	// Filter data for this dataset
 	$: filteredData = (componentsOfChangeData as ChartDataRow[])
@@ -85,7 +85,7 @@
 	subTitle={subtitle}
 	{byline}
 	{source}
-	note="Shows three projection variants based on 5-year, 10-year and 15-year trend assumptions about migration and natural change"
-	alt="Line chart showing {dataset} components for London, with three projection variant lines"
+	note="Shows three projection variants based on low, central and high trend assumptions about migration and natural change"
+	alt="Line chart showing {dataset} components for London, with low, central and high trend lines"
 />
 

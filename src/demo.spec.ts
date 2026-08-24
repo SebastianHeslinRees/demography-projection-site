@@ -32,6 +32,21 @@ describe('comparison chart colors', () => {
 		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - 5-year trend')).toBe(false);
 	});
 
+	it('uses low/central/high labels in the components-of-change trend data', async () => {
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'High')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === '10-year trend')).toBe(false);
+	});
+
+	it('derives total net migration from the domestic and international in/out components', async () => {
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'High')).toBe(true);
+	});
+
 	it('keeps each series grouped by series name when plotting comparison lines', () => {
 		const data = [
 			{ dataset: 'proj_age_structure_median_age', xd: 0, b: 'Trend - 5-year trend', y: 200 },

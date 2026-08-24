@@ -1,109 +1,86 @@
 #!/usr/bin/env python3
 """
 Transform components of change Parquet data into chart-ready JSON.
-Reads from /Users/user1/Downloads/output_pq/ and outputs ComponentsOfChangeChartData.json
+Reads the new trend output under /Users/user1/Downloads/outputs-2/trend/output_pq
+and emits the component series in Low/Central/High form.
 """
 
-import pandas as pd
 import json
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
-# Configuration
+import pandas as pd
+
 OUTPUT_DIR = Path(__file__).parent.parent / "src" / "lib" / "data"
 OUTPUT_FILE = OUTPUT_DIR / "ComponentsOfChangeChartData.json"
-INPUT_DIR = Path("/Users/user1/Downloads/output_pq")
+INPUT_DIR = Path("/Users/user1/Downloads/outputs-2/trend/output_pq")
 LONDON_GSS_CODE = "E12000007"
 
-# Variant mapping
 VARIANT_MAPPING = {
-    "ppt_5yr": "5-year trend",
-    "ppt_10yr": "10-year trend",
-    "ppt_15yr": "15-year trend",
+    "variant=llt10": "Low",
+    "variant=ppt13": "Central",
+    "variant=hht15": "High",
 }
 
-# Component mapping
 COMPONENT_MAPPING = {
     "births": "births",
     "deaths": "deaths",
-    "international_net": "international_net_migration",
     "internal_in": "domestic_in_migration",
     "internal_out": "domestic_out_migration",
-    "internal_net": "domestic_net_migration",
-    "total_net": "total_net_migration",
+    "international_in": "international_in_migration",
+    "international_out": "international_out_migration",
 }
 
-def extract_variant_name(folder_name):
-    """Extract variant label from folder name like '2024_ppt_5yr_26-05-28_2029'."""
-    for key, label in VARIANT_MAPPING.items():
-        if key in folder_name:
-            return label
-    return None
 
-def read_component_data(variant_path, year, component):
-    """Read and aggregate a component's Parquet file."""
-    component_path = variant_path / f"year={year}" / f"component={component}"
-    
+def read_component_data(variant_path: Path, year: int, component: str):
+    component_path = variant_path / "geography=region" / f"component={component}" / f"year={year}"
     if not component_path.exists():
         return None
-    
-    parquet_files = list(component_path.glob("*.parquet"))
+
+    parquet_files = sorted(component_path.glob("*.parquet"))
     if not parquet_files:
         return None
-    
-    try:
-        # Read all parquet files for this component
-        dfs = [pd.read_parquet(f) for f in parquet_files]
-        df = pd.concat(dfs, ignore_index=True)
 
-        # Enforce London-only aggregation. Do not silently sum all geographies.
+    try:
+        frames = [pd.read_parquet(file_path) for file_path in parquet_files]
+        df = pd.concat(frames, ignore_index=True)
         if "gss_code" not in df.columns:
             print(f"Warning: missing gss_code for {component_path}; skipping")
             return None
 
-        df = df[df["gss_code"] == LONDON_GSS_CODE]
-        if df.empty:
+        london_df = df[df["gss_code"] == LONDON_GSS_CODE]
+        if london_df.empty:
             print(f"Warning: no London rows ({LONDON_GSS_CODE}) for {component_path}; skipping")
             return None
 
-        # Aggregate across age/sex rows for the selected geography.
-        total_value = df["value"].sum()
-        return total_value
-    except Exception as e:
-        print(f"Error reading {component_path}: {e}")
+        return float(london_df["value"].sum())
+    except Exception as exc:
+        print(f"Error reading {component_path}: {exc}")
         return None
+
 
 def main():
     print(f"Reading data from {INPUT_DIR}")
-    
-    # Collect data: {variant: {year: {component: value}}}
+
     data_by_variant = defaultdict(lambda: defaultdict(dict))
-    
-    # Iterate through variant folders
-    variant_folders = sorted([d for d in INPUT_DIR.iterdir() if d.is_dir() and d.name.startswith("variant=")])
-    
-    for variant_folder in variant_folders:
-        variant_name = extract_variant_name(variant_folder.name)
-        if not variant_name:
+
+    for variant_dir in sorted(INPUT_DIR.iterdir()):
+        if not variant_dir.is_dir():
             continue
-        
-        print(f"Proces ant: {variant_name} ({variant_folder.name})")
-        
-        # Find all year subdirectories
-        year_dirs = sorted([d for d in variant_folder.iterdir() if d.is_dir() and d.name.startswith("year=")])
-        
-        for year_dir in year_dirs:
-            year = int(year_dir.name.replace("year=", ""))
-            
-            # Read each component
+
+        variant_name = VARIANT_MAPPING.get(variant_dir.name)
+        if variant_name is None:
+            continue
+
+        print(f"Processing: {variant_name} ({variant_dir.name})")
+
+        for year in range(2002, 2051):
             for component_key, component_label in COMPONENT_MAPPING.items():
-                value = read_component_data(variant_folder, year, component_key)
+                value = read_component_data(variant_dir, year, component_key)
                 if value is not None:
                     data_by_variant[variant_name][year][component_label] = value
-    
-    # Build output rows in long format
+
     rows = []
-    
     for variant in sorted(data_by_variant.keys()):
         for year in sorted(data_by_variant[variant].keys()):
             for component, value in data_by_variant[variant][year].items():
@@ -111,31 +88,62 @@ def main():
                     "dataset": component,
                     "xd": f"{year:04d}-01-01",
                     "b": variant,
-                    "y": value
+                    "y": value,
                 })
-    
-    # Calculate derived metric: natural_change
+
     for variant in sorted(data_by_variant.keys()):
         for year in sorted(data_by_variant[variant].keys()):
+            domestic_in = data_by_variant[variant][year].get("domestic_in_migration")
+            domestic_out = data_by_variant[variant][year].get("domestic_out_migration")
+            international_in = data_by_variant[variant][year].get("international_in_migration")
+            international_out = data_by_variant[variant][year].get("international_out_migration")
+
+            domestic_net = None
+            international_net = None
+
+            if domestic_in is not None and domestic_out is not None:
+                domestic_net = domestic_in - domestic_out
+                data_by_variant[variant][year]["domestic_net_migration"] = domestic_net
+                rows.append({
+                    "dataset": "domestic_net_migration",
+                    "xd": f"{year:04d}-01-01",
+                    "b": variant,
+                    "y": domestic_net,
+                })
+
+            if international_in is not None and international_out is not None:
+                international_net = international_in - international_out
+                data_by_variant[variant][year]["international_net_migration"] = international_net
+                rows.append({
+                    "dataset": "international_net_migration",
+                    "xd": f"{year:04d}-01-01",
+                    "b": variant,
+                    "y": international_net,
+                })
+
+            if domestic_net is not None and international_net is not None:
+                total_net = domestic_net + international_net
+                data_by_variant[variant][year]["total_net_migration"] = total_net
+                rows.append({
+                    "dataset": "total_net_migration",
+                    "xd": f"{year:04d}-01-01",
+                    "b": variant,
+                    "y": total_net,
+                })
+
             births = data_by_variant[variant][year].get("births")
             deaths = data_by_variant[variant][year].get("deaths")
-            
-            # Natural change = births - deaths
             if births is not None and deaths is not None:
-                natural_change = births - deaths
                 rows.append({
                     "dataset": "natural_change",
                     "xd": f"{year:04d}-01-01",
                     "b": variant,
-                    "y": natural_change
+                    "y": births - deaths,
                 })
-    
-    # Write output JSON
+
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    
-    with open(OUTPUT_FILE, "w") as f:
-        json.dump(rows, f)
-    
+    OUTPUT_FILE.write_text(json.dumps(rows, indent=2))
+
     print(f"\nGenerated {len(rows)} rows")
     print(f"Output file: {OUTPUT_FILE}")
     print("\nDatasets created:")
@@ -146,7 +154,9 @@ def main():
     print("  - domestic_in_migration")
     print("  - domestic_out_migration")
     print("  - domestic_net_migration")
-    print("  - total_net_migration")
+    print("  - international_in_migration")
+    print("  - international_out_migration")
+
 
 if __name__ == "__main__":
     main()
