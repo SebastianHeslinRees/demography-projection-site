@@ -24,6 +24,16 @@ describe('comparison chart colors', () => {
 		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
 	});
 
+	it('removes the 2011 housing-led zero point from the housing-led annual population change chart', async () => {
+		const data = await loadChartData('housing_led_annual_population_change', {
+			type: 'date',
+			timeperiod_type: 'Annual'
+		});
+
+		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2011)).toBe(false);
+		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
+	});
+
 	it('uses the new low/central/high trend labels in the housing-led comparison data', async () => {
 		const rows = (await import('./lib/data/housingLedVsTrendProjectionData.json')).default as Array<{ dataset: string; b: string }>;
 		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Low')).toBe(true);

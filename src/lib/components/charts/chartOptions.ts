@@ -178,6 +178,18 @@ export const chartOptions: Record<string, ChartOptions> = {
         }
     },
 
+    "housing_led_ward_population": {
+        "chartType": "wardChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [-5, -1, 1, 5, 10, 15, 20],
+            "range": ["#ef8a62", "#ef8a62", "#d9d9d9", "#67a9cf", "#4393c3", "#2166ac", "#08519c", "#08306b"]
+        }
+    },
+
     "large_sites_lsoa": {
         "chartType": "boroughChoropleth",
         "type": "character",

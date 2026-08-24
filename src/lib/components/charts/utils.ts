@@ -18,6 +18,7 @@ import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" 
 import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
 // Bundled ward-level population data.
 import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
+import housingLedWardPopulationData from "$lib/data/housingLedWardPopulationData.json" with { type: "json" };
 import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
 import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
@@ -48,6 +49,7 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(boroughCapacityMapData as ChartDataRow[])
 		.concat(londonSitesCumulativeData as ChartDataRow[])
     .concat(wardPopulationData as ChartDataRow[])
+    .concat(housingLedWardPopulationData as ChartDataRow[])
     .concat(housingLedProjectedPopulationData as ChartDataRow[])
     .concat(housingLedVsTrendProjectionData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
@@ -92,9 +94,13 @@ function deriveTotalNetMigrationRows(
 }
 
 export function getColorChoice(
-  options: { colorScale?: { domain: string[]; range: string[] }; colorScaleLight?: { domain: string[]; range: string[] }; colorScaleDark?: { domain: string[]; range: string[] } },
+  options?: { colorScale?: { domain: string[]; range: string[] }; colorScaleLight?: { domain: string[]; range: string[] }; colorScaleDark?: { domain: string[]; range: string[] } },
   mode: 'light' | 'dark' = 'light'
 ): { type?: string; domain?: string[]; range?: string[] } {
+  if (!options) {
+    return {};
+  }
+
   if (mode === 'dark') {
     return options.colorScaleDark ?? options.colorScale ?? {};
   }
@@ -157,14 +163,20 @@ export function loadChartData(
         .map((d: ChartDataRow) => ({ ...d, xd: convertVal(d.xd as string) }))
         .filter((d: ChartDataRow) => !options.hide || !options.hide.includes(d.b))
         .filter((d: ChartDataRow) => {
-          if (
-            dataset === 'housing_led_vs_trend_annual_population_change' &&
+          const isHousingLedAnnualPopulationChange =
+            dataset === 'housing_led_annual_population_change' ||
+            dataset === 'housing_led_vs_trend_annual_population_change';
+
+          const isHousingLedZeroPoint =
+            isHousingLedAnnualPopulationChange &&
             typeof d.b === 'string' &&
-            d.b.startsWith('Housing-led') &&
+            ((dataset === 'housing_led_annual_population_change' && ['Central', 'High', 'Low'].includes(d.b)) ||
+              (dataset === 'housing_led_vs_trend_annual_population_change' && d.b.startsWith('Housing-led'))) &&
             d.y === 0 &&
             d.xd instanceof Date &&
-            d.xd.getFullYear() === 2011
-          ) {
+            d.xd.getFullYear() === 2011;
+
+          if (isHousingLedZeroPoint) {
             return false;
           }
           return true;
