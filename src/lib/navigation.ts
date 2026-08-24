@@ -65,12 +65,6 @@ export const navigation = [
 		children: []
 	},
 	{
-		title: 'Comparisons with 2021-based projections',
-		id: 'comparisons-with-2021-based-projections',
-		href: '/comparisons-with-2021-based-projections',
-		children: []
-	},
-	{
 		title: 'Data sources',
 		id: 'data-sources',
 		href: '/data-sources',

@@ -77,7 +77,7 @@ navLabel: Trend-based population projections
  byline="GLA City Intelligence"
  />
 
-## Geography detail
+## Borough percentage change
 
 <PopulationChangeBoroughChoropleth
   {selectedYear}
