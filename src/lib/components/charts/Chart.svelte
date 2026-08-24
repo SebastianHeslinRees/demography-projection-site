@@ -158,7 +158,6 @@
 			{spec}
 			{title}
 			subTitle={subtitle}
-			{source}
 			{byline}
 			{dataDownloadButton}
 			{imageDownloadButton}
@@ -176,7 +175,6 @@
 		{data}
 		{title}
 		subTitle={subtitle}
-		{source}
 		{byline}
 		{dataDownloadButton}
 		{imageDownloadButton}
