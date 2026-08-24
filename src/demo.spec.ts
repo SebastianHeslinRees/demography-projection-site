@@ -24,6 +24,39 @@ describe('comparison chart colors', () => {
 		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
 	});
 
+	it('removes the 2011 housing-led zero point from the housing-led annual population change chart', async () => {
+		const data = await loadChartData('housing_led_annual_population_change', {
+			type: 'date',
+			timeperiod_type: 'Annual'
+		});
+
+		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2011)).toBe(false);
+		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
+	});
+
+	it('uses the new low/central/high trend labels in the housing-led comparison data', async () => {
+		const rows = (await import('./lib/data/housingLedVsTrendProjectionData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - High')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - 5-year trend')).toBe(false);
+	});
+
+	it('uses low/central/high labels in the components-of-change trend data', async () => {
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === 'High')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'births' && row.b === '10-year trend')).toBe(false);
+	});
+
+	it('derives total net migration from the domestic and international in/out components', async () => {
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Low')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Central')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'High')).toBe(true);
+	});
+
 	it('keeps each series grouped by series name when plotting comparison lines', () => {
 		const data = [
 			{ dataset: 'proj_age_structure_median_age', xd: 0, b: 'Trend - 5-year trend', y: 200 },
@@ -101,5 +134,29 @@ describe('comparison chart colors', () => {
 		});
 
 		expect(textMarks).toHaveLength(0);
+	});
+
+	it('builds projection population 2 chart specs without throwing', async () => {
+		const datasets = [
+			['proj2_total_population', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_annual_population_change', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_age_structure_median_age', { type: 'integer', timeperiod_type: 'year' }],
+			['proj2_working_age_population', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_primary_school_age_children', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_secondary_school_age_children', { type: 'date', timeperiod_type: 'Annual' }],
+			['proj2_population_age_65_plus', { type: 'date', timeperiod_type: 'Annual' }]
+		] as const;
+
+		for (const [dataset, options] of datasets) {
+			const data = await loadChartData(dataset, options);
+			expect(data.length).toBeGreaterThan(0);
+			expect(() =>
+				lineChartWithForecast(
+					{ ...options, includeZero: dataset === 'proj2_age_structure_median_age' },
+					data,
+					{}
+				)
+			).not.toThrow();
+		}
 	});
 });

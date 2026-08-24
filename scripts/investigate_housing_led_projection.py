@@ -13,7 +13,7 @@ SOURCE_ROOT = Path('/Users/user1/Downloads/outputs-2/housing_led/output_pq')
 DATA_DIR = Path('src/lib/data')
 HOUSING_OUTPUT = DATA_DIR / 'housingLedProjectedPopulation.json'
 COMPARISON_OUTPUT = DATA_DIR / 'housingLedVsTrendProjectionData.json'
-TREND_INPUT = DATA_DIR / 'projectedPopulationChartData.json'
+TREND_INPUT = DATA_DIR / 'projectedPopulation2ChartData.json'
 
 VARIANT_SPECS = [
     ('variant=central_hma5645_ward', 'Central'),
@@ -164,13 +164,13 @@ def build_housing_rows() -> tuple[list[dict], list[dict]]:
 
 def build_comparison_rows(trend_rows: list[dict], housing_rows: list[dict]) -> list[dict]:
     trend_dataset_map = {
-        'proj_total_population': 'housing_led_vs_trend_total_population',
-        'proj_annual_population_change': 'housing_led_vs_trend_annual_population_change',
-        'proj_age_structure_median_age': 'housing_led_vs_trend_age_structure',
-        'proj_working_age_population': 'housing_led_vs_trend_working_age_population',
-        'proj_primary_school_age_children': 'housing_led_vs_trend_primary_school_age_children',
-        'proj_secondary_school_age_children': 'housing_led_vs_trend_secondary_school_age_children',
-        'proj_population_age_65_plus': 'housing_led_vs_trend_population_age_65_plus',
+        'proj2_total_population': 'housing_led_vs_trend_total_population',
+        'proj2_annual_population_change': 'housing_led_vs_trend_annual_population_change',
+        'proj2_age_structure_median_age': 'housing_led_vs_trend_age_structure',
+        'proj2_working_age_population': 'housing_led_vs_trend_working_age_population',
+        'proj2_primary_school_age_children': 'housing_led_vs_trend_primary_school_age_children',
+        'proj2_secondary_school_age_children': 'housing_led_vs_trend_secondary_school_age_children',
+        'proj2_population_age_65_plus': 'housing_led_vs_trend_population_age_65_plus',
     }
 
     housing_dataset_map = {

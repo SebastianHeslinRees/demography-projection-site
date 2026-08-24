@@ -7,6 +7,10 @@ navLabel: Housing-led projected population
 
 <script>
     import Chart from "$lib/components/charts/Chart.svelte";
+    import PopulationChangeWardChoropleth from "$lib/components/charts/PopulationChangeWardChoropleth.svelte";
+    import YearSlider from "$lib/components/charts/YearSlider.svelte";
+
+    let selectedYear = $state(2051);
 </script>
 
 ## Total population
@@ -81,3 +85,16 @@ The chart shows London total population from the housing-led variants supplied i
  byline="GLA City Intelligence"
  source="Housing-led projections derived from the provided HL output"
  />
+
+## Ward-level percentage change
+
+<PopulationChangeWardChoropleth
+  {selectedYear}
+  dataset="housing_led_ward_population"
+  title="Percentage change in population of each ward"
+  byline="GLA City Intelligence"
+  source="GLA 2024-based London Plan housing-led projections">
+    {#snippet controls()}
+        <YearSlider baseYear={2011} bind:selectedYear />
+    {/snippet}
+</PopulationChangeWardChoropleth>

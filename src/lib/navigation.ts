@@ -29,9 +29,9 @@ export const navigation = [
 		children: []
 	},
 	{
-		title: 'Projected population',
-		id: 'projected-population',
-		href: '/projected-population',
+		title: 'Trend-based population projections',
+		id: 'projection-population-2',
+		href: '/projection-population-2',
 		children: []
 	},
 	{
@@ -62,12 +62,6 @@ export const navigation = [
 		title: 'Interpreting the results',
 		id: 'interpreting-the-results',
 		href: '/interpreting-the-results',
-		children: []
-	},
-	{
-		title: 'Comparisons with 2021-based projections',
-		id: 'comparisons-with-2021-based-projections',
-		href: '/comparisons-with-2021-based-projections',
 		children: []
 	},
 	{

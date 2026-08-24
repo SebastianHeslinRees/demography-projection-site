@@ -178,6 +178,18 @@ export const chartOptions: Record<string, ChartOptions> = {
         }
     },
 
+    "housing_led_ward_population": {
+        "chartType": "wardChoropleth",
+        "type": "character",
+        "ytickformat": ",.0f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [-5, -1, 1, 5, 10, 15, 20],
+            "range": ["#ef8a62", "#ef8a62", "#d9d9d9", "#67a9cf", "#4393c3", "#2166ac", "#08519c", "#08306b"]
+        }
+    },
+
     "large_sites_lsoa": {
         "chartType": "boroughChoropleth",
         "type": "character",
@@ -340,17 +352,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -369,17 +381,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -395,17 +407,19 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low",
+                "Trend - 2022 structure"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8",
+                "#d1d5db"
             ]
         }
     },
@@ -422,17 +436,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -449,17 +463,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -476,17 +490,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -503,17 +517,17 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Housing-led - Central",
                 "Housing-led - High",
                 "Housing-led - Low",
-                "Trend - 10-year trend",
-                "Trend - 15-year trend",
-                "Trend - 5-year trend"
+                "Trend - Central",
+                "Trend - High",
+                "Trend - Low"
             ],
             "range": [
-                "#fef3c7",
-                "#fde68a",
                 "#f59e0b",
-                "#dbeafe",
-                "#93c5fd",
-                "#2563eb"
+                "#d97706",
+                "#b45309",
+                "#60a5fa",
+                "#3b82f6",
+                "#1d4ed8"
             ]
         }
     },
@@ -566,6 +580,71 @@ export const chartOptions: Record<string, ChartOptions> = {
     },
 
     "proj_population_age_65_plus": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_total_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_annual_population_change": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        numTicks: 4,
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_age_structure_median_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "integer",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "year",
+        includeZero: true
+    },
+
+    "proj2_working_age_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_primary_school_age_children": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_secondary_school_age_children": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2025-01-01"
+    },
+
+    "proj2_population_age_65_plus": {
         "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".1s",

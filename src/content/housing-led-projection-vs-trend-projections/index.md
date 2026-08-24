@@ -1,6 +1,6 @@
 ---
 title: Housing-led projection vs Trend projections
-description: Compare housing-led and trend-based projections on the same charts
+description: Compare housing-led and trend-based projections
 section: Demography
 navLabel: Housing-led projection vs Trend projections
 ---
