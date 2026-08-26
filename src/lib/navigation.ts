@@ -35,9 +35,21 @@ export const navigation = [
 		children: []
 	},
 	{
+		title: 'Trend-based components',
+		id: 'components-of-change',
+		href: '/components-of-change',
+		children: []
+	},
+	{
 		title: 'Housing-led population',
 		id: 'housing-led-projected-population',
 		href: '/housing-led-projected-population',
+		children: []
+	},
+	{
+		title: 'Housing-led components',
+		id: 'housing-led-components',
+		href: '/housing-led-components',
 		children: []
 	},
 	{
@@ -50,12 +62,6 @@ export const navigation = [
 		title: 'Housing development',
 		id: 'development-capacity',
 		href: '/development-capacity',
-		children: []
-	},
-	{
-		title: 'Trend-based components',
-		id: 'components-of-change',
-		href: '/components-of-change',
 		children: []
 	},
 	{

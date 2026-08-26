@@ -171,6 +171,18 @@ export const chartOptions: Record<string, ChartOptions> = {
         },
     },
 
+    "housing_led_vs_trend_central_borough_difference": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ".1f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [-20, -10, -5, -1, 1, 5, 10, 20],
+            "range": ["#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#d1e5f0", "#92c5de", "#4393c3", "#2166ac"]
+        }
+    },
+
       "ward_population": {
         "chartType": "wardChoropleth",
         "type": "character",
@@ -343,6 +355,134 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         projectedStart: "2024-01-01"
+    },
+
+    "housing_led_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_births": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_deaths": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_natural_change": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_in_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_out_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_net_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_tfr": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_asfr": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".2f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_births_by_mothers_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
     },
 
     "housing_led_vs_trend_total_population": {

@@ -173,6 +173,30 @@ describe('comparison chart colors', () => {
 		expect(textMarks).toHaveLength(0);
 	});
 
+	it('starts the dashed projected line exactly at the forecast start year', () => {
+		const data = [
+			{ dataset: 'proj_total_population', xd: new Date('2023-01-01'), b: 'Central', y: 1000 },
+			{ dataset: 'proj_total_population', xd: new Date('2024-01-01'), b: 'Central', y: 1100 },
+			{ dataset: 'proj_total_population', xd: new Date('2025-01-01'), b: 'Central', y: 1200 }
+		];
+
+		const spec = lineChartWithForecast(
+			{ type: 'date', timeperiod_type: 'Annual', projectedStart: '2024-01-01' },
+			data,
+			{ domain: ['Central'], range: ['#111827'] }
+		);
+
+		const projectedLine = spec.marks.find((mark) => {
+			if (!mark || typeof mark !== 'object' || Array.isArray(mark)) return false;
+			return 'strokeDasharray' in mark && Array.isArray((mark as { data?: unknown[] }).data);
+		}) as { data?: Array<Record<string, unknown>> } | undefined;
+
+		const projectedLineText = JSON.stringify(projectedLine);
+		expect(projectedLineText).toContain('2024-01-01');
+		expect(projectedLineText).not.toContain('2023-01-01');
+		expect(JSON.stringify(spec.marks)).toContain('2024-01-01');
+	});
+
 	it('builds projection population 2 chart specs without throwing', async () => {
 		const datasets = [
 			['proj2_total_population', { type: 'date', timeperiod_type: 'Annual' }],

@@ -7,6 +7,10 @@ navLabel: Housing-led projection vs Trend projections
 
 <script>
     import Chart from "$lib/components/charts/Chart.svelte";
+    import HousingLedVsTrendBoroughDifferenceChoropleth from "$lib/components/charts/HousingLedVsTrendBoroughDifferenceChoropleth.svelte";
+    import YearSlider from "$lib/components/charts/YearSlider.svelte";
+
+    let selectedYear = $state(2051);
 </script>
 
 ## Total population
@@ -68,3 +72,16 @@ navLabel: Housing-led projection vs Trend projections
  byline="GLA City Intelligence"
  source="Housing-led and trend-based projections"
  />
+
+## Borough percentage difference in the central projection
+
+<HousingLedVsTrendBoroughDifferenceChoropleth
+  {selectedYear}
+  title="Percentage difference in population of each borough"
+  dataset="housing_led_vs_trend_central_borough_difference"
+  byline="GLA City Intelligence"
+  source="Housing-led and trend-based projections">
+    {#snippet controls()}
+        <YearSlider baseYear={2024} bind:selectedYear />
+    {/snippet}
+</HousingLedVsTrendBoroughDifferenceChoropleth>

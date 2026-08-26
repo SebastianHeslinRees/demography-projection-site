@@ -16,11 +16,13 @@ import projectedPopulation2ChartData from "$lib/data/projectedPopulation2ChartDa
 import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
 // Bundled borough-level population data.
 import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
+import housingLedVsTrendCentralBoroughDifferenceData from "$lib/data/housingLedVsTrendCentralBoroughDifferenceData.json" with { type: "json" };
 // Bundled ward-level population data.
 import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
 import housingLedWardPopulationData from "$lib/data/housingLedWardPopulationData.json" with { type: "json" };
 import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
 import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
+import housingLedComponentsData from "$lib/data/HousingLedComponentsData.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
 import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
 
@@ -46,12 +48,14 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(projectedPopulation2ChartData as ChartDataRow[])
     .concat(componentsOfChangeData as ChartDataRow[])
     .concat(boroughPopulationData as ChartDataRow[])
+    .concat(housingLedVsTrendCentralBoroughDifferenceData as ChartDataRow[])
 		.concat(boroughCapacityMapData as ChartDataRow[])
 		.concat(londonSitesCumulativeData as ChartDataRow[])
     .concat(wardPopulationData as ChartDataRow[])
     .concat(housingLedWardPopulationData as ChartDataRow[])
     .concat(housingLedProjectedPopulationData as ChartDataRow[])
     .concat(housingLedVsTrendProjectionData as ChartDataRow[])
+    .concat(housingLedComponentsData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 

@@ -137,7 +137,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
         const projectedStart = new Date(options.projectedStart as string);
         const dateData = filteredData.filter((d): d is ChartDataRow & { xd: Date } => d.xd instanceof Date);
 
-        const historicalData = dateData.filter((d) => d.xd < projectedStart);
+        const historicalData = dateData.filter((d) => d.xd <= projectedStart);
 
         const grouped = new Map<string, (ChartDataRow & { xd: Date })[]>();
         for (const row of dateData) {
@@ -152,7 +152,6 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
             const firstProjectedIdx = rows.findIndex((r) => r.xd >= projectedStart);
 
             if (firstProjectedIdx === -1) continue;
-            if (firstProjectedIdx > 0) projectedData.push(rows[firstProjectedIdx - 1]);
             projectedData.push(...rows.slice(firstProjectedIdx));
         }
 
