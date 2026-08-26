@@ -1,8 +1,8 @@
 ---
-title: Trend-based population projections
+title: Trend-based population
 description: Total population and age-related projected trends using output_pq trend data
 section: Demography
-navLabel: Trend-based population projections
+navLabel: Trend-based population
 ---
 
 <script>
@@ -38,7 +38,7 @@ navLabel: Trend-based population projections
 <Chart
  chart="Chart"
  title="Population age structure, London"
- subtitle="Population by single year of age (persons): 2022 structure and 2046 variant projections"
+ subtitle="Population by single year of age (persons): 2024 structure and 2046 variant projections"
  dataset="proj2_age_structure_median_age"
  byline="GLA City Intelligence"
  />

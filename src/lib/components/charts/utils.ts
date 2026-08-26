@@ -16,11 +16,13 @@ import projectedPopulation2ChartData from "$lib/data/projectedPopulation2ChartDa
 import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
 // Bundled borough-level population data.
 import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
+import housingLedVsTrendCentralBoroughDifferenceData from "$lib/data/housingLedVsTrendCentralBoroughDifferenceData.json" with { type: "json" };
 // Bundled ward-level population data.
 import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
 import housingLedWardPopulationData from "$lib/data/housingLedWardPopulationData.json" with { type: "json" };
 import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
 import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
+import housingLedComponentsData from "$lib/data/HousingLedComponentsData.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
 import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
 
@@ -46,12 +48,14 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(projectedPopulation2ChartData as ChartDataRow[])
     .concat(componentsOfChangeData as ChartDataRow[])
     .concat(boroughPopulationData as ChartDataRow[])
+    .concat(housingLedVsTrendCentralBoroughDifferenceData as ChartDataRow[])
 		.concat(boroughCapacityMapData as ChartDataRow[])
 		.concat(londonSitesCumulativeData as ChartDataRow[])
     .concat(wardPopulationData as ChartDataRow[])
     .concat(housingLedWardPopulationData as ChartDataRow[])
     .concat(housingLedProjectedPopulationData as ChartDataRow[])
     .concat(housingLedVsTrendProjectionData as ChartDataRow[])
+    .concat(housingLedComponentsData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 
@@ -213,17 +217,29 @@ export function makeTooltip(
 		'tooltipFormatValue' | 'ytickformat' | 'tooltipFormatDate'
 	>
 ): (d: ChartDataRow) => string {
-	const spec = options.tooltipFormatValue ?? options.ytickformat;
+	const rawSpec = options.tooltipFormatValue ?? options.ytickformat ?? ',.0f';
+	const spec = rawSpec.includes('s') ? ',.0f' : rawSpec;
 	// N.B. we need to define the format locale to ensure the currency formatter is set to use £ rather than $
-	const valueFormatter = spec
-		? formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec)
-		: undefined;
+	const valueFormatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec);
 
-	const dateFormat = options.tooltipFormatDate ?? '%d %B %Y';
+	const dateFormat = options.tooltipFormatDate ?? '%Y';
 	const dateFormatter = utcFormat(dateFormat);
 
 	return (d: ChartDataRow) => getTooltip(d, dateFormatter, valueFormatter);
 }
+
+export const formatAxisTick = (value: number, spec?: string | null): string => {
+	if (spec?.includes('s')) {
+		const abs = Math.abs(value);
+		if (abs >= 1_000_000) {
+			const millions = value / 1_000_000;
+			return `${millions.toFixed(1)}M`;
+		}
+	}
+
+	const formatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec ?? ',.0f');
+	return formatter(value);
+};
 
 export const getColorScale = (data: ChartDataRow[]) => {
 	let domain = new Array(...new Set(data.map((d) => d.b))).sort();

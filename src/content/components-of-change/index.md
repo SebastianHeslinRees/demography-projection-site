@@ -1,8 +1,8 @@
 ---
-title: Components of change
+title: Trend-based components
 description: Births, deaths and migration components used to interpret projected population change
 section: Demography
-navLabel: Components of change
+navLabel: Trend-based components
 ---
 
 <script>

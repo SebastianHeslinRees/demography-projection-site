@@ -1,0 +1,6518 @@
+[
+  {
+    "dataset": "housing_led_births",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 134116.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 130886.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 127763.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 128602.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 129816.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 127405.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 123552.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 119089.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 115900.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 109736.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 109572.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 105068.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 105879.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 106151.79559300838
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 104940.83709244416
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 104495.87902810419
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 104111.22039599596
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 103798.72680964327
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 103593.38691082253
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 103443.16301122015
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 103512.51888354747
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 104143.90636844069
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 104738.00743338249
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 105347.192389448
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 105992.20280030067
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 106706.76122180678
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 107481.50887998923
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 108326.51598857927
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 109169.33770208564
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 109968.45684114838
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 110664.9221623711
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 111207.83573798116
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 111560.78364649748
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 111706.6352289886
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 111664.55249061921
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 111439.27913717124
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 111063.93902123586
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 110570.38600926532
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 109992.16218525922
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 109341.03663099604
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 47969.362075481244
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 48936.29231536588
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 46270.498989678024
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 50781.78667023205
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 49056.82371725761
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 49637.754908371964
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 50776.78114998857
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 48340.88426333435
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 59191.77847379839
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 55639.75926384115
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 51995.78542171508
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 53489.79547463039
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 50522.0
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 55115.79553247482
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 57600.42063738928
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 57908.78030508436
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 58270.159387330306
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 58695.769116375704
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 59158.18423290179
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 59632.06321952974
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 60197.71851812205
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 60812.17202045324
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 61442.709976532264
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 62062.885421365885
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 62693.00220149681
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 63386.03957894725
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 63953.995253878515
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 64488.86992716667
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 65027.31736016111
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 65576.5605324353
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 66140.07838167273
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 66725.50232590268
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 67322.99714203896
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 67935.62947715395
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 68569.16926122687
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 69216.15920338756
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 69869.34335977976
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 70514.17934096218
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 71144.56192972473
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 71749.21471884896
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 474609.63338383497
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 477288.9599602105
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 518395.9752901244
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 538341.9951178883
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 539213.9947867644
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 502600.99487594445
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 525164.9943674072
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 554591.998028775
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 473450.9976430476
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 507865.9943117667
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 572103.996974157
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 611943.9958678047
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 599774.0
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 547448.0096334841
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 548934.1596247777
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 550502.4809506632
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 553729.223592604
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 556544.5554680284
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 559178.7866343902
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 561912.146419426
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 563947.6422266585
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 565791.1011223117
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 567239.9914009131
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 568252.4069049566
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 568859.2811454219
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 569150.3928457616
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 569852.3034972859
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 569800.2633357444
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 568951.9951411043
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 568019.3501765681
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 566433.3580876718
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 564265.5392274141
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 562072.6135733635
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 559681.8751721112
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 557231.2485431681
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 554891.0675881687
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 552744.0670643006
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 550747.0391136028
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 548882.7974062304
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 546193.4363666853
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 444701.7367049892
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 441515.6676448446
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 491417.47630044643
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 501792.20844765624
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 533306.1710695067
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 548976.2399675725
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 542626.2132174185
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 570657.1137654406
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 552714.2191692492
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 623420.2350479255
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 563073.211552442
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 535185.2003931743
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 565100.0
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 545456.8531388018
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 549244.8120443763
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 552767.3678303761
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 553833.3546617128
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 555181.8691251924
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 557042.3716272494
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 557935.4356188042
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 558575.5264115599
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 559148.216347721
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 560254.4714743772
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 561525.1826874283
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 562154.3114163658
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 562567.2375330079
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 562618.138092242
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 562909.5523548981
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 563137.430200728
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 563727.6720837636
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 563445.639458927
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 563396.1440077596
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 563443.3663901219
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 563419.1265686618
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 563131.5911473853
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 562823.9007689741
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 562383.7700253347
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 561841.6150472171
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 561199.1647554187
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 561756.6818279027
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 29907.896678845766
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 35773.29231536588
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 26978.49898967805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 36549.78667023206
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 5907.823717257619
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": -46375.24509162805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": -17461.218850011413
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": -16065.115736665652
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": -79263.22152620161
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": -115554.24073615886
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 9030.785421715082
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 76758.79547463039
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 34674.0
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 1991.1564946822837
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": -310.6524195984821
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": -2264.8868797128744
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": -104.13106910870556
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 1362.686342836052
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 2136.4150071408876
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 3976.7108006217095
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 5372.115815098674
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 6642.884774590639
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 6985.519926535882
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 6727.224217528346
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 6704.969729055985
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 6583.155312753799
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 7234.165405043932
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 6890.710980846256
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 5814.564940376367
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 4291.678092804461
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 2987.7186287448058
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 869.395219654376
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": -1370.7528167583805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": -3737.2513965504622
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": -5900.3426042173305
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": -7932.833180805472
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": -9639.702961034105
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": -11094.57593361431
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": -12316.36734918852
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": -15563.245461217335
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2011-01-01",
+    "b": "Central",
+    "y": 8204376.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 8320154.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 8437877.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 8546348.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 8660718.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 8747385.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 8778777.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 8834091.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 8888774.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 8866219.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 8804761.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 8871368.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 8999705.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 9089736.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 9142763.156555215
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 9189792.920590673
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 9234115.132433979
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 9279852.062373536
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 9326317.706409639
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 9372889.324094702
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 9420677.134687014
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 9469364.050867539
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 9519338.669990115
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 9569619.487373501
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 9619631.018559113
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 9669635.188886972
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 9719539.065842586
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 9770300.74487374
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 9821029.101915998
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 9870985.6871983
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 9919669.261599816
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 9967181.82400926
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 10012533.552640993
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 10055400.586328693
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 10095434.340683978
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 10132629.381309152
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 10166919.668062132
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 10198474.560762554
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 10227436.191497242
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 10253967.424403585
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 10275996.000854518
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 1.3466158278194744
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 1.3213787129318129
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 1.306339320917756
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 1.292670395365489
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 1.2798529371185028
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 1.2684929895829924
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 1.2583789379597918
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 1.2517580969354318
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 1.2521896944231274
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 1.2524461186908553
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 1.253019903539947
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 1.2537390905202914
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 1.2545993778990066
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 1.2553350922991309
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 1.2562159630502288
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 1.2570235134818655
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 1.257744518338337
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 1.258390042413819
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 1.2588739620141625
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 1.2592799263024386
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 1.259521287669767
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 1.2597361514696834
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 1.2598842050823338
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 1.2600041342017443
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 1.2600996457169908
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 1.2601953578916267
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 1.2602673906951356
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 0.038474737937699274
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 0.03775367751233752
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 0.03732398059765018
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 0.036933439867585405
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 0.036567226774814374
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 0.03624265684522835
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 0.03595368394170834
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 0.03576451705529806
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 0.03577684841208934
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 0.035784174819738716
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 0.03580056867256992
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 0.03582111687200834
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 0.035845696511400196
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 0.03586671692283231
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 0.035891884658577955
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 0.0359149575280533
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 0.03593555766680962
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 0.0359540012118234
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 0.03596782748611894
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 0.03597942646578396
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 0.03598632250485048
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 0.03599246147056237
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 0.03599669157378096
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 0.036000118120049836
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 0.03600284702048545
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 0.03600558165404648
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 0.03600763973414673
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 106151.79559300837
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 104940.83709244418
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 104495.87902810429
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 104111.22039599599
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 103798.72680964308
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 103593.3869108225
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 103443.16301122015
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 103512.51888354727
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 104143.9063684406
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 104738.00743338247
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 105347.19238944794
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 105992.20280030053
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 106706.76122180677
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 107481.50887998939
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 108326.5159885792
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 109169.33770208574
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 109968.45684114832
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 110664.92216237115
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 111207.83573798114
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 111560.78364649747
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 111706.63522898851
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 111664.5524906194
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 111439.27913717122
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 111063.93902123587
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 110570.38600926542
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 109992.1621852591
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 109341.03663099618
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 134116.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 130886.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 127763.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 128602.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 129816.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 127405.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 123552.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 119089.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 115900.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 109736.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 109572.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 105068.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 105879.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 110464.34974348762
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 110241.19202682361
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 110779.73534800418
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 111403.67829469737
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 112194.49878411912
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 113196.72071988898
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 114341.54952635508
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 115910.68581127812
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 116741.38831622864
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 117544.49865485408
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 118350.4248290192
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 119175.83739841633
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 120059.42881575125
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 120991.09753778353
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 122005.02550568755
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 123014.10740528896
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 123972.02551579064
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 124812.10377942477
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 125490.73607210125
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 125966.55604301632
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 126214.93739820819
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 126270.63076789913
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 126140.23231629583
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 125865.91157505786
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 125498.22521734904
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 125079.13663477848
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 124624.10671209294
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 47969.362075481244
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 48936.292315365885
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 46270.49898967803
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 50781.78667023205
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 49056.82371725761
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 49637.75490837196
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 50776.78114998857
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 48340.88426333435
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 59191.77847379839
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 55639.75926384115
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 51995.78542171508
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 53489.79547463039
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 50522.0
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 55129.79726181605
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 57610.087210508296
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 57895.87571121328
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 58212.67006563049
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 58593.00249346792
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 58999.198354526874
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 59397.625796434826
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 59869.71318183734
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 60367.82897105092
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 60867.99664306598
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 61337.284410600136
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 61795.9455755534
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 62298.572001792185
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 62660.51201623991
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 62982.006809660794
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 63296.71534066886
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 63611.91044967495
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 63931.54758516864
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 64264.476920387024
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 64601.81310794322
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 64948.95239636306
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 65313.97167512395
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 65692.67129573115
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 66080.99738572037
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 66467.58035459708
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 66848.9573747024
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 67215.20366661051
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 474609.63338383497
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 477288.95996021054
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 518395.9752901244
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 538341.9951178883
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 539213.9947867644
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 502601.99487594445
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 525164.9943674072
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 554591.998028775
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 473450.9976430476
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 507865.9943117667
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 572103.996974157
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 611943.9958678047
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 599774.0
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 530509.3941308263
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 532062.3950186467
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 533675.4828519234
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 538403.1978774536
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 542070.1311658283
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 545027.3780124465
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 548139.2098630125
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 550466.1535751624
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 552975.7405225455
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 554512.4127410752
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 555481.5566822543
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 556029.4986035877
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 556310.9335763488
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 557552.1658582173
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 557729.201630567
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 557028.0024335064
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 556158.5259343433
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 554646.0297021999
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 552537.1575524155
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 550778.8898091168
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 548944.4853928254
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 547285.3570617416
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 546103.2998720645
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 545327.6473220299
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 544684.7766035902
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 544212.3568157434
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 542111.6222754244
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 444701.7367049892
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 441515.66764484474
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 491417.47630044643
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 501792.20844765624
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 533306.1710695068
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 548977.2399675724
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 542626.2132174185
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 570657.1137654406
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 552714.2191692493
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 623420.2350479255
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 563073.211552442
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 535185.2003931743
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 565100.0
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 526230.2831577058
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 530313.4251608213
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 534162.2220078963
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 533830.4444401241
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 534616.2906061541
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 536556.9101977383
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 537548.0561598681
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 538508.9128357416
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 538960.6849881844
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 540587.0058317353
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 542456.3383246656
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 543659.8568528484
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 544573.7908474122
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 544455.2263200401
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 544948.5069074073
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 545515.3034065634
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 546464.1785470701
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 546615.8556558656
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 547180.8329417502
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 548388.8492163937
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 549321.1226627185
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 549880.5781360517
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 550472.2047197532
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 550973.9608919489
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 551425.7850502556
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 551857.1990297395
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 554518.4553199792
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 29907.896678845766
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 35773.29231536586
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 26978.49898967805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 36549.78667023206
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 5907.823717257619
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": -46375.24509162805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": -17461.218850011413
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": -16065.115736665655
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": -79263.22152620161
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": -115554.24073615886
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 9030.785421715082
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 76758.79547463037
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 34674.0
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 4279.11097312058
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 1748.9698578252937
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": -486.7391559729658
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 4572.7534373294475
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 7453.840559674085
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 8470.467814708005
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 10591.153703144351
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 11957.240739420755
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 14015.055534361192
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 13925.406909339785
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 13025.218357588725
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 12369.641750739313
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 11737.14272893659
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 13096.939538177256
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 12780.69472315978
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 11512.699026943126
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 9694.347387273257
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 8030.174046334316
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 5356.324610665317
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 2390.040592723126
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": -376.63726989302086
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": -2595.221074310037
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": -4368.9048476887765
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": -5646.313569919039
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": -6741.008446665335
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": -7644.842213996097
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": -12406.833044554769
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2011-01-01",
+    "b": "High",
+    "y": 8204376.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 8320154.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 8437877.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 8546348.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 8660718.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 8747385.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 8778777.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 8834091.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 8888774.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 8866219.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 8804761.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 8871368.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 8999705.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 9089736.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 9149349.663454793
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 9203729.738128932
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 9256126.858609749
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 9313890.620276146
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 9374945.957126472
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 9437613.947306544
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 9503149.024739606
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 9571147.238108467
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 9641535.852988008
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 9712137.761909137
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 9782176.120685143
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 9851925.654258747
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 9921423.65380164
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 9992851.178861363
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 10064654.892280549
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 10135884.98337211
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 10205939.4458255
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 10274850.176066091
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 10341432.75982847
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 10405187.54335627
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 10466076.89108822
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 10524438.329106685
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 10580516.98527956
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 10634655.58589898
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 10686945.222315066
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 10737530.559361145
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 10782532.629362073
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 1.4038235880184113
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 1.3911503484658743
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 1.3883197411779868
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 1.3869666068323734
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 1.3868898065472264
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 1.3891433109540263
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 1.3935968193092443
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 1.403941688636787
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 1.4047367609183383
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 1.405315996883692
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 1.4061720021204949
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 1.4071514755763042
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 1.4082605227055378
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 1.4092019239748366
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 1.4103056516308605
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 1.4113300842662835
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 1.4122457776405277
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 1.4130594175733615
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 1.4136932243116416
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 1.41422280543872
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 1.4145611386871715
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 1.4148864765746163
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 1.415126859424829
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 1.4153317824544087
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 1.4155263299309666
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 1.4157422599486273
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 1.4159411255869845
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 0.0401092453719546
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 0.03974715281331069
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 0.039666278319371064
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 0.03962761733806782
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 0.039625423044206465
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 0.03968980888440075
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 0.03981705198026412
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 0.040112619675336775
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 0.040135336026238234
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 0.04015188562524833
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 0.04017634291772842
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 0.0402043278736087
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 0.04023601493444392
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 0.04026291211356676
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 0.04029444718945316
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 0.04032371669332239
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 0.040349879361157935
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 0.04037312621638175
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 0.040391234980332605
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 0.04040636586967772
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 0.040416032533919184
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 0.040425327902131894
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 0.040432195983566545
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 0.04043805092726883
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 0.040443609426599046
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 0.04044977885567507
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 0.0404554607310567
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 110464.3497434875
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 110241.19202682354
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 110779.73534800409
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 111403.67829469743
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 112194.49878411907
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 113196.72071988892
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 114341.54952635491
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 115910.68581127808
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 116741.38831622883
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 117544.49865485408
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 118350.42482901936
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 119175.83739841658
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 120059.42881575137
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 120991.09753778351
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 122005.02550568752
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 123014.10740528893
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 123972.02551579052
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 124812.10377942461
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 125490.73607210121
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 125966.55604301632
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 126214.93739820803
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 126270.63076789907
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 126140.23231629583
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 125865.91157505765
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 125498.22521734913
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 125079.13663477852
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 124624.10671209286
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 134116.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 130886.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 127763.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 128602.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 129816.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 127405.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 123552.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 119089.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 115900.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 109736.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 109572.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 105068.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 105879.0
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 102064.77524690852
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 99731.58846227449
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 98236.83789547239
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 96841.18794080021
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 95487.99768985494
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 94204.49767747195
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 92944.00991519685
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 91764.62434371142
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 92245.98017720555
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 92694.29705307854
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 93168.87271621561
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 93688.10955179561
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 94285.22370840685
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 94949.5800452806
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 95676.3095078835
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 96408.698958011
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 97105.96977198632
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 97715.40110497529
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 98180.85150672641
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 98468.93289298078
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 98565.66069660962
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 98479.79887235619
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 98213.77446833506
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 97793.97594447462
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 97241.38360688096
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 96582.13410841947
+  },
+  {
+    "dataset": "housing_led_births",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 95825.95666743409
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 47969.362075481244
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 48936.29231536588
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 46270.498989678024
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 50781.78667023205
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 49056.82371725761
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 49637.75490837196
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 50776.78114998857
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 48340.88426333435
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 59191.77847379839
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 55639.75926384115
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 51995.78542171508
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 53489.795474630395
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 50522.0
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 55102.50647494766
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 57614.43828148944
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 57948.10371742697
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 58350.66302921854
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 58814.83005578517
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 59321.17950334986
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 59851.072836991974
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 60485.135177195036
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 61183.66721974405
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 61906.26945307911
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 62632.525874429455
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 63382.45424913973
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 64208.225943184436
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 64919.93283587425
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 65601.88943847491
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 66294.38361353816
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 67004.18307678691
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 67735.27505126265
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 68493.73842368448
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 69269.01734377627
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 70062.11729245252
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 70876.80103268506
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 71703.02011779569
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 72530.53439598507
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 73342.15060643709
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 74129.60377251395
+  },
+  {
+    "dataset": "housing_led_deaths",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 74881.15323389693
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 474609.63338383497
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 477288.9599602105
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 518395.9752901244
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 538341.9951178883
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 539213.9947867644
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 502601.99487594445
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 525164.9943674072
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 554591.998028775
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 473450.9976430476
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 507864.9943117667
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 572103.996974157
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 611943.9958678047
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 599774.0
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 561786.1110568792
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 563882.812597947
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 565992.3195389584
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 568298.5119000503
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 570721.5945632393
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 573442.1002636568
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 576199.646642049
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 578314.9295887908
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 579784.2410324864
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 581395.9867395601
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 582638.8244854838
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 583427.3503661773
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 583857.384093377
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 584173.339944076
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 584016.7972417066
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 583170.7661456252
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 582250.2584944299
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 580692.035015197
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 578523.9710884569
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 576001.483518465
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 573096.0502632165
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 569896.3497572314
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 566421.291844784
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 562981.7466035339
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 559732.7613150892
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 556647.9335727615
+  },
+  {
+    "dataset": "housing_led_in_migration",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 553419.8017230154
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 444701.7367049892
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 441515.6676448446
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 491417.47630044643
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 501792.20844765624
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 533306.1710695067
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 548977.2399675725
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 542626.2132174185
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 570657.1137654406
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 552714.2191692492
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 623419.2350479255
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 563073.2115524419
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 535185.2003931744
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 565100.0
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 565334.8897750434
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 568391.4559394133
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 571401.3025059988
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 573672.219207554
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 575578.9617867568
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 577464.4283315248
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 578370.7414981902
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 578877.8710089872
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 579716.3934625041
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 580464.9097781451
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 581316.18136765
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 581524.556997033
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 581563.1518850613
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 581860.1778244675
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 581981.3109872041
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 581966.8471077759
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 582209.7024860515
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 581522.9825473692
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 580836.2244986137
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 579738.046578628
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 578753.8238294212
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 577621.3150471403
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 576383.2800893242
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 575003.9901143316
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 573464.6582764878
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 571796.3274433527
+  },
+  {
+    "dataset": "housing_led_out_migration",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 570396.7816790482
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 29907.896678845766
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 35773.29231536586
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 26978.49898967805
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 36549.78667023206
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 5907.823717257612
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": -46375.24509162804
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": -17461.21885001141
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": -16065.115736665648
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": -79263.22152620161
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": -115554.24073615886
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 9030.785421715082
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 76758.79547463037
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 34674.0
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": -3548.7787181640997
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": -4508.643341466308
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": -5408.982967040407
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": -5373.707307503755
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": -4857.367223517584
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": -4022.328067868002
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": -2171.0948561411133
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": -562.9414201964537
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 67.84756998236116
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 931.0769614150922
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 1322.6431178337807
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 1902.7933691442813
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 2294.232208315727
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 2313.1621196085325
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 2035.486254502568
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 1203.9190378492713
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 40.55600837836391
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": -830.9475321720238
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": -2312.253410156758
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": -3736.563060163069
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": -5657.773566204589
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": -7724.965289908898
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": -9961.988244540276
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": -12022.243510797722
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": -13731.896961398663
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": -15148.393870591142
+  },
+  {
+    "dataset": "housing_led_net_migration",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": -16976.97995603278
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2011-01-01",
+    "b": "Low",
+    "y": 8204376.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 8320154.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 8437877.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 8546348.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 8660718.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 8747385.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 8778777.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 8834091.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 8888774.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 8866219.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 8804761.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 8871368.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 8999705.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 9089736.0
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 9133149.490053797
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 9170757.996893115
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 9205637.748104122
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 9238754.565708198
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 9270570.366118751
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 9301431.356225004
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 9332353.19844707
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 9363069.746193388
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 9394199.906720832
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 9425919.011282247
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 9457778.001241866
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 9489986.449913666
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 9522357.679887205
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 9554700.489216221
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 9586810.395540131
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 9618128.629922453
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 9648270.97262603
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 9677420.15114757
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 9704795.010820456
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 9730258.363309499
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 9753104.13314745
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 9772982.165697213
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 9789530.931803212
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 9802772.129840903
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 9812939.46587995
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 9820243.602345264
+  },
+  {
+    "dataset": "housing_led_population",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 9824211.425822768
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 1.2923911633489127
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 1.2552560894750229
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 1.2288404483491953
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 1.2039730469084307
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 1.1798155532805514
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 1.1567103740014653
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 1.1343443952287728
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 1.1136677804061483
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 1.1138144371372458
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 1.1138738981527097
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 1.114268945377961
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 1.1147926132621644
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 1.1154765849452564
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 1.11606081962385
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 1.1167608582432242
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 1.117388612635728
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 1.1179325565096225
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 1.1184265146216394
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 1.118767156826126
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 1.1190529624252719
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 1.1191826149808435
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 1.1192879428353115
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 1.1193428553077094
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 1.119380659650517
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 1.119396261271378
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 1.119401100790011
+  },
+  {
+    "dataset": "housing_led_tfr",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 1.119380518748795
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 0.03692546180996893
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 0.03586445969928638
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 0.035109727095691295
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 0.034399229911669445
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 0.033709015808015774
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 0.0330488678286133
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 0.03240983986367922
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 0.03181907944017567
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 0.03182326963249274
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 0.03182496851864885
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 0.031836255582227455
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 0.03185121752177612
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 0.03187075956986445
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 0.03188745198925286
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 0.031907453092663546
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 0.03192538893244937
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 0.0319409301859892
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 0.031955043274904
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 0.03196477590931788
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 0.0319729417835792
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 0.031976646142309814
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 0.03197965550958034
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 0.031981224437363134
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 0.03198230456144335
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 0.03198275032203937
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 0.03198288859400032
+  },
+  {
+    "dataset": "housing_led_asfr",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 0.03198230053567985
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 102064.77524690851
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 99731.58846227442
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 98236.83789547248
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 96841.18794080024
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 95487.9976898549
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 94204.49767747188
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 92944.00991519693
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 91764.62434371152
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 92245.98017720539
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 92694.2970530786
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 93168.8727162156
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 93688.1095517956
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 94285.22370840686
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 94949.58004528054
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 95676.3095078834
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 96408.69895801104
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 97105.9697719862
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 97715.40110497533
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 98180.85150672634
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 98468.93289298083
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 98565.6606966095
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 98479.79887235616
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 98213.77446833506
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 97793.97594447478
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 97241.38360688098
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 96582.13410841936
+  },
+  {
+    "dataset": "housing_led_births_by_mothers_age",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 95825.95666743415
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2012-01-01",
+    "b": "Low",
+    "y": 86146.63792451876
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2013-01-01",
+    "b": "Low",
+    "y": 81949.70768463412
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2014-01-01",
+    "b": "Low",
+    "y": 81492.50101032198
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2015-01-01",
+    "b": "Low",
+    "y": 77820.21332976795
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2016-01-01",
+    "b": "Low",
+    "y": 80759.17628274238
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2017-01-01",
+    "b": "Low",
+    "y": 77767.24509162805
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2018-01-01",
+    "b": "Low",
+    "y": 72775.21885001143
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2019-01-01",
+    "b": "Low",
+    "y": 70748.11573666564
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2020-01-01",
+    "b": "Low",
+    "y": 56708.22152620161
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2021-01-01",
+    "b": "Low",
+    "y": 54096.24073615885
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2022-01-01",
+    "b": "Low",
+    "y": 57576.21457828492
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2023-01-01",
+    "b": "Low",
+    "y": 51578.204525369605
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2024-01-01",
+    "b": "Low",
+    "y": 55357.0
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2025-01-01",
+    "b": "Low",
+    "y": 46962.268771960866
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2026-01-01",
+    "b": "Low",
+    "y": 42117.15018078505
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2027-01-01",
+    "b": "Low",
+    "y": 40288.734178045415
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2028-01-01",
+    "b": "Low",
+    "y": 38490.52491158168
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2029-01-01",
+    "b": "Low",
+    "y": 36673.16763406977
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2030-01-01",
+    "b": "Low",
+    "y": 34883.3181741221
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2031-01-01",
+    "b": "Low",
+    "y": 33092.93707820487
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2032-01-01",
+    "b": "Low",
+    "y": 31279.48916651638
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2033-01-01",
+    "b": "Low",
+    "y": 31062.3129574615
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2034-01-01",
+    "b": "Low",
+    "y": 30788.027599999426
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2035-01-01",
+    "b": "Low",
+    "y": 30536.34684178616
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2036-01-01",
+    "b": "Low",
+    "y": 30305.655302655883
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2037-01-01",
+    "b": "Low",
+    "y": 30076.99776522241
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2038-01-01",
+    "b": "Low",
+    "y": 30029.64720940635
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2039-01-01",
+    "b": "Low",
+    "y": 30074.42006940859
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2040-01-01",
+    "b": "Low",
+    "y": 30114.315344472838
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2041-01-01",
+    "b": "Low",
+    "y": 30101.786695199407
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2042-01-01",
+    "b": "Low",
+    "y": 29980.126053712636
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2043-01-01",
+    "b": "Low",
+    "y": 29687.113083041928
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2044-01-01",
+    "b": "Low",
+    "y": 29199.91554920451
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2045-01-01",
+    "b": "Low",
+    "y": 28503.5434041571
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2046-01-01",
+    "b": "Low",
+    "y": 27602.997839671123
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2047-01-01",
+    "b": "Low",
+    "y": 26510.75435053937
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2048-01-01",
+    "b": "Low",
+    "y": 25263.441548489543
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2049-01-01",
+    "b": "Low",
+    "y": 23899.23300044387
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2050-01-01",
+    "b": "Low",
+    "y": 22452.530335905525
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2051-01-01",
+    "b": "Low",
+    "y": 20944.803433537163
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2012-01-01",
+    "b": "Central",
+    "y": 86146.63792451876
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2013-01-01",
+    "b": "Central",
+    "y": 81949.70768463412
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2014-01-01",
+    "b": "Central",
+    "y": 81492.50101032198
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2015-01-01",
+    "b": "Central",
+    "y": 77820.21332976795
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2016-01-01",
+    "b": "Central",
+    "y": 80759.17628274238
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2017-01-01",
+    "b": "Central",
+    "y": 77767.24509162804
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2018-01-01",
+    "b": "Central",
+    "y": 72775.21885001143
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2019-01-01",
+    "b": "Central",
+    "y": 70748.11573666564
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2020-01-01",
+    "b": "Central",
+    "y": 56708.22152620161
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2021-01-01",
+    "b": "Central",
+    "y": 54096.24073615885
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2022-01-01",
+    "b": "Central",
+    "y": 57576.21457828492
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2023-01-01",
+    "b": "Central",
+    "y": 51578.20452536961
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2024-01-01",
+    "b": "Central",
+    "y": 55357.0
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2025-01-01",
+    "b": "Central",
+    "y": 51036.000060533566
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2026-01-01",
+    "b": "Central",
+    "y": 47340.416455054874
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2027-01-01",
+    "b": "Central",
+    "y": 46587.09872301983
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2028-01-01",
+    "b": "Central",
+    "y": 45841.06100866565
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2029-01-01",
+    "b": "Central",
+    "y": 45102.95769326756
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2030-01-01",
+    "b": "Central",
+    "y": 44435.202677920744
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2031-01-01",
+    "b": "Central",
+    "y": 43811.099791690416
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2032-01-01",
+    "b": "Central",
+    "y": 43314.80036542542
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2033-01-01",
+    "b": "Central",
+    "y": 43331.73434798745
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2034-01-01",
+    "b": "Central",
+    "y": 43295.297456850225
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2035-01-01",
+    "b": "Central",
+    "y": 43284.30696808211
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2036-01-01",
+    "b": "Central",
+    "y": 43299.20059880386
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2037-01-01",
+    "b": "Central",
+    "y": 43320.72164285953
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2038-01-01",
+    "b": "Central",
+    "y": 43527.51362611071
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2039-01-01",
+    "b": "Central",
+    "y": 43837.6460614126
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2040-01-01",
+    "b": "Central",
+    "y": 44142.02034192453
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2041-01-01",
+    "b": "Central",
+    "y": 44391.89630871308
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2042-01-01",
+    "b": "Central",
+    "y": 44524.84378069837
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2043-01-01",
+    "b": "Central",
+    "y": 44482.333412078486
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2044-01-01",
+    "b": "Central",
+    "y": 44237.78650445852
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2045-01-01",
+    "b": "Central",
+    "y": 43771.005751834644
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2046-01-01",
+    "b": "Central",
+    "y": 43095.38322939235
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2047-01-01",
+    "b": "Central",
+    "y": 42223.11993378367
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2048-01-01",
+    "b": "Central",
+    "y": 41194.5956614561
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2049-01-01",
+    "b": "Central",
+    "y": 40056.206668303144
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2050-01-01",
+    "b": "Central",
+    "y": 38847.60025553449
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2051-01-01",
+    "b": "Central",
+    "y": 37591.821912147076
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2012-01-01",
+    "b": "High",
+    "y": 86146.63792451876
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2013-01-01",
+    "b": "High",
+    "y": 81949.70768463411
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2014-01-01",
+    "b": "High",
+    "y": 81492.50101032197
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2015-01-01",
+    "b": "High",
+    "y": 77820.21332976795
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2016-01-01",
+    "b": "High",
+    "y": 80759.17628274238
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2017-01-01",
+    "b": "High",
+    "y": 77767.24509162805
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2018-01-01",
+    "b": "High",
+    "y": 72775.21885001143
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2019-01-01",
+    "b": "High",
+    "y": 70748.11573666564
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2020-01-01",
+    "b": "High",
+    "y": 56708.22152620161
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2021-01-01",
+    "b": "High",
+    "y": 54096.24073615885
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2022-01-01",
+    "b": "High",
+    "y": 57576.21457828492
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2023-01-01",
+    "b": "High",
+    "y": 51578.20452536961
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2024-01-01",
+    "b": "High",
+    "y": 55357.0
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2025-01-01",
+    "b": "High",
+    "y": 55334.55248167157
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2026-01-01",
+    "b": "High",
+    "y": 52631.10481631532
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2027-01-01",
+    "b": "High",
+    "y": 52883.8596367909
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2028-01-01",
+    "b": "High",
+    "y": 53191.00822906688
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2029-01-01",
+    "b": "High",
+    "y": 53601.4962906512
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2030-01-01",
+    "b": "High",
+    "y": 54197.52236536211
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2031-01-01",
+    "b": "High",
+    "y": 54943.92372992026
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2032-01-01",
+    "b": "High",
+    "y": 56040.97262944078
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2033-01-01",
+    "b": "High",
+    "y": 56373.55934517772
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2034-01-01",
+    "b": "High",
+    "y": 56676.5020117881
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2035-01-01",
+    "b": "High",
+    "y": 57013.14041841907
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2036-01-01",
+    "b": "High",
+    "y": 57379.89182286293
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2037-01-01",
+    "b": "High",
+    "y": 57760.856813959064
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2038-01-01",
+    "b": "High",
+    "y": 58330.58552154362
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2039-01-01",
+    "b": "High",
+    "y": 59023.01869602675
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2040-01-01",
+    "b": "High",
+    "y": 59717.3920646201
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2041-01-01",
+    "b": "High",
+    "y": 60360.115066115686
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2042-01-01",
+    "b": "High",
+    "y": 60880.556194256125
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2043-01-01",
+    "b": "High",
+    "y": 61226.25915171423
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2044-01-01",
+    "b": "High",
+    "y": 61364.742935073096
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2045-01-01",
+    "b": "High",
+    "y": 61265.985001845125
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2046-01-01",
+    "b": "High",
+    "y": 60956.65909277518
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2047-01-01",
+    "b": "High",
+    "y": 60447.56102056468
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2048-01-01",
+    "b": "High",
+    "y": 59784.91418933749
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2049-01-01",
+    "b": "High",
+    "y": 59030.64486275196
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2050-01-01",
+    "b": "High",
+    "y": 58230.17926007608
+  },
+  {
+    "dataset": "housing_led_natural_change",
+    "xd": "2051-01-01",
+    "b": "High",
+    "y": 57408.903045482424
+  }
+]

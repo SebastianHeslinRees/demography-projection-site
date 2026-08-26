@@ -1,19 +1,17 @@
 ---
-title: Development capacity
+title: Housing development
 description: Borough-level static choropleth maps of 10-year total capacity by input dataset
 section: Demography
-navLabel: Development capacity
+navLabel: Housing development
 ---
 
 <script>
     import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
-## Development capacity
+## Housing development
 
-These maps show borough-level totals from the 10-year capacity for various dwelling development datasets.
-
-***Note:* housing assumptions used in the projections for geographies below local authority level are not publicly available.*
+These maps show borough-level totals from the 10-year capacity for various types of dwelling development.
 
 Boroughs without a value in the source file are displayed as 0.
 
@@ -35,7 +33,7 @@ Boroughs without a value in the source file are displayed as 0.
 
 <Chart
  chart="Chart"
- title="Green Belts"
+ title="Green Belt"
  dataset="phased_lsoa_longertermgb"
  dataDownloadButton={false}
  imageDownloadButton={false}

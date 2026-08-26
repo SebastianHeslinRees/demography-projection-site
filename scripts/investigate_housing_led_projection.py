@@ -120,12 +120,15 @@ def build_housing_rows() -> tuple[list[dict], list[dict]]:
                 }
             )
 
-        latest_year_dir = max(year_dirs, key=lambda p: int(p.name.split('=')[1]))
-        latest_year = int(latest_year_dir.name.split('=')[1])
-        latest_frame = london_only_frame(read_year_frame(latest_year_dir))
+        age_structure_year = 2046
+        age_structure_dir = component_root / f'year={age_structure_year}'
+        if not age_structure_dir.exists():
+            raise RuntimeError(f'No housing-led age structure data found for year {age_structure_year}')
 
-        for age in sorted(latest_frame['age'].unique()):
-            age_total = float(latest_frame.loc[latest_frame['age'] == age, 'value'].sum())
+        age_frame = london_only_frame(read_year_frame(age_structure_dir))
+
+        for age in sorted(age_frame['age'].unique()):
+            age_total = float(age_frame.loc[age_frame['age'] == age, 'value'].sum())
             rows_by_dataset['housing_led_age_structure_median_age'].append(
                 {
                     'dataset': 'housing_led_age_structure_median_age',
@@ -149,9 +152,25 @@ def build_housing_rows() -> tuple[list[dict], list[dict]]:
         report_rows.append(
             {
                 'variant': variant_label,
-                'year': latest_year,
+                'year': age_structure_year,
                 'london_total': yearly_totals[-1][1],
                 'note': 'latest_year',
+            }
+        )
+
+    baseline_year = 2024
+    baseline_variant_dir = SOURCE_ROOT / VARIANT_SPECS[0][0] / 'geography=region' / 'component=population' / f'year={baseline_year}'
+    if not baseline_variant_dir.exists():
+        raise RuntimeError(f'No housing-led baseline age structure data found for year {baseline_year}')
+
+    baseline_frame = london_only_frame(read_year_frame(baseline_variant_dir))
+    for age in sorted(baseline_frame['age'].unique()):
+        rows_by_dataset['housing_led_age_structure_median_age'].append(
+            {
+                'dataset': 'housing_led_age_structure_median_age',
+                'xd': int(age),
+                'b': '2024 structure',
+                'y': float(baseline_frame.loc[baseline_frame['age'] == age, 'value'].sum()),
             }
         )
 

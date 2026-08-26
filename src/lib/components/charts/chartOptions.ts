@@ -115,6 +115,11 @@ export type ChartOptions = {
      */
     projectedStart?: string;
 
+    /**
+     * Optional explicit domain for the x-axis. Useful for tightening crowded time-series comparisons.
+     */
+    xDomain?: [string | number | Date, string | number | Date];
+
      /**
       * Can be used to override threshold color scale for a choropleth map.
       * TODO: may need to generalise to allow customization of colors on other map types too,
@@ -164,6 +169,18 @@ export const chartOptions: Record<string, ChartOptions> = {
             "domain": [-5, -1, 1, 5, 10, 15, 20],
             "range": ["#ef8a62", "#ef8a62", "#d9d9d9", "#67a9cf", "#4393c3", "#2166ac", "#08519c", "#08306b"]
         },
+    },
+
+    "housing_led_vs_trend_central_borough_difference": {
+        "chartType": "boroughChoropleth",
+        "type": "character",
+        "ytickformat": ".1f",
+        "x_order": null,
+        "timeperiod_type": null,
+        "colorScale": {
+            "domain": [-20, -10, -5, -1, 1, 5, 10, 20],
+            "range": ["#b2182b", "#d6604d", "#f4a582", "#fddbc7", "#d1e5f0", "#92c5de", "#4393c3", "#2166ac"]
+        }
     },
 
       "ward_population": {
@@ -340,12 +357,141 @@ export const chartOptions: Record<string, ChartOptions> = {
         projectedStart: "2024-01-01"
     },
 
+    "housing_led_population": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01"
+    },
+
+    "housing_led_births": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_deaths": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_natural_change": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_in_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_out_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_net_migration": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        includeZeroLine: true,
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_tfr": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".1f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_asfr": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".2f",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_births_by_mothers_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "date",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "Annual",
+        projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
     "housing_led_vs_trend_total_population": {
         "chartType": "lineChartWithForecast",
         "type": "date",
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -375,6 +521,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": "Annual",
         includeZeroLine: true,
         numTicks: 4,
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -410,7 +557,7 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Central",
                 "Trend - High",
                 "Trend - Low",
-                "Trend - 2022 structure"
+                "Trend - 2024 structure"
             ],
             "range": [
                 "#f59e0b",
@@ -430,6 +577,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -457,6 +605,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -484,6 +633,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -511,6 +661,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [

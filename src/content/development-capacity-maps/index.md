@@ -1,15 +1,15 @@
 ---
-title: Development capacity
+title: Housing development
 description: Borough-level static choropleth maps of 10-year total capacity by input dataset
 section: Demography
-navLabel: Development capacity
+navLabel: Housing development
 ---
 
 <script>
     import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
-## Development capacity
+## Housing development
 
 These maps show borough-level totals from the 10-year capacity for various dwelling development datasets.
 

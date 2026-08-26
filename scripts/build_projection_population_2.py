@@ -92,14 +92,14 @@ def build_rows() -> list[dict]:
                 }
             )
 
-    # Add the baseline 2022 structure once.
-    baseline_frame = read_london_year_frame('variant=ppt13', 2022)
+    # Add the baseline 2024 structure once.
+    baseline_frame = read_london_year_frame('variant=ppt13', 2024)
     for age in sorted(baseline_frame['age'].unique()):
         rows.append(
             {
                 'dataset': 'proj2_age_structure_median_age',
                 'xd': int(age),
-                'b': '2022 structure',
+                'b': '2024 structure',
                 'y': float(baseline_frame.loc[baseline_frame['age'] == age, 'value'].sum()),
             }
         )

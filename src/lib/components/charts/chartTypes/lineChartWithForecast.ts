@@ -3,6 +3,7 @@ import {theme} from "@ldn-viz/ui";
 import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
 
 import {extent, ticks, tickStep} from "d3-array";
+import { formatAxisTick, makeTooltip } from "../utils";
 
 const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
 
@@ -40,11 +41,25 @@ const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
 
 const getComparableX = (value: ChartDataRow['xd']) => value instanceof Date ? value.getTime() : value;
 
+export const filterDataToXDomain = (data: ChartDataRow[], options: ChartOptions) => {
+    if (!options.xDomain || options.type !== 'date') return data;
+
+    const [start, end] = options.xDomain.map((value) =>
+        value instanceof Date ? value : new Date(value as string | number)
+    ) as [Date, Date];
+
+    return data.filter((row) => {
+        if (!(row.xd instanceof Date)) return true;
+        return row.xd >= start && row.xd <= end;
+    });
+};
+
 export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[], colorChoice: ColorChoice) => {
-    const yDomain = options.yDomain ?? getDomain(data, options);
+    const filteredData = filterDataToXDomain(data, options);
+    const yDomain = options.yDomain ?? getDomain(filteredData, options);
 
     const lastXBySeries = new Map<string, ChartDataRow['xd']>();
-    for (const row of data) {
+    for (const row of filteredData) {
         const current = lastXBySeries.get(row.b);
         if (current == null || getComparableX(row.xd) > getComparableX(current)) {
             lastXBySeries.set(row.b, row.xd);
@@ -60,7 +75,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
 
     const projectedMarks = hasProjectedShading
         ? (() => {
-            const xVals = data
+            const xVals = filteredData
                 .map((d) => d.xd)
                 .filter((d): d is Date => d instanceof Date);
             if (xVals.length === 0) return [];
@@ -107,22 +122,22 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
     const lineMarks = (() => {
         if (!hasProjectedShading) {
             return [
-                Plot.line(data, {
+                Plot.line(filteredData, {
                     x: "xd",
                     y: "y",
                     z: "b",
                     fx: options.faceted ? 'z2' : undefined,
                     stroke: "b",
-                    title: d => [d.b, d.xd, d.y].join("\n"),
+                    title: makeTooltip(options),
                     tip: "xy"
                 })
             ];
         }
 
         const projectedStart = new Date(options.projectedStart as string);
-        const dateData = data.filter((d): d is ChartDataRow & { xd: Date } => d.xd instanceof Date);
+        const dateData = filteredData.filter((d): d is ChartDataRow & { xd: Date } => d.xd instanceof Date);
 
-        const historicalData = dateData.filter((d) => d.xd < projectedStart);
+        const historicalData = dateData.filter((d) => d.xd <= projectedStart);
 
         const grouped = new Map<string, (ChartDataRow & { xd: Date })[]>();
         for (const row of dateData) {
@@ -137,7 +152,6 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
             const firstProjectedIdx = rows.findIndex((r) => r.xd >= projectedStart);
 
             if (firstProjectedIdx === -1) continue;
-            if (firstProjectedIdx > 0) projectedData.push(rows[firstProjectedIdx - 1]);
             projectedData.push(...rows.slice(firstProjectedIdx));
         }
 
@@ -148,7 +162,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
                 z: "b",
                 fx: options.faceted ? 'z2' : undefined,
                 stroke: "b",
-                title: d => [d.b, d.xd, d.y].join("\n"),
+                title: makeTooltip(options),
                 tip: "xy"
             }),
             Plot.line(projectedData, {
@@ -158,7 +172,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
                 fx: options.faceted ? 'z2' : undefined,
                 stroke: "b",
                 strokeDasharray: "5,4",
-                title: d => [d.b, d.xd, d.y].join("\n"),
+                title: makeTooltip(options),
                 tip: "xy"
             })
         ];
@@ -173,6 +187,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
         // 'Financial year' values are like "2013-14"
         type: options.timeperiod_type === 'Financial Year' ? "point" : undefined,
         tickFormat: options.timeperiod_type === 'Financial Year' ? (d: unknown, i: number) => (i % 2 === 0 ? d : "") : undefined,
+        domain: options.xDomain ? options.xDomain.map((d) => d instanceof Date ? d : typeof d === 'string' ? new Date(d) : d) as [Date | number, Date | number] : undefined,
 
         ticks: 5
     },
@@ -201,7 +216,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
         Plot.gridY(),
 
         Plot.axisY({
-            tickFormat: options.ytickformat
+            tickFormat: (d: unknown) => formatAxisTick(Number(d), options.ytickformat)
         }),
 
         ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
@@ -225,7 +240,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
         // Label end-point with b when the series do not all terminate at the same x-value,
         // or when the comparison is small enough that labels remain readable.
         ...(!shouldSuppressEndpointLabels ? [
-            Plot.dot(data, Plot.selectLast({
+            Plot.dot(filteredData, Plot.selectLast({
                     x: "xd",
                     y: "y",
                     fx: options.faceted ? 'z2' : undefined,
@@ -238,7 +253,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
                 })
             ),
 
-            Plot.text(data, Plot.selectLast({
+            Plot.text(filteredData, Plot.selectLast({
                     x: "xd",
                     y: "y",
                     fx: options.faceted ? 'z2' : undefined,

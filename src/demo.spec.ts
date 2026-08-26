@@ -1,8 +1,28 @@
 import { describe, it, expect } from 'vitest';
-import { lineChartWithForecast } from './lib/components/charts/chartTypes/lineChartWithForecast';
-import { getColorChoice, loadChartData, sortChartData } from './lib/components/charts/utils';
+import { filterDataToXDomain, lineChartWithForecast } from './lib/components/charts/chartTypes/lineChartWithForecast';
+import { formatAxisTick, getColorChoice, loadChartData, makeTooltip, sortChartData } from './lib/components/charts/utils';
 
 describe('comparison chart colors', () => {
+	it('formats tooltip dates as years and rounds values to whole numbers by default', () => {
+		const tooltip = makeTooltip({});
+		const row = { dataset: 'proj_total_population', xd: new Date('2024-01-01T00:00:00Z'), b: 'Central', y: 12345.67 };
+
+		expect(tooltip(row)).toBe('Central\n2024\n12,346');
+	});
+
+	it('ignores compact SI axis formats for tooltips so hover values stay as whole numbers', () => {
+		const tooltip = makeTooltip({ ytickformat: '.0s' });
+		const row = { dataset: 'proj_total_population', xd: new Date('2024-01-01T00:00:00Z'), b: 'Central', y: 9923644.42 };
+
+		expect(tooltip(row)).toBe('Central\n2024\n9,923,644');
+	});
+
+	it('formats million-scale y-axis labels as readable millions instead of repeated compact SI labels', () => {
+		expect(formatAxisTick(9300000, '.0s')).toBe('9.3M');
+		expect(formatAxisTick(10000000, '.0s')).toBe('10.0M');
+		expect(formatAxisTick(11000000, '.0s')).toBe('11.0M');
+	});
+
 	it('keeps the full comparison scale object so series map to the intended colours', () => {
 		const options = {
 			colorScale: {
@@ -55,6 +75,29 @@ describe('comparison chart colors', () => {
 		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Low')).toBe(true);
 		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Central')).toBe(true);
 		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'High')).toBe(true);
+	});
+
+	it('removes pre-domain line trails when xDomain is set on a forecast chart', () => {
+		const data = [
+			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2020-01-01'), b: 'Trend - Central', y: 1000 },
+			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2021-01-01'), b: 'Trend - Central', y: 1100 },
+			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2022-01-01'), b: 'Trend - Central', y: 1200 },
+			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2030-01-01'), b: 'Trend - Central', y: 1400 }
+		];
+
+		const filtered = filterDataToXDomain(data, {
+			type: 'date',
+			timeperiod_type: 'Annual',
+			xDomain: [new Date('2021-01-01'), new Date('2030-01-01')],
+			ytickformat: '.0s',
+			x_order: null
+		});
+
+		expect(filtered.map((row) => row.xd)).toEqual([
+			new Date('2021-01-01'),
+			new Date('2022-01-01'),
+			new Date('2030-01-01')
+		]);
 	});
 
 	it('keeps each series grouped by series name when plotting comparison lines', () => {
@@ -134,6 +177,30 @@ describe('comparison chart colors', () => {
 		});
 
 		expect(textMarks).toHaveLength(0);
+	});
+
+	it('starts the dashed projected line exactly at the forecast start year', () => {
+		const data = [
+			{ dataset: 'proj_total_population', xd: new Date('2023-01-01'), b: 'Central', y: 1000 },
+			{ dataset: 'proj_total_population', xd: new Date('2024-01-01'), b: 'Central', y: 1100 },
+			{ dataset: 'proj_total_population', xd: new Date('2025-01-01'), b: 'Central', y: 1200 }
+		];
+
+		const spec = lineChartWithForecast(
+			{ type: 'date', timeperiod_type: 'Annual', projectedStart: '2024-01-01' },
+			data,
+			{ domain: ['Central'], range: ['#111827'] }
+		);
+
+		const projectedLine = spec.marks.find((mark) => {
+			if (!mark || typeof mark !== 'object' || Array.isArray(mark)) return false;
+			return 'strokeDasharray' in mark && Array.isArray((mark as { data?: unknown[] }).data);
+		}) as { data?: Array<Record<string, unknown>> } | undefined;
+
+		const projectedLineText = JSON.stringify(projectedLine);
+		expect(projectedLineText).toContain('2024-01-01');
+		expect(projectedLineText).not.toContain('2023-01-01');
+		expect(JSON.stringify(spec.marks)).toContain('2024-01-01');
 	});
 
 	it('builds projection population 2 chart specs without throwing', async () => {

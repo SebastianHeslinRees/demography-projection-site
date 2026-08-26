@@ -1,8 +1,8 @@
 ---
-title: Housing-led projected population
+title: Housing-led population
 description: Total population projections under the London Plan housing-led variants
 section: Demography
-navLabel: Housing-led projected population
+navLabel: Housing-led population
 ---
 
 <script>
@@ -42,7 +42,7 @@ The chart shows London total population from the housing-led variants supplied i
 <Chart
  chart="Chart"
  title="Age structure, London"
- subtitle="Population by single year of age (persons), London Plan central, high and low housing-led variants"
+ subtitle="Population by single year of age (persons): 2024 structure and 2046 variant projections"
  dataset="housing_led_age_structure_median_age"
  byline="GLA City Intelligence"
  source="Housing-led projections derived from the provided HL output"

@@ -7,6 +7,10 @@ navLabel: Housing-led projection vs Trend projections
 
 <script>
     import Chart from "$lib/components/charts/Chart.svelte";
+    import HousingLedVsTrendBoroughDifferenceChoropleth from "$lib/components/charts/HousingLedVsTrendBoroughDifferenceChoropleth.svelte";
+    import YearSlider from "$lib/components/charts/YearSlider.svelte";
+
+    let selectedYear = $state(2051);
 </script>
 
 ## Total population
@@ -27,17 +31,6 @@ navLabel: Housing-led projection vs Trend projections
  title="Annual population change, London"
  subtitle="Year-on-year population change (persons), trend low, central and high vs housing-led low, central and high"
  dataset="housing_led_vs_trend_annual_population_change"
- byline="GLA City Intelligence"
- source="Housing-led and trend-based projections"
- />
-
-## Age structure
-
-<Chart
- chart="Chart"
- title="Age structure, London"
- subtitle="Population by single year of age (persons), trend low, central and high vs housing-led low, central and high"
- dataset="housing_led_vs_trend_age_structure"
  byline="GLA City Intelligence"
  source="Housing-led and trend-based projections"
  />
@@ -79,3 +72,18 @@ navLabel: Housing-led projection vs Trend projections
  byline="GLA City Intelligence"
  source="Housing-led and trend-based projections"
  />
+
+## Borough percentage difference in the central projection
+
+This map shows the percentage difference between the central housing-led and trend projections for each borough in a selected year. For example, in 2051, Havering is projected have 13% more population under the housing-led projection than under the trend projection.
+
+<HousingLedVsTrendBoroughDifferenceChoropleth
+  {selectedYear}
+  title="Percentage difference in population of each borough"
+  dataset="housing_led_vs_trend_central_borough_difference"
+  byline="GLA City Intelligence"
+  source="Housing-led and trend-based projections">
+    {#snippet controls()}
+        <YearSlider baseYear={2024} bind:selectedYear />
+    {/snippet}
+</HousingLedVsTrendBoroughDifferenceChoropleth>
