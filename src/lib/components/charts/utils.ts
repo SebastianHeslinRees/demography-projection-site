@@ -213,13 +213,12 @@ export function makeTooltip(
 		'tooltipFormatValue' | 'ytickformat' | 'tooltipFormatDate'
 	>
 ): (d: ChartDataRow) => string {
-	const spec = options.tooltipFormatValue ?? options.ytickformat;
+	const rawSpec = options.tooltipFormatValue ?? options.ytickformat ?? ',.0f';
+	const spec = rawSpec.includes('s') ? ',.0f' : rawSpec;
 	// N.B. we need to define the format locale to ensure the currency formatter is set to use £ rather than $
-	const valueFormatter = spec
-		? formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec)
-		: undefined;
+	const valueFormatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec);
 
-	const dateFormat = options.tooltipFormatDate ?? '%d %B %Y';
+	const dateFormat = options.tooltipFormatDate ?? '%Y';
 	const dateFormatter = utcFormat(dateFormat);
 
 	return (d: ChartDataRow) => getTooltip(d, dateFormatter, valueFormatter);

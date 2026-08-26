@@ -29,13 +29,13 @@ export const navigation = [
 		children: []
 	},
 	{
-		title: 'Trend-based population projections',
+		title: 'Trend-based population',
 		id: 'projection-population-2',
 		href: '/projection-population-2',
 		children: []
 	},
 	{
-		title: 'Housing-led projected population',
+		title: 'Housing-led population',
 		id: 'housing-led-projected-population',
 		href: '/housing-led-projected-population',
 		children: []
@@ -47,13 +47,13 @@ export const navigation = [
 		children: []
 	},
 	{
-		title: 'Development capacity',
+		title: 'Housing development',
 		id: 'development-capacity',
 		href: '/development-capacity',
 		children: []
 	},
 	{
-		title: 'Components of change',
+		title: 'Trend-based components',
 		id: 'components-of-change',
 		href: '/components-of-change',
 		children: []

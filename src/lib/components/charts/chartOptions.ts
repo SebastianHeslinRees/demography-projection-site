@@ -115,6 +115,11 @@ export type ChartOptions = {
      */
     projectedStart?: string;
 
+    /**
+     * Optional explicit domain for the x-axis. Useful for tightening crowded time-series comparisons.
+     */
+    xDomain?: [string | number | Date, string | number | Date];
+
      /**
       * Can be used to override threshold color scale for a choropleth map.
       * TODO: may need to generalise to allow customization of colors on other map types too,
@@ -346,6 +351,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -375,6 +381,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "timeperiod_type": "Annual",
         includeZeroLine: true,
         numTicks: 4,
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -410,7 +417,7 @@ export const chartOptions: Record<string, ChartOptions> = {
                 "Trend - Central",
                 "Trend - High",
                 "Trend - Low",
-                "Trend - 2022 structure"
+                "Trend - 2024 structure"
             ],
             "range": [
                 "#f59e0b",
@@ -430,6 +437,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -457,6 +465,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -484,6 +493,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".0s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [
@@ -511,6 +521,7 @@ export const chartOptions: Record<string, ChartOptions> = {
         "ytickformat": ".1s",
         "x_order": null,
         "timeperiod_type": "Annual",
+        "xDomain": ["2021-01-01", "2051-01-01"],
         projectedStart: "2024-01-01",
         "colorScale": {
             "domain": [

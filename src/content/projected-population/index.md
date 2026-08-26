@@ -59,7 +59,7 @@ In all variants the number of children age 0 to 17 is projected to fall from an 
 <Chart
  chart="Chart"
  title="Population age structure, London"
- subtitle="Population by single year of age (persons): 2022 structure and 2046 variant projections"
+ subtitle="Population by single year of age (persons): 2024 structure and 2046 variant projections"
  dataset="proj_age_structure_median_age"
  byline="GLA City Intelligence"
  source="GLA 2024-based population projections"
