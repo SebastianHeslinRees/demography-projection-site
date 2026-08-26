@@ -11,9 +11,7 @@ navLabel: Housing development
 
 ## Housing development
 
-These maps show borough-level totals from the 10-year capacity for various dwelling development datasets.
-
-***Note:* housing assumptions used in the projections for geographies below local authority level are not publicly available.*
+These maps show borough-level totals from the 10-year capacity for various types of dwelling development.
 
 Boroughs without a value in the source file are displayed as 0.
 

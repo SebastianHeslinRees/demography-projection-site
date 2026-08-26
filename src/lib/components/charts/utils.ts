@@ -228,6 +228,19 @@ export function makeTooltip(
 	return (d: ChartDataRow) => getTooltip(d, dateFormatter, valueFormatter);
 }
 
+export const formatAxisTick = (value: number, spec?: string | null): string => {
+	if (spec?.includes('s')) {
+		const abs = Math.abs(value);
+		if (abs >= 1_000_000) {
+			const millions = value / 1_000_000;
+			return `${millions.toFixed(1)}M`;
+		}
+	}
+
+	const formatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec ?? ',.0f');
+	return formatter(value);
+};
+
 export const getColorScale = (data: ChartDataRow[]) => {
 	let domain = new Array(...new Set(data.map((d) => d.b))).sort();
 

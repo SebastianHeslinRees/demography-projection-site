@@ -75,6 +75,8 @@ navLabel: Housing-led projection vs Trend projections
 
 ## Borough percentage difference in the central projection
 
+This map shows the percentage difference between the central housing-led and trend projections for each borough in a selected year. For example, in 2051, Havering is projected have 13% more population under the housing-led projection than under the trend projection.
+
 <HousingLedVsTrendBoroughDifferenceChoropleth
   {selectedYear}
   title="Percentage difference in population of each borough"

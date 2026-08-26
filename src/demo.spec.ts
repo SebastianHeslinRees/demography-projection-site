@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { filterDataToXDomain, lineChartWithForecast } from './lib/components/charts/chartTypes/lineChartWithForecast';
-import { getColorChoice, loadChartData, makeTooltip, sortChartData } from './lib/components/charts/utils';
+import { formatAxisTick, getColorChoice, loadChartData, makeTooltip, sortChartData } from './lib/components/charts/utils';
 
 describe('comparison chart colors', () => {
 	it('formats tooltip dates as years and rounds values to whole numbers by default', () => {
@@ -15,6 +15,12 @@ describe('comparison chart colors', () => {
 		const row = { dataset: 'proj_total_population', xd: new Date('2024-01-01T00:00:00Z'), b: 'Central', y: 9923644.42 };
 
 		expect(tooltip(row)).toBe('Central\n2024\n9,923,644');
+	});
+
+	it('formats million-scale y-axis labels as readable millions instead of repeated compact SI labels', () => {
+		expect(formatAxisTick(9300000, '.0s')).toBe('9.3M');
+		expect(formatAxisTick(10000000, '.0s')).toBe('10.0M');
+		expect(formatAxisTick(11000000, '.0s')).toBe('11.0M');
 	});
 
 	it('keeps the full comparison scale object so series map to the intended colours', () => {

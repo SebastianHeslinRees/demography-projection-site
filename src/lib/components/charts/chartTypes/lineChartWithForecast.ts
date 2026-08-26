@@ -3,7 +3,7 @@ import {theme} from "@ldn-viz/ui";
 import type {ChartOptions, ChartDataRow, ColorChoice} from "../chartOptions";
 
 import {extent, ticks, tickStep} from "d3-array";
-import { makeTooltip } from "../utils";
+import { formatAxisTick, makeTooltip } from "../utils";
 
 const getDomain = (data: ChartDataRow[], options: ChartOptions) => {
 
@@ -216,7 +216,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
         Plot.gridY(),
 
         Plot.axisY({
-            tickFormat: options.ytickformat
+            tickFormat: (d: unknown) => formatAxisTick(Number(d), options.ytickformat)
         }),
 
         ...((options.includeZero || options.includeZeroLine) ? [Plot.ruleY([0])] : []),
