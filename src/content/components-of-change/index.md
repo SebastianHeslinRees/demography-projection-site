@@ -9,7 +9,7 @@ navLabel: Trend-based components
 import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
-## Background
+### Background
 Changes to the size of the total population occur through three mechanisms – often referred to as components of change – these are births, deaths, and migration.   
 
 Natural change, which is the difference between the number of births and deaths, is higher for London than for the rest of the country and has been the largest direct contributor to London's population growth over recent decades.  
@@ -18,7 +18,7 @@ London experiences very high levels of population turnover through migration, wi
 
 While the headline numbers may suggest that migration makes only a relatively modest contribution to London’s population growth, it is the scale and differences in the characteristics of flows to and from London – with net inflows of young adults and net outflows of every other age group – that give rise to its comparatively youthful population and, in turn, its high levels of natural change. 
 
-## Migration
+### Migration
 
 Projected migration rates and flows used in the core variants are based on the periods: 
 - Central: 2011-12 to 2023-24 (13 years) 
@@ -80,7 +80,7 @@ By the end of the projection period total net outflows reach –20k to –23k, a
  source="GLA 2024-based population projections"
  />
 
-## Births, deaths & natural change
+### Births, deaths & natural change
 
 Despite mortality rates falling over time in each of the core variants, numbers of annual deaths rise steadily as the population ages, from 51k in 2024 to: 
 - 75k (low) 
