@@ -23,6 +23,7 @@ import housingLedWardPopulationData from "$lib/data/housingLedWardPopulationData
 import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
 import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
 import housingLedComponentsData from "$lib/data/HousingLedComponentsData.json" with { type: "json" };
+import housingLedFertilityAgeData from "$lib/data/HousingLedFertilityAgeData.json" with { type: "json" };
 import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
 import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
 
@@ -56,6 +57,7 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
     .concat(housingLedProjectedPopulationData as ChartDataRow[])
     .concat(housingLedVsTrendProjectionData as ChartDataRow[])
     .concat(housingLedComponentsData as ChartDataRow[])
+    .concat(housingLedFertilityAgeData as ChartDataRow[])
     .filter((d) => d.dataset === dataset);
 }
 

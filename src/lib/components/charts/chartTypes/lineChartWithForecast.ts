@@ -180,7 +180,7 @@ export const lineChartWithForecast = (options: ChartOptions, data: ChartDataRow[
 
     return {
     x: {
-        label: null,
+        label: options.xAxisLabel ?? null,
         insetLeft: 80,
         insetRight: options.insetRight ?? 120, // need space for labels to right of plot
 

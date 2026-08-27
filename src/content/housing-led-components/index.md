@@ -7,6 +7,46 @@ navLabel: Housing-led components
 
 <script>
 import Chart from "$lib/components/charts/Chart.svelte";
+import YearSlider from "$lib/components/charts/YearSlider.svelte";
+import fertilityAgeData from "$lib/data/HousingLedFertilityAgeData.json" with { type: "json" };
+
+let selectedYear = $state(2025);
+
+const smoothAgeSeries = (series) => {
+  const sorted = [...series].sort((a, b) => a.xd - b.xd);
+
+  return sorted.map((row, index) => {
+    const start = Math.max(0, index - 2);
+    const end = Math.min(sorted.length - 1, index + 2);
+    let weightedTotal = 0;
+    let weightTotal = 0;
+
+    for (let i = start; i <= end; i += 1) {
+      const weight = Math.abs(i - index) === 2 ? 1 : Math.abs(i - index) === 1 ? 2 : 3;
+      weightedTotal += sorted[i].y * weight;
+      weightTotal += weight;
+    }
+
+    return { ...row, y: weightedTotal / weightTotal };
+  });
+};
+
+const filteredFertilityData = (dataset) => {
+  const bySeries = new Map();
+  // range input values arrive as strings, so compare years numerically
+  const year = Number(selectedYear);
+
+  fertilityAgeData
+    .filter((row) => row.dataset === dataset && Number(row.year) === year)
+    .forEach((row) => {
+      if (!bySeries.has(row.b)) bySeries.set(row.b, []);
+      bySeries.get(row.b).push(row);
+    });
+
+  return [...bySeries.entries()].flatMap(([seriesName, rows]) =>
+    smoothAgeSeries(rows).map((row) => ({ ...row, b: seriesName }))
+  );
+};
 </script>
 
 London’s projected population changes reflect the combined effect of births, deaths and migration.
@@ -83,27 +123,31 @@ The age-specific fertility rate (ASFR) profile and total fertility rate (TFR) de
 
 <Chart
  chart="Chart"
+ dataset="housing_led_tfr"
  title="Total fertility rate, London"
  subtitle="Total fertility rate"
- dataset="housing_led_tfr"
  byline="GLA City Intelligence"
  source="Housing-led population projections"
  />
 
+<YearSlider bind:selectedYear label="Year" />
+
 <Chart
  chart="Chart"
+ dataset="housing_led_asfr_age"
  title="Age-specific fertility rate, London"
- subtitle="Age-specific fertility rate"
- dataset="housing_led_asfr"
+ subtitle="Age-specific fertility rate by mother's age, selected year"
+ data={filteredFertilityData("housing_led_asfr_age")}
  byline="GLA City Intelligence"
  source="Housing-led population projections"
  />
 
 <Chart
  chart="Chart"
+ dataset="housing_led_births_by_mothers_age_age"
  title="Births by mother's age, London"
- subtitle="Births by mother's age"
- dataset="housing_led_births_by_mothers_age"
+ subtitle="Births by mother's age, selected year"
+ data={filteredFertilityData("housing_led_births_by_mothers_age_age")}
  byline="GLA City Intelligence"
  source="Housing-led population projections"
  />

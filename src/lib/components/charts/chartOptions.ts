@@ -9,6 +9,11 @@ export type ChartOptions = {
     type: 'character' | 'date' | 'integer';
 
     /**
+     * Label to use on the x-axis for charts whose x variable is not time.
+     */
+    xAxisLabel?: string | null;
+
+    /**
      * Specific type of date that `xd` is (if it is a date).
      */
     timeperiod_type:
@@ -459,6 +464,19 @@ export const chartOptions: Record<string, ChartOptions> = {
         }
     },
 
+    "housing_led_tfr_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "integer",
+        "ytickformat": ".1f",
+        "x_order": null,
+        "timeperiod_type": "year",
+        "xAxisLabel": "Age",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
     "housing_led_asfr": {
         "chartType": "lineChartWithForecast",
         "type": "date",
@@ -472,6 +490,19 @@ export const chartOptions: Record<string, ChartOptions> = {
         }
     },
 
+    "housing_led_asfr_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "integer",
+        "ytickformat": ".2f",
+        "x_order": null,
+        "timeperiod_type": "year",
+        "xAxisLabel": "Age",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
     "housing_led_births_by_mothers_age": {
         "chartType": "lineChartWithForecast",
         "type": "date",
@@ -479,6 +510,19 @@ export const chartOptions: Record<string, ChartOptions> = {
         "x_order": null,
         "timeperiod_type": "Annual",
         projectedStart: "2024-01-01",
+        "colorScale": {
+            "domain": ["Low", "Central", "High"],
+            "range": ["#1d4ed8", "#f59e0b", "#d97706"]
+        }
+    },
+
+    "housing_led_births_by_mothers_age_age": {
+        "chartType": "lineChartWithForecast",
+        "type": "integer",
+        "ytickformat": ".0s",
+        "x_order": null,
+        "timeperiod_type": "year",
+        "xAxisLabel": "Age",
         "colorScale": {
             "domain": ["Low", "Central", "High"],
             "range": ["#1d4ed8", "#f59e0b", "#d97706"]
