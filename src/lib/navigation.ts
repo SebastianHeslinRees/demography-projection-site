@@ -65,12 +65,6 @@ export const navigation = [
 		children: []
 	},
 	{
-		title: 'Interpreting the results',
-		id: 'interpreting-the-results',
-		href: '/interpreting-the-results',
-		children: []
-	},
-	{
 		title: 'Data sources',
 		id: 'data-sources',
 		href: '/data-sources',

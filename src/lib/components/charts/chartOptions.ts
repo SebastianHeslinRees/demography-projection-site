@@ -912,7 +912,7 @@ export const chartOptions: Record<string, ChartOptions> = {
     "births": {
         "chartType": "lineChartWithForecast",
         "type": "date",
-        "ytickformat": ".0s",
+        "ytickformat": ".2s",
         "x_order": null,
         "timeperiod_type": "Annual",
         projectedStart: "2024-01-01"
