@@ -1,6 +1,6 @@
 ---
 title: Housing development
-description: Borough-level static choropleth maps of 10-year total capacity by input dataset
+description: Housing capacity by component
 section: Demography
 navLabel: Housing development
 ---
@@ -11,9 +11,12 @@ navLabel: Housing development
 
 ## Housing development
 
-These maps show borough-level totals from the 10-year capacity for various types of dwelling development.
+The housing-led projections incorporate development assumptions derived from the [2026 London Strategic Housing Land Availability Assessment (SHLAA)](https://www.london.gov.uk/media/113854/download?attachment). 
 
-Boroughs without a value in the source file are displayed as 0.
+These maps show total 10-year capacity by local authority for each of the components identified in the SHLAA.
+
+## Large sites
+This comprises the total capacity from large development sites (>0.25 hectares) which are assessed as developable through the SHLAA process. For further details see Chapter 7 of the SHLAA report.
 
 <Chart
  chart="Chart"
@@ -23,6 +26,9 @@ Boroughs without a value in the source file are displayed as 0.
  imageDownloadButton={false}
  />
 
+## Industrial sites
+This comprises the potential capacity for additional industrial release to contribute towards housing delivery. These figures are indicated as potential additional capacity which could be delivered within the 10-year period of the London Plan housing targets, in addition to already defined proposals on industrial land counted as part of the large sites component.
+
 <Chart
  chart="Chart"
  title="Industrial Sites"
@@ -30,6 +36,9 @@ Boroughs without a value in the source file are displayed as 0.
  dataDownloadButton={false}
  imageDownloadButton={false}
  />
+
+## Green Belt
+An indicative housing capacity has been identified in several boroughs through consideration of limited release of Green Belt in sustainable locations. This is detailed in Chapter 13 of the SHLAA report.
 
 <Chart
  chart="Chart"
@@ -39,6 +48,9 @@ Boroughs without a value in the source file are displayed as 0.
  imageDownloadButton={false}
  />
 
+## Small sites
+This component of supply represents the contribution from small sites modelled based on an uplift in rates beyond historic windfall to account for the anticipated effects of policy interventions. The background to this is set out in Chapter 8 and 9 of the SHLAA report. 
+
 <Chart
  chart="Chart"
  title="Small Sites"
@@ -47,9 +59,9 @@ Boroughs without a value in the source file are displayed as 0.
  imageDownloadButton={false}
  />
 
-## Cumulative London totals by dataset
+## Cumulative London totals by component
 
-This line chart shows the cumulative total development capacity for London across the four datasets.
+This line chart shows the cumulative total development capacity for London across the four components.
 
 <Chart
  chart="Chart"
