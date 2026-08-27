@@ -1,4 +1,5 @@
 <script lang="ts">
+  import PageNav from '$lib/components/pageNav/PageNav.svelte';
 	import type { PageProps } from './$types';
 
 	let { data }: PageProps = $props();
@@ -12,6 +13,4 @@
 
 <PageComponent />
 
-<!--
 <PageNav />
- -->
