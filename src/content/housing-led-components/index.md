@@ -66,12 +66,12 @@ Housing-led migration flows follow the same structural logic as the trend-based 
  source="Housing-led population projections"
  />
 
-### International & domestic net migration
+### Migration inflows & outflows
 
 <Chart
  chart="Chart"
- title="International net migration, London"
- subtitle="Net international migration (thousands)"
+ title="Migration inflows, London"
+ subtitle="In-migration (thousands)"
  dataset="housing_led_in_migration"
  byline="GLA City Intelligence"
  source="Housing-led population projections"
@@ -79,8 +79,8 @@ Housing-led migration flows follow the same structural logic as the trend-based 
 
 <Chart
  chart="Chart"
- title="Domestic net migration, London"
- subtitle="Net domestic migration (thousands)"
+ title="Migration outflows, London"
+ subtitle="Out-migration (thousands)"
  dataset="housing_led_out_migration"
  byline="GLA City Intelligence"
  source="Housing-led population projections"
