@@ -1,6 +1,6 @@
 ---
 title: Trend-based components
-description: Births, deaths and migration components used to interpret projected population change
+description: Births, deaths and migration
 section: Demography
 navLabel: Trend-based components
 ---
