@@ -19,7 +19,7 @@ London experiences very high levels of population turnover through migration, wi
 While the headline numbers may suggest that migration makes only a relatively modest contribution to London’s population growth, it is the scale and differences in the characteristics of flows to and from London – with net inflows of young adults and net outflows of every other age group – that give rise to its comparatively youthful population and, in turn, its high levels of natural change. 
 
 | Variant | Year | Total net migration | Natural change | Total change |
-|  --- | --- | --- | --- | --- | --- | --- |
+|  --- | --- | --- | --- | --- | --- | 
 | estimate | 2011-12 | +27,350 | +86,000 | +113,00 |
 | estimate | 2023-24 |  +19,000 | +55,000 | +74,000 |
 | trend-based low | 2035-36 | -3,000 | +32,000 | +29,000 |
@@ -44,7 +44,7 @@ These totals are comprised of:
 While international flows remain fixed over the projection period, internal migration varies as the populations within and outside of London change. Projected net outflows from London tend to increase over time as the city grows. By the end of the projection period, total net outflows are similar across the variants, ranging from –21k (low) to –23k (high). 
 
  Variant | Year | Total net | International net | Internal net |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | estimate | 2011-12 | +27,350 | +78,000 | -50,000 |
 | estimate | 2023-24 | +19,000 | +147,000 | -128,000 |
 | trend-based low | 2035-36 |-3,000 | +115,000 | -117,000 |
@@ -106,7 +106,7 @@ Starting from a value of 55k in 2024, the three core variants span a wide range 
 - *high* 55k
 
 | Variant | Year | Births | Deaths | Natural change |
-|  --- | --- | --- | --- | --- | --- | --- |
+|  --- | --- | --- | --- | --- | --- | 
 | estimate | 2011-12 | 134,000 | 48,000 | +86,000 | 
 | estimate | 2023-24 | 106,000 | 51,000 | +55,000 | 
 | trend-based low | 2035-36 | 96,000  | 64,000 | +32,000 |
