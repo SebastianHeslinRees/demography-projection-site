@@ -89,7 +89,8 @@ While international flows remain fixed over the projection period, internal migr
 
 ### Births, deaths & natural change
 
-Early differences in projected births between variants are primarily driven by diverging fertility rates. By 2032, annual births are projected to change by: - *low* -11k (-11 percent) 
+Early differences in projected births between variants are primarily driven by diverging fertility rates. By 2032, annual births are projected to change by: 
+- *low* -11k (-11 percent) 
 - *central* +1k (+1 percent)
 - *high* +14k (+13 percent) 
 
