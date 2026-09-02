@@ -125,7 +125,7 @@ Starting from a value of 55k in 2024, the three core variants span a wide range 
 - High 55k
 
 | Variant 		| Year 		| Births 	| Deaths 	| Natural change 	|
-|  --- 			| --- 		 --- 		| --- 		| --- 			|
+|  --- 			| --- 		| --- 		| --- 		| --- 			|
 | estimate 		| 2011-12 	| 134,000 	| 48,000 	| +86,000 		| 
 | estimate 		| 2023-24 	| 106,000 	| 51,000 	| +55,000 		| 
 | housing-led low 	| 2035-36 	| 94,000  	| 64,000 	| +30,000 		|
@@ -134,6 +134,7 @@ Starting from a value of 55k in 2024, the three core variants span a wide range 
 | housing-led central 	| 2050-51 	| 108,000 	| 73,000 	| +36,000 		| 
 | housing-led high 	| 2035-36 	| 119,000 	| 62,000 	| +57,000 		|
 | housing-led high 	| 2050-51 	| 123,000 	| 68,000 	| +55,000 		|
+
 
 <Chart
  chart="Chart"
