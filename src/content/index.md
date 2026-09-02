@@ -21,23 +21,33 @@ The GLA regularly updates its projections as new data become available. 2025-bas
 
 ## Key results 
 
-From a 2024 starting population of 9.09 million in 2024, the total population of London is projected to grow for the duration of the projection in all core variants. 
+From a 2024 starting population of 9.13 million in 2024, the total population of London is projected to grow for the duration of the projection in all core variants. 
 
-For the trend-based projections, the total population in 2051 ranges between: 
-- Low: 9.79 million (+700k, 7.7 percent) 
-- Central: 10.14 million (+1.05m, 11.6 percent) 
-- High: 10.52 million (+1.43m, 15.8 percent) 
+Total population (million)
+| Variant 		| 2011 	| 2024 	| 2036	| 2051 	|
+|  --- 			| --- 	| --- 	| --- 	| --- 	|
+| trend-based low 	| 8.20 	| 9.13	| 9.52	| 9.76	| 
+| trend-based central 	| 8.20 	| 9.13	| 9.67	| 10.11	| 
+| trend-based high 	| 8.20 	| 9.13	| 9.82	| 10.49	|
+| housing-led low 	| 8.20 	| 9.13	| 9.51	| 9.82 	|
+| housing-led central 	| 8.20 	| 9.13	| 9.69	| 10.26	|
+| housing-led high 	| 8.20 	| 9.13 	| 9.88	| 10.77	|
 
-For the housing-led projections: 
-- Low: 9.82 million (+730k, 8.1 percent) 
-- Central: 10.28 million (+1.18m, 13.1 percent) 
-- High: 10.78 million (1.69m, 18.6 percent) 
+Change in total population from 2024
+| Variant 		|   2036		| 2051 		|
+|  --- 			|   --- 		| --- 		|
+| trend-based low 	|   +390k (4.2%)	| +630k (6.9%)	|
+| trend-based central	|   +540k (5.9%)	| +970k (10.7%)	|
+| trend-based high 	|   +690k (7.5%)	| +1.36m (14.9%)|
+| housing-led low 	|   +380k (4.2%)	| +680k (7.5%)	|
+| housing-led central 	|   +560k (6.2%)	| +1.13m (12.4%)|
+| housing-led high 	|   +740k (8.2%)	| +1.64m (17.9%)|
 
 Projected change varies greatly between age groups:
 - The population of Londoners age 65 and over is projected to increase by more than 55 percent in all variants, from a starting value of 1.1 million in 2024
 - This contrast with projected numbers of school-age children, which are set to decrease over the next decade in even the most optimistic scenarios, following years of declining birth rates and an increase in outflows of children in the years since the COVID-19 pandemic. 
 
-Central variants show only modest changes in annual births from the 2024 figure of 106k. However, the high and low variants show a wide range of potential future outcomes: from a continuation of recent falls, reaching as low as 92k by 2032, to a strong recovery, rising by as much as 19 percent to 126k in 2045 (though still shy of the 2012 peak of 134k). This wide range reflects the inherent uncertainty of future fertility trends. 
+Central variants show only modest changes in annual births from the 2024 figure of 106k. However, the high and low variants show a wide range of potential future outcomes: from a continuation of recent trends, falling as low as 92k by 2032, to a strong recovery, rising by as much as 19 percent to 126k in 2045 (still shy of the 2012 peak of 134k). This wide range reflects the inherent uncertainty of future fertility trends. 
 
 Despite all variants assuming continued improvements in life expectancy over the coming decades, annual deaths are projected to increase from as the population ages, from 51k in 2024 to 66k-75k in 2051. 
 
@@ -45,13 +55,13 @@ The ageing population means that even under the most optimistic scenarios, natur
 
 ## Impacts of housing assumptions 
 
-The high and central variants of the housing-led projections show higher projected overall growth for London than do the equivalent trend-based versions.  For the high variants, the difference in population by 2051 is 260k. 
+The housing-led projections show higher projected overall growth for London than do the equivalent trend-based versions.  For the High variants, the difference in population by 2051 is 280k. 
 
 To a large extent these differences reflect the assumptions about relative levels of housing delivery within and outside London used in these projections.  Assuming higher levels of delivery in surrounding districts acts to reduce projected growth within London, and vice versa.  
 
-*It should be stressed that the assumptions about levels of future housing delivery outside of London are somewhat arbitrary and not based on any specific analysis or judgment about likely delivery (an explanation of how the assumptions were derived is included in the Overview section).*
+*It should be stressed that the assumptions about levels of future housing delivery outside of London are somewhat arbitrary and not based on any specific analysis or judgment about likely delivery.  An explanation of how the assumptions were derived is included in the Overview section.*
 
-The most significant impacts of including assumed housing delivery in the projections are seen in the projected distribution of population within London.  Comparing the results of the central variants at local authority level shows some striking differences in projected population.  
+The most significant impacts of including assumed housing delivery in the projections are seen in the projected distribution of population within London.  Comparing the results of the Central variants at local authority level shows some striking differences in projected population.  
 
 For areas such where the capacity identified in the SHLAA is large relative to recent population trends, the housing-led model naturally results in far higher projected population than does the trend-based approach (e.g. for 2051, Ealing 18 percent higher, Enfield 17 percent, and Hillingdon, 16 percent).   
 
