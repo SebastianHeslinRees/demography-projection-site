@@ -20,7 +20,7 @@ While the headline numbers may suggest that migration makes only a relatively mo
 
 | Variant | Year | Total net migration | Natural change | Total change |
 |  --- | --- | --- | --- | --- |
-| estimate | 2011-12 | +27,350 | +86,000 | +113,00 |
+| estimate | 2011-12 | +27,000 | +86,000 | +113,00 |
 | estimate | 2023-24 |  +19,000 | +55,000 | +74,000 |
 | trend-based low | 2035-36 | -3,000 | +32,000 | +29,000 |
 | trend-based low | 2050-51 | -21,000 | +19,000 | -2,000 |
@@ -45,7 +45,7 @@ While international flows remain fixed over the projection period, internal migr
 
  Variant | Year | Total net | International net | Internal net |
 | --- | --- | --- | --- | --- | 
-| estimate | 2011-12 | +27,350 | +78,000 | -50,000 |
+| estimate | 2011-12 | +27,000 | +78,000 | -50,000 |
 | estimate | 2023-24 | +19,000 | +147,000 | -128,000 |
 | trend-based low | 2035-36 |-3,000 | +115,000 | -117,000 |
 | trend-based low | 2050-51 | -21,000 | +115,000 | -135,000 |
