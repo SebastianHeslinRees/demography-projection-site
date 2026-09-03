@@ -51,7 +51,7 @@ Central variants show only modest changes in annual births from the 2024 figure 
 
 Despite all variants assuming continued improvements in life expectancy over the coming decades, annual deaths are projected to increase as the population ages, from 51k in 2024 to 66k-75k in 2051. 
 
-The ageing population means that even under the most optimistic scenarios, natural change is not projected to rise far above the 2024 level of 55k – already more than 30k below the 2011 peak.  The central variants see a gradual decline, falling below 40k by the end of the period. The combination of low fertility/low life expectancy scenarios used in the low variants results in natural change dropping to just 21k in 2051. 
+The ageing population means that even under the most optimistic scenarios, natural change is not projected to rise far above the 2024 level of 55k – already more than 30k below the 2011 peak.  The Central variants see a gradual decline, falling below 40k by the end of the period. The combination of low fertility/low life expectancy scenarios used in the Low variants results in natural change dropping to 19k by 2051. 
 
 ## Impacts of housing assumptions 
 
