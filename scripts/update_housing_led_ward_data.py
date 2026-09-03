@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-SOURCE_ROOT = Path('/Users/user1/Downloads/outputs-2/housing_led/output_pq/variant=central_hma5645_ward/geography=ward22/component=population')
+SOURCE_ROOT = Path('/Users/user1/Downloads/20260902_explorer_tool/output_pq/variant=central_ward/geography=ward22/component=population')
 OUTPUT_FILE = Path('src/lib/data/housingLedWardPopulationData.json')
 
 

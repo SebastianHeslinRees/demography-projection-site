@@ -27,13 +27,13 @@
     "dataset": "international_in_migration",
     "xd": "2002-01-01",
     "b": "Central",
-    "y": 188562.0
+    "y": 188212.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2002-01-01",
     "b": "Central",
-    "y": 92425.50000000001
+    "y": 92501.4
   },
   {
     "dataset": "births",
@@ -63,13 +63,13 @@
     "dataset": "international_in_migration",
     "xd": "2003-01-01",
     "b": "Central",
-    "y": 180320.99999999997
+    "y": 179977.49999999997
   },
   {
     "dataset": "international_out_migration",
     "xd": "2003-01-01",
     "b": "Central",
-    "y": 114186.00000000003
+    "y": 114219.70000000001
   },
   {
     "dataset": "births",
@@ -99,13 +99,13 @@
     "dataset": "international_in_migration",
     "xd": "2004-01-01",
     "b": "Central",
-    "y": 185264.0
+    "y": 184818.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2004-01-01",
     "b": "Central",
-    "y": 91475.5
+    "y": 91514.70000000001
   },
   {
     "dataset": "births",
@@ -135,13 +135,13 @@
     "dataset": "international_in_migration",
     "xd": "2005-01-01",
     "b": "Central",
-    "y": 203984.0
+    "y": 203586.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2005-01-01",
     "b": "Central",
-    "y": 97250.0
+    "y": 97280.19999999998
   },
   {
     "dataset": "births",
@@ -171,13 +171,13 @@
     "dataset": "international_in_migration",
     "xd": "2006-01-01",
     "b": "Central",
-    "y": 190308.0
+    "y": 189849.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2006-01-01",
     "b": "Central",
-    "y": 104399.99999999999
+    "y": 104439.4
   },
   {
     "dataset": "births",
@@ -207,13 +207,13 @@
     "dataset": "international_in_migration",
     "xd": "2007-01-01",
     "b": "Central",
-    "y": 219019.5
+    "y": 218057.7
   },
   {
     "dataset": "international_out_migration",
     "xd": "2007-01-01",
     "b": "Central",
-    "y": 119004.5
+    "y": 119256.59999999999
   },
   {
     "dataset": "births",
@@ -243,13 +243,13 @@
     "dataset": "international_in_migration",
     "xd": "2008-01-01",
     "b": "Central",
-    "y": 212923.0
+    "y": 212131.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2008-01-01",
     "b": "Central",
-    "y": 104739.5
+    "y": 104857.1
   },
   {
     "dataset": "births",
@@ -279,13 +279,13 @@
     "dataset": "international_in_migration",
     "xd": "2009-01-01",
     "b": "Central",
-    "y": 211039.0
+    "y": 210257.60000000003
   },
   {
     "dataset": "international_out_migration",
     "xd": "2009-01-01",
     "b": "Central",
-    "y": 124379.5
+    "y": 124560.9
   },
   {
     "dataset": "births",
@@ -297,7 +297,7 @@
     "dataset": "deaths",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 48048.0
+    "y": 48047.0
   },
   {
     "dataset": "domestic_in_migration",
@@ -315,13 +315,13 @@
     "dataset": "international_in_migration",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 214710.5
+    "y": 213827.09999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 131923.5
+    "y": 132106.4
   },
   {
     "dataset": "births",
@@ -351,13 +351,13 @@
     "dataset": "international_in_migration",
     "xd": "2011-01-01",
     "b": "Central",
-    "y": 213717.0
+    "y": 212669.59999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2011-01-01",
     "b": "Central",
-    "y": 112170.0
+    "y": 112436.6
   },
   {
     "dataset": "births",
@@ -387,13 +387,13 @@
     "dataset": "international_in_migration",
     "xd": "2012-01-01",
     "b": "Central",
-    "y": 241578.50000000003
+    "y": 240059.29999999996
   },
   {
     "dataset": "international_out_migration",
     "xd": "2012-01-01",
     "b": "Central",
-    "y": 161439.00000000003
+    "y": 162265.7
   },
   {
     "dataset": "births",
@@ -423,13 +423,13 @@
     "dataset": "international_in_migration",
     "xd": "2013-01-01",
     "b": "Central",
-    "y": 240549.99999999997
+    "y": 238758.30000000005
   },
   {
     "dataset": "international_out_migration",
     "xd": "2013-01-01",
     "b": "Central",
-    "y": 151848.50000000003
+    "y": 152695.3
   },
   {
     "dataset": "births",
@@ -459,13 +459,13 @@
     "dataset": "international_in_migration",
     "xd": "2014-01-01",
     "b": "Central",
-    "y": 271015.5
+    "y": 268747.6
   },
   {
     "dataset": "international_out_migration",
     "xd": "2014-01-01",
     "b": "Central",
-    "y": 166055.5
+    "y": 167144.7
   },
   {
     "dataset": "births",
@@ -495,13 +495,13 @@
     "dataset": "international_in_migration",
     "xd": "2015-01-01",
     "b": "Central",
-    "y": 280303.0
+    "y": 277904.0
   },
   {
     "dataset": "international_out_migration",
     "xd": "2015-01-01",
     "b": "Central",
-    "y": 164837.99999999994
+    "y": 166102.20000000004
   },
   {
     "dataset": "births",
@@ -531,13 +531,13 @@
     "dataset": "international_in_migration",
     "xd": "2016-01-01",
     "b": "Central",
-    "y": 292531.5
+    "y": 292284.07606864057
   },
   {
     "dataset": "international_out_migration",
     "xd": "2016-01-01",
     "b": "Central",
-    "y": 186120.99999999997
+    "y": 191083.6661289605
   },
   {
     "dataset": "births",
@@ -567,13 +567,13 @@
     "dataset": "international_in_migration",
     "xd": "2017-01-01",
     "b": "Central",
-    "y": 245674.99999999997
+    "y": 248515.18598577235
   },
   {
     "dataset": "international_out_migration",
     "xd": "2017-01-01",
     "b": "Central",
-    "y": 172327.0
+    "y": 174357.28278249875
   },
   {
     "dataset": "births",
@@ -603,13 +603,13 @@
     "dataset": "international_in_migration",
     "xd": "2018-01-01",
     "b": "Central",
-    "y": 264090.5
+    "y": 267919.26712261065
   },
   {
     "dataset": "international_out_migration",
     "xd": "2018-01-01",
     "b": "Central",
-    "y": 171258.5
+    "y": 172610.0406247177
   },
   {
     "dataset": "births",
@@ -639,13 +639,13 @@
     "dataset": "international_in_migration",
     "xd": "2019-01-01",
     "b": "Central",
-    "y": 277728.5
+    "y": 280890.038136573
   },
   {
     "dataset": "international_out_migration",
     "xd": "2019-01-01",
     "b": "Central",
-    "y": 194413.0
+    "y": 195758.60116181822
   },
   {
     "dataset": "births",
@@ -675,13 +675,13 @@
     "dataset": "international_in_migration",
     "xd": "2020-01-01",
     "b": "Central",
-    "y": 227435.0
+    "y": 230932.02500495405
   },
   {
     "dataset": "international_out_migration",
     "xd": "2020-01-01",
     "b": "Central",
-    "y": 192745.5
+    "y": 194412.45558174961
   },
   {
     "dataset": "births",
@@ -711,13 +711,13 @@
     "dataset": "international_in_migration",
     "xd": "2021-01-01",
     "b": "Central",
-    "y": 222053.0
+    "y": 232232.39415888337
   },
   {
     "dataset": "international_out_migration",
     "xd": "2021-01-01",
     "b": "Central",
-    "y": 151574.5
+    "y": 145915.11147005763
   },
   {
     "dataset": "births",
@@ -747,13 +747,13 @@
     "dataset": "international_in_migration",
     "xd": "2022-01-01",
     "b": "Central",
-    "y": 287497.0
+    "y": 318913.0373372045
   },
   {
     "dataset": "international_out_migration",
     "xd": "2022-01-01",
     "b": "Central",
-    "y": 150828.0
+    "y": 136746.4862582814
   },
   {
     "dataset": "births",
@@ -783,13 +783,13 @@
     "dataset": "international_in_migration",
     "xd": "2023-01-01",
     "b": "Central",
-    "y": 338269.0
+    "y": 380690.72084793804
   },
   {
     "dataset": "international_out_migration",
     "xd": "2023-01-01",
     "b": "Central",
-    "y": 124158.0
+    "y": 152111.8380228936
   },
   {
     "dataset": "births",
@@ -819,37 +819,37 @@
     "dataset": "international_in_migration",
     "xd": "2024-01-01",
     "b": "Central",
-    "y": 313360.0
+    "y": 329085.3083147326
   },
   {
     "dataset": "international_out_migration",
     "xd": "2024-01-01",
     "b": "Central",
-    "y": 150021.0
+    "y": 182123.72227369196
   },
   {
     "dataset": "births",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 105993.26103267382
+    "y": 107531.83562372572
   },
   {
     "dataset": "deaths",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 54983.252461273514
+    "y": 55359.10945532101
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 270562.04277046554
+    "y": 269978.6996236526
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 377241.6518727379
+    "y": 377944.3141360544
   },
   {
     "dataset": "international_in_migration",
@@ -867,25 +867,25 @@
     "dataset": "births",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 105761.28297207873
+    "y": 107192.39446744045
   },
   {
     "dataset": "deaths",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 57348.509773400394
+    "y": 57749.193370082605
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 272079.0575830645
+    "y": 270663.75944111723
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 380517.38903738576
+    "y": 380795.1871400055
   },
   {
     "dataset": "international_in_migration",
@@ -903,25 +903,25 @@
     "dataset": "births",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": 105616.65179946864
+    "y": 106931.4697893729
   },
   {
     "dataset": "deaths",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": 57601.85777518331
+    "y": 58011.506670004725
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": 273771.78922952915
+    "y": 271434.9876546823
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": 383630.7194156938
+    "y": 383513.0852039268
   },
   {
     "dataset": "international_in_migration",
@@ -939,25 +939,25 @@
     "dataset": "births",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": 105565.17768015258
+    "y": 106756.21886362051
   },
   {
     "dataset": "deaths",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": 57930.83600897346
+    "y": 58349.44390761963
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": 275557.4930037399
+    "y": 272423.7339176652
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": 385851.55736041063
+    "y": 385568.8438710375
   },
   {
     "dataset": "international_in_migration",
@@ -975,25 +975,25 @@
     "dataset": "births",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": 105603.76234151582
+    "y": 106669.96495923857
   },
   {
     "dataset": "deaths",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": 58316.14033612258
+    "y": 58744.40778990461
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": 277650.6082984314
+    "y": 274023.36509854987
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": 387723.21688987967
+    "y": 387539.3448065794
   },
   {
     "dataset": "international_in_migration",
@@ -1011,25 +1011,25 @@
     "dataset": "births",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": 105692.92983627027
+    "y": 106627.96618671977
   },
   {
     "dataset": "deaths",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": 58746.92001437121
+    "y": 59184.68962598751
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": 280135.3048662541
+    "y": 276097.8757726167
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": 389730.416138433
+    "y": 389322.98521053395
   },
   {
     "dataset": "international_in_migration",
@@ -1047,25 +1047,25 @@
     "dataset": "births",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": 105843.58926223696
+    "y": 106638.5022964197
   },
   {
     "dataset": "deaths",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": 59189.85683806688
+    "y": 59638.177353215935
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": 282430.2504609122
+    "y": 278049.93968816684
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": 391260.7466637049
+    "y": 390685.96862022113
   },
   {
     "dataset": "international_in_migration",
@@ -1083,25 +1083,25 @@
     "dataset": "births",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 106027.92719008529
+    "y": 106677.88556854974
   },
   {
     "dataset": "deaths",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 59707.61171097465
+    "y": 60166.09337537165
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 284149.82864547975
+    "y": 279693.66694712394
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 392353.0145144138
+    "y": 391664.6709191863
   },
   {
     "dataset": "international_in_migration",
@@ -1119,25 +1119,25 @@
     "dataset": "births",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 106596.56197115807
+    "y": 107094.91410031175
   },
   {
     "dataset": "deaths",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 60278.79595862732
+    "y": 60748.054143386355
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 285583.3009536923
+    "y": 281252.90772677417
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 393258.17325683456
+    "y": 392551.24410791707
   },
   {
     "dataset": "international_in_migration",
@@ -1155,25 +1155,25 @@
     "dataset": "births",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 107115.59903453123
+    "y": 107434.19113066909
   },
   {
     "dataset": "deaths",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 60877.35192078942
+    "y": 61357.583905640786
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 286821.0217943387
+    "y": 282648.43899609824
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 394645.8389874887
+    "y": 393809.28451843234
   },
   {
     "dataset": "international_in_migration",
@@ -1191,25 +1191,25 @@
     "dataset": "births",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 107613.60413702973
+    "y": 107719.14484115972
   },
   {
     "dataset": "deaths",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 61484.856156156624
+    "y": 61976.198177846636
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 287691.8282078714
+    "y": 283638.893326381
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 396152.2820457188
+    "y": 394948.13654966623
   },
   {
     "dataset": "international_in_migration",
@@ -1227,25 +1227,25 @@
     "dataset": "births",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": 108124.72200990553
+    "y": 107987.13355590653
   },
   {
     "dataset": "deaths",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": 62126.061949102674
+    "y": 62629.11051488751
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": 287987.64437805087
+    "y": 284064.11150541645
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": 397180.5029615888
+    "y": 395695.5355077988
   },
   {
     "dataset": "international_in_migration",
@@ -1263,25 +1263,25 @@
     "dataset": "births",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": 108677.00218665134
+    "y": 108269.7662073572
   },
   {
     "dataset": "deaths",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": 62827.41596422664
+    "y": 63342.57386190715
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": 288058.33360746753
+    "y": 284150.07108114293
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": 397948.43937933794
+    "y": 396110.102064956
   },
   {
     "dataset": "international_in_migration",
@@ -1299,25 +1299,25 @@
     "dataset": "births",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": 109274.6679517641
+    "y": 108588.0965195522
   },
   {
     "dataset": "deaths",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": 63440.144096693846
+    "y": 63968.161547083066
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": 288065.3349554389
+    "y": 283916.4441099268
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": 398843.13751583523
+    "y": 396294.7355093911
   },
   {
     "dataset": "international_in_migration",
@@ -1335,25 +1335,25 @@
     "dataset": "births",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": 109905.95770335937
+    "y": 108947.88066272152
   },
   {
     "dataset": "deaths",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": 64022.51252080356
+    "y": 64563.8738420316
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": 287729.0697033737
+    "y": 283248.93659160053
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": 399545.75693983654
+    "y": 396493.4854168669
   },
   {
     "dataset": "international_in_migration",
@@ -1371,25 +1371,25 @@
     "dataset": "births",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": 110530.8274570217
+    "y": 109325.47604747339
   },
   {
     "dataset": "deaths",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": 64609.382877695374
+    "y": 65164.930376316086
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": 286876.60329440923
+    "y": 282074.68733378063
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": 399865.9849551384
+    "y": 396431.83759423345
   },
   {
     "dataset": "international_in_migration",
@@ -1407,25 +1407,25 @@
     "dataset": "births",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": 111111.04277739796
+    "y": 109701.95496455494
   },
   {
     "dataset": "deaths",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": 65207.9934518228
+    "y": 65777.93844968523
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": 285888.6061953641
+    "y": 280736.5802897756
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": 400565.13243751397
+    "y": 396624.7807114379
   },
   {
     "dataset": "international_in_migration",
@@ -1443,25 +1443,25 @@
     "dataset": "births",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": 111588.38257069864
+    "y": 110026.48800500829
   },
   {
     "dataset": "deaths",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": 65815.7236123166
+    "y": 66399.89327908758
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": 284332.94304247893
+    "y": 278920.03453083255
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": 400284.4077007107
+    "y": 396271.2517635592
   },
   {
     "dataset": "international_in_migration",
@@ -1479,25 +1479,25 @@
     "dataset": "births",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": 111936.96626515292
+    "y": 110274.38071442931
   },
   {
     "dataset": "deaths",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": 66440.32244963077
+    "y": 67039.05768156471
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": 282383.28646585287
+    "y": 277017.62946890946
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": 399957.10423381225
+    "y": 396219.0081072778
   },
   {
     "dataset": "international_in_migration",
@@ -1515,25 +1515,25 @@
     "dataset": "births",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": 112123.94749546873
+    "y": 110410.41870642609
   },
   {
     "dataset": "deaths",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": 67080.59455416448
+    "y": 67694.83032897481
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": 280426.21599342
+    "y": 275306.4665252931
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": 399744.17793376953
+    "y": 396485.5268997757
   },
   {
     "dataset": "international_in_migration",
@@ -1551,25 +1551,25 @@
     "dataset": "births",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": 112131.61711267436
+    "y": 110408.59716768173
   },
   {
     "dataset": "deaths",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": 67734.99530463251
+    "y": 68364.39990590033
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": 278189.9489223815
+    "y": 273447.7462783385
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": 399534.94681864337
+    "y": 396472.4440181126
   },
   {
     "dataset": "international_in_migration",
@@ -1587,25 +1587,25 @@
     "dataset": "births",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": 111972.97711752055
+    "y": 110273.81136203572
   },
   {
     "dataset": "deaths",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": 68402.6938631188
+    "y": 69047.94905301456
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": 275730.13786395337
+    "y": 271529.3272301578
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": 399268.20390712935
+    "y": 396328.3793522595
   },
   {
     "dataset": "international_in_migration",
@@ -1623,25 +1623,25 @@
     "dataset": "births",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": 111651.07411785418
+    "y": 109995.32065475325
   },
   {
     "dataset": "deaths",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": 69070.33391399792
+    "y": 69731.53317045928
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": 273392.585765534
+    "y": 269792.80519365764
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": 398937.22308813094
+    "y": 396113.7672863243
   },
   {
     "dataset": "international_in_migration",
@@ -1659,25 +1659,25 @@
     "dataset": "births",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": 111202.61422080224
+    "y": 109595.7058530214
   },
   {
     "dataset": "deaths",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": 69733.48558039586
+    "y": 70408.90966972415
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": 271210.87519264984
+    "y": 268108.3557696241
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": 398512.01201498415
+    "y": 395760.1922416849
   },
   {
     "dataset": "international_in_migration",
@@ -1695,25 +1695,25 @@
     "dataset": "births",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": 110650.3748506454
+    "y": 109086.3998501712
   },
   {
     "dataset": "deaths",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": 70382.15342588056
+    "y": 71072.32653410416
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": 269173.61039948027
+    "y": 266437.73165158555
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": 397996.84673300193
+    "y": 395294.5473995686
   },
   {
     "dataset": "international_in_migration",
@@ -1731,25 +1731,25 @@
     "dataset": "births",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": 110023.43233869055
+    "y": 108488.59731893626
   },
   {
     "dataset": "deaths",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": 71009.04266234109
+    "y": 71713.79577564236
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": 267269.2889235458
+    "y": 264803.18601887545
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": 397400.6952630658
+    "y": 394744.02091329556
   },
   {
     "dataset": "international_in_migration",
@@ -1791,13 +1791,13 @@
     "dataset": "international_in_migration",
     "xd": "2002-01-01",
     "b": "High",
-    "y": 188562.0
+    "y": 188212.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2002-01-01",
     "b": "High",
-    "y": 92425.50000000001
+    "y": 92501.4
   },
   {
     "dataset": "births",
@@ -1827,13 +1827,13 @@
     "dataset": "international_in_migration",
     "xd": "2003-01-01",
     "b": "High",
-    "y": 180320.99999999997
+    "y": 179977.49999999997
   },
   {
     "dataset": "international_out_migration",
     "xd": "2003-01-01",
     "b": "High",
-    "y": 114186.00000000003
+    "y": 114219.70000000001
   },
   {
     "dataset": "births",
@@ -1863,13 +1863,13 @@
     "dataset": "international_in_migration",
     "xd": "2004-01-01",
     "b": "High",
-    "y": 185264.0
+    "y": 184818.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2004-01-01",
     "b": "High",
-    "y": 91475.5
+    "y": 91514.70000000001
   },
   {
     "dataset": "births",
@@ -1899,13 +1899,13 @@
     "dataset": "international_in_migration",
     "xd": "2005-01-01",
     "b": "High",
-    "y": 203984.0
+    "y": 203586.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2005-01-01",
     "b": "High",
-    "y": 97250.0
+    "y": 97280.19999999998
   },
   {
     "dataset": "births",
@@ -1935,13 +1935,13 @@
     "dataset": "international_in_migration",
     "xd": "2006-01-01",
     "b": "High",
-    "y": 190308.0
+    "y": 189849.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2006-01-01",
     "b": "High",
-    "y": 104399.99999999999
+    "y": 104439.4
   },
   {
     "dataset": "births",
@@ -1971,13 +1971,13 @@
     "dataset": "international_in_migration",
     "xd": "2007-01-01",
     "b": "High",
-    "y": 219019.5
+    "y": 218057.7
   },
   {
     "dataset": "international_out_migration",
     "xd": "2007-01-01",
     "b": "High",
-    "y": 119004.5
+    "y": 119256.59999999999
   },
   {
     "dataset": "births",
@@ -2007,13 +2007,13 @@
     "dataset": "international_in_migration",
     "xd": "2008-01-01",
     "b": "High",
-    "y": 212923.0
+    "y": 212131.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2008-01-01",
     "b": "High",
-    "y": 104739.5
+    "y": 104857.1
   },
   {
     "dataset": "births",
@@ -2043,13 +2043,13 @@
     "dataset": "international_in_migration",
     "xd": "2009-01-01",
     "b": "High",
-    "y": 211039.0
+    "y": 210257.60000000003
   },
   {
     "dataset": "international_out_migration",
     "xd": "2009-01-01",
     "b": "High",
-    "y": 124379.5
+    "y": 124560.9
   },
   {
     "dataset": "births",
@@ -2061,7 +2061,7 @@
     "dataset": "deaths",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 48048.0
+    "y": 48047.0
   },
   {
     "dataset": "domestic_in_migration",
@@ -2079,13 +2079,13 @@
     "dataset": "international_in_migration",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 214710.5
+    "y": 213827.09999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 131923.5
+    "y": 132106.4
   },
   {
     "dataset": "births",
@@ -2115,13 +2115,13 @@
     "dataset": "international_in_migration",
     "xd": "2011-01-01",
     "b": "High",
-    "y": 213717.0
+    "y": 212669.59999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2011-01-01",
     "b": "High",
-    "y": 112170.0
+    "y": 112436.6
   },
   {
     "dataset": "births",
@@ -2151,13 +2151,13 @@
     "dataset": "international_in_migration",
     "xd": "2012-01-01",
     "b": "High",
-    "y": 241578.50000000003
+    "y": 240059.29999999996
   },
   {
     "dataset": "international_out_migration",
     "xd": "2012-01-01",
     "b": "High",
-    "y": 161439.00000000003
+    "y": 162265.7
   },
   {
     "dataset": "births",
@@ -2187,13 +2187,13 @@
     "dataset": "international_in_migration",
     "xd": "2013-01-01",
     "b": "High",
-    "y": 240549.99999999997
+    "y": 238758.30000000005
   },
   {
     "dataset": "international_out_migration",
     "xd": "2013-01-01",
     "b": "High",
-    "y": 151848.50000000003
+    "y": 152695.3
   },
   {
     "dataset": "births",
@@ -2223,13 +2223,13 @@
     "dataset": "international_in_migration",
     "xd": "2014-01-01",
     "b": "High",
-    "y": 271015.5
+    "y": 268747.6
   },
   {
     "dataset": "international_out_migration",
     "xd": "2014-01-01",
     "b": "High",
-    "y": 166055.5
+    "y": 167144.7
   },
   {
     "dataset": "births",
@@ -2259,13 +2259,13 @@
     "dataset": "international_in_migration",
     "xd": "2015-01-01",
     "b": "High",
-    "y": 280303.0
+    "y": 277904.0
   },
   {
     "dataset": "international_out_migration",
     "xd": "2015-01-01",
     "b": "High",
-    "y": 164837.99999999994
+    "y": 166102.20000000004
   },
   {
     "dataset": "births",
@@ -2295,13 +2295,13 @@
     "dataset": "international_in_migration",
     "xd": "2016-01-01",
     "b": "High",
-    "y": 292531.5
+    "y": 292284.07606864057
   },
   {
     "dataset": "international_out_migration",
     "xd": "2016-01-01",
     "b": "High",
-    "y": 186120.99999999997
+    "y": 191083.6661289605
   },
   {
     "dataset": "births",
@@ -2331,13 +2331,13 @@
     "dataset": "international_in_migration",
     "xd": "2017-01-01",
     "b": "High",
-    "y": 245674.99999999997
+    "y": 248515.18598577232
   },
   {
     "dataset": "international_out_migration",
     "xd": "2017-01-01",
     "b": "High",
-    "y": 172327.0
+    "y": 174357.28278249875
   },
   {
     "dataset": "births",
@@ -2367,13 +2367,13 @@
     "dataset": "international_in_migration",
     "xd": "2018-01-01",
     "b": "High",
-    "y": 264090.5
+    "y": 267919.26712261065
   },
   {
     "dataset": "international_out_migration",
     "xd": "2018-01-01",
     "b": "High",
-    "y": 171258.5
+    "y": 172610.0406247177
   },
   {
     "dataset": "births",
@@ -2403,13 +2403,13 @@
     "dataset": "international_in_migration",
     "xd": "2019-01-01",
     "b": "High",
-    "y": 277728.5
+    "y": 280890.038136573
   },
   {
     "dataset": "international_out_migration",
     "xd": "2019-01-01",
     "b": "High",
-    "y": 194413.0
+    "y": 195758.60116181822
   },
   {
     "dataset": "births",
@@ -2439,13 +2439,13 @@
     "dataset": "international_in_migration",
     "xd": "2020-01-01",
     "b": "High",
-    "y": 227435.0
+    "y": 230932.02500495405
   },
   {
     "dataset": "international_out_migration",
     "xd": "2020-01-01",
     "b": "High",
-    "y": 192745.5
+    "y": 194412.45558174961
   },
   {
     "dataset": "births",
@@ -2475,13 +2475,13 @@
     "dataset": "international_in_migration",
     "xd": "2021-01-01",
     "b": "High",
-    "y": 222053.0
+    "y": 232232.39415888337
   },
   {
     "dataset": "international_out_migration",
     "xd": "2021-01-01",
     "b": "High",
-    "y": 151574.5
+    "y": 145915.11147005763
   },
   {
     "dataset": "births",
@@ -2511,13 +2511,13 @@
     "dataset": "international_in_migration",
     "xd": "2022-01-01",
     "b": "High",
-    "y": 287497.0
+    "y": 318913.0373372045
   },
   {
     "dataset": "international_out_migration",
     "xd": "2022-01-01",
     "b": "High",
-    "y": 150828.0
+    "y": 136746.4862582814
   },
   {
     "dataset": "births",
@@ -2547,13 +2547,13 @@
     "dataset": "international_in_migration",
     "xd": "2023-01-01",
     "b": "High",
-    "y": 338269.0
+    "y": 380690.72084793804
   },
   {
     "dataset": "international_out_migration",
     "xd": "2023-01-01",
     "b": "High",
-    "y": 124158.0
+    "y": 152111.8380228936
   },
   {
     "dataset": "births",
@@ -2583,37 +2583,37 @@
     "dataset": "international_in_migration",
     "xd": "2024-01-01",
     "b": "High",
-    "y": 313360.0
+    "y": 329085.3083147326
   },
   {
     "dataset": "international_out_migration",
     "xd": "2024-01-01",
     "b": "High",
-    "y": 150021.0
+    "y": 182123.72227369196
   },
   {
     "dataset": "births",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 110231.16531317458
+    "y": 111822.3624486668
   },
   {
     "dataset": "deaths",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 54997.0237397505
+    "y": 55373.05379617495
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 263475.96248907316
+    "y": 262910.7189697403
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 363015.2224914454
+    "y": 363704.1469423807
   },
   {
     "dataset": "international_in_migration",
@@ -2631,25 +2631,25 @@
     "dataset": "births",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 111143.48390914907
+    "y": 112638.31931737863
   },
   {
     "dataset": "deaths",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 57351.20146502323
+    "y": 57752.2898650218
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 264974.02711312356
+    "y": 263607.58882847294
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 366695.51736347284
+    "y": 366964.86432344856
   },
   {
     "dataset": "international_in_migration",
@@ -2667,25 +2667,25 @@
     "dataset": "births",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 112117.5915421116
+    "y": 113502.32441838415
   },
   {
     "dataset": "deaths",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 57576.886575912926
+    "y": 57987.0373112996
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 266611.0020749192
+    "y": 264346.38799609925
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 370229.6086196804
+    "y": 370109.5823883889
   },
   {
     "dataset": "international_in_migration",
@@ -2703,25 +2703,25 @@
     "dataset": "births",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 113210.63547504332
+    "y": 114473.39466602134
   },
   {
     "dataset": "deaths",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 57857.89306918644
+    "y": 58276.91379577426
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 268292.51889149344
+    "y": 265254.48805697093
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 372939.828069301
+    "y": 372659.83712748124
   },
   {
     "dataset": "international_in_migration",
@@ -2739,25 +2739,25 @@
     "dataset": "births",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 114456.071230175
+    "y": 115592.91365056668
   },
   {
     "dataset": "deaths",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 58173.726407521324
+    "y": 58602.13716547804
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 270316.81668559636
+    "y": 266805.88587599865
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 375349.64537815936
+    "y": 375172.4767096314
   },
   {
     "dataset": "international_in_migration",
@@ -2775,25 +2775,25 @@
     "dataset": "births",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 115819.04036550203
+    "y": 116820.08780347346
   },
   {
     "dataset": "deaths",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 58513.37913144038
+    "y": 58950.80934592677
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 272784.6681030149
+    "y": 268879.5169411036
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 377856.55692155915
+    "y": 377474.3417799599
   },
   {
     "dataset": "international_in_migration",
@@ -2811,25 +2811,25 @@
     "dataset": "births",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 117347.4394433088
+    "y": 118198.10788680194
   },
   {
     "dataset": "deaths",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 58843.705001424576
+    "y": 59290.986835486576
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 275107.4402771561
+    "y": 270868.39014748955
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 379922.196520737
+    "y": 379386.0952530019
   },
   {
     "dataset": "international_in_migration",
@@ -2847,25 +2847,25 @@
     "dataset": "births",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 119054.80765872032
+    "y": 119745.7434591373
   },
   {
     "dataset": "deaths",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 59227.85746439241
+    "y": 59684.38496617949
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 276910.232367549
+    "y": 272596.69517727674
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 381579.3000362811
+    "y": 380943.0639259355
   },
   {
     "dataset": "international_in_migration",
@@ -2883,25 +2883,25 @@
     "dataset": "births",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 119740.9258057653
+    "y": 120261.45203415406
   },
   {
     "dataset": "deaths",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 59641.50271336975
+    "y": 60107.663740799864
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 278455.54106085387
+    "y": 274258.41508448403
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 383058.34376877244
+    "y": 382413.87742305396
   },
   {
     "dataset": "international_in_migration",
@@ -2919,25 +2919,25 @@
     "dataset": "births",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 120365.50152390872
+    "y": 120683.1492809678
   },
   {
     "dataset": "deaths",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 60061.997409669
+    "y": 60537.762995505225
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 279806.8745781403
+    "y": 275754.76844849007
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 384944.4402900021
+    "y": 384180.0841607017
   },
   {
     "dataset": "international_in_migration",
@@ -2955,25 +2955,25 @@
     "dataset": "births",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 120951.92904099592
+    "y": 121032.1585283991
   },
   {
     "dataset": "deaths",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 60472.6864851518
+    "y": 60957.97639140547
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 280789.26952949946
+    "y": 276841.6007049306
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 386896.14194717904
+    "y": 385776.7012554655
   },
   {
     "dataset": "international_in_migration",
@@ -2991,25 +2991,25 @@
     "dataset": "births",
     "xd": "2036-01-01",
     "b": "High",
-    "y": 121541.34460832435
+    "y": 121351.46239141
   },
   {
     "dataset": "deaths",
     "xd": "2036-01-01",
     "b": "High",
-    "y": 60899.112435607334
+    "y": 61394.2914606142
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2036-01-01",
     "b": "High",
-    "y": 281188.26497836364
+    "y": 277357.5031620332
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2036-01-01",
     "b": "High",
-    "y": 388336.76060053473
+    "y": 386943.7656540142
   },
   {
     "dataset": "international_in_migration",
@@ -3027,25 +3027,25 @@
     "dataset": "births",
     "xd": "2037-01-01",
     "b": "High",
-    "y": 122163.87870461764
+    "y": 121676.34780668293
   },
   {
     "dataset": "deaths",
     "xd": "2037-01-01",
     "b": "High",
-    "y": 61369.26974282184
+    "y": 61874.52731759067
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2037-01-01",
     "b": "High",
-    "y": 281357.01579468313
+    "y": 277534.8727461843
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2037-01-01",
     "b": "High",
-    "y": 389487.9771078983
+    "y": 387748.92227572564
   },
   {
     "dataset": "international_in_migration",
@@ -3063,25 +3063,25 @@
     "dataset": "births",
     "xd": "2038-01-01",
     "b": "High",
-    "y": 122823.88095129273
+    "y": 122028.96782629241
   },
   {
     "dataset": "deaths",
     "xd": "2038-01-01",
     "b": "High",
-    "y": 61737.91986438056
+    "y": 62253.79188816126
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2038-01-01",
     "b": "High",
-    "y": 281456.71071782144
+    "y": 277395.3901303929
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2038-01-01",
     "b": "High",
-    "y": 390738.17740833055
+    "y": 388301.9413759779
   },
   {
     "dataset": "international_in_migration",
@@ -3099,25 +3099,25 @@
     "dataset": "births",
     "xd": "2039-01-01",
     "b": "High",
-    "y": 123511.90767059741
+    "y": 122418.48978608026
   },
   {
     "dataset": "deaths",
     "xd": "2039-01-01",
     "b": "High",
-    "y": 62063.75275905883
+    "y": 62590.52200523716
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2039-01-01",
     "b": "High",
-    "y": 281215.4389801233
+    "y": 276833.5730790271
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2039-01-01",
     "b": "High",
-    "y": 391832.5397818884
+    "y": 388892.58691502834
   },
   {
     "dataset": "international_in_migration",
@@ -3135,25 +3135,25 @@
     "dataset": "births",
     "xd": "2040-01-01",
     "b": "High",
-    "y": 124186.44444653824
+    "y": 122821.8913566991
   },
   {
     "dataset": "deaths",
     "xd": "2040-01-01",
     "b": "High",
-    "y": 62382.25234385397
+    "y": 62920.59058256651
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2040-01-01",
     "b": "High",
-    "y": 280463.57672758796
+    "y": 275774.7085174137
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2040-01-01",
     "b": "High",
-    "y": 392528.1365138327
+    "y": 389206.9092094046
   },
   {
     "dataset": "international_in_migration",
@@ -3171,25 +3171,25 @@
     "dataset": "births",
     "xd": "2041-01-01",
     "b": "High",
-    "y": 124811.2524493974
+    "y": 123227.29565149469
   },
   {
     "dataset": "deaths",
     "xd": "2041-01-01",
     "b": "High",
-    "y": 62701.94185276485
+    "y": 63251.92793245778
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2041-01-01",
     "b": "High",
-    "y": 279585.7442401635
+    "y": 274560.2718087853
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2041-01-01",
     "b": "High",
-    "y": 393574.61965490045
+    "y": 389749.70634952735
   },
   {
     "dataset": "international_in_migration",
@@ -3207,25 +3207,25 @@
     "dataset": "births",
     "xd": "2042-01-01",
     "b": "High",
-    "y": 125326.9063163586
+    "y": 123579.98193987638
   },
   {
     "dataset": "deaths",
     "xd": "2042-01-01",
     "b": "High",
-    "y": 63021.47223422288
+    "y": 63582.79643670412
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2042-01-01",
     "b": "High",
-    "y": 278165.3360356002
+    "y": 272888.7022471385
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2042-01-01",
     "b": "High",
-    "y": 393663.6928022449
+    "y": 389759.159240278
   },
   {
     "dataset": "international_in_migration",
@@ -3243,25 +3243,25 @@
     "dataset": "births",
     "xd": "2043-01-01",
     "b": "High",
-    "y": 125713.23738645128
+    "y": 123858.86534595887
   },
   {
     "dataset": "deaths",
     "xd": "2043-01-01",
     "b": "High",
-    "y": 63349.800808702195
+    "y": 63922.66287389556
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2043-01-01",
     "b": "High",
-    "y": 276448.0809058142
+    "y": 271219.0481890011
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2043-01-01",
     "b": "High",
-    "y": 393775.937489611
+    "y": 390138.64725875284
   },
   {
     "dataset": "international_in_migration",
@@ -3279,25 +3279,25 @@
     "dataset": "births",
     "xd": "2044-01-01",
     "b": "High",
-    "y": 125933.21990878989
+    "y": 124025.70970859099
   },
   {
     "dataset": "deaths",
     "xd": "2044-01-01",
     "b": "High",
-    "y": 63687.495767067834
+    "y": 64272.72116630759
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2044-01-01",
     "b": "High",
-    "y": 275119.53476569284
+    "y": 270124.3373543698
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2044-01-01",
     "b": "High",
-    "y": 394497.1925736684
+    "y": 391335.0467664408
   },
   {
     "dataset": "international_in_migration",
@@ -3315,25 +3315,25 @@
     "dataset": "births",
     "xd": "2045-01-01",
     "b": "High",
-    "y": 125964.44397275998
+    "y": 124049.89335865583
   },
   {
     "dataset": "deaths",
     "xd": "2045-01-01",
     "b": "High",
-    "y": 64034.66181277527
+    "y": 64631.860102275496
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2045-01-01",
     "b": "High",
-    "y": 273581.838643391
+    "y": 268940.546876864
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2045-01-01",
     "b": "High",
-    "y": 395123.0425320538
+    "y": 392154.52504509664
   },
   {
     "dataset": "international_in_migration",
@@ -3351,25 +3351,25 @@
     "dataset": "births",
     "xd": "2046-01-01",
     "b": "High",
-    "y": 125832.27445314621
+    "y": 123947.28327524697
   },
   {
     "dataset": "deaths",
     "xd": "2046-01-01",
     "b": "High",
-    "y": 64392.702782717475
+    "y": 65002.49153979792
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2046-01-01",
     "b": "High",
-    "y": 271952.24534885434
+    "y": 267825.58059740684
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2046-01-01",
     "b": "High",
-    "y": 395661.9575955175
+    "y": 392812.8065639269
   },
   {
     "dataset": "international_in_migration",
@@ -3387,25 +3387,25 @@
     "dataset": "births",
     "xd": "2047-01-01",
     "b": "High",
-    "y": 125541.78266691463
+    "y": 123706.43787068938
   },
   {
     "dataset": "deaths",
     "xd": "2047-01-01",
     "b": "High",
-    "y": 64751.03903837379
+    "y": 65373.50957779214
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2047-01-01",
     "b": "High",
-    "y": 270799.57662452094
+    "y": 267247.51474880334
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2047-01-01",
     "b": "High",
-    "y": 396240.55723501655
+    "y": 393507.95574863546
   },
   {
     "dataset": "international_in_migration",
@@ -3423,25 +3423,25 @@
     "dataset": "births",
     "xd": "2048-01-01",
     "b": "High",
-    "y": 125138.12958895788
+    "y": 123357.92903314877
   },
   {
     "dataset": "deaths",
     "xd": "2048-01-01",
     "b": "High",
-    "y": 65107.89373637138
+    "y": 65741.39294124083
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2048-01-01",
     "b": "High",
-    "y": 269979.07114667824
+    "y": 266900.38498570106
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2048-01-01",
     "b": "High",
-    "y": 396788.7471053186
+    "y": 394128.16110198817
   },
   {
     "dataset": "international_in_migration",
@@ -3459,25 +3459,25 @@
     "dataset": "births",
     "xd": "2049-01-01",
     "b": "High",
-    "y": 124655.82925946833
+    "y": 122925.16768285468
   },
   {
     "dataset": "deaths",
     "xd": "2049-01-01",
     "b": "High",
-    "y": 65456.01686578169
+    "y": 66101.106195965
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2049-01-01",
     "b": "High",
-    "y": 269290.22696715756
+    "y": 266557.43849332776
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2049-01-01",
     "b": "High",
-    "y": 397303.50143992034
+    "y": 394688.63167791854
   },
   {
     "dataset": "international_in_migration",
@@ -3495,25 +3495,25 @@
     "dataset": "births",
     "xd": "2050-01-01",
     "b": "High",
-    "y": 124131.50210403386
+    "y": 122434.0022392936
   },
   {
     "dataset": "deaths",
     "xd": "2050-01-01",
     "b": "High",
-    "y": 65790.96615531908
+    "y": 66447.59189278845
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2050-01-01",
     "b": "High",
-    "y": 268751.28046524944
+    "y": 266269.80876698194
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2050-01-01",
     "b": "High",
-    "y": 397814.81307523244
+    "y": 395237.2279488052
   },
   {
     "dataset": "international_in_migration",
@@ -3555,13 +3555,13 @@
     "dataset": "international_in_migration",
     "xd": "2002-01-01",
     "b": "Low",
-    "y": 188562.0
+    "y": 188212.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2002-01-01",
     "b": "Low",
-    "y": 92425.50000000001
+    "y": 92501.4
   },
   {
     "dataset": "births",
@@ -3591,13 +3591,13 @@
     "dataset": "international_in_migration",
     "xd": "2003-01-01",
     "b": "Low",
-    "y": 180320.99999999997
+    "y": 179977.49999999997
   },
   {
     "dataset": "international_out_migration",
     "xd": "2003-01-01",
     "b": "Low",
-    "y": 114186.00000000003
+    "y": 114219.70000000001
   },
   {
     "dataset": "births",
@@ -3627,13 +3627,13 @@
     "dataset": "international_in_migration",
     "xd": "2004-01-01",
     "b": "Low",
-    "y": 185264.0
+    "y": 184818.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2004-01-01",
     "b": "Low",
-    "y": 91475.5
+    "y": 91514.70000000001
   },
   {
     "dataset": "births",
@@ -3663,13 +3663,13 @@
     "dataset": "international_in_migration",
     "xd": "2005-01-01",
     "b": "Low",
-    "y": 203984.0
+    "y": 203586.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2005-01-01",
     "b": "Low",
-    "y": 97250.0
+    "y": 97280.19999999998
   },
   {
     "dataset": "births",
@@ -3699,13 +3699,13 @@
     "dataset": "international_in_migration",
     "xd": "2006-01-01",
     "b": "Low",
-    "y": 190308.0
+    "y": 189849.8
   },
   {
     "dataset": "international_out_migration",
     "xd": "2006-01-01",
     "b": "Low",
-    "y": 104399.99999999999
+    "y": 104439.4
   },
   {
     "dataset": "births",
@@ -3735,13 +3735,13 @@
     "dataset": "international_in_migration",
     "xd": "2007-01-01",
     "b": "Low",
-    "y": 219019.5
+    "y": 218057.7
   },
   {
     "dataset": "international_out_migration",
     "xd": "2007-01-01",
     "b": "Low",
-    "y": 119004.5
+    "y": 119256.59999999999
   },
   {
     "dataset": "births",
@@ -3771,13 +3771,13 @@
     "dataset": "international_in_migration",
     "xd": "2008-01-01",
     "b": "Low",
-    "y": 212923.0
+    "y": 212131.2
   },
   {
     "dataset": "international_out_migration",
     "xd": "2008-01-01",
     "b": "Low",
-    "y": 104739.5
+    "y": 104857.1
   },
   {
     "dataset": "births",
@@ -3807,13 +3807,13 @@
     "dataset": "international_in_migration",
     "xd": "2009-01-01",
     "b": "Low",
-    "y": 211039.0
+    "y": 210257.60000000003
   },
   {
     "dataset": "international_out_migration",
     "xd": "2009-01-01",
     "b": "Low",
-    "y": 124379.5
+    "y": 124560.9
   },
   {
     "dataset": "births",
@@ -3825,7 +3825,7 @@
     "dataset": "deaths",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 48048.0
+    "y": 48047.0
   },
   {
     "dataset": "domestic_in_migration",
@@ -3843,13 +3843,13 @@
     "dataset": "international_in_migration",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 214710.5
+    "y": 213827.09999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 131923.5
+    "y": 132106.4
   },
   {
     "dataset": "births",
@@ -3879,13 +3879,13 @@
     "dataset": "international_in_migration",
     "xd": "2011-01-01",
     "b": "Low",
-    "y": 213717.0
+    "y": 212669.59999999998
   },
   {
     "dataset": "international_out_migration",
     "xd": "2011-01-01",
     "b": "Low",
-    "y": 112170.0
+    "y": 112436.6
   },
   {
     "dataset": "births",
@@ -3915,13 +3915,13 @@
     "dataset": "international_in_migration",
     "xd": "2012-01-01",
     "b": "Low",
-    "y": 241578.50000000003
+    "y": 240059.29999999996
   },
   {
     "dataset": "international_out_migration",
     "xd": "2012-01-01",
     "b": "Low",
-    "y": 161439.00000000003
+    "y": 162265.7
   },
   {
     "dataset": "births",
@@ -3951,13 +3951,13 @@
     "dataset": "international_in_migration",
     "xd": "2013-01-01",
     "b": "Low",
-    "y": 240549.99999999997
+    "y": 238758.30000000005
   },
   {
     "dataset": "international_out_migration",
     "xd": "2013-01-01",
     "b": "Low",
-    "y": 151848.50000000003
+    "y": 152695.3
   },
   {
     "dataset": "births",
@@ -3987,13 +3987,13 @@
     "dataset": "international_in_migration",
     "xd": "2014-01-01",
     "b": "Low",
-    "y": 271015.5
+    "y": 268747.6
   },
   {
     "dataset": "international_out_migration",
     "xd": "2014-01-01",
     "b": "Low",
-    "y": 166055.5
+    "y": 167144.7
   },
   {
     "dataset": "births",
@@ -4023,13 +4023,13 @@
     "dataset": "international_in_migration",
     "xd": "2015-01-01",
     "b": "Low",
-    "y": 280303.0
+    "y": 277904.0
   },
   {
     "dataset": "international_out_migration",
     "xd": "2015-01-01",
     "b": "Low",
-    "y": 164837.99999999994
+    "y": 166102.20000000004
   },
   {
     "dataset": "births",
@@ -4059,13 +4059,13 @@
     "dataset": "international_in_migration",
     "xd": "2016-01-01",
     "b": "Low",
-    "y": 292531.5
+    "y": 292284.07606864057
   },
   {
     "dataset": "international_out_migration",
     "xd": "2016-01-01",
     "b": "Low",
-    "y": 186120.99999999997
+    "y": 191083.6661289605
   },
   {
     "dataset": "births",
@@ -4095,13 +4095,13 @@
     "dataset": "international_in_migration",
     "xd": "2017-01-01",
     "b": "Low",
-    "y": 245674.99999999997
+    "y": 248515.18598577232
   },
   {
     "dataset": "international_out_migration",
     "xd": "2017-01-01",
     "b": "Low",
-    "y": 172327.0
+    "y": 174357.28278249875
   },
   {
     "dataset": "births",
@@ -4131,13 +4131,13 @@
     "dataset": "international_in_migration",
     "xd": "2018-01-01",
     "b": "Low",
-    "y": 264090.5
+    "y": 267919.26712261065
   },
   {
     "dataset": "international_out_migration",
     "xd": "2018-01-01",
     "b": "Low",
-    "y": 171258.5
+    "y": 172610.0406247177
   },
   {
     "dataset": "births",
@@ -4167,13 +4167,13 @@
     "dataset": "international_in_migration",
     "xd": "2019-01-01",
     "b": "Low",
-    "y": 277728.5
+    "y": 280890.038136573
   },
   {
     "dataset": "international_out_migration",
     "xd": "2019-01-01",
     "b": "Low",
-    "y": 194413.0
+    "y": 195758.60116181822
   },
   {
     "dataset": "births",
@@ -4203,13 +4203,13 @@
     "dataset": "international_in_migration",
     "xd": "2020-01-01",
     "b": "Low",
-    "y": 227435.0
+    "y": 230932.02500495405
   },
   {
     "dataset": "international_out_migration",
     "xd": "2020-01-01",
     "b": "Low",
-    "y": 192745.5
+    "y": 194412.45558174961
   },
   {
     "dataset": "births",
@@ -4239,13 +4239,13 @@
     "dataset": "international_in_migration",
     "xd": "2021-01-01",
     "b": "Low",
-    "y": 222053.0
+    "y": 232232.39415888337
   },
   {
     "dataset": "international_out_migration",
     "xd": "2021-01-01",
     "b": "Low",
-    "y": 151574.5
+    "y": 145915.11147005763
   },
   {
     "dataset": "births",
@@ -4275,13 +4275,13 @@
     "dataset": "international_in_migration",
     "xd": "2022-01-01",
     "b": "Low",
-    "y": 287497.0
+    "y": 318913.0373372045
   },
   {
     "dataset": "international_out_migration",
     "xd": "2022-01-01",
     "b": "Low",
-    "y": 150828.0
+    "y": 136746.4862582814
   },
   {
     "dataset": "births",
@@ -4311,13 +4311,13 @@
     "dataset": "international_in_migration",
     "xd": "2023-01-01",
     "b": "Low",
-    "y": 338269.0
+    "y": 380690.72084793804
   },
   {
     "dataset": "international_out_migration",
     "xd": "2023-01-01",
     "b": "Low",
-    "y": 124158.0
+    "y": 152111.8380228936
   },
   {
     "dataset": "births",
@@ -4347,37 +4347,37 @@
     "dataset": "international_in_migration",
     "xd": "2024-01-01",
     "b": "Low",
-    "y": 313360.0
+    "y": 329085.3083147326
   },
   {
     "dataset": "international_out_migration",
     "xd": "2024-01-01",
     "b": "Low",
-    "y": 150021.0
+    "y": 182123.72227369196
   },
   {
     "dataset": "births",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": 101995.20778699659
+    "y": 103483.44741219268
   },
   {
     "dataset": "deaths",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": 54970.23144026831
+    "y": 55345.922936674746
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": 276042.24308713427
+    "y": 275472.50185323396
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": 395386.1003633215
+    "y": 396195.50588298764
   },
   {
     "dataset": "international_in_migration",
@@ -4395,25 +4395,25 @@
     "dataset": "births",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": 100529.99099313865
+    "y": 101899.11660314995
   },
   {
     "dataset": "deaths",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": 57344.224164792424
+    "y": 57744.49257968828
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": 277946.7178546839
+    "y": 276492.5278166578
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": 398160.3452840178
+    "y": 398510.7257974213
   },
   {
     "dataset": "international_in_migration",
@@ -4431,25 +4431,25 @@
     "dataset": "births",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": 99261.56453746281
+    "y": 100507.33005371365
   },
   {
     "dataset": "deaths",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": 57620.03399320952
+    "y": 58029.12990979748
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": 280082.2846277652
+    "y": 277672.6187504527
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": 400860.8735836492
+    "y": 400774.57694512716
   },
   {
     "dataset": "international_in_migration",
@@ -4467,25 +4467,25 @@
     "dataset": "births",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": 98093.92706468486
+    "y": 99213.53933258486
   },
   {
     "dataset": "deaths",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": 57987.588849591964
+    "y": 58405.63559254537
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": 282341.8061261998
+    "y": 279108.3159912153
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": 402669.35649606783
+    "y": 402388.49499980616
   },
   {
     "dataset": "international_in_migration",
@@ -4503,25 +4503,25 @@
     "dataset": "births",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": 97025.39107990221
+    "y": 98021.18260025713
   },
   {
     "dataset": "deaths",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": 58427.94562554405
+    "y": 58855.801280983804
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": 284840.1290958998
+    "y": 281093.47791868064
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": 404135.49285174045
+    "y": 403930.27672926855
   },
   {
     "dataset": "international_in_migration",
@@ -4539,25 +4539,25 @@
     "dataset": "births",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": 95997.13595682601
+    "y": 96865.9591092848
   },
   {
     "dataset": "deaths",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": 58930.23353359456
+    "y": 59367.90721405136
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": 287691.01716717763
+    "y": 283513.21800947847
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": 405845.96661081
+    "y": 405380.6566574053
   },
   {
     "dataset": "international_in_migration",
@@ -4575,25 +4575,25 @@
     "dataset": "births",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": 94987.02573508104
+    "y": 95724.89787413427
   },
   {
     "dataset": "deaths",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": 59460.392003447836
+    "y": 59909.09349194394
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": 290292.45326440636
+    "y": 285754.8226840546
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": 407068.1933965857
+    "y": 406407.835301203
   },
   {
     "dataset": "international_in_migration",
@@ -4611,25 +4611,25 @@
     "dataset": "births",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": 93906.64043165467
+    "y": 94512.99307311825
   },
   {
     "dataset": "deaths",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": 60081.07274937129
+    "y": 60540.587243297705
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": 292230.51942619146
+    "y": 287610.43122676364
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": 407834.15675593284
+    "y": 407036.70236939244
   },
   {
     "dataset": "international_in_migration",
@@ -4647,25 +4647,25 @@
     "dataset": "births",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 94386.81718681408
+    "y": 94859.99362366769
   },
   {
     "dataset": "deaths",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 60773.5293136293
+    "y": 61244.65710627186
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 293801.5421347835
+    "y": 289317.9067524494
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 408385.4672155002
+    "y": 407551.0086199773
   },
   {
     "dataset": "international_in_migration",
@@ -4683,25 +4683,25 @@
     "dataset": "births",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 94834.66612823118
+    "y": 95150.30677321114
   },
   {
     "dataset": "deaths",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 61508.667132331706
+    "y": 61991.77662043845
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 295134.040407448
+    "y": 290833.11379064416
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 409476.18000593723
+    "y": 408499.32540780434
   },
   {
     "dataset": "international_in_migration",
@@ -4719,25 +4719,25 @@
     "dataset": "births",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 95277.20656274246
+    "y": 95404.27697382306
   },
   {
     "dataset": "deaths",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 62266.88980046214
+    "y": 62762.30507283331
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 296051.8735599867
+    "y": 291899.97520849603
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 410726.7671742082
+    "y": 409370.4833892691
   },
   {
     "dataset": "international_in_migration",
@@ -4755,25 +4755,25 @@
     "dataset": "births",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": 95741.05802035851
+    "y": 95651.76389628267
   },
   {
     "dataset": "deaths",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": 63071.749296015885
+    "y": 63580.259420734066
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": 296379.47608342185
+    "y": 292379.9417838863
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": 411494.1317535595
+    "y": 409859.7365818262
   },
   {
     "dataset": "international_in_migration",
@@ -4791,25 +4791,25 @@
     "dataset": "births",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": 96252.54757270994
+    "y": 95922.12160788137
   },
   {
     "dataset": "deaths",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": 63949.03082700485
+    "y": 64471.22358239997
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": 296465.41613692575
+    "y": 292500.21805488004
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": 412030.3256752233
+    "y": 410044.05712453293
   },
   {
     "dataset": "international_in_migration",
@@ -4827,25 +4827,25 @@
     "dataset": "births",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": 96815.82515858283
+    "y": 96234.86303089822
   },
   {
     "dataset": "deaths",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": 64747.15533186258
+    "y": 65283.95366772902
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": 296490.3109453936
+    "y": 292293.9442695247
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": 412707.4441292035
+    "y": 410009.97374803945
   },
   {
     "dataset": "international_in_migration",
@@ -4863,25 +4863,25 @@
     "dataset": "births",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": 97419.47092355766
+    "y": 96595.0460923601
   },
   {
     "dataset": "deaths",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": 65524.277392161486
+    "y": 66076.31982606227
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": 296162.3464667344
+    "y": 291629.8966937291
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": 413123.40688648034
+    "y": 409929.35902886966
   },
   {
     "dataset": "international_in_migration",
@@ -4899,25 +4899,25 @@
     "dataset": "births",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": 98026.79413325417
+    "y": 96980.21476576266
   },
   {
     "dataset": "deaths",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": 66314.69186056821
+    "y": 66882.96005605214
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": 295308.19282218587
+    "y": 290439.0090104151
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": 413153.97899971873
+    "y": 409582.6789011969
   },
   {
     "dataset": "international_in_migration",
@@ -4935,25 +4935,25 @@
     "dataset": "births",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": 98597.57409276054
+    "y": 97365.6203625921
   },
   {
     "dataset": "deaths",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": 67124.6630661413
+    "y": 67709.4809558293
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": 294297.668831817
+    "y": 289056.527621313
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": 413561.255611117
+    "y": 409484.0917943658
   },
   {
     "dataset": "international_in_migration",
@@ -4971,25 +4971,25 @@
     "dataset": "births",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": 99074.32593655161
+    "y": 97702.33737623255
   },
   {
     "dataset": "deaths",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": 67950.58036020797
+    "y": 68551.87429790062
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": 292702.5961896785
+    "y": 287177.92056892713
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": 412952.8105509031
+    "y": 408806.49733079766
   },
   {
     "dataset": "international_in_migration",
@@ -5007,25 +5007,25 @@
     "dataset": "births",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": 99424.08463506422
+    "y": 97960.33379714334
   },
   {
     "dataset": "deaths",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": 68799.18804900444
+    "y": 69417.39485493122
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": 290603.57196721
+    "y": 285108.8283027358
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": 412182.8952796693
+    "y": 408311.30194544257
   },
   {
     "dataset": "international_in_migration",
@@ -5043,25 +5043,25 @@
     "dataset": "births",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": 99616.2818412051
+    "y": 98105.62315364608
   },
   {
     "dataset": "deaths",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": 69668.0454600772
+    "y": 70304.19095387498
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": 288115.6392297653
+    "y": 282872.1537682251
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": 411013.87238322047
+    "y": 407614.76504613995
   },
   {
     "dataset": "international_in_migration",
@@ -5079,25 +5079,25 @@
     "dataset": "births",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": 99636.66018890456
+    "y": 98115.99682432192
   },
   {
     "dataset": "deaths",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": 70554.15027477001
+    "y": 71207.94495044654
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": 285238.7596794722
+    "y": 280395.16438319243
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": 409972.44761928276
+    "y": 406764.1197559261
   },
   {
     "dataset": "international_in_migration",
@@ -5115,25 +5115,25 @@
     "dataset": "births",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": 99488.59732668346
+    "y": 97987.76395012357
   },
   {
     "dataset": "deaths",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": 71454.67659294471
+    "y": 72126.83963879527
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": 281972.29215512745
+    "y": 277703.95994498156
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": 408903.2128510012
+    "y": 405823.7526949455
   },
   {
     "dataset": "international_in_migration",
@@ -5151,25 +5151,25 @@
     "dataset": "births",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": 99173.02792044624
+    "y": 97710.59349551029
   },
   {
     "dataset": "deaths",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": 72353.60846815637
+    "y": 73044.24601781557
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": 278472.3281859872
+    "y": 274844.46387925005
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": 407654.7651844182
+    "y": 404705.7703463713
   },
   {
     "dataset": "international_in_migration",
@@ -5187,25 +5187,25 @@
     "dataset": "births",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": 98720.55957681802
+    "y": 97301.58227382787
   },
   {
     "dataset": "deaths",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": 73244.05553717245
+    "y": 73951.39314372596
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": 274975.3509538737
+    "y": 271879.07700729015
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": 406275.317054514
+    "y": 403413.624070194
   },
   {
     "dataset": "international_in_migration",
@@ -5223,25 +5223,25 @@
     "dataset": "births",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": 98147.3830314277
+    "y": 96765.70583612187
   },
   {
     "dataset": "deaths",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": 74113.39868502693
+    "y": 74837.90777443585
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": 271681.0223679504
+    "y": 268975.7983659888
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": 404766.8595447949
+    "y": 401970.5284327342
   },
   {
     "dataset": "international_in_migration",
@@ -5259,25 +5259,25 @@
     "dataset": "births",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": 97476.81674967331
+    "y": 96120.37322992258
   },
   {
     "dataset": "deaths",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": 74951.85793420368
+    "y": 75693.27002229777
   },
   {
     "dataset": "domestic_in_migration",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": 268533.08363446797
+    "y": 266114.8603468918
   },
   {
     "dataset": "domestic_out_migration",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": 403122.0739582481
+    "y": 400386.53284530196
   },
   {
     "dataset": "international_in_migration",
@@ -5301,13 +5301,13 @@
     "dataset": "international_net_migration",
     "xd": "2002-01-01",
     "b": "Central",
-    "y": 96136.49999999999
+    "y": 95710.80000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2002-01-01",
     "b": "Central",
-    "y": 7055.10000000002
+    "y": 6629.400000000052
   },
   {
     "dataset": "natural_change",
@@ -5325,13 +5325,13 @@
     "dataset": "international_net_migration",
     "xd": "2003-01-01",
     "b": "Central",
-    "y": 66134.99999999994
+    "y": 65757.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2003-01-01",
     "b": "Central",
-    "y": -36978.40000000008
+    "y": -37355.600000000064
   },
   {
     "dataset": "natural_change",
@@ -5349,13 +5349,13 @@
     "dataset": "international_net_migration",
     "xd": "2004-01-01",
     "b": "Central",
-    "y": 93788.5
+    "y": 93304.09999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2004-01-01",
     "b": "Central",
-    "y": -16472.300000000047
+    "y": -16956.70000000007
   },
   {
     "dataset": "natural_change",
@@ -5373,13 +5373,13 @@
     "dataset": "international_net_migration",
     "xd": "2005-01-01",
     "b": "Central",
-    "y": 106734.0
+    "y": 106306.00000000003
   },
   {
     "dataset": "total_net_migration",
     "xd": "2005-01-01",
     "b": "Central",
-    "y": 21885.199999999953
+    "y": 21457.199999999983
   },
   {
     "dataset": "natural_change",
@@ -5397,13 +5397,13 @@
     "dataset": "international_net_migration",
     "xd": "2006-01-01",
     "b": "Central",
-    "y": 85908.00000000001
+    "y": 85410.4
   },
   {
     "dataset": "total_net_migration",
     "xd": "2006-01-01",
     "b": "Central",
-    "y": 9177.39999999998
+    "y": 8679.79999999996
   },
   {
     "dataset": "natural_change",
@@ -5421,13 +5421,13 @@
     "dataset": "international_net_migration",
     "xd": "2007-01-01",
     "b": "Central",
-    "y": 100015.0
+    "y": 98801.10000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2007-01-01",
     "b": "Central",
-    "y": 22734.300000000017
+    "y": 21520.400000000038
   },
   {
     "dataset": "natural_change",
@@ -5445,13 +5445,13 @@
     "dataset": "international_net_migration",
     "xd": "2008-01-01",
     "b": "Central",
-    "y": 108183.5
+    "y": 107274.1
   },
   {
     "dataset": "total_net_migration",
     "xd": "2008-01-01",
     "b": "Central",
-    "y": 40519.79999999996
+    "y": 39610.399999999965
   },
   {
     "dataset": "natural_change",
@@ -5469,13 +5469,13 @@
     "dataset": "international_net_migration",
     "xd": "2009-01-01",
     "b": "Central",
-    "y": 86659.5
+    "y": 85696.70000000004
   },
   {
     "dataset": "total_net_migration",
     "xd": "2009-01-01",
     "b": "Central",
-    "y": 54738.49999999994
+    "y": 53775.69999999998
   },
   {
     "dataset": "natural_change",
@@ -5493,19 +5493,19 @@
     "dataset": "international_net_migration",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 82787.0
+    "y": 81720.69999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 40183.100000000006
+    "y": 39116.79999999999
   },
   {
     "dataset": "natural_change",
     "xd": "2010-01-01",
     "b": "Central",
-    "y": 82792.0
+    "y": 82793.0
   },
   {
     "dataset": "domestic_net_migration",
@@ -5517,13 +5517,13 @@
     "dataset": "international_net_migration",
     "xd": "2011-01-01",
     "b": "Central",
-    "y": 101547.0
+    "y": 100232.99999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2011-01-01",
     "b": "Central",
-    "y": 61194.50000000003
+    "y": 59880.5
   },
   {
     "dataset": "natural_change",
@@ -5541,13 +5541,13 @@
     "dataset": "international_net_migration",
     "xd": "2012-01-01",
     "b": "Central",
-    "y": 80139.5
+    "y": 77793.59999999995
   },
   {
     "dataset": "total_net_migration",
     "xd": "2012-01-01",
     "b": "Central",
-    "y": 29695.600000000035
+    "y": 27349.699999999983
   },
   {
     "dataset": "natural_change",
@@ -5565,13 +5565,13 @@
     "dataset": "international_net_migration",
     "xd": "2013-01-01",
     "b": "Central",
-    "y": 88701.49999999994
+    "y": 86063.00000000006
   },
   {
     "dataset": "total_net_migration",
     "xd": "2013-01-01",
     "b": "Central",
-    "y": 35664.19999999995
+    "y": 33025.70000000007
   },
   {
     "dataset": "natural_change",
@@ -5589,13 +5589,13 @@
     "dataset": "international_net_migration",
     "xd": "2014-01-01",
     "b": "Central",
-    "y": 104960.0
+    "y": 101602.89999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2014-01-01",
     "b": "Central",
-    "y": 26882.0
+    "y": 23524.899999999965
   },
   {
     "dataset": "natural_change",
@@ -5613,13 +5613,13 @@
     "dataset": "international_net_migration",
     "xd": "2015-01-01",
     "b": "Central",
-    "y": 115465.00000000006
+    "y": 111801.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2015-01-01",
     "b": "Central",
-    "y": 36647.50000000006
+    "y": 32984.29999999996
   },
   {
     "dataset": "natural_change",
@@ -5637,13 +5637,13 @@
     "dataset": "international_net_migration",
     "xd": "2016-01-01",
     "b": "Central",
-    "y": 106410.50000000003
+    "y": 101200.40993968007
   },
   {
     "dataset": "total_net_migration",
     "xd": "2016-01-01",
     "b": "Central",
-    "y": 5891.299999999988
+    "y": 681.2099396800331
   },
   {
     "dataset": "natural_change",
@@ -5661,13 +5661,13 @@
     "dataset": "international_net_migration",
     "xd": "2017-01-01",
     "b": "Central",
-    "y": 73347.99999999997
+    "y": 74157.9032032736
   },
   {
     "dataset": "total_net_migration",
     "xd": "2017-01-01",
     "b": "Central",
-    "y": -46335.100000000006
+    "y": -45525.19679672638
   },
   {
     "dataset": "natural_change",
@@ -5685,13 +5685,13 @@
     "dataset": "international_net_migration",
     "xd": "2018-01-01",
     "b": "Central",
-    "y": 92832.0
+    "y": 95309.22649789296
   },
   {
     "dataset": "total_net_migration",
     "xd": "2018-01-01",
     "b": "Central",
-    "y": -17511.399999999965
+    "y": -15034.173502107005
   },
   {
     "dataset": "natural_change",
@@ -5709,13 +5709,13 @@
     "dataset": "international_net_migration",
     "xd": "2019-01-01",
     "b": "Central",
-    "y": 83315.5
+    "y": 85131.43697475476
   },
   {
     "dataset": "total_net_migration",
     "xd": "2019-01-01",
     "b": "Central",
-    "y": -16056.099999999977
+    "y": -14240.163025245216
   },
   {
     "dataset": "natural_change",
@@ -5733,13 +5733,13 @@
     "dataset": "international_net_migration",
     "xd": "2020-01-01",
     "b": "Central",
-    "y": 34689.5
+    "y": 36519.56942320443
   },
   {
     "dataset": "total_net_migration",
     "xd": "2020-01-01",
     "b": "Central",
-    "y": -79293.29999999993
+    "y": -77463.2305767955
   },
   {
     "dataset": "natural_change",
@@ -5757,13 +5757,13 @@
     "dataset": "international_net_migration",
     "xd": "2021-01-01",
     "b": "Central",
-    "y": 70478.5
+    "y": 86317.28268882574
   },
   {
     "dataset": "total_net_migration",
     "xd": "2021-01-01",
     "b": "Central",
-    "y": -115526.59999999998
+    "y": -99687.81731117424
   },
   {
     "dataset": "natural_change",
@@ -5781,13 +5781,13 @@
     "dataset": "international_net_migration",
     "xd": "2022-01-01",
     "b": "Central",
-    "y": 136669.0
+    "y": 182166.5510789231
   },
   {
     "dataset": "total_net_migration",
     "xd": "2022-01-01",
     "b": "Central",
-    "y": 9543.600000000093
+    "y": 55041.1510789232
   },
   {
     "dataset": "natural_change",
@@ -5805,13 +5805,13 @@
     "dataset": "international_net_migration",
     "xd": "2023-01-01",
     "b": "Central",
-    "y": 214111.0
+    "y": 228578.88282504445
   },
   {
     "dataset": "total_net_migration",
     "xd": "2023-01-01",
     "b": "Central",
-    "y": 76984.40000000002
+    "y": 91452.28282504447
   },
   {
     "dataset": "natural_change",
@@ -5829,13 +5829,13 @@
     "dataset": "international_net_migration",
     "xd": "2024-01-01",
     "b": "Central",
-    "y": 163339.0
+    "y": 146961.58604104066
   },
   {
     "dataset": "total_net_migration",
     "xd": "2024-01-01",
     "b": "Central",
-    "y": 35157.20000000001
+    "y": 18779.786041040672
   },
   {
     "dataset": "natural_change",
@@ -5847,7 +5847,7 @@
     "dataset": "domestic_net_migration",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": -106679.60910227237
+    "y": -107965.61451240181
   },
   {
     "dataset": "international_net_migration",
@@ -5859,19 +5859,19 @@
     "dataset": "total_net_migration",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 2059.17156485375
+    "y": 773.166154724313
   },
   {
     "dataset": "natural_change",
     "xd": "2025-01-01",
     "b": "Central",
-    "y": 51010.00857140031
+    "y": 52172.72616840471
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": -108438.33145432128
+    "y": -110131.42769888829
   },
   {
     "dataset": "international_net_migration",
@@ -5883,19 +5883,19 @@
     "dataset": "total_net_migration",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 300.44921280484414
+    "y": -1392.6470317621715
   },
   {
     "dataset": "natural_change",
     "xd": "2026-01-01",
     "b": "Central",
-    "y": 48412.77319867833
+    "y": 49443.20109735784
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": -109858.93018616462
+    "y": -112078.09754924447
   },
   {
     "dataset": "international_net_migration",
@@ -5907,19 +5907,19 @@
     "dataset": "total_net_migration",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": -1120.149519038503
+    "y": -3339.31688211835
   },
   {
     "dataset": "natural_change",
     "xd": "2027-01-01",
     "b": "Central",
-    "y": 48014.79402428534
+    "y": 48919.96311936818
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": -110294.06435667071
+    "y": -113145.10995337227
   },
   {
     "dataset": "international_net_migration",
@@ -5931,19 +5931,19 @@
     "dataset": "total_net_migration",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": -1555.2836895445944
+    "y": -4406.329286246153
   },
   {
     "dataset": "natural_change",
     "xd": "2028-01-01",
     "b": "Central",
-    "y": 47634.34167117912
+    "y": 48406.77495600088
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": -110072.60859144828
+    "y": -113515.97970802954
   },
   {
     "dataset": "international_net_migration",
@@ -5955,19 +5955,19 @@
     "dataset": "total_net_migration",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": -1333.8279243221623
+    "y": -4777.199040903419
   },
   {
     "dataset": "natural_change",
     "xd": "2029-01-01",
     "b": "Central",
-    "y": 47287.622005393234
+    "y": 47925.55716933396
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": -109595.11127217888
+    "y": -113225.10943791724
   },
   {
     "dataset": "international_net_migration",
@@ -5979,19 +5979,19 @@
     "dataset": "total_net_migration",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": -856.3306050527608
+    "y": -4486.328770791122
   },
   {
     "dataset": "natural_change",
     "xd": "2030-01-01",
     "b": "Central",
-    "y": 46946.00982189906
+    "y": 47443.276560732265
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": -108830.49620279274
+    "y": -112636.0289320543
   },
   {
     "dataset": "international_net_migration",
@@ -6003,19 +6003,19 @@
     "dataset": "total_net_migration",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": -91.71553566661896
+    "y": -3897.2482649281737
   },
   {
     "dataset": "natural_change",
     "xd": "2031-01-01",
     "b": "Central",
-    "y": 46653.73242417008
+    "y": 47000.32494320376
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": -108203.18586893403
+    "y": -111971.00397206238
   },
   {
     "dataset": "international_net_migration",
@@ -6027,19 +6027,19 @@
     "dataset": "total_net_migration",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 535.5947981920908
+    "y": -3232.223304936255
   },
   {
     "dataset": "natural_change",
     "xd": "2032-01-01",
     "b": "Central",
-    "y": 46320.31547911064
+    "y": 46511.79219317809
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": -107674.87230314227
+    "y": -111298.3363811429
   },
   {
     "dataset": "international_net_migration",
@@ -6051,19 +6051,19 @@
     "dataset": "total_net_migration",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 1063.90836398385
+    "y": -2559.5557140167803
   },
   {
     "dataset": "natural_change",
     "xd": "2033-01-01",
     "b": "Central",
-    "y": 46317.766012530745
+    "y": 46346.8599569254
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": -107824.81719315
+    "y": -111160.8455223341
   },
   {
     "dataset": "international_net_migration",
@@ -6075,19 +6075,19 @@
     "dataset": "total_net_migration",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 913.9634739761241
+    "y": -2422.06485520798
   },
   {
     "dataset": "natural_change",
     "xd": "2034-01-01",
     "b": "Central",
-    "y": 46238.24711374181
+    "y": 46076.6072250283
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": -108460.4538378474
+    "y": -111309.24322328524
   },
   {
     "dataset": "international_net_migration",
@@ -6099,19 +6099,19 @@
     "dataset": "total_net_migration",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 278.3268292787252
+    "y": -2570.462556159124
   },
   {
     "dataset": "natural_change",
     "xd": "2035-01-01",
     "b": "Central",
-    "y": 46128.74798087311
+    "y": 45742.94666331309
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": -109192.85858353792
+    "y": -111631.42400238232
   },
   {
     "dataset": "international_net_migration",
@@ -6123,19 +6123,19 @@
     "dataset": "total_net_migration",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": -454.0779164117994
+    "y": -2892.6433352562017
   },
   {
     "dataset": "natural_change",
     "xd": "2036-01-01",
     "b": "Central",
-    "y": 45998.66006080285
+    "y": 45358.02304101903
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": -109890.10577187041
+    "y": -111960.03098381305
   },
   {
     "dataset": "international_net_migration",
@@ -6147,19 +6147,19 @@
     "dataset": "total_net_migration",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": -1151.32510474429
+    "y": -3221.2503166869283
   },
   {
     "dataset": "natural_change",
     "xd": "2037-01-01",
     "b": "Central",
-    "y": 45849.5862224247
+    "y": 44927.19234545005
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": -110777.80256039632
+    "y": -112378.2913994643
   },
   {
     "dataset": "international_net_migration",
@@ -6171,19 +6171,19 @@
     "dataset": "total_net_migration",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": -2039.0218932701973
+    "y": -3639.5107323381817
   },
   {
     "dataset": "natural_change",
     "xd": "2038-01-01",
     "b": "Central",
-    "y": 45834.523855070256
+    "y": 44619.934972469135
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": -111816.68723646284
+    "y": -113244.54882526636
   },
   {
     "dataset": "international_net_migration",
@@ -6195,19 +6195,19 @@
     "dataset": "total_net_migration",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": -3077.9065693367156
+    "y": -4505.768158140243
   },
   {
     "dataset": "natural_change",
     "xd": "2039-01-01",
     "b": "Central",
-    "y": 45883.445182555806
+    "y": 44384.00682068992
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": -112989.38166072918
+    "y": -114357.15026045282
   },
   {
     "dataset": "international_net_migration",
@@ -6219,19 +6219,19 @@
     "dataset": "total_net_migration",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": -4250.6009936030605
+    "y": -5618.369593326701
   },
   {
     "dataset": "natural_change",
     "xd": "2040-01-01",
     "b": "Central",
-    "y": 45921.44457932633
+    "y": 44160.545671157306
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": -114676.52624214988
+    "y": -115888.2004216623
   },
   {
     "dataset": "international_net_migration",
@@ -6243,19 +6243,19 @@
     "dataset": "total_net_migration",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": -5937.745575023757
+    "y": -7149.419754536182
   },
   {
     "dataset": "natural_change",
     "xd": "2041-01-01",
     "b": "Central",
-    "y": 45903.049325575164
+    "y": 43924.01651486971
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": -115951.46465823177
+    "y": -117351.21723272663
   },
   {
     "dataset": "international_net_migration",
@@ -6267,19 +6267,19 @@
     "dataset": "total_net_migration",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": -7212.683991105645
+    "y": -8612.43656560051
   },
   {
     "dataset": "natural_change",
     "xd": "2042-01-01",
     "b": "Central",
-    "y": 45772.658958382046
+    "y": 43626.5947259207
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": -117573.81776795938
+    "y": -119201.37863836833
   },
   {
     "dataset": "international_net_migration",
@@ -6291,19 +6291,19 @@
     "dataset": "total_net_migration",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": -8835.037100833259
+    "y": -10462.597971242212
   },
   {
     "dataset": "natural_change",
     "xd": "2043-01-01",
     "b": "Central",
-    "y": 45496.643815522155
+    "y": 43235.3230328646
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": -119317.96194034955
+    "y": -121179.06037448265
   },
   {
     "dataset": "international_net_migration",
@@ -6315,19 +6315,19 @@
     "dataset": "total_net_migration",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": -10579.181273223425
+    "y": -12440.27970735653
   },
   {
     "dataset": "natural_change",
     "xd": "2044-01-01",
     "b": "Central",
-    "y": 45043.352941304256
+    "y": 42715.58837745128
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": -121344.99789626186
+    "y": -123024.69773977413
   },
   {
     "dataset": "international_net_migration",
@@ -6339,19 +6339,19 @@
     "dataset": "total_net_migration",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": -12606.217229135742
+    "y": -14285.917072648008
   },
   {
     "dataset": "natural_change",
     "xd": "2045-01-01",
     "b": "Central",
-    "y": 44396.62180804185
+    "y": 42044.1972617814
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": -123538.06604317599
+    "y": -124799.05212210171
   },
   {
     "dataset": "international_net_migration",
@@ -6363,19 +6363,19 @@
     "dataset": "total_net_migration",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": -14799.28537604987
+    "y": -16060.271454975591
   },
   {
     "dataset": "natural_change",
     "xd": "2046-01-01",
     "b": "Central",
-    "y": 43570.28325440176
+    "y": 41225.86230902116
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": -125544.63732259691
+    "y": -126320.96209266665
   },
   {
     "dataset": "international_net_migration",
@@ -6387,19 +6387,19 @@
     "dataset": "total_net_migration",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": -16805.856655470794
+    "y": -17582.181425540533
   },
   {
     "dataset": "natural_change",
     "xd": "2047-01-01",
     "b": "Central",
-    "y": 42580.74020385626
+    "y": 40263.787484293964
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": -127301.13682233432
+    "y": -127651.83647206076
   },
   {
     "dataset": "international_net_migration",
@@ -6411,19 +6411,19 @@
     "dataset": "total_net_migration",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": -18562.356155208196
+    "y": -18913.055804934644
   },
   {
     "dataset": "natural_change",
     "xd": "2048-01-01",
     "b": "Central",
-    "y": 41469.12864040637
+    "y": 39186.79618329725
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": -128823.23633352167
+    "y": -128856.81574798306
   },
   {
     "dataset": "international_net_migration",
@@ -6435,19 +6435,19 @@
     "dataset": "total_net_migration",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": -20084.455666395545
+    "y": -20118.035080856935
   },
   {
     "dataset": "natural_change",
     "xd": "2049-01-01",
     "b": "Central",
-    "y": 40268.22142476484
+    "y": 38014.07331606705
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": -130131.40633952
+    "y": -129940.83489442011
   },
   {
     "dataset": "international_net_migration",
@@ -6459,13 +6459,13 @@
     "dataset": "total_net_migration",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": -21392.625672393886
+    "y": -21202.054227293993
   },
   {
     "dataset": "natural_change",
     "xd": "2050-01-01",
     "b": "Central",
-    "y": 39014.389676349456
+    "y": 36774.8015432939
   },
   {
     "dataset": "domestic_net_migration",
@@ -6477,13 +6477,13 @@
     "dataset": "international_net_migration",
     "xd": "2002-01-01",
     "b": "High",
-    "y": 96136.49999999999
+    "y": 95710.80000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2002-01-01",
     "b": "High",
-    "y": 7055.10000000002
+    "y": 6629.400000000052
   },
   {
     "dataset": "natural_change",
@@ -6501,13 +6501,13 @@
     "dataset": "international_net_migration",
     "xd": "2003-01-01",
     "b": "High",
-    "y": 66134.99999999994
+    "y": 65757.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2003-01-01",
     "b": "High",
-    "y": -36978.40000000008
+    "y": -37355.600000000064
   },
   {
     "dataset": "natural_change",
@@ -6525,13 +6525,13 @@
     "dataset": "international_net_migration",
     "xd": "2004-01-01",
     "b": "High",
-    "y": 93788.5
+    "y": 93304.09999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2004-01-01",
     "b": "High",
-    "y": -16472.300000000047
+    "y": -16956.70000000007
   },
   {
     "dataset": "natural_change",
@@ -6549,13 +6549,13 @@
     "dataset": "international_net_migration",
     "xd": "2005-01-01",
     "b": "High",
-    "y": 106734.0
+    "y": 106306.00000000003
   },
   {
     "dataset": "total_net_migration",
     "xd": "2005-01-01",
     "b": "High",
-    "y": 21885.199999999953
+    "y": 21457.199999999983
   },
   {
     "dataset": "natural_change",
@@ -6573,13 +6573,13 @@
     "dataset": "international_net_migration",
     "xd": "2006-01-01",
     "b": "High",
-    "y": 85908.00000000001
+    "y": 85410.4
   },
   {
     "dataset": "total_net_migration",
     "xd": "2006-01-01",
     "b": "High",
-    "y": 9177.39999999998
+    "y": 8679.79999999996
   },
   {
     "dataset": "natural_change",
@@ -6597,13 +6597,13 @@
     "dataset": "international_net_migration",
     "xd": "2007-01-01",
     "b": "High",
-    "y": 100015.0
+    "y": 98801.10000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2007-01-01",
     "b": "High",
-    "y": 22734.300000000017
+    "y": 21520.400000000038
   },
   {
     "dataset": "natural_change",
@@ -6621,13 +6621,13 @@
     "dataset": "international_net_migration",
     "xd": "2008-01-01",
     "b": "High",
-    "y": 108183.5
+    "y": 107274.1
   },
   {
     "dataset": "total_net_migration",
     "xd": "2008-01-01",
     "b": "High",
-    "y": 40519.79999999996
+    "y": 39610.399999999965
   },
   {
     "dataset": "natural_change",
@@ -6645,13 +6645,13 @@
     "dataset": "international_net_migration",
     "xd": "2009-01-01",
     "b": "High",
-    "y": 86659.5
+    "y": 85696.70000000004
   },
   {
     "dataset": "total_net_migration",
     "xd": "2009-01-01",
     "b": "High",
-    "y": 54738.49999999994
+    "y": 53775.69999999998
   },
   {
     "dataset": "natural_change",
@@ -6669,19 +6669,19 @@
     "dataset": "international_net_migration",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 82787.0
+    "y": 81720.69999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 40183.100000000006
+    "y": 39116.79999999999
   },
   {
     "dataset": "natural_change",
     "xd": "2010-01-01",
     "b": "High",
-    "y": 82792.0
+    "y": 82793.0
   },
   {
     "dataset": "domestic_net_migration",
@@ -6693,13 +6693,13 @@
     "dataset": "international_net_migration",
     "xd": "2011-01-01",
     "b": "High",
-    "y": 101547.0
+    "y": 100232.99999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2011-01-01",
     "b": "High",
-    "y": 61194.50000000003
+    "y": 59880.5
   },
   {
     "dataset": "natural_change",
@@ -6717,13 +6717,13 @@
     "dataset": "international_net_migration",
     "xd": "2012-01-01",
     "b": "High",
-    "y": 80139.5
+    "y": 77793.59999999995
   },
   {
     "dataset": "total_net_migration",
     "xd": "2012-01-01",
     "b": "High",
-    "y": 29695.600000000035
+    "y": 27349.699999999983
   },
   {
     "dataset": "natural_change",
@@ -6741,13 +6741,13 @@
     "dataset": "international_net_migration",
     "xd": "2013-01-01",
     "b": "High",
-    "y": 88701.49999999994
+    "y": 86063.00000000006
   },
   {
     "dataset": "total_net_migration",
     "xd": "2013-01-01",
     "b": "High",
-    "y": 35664.19999999995
+    "y": 33025.70000000007
   },
   {
     "dataset": "natural_change",
@@ -6765,13 +6765,13 @@
     "dataset": "international_net_migration",
     "xd": "2014-01-01",
     "b": "High",
-    "y": 104960.0
+    "y": 101602.89999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2014-01-01",
     "b": "High",
-    "y": 26882.0
+    "y": 23524.899999999965
   },
   {
     "dataset": "natural_change",
@@ -6789,13 +6789,13 @@
     "dataset": "international_net_migration",
     "xd": "2015-01-01",
     "b": "High",
-    "y": 115465.00000000006
+    "y": 111801.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2015-01-01",
     "b": "High",
-    "y": 36647.50000000006
+    "y": 32984.29999999996
   },
   {
     "dataset": "natural_change",
@@ -6813,13 +6813,13 @@
     "dataset": "international_net_migration",
     "xd": "2016-01-01",
     "b": "High",
-    "y": 106410.50000000003
+    "y": 101200.40993968007
   },
   {
     "dataset": "total_net_migration",
     "xd": "2016-01-01",
     "b": "High",
-    "y": 5891.299999999988
+    "y": 681.2099396800331
   },
   {
     "dataset": "natural_change",
@@ -6837,13 +6837,13 @@
     "dataset": "international_net_migration",
     "xd": "2017-01-01",
     "b": "High",
-    "y": 73347.99999999997
+    "y": 74157.90320327357
   },
   {
     "dataset": "total_net_migration",
     "xd": "2017-01-01",
     "b": "High",
-    "y": -46335.100000000006
+    "y": -45525.196796726406
   },
   {
     "dataset": "natural_change",
@@ -6861,13 +6861,13 @@
     "dataset": "international_net_migration",
     "xd": "2018-01-01",
     "b": "High",
-    "y": 92832.0
+    "y": 95309.22649789296
   },
   {
     "dataset": "total_net_migration",
     "xd": "2018-01-01",
     "b": "High",
-    "y": -17511.399999999965
+    "y": -15034.173502107005
   },
   {
     "dataset": "natural_change",
@@ -6885,13 +6885,13 @@
     "dataset": "international_net_migration",
     "xd": "2019-01-01",
     "b": "High",
-    "y": 83315.5
+    "y": 85131.43697475476
   },
   {
     "dataset": "total_net_migration",
     "xd": "2019-01-01",
     "b": "High",
-    "y": -16056.099999999977
+    "y": -14240.163025245216
   },
   {
     "dataset": "natural_change",
@@ -6909,13 +6909,13 @@
     "dataset": "international_net_migration",
     "xd": "2020-01-01",
     "b": "High",
-    "y": 34689.5
+    "y": 36519.56942320443
   },
   {
     "dataset": "total_net_migration",
     "xd": "2020-01-01",
     "b": "High",
-    "y": -79293.29999999993
+    "y": -77463.2305767955
   },
   {
     "dataset": "natural_change",
@@ -6933,13 +6933,13 @@
     "dataset": "international_net_migration",
     "xd": "2021-01-01",
     "b": "High",
-    "y": 70478.5
+    "y": 86317.28268882574
   },
   {
     "dataset": "total_net_migration",
     "xd": "2021-01-01",
     "b": "High",
-    "y": -115526.59999999998
+    "y": -99687.81731117424
   },
   {
     "dataset": "natural_change",
@@ -6957,13 +6957,13 @@
     "dataset": "international_net_migration",
     "xd": "2022-01-01",
     "b": "High",
-    "y": 136669.0
+    "y": 182166.5510789231
   },
   {
     "dataset": "total_net_migration",
     "xd": "2022-01-01",
     "b": "High",
-    "y": 9543.600000000093
+    "y": 55041.1510789232
   },
   {
     "dataset": "natural_change",
@@ -6981,13 +6981,13 @@
     "dataset": "international_net_migration",
     "xd": "2023-01-01",
     "b": "High",
-    "y": 214111.0
+    "y": 228578.88282504445
   },
   {
     "dataset": "total_net_migration",
     "xd": "2023-01-01",
     "b": "High",
-    "y": 76984.40000000002
+    "y": 91452.28282504447
   },
   {
     "dataset": "natural_change",
@@ -7005,13 +7005,13 @@
     "dataset": "international_net_migration",
     "xd": "2024-01-01",
     "b": "High",
-    "y": 163339.0
+    "y": 146961.58604104066
   },
   {
     "dataset": "total_net_migration",
     "xd": "2024-01-01",
     "b": "High",
-    "y": 35157.20000000001
+    "y": 18779.786041040672
   },
   {
     "dataset": "natural_change",
@@ -7023,7 +7023,7 @@
     "dataset": "domestic_net_migration",
     "xd": "2025-01-01",
     "b": "High",
-    "y": -99539.26000237226
+    "y": -100793.42797264038
   },
   {
     "dataset": "international_net_migration",
@@ -7035,19 +7035,19 @@
     "dataset": "total_net_migration",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 6831.329909137101
+    "y": 5577.161938868987
   },
   {
     "dataset": "natural_change",
     "xd": "2025-01-01",
     "b": "High",
-    "y": 55234.14157342409
+    "y": 56449.30865249185
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2026-01-01",
     "b": "High",
-    "y": -101721.49025034928
+    "y": -103357.27549497562
   },
   {
     "dataset": "international_net_migration",
@@ -7059,19 +7059,19 @@
     "dataset": "total_net_migration",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 4649.099661160086
+    "y": 3013.3144165337435
   },
   {
     "dataset": "natural_change",
     "xd": "2026-01-01",
     "b": "High",
-    "y": 53792.28244412584
+    "y": 54886.02945235683
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2027-01-01",
     "b": "High",
-    "y": -103618.60654476122
+    "y": -105763.19439228968
   },
   {
     "dataset": "international_net_migration",
@@ -7083,19 +7083,19 @@
     "dataset": "total_net_migration",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 2751.9833667481435
+    "y": 607.3955192196881
   },
   {
     "dataset": "natural_change",
     "xd": "2027-01-01",
     "b": "High",
-    "y": 54540.70496619867
+    "y": 55515.28710708454
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2028-01-01",
     "b": "High",
-    "y": -104647.30917780753
+    "y": -107405.3490705103
   },
   {
     "dataset": "international_net_migration",
@@ -7107,19 +7107,19 @@
     "dataset": "total_net_migration",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 1723.2807337018312
+    "y": -1034.7591590009397
   },
   {
     "dataset": "natural_change",
     "xd": "2028-01-01",
     "b": "High",
-    "y": 55352.74240585689
+    "y": 56196.480870247084
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2029-01-01",
     "b": "High",
-    "y": -105032.828692563
+    "y": -108366.59083363274
   },
   {
     "dataset": "international_net_migration",
@@ -7131,19 +7131,19 @@
     "dataset": "total_net_migration",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 1337.761218946369
+    "y": -1996.0009221233777
   },
   {
     "dataset": "natural_change",
     "xd": "2029-01-01",
     "b": "High",
-    "y": 56282.34482265368
+    "y": 56990.776485088645
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2030-01-01",
     "b": "High",
-    "y": -105071.88881854428
+    "y": -108594.8248388563
   },
   {
     "dataset": "international_net_migration",
@@ -7155,19 +7155,19 @@
     "dataset": "total_net_migration",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 1298.701092965086
+    "y": -2224.23492734693
   },
   {
     "dataset": "natural_change",
     "xd": "2030-01-01",
     "b": "High",
-    "y": 57305.661234061656
+    "y": 57869.278457546694
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2031-01-01",
     "b": "High",
-    "y": -104814.7562435809
+    "y": -108517.70510551234
   },
   {
     "dataset": "international_net_migration",
@@ -7179,19 +7179,19 @@
     "dataset": "total_net_migration",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 1555.8336679284694
+    "y": -2147.1151940029813
   },
   {
     "dataset": "natural_change",
     "xd": "2031-01-01",
     "b": "High",
-    "y": 58503.734441884226
+    "y": 58907.121051315364
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2032-01-01",
     "b": "High",
-    "y": -104669.06766873214
+    "y": -108346.36874865874
   },
   {
     "dataset": "international_net_migration",
@@ -7203,19 +7203,19 @@
     "dataset": "total_net_migration",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 1701.5222427772242
+    "y": -1975.7788371493807
   },
   {
     "dataset": "natural_change",
     "xd": "2032-01-01",
     "b": "High",
-    "y": 59826.95019432792
+    "y": 60061.358492957814
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2033-01-01",
     "b": "High",
-    "y": -104602.80270791857
+    "y": -108155.46233856992
   },
   {
     "dataset": "international_net_migration",
@@ -7227,19 +7227,19 @@
     "dataset": "total_net_migration",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 1767.787203590793
+    "y": -1784.8724270605599
   },
   {
     "dataset": "natural_change",
     "xd": "2033-01-01",
     "b": "High",
-    "y": 60099.423092395555
+    "y": 60153.7882933542
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2034-01-01",
     "b": "High",
-    "y": -105137.56571186177
+    "y": -108425.31571221165
   },
   {
     "dataset": "international_net_migration",
@@ -7251,19 +7251,19 @@
     "dataset": "total_net_migration",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 1233.024199647596
+    "y": -2054.72580070229
   },
   {
     "dataset": "natural_change",
     "xd": "2034-01-01",
     "b": "High",
-    "y": 60303.504114239724
+    "y": 60145.38628546258
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2035-01-01",
     "b": "High",
-    "y": -106106.87241767958
+    "y": -108935.1005505349
   },
   {
     "dataset": "international_net_migration",
@@ -7275,19 +7275,19 @@
     "dataset": "total_net_migration",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 263.71749382978305
+    "y": -2564.5106390255387
   },
   {
     "dataset": "natural_change",
     "xd": "2035-01-01",
     "b": "High",
-    "y": 60479.242555844125
+    "y": 60074.18213699363
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2036-01-01",
     "b": "High",
-    "y": -107148.49562217109
+    "y": -109586.26249198098
   },
   {
     "dataset": "international_net_migration",
@@ -7299,19 +7299,19 @@
     "dataset": "total_net_migration",
     "xd": "2036-01-01",
     "b": "High",
-    "y": -777.9057106617256
+    "y": -3215.6725804716116
   },
   {
     "dataset": "natural_change",
     "xd": "2036-01-01",
     "b": "High",
-    "y": 60642.23217271701
+    "y": 59957.17093079579
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2037-01-01",
     "b": "High",
-    "y": -108130.96131321514
+    "y": -110214.04952954134
   },
   {
     "dataset": "international_net_migration",
@@ -7323,19 +7323,19 @@
     "dataset": "total_net_migration",
     "xd": "2037-01-01",
     "b": "High",
-    "y": -1760.3714017057791
+    "y": -3843.4596180319786
   },
   {
     "dataset": "natural_change",
     "xd": "2037-01-01",
     "b": "High",
-    "y": 60794.608961795806
+    "y": 59801.82048909226
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2038-01-01",
     "b": "High",
-    "y": -109281.46669050911
+    "y": -110906.55124558497
   },
   {
     "dataset": "international_net_migration",
@@ -7347,19 +7347,19 @@
     "dataset": "total_net_migration",
     "xd": "2038-01-01",
     "b": "High",
-    "y": -2910.876778999751
+    "y": -4535.961334075604
   },
   {
     "dataset": "natural_change",
     "xd": "2038-01-01",
     "b": "High",
-    "y": 61085.96108691217
+    "y": 59775.17593813116
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2039-01-01",
     "b": "High",
-    "y": -110617.1008017651
+    "y": -112059.01383600122
   },
   {
     "dataset": "international_net_migration",
@@ -7371,19 +7371,19 @@
     "dataset": "total_net_migration",
     "xd": "2039-01-01",
     "b": "High",
-    "y": -4246.51089025574
+    "y": -5688.423924491857
   },
   {
     "dataset": "natural_change",
     "xd": "2039-01-01",
     "b": "High",
-    "y": 61448.154911538586
+    "y": 59827.9677808431
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2040-01-01",
     "b": "High",
-    "y": -112064.55978624476
+    "y": -113432.2006919909
   },
   {
     "dataset": "international_net_migration",
@@ -7395,19 +7395,19 @@
     "dataset": "total_net_migration",
     "xd": "2040-01-01",
     "b": "High",
-    "y": -5693.969874735398
+    "y": -7061.61078048154
   },
   {
     "dataset": "natural_change",
     "xd": "2040-01-01",
     "b": "High",
-    "y": 61804.19210268427
+    "y": 59901.300774132586
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2041-01-01",
     "b": "High",
-    "y": -113988.87541473698
+    "y": -115189.43454074202
   },
   {
     "dataset": "international_net_migration",
@@ -7419,19 +7419,19 @@
     "dataset": "total_net_migration",
     "xd": "2041-01-01",
     "b": "High",
-    "y": -7618.285503227613
+    "y": -8818.844629232655
   },
   {
     "dataset": "natural_change",
     "xd": "2041-01-01",
     "b": "High",
-    "y": 62109.31059663255
+    "y": 59975.367719036905
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2042-01-01",
     "b": "High",
-    "y": -115498.35676664469
+    "y": -116870.45699313952
   },
   {
     "dataset": "international_net_migration",
@@ -7443,19 +7443,19 @@
     "dataset": "total_net_migration",
     "xd": "2042-01-01",
     "b": "High",
-    "y": -9127.766855135327
+    "y": -10499.86708163016
   },
   {
     "dataset": "natural_change",
     "xd": "2042-01-01",
     "b": "High",
-    "y": 62305.43408213572
+    "y": 59997.18550317226
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2043-01-01",
     "b": "High",
-    "y": -117327.85658379679
+    "y": -118919.59906975174
   },
   {
     "dataset": "international_net_migration",
@@ -7467,19 +7467,19 @@
     "dataset": "total_net_migration",
     "xd": "2043-01-01",
     "b": "High",
-    "y": -10957.266672287427
+    "y": -12549.009158242377
   },
   {
     "dataset": "natural_change",
     "xd": "2043-01-01",
     "b": "High",
-    "y": 62363.43657774908
+    "y": 59936.202472063305
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2044-01-01",
     "b": "High",
-    "y": -119377.65780797554
+    "y": -121210.70941207098
   },
   {
     "dataset": "international_net_migration",
@@ -7491,19 +7491,19 @@
     "dataset": "total_net_migration",
     "xd": "2044-01-01",
     "b": "High",
-    "y": -13007.067896466178
+    "y": -14840.119500561617
   },
   {
     "dataset": "natural_change",
     "xd": "2044-01-01",
     "b": "High",
-    "y": 62245.72414172206
+    "y": 59752.988542283405
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2045-01-01",
     "b": "High",
-    "y": -121541.2038886628
+    "y": -123213.97816823266
   },
   {
     "dataset": "international_net_migration",
@@ -7515,19 +7515,19 @@
     "dataset": "total_net_migration",
     "xd": "2045-01-01",
     "b": "High",
-    "y": -15170.613977153436
+    "y": -16843.388256723294
   },
   {
     "dataset": "natural_change",
     "xd": "2045-01-01",
     "b": "High",
-    "y": 61929.78215998471
+    "y": 59418.03325638033
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2046-01-01",
     "b": "High",
-    "y": -123709.71224666317
+    "y": -124987.22596652008
   },
   {
     "dataset": "international_net_migration",
@@ -7539,19 +7539,19 @@
     "dataset": "total_net_migration",
     "xd": "2046-01-01",
     "b": "High",
-    "y": -17339.122335153806
+    "y": -18616.63605501072
   },
   {
     "dataset": "natural_change",
     "xd": "2046-01-01",
     "b": "High",
-    "y": 61439.57167042873
+    "y": 58944.79173544905
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2047-01-01",
     "b": "High",
-    "y": -125440.98061049561
+    "y": -126260.44099983212
   },
   {
     "dataset": "international_net_migration",
@@ -7563,19 +7563,19 @@
     "dataset": "total_net_migration",
     "xd": "2047-01-01",
     "b": "High",
-    "y": -19070.390698986244
+    "y": -19889.851088322757
   },
   {
     "dataset": "natural_change",
     "xd": "2047-01-01",
     "b": "High",
-    "y": 60790.74362854084
+    "y": 58332.92829289724
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2048-01-01",
     "b": "High",
-    "y": -126809.67595864035
+    "y": -127227.7761162871
   },
   {
     "dataset": "international_net_migration",
@@ -7587,19 +7587,19 @@
     "dataset": "total_net_migration",
     "xd": "2048-01-01",
     "b": "High",
-    "y": -20439.086047130986
+    "y": -20857.18620477774
   },
   {
     "dataset": "natural_change",
     "xd": "2048-01-01",
     "b": "High",
-    "y": 60030.2358525865
+    "y": 57616.53609190794
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2049-01-01",
     "b": "High",
-    "y": -128013.27447276277
+    "y": -128131.19318459078
   },
   {
     "dataset": "international_net_migration",
@@ -7611,19 +7611,19 @@
     "dataset": "total_net_migration",
     "xd": "2049-01-01",
     "b": "High",
-    "y": -21642.68456125341
+    "y": -21760.60327308142
   },
   {
     "dataset": "natural_change",
     "xd": "2049-01-01",
     "b": "High",
-    "y": 59199.81239368664
+    "y": 56824.06148688968
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2050-01-01",
     "b": "High",
-    "y": -129063.532609983
+    "y": -128967.41918182326
   },
   {
     "dataset": "international_net_migration",
@@ -7635,13 +7635,13 @@
     "dataset": "total_net_migration",
     "xd": "2050-01-01",
     "b": "High",
-    "y": -22692.942698473635
+    "y": -22596.8292703139
   },
   {
     "dataset": "natural_change",
     "xd": "2050-01-01",
     "b": "High",
-    "y": 58340.53594871478
+    "y": 55986.410346505145
   },
   {
     "dataset": "domestic_net_migration",
@@ -7653,13 +7653,13 @@
     "dataset": "international_net_migration",
     "xd": "2002-01-01",
     "b": "Low",
-    "y": 96136.49999999999
+    "y": 95710.80000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2002-01-01",
     "b": "Low",
-    "y": 7055.10000000002
+    "y": 6629.400000000052
   },
   {
     "dataset": "natural_change",
@@ -7677,13 +7677,13 @@
     "dataset": "international_net_migration",
     "xd": "2003-01-01",
     "b": "Low",
-    "y": 66134.99999999994
+    "y": 65757.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2003-01-01",
     "b": "Low",
-    "y": -36978.40000000008
+    "y": -37355.600000000064
   },
   {
     "dataset": "natural_change",
@@ -7701,13 +7701,13 @@
     "dataset": "international_net_migration",
     "xd": "2004-01-01",
     "b": "Low",
-    "y": 93788.5
+    "y": 93304.09999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2004-01-01",
     "b": "Low",
-    "y": -16472.300000000047
+    "y": -16956.70000000007
   },
   {
     "dataset": "natural_change",
@@ -7725,13 +7725,13 @@
     "dataset": "international_net_migration",
     "xd": "2005-01-01",
     "b": "Low",
-    "y": 106734.0
+    "y": 106306.00000000003
   },
   {
     "dataset": "total_net_migration",
     "xd": "2005-01-01",
     "b": "Low",
-    "y": 21885.199999999953
+    "y": 21457.199999999983
   },
   {
     "dataset": "natural_change",
@@ -7749,13 +7749,13 @@
     "dataset": "international_net_migration",
     "xd": "2006-01-01",
     "b": "Low",
-    "y": 85908.00000000001
+    "y": 85410.4
   },
   {
     "dataset": "total_net_migration",
     "xd": "2006-01-01",
     "b": "Low",
-    "y": 9177.39999999998
+    "y": 8679.79999999996
   },
   {
     "dataset": "natural_change",
@@ -7773,13 +7773,13 @@
     "dataset": "international_net_migration",
     "xd": "2007-01-01",
     "b": "Low",
-    "y": 100015.0
+    "y": 98801.10000000002
   },
   {
     "dataset": "total_net_migration",
     "xd": "2007-01-01",
     "b": "Low",
-    "y": 22734.300000000017
+    "y": 21520.400000000038
   },
   {
     "dataset": "natural_change",
@@ -7797,13 +7797,13 @@
     "dataset": "international_net_migration",
     "xd": "2008-01-01",
     "b": "Low",
-    "y": 108183.5
+    "y": 107274.1
   },
   {
     "dataset": "total_net_migration",
     "xd": "2008-01-01",
     "b": "Low",
-    "y": 40519.79999999996
+    "y": 39610.399999999965
   },
   {
     "dataset": "natural_change",
@@ -7821,13 +7821,13 @@
     "dataset": "international_net_migration",
     "xd": "2009-01-01",
     "b": "Low",
-    "y": 86659.5
+    "y": 85696.70000000004
   },
   {
     "dataset": "total_net_migration",
     "xd": "2009-01-01",
     "b": "Low",
-    "y": 54738.49999999994
+    "y": 53775.69999999998
   },
   {
     "dataset": "natural_change",
@@ -7845,19 +7845,19 @@
     "dataset": "international_net_migration",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 82787.0
+    "y": 81720.69999999998
   },
   {
     "dataset": "total_net_migration",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 40183.100000000006
+    "y": 39116.79999999999
   },
   {
     "dataset": "natural_change",
     "xd": "2010-01-01",
     "b": "Low",
-    "y": 82792.0
+    "y": 82793.0
   },
   {
     "dataset": "domestic_net_migration",
@@ -7869,13 +7869,13 @@
     "dataset": "international_net_migration",
     "xd": "2011-01-01",
     "b": "Low",
-    "y": 101547.0
+    "y": 100232.99999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2011-01-01",
     "b": "Low",
-    "y": 61194.50000000003
+    "y": 59880.5
   },
   {
     "dataset": "natural_change",
@@ -7893,13 +7893,13 @@
     "dataset": "international_net_migration",
     "xd": "2012-01-01",
     "b": "Low",
-    "y": 80139.5
+    "y": 77793.59999999995
   },
   {
     "dataset": "total_net_migration",
     "xd": "2012-01-01",
     "b": "Low",
-    "y": 29695.600000000035
+    "y": 27349.699999999983
   },
   {
     "dataset": "natural_change",
@@ -7917,13 +7917,13 @@
     "dataset": "international_net_migration",
     "xd": "2013-01-01",
     "b": "Low",
-    "y": 88701.49999999994
+    "y": 86063.00000000006
   },
   {
     "dataset": "total_net_migration",
     "xd": "2013-01-01",
     "b": "Low",
-    "y": 35664.19999999995
+    "y": 33025.70000000007
   },
   {
     "dataset": "natural_change",
@@ -7941,13 +7941,13 @@
     "dataset": "international_net_migration",
     "xd": "2014-01-01",
     "b": "Low",
-    "y": 104960.0
+    "y": 101602.89999999997
   },
   {
     "dataset": "total_net_migration",
     "xd": "2014-01-01",
     "b": "Low",
-    "y": 26882.0
+    "y": 23524.899999999965
   },
   {
     "dataset": "natural_change",
@@ -7965,13 +7965,13 @@
     "dataset": "international_net_migration",
     "xd": "2015-01-01",
     "b": "Low",
-    "y": 115465.00000000006
+    "y": 111801.79999999996
   },
   {
     "dataset": "total_net_migration",
     "xd": "2015-01-01",
     "b": "Low",
-    "y": 36647.50000000006
+    "y": 32984.29999999996
   },
   {
     "dataset": "natural_change",
@@ -7989,13 +7989,13 @@
     "dataset": "international_net_migration",
     "xd": "2016-01-01",
     "b": "Low",
-    "y": 106410.50000000003
+    "y": 101200.40993968007
   },
   {
     "dataset": "total_net_migration",
     "xd": "2016-01-01",
     "b": "Low",
-    "y": 5891.299999999988
+    "y": 681.2099396800331
   },
   {
     "dataset": "natural_change",
@@ -8013,13 +8013,13 @@
     "dataset": "international_net_migration",
     "xd": "2017-01-01",
     "b": "Low",
-    "y": 73347.99999999997
+    "y": 74157.90320327357
   },
   {
     "dataset": "total_net_migration",
     "xd": "2017-01-01",
     "b": "Low",
-    "y": -46335.100000000006
+    "y": -45525.196796726406
   },
   {
     "dataset": "natural_change",
@@ -8037,13 +8037,13 @@
     "dataset": "international_net_migration",
     "xd": "2018-01-01",
     "b": "Low",
-    "y": 92832.0
+    "y": 95309.22649789296
   },
   {
     "dataset": "total_net_migration",
     "xd": "2018-01-01",
     "b": "Low",
-    "y": -17511.399999999965
+    "y": -15034.173502107005
   },
   {
     "dataset": "natural_change",
@@ -8061,13 +8061,13 @@
     "dataset": "international_net_migration",
     "xd": "2019-01-01",
     "b": "Low",
-    "y": 83315.5
+    "y": 85131.43697475476
   },
   {
     "dataset": "total_net_migration",
     "xd": "2019-01-01",
     "b": "Low",
-    "y": -16056.099999999977
+    "y": -14240.163025245216
   },
   {
     "dataset": "natural_change",
@@ -8085,13 +8085,13 @@
     "dataset": "international_net_migration",
     "xd": "2020-01-01",
     "b": "Low",
-    "y": 34689.5
+    "y": 36519.56942320443
   },
   {
     "dataset": "total_net_migration",
     "xd": "2020-01-01",
     "b": "Low",
-    "y": -79293.29999999993
+    "y": -77463.2305767955
   },
   {
     "dataset": "natural_change",
@@ -8109,13 +8109,13 @@
     "dataset": "international_net_migration",
     "xd": "2021-01-01",
     "b": "Low",
-    "y": 70478.5
+    "y": 86317.28268882574
   },
   {
     "dataset": "total_net_migration",
     "xd": "2021-01-01",
     "b": "Low",
-    "y": -115526.59999999998
+    "y": -99687.81731117424
   },
   {
     "dataset": "natural_change",
@@ -8133,13 +8133,13 @@
     "dataset": "international_net_migration",
     "xd": "2022-01-01",
     "b": "Low",
-    "y": 136669.0
+    "y": 182166.5510789231
   },
   {
     "dataset": "total_net_migration",
     "xd": "2022-01-01",
     "b": "Low",
-    "y": 9543.600000000093
+    "y": 55041.1510789232
   },
   {
     "dataset": "natural_change",
@@ -8157,13 +8157,13 @@
     "dataset": "international_net_migration",
     "xd": "2023-01-01",
     "b": "Low",
-    "y": 214111.0
+    "y": 228578.88282504445
   },
   {
     "dataset": "total_net_migration",
     "xd": "2023-01-01",
     "b": "Low",
-    "y": 76984.40000000002
+    "y": 91452.28282504447
   },
   {
     "dataset": "natural_change",
@@ -8181,13 +8181,13 @@
     "dataset": "international_net_migration",
     "xd": "2024-01-01",
     "b": "Low",
-    "y": 163339.0
+    "y": 146961.58604104066
   },
   {
     "dataset": "total_net_migration",
     "xd": "2024-01-01",
     "b": "Low",
-    "y": 35157.20000000001
+    "y": 18779.786041040672
   },
   {
     "dataset": "natural_change",
@@ -8199,7 +8199,7 @@
     "dataset": "domestic_net_migration",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": -119343.85727618722
+    "y": -120723.00402975368
   },
   {
     "dataset": "international_net_migration",
@@ -8211,19 +8211,19 @@
     "dataset": "total_net_migration",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": -4530.092408923199
+    "y": -5909.239162489655
   },
   {
     "dataset": "natural_change",
     "xd": "2025-01-01",
     "b": "Low",
-    "y": 47024.976346728276
+    "y": 48137.52447551793
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": -120213.62742933386
+    "y": -122018.1979807635
   },
   {
     "dataset": "international_net_migration",
@@ -8235,19 +8235,19 @@
     "dataset": "total_net_migration",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": -5399.862562069844
+    "y": -7204.433113499486
   },
   {
     "dataset": "natural_change",
     "xd": "2026-01-01",
     "b": "Low",
-    "y": 43185.766828346226
+    "y": 44154.62402346166
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": -120778.58895588404
+    "y": -123101.95819467446
   },
   {
     "dataset": "international_net_migration",
@@ -8259,19 +8259,19 @@
     "dataset": "total_net_migration",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": -5964.824088620022
+    "y": -8288.193327410438
   },
   {
     "dataset": "natural_change",
     "xd": "2027-01-01",
     "b": "Low",
-    "y": 41641.530544253284
+    "y": 42478.200143916176
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": -120327.55036986805
+    "y": -123280.17900859087
   },
   {
     "dataset": "international_net_migration",
@@ -8283,19 +8283,19 @@
     "dataset": "total_net_migration",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": -5513.785502604034
+    "y": -8466.414141326852
   },
   {
     "dataset": "natural_change",
     "xd": "2028-01-01",
     "b": "Low",
-    "y": 40106.338215092896
+    "y": 40807.90374003949
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": -119295.36375584063
+    "y": -122836.7988105879
   },
   {
     "dataset": "international_net_migration",
@@ -8307,19 +8307,19 @@
     "dataset": "total_net_migration",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": -4481.598888576613
+    "y": -8023.033943323884
   },
   {
     "dataset": "natural_change",
     "xd": "2029-01-01",
     "b": "Low",
-    "y": 38597.44545435816
+    "y": 39165.38131927333
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": -118154.94944363239
+    "y": -121867.43864792684
   },
   {
     "dataset": "international_net_migration",
@@ -8331,19 +8331,19 @@
     "dataset": "total_net_migration",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": -3341.184576368367
+    "y": -7053.6737806628225
   },
   {
     "dataset": "natural_change",
     "xd": "2030-01-01",
     "b": "Low",
-    "y": 37066.90242323145
+    "y": 37498.05189523344
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": -116775.74013217934
+    "y": -120653.0126171484
   },
   {
     "dataset": "international_net_migration",
@@ -8355,19 +8355,19 @@
     "dataset": "total_net_migration",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": -1961.9752649153234
+    "y": -5839.24774988438
   },
   {
     "dataset": "natural_change",
     "xd": "2031-01-01",
     "b": "Low",
-    "y": 35526.63373163321
+    "y": 35815.804382190334
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": -115603.63732974138
+    "y": -119426.2711426288
   },
   {
     "dataset": "international_net_migration",
@@ -8379,19 +8379,19 @@
     "dataset": "total_net_migration",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": -789.8724624773604
+    "y": -4612.50627536478
   },
   {
     "dataset": "natural_change",
     "xd": "2032-01-01",
     "b": "Low",
-    "y": 33825.56768228338
+    "y": 33972.40582982055
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": -114583.92508071667
+    "y": -118233.10186752788
   },
   {
     "dataset": "international_net_migration",
@@ -8403,19 +8403,19 @@
     "dataset": "total_net_migration",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 229.83978654735256
+    "y": -3419.337000263855
   },
   {
     "dataset": "natural_change",
     "xd": "2033-01-01",
     "b": "Low",
-    "y": 33613.28787318478
+    "y": 33615.33651739583
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": -114342.13959848922
+    "y": -117666.21161716018
   },
   {
     "dataset": "international_net_migration",
@@ -8427,19 +8427,19 @@
     "dataset": "total_net_migration",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 471.6252687748056
+    "y": -2852.4467498961603
   },
   {
     "dataset": "natural_change",
     "xd": "2034-01-01",
     "b": "Low",
-    "y": 33325.99899589948
+    "y": 33158.530152772684
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": -114674.89361422148
+    "y": -117470.50818077306
   },
   {
     "dataset": "international_net_migration",
@@ -8451,19 +8451,19 @@
     "dataset": "total_net_migration",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 138.87125304254005
+    "y": -2656.7433135090396
   },
   {
     "dataset": "natural_change",
     "xd": "2035-01-01",
     "b": "Low",
-    "y": 33010.31676228032
+    "y": 32641.971900989745
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": -115114.65567013767
+    "y": -117479.79479793989
   },
   {
     "dataset": "international_net_migration",
@@ -8475,19 +8475,19 @@
     "dataset": "total_net_migration",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": -300.8908028736478
+    "y": -2666.029930675868
   },
   {
     "dataset": "natural_change",
     "xd": "2036-01-01",
     "b": "Low",
-    "y": 32669.308724342627
+    "y": 32071.50447554861
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": -115564.90953829756
+    "y": -117543.8390696529
   },
   {
     "dataset": "international_net_migration",
@@ -8499,19 +8499,19 @@
     "dataset": "total_net_migration",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": -751.144671033544
+    "y": -2730.0742023888743
   },
   {
     "dataset": "natural_change",
     "xd": "2037-01-01",
     "b": "Low",
-    "y": 32303.516745705092
+    "y": 31450.8980254814
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": -116217.13318380993
+    "y": -117716.02947851474
   },
   {
     "dataset": "international_net_migration",
@@ -8523,19 +8523,19 @@
     "dataset": "total_net_migration",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": -1403.3683165459079
+    "y": -2902.264611250721
   },
   {
     "dataset": "natural_change",
     "xd": "2038-01-01",
     "b": "Low",
-    "y": 32068.669826720245
+    "y": 30950.9093631692
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": -116961.06041974592
+    "y": -118299.46233514056
   },
   {
     "dataset": "international_net_migration",
@@ -8547,19 +8547,19 @@
     "dataset": "total_net_migration",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": -2147.295552481897
+    "y": -3485.69746787654
   },
   {
     "dataset": "natural_change",
     "xd": "2039-01-01",
     "b": "Low",
-    "y": 31895.193531396173
+    "y": 30518.726266297832
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": -117845.78617753286
+    "y": -119143.6698907818
   },
   {
     "dataset": "international_net_migration",
@@ -8571,19 +8571,19 @@
     "dataset": "total_net_migration",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": -3032.021310268843
+    "y": -4329.905023517786
   },
   {
     "dataset": "natural_change",
     "xd": "2040-01-01",
     "b": "Low",
-    "y": 31712.102272685952
+    "y": 30097.254709710527
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": -119263.5867793
+    "y": -120427.56417305279
   },
   {
     "dataset": "international_net_migration",
@@ -8595,19 +8595,19 @@
     "dataset": "total_net_migration",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": -4449.821912035986
+    "y": -5613.799305788765
   },
   {
     "dataset": "natural_change",
     "xd": "2041-01-01",
     "b": "Low",
-    "y": 31472.911026619244
+    "y": 29656.1394067628
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": -120250.21436122461
+    "y": -121628.57676187053
   },
   {
     "dataset": "international_net_migration",
@@ -8619,19 +8619,19 @@
     "dataset": "total_net_migration",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": -5436.449493960594
+    "y": -6814.811894606508
   },
   {
     "dataset": "natural_change",
     "xd": "2042-01-01",
     "b": "Low",
-    "y": 31123.745576343645
+    "y": 29150.46307833193
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": -121579.32331245934
+    "y": -123202.47364270675
   },
   {
     "dataset": "international_net_migration",
@@ -8643,19 +8643,19 @@
     "dataset": "total_net_migration",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": -6765.558445195318
+    "y": -8388.708775442734
   },
   {
     "dataset": "natural_change",
     "xd": "2043-01-01",
     "b": "Low",
-    "y": 30624.896586059782
+    "y": 28542.938942212117
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": -122898.23315345519
+    "y": -124742.61127791484
   },
   {
     "dataset": "international_net_migration",
@@ -8667,19 +8667,19 @@
     "dataset": "total_net_migration",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": -8084.4682861911715
+    "y": -9928.846410650818
   },
   {
     "dataset": "natural_change",
     "xd": "2044-01-01",
     "b": "Low",
-    "y": 29948.236381127892
+    "y": 27801.43219977111
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": -124733.68793981057
+    "y": -126368.95537273365
   },
   {
     "dataset": "international_net_migration",
@@ -8691,19 +8691,19 @@
     "dataset": "total_net_migration",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": -9919.923072546546
+    "y": -11555.190505469625
   },
   {
     "dataset": "natural_change",
     "xd": "2045-01-01",
     "b": "Low",
-    "y": 29082.50991413454
+    "y": 26908.051873875374
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": -126930.92069587373
+    "y": -128119.79274996393
   },
   {
     "dataset": "international_net_migration",
@@ -8715,19 +8715,19 @@
     "dataset": "total_net_migration",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": -12117.155828609713
+    "y": -13306.027882699913
   },
   {
     "dataset": "natural_change",
     "xd": "2046-01-01",
     "b": "Low",
-    "y": 28033.92073373875
+    "y": 25860.9243113283
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": -129182.43699843099
+    "y": -129861.30646712123
   },
   {
     "dataset": "international_net_migration",
@@ -8739,19 +8739,19 @@
     "dataset": "total_net_migration",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": -14368.672131166968
+    "y": -15047.541599857213
   },
   {
     "dataset": "natural_change",
     "xd": "2047-01-01",
     "b": "Low",
-    "y": 26819.419452289876
+    "y": 24666.34747769471
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": -131299.9661006403
+    "y": -131534.54706290388
   },
   {
     "dataset": "international_net_migration",
@@ -8763,19 +8763,19 @@
     "dataset": "total_net_migration",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": -16486.201233376283
+    "y": -16720.782195639855
   },
   {
     "dataset": "natural_change",
     "xd": "2048-01-01",
     "b": "Low",
-    "y": 25476.504039645573
+    "y": 23350.189130101906
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": -133085.83717684448
+    "y": -132994.73006674537
   },
   {
     "dataset": "international_net_migration",
@@ -8787,19 +8787,19 @@
     "dataset": "total_net_migration",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": -18272.072309580457
+    "y": -18180.965199481347
   },
   {
     "dataset": "natural_change",
     "xd": "2049-01-01",
     "b": "Low",
-    "y": 24033.98434640077
+    "y": 21927.798061686015
   },
   {
     "dataset": "domestic_net_migration",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": -134588.9903237801
+    "y": -134271.67249841016
   },
   {
     "dataset": "international_net_migration",
@@ -8811,12 +8811,12 @@
     "dataset": "total_net_migration",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": -19775.225456516084
+    "y": -19457.90763114614
   },
   {
     "dataset": "natural_change",
     "xd": "2050-01-01",
     "b": "Low",
-    "y": 22524.958815469625
+    "y": 20427.10320762481
   }
 ]

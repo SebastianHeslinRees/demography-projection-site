@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Create chart-ready JSON for the housing-led components page.
 
-Reads the three housing-led variants:
-- central_hma5645_ward
-- vhigh_hma5645_ward
-- vlow_hma5645_ward
+Reads the three housing-led variants from the 2026 explorer export:
+- central_ward
+- high_ward
+- low_ward
 and emits Low/Central/High series using the same dataset names as the page.
 """
 
@@ -13,14 +13,14 @@ from pathlib import Path
 
 import pandas as pd
 
-BASE_DIR = Path('/Users/user1/Downloads/outputs-2/housing_led/output_pq')
+BASE_DIR = Path('/Users/user1/Downloads/20260902_explorer_tool/output_pq')
 OUTPUT_FILE = Path('src/lib/data/HousingLedComponentsData.json')
 LONDON_GSS_CODE = 'E12000007'
 
 VARIANT_MAPPING = {
-    'variant=central_hma5645_ward': 'Central',
-    'variant=vhigh_hma5645_ward': 'High',
-    'variant=vlow_hma5645_ward': 'Low',
+    'variant=central_ward': 'Central',
+    'variant=high_ward': 'High',
+    'variant=low_ward': 'Low',
 }
 
 COMPONENTS = [

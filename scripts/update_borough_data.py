@@ -40,7 +40,7 @@ LONDON_BOROUGHS = {
     "E09000033": "Westminster",
 }
 
-SOURCE_ROOT = Path("/Users/user1/Downloads/outputs-2/trend/output_pq/variant=llt10/geography=lad23/component=population")
+SOURCE_ROOT = Path("/Users/user1/Downloads/trend_core_outputs_parquet_24august-2/variant=low/geography=lad23/component=population")
 OUTPUT_FILE = Path("src/lib/data/boroughPopulationData.json")
 
 
