@@ -65,7 +65,7 @@ Projected growth of the population aged 18 to 64 ranges from 490 thousand (8 per
 
 In all variants the number of children age 0 to 17 is projected to fall from an estimated 1.92 million in 2024 to between 1.50 million (-22 percent) and 1.90 million (0 percent) (central: 1.70 million (-11 percent).
 
-London's median age in 2024 was estimated to be 34.9 years, 4.5 years younger than England as a whole (39.5 years). Over the course of the projection period, London's median age rises to 38.58 years (High), 39.2 years (Central), and 39.6 years (Low). However, England is projected age more than this, with gap widening to over five years (reaching 43.7 to 44.8 years).
+London's median age in 2024 was estimated to be 34.9 years, 4.5 years younger than England as a whole (39.5 years). Over the course of the projection period, London's median age rises to 38.6 years (High), 39.2 years (Central), and 39.6 years (Low). However, England is projected age more than this, with gap widening to over five years (reaching 43.7 to 44.8 years).
 
 <Chart
  chart="Chart"
