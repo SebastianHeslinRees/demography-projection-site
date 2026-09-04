@@ -71,11 +71,11 @@ The core variants for the 2024-based projections are based on the following scen
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src="/overview-trend-step-1.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src="/analysis/population-projections/overview-trend-step-1.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 1: explain...</figcaption>
   </figure>
   <figure class="space-y-2">
-    <img src="/overview-trend-step-2.png" alt="Trend-based projection variants diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src="/analysis/population-projections/overview-trend-step-2.png" alt="Trend-based projection variants diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 2: explain...</figcaption>
   </figure>
 </div>
