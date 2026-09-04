@@ -4755,5346 +4755,5346 @@
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2025",
-    "y": 15256.326350728368
+    "y": 15039.088459195147
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2025",
-    "y": 235871.5003481016
+    "y": 236062.68330017602
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2025",
-    "y": 402781.83986384975
+    "y": 403145.39578461816
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2025",
-    "y": 255003.66123229003
+    "y": 255193.02075622624
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2025",
-    "y": 357630.0754769828
+    "y": 358253.0697922476
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2025",
-    "y": 333102.95443678804
+    "y": 333765.02665977285
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2025",
-    "y": 219631.65434660023
+    "y": 219837.1384718338
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2025",
-    "y": 408185.0414341019
+    "y": 408544.6022211779
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2025",
-    "y": 389284.12162802735
+    "y": 389763.26683742873
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2025",
-    "y": 330855.9139945444
+    "y": 331640.8258228037
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2025",
-    "y": 303610.1790462544
+    "y": 303609.43142698007
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2025",
-    "y": 271783.2821114862
+    "y": 272301.70659099356
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2025",
-    "y": 191552.55325987487
+    "y": 191969.08835195506
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2025",
-    "y": 269997.3914707407
+    "y": 270919.9726786683
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2025",
-    "y": 271794.5109159388
+    "y": 272166.16847091937
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2025",
-    "y": 276607.60826121306
+    "y": 276715.49207278306
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2025",
-    "y": 325952.94993961713
+    "y": 326297.43132511596
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2025",
-    "y": 303039.7095833057
+    "y": 303463.1890897622
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2025",
-    "y": 225658.38318972845
+    "y": 225854.60943633615
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2025",
-    "y": 148479.3029036806
+    "y": 148762.10932066984
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2025",
-    "y": 174023.0809934332
+    "y": 174389.81049583005
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2025",
-    "y": 321711.53841489454
+    "y": 322310.4168006615
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2025",
-    "y": 301620.46073107433
+    "y": 302162.8147547384
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2025",
-    "y": 222617.62991280097
+    "y": 223292.97294231955
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2025",
-    "y": 383168.6753821982
+    "y": 382683.5893123065
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2025",
-    "y": 326658.6853407881
+    "y": 327055.0994010045
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2025",
-    "y": 195404.87294138208
+    "y": 195989.71140494474
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2025",
-    "y": 317223.4116772207
+    "y": 317421.441565474
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2025",
-    "y": 211866.60249847313
+    "y": 212153.96225308478
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2025",
-    "y": 337660.1057272116
+    "y": 337230.5464075489
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2025",
-    "y": 287735.54310195707
+    "y": 288307.25092108024
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2025",
-    "y": 339925.9679361356
+    "y": 340348.96454457165
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2025",
-    "y": 218621.75086160447
+    "y": 218384.9946499005
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2026",
-    "y": 15003.972975337792
+    "y": 14613.737904047835
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2026",
-    "y": 237830.52468857978
+    "y": 238250.30527716587
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2026",
-    "y": 405008.0373228731
+    "y": 405758.2622169349
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2026",
-    "y": 255958.33375618298
+    "y": 256352.16434865014
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2026",
-    "y": 359019.647178001
+    "y": 360275.945719442
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2026",
-    "y": 334036.6017754876
+    "y": 335366.1572666805
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2026",
-    "y": 219132.34324418756
+    "y": 219543.91809631418
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2026",
-    "y": 409372.78464380687
+    "y": 410117.230590656
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2026",
-    "y": 390931.020506964
+    "y": 391912.5651434785
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2026",
-    "y": 331361.6778082134
+    "y": 332939.41788420425
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2026",
-    "y": 305320.08136586595
+    "y": 305359.93099466077
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2026",
-    "y": 272520.55324924353
+    "y": 273538.59173478634
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2026",
-    "y": 191993.37949524345
+    "y": 192785.51089959347
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2026",
-    "y": 271173.4110607372
+    "y": 272915.3418138565
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2026",
-    "y": 272920.4870441721
+    "y": 273682.38927290146
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2026",
-    "y": 278979.1726342115
+    "y": 279231.6622806026
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2026",
-    "y": 327782.76624109584
+    "y": 328517.1510361648
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2026",
-    "y": 305166.1070263452
+    "y": 306026.8949608354
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2026",
-    "y": 226153.38864777127
+    "y": 226548.05242498365
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2026",
-    "y": 148223.93197020865
+    "y": 148753.38830319812
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2026",
-    "y": 174482.23540252008
+    "y": 175187.87061495686
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2026",
-    "y": 323212.02864937525
+    "y": 324365.4321983091
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2026",
-    "y": 302867.8316341273
+    "y": 303938.6160864842
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2026",
-    "y": 223329.4795580132
+    "y": 224637.76831405816
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2026",
-    "y": 385483.9949604171
+    "y": 384658.6582845697
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2026",
-    "y": 328917.642796842
+    "y": 329735.30251347605
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2026",
-    "y": 195734.2014401742
+    "y": 196868.61324929577
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2026",
-    "y": 317963.26838514913
+    "y": 318354.1499488537
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2026",
-    "y": 212623.00739575338
+    "y": 213214.22403525398
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2026",
-    "y": 340222.30531816056
+    "y": 339463.6544078801
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2026",
-    "y": 289308.4506333321
+    "y": 290446.6313952382
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2026",
-    "y": 340873.27360799554
+    "y": 341730.0013199441
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2026",
-    "y": 218361.53380660174
+    "y": 217995.9058512476
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2027",
-    "y": 14826.356260841545
+    "y": 14296.20958196836
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2027",
-    "y": 239661.98522791933
+    "y": 240346.92924311914
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2027",
-    "y": 407000.6480811215
+    "y": 408155.8972700578
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2027",
-    "y": 256853.84485369845
+    "y": 257470.31364073337
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2027",
-    "y": 360367.23939829465
+    "y": 362257.11090759357
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2027",
-    "y": 334841.5982984463
+    "y": 336837.63703715446
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2027",
-    "y": 218884.57840892774
+    "y": 219490.88562869787
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2027",
-    "y": 410438.2406943997
+    "y": 411597.4645441018
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2027",
-    "y": 392498.44441870146
+    "y": 393994.3429652224
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2027",
-    "y": 331821.20676318655
+    "y": 334201.1517582738
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2027",
-    "y": 306884.15329843643
+    "y": 307009.5600896371
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2027",
-    "y": 273175.22913602047
+    "y": 274665.3568181286
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2027",
-    "y": 192399.24107121385
+    "y": 193522.4139590691
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2027",
-    "y": 272225.72371625615
+    "y": 274716.38098474755
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2027",
-    "y": 273928.7574677986
+    "y": 275096.08071675757
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2027",
-    "y": 281271.45798996696
+    "y": 281704.40304426476
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2027",
-    "y": 329550.0688667342
+    "y": 330701.4036539253
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2027",
-    "y": 307134.7082932038
+    "y": 308444.8844537142
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2027",
-    "y": 226608.38535183622
+    "y": 227200.4488744333
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2027",
-    "y": 147958.80580054194
+    "y": 148707.87152556275
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2027",
-    "y": 174854.04962432693
+    "y": 175875.11078358494
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2027",
-    "y": 324454.02702521696
+    "y": 326120.49826904276
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2027",
-    "y": 303975.4428070355
+    "y": 305562.77816041716
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2027",
-    "y": 223930.24202620122
+    "y": 225836.3360886247
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2027",
-    "y": 387695.6901201582
+    "y": 386646.0850539089
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2027",
-    "y": 331053.4637236062
+    "y": 332313.0697625586
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2027",
-    "y": 195894.88965213968
+    "y": 197551.31059324817
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2027",
-    "y": 318660.5292675962
+    "y": 319261.1873357801
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2027",
-    "y": 213276.66520663796
+    "y": 214190.58418510554
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2027",
-    "y": 342633.38859464653
+    "y": 341627.3762195227
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2027",
-    "y": 290794.46513876267
+    "y": 292488.84143955173
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2027",
-    "y": 341752.63158483175
+    "y": 343043.8532203538
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2027",
-    "y": 218151.3248707905
+    "y": 217732.3148171128
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2028",
-    "y": 14708.157922137158
+    "y": 14062.133226297785
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2028",
-    "y": 241391.79850533797
+    "y": 242373.42919101912
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2028",
-    "y": 408843.6611494737
+    "y": 410432.6245876543
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2028",
-    "y": 257746.10638852586
+    "y": 258603.96203860675
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2028",
-    "y": 361663.39377149
+    "y": 364186.03175114334
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2028",
-    "y": 335579.0301087643
+    "y": 338245.22855374083
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2028",
-    "y": 218750.42988239924
+    "y": 219533.9374824234
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2028",
-    "y": 411467.11602734536
+    "y": 413069.8277927917
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2028",
-    "y": 394004.24264534505
+    "y": 396025.8036978143
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2028",
-    "y": 332298.8002689164
+    "y": 335494.37669568305
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2028",
-    "y": 308330.03069320053
+    "y": 308582.5388773621
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2028",
-    "y": 273762.6051485426
+    "y": 275705.12592629745
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2028",
-    "y": 192792.78032131816
+    "y": 194212.23290587947
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2028",
-    "y": 273196.4409096476
+    "y": 276379.822605853
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2028",
-    "y": 274875.0374582337
+    "y": 276460.92186492495
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2028",
-    "y": 283532.3357293281
+    "y": 284177.97023569915
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2028",
-    "y": 331229.41272568516
+    "y": 332820.34620615636
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2028",
-    "y": 308975.9442770294
+    "y": 310744.16900242126
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2028",
-    "y": 227032.06692055546
+    "y": 227816.48139664208
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2028",
-    "y": 147718.8612066984
+    "y": 148661.7928181433
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2028",
-    "y": 175167.81208195517
+    "y": 176484.27278787768
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2028",
-    "y": 325552.54047019884
+    "y": 327703.0720032011
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2028",
-    "y": 304999.9502357095
+    "y": 307097.5700630589
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2028",
-    "y": 224464.12008644798
+    "y": 226939.82246109145
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2028",
-    "y": 389842.0452258979
+    "y": 388667.2437436984
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2028",
-    "y": 333080.1101391013
+    "y": 334795.96539987193
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2028",
-    "y": 195978.58080034153
+    "y": 198140.3911794526
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2028",
-    "y": 319321.54881093634
+    "y": 320147.32581627014
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2028",
-    "y": 213819.86318300248
+    "y": 215075.34699089176
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2028",
-    "y": 344915.05624651496
+    "y": 343725.6503889413
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2028",
-    "y": 292219.3878400357
+    "y": 294467.4721653396
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2028",
-    "y": 342579.9604667624
+    "y": 344302.58401994774
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2028",
-    "y": 217959.74499133026
+    "y": 217531.06441953298
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2029",
-    "y": 14636.16266005483
+    "y": 13894.546217310251
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2029",
-    "y": 243035.50125020905
+    "y": 244344.3107698562
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2029",
-    "y": 410587.62461170985
+    "y": 412638.08011678566
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2029",
-    "y": 258588.73666263119
+    "y": 259709.1152294289
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2029",
-    "y": 362947.26114753104
+    "y": 366101.5001907723
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2029",
-    "y": 336254.558427866
+    "y": 339588.24663100997
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2029",
-    "y": 218693.49712251002
+    "y": 219664.28104105717
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2029",
-    "y": 412441.8098153539
+    "y": 414518.36702103826
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2029",
-    "y": 395476.78809431393
+    "y": 398034.73606786627
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2029",
-    "y": 332797.16237580066
+    "y": 336815.9467911767
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2029",
-    "y": 309670.01108578185
+    "y": 310093.8897909381
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2029",
-    "y": 274298.76130762143
+    "y": 276678.1659554616
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2029",
-    "y": 193200.76096052013
+    "y": 194889.07105107096
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2029",
-    "y": 274127.308672523
+    "y": 277959.7955967932
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2029",
-    "y": 275768.2753855518
+    "y": 277781.58923103573
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2029",
-    "y": 285751.0984832254
+    "y": 286635.7081027724
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2029",
-    "y": 332849.9320079784
+    "y": 334905.73058965715
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2029",
-    "y": 310733.13966799236
+    "y": 312969.0767584941
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2029",
-    "y": 227458.26861347715
+    "y": 228432.3814539279
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2029",
-    "y": 147524.25149359385
+    "y": 148647.05813886516
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2029",
-    "y": 175425.96103548846
+    "y": 177033.2682705405
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2029",
-    "y": 326608.06306138926
+    "y": 329221.0587464372
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2029",
-    "y": 305947.3692426602
+    "y": 308550.6041046054
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2029",
-    "y": 224942.7001983695
+    "y": 227969.55339712417
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2029",
-    "y": 391943.7350009813
+    "y": 390726.15760374564
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2029",
-    "y": 335028.5286057299
+    "y": 337214.1331100024
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2029",
-    "y": 195999.22055218194
+    "y": 198654.283347538
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2029",
-    "y": 319974.85464108945
+    "y": 321052.6795946988
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2029",
-    "y": 214287.55738685664
+    "y": 215899.81880724567
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2029",
-    "y": 347084.89867398696
+    "y": 345776.8080567575
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2029",
-    "y": 293605.5883711052
+    "y": 296408.06234138424
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2029",
-    "y": 343427.03785908996
+    "y": 345581.04498707043
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2029",
-    "y": 217824.8955389835
+    "y": 217425.8273116921
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2030",
-    "y": 14601.824578624031
+    "y": 13780.576733280148
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2030",
-    "y": 244602.7311638503
+    "y": 246270.27473606993
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2030",
-    "y": 412242.987862858
+    "y": 414796.24791511445
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2030",
-    "y": 259377.9384538894
+    "y": 260782.21850775945
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2030",
-    "y": 364224.87109847635
+    "y": 368012.9524053767
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2030",
-    "y": 336866.23078724596
+    "y": 340875.3700370992
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2030",
-    "y": 218699.0955389185
+    "y": 219868.28719821127
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2030",
-    "y": 413371.79338005435
+    "y": 415951.5207790404
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2030",
-    "y": 396970.0525938014
+    "y": 400081.07780472457
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2030",
-    "y": 333318.51228844427
+    "y": 338174.21254347765
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2030",
-    "y": 310927.1407884486
+    "y": 311565.1424336059
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2030",
-    "y": 274811.8801731896
+    "y": 277619.05989446613
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2030",
-    "y": 193650.87321795756
+    "y": 195592.4196530963
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2030",
-    "y": 275052.88352903974
+    "y": 279505.8016708451
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2030",
-    "y": 276616.8161037476
+    "y": 279066.18562132656
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2030",
-    "y": 287898.8269783974
+    "y": 289056.121114947
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2030",
-    "y": 334407.9028367569
+    "y": 336957.30914813146
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2030",
-    "y": 312395.29755920265
+    "y": 315117.3022945291
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2030",
-    "y": 227895.04144065082
+    "y": 229065.60057979115
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2030",
-    "y": 147382.44219020652
+    "y": 148683.14229449263
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2030",
-    "y": 175612.47003719962
+    "y": 177514.3916722419
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2030",
-    "y": 327714.6804557356
+    "y": 330779.1029420785
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2030",
-    "y": 306827.84518812934
+    "y": 309942.3385238901
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2030",
-    "y": 225420.4514355053
+    "y": 228986.70929707057
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2030",
-    "y": 394012.41903968365
+    "y": 392829.0960209896
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2030",
-    "y": 336920.3672769514
+    "y": 339596.83529898786
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2030",
-    "y": 195997.29120440548
+    "y": 199140.59677667546
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2030",
-    "y": 320631.25521807035
+    "y": 321988.7132614079
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2030",
-    "y": 214682.9440132495
+    "y": 216672.04110064293
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2030",
-    "y": 349181.90453717415
+    "y": 347820.79654130375
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2030",
-    "y": 294952.8624351235
+    "y": 298311.5852544423
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2030",
-    "y": 344365.03232980234
+    "y": 346956.763246734
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2030",
-    "y": 217751.03239393863
+    "y": 217412.05091225114
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2031",
-    "y": 14597.03267709455
+    "y": 13708.185321036699
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2031",
-    "y": 246086.1293301885
+    "y": 248147.4173735241
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2031",
-    "y": 413829.29194465966
+    "y": 416929.0206289986
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2031",
-    "y": 260129.06463111314
+    "y": 261842.49142657215
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2031",
-    "y": 365490.296500875
+    "y": 369921.7529208201
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2031",
-    "y": 337454.1048369876
+    "y": 342148.7418880879
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2031",
-    "y": 218750.32427486376
+    "y": 220126.38285674684
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2031",
-    "y": 414261.8822508458
+    "y": 417386.3965997129
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2031",
-    "y": 398499.6125528748
+    "y": 402182.18407269916
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2031",
-    "y": 333873.1188195775
+    "y": 339586.3002573462
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2031",
-    "y": 312105.8054414924
+    "y": 313008.86283705756
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2031",
-    "y": 275320.72029210854
+    "y": 278552.0353332148
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2031",
-    "y": 194141.57250501896
+    "y": 196325.68587012685
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2031",
-    "y": 275982.27193157724
+    "y": 281039.66295053804
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2031",
-    "y": 277428.563328235
+    "y": 280329.32992915815
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2031",
-    "y": 289961.5890593538
+    "y": 291423.2737855599
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2031",
-    "y": 335893.1880334911
+    "y": 338966.2036831654
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2031",
-    "y": 313978.5370290078
+    "y": 317207.28262777696
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2031",
-    "y": 228337.27948804633
+    "y": 229718.11495122925
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2031",
-    "y": 147291.6630457806
+    "y": 148770.87460784422
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2031",
-    "y": 175759.67410461127
+    "y": 177964.86626763584
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2031",
-    "y": 328895.1068885379
+    "y": 332408.11555412883
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2031",
-    "y": 307681.23051260505
+    "y": 311317.14835456084
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2031",
-    "y": 225899.27598810068
+    "y": 230000.62500801307
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2031",
-    "y": 396049.93944623834
+    "y": 394978.06746629276
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2031",
-    "y": 338726.7513059198
+    "y": 341915.75401830336
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2031",
-    "y": 196016.0553385541
+    "y": 199647.71218572144
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2031",
-    "y": 321305.4966478482
+    "y": 322967.04843275656
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2031",
-    "y": 215000.9257655036
+    "y": 217391.64172540148
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2031",
-    "y": 351213.00753215444
+    "y": 349860.5050972662
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2031",
-    "y": 296259.0754365887
+    "y": 300183.80486187385
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2031",
-    "y": 345409.616810999
+    "y": 348439.40977277997
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2031",
-    "y": 217734.05101018128
+    "y": 217480.02222642675
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2032",
-    "y": 14612.409748519009
+    "y": 13667.16932251704
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2032",
-    "y": 247493.78644303945
+    "y": 249986.9148551098
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2032",
-    "y": 415388.4480389989
+    "y": 419081.80062593153
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2032",
-    "y": 260835.8040616719
+    "y": 262891.07235957205
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2032",
-    "y": 366735.0386969833
+    "y": 371833.7483433258
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2032",
-    "y": 338032.4326958075
+    "y": 343426.41500598413
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2032",
-    "y": 218782.86227549618
+    "y": 220377.58810929663
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2032",
-    "y": 415138.8657948697
+    "y": 418852.75866241823
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2032",
-    "y": 400024.23175481014
+    "y": 404305.87709344935
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2032",
-    "y": 334465.855867961
+    "y": 341063.0811917801
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2032",
-    "y": 313193.5228990762
+    "y": 314412.5874461703
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2032",
-    "y": 275833.9090539974
+    "y": 279493.4974629028
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2032",
-    "y": 194651.0678477719
+    "y": 197083.21882176792
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2032",
-    "y": 276908.901877536
+    "y": 282567.0593026916
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2032",
-    "y": 278200.03740510746
+    "y": 281572.8627875931
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2032",
-    "y": 291955.8718323564
+    "y": 293756.86454923835
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2032",
-    "y": 337285.04133044975
+    "y": 340916.2274221464
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2032",
-    "y": 315504.1036136496
+    "y": 319261.9416529872
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2032",
-    "y": 228776.3766626284
+    "y": 230384.16508086782
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2032",
-    "y": 147228.9456740315
+    "y": 148891.35201050743
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2032",
-    "y": 175860.857863351
+    "y": 178381.00476445572
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2032",
-    "y": 330140.4230109024
+    "y": 334110.250748547
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2032",
-    "y": 308511.1975505191
+    "y": 312678.28294929035
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2032",
-    "y": 226360.81101364395
+    "y": 230997.1222270412
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2032",
-    "y": 398046.1663414992
+    "y": 397171.4342148502
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2032",
-    "y": 340486.0907107768
+    "y": 344217.17984991526
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2032",
-    "y": 196032.91889837268
+    "y": 200157.77834136414
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2032",
-    "y": 321975.55785701575
+    "y": 323972.5065361182
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2032",
-    "y": 215289.504481825
+    "y": 218107.1878759813
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2032",
-    "y": 353144.91467242735
+    "y": 351867.9901278717
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2032",
-    "y": 297533.6650733973
+    "y": 302040.3300485408
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2032",
-    "y": 346533.6766906108
+    "y": 350017.5647667642
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2032",
-    "y": 217758.85657638722
+    "y": 217609.65522362097
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2033",
-    "y": 14642.721282245771
+    "y": 13651.053056577053
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2033",
-    "y": 248870.3224540369
+    "y": 251788.04449189472
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2033",
-    "y": 416937.3485984954
+    "y": 421219.2850422279
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2033",
-    "y": 261553.50437954764
+    "y": 263950.222996928
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2033",
-    "y": 367988.4640392888
+    "y": 373731.65363011294
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2033",
-    "y": 338628.04635673325
+    "y": 344710.9437991929
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2033",
-    "y": 218866.35062839376
+    "y": 220675.67591368326
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2033",
-    "y": 416068.50856430404
+    "y": 420371.1577301325
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2033",
-    "y": 401570.2018624744
+    "y": 406438.4595530788
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2033",
-    "y": 335097.03594732075
+    "y": 342558.51116047084
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2033",
-    "y": 314298.6684793949
+    "y": 315828.5818077906
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2033",
-    "y": 276431.0263475793
+    "y": 280497.8722660557
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2033",
-    "y": 195197.52531812707
+    "y": 197865.62324208982
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2033",
-    "y": 277847.41629978054
+    "y": 284069.233716011
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2033",
-    "y": 278997.78090466856
+    "y": 282837.11344921635
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2033",
-    "y": 293912.1746393784
+    "y": 296062.28862671077
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2033",
-    "y": 338643.2574310158
+    "y": 342822.78732241027
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2033",
-    "y": 317000.05358595337
+    "y": 321271.4741406999
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2033",
-    "y": 229265.0653547489
+    "y": 231099.2108804825
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2033",
-    "y": 147214.97744010418
+    "y": 149054.32596002874
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2033",
-    "y": 175953.42380610335
+    "y": 178783.25794553634
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2033",
-    "y": 331459.87654800026
+    "y": 335863.32370905863
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2033",
-    "y": 309378.10748232406
+    "y": 314047.1381453787
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2033",
-    "y": 226864.6591123348
+    "y": 232012.40407129156
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2033",
-    "y": 400047.5694130067
+    "y": 399376.38249308575
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2033",
-    "y": 342233.3240179085
+    "y": 346496.31236853416
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2033",
-    "y": 196096.5908310315
+    "y": 200698.73301517536
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2033",
-    "y": 322715.6380310944
+    "y": 325034.19004185376
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2033",
-    "y": 215588.72957110777
+    "y": 218834.6665482727
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2033",
-    "y": 355087.2321836726
+    "y": 353900.6556510491
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2033",
-    "y": 298812.804735914
+    "y": 303871.93718795065
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2033",
-    "y": 347778.46990629716
+    "y": 351686.124426273
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2033",
-    "y": 217871.27828023548
+    "y": 217833.14963427288
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2034",
-    "y": 14684.407911130247
+    "y": 13653.979313165353
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2034",
-    "y": 250187.5705852249
+    "y": 253525.21904872204
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2034",
-    "y": 418468.13599310024
+    "y": 423339.9945660696
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2034",
-    "y": 262258.11283845076
+    "y": 264997.26099621266
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2034",
-    "y": 369230.2534296552
+    "y": 375601.216255812
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2034",
-    "y": 339200.9067114011
+    "y": 345962.2359010263
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2034",
-    "y": 219010.07778616706
+    "y": 221034.66332261468
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2034",
-    "y": 417012.8349243619
+    "y": 421903.349610674
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2034",
-    "y": 403124.64989734936
+    "y": 408567.28194962814
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2034",
-    "y": 335721.94691667426
+    "y": 344027.68058434635
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2034",
-    "y": 315387.7923160155
+    "y": 317224.65471183194
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2034",
-    "y": 277085.5141922046
+    "y": 281541.60536275135
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2034",
-    "y": 195766.47598785712
+    "y": 198662.8666888765
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2034",
-    "y": 278775.3340725952
+    "y": 285531.1024404113
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2034",
-    "y": 279785.5000537229
+    "y": 284085.62141530396
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2034",
-    "y": 295794.59529171896
+    "y": 298302.45734335773
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2034",
-    "y": 339965.64350591647
+    "y": 344684.7520225119
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2034",
-    "y": 318455.8200453887
+    "y": 323230.3158648184
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2034",
-    "y": 229795.9354501585
+    "y": 231855.37983886348
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2034",
-    "y": 147238.13225645883
+    "y": 149251.5651432488
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2034",
-    "y": 176022.58347636388
+    "y": 179159.5926597555
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2034",
-    "y": 332822.04388834897
+    "y": 337643.48509822536
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2034",
-    "y": 310271.7700364124
+    "y": 315416.12703900365
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2034",
-    "y": 227396.1965289367
+    "y": 233034.9225423145
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2034",
-    "y": 402036.8712182425
+    "y": 401577.3834174942
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2034",
-    "y": 343924.21961116913
+    "y": 348713.3404024841
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2034",
-    "y": 196159.11697555147
+    "y": 201225.30328110003
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2034",
-    "y": 323519.87208663713
+    "y": 326148.9769894932
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2034",
-    "y": 215860.74683264593
+    "y": 219532.82644088668
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2034",
-    "y": 357033.8027896556
+    "y": 355953.8363130287
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2034",
-    "y": 300069.3444739289
+    "y": 305654.4101763124
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2034",
-    "y": 349109.42264884786
+    "y": 353419.90532661206
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2034",
-    "y": 218048.60650320633
+    "y": 218133.02432639044
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2035",
-    "y": 14732.381661567248
+    "y": 13668.711801970641
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2035",
-    "y": 251444.40367310564
+    "y": 255196.0301854135
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2035",
-    "y": 419940.7307165199
+    "y": 425405.4743297668
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2035",
-    "y": 262949.97536509065
+    "y": 266035.04602900555
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2035",
-    "y": 370435.12522054126
+    "y": 377419.70544196287
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2035",
-    "y": 339751.9425196824
+    "y": 347181.96230555366
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2035",
-    "y": 219180.9536612725
+    "y": 221420.85724510794
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2035",
-    "y": 417943.55108808045
+    "y": 423419.5822194157
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2035",
-    "y": 404664.812298307
+    "y": 410673.33139046223
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2035",
-    "y": 336324.68844403204
+    "y": 345456.4261198922
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2035",
-    "y": 316467.0123448341
+    "y": 318607.28699687845
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2035",
-    "y": 277778.5154632608
+    "y": 282611.26279231923
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2035",
-    "y": 196331.11650624117
+    "y": 199453.87075660535
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2035",
-    "y": 279681.3527025974
+    "y": 286946.2544324309
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2035",
-    "y": 280545.34543620434
+    "y": 285302.7045557429
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2035",
-    "y": 297603.366040793
+    "y": 300477.9408770537
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2035",
-    "y": 341256.7590127919
+    "y": 346508.8215054696
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2035",
-    "y": 319849.34540374833
+    "y": 325119.37944588735
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2035",
-    "y": 230346.39811074577
+    "y": 232634.76037824564
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2035",
-    "y": 147281.79176673095
+    "y": 149468.48022660625
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2035",
-    "y": 176098.69908415686
+    "y": 179541.04134214798
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2035",
-    "y": 334201.47266408295
+    "y": 339429.2604848895
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2035",
-    "y": 311181.0215452931
+    "y": 316779.39505145967
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2035",
-    "y": 227917.65389078532
+    "y": 234029.72687321418
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2035",
-    "y": 403993.4419164789
+    "y": 403758.31093776325
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2035",
-    "y": 345565.39567916584
+    "y": 350875.2531336619
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2035",
-    "y": 196265.10959738994
+    "y": 201786.87266828635
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2035",
-    "y": 324370.3491561101
+    "y": 327303.3027574704
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2035",
-    "y": 216125.90240208714
+    "y": 220224.49495074668
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2035",
-    "y": 358956.2547676507
+    "y": 357999.6853568757
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2035",
-    "y": 301289.93920941453
+    "y": 307379.8686188463
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2035",
-    "y": 350481.5224867414
+    "y": 355181.1408836315
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2035",
-    "y": 218253.13598747566
+    "y": 218472.57840571742
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2036",
-    "y": 14781.129036209004
+    "y": 13689.03010489597
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2036",
-    "y": 252658.83027355018
+    "y": 256819.57577376417
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2036",
-    "y": 421377.5105952088
+    "y": 427440.14172981563
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2036",
-    "y": 263640.21297171386
+    "y": 267074.27958165196
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2036",
-    "y": 371591.6160628217
+    "y": 379180.9594184413
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2036",
-    "y": 340312.0774902601
+    "y": 348400.5579623186
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2036",
-    "y": 219329.2683283528
+    "y": 221780.0999747221
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2036",
-    "y": 418870.13718905515
+    "y": 424930.9636629243
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2036",
-    "y": 406173.99639136007
+    "y": 412743.79721397976
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2036",
-    "y": 336922.90211385296
+    "y": 346864.9191963317
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2036",
-    "y": 317529.7745434372
+    "y": 319969.97022249823
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2036",
-    "y": 278487.9944387829
+    "y": 283690.085537547
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2036",
-    "y": 196876.18920067605
+    "y": 200222.40500783117
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2036",
-    "y": 280567.89927797765
+    "y": 288324.40405770554
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2036",
-    "y": 281285.0642013917
+    "y": 286494.0673173998
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2036",
-    "y": 299376.8257427834
+    "y": 302624.6457472134
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2036",
-    "y": 342513.11285943945
+    "y": 348289.8033649805
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2036",
-    "y": 321201.3139066511
+    "y": 326959.366820426
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2036",
-    "y": 230877.21009587482
+    "y": 233396.83567681146
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2036",
-    "y": 147336.9941878233
+    "y": 149695.19690436643
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2036",
-    "y": 176187.86423828275
+    "y": 179931.1656416717
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2036",
-    "y": 335535.17506109737
+    "y": 341163.90880804876
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2036",
-    "y": 312083.6721472746
+    "y": 318118.62490493985
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2036",
-    "y": 228446.83900907
+    "y": 235015.77847693235
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2036",
-    "y": 405885.36472585757
+    "y": 405888.4284069086
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2036",
-    "y": 347161.9784578592
+    "y": 352990.2740218551
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2036",
-    "y": 196409.60455774196
+    "y": 202378.53077931982
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2036",
-    "y": 325217.47819862847
+    "y": 328449.4418545781
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2036",
-    "y": 216399.7173154815
+    "y": 220925.84112561579
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2036",
-    "y": 360800.8559281389
+    "y": 359984.0463484142
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2036",
-    "y": 302487.01689681766
+    "y": 309062.28678724857
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2036",
-    "y": 351839.9825362453
+    "y": 356920.87523609144
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2036",
-    "y": 218449.33238813462
+    "y": 218813.89253901498
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2037",
-    "y": 14831.997879739505
+    "y": 13716.194504959958
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2037",
-    "y": 253835.70625566033
+    "y": 258400.74009314243
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2037",
-    "y": 422792.69741375453
+    "y": 429458.711603434
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2037",
-    "y": 264328.42094248626
+    "y": 268115.39452620194
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2037",
-    "y": 372688.20073322504
+    "y": 380875.74186945433
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2037",
-    "y": 340891.27637603437
+    "y": 349632.7531051762
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2037",
-    "y": 219442.48539152628
+    "y": 222103.15837009365
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2037",
-    "y": 419814.909022084
+    "y": 426461.78780850663
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2037",
-    "y": 407640.27873237076
+    "y": 414766.09852966387
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2037",
-    "y": 337525.3461418177
+    "y": 348265.4509065402
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2037",
-    "y": 318576.5281343465
+    "y": 321316.2269985223
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2037",
-    "y": 279204.61603173235
+    "y": 284771.5445908556
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2037",
-    "y": 197384.71636086825
+    "y": 200950.8192335466
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2037",
-    "y": 281431.2905982226
+    "y": 289664.4634096851
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2037",
-    "y": 282011.76981190447
+    "y": 287668.30009513773
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2037",
-    "y": 301119.06368391897
+    "y": 304748.15667122725
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2037",
-    "y": 343732.8686317759
+    "y": 350026.49940193834
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2037",
-    "y": 322513.6237358041
+    "y": 328752.68948869436
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2037",
-    "y": 231375.51373760437
+    "y": 234129.25370234568
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2037",
-    "y": 147399.8312948262
+    "y": 149927.1002438655
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2037",
-    "y": 176284.80099792412
+    "y": 180324.0628763585
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2037",
-    "y": 336798.4463968126
+    "y": 342827.82215502777
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2037",
-    "y": 312976.07504299097
+    "y": 319434.5112791403
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2037",
-    "y": 228981.90103445543
+    "y": 235994.63148661025
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2037",
-    "y": 407704.29115743417
+    "y": 407960.0879330164
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2037",
-    "y": 348714.4541607274
+    "y": 355057.6416681759
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2037",
-    "y": 196593.24074712317
+    "y": 203003.69414554516
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2037",
-    "y": 326044.2051503108
+    "y": 329572.8492998577
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2037",
-    "y": 216694.0865858689
+    "y": 221649.87829285322
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2037",
-    "y": 362538.29943029006
+    "y": 361878.26191707276
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2037",
-    "y": 303672.43776954256
+    "y": 310716.1245978932
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2037",
-    "y": 353146.42848454317
+    "y": 358605.93055277586
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2037",
-    "y": 218645.95632321882
+    "y": 219163.56087770854
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2038",
-    "y": 14882.429641106603
+    "y": 13746.224441887265
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2038",
-    "y": 254990.50502599723
+    "y": 259954.7307494768
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2038",
-    "y": 424207.56935367425
+    "y": 431482.6680459891
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2038",
-    "y": 265019.8426463674
+    "y": 269161.39551950985
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2038",
-    "y": 373726.9933560604
+    "y": 382505.21262607834
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2038",
-    "y": 341526.4693061396
+    "y": 350914.5696315352
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2038",
-    "y": 219513.32423786703
+    "y": 222386.9540966028
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2038",
-    "y": 420781.0839874102
+    "y": 428016.6299661774
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2038",
-    "y": 409061.7858833437
+    "y": 416740.23433147935
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2038",
-    "y": 338148.6991400196
+    "y": 349673.79242011125
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2038",
-    "y": 319619.2160356917
+    "y": 322659.2638152372
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2038",
-    "y": 279900.24445616966
+    "y": 285829.65995705634
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2038",
-    "y": 197848.37530579994
+    "y": 201631.85974619834
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2038",
-    "y": 282264.7916280917
+    "y": 290962.48181706166
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2038",
-    "y": 282734.34802952386
+    "y": 288837.6095769207
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2038",
-    "y": 302848.9296454846
+    "y": 306868.023621081
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2038",
-    "y": 344918.1485730198
+    "y": 351723.5155537147
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2038",
-    "y": 323793.04413898423
+    "y": 330507.0150613388
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2038",
-    "y": 231833.24256380767
+    "y": 234824.8850322686
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2038",
-    "y": 147458.73607432668
+    "y": 150152.42311501468
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2038",
-    "y": 176391.7009701845
+    "y": 180721.0011241363
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2038",
-    "y": 337976.32503930747
+    "y": 344406.6501972193
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2038",
-    "y": 313862.5672233513
+    "y": 320734.00015567004
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2038",
-    "y": 229528.00549019486
+    "y": 236972.15083973302
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2038",
-    "y": 409441.459569247
+    "y": 409961.7673307632
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2038",
-    "y": 350246.8350363003
+    "y": 357102.5342277403
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2038",
-    "y": 196819.78603987064
+    "y": 203664.84356989217
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2038",
-    "y": 326826.7670612929
+    "y": 330652.0978158668
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2038",
-    "y": 217017.50570240096
+    "y": 222402.43923643645
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2038",
-    "y": 364152.75761426205
+    "y": 363666.1170208447
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2038",
-    "y": 304834.5936301718
+    "y": 312332.7845135437
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2038",
-    "y": 354382.71410432516
+    "y": 360220.1767130349
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2038",
-    "y": 218825.6124330684
+    "y": 219504.85460553784
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2039",
-    "y": 14930.48068313996
+    "y": 13776.610686687749
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2039",
-    "y": 256111.5621887379
+    "y": 261469.64810133688
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2039",
-    "y": 425582.48548671824
+    "y": 433469.6934552562
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2039",
-    "y": 265714.90270072967
+    "y": 270212.58161183767
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2039",
-    "y": 374691.25198735244
+    "y": 384052.5019880084
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2039",
-    "y": 342207.2120971084
+    "y": 352235.188391127
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2039",
-    "y": 219548.38293525868
+    "y": 222637.5805851433
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2039",
-    "y": 421754.3261383416
+    "y": 429576.43225679937
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2039",
-    "y": 410447.21792248724
+    "y": 418671.028108027
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2039",
-    "y": 338774.1280683565
+    "y": 351071.2617366915
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2039",
-    "y": 320642.23981804313
+    "y": 323984.5557891124
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2039",
-    "y": 280551.5236391534
+    "y": 286841.814188524
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2039",
-    "y": 198259.22991442308
+    "y": 202254.30169951916
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2039",
-    "y": 283056.1491480027
+    "y": 292204.7958367938
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2039",
-    "y": 283433.1094812768
+    "y": 289982.7078878079
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2039",
-    "y": 304555.3431780359
+    "y": 308972.2894261126
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2039",
-    "y": 346078.8947021665
+    "y": 353388.14240049577
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2039",
-    "y": 325030.5408808541
+    "y": 332213.48851523676
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2039",
-    "y": 232236.93422150865
+    "y": 235467.6966325038
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2039",
-    "y": 147511.1612222134
+    "y": 150368.41297776092
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2039",
-    "y": 176523.12153464428
+    "y": 181137.37309292203
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2039",
-    "y": 339044.0775409589
+    "y": 345873.2321111407
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2039",
-    "y": 314728.4557983578
+    "y": 322002.7867232959
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2039",
-    "y": 230074.20628479187
+    "y": 237937.45290746397
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2039",
-    "y": 411081.7031257435
+    "y": 411877.1573945425
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2039",
-    "y": 351735.2743075692
+    "y": 359100.45405452244
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2039",
-    "y": 197081.46973734428
+    "y": 204352.28189414967
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2039",
-    "y": 327551.5929745455
+    "y": 331672.93560217804
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2039",
-    "y": 217363.33000128446
+    "y": 223176.12654189864
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2039",
-    "y": 365625.75599285704
+    "y": 365327.2569156732
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2039",
-    "y": 305980.52819931007
+    "y": 313917.33942660096
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2039",
-    "y": 355527.74560815236
+    "y": 361739.81644973275
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2039",
-    "y": 218983.1002218167
+    "y": 219833.8597488049
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2040",
-    "y": 14975.240263045302
+    "y": 13805.953258819842
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2040",
-    "y": 257200.02490867279
+    "y": 262947.465164598
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2040",
-    "y": 426932.7692197893
+    "y": 435435.0456248595
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2040",
-    "y": 266422.84936579166
+    "y": 271278.7819796543
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2040",
-    "y": 375587.81260677223
+    "y": 385525.22689926083
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2040",
-    "y": 342934.73567721527
+    "y": 353593.2155583315
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2040",
-    "y": 219531.41746246236
+    "y": 222838.2118641131
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2040",
-    "y": 422722.52751702507
+    "y": 431130.8179857018
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2040",
-    "y": 411772.08457613253
+    "y": 420536.88773874124
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2040",
-    "y": 339412.0896535325
+    "y": 352469.12309877336
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2040",
-    "y": 321641.4693771929
+    "y": 325287.5935368856
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2040",
-    "y": 281134.5472079997
+    "y": 287783.9850856671
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2040",
-    "y": 198600.36731579772
+    "y": 202806.15875593162
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2040",
-    "y": 283796.87633682514
+    "y": 293385.123514668
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2040",
-    "y": 284127.40750346985
+    "y": 291119.38203200884
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2040",
-    "y": 306235.270045153
+    "y": 311057.23075785703
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2040",
-    "y": 347200.04615320737
+    "y": 355007.76108501205
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2040",
-    "y": 326222.3628169453
+    "y": 333868.6070764256
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2040",
-    "y": 232564.20558927074
+    "y": 236036.63228519427
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2040",
-    "y": 147542.82847072918
+    "y": 150563.08151880789
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2040",
-    "y": 176664.07366030896
+    "y": 181558.73040108278
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2040",
-    "y": 339977.40285395534
+    "y": 347202.74070380477
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2040",
-    "y": 315567.67519482237
+    "y": 323235.157566621
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2040",
-    "y": 230615.0502857642
+    "y": 238885.99408080266
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2040",
-    "y": 412616.300449195
+    "y": 413695.3802509891
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2040",
-    "y": 353174.16168202215
+    "y": 361047.2943906785
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2040",
-    "y": 197372.93428135832
+    "y": 205062.32637748314
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2040",
-    "y": 328210.298793429
+    "y": 332626.61876328534
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2040",
-    "y": 217732.69385563183
+    "y": 223971.2263380351
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2040",
-    "y": 366943.2155915069
+    "y": 366847.13303139445
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2040",
-    "y": 307102.3935353993
+    "y": 315464.71454587404
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2040",
-    "y": 356548.6476841005
+    "y": 363132.58010241436
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2040",
-    "y": 219103.0074929532
+    "y": 220134.79984176176
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2041",
-    "y": 15015.665680939646
+    "y": 13833.441653614696
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2041",
-    "y": 258233.78043755985
+    "y": 264366.0712909582
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2041",
-    "y": 428233.1619111093
+    "y": 437353.2283463595
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2041",
-    "y": 267098.4945390651
+    "y": 272314.27931832295
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2041",
-    "y": 376417.6081370561
+    "y": 386924.6791546204
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2041",
-    "y": 343652.50338655454
+    "y": 354935.6336139844
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2041",
-    "y": 219501.2609842362
+    "y": 223029.89146491926
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2041",
-    "y": 423667.5143344513
+    "y": 432662.49825908506
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2041",
-    "y": 413036.64582906413
+    "y": 422335.6458727706
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2041",
-    "y": 340026.25258736976
+    "y": 353832.4137642948
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2041",
-    "y": 322589.2022912557
+    "y": 326544.6685134245
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2041",
-    "y": 281635.4386733738
+    "y": 288644.33292389516
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2041",
-    "y": 198866.8997588935
+    "y": 203282.57568417443
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2041",
-    "y": 284478.6546134644
+    "y": 294496.6596797708
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2041",
-    "y": 284787.74127962213
+    "y": 292218.10401582735
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2041",
-    "y": 307867.3891409424
+    "y": 313100.8154762311
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2041",
-    "y": 348287.8657411504
+    "y": 356592.6072997734
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2041",
-    "y": 327365.2918823975
+    "y": 335471.06930259656
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2041",
-    "y": 232815.30407233987
+    "y": 236530.00089379694
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2041",
-    "y": 147553.63171274538
+    "y": 150737.58112491868
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2041",
-    "y": 176815.2112344209
+    "y": 181988.76372938493
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2041",
-    "y": 340738.2516249155
+    "y": 348358.9751008408
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2041",
-    "y": 316354.1695107411
+    "y": 324407.3621341678
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2041",
-    "y": 231132.96245166182
+    "y": 239802.7033603633
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2041",
-    "y": 414036.51938288624
+    "y": 415407.54093268694
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2041",
-    "y": 354541.231996115
+    "y": 362918.52704595844
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2041",
-    "y": 197689.37819023308
+    "y": 205791.9246054182
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2041",
-    "y": 328784.25461605797
+    "y": 333494.2063092486
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2041",
-    "y": 218101.49081611013
+    "y": 224761.6086179838
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2041",
-    "y": 368099.83653844375
+    "y": 368218.08363764704
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2041",
-    "y": 308181.30812282005
+    "y": 316956.8608338056
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2041",
-    "y": 357430.8859867364
+    "y": 364387.15580088913
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2041",
-    "y": 219191.320063718
+    "y": 220415.66821413868
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2042",
-    "y": 15051.754688847212
+    "y": 13859.3563164911
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2042",
-    "y": 259225.43482487713
+    "y": 265737.75129014923
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2042",
-    "y": 429504.4753192429
+    "y": 439242.5478002038
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2042",
-    "y": 267790.1565224312
+    "y": 273366.36556093255
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2042",
-    "y": 377172.0011514679
+    "y": 388243.11497971794
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2042",
-    "y": 344414.90482538147
+    "y": 356316.6165267956
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2042",
-    "y": 219405.27748519287
+    "y": 223154.30895278993
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2042",
-    "y": 424589.5307256319
+    "y": 434172.23682548205
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2042",
-    "y": 414204.4425218144
+    "y": 424035.89782213717
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2042",
-    "y": 340644.5603871068
+    "y": 355191.4501843172
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2042",
-    "y": 323487.9861761269
+    "y": 327756.0586555754
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2042",
-    "y": 282051.7456694132
+    "y": 289418.6668940859
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2042",
-    "y": 199065.87933257365
+    "y": 203690.84867581006
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2042",
-    "y": 285104.90772663924
+    "y": 295543.6370696945
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2042",
-    "y": 285438.01933333074
+    "y": 293304.912787829
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2042",
-    "y": 309464.7572005122
+    "y": 315116.4771494201
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2042",
-    "y": 349315.4863722285
+    "y": 358111.4760338864
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2042",
-    "y": 328449.782014024
+    "y": 337012.3546751813
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2042",
-    "y": 232969.69818586425
+    "y": 236927.4055148502
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2042",
-    "y": 147542.9625409728
+    "y": 150887.8687906454
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2042",
-    "y": 176988.62012297584
+    "y": 182438.11277452594
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2042",
-    "y": 341312.4366855909
+    "y": 349329.0343767527
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2042",
-    "y": 317088.3157596745
+    "y": 325521.7910440934
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2042",
-    "y": 231644.51117758904
+    "y": 240705.70771043136
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2042",
-    "y": 415330.2672927214
+    "y": 417001.17690931744
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2042",
-    "y": 355858.01189648244
+    "y": 364737.5916556474
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2042",
-    "y": 198049.89595571315
+    "y": 206558.59884286954
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2042",
-    "y": 329234.3628396793
+    "y": 334238.79344325967
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2042",
-    "y": 218496.99147331007
+    "y": 225574.55725644866
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2042",
-    "y": 369072.7942535005
+    "y": 369415.4319962099
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2042",
-    "y": 309231.32707975444
+    "y": 318408.645685375
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2042",
-    "y": 358147.076736105
+    "y": 365474.55777774693
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2042",
-    "y": 219214.4044354006
+    "y": 220636.38415751938
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2043",
-    "y": 15081.768863876137
+    "y": 13881.542243525291
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2043",
-    "y": 260154.23260708197
+    "y": 267038.56253829465
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2043",
-    "y": 430732.6297200519
+    "y": 441083.7203367079
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2043",
-    "y": 268473.4872254874
+    "y": 274405.8480757583
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2043",
-    "y": 377844.775993528
+    "y": 389476.0227053278
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2043",
-    "y": 345193.79780123977
+    "y": 357701.77537804533
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2043",
-    "y": 219258.8798089799
+    "y": 223244.49031424092
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2043",
-    "y": 425468.9444834395
+    "y": 435632.6220551486
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2043",
-    "y": 415274.1736481113
+    "y": 425633.99181687325
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2043",
-    "y": 341237.7092024968
+    "y": 356510.7303084514
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2043",
-    "y": 324324.6389277032
+    "y": 328910.46641895914
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2043",
-    "y": 282359.1150933723
+    "y": 290082.26658651343
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2043",
-    "y": 199179.15102708412
+    "y": 204012.79568277576
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2043",
-    "y": 285655.14949215594
+    "y": 296506.25516795146
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2043",
-    "y": 286056.05968724046
+    "y": 294351.8116803429
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2043",
-    "y": 311001.657056744
+    "y": 317072.51680924627
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2043",
-    "y": 350282.08407205064
+    "y": 359566.97793956986
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2043",
-    "y": 329455.5930142395
+    "y": 338468.7920330319
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2043",
-    "y": 233026.79592839646
+    "y": 237234.43384828093
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2043",
-    "y": 147507.06184488637
+    "y": 151015.1995888122
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2043",
-    "y": 177166.52775637666
+    "y": 182889.48205132896
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2043",
-    "y": 341690.05269316497
+    "y": 350101.9053292486
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2043",
-    "y": 317754.1605574953
+    "y": 326563.64553489326
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2043",
-    "y": 232122.05713163476
+    "y": 241563.4960571332
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2043",
-    "y": 416490.3948979553
+    "y": 418469.852220542
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2043",
-    "y": 357100.52571274905
+    "y": 366474.32287807495
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2043",
-    "y": 198408.99790543798
+    "y": 207314.00590753357
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2043",
-    "y": 329558.8410658242
+    "y": 334865.5036076553
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2043",
-    "y": 218893.53199582314
+    "y": 226379.48164798797
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2043",
-    "y": 369857.3102871147
+    "y": 370438.3009658027
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2043",
-    "y": 310230.44829356717
+    "y": 319797.9865565227
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2043",
-    "y": 358687.14353938465
+    "y": 366390.24918961705
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2043",
-    "y": 219189.31154425206
+    "y": 220823.40772361698
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2044",
-    "y": 15106.49492287278
+    "y": 13900.388484574833
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2044",
-    "y": 261018.7133668691
+    "y": 268252.40216365794
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2044",
-    "y": 431899.0896406804
+    "y": 442833.0520855597
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2044",
-    "y": 269143.09698220494
+    "y": 275413.06224601355
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2044",
-    "y": 378428.9468645396
+    "y": 390616.52371931233
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2044",
-    "y": 345989.9276549545
+    "y": 359057.09859489795
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2044",
-    "y": 219049.03707102293
+    "y": 223332.8968420765
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2044",
-    "y": 426314.00851755077
+    "y": 437021.9570716868
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2044",
-    "y": 416232.4328347135
+    "y": 427111.6646564793
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2044",
-    "y": 341804.814175013
+    "y": 357768.3899601782
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2044",
-    "y": 325093.5068051793
+    "y": 330000.4481694895
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2044",
-    "y": 282563.0308438423
+    "y": 290635.71593615797
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2044",
-    "y": 199219.54984409054
+    "y": 204259.6832638068
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2044",
-    "y": 286133.5517084792
+    "y": 297383.35263928556
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2044",
-    "y": 286646.851372913
+    "y": 295342.6067128958
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2044",
-    "y": 312476.00860416103
+    "y": 318946.71901368775
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2044",
-    "y": 351179.99270211055
+    "y": 360950.66472773824
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2044",
-    "y": 330383.06526858493
+    "y": 339830.944870971
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2044",
-    "y": 232977.84120051507
+    "y": 237460.78823278443
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2044",
-    "y": 147446.9611062355
+    "y": 151120.16002503427
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2044",
-    "y": 177341.2216182628
+    "y": 183340.82950562204
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2044",
-    "y": 341877.1169189357
+    "y": 350682.46421565936
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2044",
-    "y": 318340.8395308604
+    "y": 327516.84039019025
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2044",
-    "y": 232567.29819952097
+    "y": 242364.18072764153
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2044",
-    "y": 417508.54419139394
+    "y": 419806.614257467
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2044",
-    "y": 358267.053485294
+    "y": 368106.33506447176
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2044",
-    "y": 198775.34443743058
+    "y": 208056.74280779847
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2044",
-    "y": 329750.54818914394
+    "y": 335387.4880435455
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2044",
-    "y": 219300.73370110831
+    "y": 227165.6990969181
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2044",
-    "y": 370445.6288443778
+    "y": 371302.37942046224
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2044",
-    "y": 311166.1864432395
+    "y": 321105.65670942597
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2044",
-    "y": 359042.7189023521
+    "y": 367127.4151956922
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2044",
-    "y": 219099.43871961287
+    "y": 220976.6050167264
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2045",
-    "y": 15125.611290565626
+    "y": 13916.189294462522
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2045",
-    "y": 261815.58049000846
+    "y": 269388.39131632645
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2045",
-    "y": 432983.72402166185
+    "y": 444490.72374916513
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2045",
-    "y": 269787.30428043037
+    "y": 276393.3322179042
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2045",
-    "y": 378918.15323073947
+    "y": 391663.43948702054
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2045",
-    "y": 346772.9960668114
+    "y": 360379.9698937198
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2045",
-    "y": 218793.33663594592
+    "y": 223396.88091588466
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2045",
-    "y": 427093.7879385026
+    "y": 438333.53225233284
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2045",
-    "y": 417082.00019044225
+    "y": 428472.26898965996
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2045",
-    "y": 342324.4809076518
+    "y": 358959.37856363755
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2045",
-    "y": 325784.1985920904
+    "y": 331017.5638977834
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2045",
-    "y": 282655.0830050659
+    "y": 291078.4208899038
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2045",
-    "y": 199183.18455953553
+    "y": 204447.23027336693
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2045",
-    "y": 286526.30332373007
+    "y": 298170.8228993598
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2045",
-    "y": 287193.81480895635
+    "y": 296279.78754068783
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2045",
-    "y": 313882.1082998811
+    "y": 320751.04634343623
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2045",
-    "y": 352004.9724884243
+    "y": 362260.19984524505
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2045",
-    "y": 331223.51552428736
+    "y": 341098.7715629172
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2045",
-    "y": 232827.04434706268
+    "y": 237604.4550705591
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2045",
-    "y": 147357.47734092933
+    "y": 151202.01387635717
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2045",
-    "y": 177510.9187329465
+    "y": 183794.8159538172
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2045",
-    "y": 341879.15843260824
+    "y": 351081.64116098743
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2045",
-    "y": 318831.41135070554
+    "y": 328377.9693642306
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2045",
-    "y": 232965.13947314493
+    "y": 243105.43735158985
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2045",
-    "y": 418383.1922375215
+    "y": 421013.83960385853
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2045",
-    "y": 359346.9311143281
+    "y": 369641.8588991526
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2045",
-    "y": 199130.56765487805
+    "y": 208772.51845876465
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2045",
-    "y": 329805.9120799957
+    "y": 335797.7912805046
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2045",
-    "y": 219700.68241996277
+    "y": 227930.09503741452
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2045",
-    "y": 370853.2206791694
+    "y": 372015.9548864978
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2045",
-    "y": 312025.2463449192
+    "y": 322327.1392805263
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2045",
-    "y": 359215.80562100105
+    "y": 367687.6755242624
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2045",
-    "y": 218959.59255256798
+    "y": 221084.8943757059
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2046",
-    "y": 15139.273371846586
+    "y": 13929.461450439969
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2046",
-    "y": 262540.78546868707
+    "y": 270449.02075723343
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2046",
-    "y": 433969.6149530477
+    "y": 446057.4392706325
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2046",
-    "y": 270397.466421139
+    "y": 277344.7206794117
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2046",
-    "y": 379304.75129729754
+    "y": 392615.2314601337
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2046",
-    "y": 347523.4952853129
+    "y": 361665.199472251
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2046",
-    "y": 218490.88345448862
+    "y": 223422.40743802697
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2046",
-    "y": 427789.5364499317
+    "y": 439564.4902338215
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2046",
-    "y": 417817.07493577834
+    "y": 429722.43038260285
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2046",
-    "y": 342783.4416198478
+    "y": 360081.8536299789
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2046",
-    "y": 326389.2186633529
+    "y": 331957.6740438988
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2046",
-    "y": 282622.68051622127
+    "y": 291405.48602889525
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2046",
-    "y": 199062.64506800545
+    "y": 204570.2488362423
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2046",
-    "y": 286819.43448608514
+    "y": 298861.58677229396
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2046",
-    "y": 287690.1231918635
+    "y": 297166.40431535605
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2046",
-    "y": 315212.3953863583
+    "y": 322486.20435517863
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2046",
-    "y": 352756.83480268443
+    "y": 363496.53307020845
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2046",
-    "y": 331972.8587920295
+    "y": 342274.85591137817
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2046",
-    "y": 232575.61284208175
+    "y": 237664.73431019284
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2046",
-    "y": 147233.4002916438
+    "y": 151259.1093395623
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2046",
-    "y": 177667.8506749312
+    "y": 184241.8538457311
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2046",
-    "y": 341689.6795332277
+    "y": 351305.9211472573
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2046",
-    "y": 319209.4697283874
+    "y": 329138.49674404785
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2046",
-    "y": 233304.70469299308
+    "y": 243785.67935895143
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2046",
-    "y": 419113.3649199723
+    "y": 422095.3554379836
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2046",
-    "y": 360336.94793455343
+    "y": 371085.9240181489
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2046",
-    "y": 199460.5794453753
+    "y": 209453.56343356092
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2046",
-    "y": 329724.2166086641
+    "y": 336093.70126745885
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2046",
-    "y": 220078.8516565566
+    "y": 228665.86940776708
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2046",
-    "y": 371075.4049829924
+    "y": 372571.3446810173
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2046",
-    "y": 312795.0576314463
+    "y": 323460.0826279848
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2046",
-    "y": 359192.25712767045
+    "y": 368065.4076514529
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2046",
-    "y": 218757.44023062653
+    "y": 221143.34953198695
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2047",
-    "y": 15148.235135267154
+    "y": 13941.554607868666
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2047",
-    "y": 263193.06360685633
+    "y": 271436.9493814916
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2047",
-    "y": 434848.91110467084
+    "y": 447534.7424136156
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2047",
-    "y": 270969.5891658363
+    "y": 278263.89442227856
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2047",
-    "y": 379588.74085125036
+    "y": 393476.8892282003
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2047",
-    "y": 348224.2799513587
+    "y": 362905.1870621028
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2047",
-    "y": 218137.42446449806
+    "y": 223411.8136342375
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2047",
-    "y": 428390.5579228267
+    "y": 440716.29034016613
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2047",
-    "y": 418430.1844915691
+    "y": 430866.545712023
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2047",
-    "y": 343171.3123104873
+    "y": 361134.40463065717
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2047",
-    "y": 326901.2249789225
+    "y": 332819.68102908815
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2047",
-    "y": 282467.27089920256
+    "y": 291628.0109254877
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2047",
-    "y": 198857.89011531931
+    "y": 204636.59153633285
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2047",
-    "y": 287010.38850449875
+    "y": 299463.24352580885
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2047",
-    "y": 288132.0124409169
+    "y": 298004.6234326232
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2047",
-    "y": 316461.7275505575
+    "y": 324151.2955827636
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2047",
-    "y": 353431.98390369676
+    "y": 364658.7385412892
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2047",
-    "y": 332625.8148138856
+    "y": 343357.1897993974
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2047",
-    "y": 232229.7432002864
+    "y": 237655.3751210377
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2047",
-    "y": 147068.70362303048
+    "y": 151291.20188095633
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2047",
-    "y": 177808.63783670458
+    "y": 184672.53091283265
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2047",
-    "y": 341307.4466254519
+    "y": 351378.5325203776
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2047",
-    "y": 319470.7038157718
+    "y": 329800.242249066
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2047",
-    "y": 233576.20841210833
+    "y": 244402.0264558864
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2047",
-    "y": 419694.55796358996
+    "y": 423053.67709548556
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2047",
-    "y": 361233.4566061845
+    "y": 372443.1606839601
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2047",
-    "y": 199754.85672994197
+    "y": 210094.56207519455
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2047",
-    "y": 329501.83815107984
+    "y": 336281.9879674497
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2047",
-    "y": 220430.50580010624
+    "y": 229373.4687907372
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2047",
-    "y": 371121.8884965184
+    "y": 372987.7865070142
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2047",
-    "y": 313463.91277382325
+    "y": 324500.3365241689
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2047",
-    "y": 358971.3564371234
+    "y": 368279.1024000121
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2047",
-    "y": 218491.7296595956
+    "y": 221161.60998023069
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2048",
-    "y": 15151.392145747324
+    "y": 13952.089517972443
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2048",
-    "y": 263770.9499067115
+    "y": 272351.82693727704
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2048",
-    "y": 435614.5748755825
+    "y": 448916.01928963914
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2048",
-    "y": 271497.2416133136
+    "y": 279145.19700982503
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2048",
-    "y": 379770.9000873299
+    "y": 394251.3654070781
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2048",
-    "y": 348869.0712505129
+    "y": 364090.79130818404
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2048",
-    "y": 217732.03601647646
+    "y": 223372.30056153872
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2048",
-    "y": 428886.8458811736
+    "y": 441780.1348238466
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2048",
-    "y": 418919.9530866376
+    "y": 431907.6205811393
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2048",
-    "y": 343484.8751310913
+    "y": 362112.7947906843
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2048",
-    "y": 327317.2601934024
+    "y": 333601.4286231836
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2048",
-    "y": 282191.0538347496
+    "y": 291753.9187521279
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2048",
-    "y": 198570.07976764994
+    "y": 204653.68007651955
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2048",
-    "y": 287096.54923527443
+    "y": 299975.4604321419
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2048",
-    "y": 288518.1820465486
+    "y": 298793.692162252
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2048",
-    "y": 317624.60670002014
+    "y": 325740.68391711847
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2048",
-    "y": 354029.31485655357
+    "y": 365744.12575157516
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2048",
-    "y": 333179.46393007005
+    "y": 344346.1112739953
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2048",
-    "y": 231790.685830106
+    "y": 237583.43063033934
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2048",
-    "y": 146866.03028108124
+    "y": 151302.29564820635
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2048",
-    "y": 177928.6825158147
+    "y": 185082.14712834745
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2048",
-    "y": 340733.7952158931
+    "y": 351325.56165044114
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2048",
-    "y": 319613.1905240765
+    "y": 330365.594522831
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2048",
-    "y": 233777.54460988537
+    "y": 244955.45892035664
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2048",
-    "y": 420128.3128654836
+    "y": 423895.26907279505
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2048",
-    "y": 362038.022506209
+    "y": 373714.4887976351
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2048",
-    "y": 200010.71483587913
+    "y": 210693.28393043866
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2048",
-    "y": 329144.11361086636
+    "y": 336374.1477634063
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2048",
-    "y": 220749.00264960903
+    "y": 230046.4285160497
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2048",
-    "y": 371006.26328347885
+    "y": 373294.4287408685
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2048",
-    "y": 314027.3347095302
+    "y": 325445.75330298196
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2048",
-    "y": 358546.9520416093
+    "y": 368347.0138151209
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2048",
-    "y": 218160.56923903187
+    "y": 221142.44369228798
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2049",
-    "y": 15149.641455221761
+    "y": 13960.624760070803
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2049",
-    "y": 264275.5975605647
+    "y": 273192.6595095388
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2049",
-    "y": 436270.756035569
+    "y": 450197.09425957623
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2049",
-    "y": 271978.9220345676
+    "y": 279984.3783622271
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2049",
-    "y": 379852.9511016049
+    "y": 394939.14131893934
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2049",
-    "y": 349452.86429509
+    "y": 365211.8419845703
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2049",
-    "y": 217281.09090296627
+    "y": 223306.52250200172
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2049",
-    "y": 429279.42950203153
+    "y": 442750.6404651632
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2049",
-    "y": 419292.7032278014
+    "y": 432848.0029603479
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2049",
-    "y": 343722.25967956777
+    "y": 363010.1316335015
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2049",
-    "y": 327636.2113169886
+    "y": 334301.0075180307
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2049",
-    "y": 281801.7077364425
+    "y": 291792.41378884733
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2049",
-    "y": 198208.19558192967
+    "y": 204625.976882618
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2049",
-    "y": 287082.5368096115
+    "y": 300400.82248457376
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2049",
-    "y": 288849.92861593945
+    "y": 299531.03071748413
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2049",
-    "y": 318703.57810427
+    "y": 327253.6755514195
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2049",
-    "y": 354546.3873306842
+    "y": 366750.2998965615
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2049",
-    "y": 333635.3930490465
+    "y": 345240.75881078496
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2049",
-    "y": 231265.98795697733
+    "y": 237454.6164875008
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2049",
-    "y": 146629.24408310896
+    "y": 151291.22737886145
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2049",
-    "y": 178024.31285247576
+    "y": 185464.7407683182
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2049",
-    "y": 339985.6286414708
+    "y": 351166.77359207964
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2049",
-    "y": 319642.34844781767
+    "y": 330836.2507108464
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2049",
-    "y": 233907.9264070904
+    "y": 245442.5946496434
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2049",
-    "y": 420421.99431117583
+    "y": 424627.5922895176
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2049",
-    "y": 362747.4060303926
+    "y": 374894.8613727557
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2049",
-    "y": 200225.51910103843
+    "y": 211243.99926036785
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2049",
-    "y": 328659.0820037146
+    "y": 336380.09364325646
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2049",
-    "y": 221032.32115170013
+    "y": 230679.4231771886
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2049",
-    "y": 370741.58667210536
+    "y": 373503.8312864012
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2049",
-    "y": 314481.02873922326
+    "y": 326291.0480649527
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2049",
-    "y": 357934.9394625155
+    "y": 368289.3872250639
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2049",
-    "y": 217772.91793890003
+    "y": 221089.56227040375
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2050",
-    "y": 15143.690659703148
+    "y": 13967.920592143666
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2050",
-    "y": 264705.5159131834
+    "y": 273958.62605611706
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2050",
-    "y": 436819.31927093904
+    "y": 451377.0125563946
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2050",
-    "y": 272409.8128219665
+    "y": 280775.6719972118
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2050",
-    "y": 379841.5107718412
+    "y": 395544.31525642757
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2050",
-    "y": 349965.542189941
+    "y": 366256.9131891694
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2050",
-    "y": 216788.82275397354
+    "y": 223216.32747861926
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2050",
-    "y": 429568.2038092919
+    "y": 443626.47520957113
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2050",
-    "y": 419548.6339575304
+    "y": 433686.3842343727
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2050",
-    "y": 343883.8321603318
+    "y": 363825.2057260594
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2050",
-    "y": 327860.64843824867
+    "y": 334918.577698918
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2050",
-    "y": 281305.4541705763
+    "y": 291753.7557603866
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2050",
-    "y": 197782.44834864888
+    "y": 204557.25959512245
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2050",
-    "y": 286971.01412693236
+    "y": 300741.1751490014
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2050",
-    "y": 289127.1325850956
+    "y": 300215.92886854644
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2050",
-    "y": 319698.46948147425
+    "y": 328689.1048769932
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2050",
-    "y": 354980.05916843726
+    "y": 367675.4730892175
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2050",
-    "y": 333993.94927305356
+    "y": 346040.9341477958
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2050",
-    "y": 230665.9177340186
+    "y": 237280.03321355872
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2050",
-    "y": 146361.20133359704
+    "y": 151258.8145631364
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2050",
-    "y": 178094.34096197187
+    "y": 185819.59648243518
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2050",
-    "y": 339087.41694476816
+    "y": 350917.3806377539
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2050",
-    "y": 319558.8332897453
+    "y": 331213.5316860762
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2050",
-    "y": 233967.65874342556
+    "y": 245862.06454990339
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2050",
-    "y": 420582.83401881234
+    "y": 425256.21048268554
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2050",
-    "y": 363362.5132522177
+    "y": 375982.968359496
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2050",
-    "y": 200397.21653150025
+    "y": 211742.9471645702
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2050",
-    "y": 328057.41011067916
+    "y": 336307.73835785966
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2050",
-    "y": 221276.9649085202
+    "y": 231266.8450369271
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2050",
-    "y": 370346.67257480737
+    "y": 373631.09417459683
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2050",
-    "y": 314822.81734062923
+    "y": 327034.10425625043
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2050",
-    "y": 357149.7899838268
+    "y": 368120.1528642588
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2050",
-    "y": 217335.94608639454
+    "y": 221005.22958783823
   },
   {
     "dataset": "borough_population",
     "xd": "City of London",
     "b": "2051",
-    "y": 15134.362283689414
+    "y": 13974.48482419201
   },
   {
     "dataset": "borough_population",
     "xd": "Barking and Dagenham",
     "b": "2051",
-    "y": 265061.54680401174
+    "y": 274651.01302166283
   },
   {
     "dataset": "borough_population",
     "xd": "Barnet",
     "b": "2051",
-    "y": 437259.19951985555
+    "y": 452454.8782517957
   },
   {
     "dataset": "borough_population",
     "xd": "Bexley",
     "b": "2051",
-    "y": 272787.09277504846
+    "y": 281516.4073049213
   },
   {
     "dataset": "borough_population",
     "xd": "Brent",
     "b": "2051",
-    "y": 379742.4140916368
+    "y": 396072.25156139303
   },
   {
     "dataset": "borough_population",
     "xd": "Bromley",
     "b": "2051",
-    "y": 350402.8283223521
+    "y": 367222.8349135885
   },
   {
     "dataset": "borough_population",
     "xd": "Camden",
     "b": "2051",
-    "y": 216266.07376372954
+    "y": 223110.79970999085
   },
   {
     "dataset": "borough_population",
     "xd": "Croydon",
     "b": "2051",
-    "y": 429751.32899826946
+    "y": 444406.79696762754
   },
   {
     "dataset": "borough_population",
     "xd": "Ealing",
     "b": "2051",
-    "y": 419694.21192636865
+    "y": 434427.99808248726
   },
   {
     "dataset": "borough_population",
     "xd": "Enfield",
     "b": "2051",
-    "y": 343970.9369117386
+    "y": 364559.3889414855
   },
   {
     "dataset": "borough_population",
     "xd": "Greenwich",
     "b": "2051",
-    "y": 327992.7822900894
+    "y": 335457.832615715
   },
   {
     "dataset": "borough_population",
     "xd": "Hackney",
     "b": "2051",
-    "y": 280711.58150042815
+    "y": 291647.87804136885
   },
   {
     "dataset": "borough_population",
     "xd": "Hammersmith and Fulham",
     "b": "2051",
-    "y": 197299.99677872212
+    "y": 204451.04123175782
   },
   {
     "dataset": "borough_population",
     "xd": "Haringey",
     "b": "2051",
-    "y": 286767.6453344917
+    "y": 301000.8776735408
   },
   {
     "dataset": "borough_population",
     "xd": "Harrow",
     "b": "2051",
-    "y": 289350.8617616894
+    "y": 300849.4817046676
   },
   {
     "dataset": "borough_population",
     "xd": "Havering",
     "b": "2051",
-    "y": 320602.98789448844
+    "y": 330042.7306775959
   },
   {
     "dataset": "borough_population",
     "xd": "Hillingdon",
     "b": "2051",
-    "y": 355332.29304410575
+    "y": 368521.91771789774
   },
   {
     "dataset": "borough_population",
     "xd": "Hounslow",
     "b": "2051",
-    "y": 334259.35815346794
+    "y": 346751.1844111941
   },
   {
     "dataset": "borough_population",
     "xd": "Islington",
     "b": "2051",
-    "y": 230006.0824426901
+    "y": 237073.7180430133
   },
   {
     "dataset": "borough_population",
     "xd": "Kensington and Chelsea",
     "b": "2051",
-    "y": 146065.86605831695
+    "y": 151207.0746737565
   },
   {
     "dataset": "borough_population",
     "xd": "Kingston upon Thames",
     "b": "2051",
-    "y": 178135.50419804535
+    "y": 186144.32987129735
   },
   {
     "dataset": "borough_population",
     "xd": "Lambeth",
     "b": "2051",
-    "y": 338064.45369847264
+    "y": 350591.08918557956
   },
   {
     "dataset": "borough_population",
     "xd": "Lewisham",
     "b": "2051",
-    "y": 319368.3325454967
+    "y": 331501.6282084408
   },
   {
     "dataset": "borough_population",
     "xd": "Merton",
     "b": "2051",
-    "y": 233957.35071161343
+    "y": 246215.29877332278
   },
   {
     "dataset": "borough_population",
     "xd": "Newham",
     "b": "2051",
-    "y": 420621.3839860918
+    "y": 425789.0343035188
   },
   {
     "dataset": "borough_population",
     "xd": "Redbridge",
     "b": "2051",
-    "y": 363884.30138490204
+    "y": 376981.0898569105
   },
   {
     "dataset": "borough_population",
     "xd": "Richmond upon Thames",
     "b": "2051",
-    "y": 200522.50015153643
+    "y": 212186.84860291443
   },
   {
     "dataset": "borough_population",
     "xd": "Southwark",
     "b": "2051",
-    "y": 327354.93392477965
+    "y": 336169.12405790854
   },
   {
     "dataset": "borough_population",
     "xd": "Sutton",
     "b": "2051",
-    "y": 221478.87926745266
+    "y": 231806.24869119975
   },
   {
     "dataset": "borough_population",
     "xd": "Tower Hamlets",
     "b": "2051",
-    "y": 369835.100511974
+    "y": 373686.5719131613
   },
   {
     "dataset": "borough_population",
     "xd": "Waltham Forest",
     "b": "2051",
-    "y": 315053.73764633515
+    "y": 327678.22947720665
   },
   {
     "dataset": "borough_population",
     "xd": "Wandsworth",
     "b": "2051",
-    "y": 356216.1691234245
+    "y": 367855.450440805
   },
   {
     "dataset": "borough_population",
     "xd": "Westminster",
     "b": "2051",
-    "y": 216856.3024081431
+    "y": 220892.6801330244
   }
 ]

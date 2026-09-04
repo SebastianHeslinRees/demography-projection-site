@@ -1,6 +1,12 @@
 [
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2001",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2001",
     "y": -100.0
@@ -32,12 +38,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2001",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2001",
     "y": -100.0
   },
@@ -195,6 +195,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2001",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2002",
     "y": -100.0
   },
   {
@@ -235,12 +241,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2002",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2002",
     "y": -100.0
@@ -397,6 +397,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2003",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2003",
     "y": -100.0
@@ -428,12 +434,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2003",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2003",
     "y": -100.0
   },
@@ -591,6 +591,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2003",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2004",
     "y": -100.0
   },
   {
@@ -631,12 +637,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2004",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2004",
     "y": -100.0
@@ -793,6 +793,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2005",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2005",
     "y": -100.0
@@ -824,12 +830,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2005",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2005",
     "y": -100.0
   },
@@ -987,6 +987,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2005",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2006",
     "y": -100.0
   },
   {
@@ -1027,12 +1033,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2006",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2006",
     "y": -100.0
@@ -1189,6 +1189,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2007",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2007",
     "y": -100.0
@@ -1220,12 +1226,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2007",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2007",
     "y": -100.0
   },
@@ -1383,6 +1383,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2007",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2008",
     "y": -100.0
   },
   {
@@ -1423,12 +1429,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2008",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2008",
     "y": -100.0
@@ -1585,6 +1585,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2009",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2009",
     "y": -100.0
@@ -1616,12 +1622,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2009",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2009",
     "y": -100.0
   },
@@ -1779,6 +1779,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2009",
+    "y": -100.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2010",
     "y": -100.0
   },
   {
@@ -1819,12 +1825,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2010",
-    "y": -100.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2010",
     "y": -100.0
@@ -1981,6 +1981,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2011",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2011",
     "y": 0.0
@@ -2012,12 +2018,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2011",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2011",
     "y": 0.0
   },
@@ -2179,6 +2179,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2012",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2012",
     "y": 0.0
@@ -2187,7 +2193,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2012",
-    "y": 0.0
+    "y": 1.6147041045665538e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2215,12 +2221,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2012",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2012",
     "y": 0.0
@@ -2229,13 +2229,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2012",
-    "y": 0.0
+    "y": 1.6855565343920462e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2012",
-    "y": 0.0
+    "y": -1.8365746053924894e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2355,7 +2355,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2012",
-    "y": 0.0
+    "y": -1.1133829554986116e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2377,6 +2377,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2013",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2013",
     "y": 0.0
@@ -2385,7 +2391,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2013",
-    "y": 0.0
+    "y": 1.5940142213763517e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2413,21 +2419,15 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2013",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2013",
-    "y": 0.0
+    "y": 1.561783228158503e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2013",
-    "y": 0.0
+    "y": 1.6566576609896345e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2445,7 +2445,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2013",
-    "y": 0.0
+    "y": -1.1422404769593599e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2547,7 +2547,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2013",
-    "y": 0.0
+    "y": 1.4861100422660298e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2565,12 +2565,18 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2013",
-    "y": 0.0
+    "y": 1.8275847631349757e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2013",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2014",
     "y": 0.0
   },
   {
@@ -2601,17 +2607,11 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2014",
-    "y": 0.0
+    "y": 1.8151322475198767e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2014",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2014",
     "y": 0.0
   },
@@ -2631,13 +2631,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2014",
-    "y": 0.0
+    "y": -1.7916444304264725e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2014",
-    "y": 0.0
+    "y": 2.1752066889440578e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2739,13 +2739,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2014",
-    "y": 0.0
+    "y": 1.9472003784654403e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2014",
-    "y": 0.0
+    "y": -1.468384961717719e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2769,6 +2769,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2014",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2015",
     "y": 0.0
   },
   {
@@ -2809,12 +2815,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2015",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2015",
     "y": 0.0
@@ -2937,7 +2937,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2015",
-    "y": 0.0
+    "y": 1.9195878017830494e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -2971,6 +2971,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2016",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2016",
     "y": 0.0
@@ -3007,12 +3013,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2016",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2016",
     "y": 0.0
@@ -3021,13 +3021,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2016",
-    "y": 0.0
+    "y": 1.6033754851767174e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2016",
-    "y": 0.0
+    "y": 1.7561944748543458e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3057,7 +3057,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2016",
-    "y": 0.0
+    "y": 1.134528412365656e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3075,7 +3075,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2016",
-    "y": 0.0
+    "y": 2.0842044154063093e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3165,7 +3165,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2016",
-    "y": 0.0
+    "y": 1.359560067676332e-14
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2017",
+    "y": -0.17283950617283952
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3195,19 +3201,13 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2017",
-    "y": 0.0
+    "y": -1.7781421444708405e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2017",
     "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2017",
-    "y": -0.07506568247216314
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3225,7 +3225,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2017",
-    "y": 0.0
+    "y": -1.756035529802439e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3363,6 +3363,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2017",
+    "y": -1.373820155052902e-14
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2018",
     "y": 0.0
   },
   {
@@ -3387,7 +3393,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2018",
-    "y": 0.0
+    "y": 1.68443465755689e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3398,12 +3404,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2018",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2018",
     "y": 0.0
   },
@@ -3561,6 +3561,12 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2018",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2019",
     "y": 0.0
   },
   {
@@ -3601,12 +3607,6 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2019",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2019",
     "y": 0.0
@@ -3621,7 +3621,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2019",
-    "y": 0.0
+    "y": -1.7448914956268764e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3693,7 +3693,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2019",
-    "y": 0.0
+    "y": -1.7698000241253232e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3763,6 +3763,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2020",
+    "y": -0.023854961832061067
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2020",
     "y": 0.0
@@ -3777,7 +3783,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2020",
-    "y": 0.0
+    "y": 1.1839392103527635e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3789,25 +3795,19 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2020",
-    "y": 0.0
+    "y": 1.7658805461212594e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2020",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2020",
-    "y": -0.012070006035003017
+    "y": -1.366556657998878e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2020",
-    "y": 0.0
+    "y": 1.4896661210429208e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3939,7 +3939,7 @@
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2020",
-    "y": 0.0
+    "y": 1.9167496242238486e-14
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
@@ -3961,6 +3961,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2021",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2021",
     "y": 0.0
@@ -3992,12 +3998,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2021",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2021",
     "y": 0.0
   },
@@ -4159,6 +4159,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2022",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2022",
     "y": 0.0
@@ -4190,12 +4196,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2022",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2022",
     "y": 0.0
   },
@@ -4357,6 +4357,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2023",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2023",
     "y": 0.0
@@ -4388,12 +4394,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2023",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2023",
     "y": 0.0
   },
@@ -4555,6 +4555,12 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2024",
+    "y": 0.0
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2024",
     "y": 0.0
@@ -4586,12 +4592,6 @@
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
-    "b": "2024",
-    "y": 0.0
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
     "b": "2024",
     "y": 0.0
   },
@@ -4753,5348 +4753,5348 @@
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2025",
+    "y": 0.7142188537252672
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2025",
-    "y": 0.10725228752574288
+    "y": 0.042853564078587564
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2025",
-    "y": 0.3679111957819334
+    "y": 0.12835747005550868
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2025",
-    "y": -0.000981417029599303
+    "y": -0.15456616949979754
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2025",
-    "y": 0.2071762761094404
+    "y": 0.0799657016652679
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2025",
-    "y": 0.20282004794305364
+    "y": -0.07935710158781244
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2025",
-    "y": 0.4218433292964699
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2025",
-    "y": -1.018706091705773
+    "y": 0.46631177443719285
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2025",
-    "y": 0.04845409986392849
+    "y": -0.098787646197499
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2025",
-    "y": 0.2663746600853091
+    "y": 0.1590356028630708
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2025",
-    "y": 0.3827582039654225
+    "y": 0.1684804344497126
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2025",
-    "y": -0.025904381689261485
+    "y": 0.0205299011148124
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2025",
-    "y": -0.021491037723347872
+    "y": -0.18845597799958982
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2025",
-    "y": 0.49890440841252576
+    "y": 0.3031631099948573
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2025",
-    "y": 0.40686476058534504
+    "y": 0.14243531588763492
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2025",
-    "y": 0.12302295842945314
+    "y": -0.03185555546629542
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2025",
-    "y": -0.15910331750035078
+    "y": -0.2926774424003351
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2025",
-    "y": 0.1194726636774044
+    "y": -0.11445320484527867
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2025",
-    "y": 0.26429221884719156
+    "y": 0.14503352960588467
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2025",
-    "y": -0.14705782222614955
+    "y": -0.20143234439916427
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2025",
-    "y": 0.4708330843555998
+    "y": 0.33219445212822674
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2025",
-    "y": 0.16363553090178093
+    "y": 0.018413906839833696
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2025",
-    "y": -0.024749434375998604
+    "y": -0.2235693494212922
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2025",
-    "y": 0.5542052692217888
+    "y": 0.3057710731516444
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2025",
-    "y": -0.03881808290594653
+    "y": -0.22479271240985893
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2025",
-    "y": -0.25208793238905974
+    "y": -0.001226623600638881
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2025",
-    "y": -0.2555994834621591
+    "y": -0.3257721854741743
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2025",
-    "y": 0.20571631696715448
+    "y": -0.16485861547685765
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2025",
-    "y": 0.099396564919347
+    "y": 0.03349098324787275
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2025",
-    "y": 0.1166861808512321
+    "y": -0.1490361695911627
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2025",
-    "y": -0.3950258245381212
+    "y": -0.23265711469314462
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2025",
-    "y": 0.08696503440982989
+    "y": 0.015319537409279514
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2025",
-    "y": 0.32824719138972175
+    "y": 0.17076765736433394
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2025",
-    "y": -0.10737914755841627
+    "y": 0.22765304407627776
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2026",
+    "y": 2.3732543685808642
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2026",
-    "y": -0.042394234486412184
+    "y": -0.19882880942831185
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2026",
-    "y": 0.6586932159715028
+    "y": 0.1836302181793936
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2026",
-    "y": 0.10302826207001711
+    "y": -0.20906437521378474
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2026",
-    "y": 0.3733536379055813
+    "y": 0.09814762312424323
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2026",
-    "y": 0.5028606933814436
+    "y": -0.051208392196091246
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2026",
-    "y": 0.8939230008219122
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2026",
-    "y": -0.8737688905493612
+    "y": 0.9375586583745111
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2026",
-    "y": 0.16924192181652378
+    "y": -0.12256278812544213
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2026",
-    "y": 0.4081977319784795
+    "y": 0.1756371171414027
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2026",
-    "y": 0.7562013536935079
+    "y": 0.30814244596388457
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2026",
-    "y": -0.17050646483927995
+    "y": -0.09783396193216365
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2026",
-    "y": -0.00982536854351761
+    "y": -0.3205015063557901
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2026",
-    "y": 0.8740040977580158
+    "y": 0.5322049901792446
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2026",
-    "y": 0.6084376079848677
+    "y": 0.13305876902809202
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2026",
-    "y": 0.31173620943656366
+    "y": -0.01817423056190494
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2026",
-    "y": -0.2533693690400675
+    "y": -0.5278777045247688
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2026",
-    "y": 0.17649823893474043
+    "y": -0.31001458930380804
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2026",
-    "y": 0.3532393108701081
+    "y": 0.09857766511189307
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2026",
-    "y": -0.1303961898928846
+    "y": -0.2202185071903698
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2026",
-    "y": 0.9274475465529867
+    "y": 0.7302341563530298
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2026",
-    "y": 0.2718226358564697
+    "y": -0.003103014976421561
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2026",
-    "y": -0.002791520815516752
+    "y": -0.3653069589538919
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2026",
-    "y": 0.8791157801669947
+    "y": 0.39135585101426557
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2026",
-    "y": -0.04875469792739836
+    "y": -0.40811975270681017
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2026",
-    "y": -0.5400974915687637
+    "y": -0.10815318354900584
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2026",
-    "y": -0.48039024733953245
+    "y": -0.6457461339597373
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2026",
-    "y": 0.4689010315311234
+    "y": -0.24570364875679865
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2026",
-    "y": 0.2749956999306168
+    "y": 0.14114859503526922
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2026",
-    "y": 0.2966162847852793
+    "y": -0.23010931053118333
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2026",
-    "y": -0.7795004820354979
+    "y": -0.4869169581166093
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2026",
-    "y": 0.10830868903031445
+    "y": -0.051549890061707626
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2026",
-    "y": 0.6589465740477567
+    "y": 0.3520981004904461
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2026",
-    "y": -0.010120985814878306
+    "y": 0.6511765253454255
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2027",
+    "y": 4.29389337503063
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2027",
-    "y": -0.25616080375463496
+    "y": -0.5386625142959655
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2027",
-    "y": 0.8811416736964041
+    "y": 0.17735819070478656
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2027",
-    "y": 0.20963920574199632
+    "y": -0.26729897214938975
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2027",
-    "y": 0.49801587969962574
+    "y": 0.06440444899884941
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2027",
-    "y": 0.8101487395140541
+    "y": -0.01279893960509346
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2027",
-    "y": 1.3586903272851008
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2027",
-    "y": -0.3285959194846607
+    "y": 1.3970151880673456
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2027",
-    "y": 0.33887208975613314
+    "y": -0.10669234440301592
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2027",
-    "y": 0.47188438727229726
+    "y": 0.10877746341240227
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2027",
-    "y": 1.088072715885563
+    "y": 0.39906075093798776
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2027",
-    "y": -0.3352959449398462
+    "y": -0.2563978622032334
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2027",
-    "y": 0.044269223100786834
+    "y": -0.3830916192753663
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2027",
-    "y": 1.2143425485669996
+    "y": 0.7632414663596727
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2027",
-    "y": 0.7217569618298336
+    "y": 0.06457836697192064
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2027",
-    "y": 0.5001342076150583
+    "y": -0.023933260079779313
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2027",
-    "y": -0.3514077023867574
+    "y": -0.7750628569861691
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2027",
-    "y": 0.18282705913612887
+    "y": -0.5603616291745878
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2027",
-    "y": 0.3205827938509698
+    "y": -0.06978687761480379
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2027",
-    "y": 0.007208594884831296
+    "y": -0.118256757879967
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2027",
-    "y": 1.4384720311994326
+    "y": 1.2406091151348884
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2027",
-    "y": 0.39987271297192756
+    "y": 0.005654858960638957
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2027",
-    "y": 0.08727960313886331
+    "y": -0.4035950822320695
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2027",
-    "y": 1.0943043282800056
+    "y": 0.37553009996534276
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2027",
-    "y": -0.0060495873759738045
+    "y": -0.528223660304248
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2027",
-    "y": -0.8055676753714545
+    "y": -0.24134708051038695
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2027",
-    "y": -0.6749811159764166
+    "y": -0.9526415029536417
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2027",
-    "y": 0.7845907291129337
+    "y": -0.25421999555302766
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2027",
-    "y": 0.4600170538779247
+    "y": 0.26701200118094326
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2027",
-    "y": 0.509568990520916
+    "y": -0.2787876254385939
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2027",
-    "y": -1.0969030302615639
+    "y": -0.6904025346537892
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2027",
-    "y": 0.0723799543510793
+    "y": -0.17733692933478667
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2027",
-    "y": 0.9756226544780499
+    "y": 0.5383929753069454
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2027",
-    "y": 0.15930831439710644
+    "y": 1.1313791427603053
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2028",
+    "y": 6.858536542108119
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2028",
-    "y": -0.379410793511925
+    "y": -0.8019243239920717
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2028",
-    "y": 1.2371860452169237
+    "y": 0.3128236858332486
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2028",
-    "y": 0.04814883585602133
+    "y": -0.6023134717625936
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2028",
-    "y": 1.3112657703719732
+    "y": 0.7106944749713088
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2028",
-    "y": 0.8471192911669365
+    "y": -0.2409469237190442
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2028",
-    "y": 1.5893774943429746
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2028",
-    "y": 1.012062527367723
+    "y": 1.6207042230579969
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2028",
-    "y": 0.40372904409260507
+    "y": -0.19884764546998263
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2028",
-    "y": 0.8271202768688315
+    "y": 0.3294890796612591
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2028",
-    "y": 1.3287911944751505
+    "y": 0.39391011825233535
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2028",
-    "y": 0.04624893915613164
+    "y": 0.1145703602873664
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2028",
-    "y": -0.082878019082939
+    "y": -0.602356708688569
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2028",
-    "y": 1.7679974685981026
+    "y": 1.2413391888941505
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2028",
-    "y": 0.8410329873836657
+    "y": 0.023017972669052082
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2028",
-    "y": 0.6056864606133112
+    "y": -0.11344826858566276
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2028",
-    "y": -0.5837353977996544
+    "y": -1.1613534427886747
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2028",
-    "y": 0.17327826215936562
+    "y": -0.8268788074044962
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2028",
-    "y": 0.2378071968581078
+    "y": -0.28313751099407714
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2028",
-    "y": -0.2109287612891718
+    "y": -0.36809554787125204
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2028",
-    "y": 1.4973957735344716
+    "y": 1.3258194519007855
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2028",
-    "y": 0.39382316815318685
+    "y": -0.11408116293482615
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2028",
-    "y": 0.22824465102796
+    "y": -0.35899386642749226
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2028",
-    "y": 1.0927386842454914
+    "y": 0.15110901337268265
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2028",
-    "y": -0.118855659284907
+    "y": -0.787179653453143
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2028",
-    "y": -0.5178699070611217
+    "y": 0.15225593155141784
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2028",
-    "y": -0.968336849343505
+    "y": -1.3709754932195422
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2028",
-    "y": 1.0066842127188893
+    "y": -0.34082558426669024
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2028",
-    "y": 0.6391196877153102
+    "y": 0.3863321052309932
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2028",
-    "y": 0.5910817476535397
+    "y": -0.4626902561535264
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2028",
-    "y": -0.8773579184102681
+    "y": -0.3738911892484813
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2028",
-    "y": -0.0031855303273334193
+    "y": -0.34727225802804385
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2028",
-    "y": 1.179125061812961
+    "y": 0.635871583724478
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2028",
-    "y": 0.2982583181159758
+    "y": 1.563864698642951
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2029",
+    "y": 9.727191827702375
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2029",
-    "y": -0.570807438169302
+    "y": -1.141393700050144
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2029",
-    "y": 1.9868014390741067
+    "y": 0.8516706184450757
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2029",
-    "y": -0.34333582970470244
+    "y": -1.173053556273119
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2029",
-    "y": 1.9638444921428428
+    "y": 1.2002713539217038
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2029",
-    "y": 0.7366028754787338
+    "y": -0.6106327878766322
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2029",
-    "y": 1.8147359485948706
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2029",
-    "y": 2.7934769986445214
+    "y": 1.8220819806202813
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2029",
-    "y": 0.4549375543089688
+    "y": -0.30355316155602974
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2029",
-    "y": 1.39288799465008
+    "y": 0.7613265086043073
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2029",
-    "y": 1.4728728583137078
+    "y": 0.2966191007986264
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2029",
-    "y": 1.1181496558931727
+    "y": 1.1634015749044808
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2029",
-    "y": -0.3417810749309443
+    "y": -0.9344650211989534
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2029",
-    "y": 2.205703350059718
+    "y": 1.6182032710323182
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2029",
-    "y": 0.8678406607707347
+    "y": -0.0975326978195098
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2029",
-    "y": 0.5608702907712257
+    "y": -0.35187972490081815
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2029",
-    "y": -0.8786373494124262
+    "y": -1.6088176390372084
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2029",
-    "y": -0.060728491947852334
+    "y": -1.3135714762842845
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2029",
-    "y": 0.24244325460438268
+    "y": -0.4116495585480034
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2029",
-    "y": -0.45338336848876826
+    "y": -0.6471929809937191
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2029",
-    "y": 1.4291719432112748
+    "y": 1.3026170115347864
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2029",
-    "y": 0.18965746263789263
+    "y": -0.44127504062210715
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2029",
-    "y": 0.2676080710020896
+    "y": -0.39218762240775945
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2029",
-    "y": 1.1474617507402634
+    "y": -0.003706087943673075
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2029",
-    "y": -0.26872520637007397
+    "y": -1.07293412530632
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2029",
-    "y": -0.3262376761802086
+    "y": 0.4269319133172325
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2029",
-    "y": -1.409440957726167
+    "y": -1.9316491884261267
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2029",
-    "y": 1.269764697369083
+    "y": -0.3843220242356356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2029",
-    "y": 1.4939274235051048
+    "y": 1.1801229435860479
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2029",
-    "y": 0.4652725449356949
+    "y": -0.8560823172343187
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2029",
-    "y": -0.3741873653519252
+    "y": 0.20527842240300434
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2029",
-    "y": 0.10661824028623025
+    "y": -0.32627437448773755
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2029",
-    "y": 1.1603666637500916
+    "y": 0.5247976410596348
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2029",
-    "y": 0.3301140969266515
+    "y": 1.8521101147932528
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2030",
+    "y": 12.689580737588606
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2030",
-    "y": -0.8941007451590007
+    "y": -1.610660425308343
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2030",
-    "y": 2.9032429380983613
+    "y": 1.5567918147303492
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2030",
-    "y": -0.7843815847246548
+    "y": -1.7961323061896184
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2030",
-    "y": 2.607373009752081
+    "y": 1.6844739310907721
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2030",
-    "y": 0.5886775569833733
+    "y": -1.0126202589714715
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2030",
-    "y": 1.9431493828632846
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2030",
-    "y": 4.7638500030545385
+    "y": 1.9208377271077721
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2030",
-    "y": 0.5811672042528171
+    "y": -0.33172307897814907
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2030",
-    "y": 1.9955936456061993
+    "y": 1.2258423131467646
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2030",
-    "y": 1.66609099375619
+    "y": 0.2479485677767938
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2030",
-    "y": 2.110008812569746
+    "y": 2.123513644504333
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2030",
-    "y": -0.7170827602247352
+    "y": -1.378620344607372
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2030",
-    "y": 2.539754724990393
+    "y": 1.8964656993758586
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2030",
-    "y": 0.8144293225178243
+    "y": -0.2910573142959169
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2030",
-    "y": 0.45227990216850256
+    "y": -0.6467477469499373
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2030",
-    "y": -1.2015769179178242
+    "y": -2.0892719490053917
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2030",
-    "y": -0.3647008299435971
+    "y": -1.865907470114907
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2030",
-    "y": 0.35400229931197963
+    "y": -0.44640929849091215
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2030",
-    "y": -0.6787672025911209
+    "y": -0.9165922716536222
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2030",
-    "y": 1.388945356768681
+    "y": 1.2996608759950778
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2030",
-    "y": -0.07647586373883056
+    "y": -0.8416267209571976
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2030",
-    "y": 0.37630926372466295
+    "y": -0.3461670219656409
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2030",
-    "y": 1.1727079109521248
+    "y": -0.1794769397209298
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2030",
-    "y": -0.23633493819797996
+    "y": -1.1778388155988404
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2030",
-    "y": -0.12881859952209426
+    "y": 0.6840602149332156
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2030",
-    "y": -1.974860071433266
+    "y": -2.6157467572738056
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2030",
-    "y": 1.6033666513488962
+    "y": -0.3545122196686424
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2030",
-    "y": 2.5616768239388943
+    "y": 2.183014831867336
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2030",
-    "y": 0.3098164729017134
+    "y": -1.2836077123158438
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2030",
-    "y": 0.02122571291158746
+    "y": 0.654552996920604
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2030",
-    "y": 0.46078661089059636
+    "y": -0.06454285316063663
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2030",
-    "y": 1.1542614979102228
+    "y": 0.4352939222324945
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2030",
-    "y": 0.25450916015240066
+    "y": 2.0003023795500354
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2031",
+    "y": 15.578452062041356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2031",
-    "y": -1.325819477976653
+    "y": -2.1932678315453518
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2031",
-    "y": 3.931171559826354
+    "y": 2.367837088711477
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2031",
-    "y": -1.2722647549349593
+    "y": -2.4634730889505545
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2031",
-    "y": 3.2154368561938935
+    "y": 2.130998485501045
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2031",
-    "y": 0.37820474325367975
+    "y": -1.4724422211446944
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2031",
-    "y": 2.0344436710720966
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2031",
-    "y": 6.7724635340078265
+    "y": 1.968672334910308
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2031",
-    "y": 0.7273486309387097
+    "y": -0.3420708579524949
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2031",
-    "y": 3.1174247661776064
+    "y": 2.1994265173461502
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2031",
-    "y": 2.04323788466863
+    "y": 0.37859560995635927
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2031",
-    "y": 2.8336529061562103
+    "y": 2.793594503604677
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2031",
-    "y": -1.2192103571242763
+    "y": -1.9487900980748687
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2031",
-    "y": 2.7644111952649446
+    "y": 2.0771813269842965
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2031",
-    "y": 0.800339136154154
+    "y": -0.4434975120884571
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2031",
-    "y": 0.4427587098721182
+    "y": -0.8407952801988037
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2031",
-    "y": -1.1697122350876141
+    "y": -2.218461628412029
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2031",
-    "y": -0.10948043888689843
+    "y": -1.8637096151452122
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2031",
-    "y": 0.5140860256651995
+    "y": -0.43375292505570573
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2031",
-    "y": -0.9264996731230744
+    "y": -1.209969929374683
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2031",
-    "y": 1.2812940943000974
+    "y": 1.2153519386318135
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2031",
-    "y": -0.38371740333094917
+    "y": -1.2937084762077196
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2031",
-    "y": 0.36341116476461005
+    "y": -0.4170697631487838
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2031",
-    "y": 1.0442777781944537
+    "y": -0.4988968260134654
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2031",
-    "y": 0.26146369755316
+    "y": -0.8225709636757162
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2031",
-    "y": -0.14408660520809843
+    "y": 0.7069341692927051
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2031",
-    "y": -2.3187604387204677
+    "y": -3.080065269197438
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2031",
-    "y": 1.627889877224906
+    "y": -0.6260856102695443
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2031",
-    "y": 3.3604354784409054
+    "y": 2.9186229408272992
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2031",
-    "y": 0.07705109223355588
+    "y": -1.7878507318065542
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2031",
-    "y": 0.06504003151127583
+    "y": 0.7308553124675676
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2031",
-    "y": 0.716395866949875
+    "y": 0.09408100800428833
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2031",
-    "y": 1.187006066016606
+    "y": 0.39395028167164636
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2031",
-    "y": 0.1609075105933706
+    "y": 2.0954565216188192
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2032",
+    "y": 18.34207547785594
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2032",
-    "y": -1.9415989075865423
+    "y": -2.951859868010113
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2032",
-    "y": 5.037627420860576
+    "y": 3.2502093214717287
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2032",
-    "y": -1.7612991312818336
+    "y": -3.1304541563038657
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2032",
-    "y": 3.6581966268352417
+    "y": 2.4088806768795568
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2032",
-    "y": 0.16441342556059635
+    "y": -1.9320903477344915
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2032",
-    "y": 2.119628094495953
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2032",
-    "y": 8.78023700570883
+    "y": 2.0039340451786605
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2032",
-    "y": 0.8861958391139253
+    "y": -0.345741695077228
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2032",
-    "y": 4.571655051254672
+    "y": 3.4961409949713937
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2032",
-    "y": 2.410650916707074
+    "y": 0.4942303128920226
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2032",
-    "y": 3.274779409889867
+    "y": 3.1601087065776503
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2032",
-    "y": -1.6859820200855018
+    "y": -2.485325751347148
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2032",
-    "y": 2.931342978311422
+    "y": 2.195648345580797
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2032",
-    "y": 0.8403675538442217
+    "y": -0.5466233881202397
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2032",
-    "y": 0.4495781164916113
+    "y": -1.0203661684419452
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2032",
-    "y": -0.8914679975379622
+    "y": -2.1035928505449863
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2032",
-    "y": 0.46501152962640563
+    "y": -1.5416568334795246
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2032",
-    "y": 0.6778900152223943
+    "y": -0.4215233828809574
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2032",
-    "y": -1.2696426310673734
+    "y": -1.6109196806953199
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2032",
-    "y": 1.2445365655224525
+    "y": 1.1877631336894479
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2032",
-    "y": -0.657366046736142
+    "y": -1.7239848716507775
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2032",
-    "y": 0.24558101482279163
+    "y": -0.596410445375872
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2032",
-    "y": 0.8283259594936683
+    "y": -0.8973761176656783
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2032",
-    "y": 0.9841029635797656
+    "y": -0.2564416165242103
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2032",
-    "y": -0.26161593200946964
+    "y": 0.5997983985636633
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2032",
-    "y": -2.3927060546442434
+    "y": -3.279272820274126
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2032",
-    "y": 1.5396596390335207
+    "y": -1.0097442806777177
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2032",
-    "y": 4.2298511723325145
+    "y": 3.7159458274160064
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2032",
-    "y": -0.1458247599261309
+    "y": -2.281130776948095
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2032",
-    "y": -0.05349800290583524
+    "y": 0.625075177107372
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2032",
-    "y": 1.0194335839784916
+    "y": 0.2828562978246211
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2032",
-    "y": 1.169653822948728
+    "y": 0.30303293208999704
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2032",
-    "y": 0.00043783077858281633
+    "y": 2.0816666822096064
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2033",
+    "y": 19.82308428273917
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2033",
-    "y": -2.5276682863520783
+    "y": -3.670973615110816
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2033",
-    "y": 5.840163304151141
+    "y": 3.8438174385920036
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2033",
-    "y": -2.3138212534314704
+    "y": -3.8470508043526808
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2033",
-    "y": 4.047435349451386
+    "y": 2.6433242562556134
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2033",
-    "y": -0.20794838681985378
+    "y": -2.5381761484108356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2033",
-    "y": 2.462835798295432
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2033",
-    "y": 9.735688374625667
+    "y": 2.28783404430559
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2033",
-    "y": 1.024230248641455
+    "y": -0.3631413120636947
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2033",
-    "y": 5.934959284144424
+    "y": 4.702917537982418
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2033",
-    "y": 2.8439040611601984
+    "y": 0.6874344092497191
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2033",
-    "y": 3.6646632464520428
+    "y": 3.472057289413666
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2033",
-    "y": -2.11493052227532
+    "y": -2.978082275599422
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2033",
-    "y": 3.921542317133638
+    "y": 3.1307583450389234
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2033",
-    "y": 1.5328075957305702
+    "y": 0.004236193916982114
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2033",
-    "y": 0.3360549441949342
+    "y": -1.3083722667431712
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2033",
-    "y": -0.45108293467250526
+    "y": -1.8237139007442633
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2033",
-    "y": 1.1865383902052844
+    "y": -1.0594167312381786
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2033",
-    "y": 0.6820841913334283
+    "y": -0.5619329474129604
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2033",
-    "y": -1.8041244977592543
+    "y": -2.2073416510651303
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2033",
-    "y": 1.3057559857267373
+    "y": 1.2371529167356403
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2033",
-    "y": -0.7977964639852101
+    "y": -2.0195820198218954
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2033",
-    "y": 0.0016788821247221573
+    "y": -0.9010079926500582
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2033",
-    "y": 0.5229030875683133
+    "y": -1.3689503913545045
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2033",
-    "y": 1.5524889867268037
+    "y": 0.1520257321113137
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2033",
-    "y": -0.5989338296964897
+    "y": 0.26801726694193967
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2033",
-    "y": -2.158214195348675
+    "y": -3.1619006296891206
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2033",
-    "y": 1.2411242606977266
+    "y": -1.5847765991692637
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2033",
-    "y": 4.877645960248297
+    "y": 4.288748691856735
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2033",
-    "y": -0.4449864373066775
+    "y": -2.8387956909655685
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2033",
-    "y": -0.29004362438234726
+    "y": 0.3907425570822881
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2033",
-    "y": 1.3826387973059429
+    "y": 0.5347832188131827
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2033",
-    "y": 1.3070195071384678
+    "y": 0.371016376203434
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2033",
-    "y": 0.17581047286873447
+    "y": 2.3785524315006934
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2034",
+    "y": 20.633199080763383
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2034",
-    "y": -2.953661679122988
+    "y": -4.220088855536832
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2034",
-    "y": 6.442441178509277
+    "y": 4.2485875439749865
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2034",
-    "y": -2.813427821609325
+    "y": -4.498103293457473
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2034",
-    "y": 4.468146382152414
+    "y": 2.9166364158712534
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2034",
-    "y": -0.5610122934668558
+    "y": -3.113261696155514
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2034",
-    "y": 2.908810961732848
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2034",
-    "y": 10.175879159864728
+    "y": 2.6722038021251002
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2034",
-    "y": 1.1553448771780754
+    "y": -0.3860577095542805
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2034",
-    "y": 7.242129270296801
+    "y": 5.854454359529577
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2034",
-    "y": 3.3340663029743776
+    "y": 0.9429940031259194
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2034",
-    "y": 3.9480065863042877
+    "y": 3.6840078091682895
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2034",
-    "y": -2.4088907222301907
+    "y": -3.3346108813301885
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2034",
-    "y": 4.910607306241328
+    "y": 4.051333671368353
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2034",
-    "y": 2.1480022744919696
+    "y": 0.48512697133392263
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2034",
-    "y": 0.26057095462491575
+    "y": -1.5535704549186755
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2034",
-    "y": 0.07149850769495775
+    "y": -1.4566654595719915
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2034",
-    "y": 1.985407899672615
+    "y": -0.489607682384323
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2034",
-    "y": 0.7043467242588007
+    "y": -0.6820277293706547
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2034",
-    "y": -2.317652560065886
+    "y": -2.781955920548581
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2034",
-    "y": 1.3968453513662935
+    "y": 1.2985528424627741
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2034",
-    "y": -0.5918171833948188
+    "y": -1.9737003323475812
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2034",
-    "y": -0.3211699390973612
+    "y": -1.2885458172661206
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2034",
-    "y": 0.2473128566896004
+    "y": -1.7929537230309798
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2034",
-    "y": 2.1492897681936225
+    "y": 0.5791483921561339
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2034",
-    "y": -0.957427817410747
+    "y": -0.09110353420140493
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2034",
-    "y": -1.8212919596894739
+    "y": -2.941384121436078
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2034",
-    "y": 0.9355981042625922
+    "y": -2.1533765134142664
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2034",
-    "y": 5.329086597423364
+    "y": 4.664541476159464
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2034",
-    "y": -0.860349413391342
+    "y": -3.497895744756411
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2034",
-    "y": -0.5036821178299609
+    "y": 0.16913142393154426
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2034",
-    "y": 1.7178725423901662
+    "y": 0.7697649878911572
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2034",
-    "y": 1.4939496465351074
+    "y": 0.4884831946860813
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2034",
-    "y": 0.18106844351560145
+    "y": 2.4652789905359787
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2035",
+    "y": 21.14113488140072
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2035",
-    "y": -3.351768832018388
+    "y": -4.743841323136398
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2035",
-    "y": 6.904928925736396
+    "y": 4.5196357115412455
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2035",
-    "y": -3.2494736956572337
+    "y": -5.081506758602332
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2035",
-    "y": 4.836572493904236
+    "y": 3.137438098785951
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2035",
-    "y": -0.868647429671013
+    "y": -3.6323036406245444
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2035",
-    "y": 3.2705469669953526
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2035",
-    "y": 10.369547886396436
+    "y": 2.9714748156476394
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2035",
-    "y": 1.2971937100036646
+    "y": -0.39745790338074827
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2035",
-    "y": 8.454333565109632
+    "y": 6.912798916341592
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2035",
-    "y": 3.8725234952879455
+    "y": 1.24798816824563
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2035",
-    "y": 4.1184749540882954
+    "y": 3.785193408614704
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2035",
-    "y": -2.5824717779789954
+    "y": -3.5721977922744883
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2035",
-    "y": 5.680080035358641
+    "y": 4.746627791677965
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2035",
-    "y": 2.6658152886209563
+    "y": 0.8741239282016634
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2035",
-    "y": 0.29459708860846856
+    "y": -1.690156562525522
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2035",
-    "y": 0.6429827841151983
+    "y": -1.0415643363213596
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2035",
-    "y": 2.863243857299818
+    "y": 0.16539013138185069
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2035",
-    "y": 0.8060990726302012
+    "y": -0.7244009268329483
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2035",
-    "y": -2.660089510751252
+    "y": -3.186927518491709
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2035",
-    "y": 1.5691693494735992
+    "y": 1.4248531754289728
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2035",
-    "y": -0.3160849343420605
+    "y": -1.8622110702127481
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2035",
-    "y": -0.6395094131516105
+    "y": -1.6748885701819198
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2035",
-    "y": 0.03014550900344452
+    "y": -2.1496467402166686
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2035",
-    "y": 2.745348136482826
+    "y": 1.000805354323025
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2035",
-    "y": -1.267110668812352
+    "y": -0.41136953307794
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2035",
-    "y": -1.3536842685943562
+    "y": -2.596829614980458
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2035",
-    "y": 0.6601726688975463
+    "y": -2.6788304475635556
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2035",
-    "y": 5.679625660129245
+    "y": 4.936646920928954
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2035",
-    "y": -1.2912774522755177
+    "y": -4.158725249883392
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2035",
-    "y": -0.6968955201798815
+    "y": -0.03951798599100987
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2035",
-    "y": 1.9679520907825803
+    "y": 0.9258514496530342
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2035",
-    "y": 1.6627595791421221
+    "y": 0.587565187684173
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2035",
-    "y": 0.12322014208104881
+    "y": 2.4625658449200016
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2036",
+    "y": 21.50757783610291
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2036",
-    "y": -3.7171547190765826
+    "y": -5.228795548872958
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2036",
-    "y": 7.328339334974386
+    "y": 4.757951996190553
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2036",
-    "y": -3.624115047663543
+    "y": -5.59526914447448
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2036",
-    "y": 5.178121538583221
+    "y": 3.3329233558013907
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2036",
-    "y": -1.1277488796792365
+    "y": -4.091182736308024
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2036",
-    "y": 3.5303955502019853
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2036",
-    "y": 10.511876427213826
+    "y": 3.170470608835622
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2036",
-    "y": 1.460670079002328
+    "y": -0.3860952690000473
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2036",
-    "y": 9.644518941588153
+    "y": 7.950018695126169
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2036",
-    "y": 4.4195580262803285
+    "y": 1.563133181035386
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2036",
-    "y": 4.183020348808607
+    "y": 3.780909540636892
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2036",
-    "y": -2.795720346438686
+    "y": -3.8484594272670627
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2036",
-    "y": 6.271812388166771
+    "y": 5.261355735176991
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2036",
-    "y": 3.1060012765945606
+    "y": 1.1919919231347027
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2036",
-    "y": 0.3944145267906875
+    "y": -1.759355127102565
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2036",
-    "y": 1.2497472801797802
+    "y": -0.5896888409033276
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2036",
-    "y": 3.806950234199169
+    "y": 0.8914618489675034
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2036",
-    "y": 0.9789150458790357
+    "y": -0.6917729064785103
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2036",
-    "y": -2.8607256937647723
+    "y": -3.4543950438772884
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2036",
-    "y": 1.8002685543734738
+    "y": 1.5995844987135195
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2036",
-    "y": -0.03829864302413505
+    "y": -1.7466691915365145
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2036",
-    "y": -0.8928639656206749
+    "y": -2.0037511788349356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2036",
-    "y": -0.10226490257106778
+    "y": -2.412171678259022
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2036",
-    "y": 3.4153393339681357
+    "y": 1.4911906667347958
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2036",
-    "y": -1.5051037531866813
+    "y": -0.6711306098865855
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2036",
-    "y": -0.9159298013157016
+    "y": -2.2856477429020052
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2036",
-    "y": 0.43378024221975753
+    "y": -3.148684712056727
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2036",
-    "y": 5.953806930065752
+    "y": 5.132083554770033
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2036",
-    "y": -1.704674209086859
+    "y": -4.790302948456434
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2036",
-    "y": -0.8705661838750436
+    "y": -0.23937767354334613
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2036",
-    "y": 2.17373284921569
+    "y": 1.040829112233309
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2036",
-    "y": 1.84528749490535
+    "y": 0.6959506167501228
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2036",
-    "y": -0.0017567472710741763
+    "y": 2.371937450031793
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2037",
+    "y": 21.828205982782205
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2037",
-    "y": -4.0383067838143365
+    "y": -5.67466566782044
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2037",
-    "y": 7.726570268697232
+    "y": 4.97642453473475
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2037",
-    "y": -3.9511529185854606
+    "y": -6.057483155634672
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2037",
-    "y": 5.473937247190066
+    "y": 3.480369287248921
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2037",
-    "y": -1.3427167040991679
+    "y": -4.501603579730056
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2037",
-    "y": 3.7089728082451443
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2037",
-    "y": 10.6207682865765
+    "y": 3.290943598698425
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2037",
-    "y": 1.6570698929168686
+    "y": -0.34369317885652756
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2037",
-    "y": 10.790119321367737
+    "y": 8.943862622004419
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2037",
-    "y": 5.037594482473826
+    "y": 1.9531655771561505
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2037",
-    "y": 4.184152544135118
+    "y": 3.713977218117801
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2037",
-    "y": -2.9945891689594135
+    "y": -4.112049024006869
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2037",
-    "y": 6.775897319922016
+    "y": 5.691604515818434
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2037",
-    "y": 3.4882955132822073
+    "y": 1.4538951473931383
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2037",
-    "y": 0.555533626065914
+    "y": -1.7662808912867038
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2037",
-    "y": 1.8540471080364003
+    "y": -0.1425489158792761
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2037",
-    "y": 4.795379201883552
+    "y": 1.66776788317584
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2037",
-    "y": 1.1853510252530775
+    "y": -0.6248629854484413
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2037",
-    "y": -3.056620483823612
+    "y": -3.720889353080466
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2037",
-    "y": 2.0522014006696945
+    "y": 1.7976923286367192
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2037",
-    "y": 0.24752349396677956
+    "y": -1.6232774384890882
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2037",
-    "y": -1.0856090298964447
+    "y": -2.278210340692486
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2037",
-    "y": -0.1471432413612039
+    "y": -2.5802597662233135
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2037",
-    "y": 4.125719382815628
+    "y": 2.022303716224361
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2037",
-    "y": -1.6757250250131712
+    "y": -0.8709619999027777
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2037",
-    "y": -0.6267344507179285
+    "y": -2.1240762948236926
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2037",
-    "y": 0.23330060065450478
+    "y": -3.579871323498706
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2037",
-    "y": 6.197792191118889
+    "y": 5.296207359983848
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2037",
-    "y": -2.07443176992511
+    "y": -5.376900910545921
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2037",
-    "y": -1.0112362240704897
+    "y": -0.41367097817607384
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2037",
-    "y": 2.364010140965013
+    "y": 1.1433511958125424
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2037",
-    "y": 2.0598707439904897
+    "y": 0.8331384560906202
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2037",
-    "y": -0.16070287370496933
+    "y": 2.2338471525336963
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2038",
+    "y": 21.7486349947022
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2038",
-    "y": -3.4467710779682097
+    "y": -5.215081838925269
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2038",
-    "y": 8.038233157191115
+    "y": 5.118375763801087
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2038",
-    "y": -4.175395735098355
+    "y": -6.4170537214022545
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2038",
-    "y": 5.554522264188272
+    "y": 3.420123027319597
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2038",
-    "y": -1.3418544245441058
+    "y": -4.69601276036431
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2038",
-    "y": 3.6951590750155834
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2038",
-    "y": 10.422034647809518
+    "y": 3.2232088247691846
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2038",
-    "y": 1.912894911099652
+    "y": -0.24394000505783037
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2038",
-    "y": 11.804350941476558
+    "y": 9.811999819640194
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2038",
-    "y": 6.004641260565797
+    "y": 2.6807433324818106
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2038",
-    "y": 4.641607143046165
+    "y": 4.100774553071531
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2038",
-    "y": -3.418163972543454
+    "y": -4.598964055823215
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2038",
-    "y": 6.925190768519404
+    "y": 5.767528966028882
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2038",
-    "y": 3.7215338717605704
+    "y": 1.5724059973837585
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2038",
-    "y": 0.49717179601708705
+    "y": -1.9800492109713945
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2038",
-    "y": 2.5327498593331716
+    "y": 0.376091639504691
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2038",
-    "y": 5.632979412598156
+    "y": 2.3046899415556243
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2038",
-    "y": 1.1724049167735926
+    "y": -0.773003887514396
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2038",
-    "y": -3.4630764340514415
+    "y": -4.203597950363709
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2038",
-    "y": 2.024015798864916
+    "y": 1.7100079760340545
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2038",
-    "y": 1.505237044312671
+    "y": -0.5410314049197198
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2038",
-    "y": -1.4980293519734096
+    "y": -2.775498702029887
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2038",
-    "y": 0.149606695692126
+    "y": -2.4074937863085735
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2038",
-    "y": 4.298755215720256
+    "y": 2.0234058175194414
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2038",
-    "y": -1.3989135940567732
+    "y": -0.6215213588958172
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2038",
-    "y": -0.2883320376102911
+    "y": -1.9136570987236021
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2038",
-    "y": -0.14480535809279838
+    "y": -4.169290541253455
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2038",
-    "y": 6.315918772918941
+    "y": 5.333970840837838
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2038",
-    "y": -2.510001649398051
+    "y": -6.0190074283049215
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2038",
-    "y": -0.7865930526386596
+    "y": -0.2223821924295102
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2038",
-    "y": 2.6497078926007616
+    "y": 1.343809185023794
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2038",
-    "y": 1.9616329879187002
+    "y": 0.6529301075563654
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2038",
-    "y": -0.5713614377396257
+    "y": 1.818304398566638
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2039",
+    "y": 21.552512396481035
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2039",
-    "y": -2.373953981872681
+    "y": -4.281106283335151
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2039",
-    "y": 8.320105087540876
+    "y": 5.238613493342973
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2039",
-    "y": -4.332084894636775
+    "y": -6.709067312899754
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2039",
-    "y": 5.60951369863403
+    "y": 3.33960062602079
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2039",
-    "y": -1.154819739948316
+    "y": -4.705175418520651
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2039",
-    "y": 3.644817165245677
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2039",
-    "y": 10.135771606993508
+    "y": 3.111330100309258
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2039",
-    "y": 2.240499257131071
+    "y": -0.07150817344710969
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2039",
-    "y": 12.616544844380348
+    "y": 10.481848957271971
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2039",
-    "y": 7.1562263461662345
+    "y": 3.587954805028763
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2039",
-    "y": 5.210889788513794
+    "y": 4.597140409618058
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2039",
-    "y": -3.8189943258714854
+    "y": -5.066042442080024
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2039",
-    "y": 6.93154961587866
+    "y": 5.704296596267692
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2039",
-    "y": 3.929829183172911
+    "y": 1.6714915036298281
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2039",
-    "y": 0.3518919570589425
+    "y": -2.2732570768600926
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2039",
-    "y": 3.2527935738043348
+    "y": 0.9385486658646642
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2039",
-    "y": 6.40523045469204
+    "y": 2.8844335218699126
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2039",
-    "y": 1.1453296751693627
+    "y": -0.930861759753592
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2039",
-    "y": -3.875956297196888
+    "y": -4.695286571918337
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2039",
-    "y": 1.9151450612653098
+    "y": 1.5439315885282674
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2039",
-    "y": 2.6132013640257377
+    "y": 0.3914295490876123
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2039",
-    "y": -1.9789788242055302
+    "y": -3.341304369406161
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2039",
-    "y": 0.5622430142650292
+    "y": -2.1156854350352443
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2039",
-    "y": 4.237447911183873
+    "y": 1.801535966785689
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2039",
-    "y": -0.8988205141167388
+    "y": -0.1516449313928857
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2039",
-    "y": 0.03819574981790834
+    "y": -1.7083988484312738
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2039",
-    "y": -0.5820923866699482
+    "y": -4.800657386732555
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2039",
-    "y": 6.430659847913484
+    "y": 5.369883421722843
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2039",
-    "y": -2.9671341218692997
+    "y": -6.669718777510337
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2039",
-    "y": -0.5819143218480763
+    "y": -0.054858582177416446
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2039",
-    "y": 2.9751884924840972
+    "y": 1.5895570891511963
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2039",
-    "y": 1.6819353826770924
+    "y": 0.2926789876905049
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2039",
-    "y": -1.0046169366557727
+    "y": 1.3577823989266218
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2040",
+    "y": 21.316017490819203
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2040",
-    "y": -1.0978139572813068
+    "y": -3.1439096714296157
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2040",
-    "y": 8.61150983896212
+    "y": 5.37322393140153
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2040",
-    "y": -4.477075283636385
+    "y": -6.986716490308495
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2040",
-    "y": 5.577617263652302
+    "y": 3.180028234286946
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2040",
-    "y": -0.8423102491780226
+    "y": -4.586418966365704
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2040",
-    "y": 3.571737334419388
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2040",
-    "y": 9.830596758314936
+    "y": 2.9655061331298205
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2040",
-    "y": 2.5915008054842437
+    "y": 0.12528942063767853
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2040",
-    "y": 13.43230575237466
+    "y": 11.15374168074409
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2040",
-    "y": 8.34390578222416
+    "y": 4.531335037289832
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2040",
-    "y": 5.847903460926219
+    "y": 5.153273884784245
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2040",
-    "y": -4.136440260137326
+    "y": -5.45386398906521
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2040",
-    "y": 7.072510028855458
+    "y": 5.771512283820073
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2040",
-    "y": 4.111887907617836
+    "y": 1.7495924854235758
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2040",
-    "y": 0.1708582043523167
+    "y": -2.590615672654344
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2040",
-    "y": 4.009860982404797
+    "y": 1.5337235496237813
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2040",
-    "y": 7.147412329481013
+    "y": 3.440229688129943
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2040",
-    "y": 1.1516144180214831
+    "y": -1.0487848238163584
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2040",
-    "y": -4.1638959633009005
+    "y": -5.070007791747921
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2040",
-    "y": 1.891873098092695
+    "y": 1.4588081438553855
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2040",
-    "y": 3.370991620561482
+    "y": 0.9775110950983592
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2040",
-    "y": -2.483000846317749
+    "y": -3.9291124992000395
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2040",
-    "y": 1.082563821141982
+    "y": -1.7139914264080458
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2040",
-    "y": 4.079070959153506
+    "y": 1.4929483482058552
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2040",
-    "y": -0.43902530509518106
+    "y": 0.2736022264657289
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2040",
-    "y": 0.3207506427322166
+    "y": -1.5422152217284557
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2040",
-    "y": -1.0306502546200802
+    "y": -5.423565286450364
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2040",
-    "y": 6.484901181485811
+    "y": 5.343259303007879
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2040",
-    "y": -3.331517887974668
+    "y": -7.223050463514675
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2040",
-    "y": -0.44309330702852495
+    "y": 0.042122800698776795
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2040",
-    "y": 3.169100826574279
+    "y": 1.7049340911695723
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2040",
-    "y": 1.3431383543433955
+    "y": -0.12643282212495133
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2040",
-    "y": -1.4495123002390329
+    "y": 0.8628793633558358
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2041",
+    "y": 21.101651908380546
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2041",
-    "y": 0.28201578002240224
+    "y": -1.9105726743319376
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2041",
-    "y": 8.926589129334811
+    "y": 5.533025874193771
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2041",
-    "y": -4.5834867668527615
+    "y": -7.221708852688019
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2041",
-    "y": 5.530537527222217
+    "y": 3.002553013629411
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2041",
-    "y": -0.4760104065470643
+    "y": -4.408850205325252
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2041",
-    "y": 3.4856123623703654
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2041",
-    "y": 9.57237800322009
+    "y": 2.7940707917106558
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2041",
-    "y": 2.8565543510705025
+    "y": 0.23903008055702127
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2041",
-    "y": 14.187117189112886
+    "y": 11.766655199630344
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2041",
-    "y": 9.534547635037729
+    "y": 5.480390549434966
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2041",
-    "y": 6.514597201188678
+    "y": 5.728020342833828
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2041",
-    "y": -4.113971091248194
+    "y": -5.513540552712064
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2041",
-    "y": 7.10662422630433
+    "y": 5.723091362549903
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2041",
-    "y": 4.214075473612859
+    "y": 1.7517949682290441
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2041",
-    "y": -0.00039296932005640804
+    "y": -2.89758423937231
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2041",
-    "y": 4.853995054756014
+    "y": 2.2154378293646095
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2041",
-    "y": 7.897993943878243
+    "y": 4.002437781006892
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2041",
-    "y": 1.1228945697878048
+    "y": -1.1989786119868533
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2041",
-    "y": -4.447424510863675
+    "y": -5.4488467498113
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2041",
-    "y": 1.8504437225518886
+    "y": 1.346534483071488
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2041",
-    "y": 3.857432338677328
+    "y": 1.294588331357489
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2041",
-    "y": -2.9461735397835067
+    "y": -4.477491751106263
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2041",
-    "y": 1.4762736432954444
+    "y": -1.4319991334077093
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2041",
-    "y": 3.8857108859836793
+    "y": 1.1609705475797794
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2041",
-    "y": -0.04526650837451656
+    "y": 0.6258626018615715
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2041",
-    "y": 0.6515072715673723
+    "y": -1.326996309228555
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2041",
-    "y": -1.4059671177707584
+    "y": -5.960496997681882
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2041",
-    "y": 6.52343373757498
+    "y": 5.296429896518418
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2041",
-    "y": -3.5622284920056666
+    "y": -7.636477542348453
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2041",
-    "y": -0.29259923122947007
+    "y": 0.14397270792428604
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2041",
-    "y": 3.314191536461999
+    "y": 1.7709724447459965
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2041",
-    "y": 1.0159300417190844
+    "y": -0.5351027389604645
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2041",
-    "y": -1.8556278589701773
+    "y": 0.38437686706484975
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2042",
+    "y": 20.924570989935173
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2042",
-    "y": 1.6972712522845812
+    "y": -0.6345220685414319
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2042",
-    "y": 9.30778604669464
+    "y": 5.7613147629021135
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2042",
-    "y": -4.699712576969708
+    "y": -7.460563942190747
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2042",
-    "y": 5.4948294204076
+    "y": 2.83380836424499
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2042",
-    "y": -0.05843458689095597
+    "y": -4.174873397594295
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2042",
-    "y": 3.3635115357096033
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2042",
-    "y": 9.37531522595772
+    "y": 2.5726792892996646
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2042",
-    "y": 3.086224978592412
+    "y": 0.3217437265556953
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2042",
-    "y": 14.87467744782632
+    "y": 12.31316653747634
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2042",
-    "y": 10.635568260184076
+    "y": 6.346074578974033
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2042",
-    "y": 7.219549797672002
+    "y": 6.334971861287795
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2042",
-    "y": -4.202246380181475
+    "y": -5.689386641967812
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2042",
-    "y": 7.11379223802602
+    "y": 5.645610470815528
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2042",
-    "y": 4.303516120926398
+    "y": 1.7428471786987567
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2042",
-    "y": -0.1449324676311638
+    "y": -3.176773556473976
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2042",
-    "y": 5.708746145606636
+    "y": 2.9099943355419415
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2042",
-    "y": 8.668966230711403
+    "y": 4.587774148754534
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2042",
-    "y": 1.0599323903819668
+    "y": -1.3823228532883682
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2042",
-    "y": -4.707427853937648
+    "y": -5.809920934089795
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2042",
-    "y": 1.821573348524589
+    "y": 1.2435721336453631
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2042",
-    "y": 4.214532976002761
+    "y": 1.4862081768421769
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2042",
-    "y": -3.346713770102915
+    "y": -4.964837362905286
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2042",
-    "y": 1.7233020064408286
+    "y": -1.2936533132522614
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2042",
-    "y": 3.636174419311185
+    "y": 0.7786115051919272
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2042",
-    "y": 0.31466897708044117
+    "y": 0.9373418174029329
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2042",
-    "y": 1.0084281507844377
+    "y": -1.0877132187967895
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2042",
-    "y": -1.690685566036549
+    "y": -6.394884374459356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2042",
-    "y": 6.563996102058593
+    "y": 5.245216840317311
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2042",
-    "y": -3.553024896638885
+    "y": -7.80737171437125
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2042",
-    "y": -0.11912821526526408
+    "y": 0.2613905481693541
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2042",
-    "y": 3.4469023586996874
+    "y": 1.8242214291471794
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2042",
-    "y": 0.7377523373399679
+    "y": -0.8955906364818639
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2042",
-    "y": -2.1992640342374825
+    "y": -0.046877510136530784
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2043",
+    "y": 20.82729304008195
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2043",
-    "y": 3.0988002094897262
+    "y": 0.6310326681335969
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2043",
-    "y": 9.682153783256574
+    "y": 5.989987467263792
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2043",
-    "y": -4.7774185005716046
+    "y": -7.6546844258436035
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2043",
-    "y": 5.443768639890183
+    "y": 2.649108355319537
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2043",
-    "y": 0.42242425650949583
+    "y": -3.8743776978332685
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2043",
-    "y": 3.2746528849480634
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2043",
-    "y": 9.273247881225531
+    "y": 2.3604080342597697
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2043",
-    "y": 3.340347571328316
+    "y": 0.4334799222399689
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2043",
-    "y": 15.481148812322894
+    "y": 12.781289387003506
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2043",
-    "y": 11.583257642682664
+    "y": 7.070629633918742
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2043",
-    "y": 7.98453360715927
+    "y": 6.998722897684671
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2043",
-    "y": -4.317491016230014
+    "y": -5.896491735287589
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2043",
-    "y": 7.169086660542271
+    "y": 5.605781378048545
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2043",
-    "y": 4.392780597586103
+    "y": 1.7322582769968415
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2043",
-    "y": -0.27193654672642403
+    "y": -3.4319477024742437
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2043",
-    "y": 6.595240109023617
+    "y": 3.6427037080407385
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2043",
-    "y": 9.481687022487513
+    "y": 5.213357322550849
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2043",
-    "y": 0.9269855864993466
+    "y": -1.630828003189634
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2043",
-    "y": -4.906515779126055
+    "y": -6.121372906324153
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2043",
-    "y": 1.850622829513359
+    "y": 1.1893844744101951
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2043",
-    "y": 4.4384205702320445
+    "y": 1.546193614040996
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2043",
-    "y": -3.6601941662889463
+    "y": -5.369228098530491
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2043",
-    "y": 1.902781480140073
+    "y": -1.223691174960777
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2043",
-    "y": 3.396725232501457
+    "y": 0.4124135932732733
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2043",
-    "y": 0.5502158205998215
+    "y": 1.1220040480878744
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2043",
-    "y": 1.3393617317215047
+    "y": -0.870808379003221
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2043",
-    "y": -1.958767254357036
+    "y": -6.8025440047295955
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2043",
-    "y": 6.613648930500306
+    "y": 5.192299298721503
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2043",
-    "y": -3.484575494009243
+    "y": -7.909446146831503
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2043",
-    "y": 0.1139461415177984
+    "y": 0.4260744572936982
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2043",
-    "y": 3.4572827672566557
+    "y": 1.75819904215039
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2043",
-    "y": 0.4732264545553807
+    "y": -1.2472443488896412
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2043",
-    "y": -2.466039572448515
+    "y": -0.4140304482612386
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2044",
+    "y": 20.7788232960131
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2044",
-    "y": 4.483315835348412
+    "y": 1.8990080141038737
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2044",
-    "y": 10.025797246423528
+    "y": 6.201909680971637
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2044",
-    "y": -4.826007913441945
+    "y": -7.808481485283942
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2044",
-    "y": 5.348498465455632
+    "y": 2.4245751673006
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2044",
-    "y": 0.9390805930299669
+    "y": -3.5219871048304956
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2044",
-    "y": 3.230103944825444
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2044",
-    "y": 9.236281045122308
+    "y": 2.1562350144699436
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2044",
-    "y": 3.620100315345989
+    "y": 0.5840526430898455
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2044",
-    "y": 16.056999637881873
+    "y": 13.224263931920982
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2044",
-    "y": 12.414950832941317
+    "y": 7.699143663102888
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2044",
-    "y": 8.79535369866993
+    "y": 7.708793349310363
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2044",
-    "y": -4.421260701572051
+    "y": -6.094221260808454
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2044",
-    "y": 7.272755389159215
+    "y": 5.603970011010509
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2044",
-    "y": 4.503113424401217
+    "y": 1.7423292570784918
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2044",
-    "y": -0.37995976733619324
+    "y": -3.6559543232497105
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2044",
-    "y": 7.483393704944744
+    "y": 4.393232990445171
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2044",
-    "y": 10.336559056910884
+    "y": 5.884347423571921
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2044",
-    "y": 0.7738958185640173
+    "y": -1.8908304710508628
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2044",
-    "y": -5.045146206415761
+    "y": -6.386222068839236
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2044",
-    "y": 1.9258993758961829
+    "y": 1.170488721716201
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2044",
-    "y": 4.608005314267405
+    "y": 1.5440549475716212
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2044",
-    "y": -3.89588197586162
+    "y": -5.702120400946063
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2044",
-    "y": 2.0346309451970175
+    "y": -1.1974935336999264
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2044",
-    "y": 3.1805351270288726
+    "y": 0.07983221189500278
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2044",
-    "y": 0.6481564046480205
+    "y": 1.168053859888709
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2044",
-    "y": 1.5764791828668752
+    "y": -0.7328674565185627
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2044",
-    "y": -2.221864778587401
+    "y": -7.202359077392254
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2044",
-    "y": 6.678072124259667
+    "y": 5.141177713957463
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2044",
-    "y": -3.5393128949168453
+    "y": -8.114101858314037
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2044",
-    "y": 0.3870643931527106
+    "y": 0.6135526669105498
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2044",
-    "y": 3.407537449273873
+    "y": 1.6422239879835594
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2044",
-    "y": 0.24339585396166785
+    "y": -1.571700109645265
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2044",
-    "y": -2.671769320414176
+    "y": -0.7328812058312686
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2045",
+    "y": 20.766186854964555
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2045",
-    "y": 5.808226657679021
+    "y": 3.1129887363879396
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2045",
-    "y": 10.363864922580053
+    "y": 6.411135466495746
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2045",
-    "y": -4.8372753907115245
+    "y": -7.921138309683625
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2045",
-    "y": 5.249647774843922
+    "y": 2.1963522741972055
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2045",
-    "y": 1.486835558108731
+    "y": -3.132199340980989
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2045",
-    "y": 3.2169026724265852
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2045",
-    "y": 9.250851683978668
+    "y": 1.975160328100562
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2045",
-    "y": 3.932371152380428
+    "y": 0.7710067455740494
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2045",
-    "y": 16.491987374464195
+    "y": 13.531963075592794
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2045",
-    "y": 13.156075879291171
+    "y": 8.247601924462144
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2045",
-    "y": 9.644461825166381
+    "y": 8.454404364359009
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2045",
-    "y": -4.498183661754073
+    "y": -6.270865209316034
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2045",
-    "y": 7.333332103494048
+    "y": 5.540658151905382
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2045",
-    "y": 4.646913018939881
+    "y": 1.7803680323418059
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2045",
-    "y": -0.4606392312718006
+    "y": -3.8499554894828822
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2045",
-    "y": 8.357132607976162
+    "y": 5.134848882564894
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2045",
-    "y": 11.217959907613011
+    "y": 6.583888979134543
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2045",
-    "y": 0.6304582956421939
+    "y": -2.1396534620688676
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2045",
-    "y": -5.1418485078345935
+    "y": -6.616156523141907
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2045",
-    "y": 2.0393500385331738
+    "y": 1.1769157393073912
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2045",
-    "y": 4.7617051679126305
+    "y": 1.5218375247021383
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2045",
-    "y": -4.0642821234543085
+    "y": -5.9769320763172855
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2045",
-    "y": 2.1595055067929505
+    "y": -1.18133539241959
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2045",
-    "y": 2.996720562587623
+    "y": -0.21933622227288005
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2045",
-    "y": 0.6926096269957143
+    "y": 1.1546920238892235
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2045",
-    "y": 1.776539365903186
+    "y": -0.6294439936160824
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2045",
-    "y": -2.46598938379654
+    "y": -7.579447999342741
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2045",
-    "y": 6.737910496583255
+    "y": 5.075346837192335
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2045",
-    "y": -3.6590242208130146
+    "y": -8.370369524086655
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2045",
-    "y": 0.6985961252577481
+    "y": 0.8278398219292762
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2045",
-    "y": 3.2954161642787874
+    "y": 1.4650044949632413
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2045",
-    "y": 0.052099337349307426
+    "y": -1.8648209697133087
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2045",
-    "y": -2.8372318127423806
+    "y": -1.0129262250455648
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2046",
+    "y": 20.756355973391972
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2046",
-    "y": 7.102291722470877
+    "y": 4.2965948847592665
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2046",
-    "y": 10.707229567983354
+    "y": 6.623912422126864
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2046",
-    "y": -4.821042884315656
+    "y": -8.00489986556511
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2046",
-    "y": 5.129173948827538
+    "y": 1.9449265690167201
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2046",
-    "y": 2.0526293191254834
+    "y": -2.7229002039895853
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2046",
-    "y": 3.219266703261897
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2046",
-    "y": 9.291378393964127
+    "y": 1.8071120766843312
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2046",
-    "y": 4.269758387709458
+    "y": 0.982211537254838
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2046",
-    "y": 16.814863982355654
+    "y": 13.727121071134912
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2046",
-    "y": 13.850395681725653
+    "y": 8.752318971805337
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2046",
-    "y": 10.513407318700487
+    "y": 9.214998090380174
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2046",
-    "y": -4.543865024118862
+    "y": -6.425164606865273
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2046",
-    "y": 7.370611767248693
+    "y": 5.4392583592167325
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2046",
-    "y": 4.819801196579165
+    "y": 1.8405687964187734
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2046",
-    "y": -0.5148976617259805
+    "y": -4.019555977495528
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2046",
-    "y": 9.218984703826049
+    "y": 5.864281230701331
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2046",
-    "y": 12.110898775919516
+    "y": 7.297300590074007
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2046",
-    "y": 0.4999476009235882
+    "y": -2.3780519975151955
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2046",
-    "y": -5.203112981506299
+    "y": -6.817776933799463
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2046",
-    "y": 2.1790197858100058
+    "y": 1.196603398304635
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2046",
-    "y": 4.906912978388127
+    "y": 1.490832054462228
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2046",
-    "y": -4.179314956669077
+    "y": -6.211479744951273
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2046",
-    "y": 2.2927864331218952
+    "y": -1.163268920548995
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2046",
-    "y": 2.86566163497353
+    "y": -0.4711722926184136
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2046",
-    "y": 0.7192184722867841
+    "y": 1.1164707269646095
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2046",
-    "y": 1.972470931088768
+    "y": -0.529527639981627
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2046",
-    "y": -2.690768210869477
+    "y": -7.935505823180092
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2046",
-    "y": 6.807802014029033
+    "y": 5.010951647626572
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2046",
-    "y": -3.7836572448977113
+    "y": -8.626764570057228
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2046",
-    "y": 1.0338086017302588
+    "y": 1.0573910262377006
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2046",
-    "y": 3.156495875877019
+    "y": 1.2587648319644535
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2046",
-    "y": -0.11714113823902501
+    "y": -2.1467172053143706
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2046",
-    "y": -2.9740031955197663
+    "y": -1.2727675226944057
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2047",
+    "y": 20.74729096101457
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2047",
-    "y": 8.366640172424464
+    "y": 5.449195842712698
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2047",
-    "y": 11.058427449586752
+    "y": 6.8396541119457614
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2047",
-    "y": -4.782860711187169
+    "y": -8.06726418158315
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2047",
-    "y": 4.985729147133325
+    "y": 1.6700691228051983
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2047",
-    "y": 2.628051321915028
+    "y": -2.3069503900903303
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2047",
-    "y": 3.2405982082098577
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2047",
-    "y": 9.358098839628243
+    "y": 1.6510168593973493
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2047",
-    "y": 4.631947685276601
+    "y": 1.2131313945952222
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2047",
-    "y": 17.088312999403126
+    "y": 13.868480021095356
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2047",
-    "y": 14.516003858852752
+    "y": 9.229473748894277
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2047",
-    "y": 11.396467489832194
+    "y": 9.983818533506664
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2047",
-    "y": -4.5594416809232445
+    "y": -6.560234110089759
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2047",
-    "y": 7.411132972462989
+    "y": 5.322124711917272
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2047",
-    "y": 5.021523046233388
+    "y": 1.9185565078961575
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2047",
-    "y": -0.5525548109105805
+    "y": -4.1739570777327
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2047",
-    "y": 10.070123298254472
+    "y": 6.578140448428208
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2047",
-    "y": 13.00760708642536
+    "y": 8.016701515391752
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2047",
-    "y": 0.38695833837046323
+    "y": -2.601776177389524
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2047",
-    "y": -5.2356563560634495
+    "y": -7.0027587521032375
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2047",
-    "y": 2.343065222630551
+    "y": 1.2253222718722323
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2047",
-    "y": 5.04512602028864
+    "y": 1.4552816523724919
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2047",
-    "y": -4.246142252017182
+    "y": -6.417793417979379
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2047",
-    "y": 2.4449380241829712
+    "y": -1.1349055241549066
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2047",
-    "y": 2.7515852427335834
+    "y": -0.712049816958767
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2047",
-    "y": 0.7419791265034315
+    "y": 1.0679030122064277
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2047",
-    "y": 2.1504210180400376
+    "y": -0.44777144083386083
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2047",
-    "y": -2.8942184324550952
+    "y": -8.27166884419425
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2047",
-    "y": 6.896693698669938
+    "y": 4.952485360466043
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2047",
-    "y": -3.9288044452556328
+    "y": -8.90115402652031
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2047",
-    "y": 1.3546642530200548
+    "y": 1.2621675748267633
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2047",
-    "y": 3.0149555429779524
+    "y": 1.0454237527170125
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2047",
-    "y": -0.2556737756274255
+    "y": -2.416114658789684
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2047",
-    "y": -3.0813843423133336
+    "y": -1.5171458555953776
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2048",
+    "y": 20.732217199560466
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2048",
-    "y": 9.547815846416688
+    "y": 6.513679283242888
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2048",
-    "y": 11.413386592797659
+    "y": 7.053975456516976
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2048",
-    "y": -4.721153440361243
+    "y": -8.112779259172504
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2048",
-    "y": 4.840060035144813
+    "y": 1.3887752208126791
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2048",
-    "y": 3.2061282013334016
+    "y": -1.8894377732125127
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2048",
-    "y": 3.271174953752726
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2048",
-    "y": 9.452145274323186
+    "y": 1.493646158225009
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2048",
-    "y": 5.0118612669817315
+    "y": 1.4555730662008513
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2048",
-    "y": 17.3404110948132
+    "y": 13.983263769531753
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2048",
-    "y": 15.17105023560504
+    "y": 9.692305734656793
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2048",
-    "y": 12.284289181514547
+    "y": 10.750592696715602
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2048",
-    "y": -4.547409564479091
+    "y": -6.680924284520308
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2048",
-    "y": 7.432539501582893
+    "y": 5.1663640502718176
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2048",
-    "y": 5.249785680360385
+    "y": 2.0131252441152965
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2048",
-    "y": -0.5796043299108323
+    "y": -4.318851938773833
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2048",
-    "y": 10.921861181717226
+    "y": 7.286327031502491
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2048",
-    "y": 13.90070345914074
+    "y": 8.730595565990685
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2048",
-    "y": 0.28723202315403273
+    "y": -2.815260708258507
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2048",
-    "y": -5.247103599340357
+    "y": -7.180550981362768
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2048",
-    "y": 2.516248862046283
+    "y": 1.2485418979370366
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2048",
-    "y": 5.178770936856437
+    "y": 1.4190093165524102
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2048",
-    "y": -4.270939193053024
+    "y": -6.605706306643154
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2048",
-    "y": 2.6143161765793517
+    "y": -1.0971043798298716
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2048",
-    "y": 2.65378540807357
+    "y": -0.9426772857245336
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2048",
-    "y": 0.7758736230501881
+    "y": 1.0216449735301547
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2048",
-    "y": 2.35190146837379
+    "y": -0.34657416768461424
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2048",
-    "y": -3.0855293058189033
+    "y": -8.594494855680141
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2048",
-    "y": 7.006302295863148
+    "y": 4.900484474012709
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2048",
-    "y": -4.07697432172885
+    "y": -9.17736014309362
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2048",
-    "y": 1.6764416693443827
+    "y": 1.4524293042611542
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2048",
-    "y": 2.885698646163774
+    "y": 0.8389585571912298
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2048",
-    "y": -0.3582782991192099
+    "y": -2.6722082413564188
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2048",
-    "y": -3.1742377654898646
+    "y": -1.7618301991243863
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2049",
+    "y": 20.705914726680085
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2049",
-    "y": 10.67420275383896
+    "y": 7.514497313948097
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2049",
-    "y": 11.776643233365988
+    "y": 7.272575492613287
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2049",
-    "y": -4.63789966603586
+    "y": -8.141872944606533
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2049",
-    "y": 4.703241205409228
+    "y": 1.1103085940911552
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2049",
-    "y": 3.7858859877152393
+    "y": -1.4704218465558185
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2049",
-    "y": 3.305921213269912
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2049",
-    "y": 9.557371680057544
+    "y": 1.332110705928414
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2049",
-    "y": 5.401104509885773
+    "y": 1.7029513485434504
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2049",
-    "y": 17.5887565821653
+    "y": 14.088922105954282
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2049",
-    "y": 15.82506961494171
+    "y": 10.15004809976639
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2049",
-    "y": 13.177184925582441
+    "y": 11.514817130514835
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2049",
-    "y": -4.509772810858472
+    "y": -6.789494770031205
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2049",
-    "y": 7.424649793628372
+    "y": 4.96588041474032
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2049",
-    "y": 5.496775071455288
+    "y": 2.1181950773070364
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2049",
-    "y": -0.5956521556569082
+    "y": -4.453738412459747
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2049",
-    "y": 11.76991099023899
+    "y": 7.983348606608354
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2049",
-    "y": 14.78821388988097
+    "y": 9.437893271628647
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2049",
-    "y": 0.20001460282623873
+    "y": -3.0173197127440314
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2049",
-    "y": -5.240341791581328
+    "y": -7.352897675473138
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2049",
-    "y": 2.6398385004451717
+    "y": 1.2137200188349135
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2049",
-    "y": 5.302259002445538
+    "y": 1.3784095652032984
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2049",
-    "y": -4.26041227538618
+    "y": -6.779573344132917
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2049",
-    "y": 2.7752250191939414
+    "y": -1.0732892007460135
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2049",
-    "y": 2.572170796929639
+    "y": -1.1604410529969407
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2049",
-    "y": 0.8247373663278811
+    "y": 0.9794099035070183
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2049",
-    "y": 2.575181109007166
+    "y": -0.22856746285868432
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2049",
-    "y": -3.268089388737847
+    "y": -8.90367178389731
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2049",
-    "y": 7.136942032580196
+    "y": 4.854824926595283
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2049",
-    "y": -4.226909180454136
+    "y": -9.452785610617477
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2049",
-    "y": 2.004699893646898
+    "y": 1.6341662315678758
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2049",
-    "y": 2.772427293551961
+    "y": 0.642413565835175
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2049",
-    "y": -0.42927576786534255
+    "y": -2.9174561128262324
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2049",
-    "y": -3.255631639534104
+    "y": -2.0057048736763963
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2050",
+    "y": 20.663377317052163
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2050",
-    "y": 11.725553800382244
+    "y": 8.432772723206938
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2050",
-    "y": 12.133644582572531
+    "y": 7.482162490080414
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2050",
-    "y": -4.5043671622867265
+    "y": -8.126033589914318
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2050",
-    "y": 4.565159787342452
+    "y": 0.8266441774193776
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2050",
-    "y": 4.355881155001102
+    "y": -1.060380968009424
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2050",
-    "y": 3.339025918043471
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2050",
-    "y": 9.66104219968346
+    "y": 1.1621764168539652
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2050",
-    "y": 5.79023194226875
+    "y": 1.9466761929483107
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2050",
-    "y": 17.820835106072312
+    "y": 14.172911274111755
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2050",
-    "y": 16.468552746906944
+    "y": 10.592800777745715
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2050",
-    "y": 14.06193840548424
+    "y": 12.263840912107288
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2050",
-    "y": -4.455829071322027
+    "y": -6.895681376194632
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2050",
-    "y": 7.39974103028511
+    "y": 4.736510236449131
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2050",
-    "y": 5.752020363075521
+    "y": 2.224535733051754
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2050",
-    "y": -0.6122649651455054
+    "y": -4.589524310912802
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2050",
-    "y": 12.603541268258372
+    "y": 8.65697836583728
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2050",
-    "y": 15.66192084567729
+    "y": 10.129937356352064
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2050",
-    "y": 0.11692682206500596
+    "y": -3.216729530248535
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2050",
-    "y": -5.223275604769814
+    "y": -7.527956633778548
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2050",
-    "y": 2.682545088666917
+    "y": 1.0924382891784246
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2050",
-    "y": 5.4158994607704525
+    "y": 1.3329631584774642
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2050",
-    "y": -4.228501437660237
+    "y": -6.949505089640054
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2050",
-    "y": 2.932826891310806
+    "y": -1.0598392309153806
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2050",
-    "y": 2.819722598216413
+    "y": -1.0612462054564133
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2050",
-    "y": 0.8806471532853337
+    "y": 0.9342322082646475
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2050",
-    "y": 2.806013710499364
+    "y": -0.10598488596390489
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2050",
-    "y": -3.4471920204781674
+    "y": -9.202771888014459
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2050",
-    "y": 7.280016229827159
+    "y": 4.807696846663697
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2050",
-    "y": -4.3850462820821345
+    "y": -9.732827115572821
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2050",
-    "y": 2.3353700936952273
+    "y": 1.8032309835545453
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2050",
-    "y": 2.6688773824899927
+    "y": 0.4480759586448758
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2050",
-    "y": -0.4760566564922433
+    "y": -3.1572737504216803
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2050",
-    "y": -3.3339076970232266
+    "y": -2.254264118450915
+  },
+  {
+    "dataset": "housing_led_vs_trend_central_borough_difference",
+    "xd": "City of London",
+    "b": "2051",
+    "y": 20.773578315672093
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barking and Dagenham",
     "b": "2051",
-    "y": 12.245161455807652
+    "y": 8.825609734495622
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Barnet",
     "b": "2051",
-    "y": 12.36886543144961
+    "y": 7.570898898891993
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bexley",
     "b": "2051",
-    "y": -4.400873611912542
+    "y": -8.142087623592174
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Brent",
     "b": "2051",
-    "y": 4.546834079748956
+    "y": 0.6560483637053364
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Bromley",
     "b": "2051",
-    "y": 4.732208236096298
+    "y": -0.8354867241523647
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Camden",
     "b": "2051",
-    "y": 3.6046238960668395
-  },
-  {
-    "dataset": "housing_led_vs_trend_central_borough_difference",
-    "xd": "City of London",
-    "b": "2051",
-    "y": 9.914086753077976
+    "y": 1.214320761834621
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Croydon",
     "b": "2051",
-    "y": 6.074193094459346
+    "y": 2.084590005070024
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Ealing",
     "b": "2051",
-    "y": 17.961453633544274
+    "y": 14.162371707176613
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Enfield",
     "b": "2051",
-    "y": 16.8724741752438
+    "y": 10.804394360214323
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Greenwich",
     "b": "2051",
-    "y": 14.598194399009422
+    "y": 12.661109115105203
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hackney",
     "b": "2051",
-    "y": -4.243987543063599
+    "y": -6.860406800735152
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hammersmith and Fulham",
     "b": "2051",
-    "y": 7.639031679317323
+    "y": 4.7545957541934625
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Haringey",
     "b": "2051",
-    "y": 6.019985908011875
+    "y": 2.336747864876132
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Harrow",
     "b": "2051",
-    "y": -0.5950194163503564
+    "y": -4.692842474461971
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Havering",
     "b": "2051",
-    "y": 12.9859414755322
+    "y": 8.886868299367372
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hillingdon",
     "b": "2051",
-    "y": 16.159352023986248
+    "y": 10.459598192133202
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Hounslow",
     "b": "2051",
-    "y": 0.10845391028947689
+    "y": -3.3441458889073608
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Islington",
     "b": "2051",
-    "y": -4.971767338014155
+    "y": -7.4847453096769225
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kensington and Chelsea",
     "b": "2051",
-    "y": 2.9286855350916428
+    "y": 1.1663690141175391
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Kingston upon Thames",
     "b": "2051",
-    "y": 5.571098647604911
+    "y": 1.3300625937097146
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lambeth",
     "b": "2051",
-    "y": -3.9563973324469393
+    "y": -6.898753880150137
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Lewisham",
     "b": "2051",
-    "y": 3.1417224943978086
+    "y": -1.0034021904177621
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Merton",
     "b": "2051",
-    "y": 3.0673303162985848
+    "y": -0.9660539267288147
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Newham",
     "b": "2051",
-    "y": 0.9547928556595826
+    "y": 0.8994455593944625
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Redbridge",
     "b": "2051",
-    "y": 2.88604770390922
+    "y": -0.1331444249247576
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Richmond upon Thames",
     "b": "2051",
-    "y": -3.444473691487819
+    "y": -9.325893718937243
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Southwark",
     "b": "2051",
-    "y": 7.576521407566387
+    "y": 4.899142430757215
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Sutton",
     "b": "2051",
-    "y": -4.423550590489121
+    "y": -9.898101839131536
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Tower Hamlets",
     "b": "2051",
-    "y": 2.6689130481136365
+    "y": 1.9612477128974002
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Waltham Forest",
     "b": "2051",
-    "y": 2.6350611254630163
+    "y": 0.3151457321041788
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Wandsworth",
     "b": "2051",
-    "y": -0.25612684170331745
+    "y": -3.151417038270293
   },
   {
     "dataset": "housing_led_vs_trend_central_borough_difference",
     "xd": "Westminster",
     "b": "2051",
-    "y": -3.1492753141598966
+    "y": -2.241534396309056
   }
 ]

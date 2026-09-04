@@ -69,6 +69,17 @@ The core variants for the 2024-based projections are based on the following scen
 
 - high - high fertility scenario, high life expectancy scenario, migration patterns based on 15-years of past data 
 
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src="/overview-trend-step-1.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 1: explain...</figcaption>
+  </figure>
+  <figure class="space-y-2">
+    <img src="/overview-trend-step-2.png" alt="Trend-based projection variants diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 2: explain...</figcaption>
+  </figure>
+</div>
+
 ## Overview of the housing-led projections 
 
 The model used to produce the GLA housing-led population projections has many similarities to the trend-based model in that it uses the cohort-component approach, with population projected forward from a starting estimate and all change accounted for through births, deaths, migration and ageing. Births and deaths are likewise calculated by applying fertility and mortality rates to the population. 
