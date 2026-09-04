@@ -63,10 +63,6 @@ The assumptions about future housing development outside of London used in these
 
 The most significant impacts of including assumed housing delivery in the projections are seen in the projected distribution of population within London.  Comparing the results of the Central variants at local authority level shows striking differences in projected population.  
 
-For areas such where the capacity identified in the SHLAA is large relative to recent population trends, the housing-led model naturally results in far higher projected population than does the trend-based approach (e.g. for 2051, Ealing 18 percent higher, Enfield 17 percent, and Hillingdon, 16 percent).   
-
-In areas where less capacity is identified, and especially where the population is ageing, housing-led projections tend to be lower (e.g. Islington –5 percent, Bexley –4 percent, Sutton –4 percent). 
-
 For more information please contact the GLA's City Intelligence Demography Team at <demography@london.gov.uk>
 
 **Copyright &#169; 2026 Greater London Authority**
