@@ -59,9 +59,9 @@ The housing-led projections show higher projected overall growth for London than
 
 These differences reflect the assumptions about relative levels of housing delivery within and outside London used in these projections.  Assuming higher levels of delivery in surrounding districts acts to reduce projected growth within London, and vice versa.  
 
-The assumptions about future housing development outside of London used in these projections are not based on analysis of capacity or judgment about the likelihood of any specific area delivering housing in line with assessed need. The NPPF Standard Method is used only as a mechanism for setting relative levels within the model. Scenarios were chosen on the basis that they reflected housing delivery in London being nominally in line with/above/below that of the wider region. These housing scenarios are used together with the scenarios of fertility, mortality, etc, primarily as a means to differentiate the Low/Central/High projection variants. 
-
 The most significant impacts of including assumed housing delivery in the projections are seen in the projected distribution of population within London.  Comparing the results of the Central variants at local authority level shows striking differences in projected population.  
+
+*Note: The assumptions about future housing development outside of London used in these projections are not based on analysis of capacity or judgment about the likelihood of any specific area delivering housing in line with assessed need. The NPPF Standard Method is used only as a mechanism for setting relative levels within the model. Scenarios were chosen on the basis that they reflected housing delivery in London being nominally in line with/above/below that of the wider region. These housing scenarios are used together with the scenarios of fertility, mortality, etc, primarily as a means to differentiate the Low/Central/High projection variants.* 
 
 For more information please contact the GLA's City Intelligence Demography Team at <demography@london.gov.uk>
 
