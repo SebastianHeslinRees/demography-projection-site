@@ -15,7 +15,7 @@ navLabel: Housing-led population
 
 ## Total population
 
-Over the period 2024 to 2051 the total population of London is projected to grow from 9.13 million to between 9.82 and 10.77 million, with the Central projection giving a population of 10.11 million.
+Over the period 2024 to 2051 the total population of London is projected to grow from 9.13 million to between 9.82 and 10.77 million, with a Central projection of 10.26 million.
 
 | Variant 		| 2011 	| 2024 	| 2036	| 2051 	|
 |  --- 			| --- 	| --- 	| --- 	| --- 	|
