@@ -101,17 +101,6 @@ For the 2024-based projections, these are:
 * Central – 13 years 
 * High – 15 years 
 
-<div class="mt-8 space-y-6">
-  <figure class="space-y-2">
-    <img src="/analysis/population-projections/overview-trend-step-1.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
-    <figcaption class="text-sm text-color-text-muted">Fig 1: explain...</figcaption>
-  </figure>
-  <figure class="space-y-2">
-    <img src="/analysis/population-projections/overview-trend-step-2.png" alt="Trend-based projection variants diagram" class="w-full rounded-lg border border-color-border-subtle" />
-    <figcaption class="text-sm text-color-text-muted">Fig 2: explain...</figcaption>
-  </figure>
-</div>
-
 ## Overview of the housing-led projections 
 
 The GLA’s housing-led population projections incorporate explicit assumptions about the timing, quantity, and location of future housing development. 
@@ -123,7 +112,7 @@ As with the trend-based model, the housing-led model projects forward one year a
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
     <img src="/analysis/population-projections/hl_model_daigram.png" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
-    <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the housing-led projection model</figcaption>
+    <figcaption class="text-sm text-color-text-muted">Fig 2: Steps of the housing-led projection model</figcaption>
   </figure>
 </div>
 
@@ -288,7 +277,7 @@ ONS ‘rebased’ past annual population estimates following the 2011 and 2021 c
 
 For some local authorities, UPC is very large. For the series 2012-2021, the average annual adjustments ranged from –4.0k for Camden, to +2.6k for Ealing.   
 
-The use of UPC to explain past population change can be problematic when producing projections with models that don’t explicitly account for it3.  Any UPC in the past estimates is effectively ignored and has no bearing on the projected population. In cases where there is a substantial amount of UPC in the backseries, this tends to result in rates of projected future population change that are inconsistent with those seen in the period of past estimates on which the projections are based. 
+The use of UPC to explain past population change can be problematic when producing projections with models that don’t explicitly account for it.  Any UPC in the past estimates is effectively ignored and has no bearing on the projected population. In cases where there is a substantial amount of UPC in the backseries, this tends to result in rates of projected future population change that are inconsistent with those seen in the period of past estimates on which the projections are based. 
 
 The produces an alternative series of population estimates for 2002 to 2021, which are based on the official ONS series, but with all change over the period explained by births, deaths and migration.  Births, deaths, and internal migration are unchanged from their original values, and international flows are adjusted to account for all residual change. 
 
