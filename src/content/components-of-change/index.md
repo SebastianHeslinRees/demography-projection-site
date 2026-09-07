@@ -41,7 +41,7 @@ These totals are comprised of:
 - net international flows of +115k (Low), +109 (Central), and +106k (High)
 - net internal flows of: -119k (Low), -107k (Central), and -100k (High) 
 
-While international flows remain fixed over the projection period, internal migration varies as the populations within and outside of London change. Projected net outflows from London tend to increase over time as the city grows. By the end of the projection period, total net outflows are similar across the variants, ranging from –21k (Low) to –23k (High). 
+While international flows remain fixed over the projection period, internal migration varies as the populations within and outside of London change. Projected outflows from London tend to increase over time as the city grows. By the end of the projection period, total net outflows are similar across the variants, ranging from 21k (Low) to 23k (High). 
 
  Variant | Year | Total net | International net | Internal net |
 | --- | --- | --- | --- | --- | 
@@ -101,10 +101,12 @@ Despite mortality rates falling over time in each of the core variants, annual d
 - Central 72k (+43 percent)
 - High 67k (+32 percent)
 
-Starting from a value of 55k in 2024, the three core variants span a wide range of projected natural change by the end of the projection period: 
-- Low 19k
-- Central 36k 
-- High 55k
+Starting from +55k in 2024, the three core variants span a wide range of projected natural change by the end of the projection period: 
+- Low +19k
+- Central +36k 
+- High +55k
+
+London's natural change remains positive across all core scenarios. By contrast, natural change for England as a whole becomes negative as early as 2025 (Low variant) and no later than 2028 (High variant).
 
 | Variant | Year | Births | Deaths | Natural change |
 |  --- | --- | --- | --- | --- | 
