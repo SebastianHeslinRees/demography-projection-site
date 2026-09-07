@@ -101,6 +101,17 @@ For the 2024-based projections, these are:
 * Central – 13 years 
 * High – 15 years 
 
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src="/analysis/population-projections/overview-trend-step-1.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 1: explain...</figcaption>
+  </figure>
+  <figure class="space-y-2">
+    <img src="/analysis/population-projections/overview-trend-step-2.png" alt="Trend-based projection variants diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 2: explain...</figcaption>
+  </figure>
+</div>
+
 ## Overview of the housing-led projections 
 
 The GLA’s housing-led population projections incorporate explicit assumptions about the timing, quantity, and location of future housing development. 

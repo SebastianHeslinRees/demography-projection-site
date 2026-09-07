@@ -13,13 +13,13 @@ import pandas as pd
 
 OUTPUT_DIR = Path(__file__).parent.parent / "src" / "lib" / "data"
 OUTPUT_FILE = OUTPUT_DIR / "ComponentsOfChangeChartData.json"
-INPUT_DIR = Path("/Users/user1/Downloads/outputs-2/trend/output_pq")
+INPUT_DIR = Path("/Users/user1/Downloads/trend_core_outputs_parquet_24august-2")
 LONDON_GSS_CODE = "E12000007"
 
 VARIANT_MAPPING = {
-    "variant=llt10": "Low",
-    "variant=ppt13": "Central",
-    "variant=hht15": "High",
+    "variant=low": "Low",
+    "variant=central": "Central",
+    "variant=high": "High",
 }
 
 COMPONENT_MAPPING = {

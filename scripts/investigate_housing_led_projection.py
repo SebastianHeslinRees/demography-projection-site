@@ -9,16 +9,16 @@ import pandas as pd
 
 LONDON_GSS_CODE = 'E12000007'
 
-SOURCE_ROOT = Path('/Users/user1/Downloads/outputs-2/housing_led/output_pq')
+SOURCE_ROOT = Path('/Users/user1/Downloads/20260902_explorer_tool/output_pq')
 DATA_DIR = Path('src/lib/data')
 HOUSING_OUTPUT = DATA_DIR / 'housingLedProjectedPopulation.json'
 COMPARISON_OUTPUT = DATA_DIR / 'housingLedVsTrendProjectionData.json'
 TREND_INPUT = DATA_DIR / 'projectedPopulation2ChartData.json'
 
 VARIANT_SPECS = [
-    ('variant=central_hma5645_ward', 'Central'),
-    ('variant=vhigh_hma5645_ward', 'High'),
-    ('variant=vlow_hma5645_ward', 'Low'),
+    ('variant=central_ward', 'Central'),
+    ('variant=high_ward', 'High'),
+    ('variant=low_ward', 'Low'),
 ]
 
 

@@ -7,14 +7,14 @@ import pandas as pd
 
 
 LONDON_GSS_CODE = 'E12000007'
-SOURCE_ROOT = Path('/Users/user1/Downloads/outputs-2/trend/output_pq')
+SOURCE_ROOT = Path('/Users/user1/Downloads/trend_core_outputs_parquet_24august-2')
 OUTPUT = Path('src/lib/data/projectedPopulation2ChartData.json')
 
 # Mapping of input variant folders to display labels for the new page.
 VARIANT_SPECS = [
-    ('variant=llt10', 'Low'),
-    ('variant=ppt13', 'Central'),
-    ('variant=hht15', 'High'),
+    ('variant=low', 'Low'),
+    ('variant=central', 'Central'),
+    ('variant=high', 'High'),
 ]
 
 
@@ -93,7 +93,7 @@ def build_rows() -> list[dict]:
             )
 
     # Add the baseline 2024 structure once.
-    baseline_frame = read_london_year_frame('variant=ppt13', 2024)
+    baseline_frame = read_london_year_frame('variant=central', 2024)
     for age in sorted(baseline_frame['age'].unique()):
         rows.append(
             {
