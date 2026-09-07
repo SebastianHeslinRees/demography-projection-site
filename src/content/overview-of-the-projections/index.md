@@ -48,7 +48,12 @@ The cohort component approach is essentially a framework for accounting for popu
 
 Cohort component models typically begin with a base population estimate and then project forward one period at a time (a single year in this case), ageing-on the population, calculating births, deaths, and migration flows, and then accounting for the impact of these to arrive at the population for the end of the period. 
 
-[trend model diagram here
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src="/analysis/population-projections/trend_model_diagram.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the trend-based projection model</figcaption>
+  </figure>
+</div>
 
 The GLA model is described as multi-regional because model areas are linked with one another through internal migration flows.  A benefit of this approach is that internal inflows to each area reflect changes to the structure of the wider population and maintain the coherence of the projections across different geographic levels. This feature is important for projections that:  
 
@@ -104,7 +109,12 @@ The model used by the GLA combines a simplified bi-regional cohort component mod
 
 As with the trend-based model, the housing-led model projects forward one year at a time from a base population, accounting for population change through the standard mechanisms of births, deaths, and migration.
 
-[add housing-led diagram
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src="/analysis/population-projections/hl_model_diagram.png" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the housing-led projection model</figcaption>
+  </figure>
+</div>
 
 ## Reconciling with housing capacity 
 
