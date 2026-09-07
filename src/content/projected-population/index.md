@@ -2,7 +2,7 @@
 title: Projected population
 description: Projected population trend-based projections
 section: Demography
-navLabel: Projected population
+navLabel: Trend-based population
 ---
 
 <script>
