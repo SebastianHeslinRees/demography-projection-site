@@ -1,6 +1,6 @@
 ---
 title: Overview of the projections
-description: Models and methods used in the projections
+description: Models and methods and variants
 section: Demography
 navLabel: Overview
 ---
@@ -177,7 +177,7 @@ For the current Plan, London’s overall assessed housing need was derived from 
 This allowed for several simplifying assumptions to be made in the projections: 
 
 1. That the overall population of London could be modelled using a purely trend-based methodology, with no need to separately account for additional population resulting from new housing. 
-2. That future housing development would affect the spatial distribution of population, but not it’s overall size and age structure. 
+2. That future housing development would affect the spatial distribution of population, but not its overall size and age structure. 
 3. That housing development occurring outside of London has no impact on population within London. 
 
 These assumptions were reflected in the design of the housing-led population model: 
