@@ -15,6 +15,14 @@ navLabel: Housing-led projection vs Trend projections
 
 ## Total population
 
+The housing-led projections show higher projected overall growth for London than do the equivalent trend-based versions. For the High variants, the difference in population by 2051 is 280k. 
+
+The size of the impact is dependent on the assumptions made about the relative levels of housing delivery within and outside London used in the projections. 
+
+In all scenarios, housing delivery within London is assumed to be in line with the capacity identified in the 2026 Strategic Housing Land Availability Assessment - 56k per year over the period 2026-27 to 2035-36.  Given that delivery in a single year has not exceeded 41k at any point in the last 20 years, and that annual growth in London has slowed over the last decade, it seems reasonable that projected growth in the Central and High housing-led variants would be higher than in the equivalent trend-based outputs. 
+
+*Note: The assumptions about future housing development outside of London used in these projections are not based on analysis of capacity or judgment about the likelihood of any specific area delivering housing in line with assessed need. The NPPF Standard Method is used only as a mechanism for setting relative levels within the model. Scenarios were chosen on the basis that they reflected housing delivery in London being nominally in line with/above/below that of the wider region. These housing scenarios are used together with the scenarios of fertility, mortality, etc, primarily as a means to differentiate the Low/Central/High projection variants.*
+
 Total population (million)
 | Variant 		| 2011 	| 2024 	| 2036	| 2051 	|
 |  --- 			| --- 	| --- 	| --- 	| --- 	|
@@ -93,11 +101,19 @@ Change in total population from 2024
 
 ## Borough percentage difference in the central projection
 
-This map shows the percentage difference between the central housing-led and trend projections for each borough in a selected year. It provides and indication of the impact that the inclusion of housing development data has on projected population.
+The most significant impact of including housing data in the projections is on the spatial distribution of growth across London.
 
-For areas such where the capacity identified in the SHLAA is large relative to recent population trends, the housing-led model naturally results in far higher projected population than does the trend-based approach (e.g. for 2051, Ealing 14 percent higher, Havering 9 percent, Enfield ?? percent, and Hillingdon, ?? percent).   
+This map shows the percentage difference between the Central housing-led and trend projections for each borough in a selected year. It provides and indication of the impact that the inclusion of housing development data has on projected population.
 
-In areas where less capacity is identified, and especially where the population is ageing, housing-led projections tend to be lower (e.g. Islington –?? percent, Bexley –?? percent, Sutton –?? percent). 
+For areas such where the capacity identified in the SHLAA is large relative to recent population trends, the housing-led model naturally results in far higher projected population than does the trend-based approach, the largest differences by 2051 are:
+* City of London +21 percent higher
+* Ealing 14 percent higher
+* Greenwich 14 percent higher   
+
+In areas where less capacity is identified, and especially where the population is ageing, housing-led projections tend to be lower:
+* Sutton 10 percent lower
+* Richmond upon Thames 9 percent lower
+* Bexley 8 percent lower
 
 <HousingLedVsTrendBoroughDifferenceChoropleth
   {selectedYear}
