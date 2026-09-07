@@ -111,7 +111,7 @@ As with the trend-based model, the housing-led model projects forward one year a
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src="/analysis/population-projections/hl_model_diagram.png" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src="/analysis/population-projections/hl_model_daigram.png" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the housing-led projection model</figcaption>
   </figure>
 </div>
