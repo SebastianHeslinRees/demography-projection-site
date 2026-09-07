@@ -53,13 +53,13 @@ This is total growth over the period of 680 thousand to 1.64 million (Central: 1
 
 ## Population by age
 
-In all variants, the population is projected to grow strongly at older ages, with the number of persons aged 65 and over projected to rise from 1.12 million to between 1.70 million and 1.86 million (Central: 1.78 million). This is a change in the size of between 52 percent and 66 percent (Central: 58 percent) over the projection period.
+In all variants, the population is projected to grow strongly at older ages, with the number of persons aged 65 and over projected to rise from 1.12 million to between 1.70 million (+52 percent) and 1.86 million (+66 percent), with a Central figure of 1.78 million (+58 percent). 
 
 Projected growth of the population aged 18 to 64 ranges from 480 thousand (+8 percent) and 830 thousand (13 percent) (Central: 630 thousand, 10 percent).
 
 In all variants the number of children age 0 to 17 is projected to fall over the first decade from an estimated 1.86 million in 2024. By the end of the period, the projected number ranges from 1.47 million (-20 percent) to 1.93 million (+4 percent) (Central: 1.70 million, -8 percent).
 
-London's median age in 2024 was estimated to be 34.9 years. Over the course of the projection period, London's median age rises to 38.4 years (High), 39.13 years (Central), and 39.5 years (Low). 
+The meidan age of London's population in 2024 was 34.9 years. This is projected to rise to 38.4 years (High), 39.1 years (Central), and 39.5 years (Low). 
 
 <Chart
  chart="Chart"
