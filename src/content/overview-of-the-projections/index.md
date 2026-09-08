@@ -124,11 +124,11 @@ In each annual ‘loop’ of the model, an initial projection for each area is g
 
 2. An alternative average household size is calculated by dividing the private household population by the assumed number of occupied homes, acting as a proxy for households. This value is independent of the age structure of the population and is determined by the total size of the population, the assumed number of communal establishment residents, and the assumed number of occupied homes. 
 
-3. A ‘target’ average household size is calculated by taking a weighted average of the values calculated in the previous two steps.  This is then applied to the assumed number of occupied homes to calculate a target total population. The relative weights applied to the two household sizes is set by an external model parameter. 
+3. A ‘target’ average household size is calculated by taking a weighted average of the values calculated in the previous two steps.  This is then applied to the assumed number of occupied homes to calculate a target total population. The relative weights applied to the two household sizes are set by an external model parameter. 
 
 4. The migration components of the initial population are modified and reapplied to create an initial housing-led population for the area that is consistent with the target total population. 
 
-* The method results in projections with the following characteristics: 
+The method results in projections with the following characteristics: 
 * The size of the population in an area will tend to increase or decrease in line with the assumed number of homes. 
 * The size of the population relative to the number of dwellings is dependent on: 
   * Local patterns of household formation  
@@ -136,13 +136,13 @@ In each annual ‘loop’ of the model, an initial projection for each area is g
   * Assumed proportions of homes occupied by ‘usually resident’ households (i.e. excluding vacancies, second homes, short-term lets) 
   * Age structure of the population – e.g. with higher proportions of older adults resulting in smaller household sizes. 
 
-It therefore reflects a combination of local demographic trends, future housing development, and the existing way that the population forms households and occupies homes.  
+The resulting projections reflect a combination of local demographic trends, future housing development, and the existing way that the population forms households and occupies homes in each area.  
 
-An important limitation is that it does not explicitly account for the characteristics, e.g. size and tenure, of the housing stock, relying on the characteristics of existing homes being implicitly reflected in past migration and household formation data.  
+An important limitation of the method is that it does not explicitly account for the characteristics, e.g. size and tenure, of the housing stock, relying on the characteristics of existing homes being implicitly reflected in past migration and household formation data.  
 
 As such, the results of the model will be less reliable in cases where large numbers of additional homes with characteristics that are significantly different to those of the existing stock are expected. 
 
-*Note: In such situations – e.g. when planning major housing schemes - it is common to apply yield-based methods1 to understand the potential number and characteristics of future residents. While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.*
+*Note: In such situations – e.g. when planning major housing schemes - it is common to apply yield-based methods to understand the potential number and characteristics of future residents. While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.*
 
 ## Constraining to an external population projection 
 
@@ -150,7 +150,7 @@ As such, the results of the model will be less reliable in cases where large num
 
 The final stage of the annual loop is to ‘constrain’ the initial housing-led projection for each area to match the results of an external trend-based projection. 
 
-The process involves applying scaling to the initial housing-led projection, such that the results match (by age and sex) those of the trend-based projection when both are aggregated to the chosen ‘constraining geography’. Migration components are then adjusted to give annual change consistent with the constrained population.  
+The process involves applying scaling to the initial housing-led projection, such that the results match (by age and sex) those of the trend-based projection when both are aggregated to a common ‘constraining geography’. Migration components are then adjusted to give annual change consistent with the constrained population.  
 
 ### Reasons for constraining 
 
@@ -172,13 +172,13 @@ However, while these synthetic flows are useful, they cannot be considered equiv
 
 ## Modelling approach used in previous rounds of projections 
 
-For the current Plan, London’s overall assessed housing need was derived from and, therefore, naturally consistent with the GLA’s trend-based population and household projections. Similarly, for areas outside of London, assessed need and housing targets were based on official trend-based projections of local population and household growth. 
+For the current London Plan, London’s overall assessed housing need was derived from and, therefore, naturally consistent with the GLA’s trend-based population and household projections. Similarly, for areas outside of London, assessed need and housing targets were typically informed by official trend-based projections of local population and household growth. 
 
 This allowed for several simplifying assumptions to be made in the projections: 
 
 1. That the overall population of London could be modelled using a purely trend-based methodology, with no need to separately account for additional population resulting from new housing. 
 2. That future housing development would affect the spatial distribution of population, but not its overall size and age structure. 
-3. That housing development occurring outside of London has no impact on population within London. 
+3. That housing development occurring outside of London did not need to be accounted for in projections of population within it. 
 
 These assumptions were reflected in the design of the housing-led population model: 
 
@@ -194,11 +194,9 @@ While the projections are largely based on the same methods and models as previo
 
 The new standard method for calculating housing need specified in the NPPF is a departure from previous approaches in that the calculations no longer take demographic projections as their starting point, with housing need for each local authority being determined only by the existing number of homes and local housing affordability measures. 
 
-As the calculation of housing need is now independent of demographic projections in the new standard method, housing targets and trend-based projections are no longer naturally consistent with one another. Furthermore, for much of England, building in line with the standard method need figures would result in housing delivery that significantly outpaces the rate of growth in current demographic projections.  
+As the calculation of housing in the standard method is now independent of demographic projections, housing targets and trend-based projections are no longer naturally consistent with one another. Furthermore, for much of England, building in line with the standard method need figures would result in housing delivery that significantly outpaces the rate of growth in current demographic projections.  
 
-Early in the development of the 2024-based projections, it was determined that relying on the assumption that the population of Greater London will grow in line with trend-based projections was no longer appropriate.   
-
-A priority in the development of the updated approach was to ensure that it provided sufficient flexibility and could operate under a wider range of potential housing scenarios.  
+Early in the design of the 2024-based projections, it was determined that relying on the assumption that the population of Greater London will grow in line with trend-based projections was no longer appropriate. A priority in the development of an updated modelling approach was to ensure that it provided sufficient flexibility and could operate under a wider range of potential housing scenarios.  
 
 Without the previous simplifying assumptions that could be made under the old system, it is necessary to consider the relationship between housing and population at different geographic scales, where: 
 
@@ -237,7 +235,7 @@ For the 2024-based projections, the fundamental operation of the model remains l
 
 ### Choice of housing market area geography 
 
-For the development of the 2024-based projections, the GLA constructed intermediate geographies based on work published by the National Housing and Planning Advisory Unit (NHPAU) in 2009. This work aimed to define a set of housing market areas (HMAs) for England and Wales, constructing these areas around the notion of migration or commuting closure, where “*‘closure’ means self-containment as measured by the proportion of such flows which do not cross the boundaries of the HMAs*”.  
+For the development of the 2024-based projections, the GLA constructed intermediate geographies based on work conducted by the National Housing and Planning Advisory Unit (NHPAU) and [published](https://assets.publishing.service.gov.uk/media/5a798979e5274a684690a4ca/1775475.pdf) by the Department of Communities and Local Government in 2010. This work aimed to define a set of housing market areas (HMAs) for England and Wales, constructing these areas around the notion of migration or commuting closure, where “*‘closure’ means self-containment as measured by the proportion of such flows which do not cross the boundaries of the HMAs*”.  
 
 The GLA has updated this approach with more recent commuting and migration data and created a tool that allows sets of housing market areas to be created for different levels of commuting and migration closure. 
 
@@ -250,8 +248,6 @@ The areas used were based on a reproducible and open methodology and that altern
 An HMA geography produced by the tool can be identified by the chosen threshold values of commuting and migration closure. The set of groupings used for the core variants are based on values of 56 percent for commuting closure and 45 percent for migration closure and are accordingly labelled as *HMA5645*. The HMA containing London is made up of a total of 91 districts. 
 
 Additional outputs have been produced on *HMA7255*, which is made up of fewer and larger areas.  Here, the HMA containing London is comprised of 121 districts. 
-
-[add hma maps here
 
 ## Housing assumptions
 
