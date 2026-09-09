@@ -1,6 +1,6 @@
 ---
 title: Housing-led population
-description: Projected population housing-led projections
+description: Housing-led population projections
 section: Demography
 navLabel: Housing-led population
 ---

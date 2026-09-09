@@ -1,6 +1,6 @@
 ---
 title: Trend-based population
-description: Total population and age-related projected trends using output_pq trend data
+description: Total population and age-related projected 
 section: Demography
 navLabel: Trend-based population
 ---
