@@ -43,7 +43,7 @@ The core variants for the 2024-based projections are based on the following scen
 
 The GLA generally suggests the housing-led population projections as the default for most purposes as they capture the potential impacts of future housing delivery and are available at a finer level of spatial detail.  
 
-> We discourage users from relying on the results of a single projection, but to consider the results of multiple variants as well as alternative sources, such as the Subnational Population Projections published by the Office for National Statistics. 
+> Users are discouraged from relying on the results of a single projection. Where possible, it is good practice to consider the results of multiple variants, together with alternative sources, such as the Subnational Population Projections published by the Office for National Statistics. 
 
 ## Overview of the trend-based projections 
 
@@ -304,11 +304,7 @@ The produces an alternative series of population estimates for 2002 to 2021, whi
 
 ### Adjustments to estimates of children   
 
-A second set of adjustments are applied to account for issues identified in recent estimates of the number of children in the population.   
-
-> ONS has been working to address issues with recent international migration estimates of children and the latest official estimates include revisions to the number of children for many local authorities. The revised estimates for mid-2024 have 135k fewer children aged 0 to 15 for England as a whole. Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information
-
-We believe that there have been two separate issues affecting population estimates of children: 
+A second set of adjustments are applied to account for issues identified in recent estimates of the number of children in the population. These issues are: 
 
 * Underestimation of young children in the 2021 census. Because estimates for the period 2011 to 2021 were rebased to be consistent with the results of both censuses, this issue impacts estimates for years prior to 2021 as well as those produced subsequently. 
 
@@ -324,7 +320,9 @@ Adjustments are made to the estimates of population and international migration 
 
 * Children on roll in independent schools by location of school
 
-* Numbers of children on the GP patient register 
+* Numbers of children on the GP patient register
+
+> ONS has been working to address issues with recent international migration estimates of children and the latest official estimates include revisions to the number of children for many local authorities. The revised estimates for mid-2024 have 135k fewer children aged 0 to 15 for England as a whole. Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information
 
 ### Small area population estimates 
 
