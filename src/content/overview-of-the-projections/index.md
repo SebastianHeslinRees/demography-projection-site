@@ -29,16 +29,21 @@ For general use, the GLA produces a core set of variants for both the trend-base
 
 The core variants for the 2024-based projections are based on the following scenarios: 
 
-* Trend-based Central – central fertility scenario, central life expectancy scenario, migration patterns based on 13-years of past data 
-* Trend-based Low - low fertility scenario, low life expectancy scenario, migration patterns based on 10-years of past data 
-* Trend-based High - high fertility scenario, high life expectancy scenario, migration patterns based on 15-years of past data 
-* Housing-led Central – central fertility scenario, central life expectancy scenario, migration patterns based on 13-years of past data 
-* Housing-led Low - low fertility scenario, low life expectancy scenario, migration patterns based on 10-years of past data 
+* Trend-based Central – central fertility scenario, central life expectancy scenario, migration patterns based on 13-years of past data
+  
+* Trend-based Low - low fertility scenario, low life expectancy scenario, migration patterns based on 10-years of past data
+  
+* Trend-based High - high fertility scenario, high life expectancy scenario, migration patterns based on 15-years of past data
+  
+* Housing-led Central – central fertility scenario, central life expectancy scenario, migration patterns based on 13-years of past data
+  
+* Housing-led Low - low fertility scenario, low life expectancy scenario, migration patterns based on 10-years of past data
+  
 * Housing-led High - high fertility scenario, high life expectancy scenario, migration patterns based on 13-years of past data, constrained to the High variant of the trend-based projections.  
 
 The GLA generally suggests the housing-led population projections as the default for most purposes as they capture the potential impacts of future housing delivery and are available at a finer level of spatial detail.  
 
-We discourage users from relying on the results of a single projection, but to consider the results of multiple variants as well as alternative sources, such as the Subnational Population Projections published by the Office for National Statistics. 
+> Users are discouraged from relying on the results of a single projection. Where possible, it is good practice to consider the results of multiple variants, together with alternative sources, such as the Subnational Population Projections published by the Office for National Statistics. 
 
 ## Overview of the trend-based projections 
 
@@ -75,13 +80,15 @@ The results of the projections are largely dependent on the assumptions and meth
 
 Births and deaths are calculated by applying age-specific fertility and mortality rates to the population 
 
-Migration is split into international and internal flows: 
-* International migration flows typically calculated as fixed annual flows that are independent of the population 
+Migration is split into international and internal flows:
+
+* International migration flows typically calculated as fixed annual flows that are independent of the population
+  
 * Internal migration flows between each pair of local authorities are calculated by applying migration rates to the origin population. 
 
 The rates and flows used in the model are based on past estimates and assumptions about how past patterns will change in the future.  
 
-The GLA produces multiple variants of the projections based on different assumptions for each component. For general use, the GLA provides a ‘core’ set of variants, designated as Central, High, and Low. These are intended to cover a reasonable range of possible outcomes and be suitable for use in common planning and policy activities. 
+> The GLA produces multiple variants of the projections based on different assumptions for each component. For general use, the GLA provides a ‘core’ set of variants, designated as Central, High, and Low. These are intended to cover a reasonable range of possible outcomes and be suitable for use in common planning and policy activities. 
 
 Additional projection variants based on a range of scenarios for each component are published on the London Datastore. 
 
@@ -97,8 +104,11 @@ The fertility scenario used for the Central variant is based on the median value
 Unlike fertility and mortality, this approach does not produce explicit high and low scenarios – a given period may give higher net flows for one area, but lower for another. The choice of scenarios used in the core variants was made based on which periods provided an appropriate spread of net migration from the perspective of London.  
 
 For the 2024-based projections, these are: 
-* Low – 10 years 
-* Central – 13 years 
+
+* Low – 10 years
+
+* Central – 13 years
+
 * High – 15 years 
 
 ## Overview of the housing-led projections 
@@ -129,11 +139,17 @@ In each annual ‘loop’ of the model, an initial projection for each area is g
 4. The migration components of the initial population are modified and reapplied to create an initial housing-led population for the area that is consistent with the target total population. 
 
 The method results in projections with the following characteristics: 
+
 * The size of the population in an area will tend to increase or decrease in line with the assumed number of homes. 
+
 * The size of the population relative to the number of dwellings is dependent on: 
-  * Local patterns of household formation  
-  * Assumed numbers of residents in communal establishments 
-  * Assumed proportions of homes occupied by ‘usually resident’ households (i.e. excluding vacancies, second homes, short-term lets) 
+
+  * Local patterns of household formation
+  
+  * Assumed numbers of residents in communal establishments
+  
+  * Assumed proportions of homes occupied by ‘usually resident’ households (i.e. excluding vacancies, second homes, short-term lets)
+  
   * Age structure of the population – e.g. with higher proportions of older adults resulting in smaller household sizes. 
 
 The resulting projections reflect a combination of local demographic trends, future housing development, and the existing way that the population forms households and occupies homes in each area.  
@@ -142,7 +158,7 @@ An important limitation of the method is that it does not explicitly account for
 
 As such, the results of the model will be less reliable in cases where large numbers of additional homes with characteristics that are significantly different to those of the existing stock are expected. 
 
-*Note: In such situations – e.g. when planning major housing schemes - it is common to apply yield-based methods to understand the potential number and characteristics of future residents. While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.*
+> In such situations – e.g. when planning major housing schemes - it is common to apply yield-based methods to understand the potential number and characteristics of future residents. While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.
 
 ## Constraining to an external population projection 
 
@@ -176,8 +192,10 @@ For the current London Plan, London’s overall assessed housing need was derive
 
 This allowed for several simplifying assumptions to be made in the projections: 
 
-1. That the overall population of London could be modelled using a purely trend-based methodology, with no need to separately account for additional population resulting from new housing. 
-2. That future housing development would affect the spatial distribution of population, but not its overall size and age structure. 
+1. That the overall population of London could be modelled using a purely trend-based methodology, with no need to separately account for additional population resulting from new housing.
+
+2. That future housing development would affect the spatial distribution of population, but not its overall size and age structure.
+
 3. That housing development occurring outside of London did not need to be accounted for in projections of population within it. 
 
 These assumptions were reflected in the design of the housing-led population model: 
@@ -200,7 +218,8 @@ Early in the design of the 2024-based projections, it was determined that relyin
 
 Without the previous simplifying assumptions that could be made under the old system, it is necessary to consider the relationship between housing and population at different geographic scales, where: 
 
-* At very local level, there is a clear link, with new homes generally resulting in increases in population 
+* At very local level, there is a clear link, with new homes generally resulting in increases in population
+
 * At national level, any link is unclear and obscured by the impacts of other factors (e.g. migration policy) 
 
 Between these extremes the relationships are more complex. New homes may result in a clear addition to population in the immediate area, but we typically expect the size of the overall net addition to decrease as we consider the impacts over larger scales.  
@@ -217,14 +236,18 @@ This second point reflects the different drivers of short- and long-distance mig
 
 **Long-distance or international moves** tend to be linked to: 
 
-* Pursuit of higher education 
-* Employment opportunities  
+* Pursuit of higher education
+  
+* Employment opportunities
+  
 * Relocation to be closer to family 
 
 **Shorter distance moves**, often labelled “*residential mobility*”, are primarily the result of changes to: 
 
-* Housing needs, e.g. linked to life events such as family formation or separations 
-* Tenures, e.g. purchasing a home and moving out of private rental accommodation 
+* Housing needs, e.g. linked to life events such as family formation or separations
+  
+* Tenures, e.g. purchasing a home and moving out of private rental accommodation
+  
 * Priorities for amenities, e.g. moves to be closer to schools and green space after having children 
 
 We use this distinction as a basis for defining a set of *Housing Market Areas* (HMA), intended to represent areas where most moves within them can be considered as “residential mobility”, i.e. primarily driven by factors related to housing, and most moves between them can be considered as long-distance migration, where other factors dominate.  
@@ -239,8 +262,10 @@ For the development of the 2024-based projections, the GLA constructed intermedi
 
 The GLA has updated this approach with more recent commuting and migration data and created a tool that allows sets of housing market areas to be created for different levels of commuting and migration closure. 
 
-* The main considerations in selecting the HMA geography used in the 2024-basd projections were that: 
-* The housing market area containing London extended beyond the administrative region of London 
+The main considerations in selecting the HMA geography used in the 2024-basd projections were that: 
+
+* The housing market area containing London extended beyond the administrative region of London
+
 * The chosen areas meaningfully reflected underlying commuting and migration patterns 
 
 The areas used were based on a reproducible and open methodology and that alternatives could be readily created and tested for comparison 
@@ -253,7 +278,7 @@ Additional outputs have been produced on *HMA7255*, which is made up of fewer an
 
 All published versions of the housing-led projections incorporate the same assumptions about future housing delivery in London, derived from the 2026 London Strategic Housing Land Availability Assessment, but use alternative scenarios assumed future housing deliver in surrounding districts.  
 
-Note: assumptions about housing delivery for areas outside of London are included in the model as a mechanism for adjusting the relative shares of the wider region’s population within and outside of London. These projections were produced without reference to current or future local plans or assessments of housing capacity in areas outside of London and in no way represent a view of likely future housing delivery in those areas. Where results for areas outside of London are included in the housing-led projections, it is for the purpose of providing transparency about the results for London itself and not as projections intended to be used for decision making within those areas.  
+> Assumptions about housing delivery for areas outside of London are included in the model as a mechanism for adjusting the relative shares of the wider region’s population within and outside of London. These projections were produced without reference to current or future local plans or assessments of housing capacity in areas outside of London and in no way represent a view of likely future housing delivery in those areas. Where results for areas outside of London are included in the housing-led projections, it is for the purpose of providing transparency about the results for London itself and not as projections intended to be used for decision making within those areas.  
 
 For districts outside of London, the central assumption about future housing delivery was derived as follows:  
 
@@ -261,7 +286,7 @@ Objectively assessed housing need for each district was calculated using the Nat
 
 Assumed housing delivery for each district was calculated by multiplying its Standard Method need figure by the ratio of London's assumed annual housing delivery to London's Standard Method need figure. 
 
-At the point the assumptions were set, this ratio was 63 percent (55,800/88,000) for the first ten years of the projection. For the low variant, housing delivery outside of London is assumed to be 15 percent higher than this, for the high variant it is assumed to be 15 percent lower 
+> At the point the assumptions were set, this ratio was 63 percent (55,800/88,000) for the first ten years of the projection. For the low variant, housing delivery outside of London is assumed to be 15 percent higher than this, for the high variant it is assumed to be 15 percent lower 
 
 ## Population estimates
 
@@ -271,7 +296,7 @@ The estimates used in the projections are based on the official ONS mid-year pop
 
 ONS ‘rebased’ past annual population estimates following the 2011 and 2021 censuses, adjusting them such that population change over the preceding decade was consistent with the estimates for the census years.  In the process of creating these rebased estimates, ONS introduced an annual adjustment titled *Unattributable Population Change* (UPC) that was used to represent any change over the decade that they were unable to confidently assign to one of the standard components. 
 
-For some local authorities, UPC is very large. For the series 2012-2021, the average annual adjustments ranged from –4.0k for Camden, to +2.6k for Ealing.   
+> For some local authorities UPC is very large. Between 2012 and 2021, average annual adjustments ranged from –4.0k for Camden, to +2.6k for Ealing.   
 
 The use of UPC to explain past population change can be problematic when producing projections with models that don’t explicitly account for it.  Any UPC in the past estimates is effectively ignored and has no bearing on the projected population. In cases where there is a substantial amount of UPC in the backseries, this tends to result in rates of projected future population change that are inconsistent with those seen in the period of past estimates on which the projections are based. 
 
@@ -279,11 +304,7 @@ The produces an alternative series of population estimates for 2002 to 2021, whi
 
 ### Adjustments to estimates of children   
 
-A second set of adjustments are applied to account for issues identified in recent estimates of the number of children in the population.   
-
-*Note: ONS has been working to address issues with recent international migration estimates of children and the latest official estimates include revisions to the number of children for many local authorities. Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information*
-
-We believe that there have been two separate issues affecting population estimates of children: 
+A second set of adjustments are applied to account for issues identified in recent estimates of the number of children in the population. These issues are: 
 
 * Underestimation of young children in the 2021 census. Because estimates for the period 2011 to 2021 were rebased to be consistent with the results of both censuses, this issue impacts estimates for years prior to 2021 as well as those produced subsequently. 
 
@@ -295,11 +316,18 @@ The GLA has applied adjustments to the estimates used in the latest projections 
 
 Adjustments are made to the estimates of population and international migration of children for all local authorities in England using a process that accounts for: 
 
-* Children on roll in state funded schools by local authority of residence 
-* Children on roll in independent schools by location of school 
-* Numbers of children on the GP patient register 
+* Children on roll in state funded schools by local authority of residence
+
+* Children on roll in independent schools by location of school
+
+* Numbers of children on the GP patient register
+
+> ONS has been working to address issues with recent international migration estimates of children and the latest official estimates include revisions to the number of children for many local authorities. The revised estimates for mid-2024 have 135k fewer children aged 0 to 15 for England as a whole. Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information
 
 ### Small area population estimates 
 
 Population estimates for small areas are based on the published ONS series but are rescaled to be consistent with the local authority level estimates used.  
 
+Estimates for electoral wards are best-fit from estimates for Lower Super Output Areas (LSOA). This is less precise than fitting from Output Area data (which is how ward estimates published by ONS are produced). Some inputs to the model are not readily available below LSOA-level and the decision was made to prioritise the consistency of inputs to the model over the precision of fit of those that are available for Output Areas.  
+
+> Users should be aware that ward-level outputs from the projections will not be fully consistent with other sources of published data for wards

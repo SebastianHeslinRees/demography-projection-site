@@ -5,67 +5,96 @@ section: Demography
 navLabel: Report summary
 ---
 
-## Background 
+## Introduction 
 
-The GLA 2024-based population projections were published in August 2026. This release includes both [trend-based](https://data.london.gov.uk/dataset/trend-based-population-projections-vqzo7) and [housing-led](https://data.london.gov.uk/dataset/housing-led-population-projections-2zp76) population projections for the period up to mid-2051. [Household projections](https://data.london.gov.uk/dataset/household-projections-2j8dl) consistent with the trend-based population projections are also available. 
+The GLA 2024-based population projections were published in August 2026. 
 
-Multiple variants of the projections have been produced based on different scenarios of future fertility, mortality and migration patterns. These include a ‘core’ set of projections, intended to provide a reasonable basis for planning and policymaking in London. 
+The projections are based on population estimates data up to mid-2024. They were produced without reference to the 2025 mid-year population estimates published by ONS in July 2026, which showed a fall in London’s population from the previous year.
 
 The projections incorporate the results of the 2026 London Strategic Housing Land Availability Assessment (SHLAA), the first major update to the housing assumptions used in the projections since 2017. 
 
-The projections are based on population estimates data up to mid-2024. They were produced without reference to the 2025 mid-year population estimates published by ONS in July 2026, which showed a fall in London’s population from the previous year.  
+The GLA produces both ***trend-based*** and ***housing-led*** population projections. 
 
-This document provides an overview of the results of the core projections for London. The full outputs from the projections are available to download from the London Datastore. For most users we recommend using the [London Population Projections Explorer](https://apps.london.gov.uk/population-projections/) to view the results for local areas within London. 
+* *Trend-based projections* are typically most useful for understanding demographic change at larger scales and allow for comparison of trends in London with those in other regions or England as a whole.
 
-The GLA regularly updates its projections as new data become available. 2025-based projections are provisionally scheduled for publication early in 2027. 
+* *Housing-led projections* are recommended for applications where the focus is on population change within London as they are available for small areas and capture the potential impacts of housing on the spatial distribution of population. 
+
+Multiple variants of the projections have been produced based on different scenarios of future fertility, mortality and migration patterns. These include a set of ***core variants***, intended to cover a range of potential outcomes that provide a useful basis for planning and policymaking.
+
+This site provides an overview of the results of the core variants for London. This is broken into separate sections for **population** and **components of change**, and **trend-based** and **housing-led**. 
+
+A further section provides a comparison of the results of the two projection types, including a map showing the differences in the spatial distribution of population.
+
+An explanation of the different projection types, the methods used to produce them, and the scenarios used is provided in ***Overview of the projections***.  
+
+Two further sections provide an overview of the data used in the production of the projections, including a breakdown of assumed housing development by local authority and *component*. 
+
+> The GLA regularly updates its projections as new data become available. 2025-based projections are provisionally scheduled for publication early in 2027. 
 
 ## Key results 
 
-From a 2024 starting population of 9.13 million in 2024, the total population of London is projected to grow for the duration of the projection in all core variants. 
+1. **The total population of London is projected to grow in all core variants** 
 
-Total population (million)
-| Variant 		| 2011 	| 2024 	| 2036	| 2051 	|
-|  --- 			| --- 	| --- 	| --- 	| --- 	|
-| trend-based low 	| 8.20 	| 9.13	| 9.52	| 9.76	| 
-| trend-based central 	| 8.20 	| 9.13	| 9.67	| 10.11	| 
-| trend-based high 	| 8.20 	| 9.13	| 9.82	| 10.49	|
-| housing-led low 	| 8.20 	| 9.13	| 9.51	| 9.82 	|
-| housing-led central 	| 8.20 	| 9.13	| 9.69	| 10.26	|
-| housing-led high 	| 8.20 	| 9.13 	| 9.88	| 10.77	|
+* From **9.13 million** in 2024
+  
+* To between **9.51 million** and **9.88 million** in 2036 (annualised growth of 32k to 62k)
 
-Change in total population from 2024
-| Variant 		|   2036		| 2051 		|
-|  --- 			|   --- 		| --- 		|
-| trend-based low 	|   +390k (4.2%)	| +630k (6.9%)	|
-| trend-based central	|   +540k (5.9%)	| +970k (10.7%)	|
-| trend-based high 	|   +690k (7.5%)	| +1.36m (14.9%)|
-| housing-led low 	|   +380k (4.2%)	| +680k (7.5%)	|
-| housing-led central 	|   +560k (6.2%)	| +1.13m (12.4%)|
-| housing-led high 	|   +740k (8.2%)	| +1.64m (17.9%)|
+* And **9.76 million** to **10.77 million** by 2051 (annualised growth of 21k to 61k)
 
-Projected change varies greatly between age groups:
-- The population of Londoners age 65 and over is projected to increase by more than 55 percent in all variants, from a starting value of 1.1 million in 2024
-- This contrast with projected numbers of school-age children, which are set to decrease over the next decade in even the most optimistic scenarios, following years of declining birth rates and an increase in outflows of children in the years since the COVID-19 pandemic. 
 
-Central variants show only modest changes in annual births from the 2024 figure of 106k. However, the high and low variants show a wide range of potential future outcomes: from a continuation of recent trends, falling as low as 92k by 2032, to a strong recovery, rising by as much as 19 percent to 126k in 2045. This wide range reflects the inherent uncertainty of future fertility trends. 
+2. Projected change varies greatly between age groups:
 
-Despite all variants assuming continued improvements in life expectancy over the coming decades, annual deaths are projected to increase as the population ages, from 51k in 2024 to 66k-75k in 2051. 
+* **The population of Londoners aged 65 and over is projected to increase by more than 55 percent in all variants**. 
 
-The ageing population means that even under the most optimistic scenarios, natural change is not projected to rise far above the 2024 level of 55k – already more than 30k below the 2011 peak.  The Central variants see a gradual decline, falling below 40k by the end of the period. The combination of low fertility/low life expectancy scenarios used in the Low variants results in natural change dropping to 19k by 2051. 
+* **The number of school-age children is projected to decrease over the next decade in all variants**. In the longer term, projected numbers span a wide range, reflecting the inherent uncertainty in future fertility rate trends.
 
-## Impacts of housing assumptions 
+* **The median age of London's population is projected to rise from 34.9 years to 38.6 to 39.6 years by 2051**. However, it is set to remain significantly younger than that of the rest of the country.
 
-The housing-led projections show higher projected overall growth for London than do the equivalent trend-based versions.  For the High variants, the difference in population by 2051 is 280k. 
 
-These differences reflect the assumptions about relative levels of housing delivery within and outside London used in these projections.  Assuming higher levels of delivery in surrounding districts acts to reduce projected growth within London, and vice versa.  
+3. **Natural change (births minus deaths) is not projected to return to past levels** 
 
-The most significant impacts of including assumed housing delivery in the projections are seen in the projected distribution of population within London.  Comparing the results of the Central variants at local authority level shows striking differences in projected population.  
+* Annual deaths are projected to increase as the population ages
+
+* In the most optimistic scenarios, it plateaus at 2024 levels (55k, already 30k below the 2011 peak)
+
+* In all other variants it declines - falling to between 19k and 40k by 2051. 
+
+
+#### Impacts of housing assumptions 
+
+Accounting to housing delivery in line with capacity identified in the SHLAA results in higher absolute population growth
+
+* Projected growth in the housing-led projections is up to 280k higher than in the equivalent trend-based variants.
+
+* These differences depend on highly uncertain assumptions about relative levels of future housing delivery in London and the wider region and should be interpreted with caution. 
+
+
+The more significant impacts of including housing are seen in the projected **distribution** of population within London.
+
+* future growth is concentrated in areas with large amounts of identified capacity, with the population of some existing wards projected to more than double. 
+
+* In areas with limited capacity and ageing populations, the number of residents is projected to gradually decline over coming decades.
+
+## Accessing the projections
+
+The full outputs from the projections are available to download from the London Datastore:
+
+* [Trend-based population projections](https://data.london.gov.uk/dataset/trend-based-population-projections-vqzo7)
+
+* [Housing-led population projections](https://data.london.gov.uk/dataset/housing-led-population-projections-2zp76)
+
+* [Household projections](https://data.london.gov.uk/dataset/household-projections-2j8dl) consistent with the trend-based population projections
+
+
+The [London Population Projections Explorer](https://apps.london.gov.uk/population-projections/) provides a simple interface to allow users to visualise the results of the housing-led projections and to create custom charts and data extracts.  
 
 ## Updates to the projections and reporting
 
 It is recommended that users of the projections periodically check the [London Datastore](https://data.london.gov.uk/demography/population-and-household-projections) for updates, additions, and corrections to the outputs. We may produce additional variants over time to meet specific user needs. 
 
-Likewise reporting (including this site) and the [Population Projections Explorer tool](https://apps.london.gov.uk/population-projections/) are likely to receive updates and improvements over the coming months.
+Likewise, both this site and the [Population Projections Explorer tool](https://apps.london.gov.uk/population-projections/) may receive updates and improvements over time. 
+
+We welcome feedback from users as we work to make the outputs of the projections as accessible and useful as possible.
 
 For more information please contact the GLA's City Intelligence Demography Team at <demography@london.gov.uk>
 
