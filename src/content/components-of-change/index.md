@@ -32,14 +32,19 @@ While the headline numbers may suggest that migration makes only a relatively mo
 ### Migration
 
 Projected migration rates and flows used in the core variants are based on the periods: 
-- Central: 2011-12 to 2023-24 (13 years) 
-- Low: 2014-15 to 2023-24 (10 years) 
-- High: 2009-10 to 2023-24 (15 years) 
+
+* Central: 2011-12 to 2023-24 (13 years) 
+
+* Low: 2014-15 to 2023-24 (10 years) 
+
+* High: 2009-10 to 2023-24 (15 years) 
 
 At the start of the projection, total net migration ranges from -5k (Low) to +2k (Central), and +7k (High).
 These totals are comprised of:
-- net international flows of +115k (Low), +109 (Central), and +106k (High)
-- net internal flows of: -119k (Low), -107k (Central), and -100k (High) 
+
+* net international flows of +115k (Low), +109 (Central), and +106k (High)
+
+* net internal flows of: -119k (Low), -107k (Central), and -100k (High) 
 
 While international flows remain fixed over the projection period, internal migration varies as the populations within and outside of London change. Projected outflows from London tend to increase over time as the city grows. By the end of the projection period, total net outflows are similar across the variants, ranging from 21k (Low) to 23k (High). 
 
@@ -90,21 +95,30 @@ While international flows remain fixed over the projection period, internal migr
 ### Births, deaths & natural change
 
 Early differences in projected births between variants are primarily driven by diverging fertility rates. By 2032, annual births are projected to change by: 
-- Low -11k (-11 percent) 
-- Central +1k (+1 percent)
-- High +14k (+13 percent) 
+
+* Low -11k (-11 percent) 
+
+* Central +1k (+1 percent)
+
+* High +14k (+13 percent) 
 
 Fertility rates remain constant after this point and subsequent rises in annual births reflect growth in number of potential mothers in the population. Even in the High scenario, annual births do not regain their 2012 peak of 134k, peaking at 126k in 2045.
 
 Despite mortality rates falling over time in each of the core variants, annual deaths rise steadily as the population ages, from 51k in 2024 to: 
-- Low 76k (+51 percent) 
-- Central 72k (+43 percent)
-- High 67k (+32 percent)
+
+* Low 76k (+51 percent) 
+
+* Central 72k (+43 percent)
+
+* High 67k (+32 percent)
 
 Starting from +55k in 2024, the three core variants span a wide range of projected natural change by the end of the projection period: 
-- Low +19k
-- Central +36k 
-- High +55k
+
+* Low +19k
+
+* Central +36k 
+
+* High +55k
 
 London's natural change remains positive across all core scenarios. By contrast, natural change for England as a whole becomes negative as early as 2025 (Low variant) and no later than 2028 (High variant).
 

@@ -72,14 +72,20 @@ While the headline numbers may suggest that migration makes only a relatively mo
 
 ### Migration
 Local (ward and MSOA) migration patterns used in the housing-led projections are based on the periods: 
-- Central: 2011-12 to 2023-24 (13 years)
-- Low: 2014-15 to 2023-24 (10 years) 
-- High: 2011-12 to 2023-24 (13 years)
+
+* Central: 2011-12 to 2023-24 (13 years)
+
+* Low: 2014-15 to 2023-24 (10 years)
+  
+* High: 2011-12 to 2023-24 (13 years)
   
 The housing-led projections are constrained to the match the results of the equivalent variants of the trend-based projections for the wider region. The migration rates and flows used in these are based on the periods: 
-- Central: 2011-12 to 2023-24 (13 years)
-- Low: 2014-15 to 2023-24 (10 years) 
-- High: 2009-10 to 2023-24 (15 years)
+
+* Central: 2011-12 to 2023-24 (13 years)
+
+* Low: 2014-15 to 2023-24 (10 years) 
+
+* High: 2009-10 to 2023-24 (15 years)
 
 Migration flows in the housing-led model are influenced by housing capacity as well as past trends. Assumed housing development within London is the same across all projections, but differs for surrounding regions. For the Low variant, 15 percent more development is assumed outside of London than the Central, which leads to London receiving a smaller share of the wider regions overall population. The High variant assumes 15 percent less development outside London than the Central and a larger share of overall population.
 
@@ -99,9 +105,12 @@ Migration is not broken down by international/internal in the housing-led projec
 ### Births, deaths & natural change
 
 Early differences in projected births between variants are primarily driven by diverging fertility rates. By 2032, annual births are projected to change by:
-- Low -13k (-13 percent) 
-- Central -2k (-2 percent)  
-- High +11k (+10 percent)  
+
+* Low -13k (-13 percent)
+
+* Central -2k (-2 percent)  
+
+* High +11k (+10 percent)  
 
 Fertility rates remain constant after this point and subsequent rises in annual births reflect growth in number of potential mothers in the population. Even in the high scenario, annual births do not regain their 2012 peak of 134k, reaching 125k in 2046.
 
@@ -114,15 +123,21 @@ Fertility rates remain constant after this point and subsequent rises in annual 
  source="Housing-led population projections"
  />
 
-Despite mortality rates falling over time in each of the core variants, numbers of annual deaths rise steadily as the population ages, from 51k in 2024 to: 
-- Low 76k (+50 percent) 
-- Central 73k (+43 percent)  
-- High 68k (+34 percent)
+Despite mortality rates falling over time in each of the core variants, numbers of annual deaths rise steadily as the population ages, from 51k in 2024 to:
+
+* Low 76k (+50 percent) 
+
+* Central 73k (+43 percent)  
+
+* High 68k (+34 percent)
 
 Starting from a value of 55k in 2024, the three core variants span a wide range of projected natural change by the end of the projection period:
-- Low 19k 
-- Central 36k 
-- High 55k
+
+* Low 19k 
+
+* Central 36k 
+
+* High 55k
 
 | Variant 		| Year 		| Births 	| Deaths 	| Natural change 	|
 |  --- 			| --- 		| --- 		| --- 		| --- 			|
@@ -146,9 +161,12 @@ Starting from a value of 55k in 2024, the three core variants span a wide range 
  />
 
 Starting from a value of 55k in 2024, the three core variants span a wide range of projected natural change by the end of the projection period: 
-- 23k (low) 
-- 39k (central) 
-- 58k (high) 
+
+* Low 23k 
+
+* Central 39k 
+
+* High 58k
 
 <Chart
  chart="Chart"
@@ -166,9 +184,12 @@ Age-specific fertility rates (ASFR) describe the average number of births per wo
 Total fertility rate (TFR) is a commonly used statistic that summarises the overall level of fertility within a population. It is defined as the average number of children that a woman would have during her lifetime if she experienced the current age-specific fertility rates throughout her reproductive years.
 
 London's TFR last peaked at around 1.9 in 2008.  Fertility rates have been falling since, with London's TFR estimated to be under 1.4 at the start of the projection period.  By 2032, TFRs for London are assumed to be:
-- Low 1.1 
-- Central 1.3 
-- High 1.4 
+
+* Low 1.1 
+
+* Central 1.3 
+
+* High 1.4 
 
 The combined effect of changes in fertility rates and potential mothers in the population can be seen in the numbers of births by mother's age.
 
