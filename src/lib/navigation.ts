@@ -19,7 +19,7 @@ export const navigation = [
 	{
 		title: 'Report summary',
 		id: 'report-summary',
-		href: '',
+		href: '/',
 		children: []
 	},
 	{
@@ -69,5 +69,5 @@ export const navigation = [
 		id: 'data-sources',
 		href: '/data-sources',
 		children: []
-	},
+	}
 ];
