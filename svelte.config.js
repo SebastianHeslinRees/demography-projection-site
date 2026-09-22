@@ -8,29 +8,27 @@ import { mdsxConfig } from './mdsx.config.ts';
 const dev = process.env.NODE_ENV === 'development';
 
 const config = {
-    preprocess: [vitePreprocess(), mdsx(mdsxConfig)],
-    kit: {
-        alias: {
-            '$content/*': '.velite/*',
-        },
-        adapter: adapter(),
-        prerender: {
-            entries: ['*', ...contentIndex.map((d) => d.slugFull)],
-            handleMissingId: 'ignore',
-            handleHttpError: 'warn',
-        },
-        paths: { base: dev ? '' : '/analysis/population-projections' },
-    },
-    onwarn: (warning, handler) => {
-        if (warning.code === 'css_unused_selector') return;
-        if (warning.code === 'a11y_no_noninteractive_tabindex') return;
-        if (warning.code === 'vite-plugin-svelte-preprocess-many-dependencies')
-            return;
-        if (warning.code === 'script_context_deprecated') return;
-        if (warning.code === 'hydration_mismatch') return;
-        handler(warning);
-    },
-    extensions: ['.svelte', '.svx', '.md'],
+	preprocess: [vitePreprocess(), mdsx(mdsxConfig)],
+	kit: {
+		alias: {
+			'$content/*': '.velite/*'
+		},
+		adapter: adapter(),
+		prerender: {
+			entries: ['*', ...contentIndex.map((d) => d.slugFull)],
+			handleMissingId: 'ignore'
+		},
+		paths: { base: dev ? '' : '/analysis/population-projections' }
+	},
+	onwarn: (warning, handler) => {
+		if (warning.code === 'css_unused_selector') return;
+		if (warning.code === 'a11y_no_noninteractive_tabindex') return;
+		if (warning.code === 'vite-plugin-svelte-preprocess-many-dependencies') return;
+		if (warning.code === 'script_context_deprecated') return;
+		if (warning.code === 'hydration_mismatch') return;
+		handler(warning);
+	},
+	extensions: ['.svelte', '.svx', '.md']
 };
 
 export default config;
