@@ -70,8 +70,8 @@
 	<div class="h-[500px] md:px-4" id="header">
 		<!--TODO: fixed height may need adjustment-->
 		<div class="container relative mx-auto flex h-full pb-48 pt-24">
-			<div class="prose responsive">
-				<h1 class="headline format pt-12">{title}</h1>
+			<div class="flow-prose prose">
+				<h1 class="headline text-color-text pt-12">{title}</h1>
 
 				{#if subTitle}
 					<p

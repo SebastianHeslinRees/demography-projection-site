@@ -33,7 +33,7 @@
 				/>
 				<div class="flex flex-col">
 					<span class="product label-sm text-color-interactive-primary"> Previous </span>
-					<span class="product body-lg responsive leading-snug">{prevPage.title}</span>
+					<span class="body-lg product leading-snug">{prevPage.title}</span>
 				</div>
 			</Button>
 		{/if}
@@ -49,7 +49,7 @@
 			>
 				<div class="flex flex-col">
 					<span class="product label-sm text-color-interactive-primary"> Next </span>
-					<span class="product body-lg responsive leading-snug">{nextPage.title}</span>
+					<span class="body-lg product leading-snug">{nextPage.title}</span>
 				</div>
 				<Icon
 					src={ArrowRightCircle}

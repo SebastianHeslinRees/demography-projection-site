@@ -49,7 +49,7 @@
 			{/snippet}
 			{#snippet main()}
 				<div class="flex">
-					<div class={`${prose ? 'prose' : 'w-full'} responsive px-8 py-4`}>
+					<div class={`${prose ? 'prose flow-prose' : 'w-full'} px-8 py-4`}>
 						{@render children()}
 					</div>
 					{#if tocItems?.length}
