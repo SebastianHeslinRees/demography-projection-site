@@ -55,7 +55,7 @@ The GLA’s trend-based population projections are produced using a multi-region
 
 The cohort component approach is essentially a framework for accounting for population change through the mechanisms of births, deaths, and migration – often referred to as “components of change”.   
 
-Cohort component models typically begin with a base population estimate and then project forward one period at a ticlass="w-full rounded-lg border border-transparent"me (a single year in this case), ageing-on the population, calculating births, deaths, and migration flows, and then accounting for the impact of these to arrive at the population for the end of the period. 
+Cohort component models typically begin with a base population estimate and then project forward one period at a time (a single year in this case), ageing-on the population, calculating births, deaths, and migration flows, and then accounting for the impact of these to arrive at the population for the end of the period. 
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
