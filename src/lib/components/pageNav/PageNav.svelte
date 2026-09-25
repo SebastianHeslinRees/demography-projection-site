@@ -9,7 +9,12 @@
 	// An Array of all the pages
 	const pages = navigation.flatMap((p) => [p, ...(p.children.length ? p.children : [])]);
 
-	const activeIndex = $derived(pages.findIndex((p) => p.href === page.data.metadata.slugFull));
+	// Home page slug is /index not /
+	const pageSlug = $derived(
+		page.data.metadata.slugFull === '/index' ? '/' : page.data.metadata.slugFull
+	);
+
+	const activeIndex = $derived(pages.findIndex((p) => p.href === pageSlug));
 
 	const hasActivePage = $derived(activeIndex !== -1);
 	const hasPrevPage = $derived(hasActivePage && activeIndex > 0);

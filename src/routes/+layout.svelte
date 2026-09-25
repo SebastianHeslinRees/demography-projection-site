@@ -8,7 +8,6 @@
 	import { Bars3, XMark } from '@steeze-ui/heroicons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 
-	import { page } from '$app/state';
 	import { sidebarState } from '$lib/state.svelte';
 	import {
 		AnalyticsAndCookieConsent,
@@ -70,21 +69,19 @@
 <div class="flex min-h-dvh flex-col">
 	<div class="sticky top-0 z-50">
 		<Header>
-			{#if page.url.pathname !== resolve('/')}
-				<Button
-					variant="square"
-					size="sm"
-					emphasis="secondary"
-					class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
-					onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
-				>
-					{#if !sidebarState.state.isOpen}
-						<Icon src={Bars3} class="h-5 w-5"></Icon>
-					{:else}
-						<Icon src={XMark} class="h-5 w-5"></Icon>
-					{/if}
-				</Button>
-			{/if}
+			<Button
+				variant="square"
+				size="sm"
+				emphasis="secondary"
+				class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
+				onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
+			>
+				{#if !sidebarState.state.isOpen}
+					<Icon src={Bars3} class="h-5 w-5"></Icon>
+				{:else}
+					<Icon src={XMark} class="h-5 w-5"></Icon>
+				{/if}
+			</Button>
 			<a href={resolve('/')}>
 				<span class="product body font-semibold">
 					<span class="max-sm:hidden">GLA 2024-based</span>
@@ -99,6 +96,7 @@
 		subTitle={data.metadata.description}
 		image={data.metadata.heroImage}
 		intro={data.metadata.intro}
+		// isHomePage={page.url.pathname === resolve('/')} // ?? Is this the right font size?
 	></PageHead>
 
 	<PageContainer {tocItems}>
