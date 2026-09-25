@@ -31,7 +31,7 @@
 		>
 			{#snippet main()}
 				<!-- <div class="grid-gutter relative flex p-4 xl:pl-8 2xl:pl-16"> -->
-				<div class="grid-gutter relative flex lg:py-4 xl:pl-8 2xl:pl-16">
+				<div class="grid-gutter relative flex lg:p-4 xl:pl-8 2xl:pl-16">
 					<div class="w-full py-4">
 						<div class="flow-prose prose">
 							{@render children()}
