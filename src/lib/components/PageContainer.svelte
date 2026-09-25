@@ -4,9 +4,8 @@
 
 	import { navigation } from '$lib/navigation';
 	import { sidebarState } from '$lib/state.svelte';
-	import { AppShell, NavigationMenu, Sidebar } from '@ldn-viz/ui';
+	import { AppShell, findActiveItem, NavigationMenu, Sidebar } from '@ldn-viz/ui';
 	import type { Snippet } from 'svelte';
-	import { findActiveItem } from './@ldn-viz/navigationMenu/utils';
 	import Toc from './toc/Toc.svelte';
 
 	let activeMenuItem = $derived(findActiveItem(navigation, page, resolve));
