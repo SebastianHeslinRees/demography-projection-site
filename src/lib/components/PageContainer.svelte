@@ -4,11 +4,13 @@
 
 	import { navigation } from '$lib/navigation';
 	import { sidebarState } from '$lib/state.svelte';
-	import { AppShell, findActiveItem, NavigationMenu, Sidebar } from '@ldn-viz/ui';
+	import { AppShell, NavigationMenu, Sidebar } from '@ldn-viz/ui';
 	import type { Snippet } from 'svelte';
 	import Toc from './toc/Toc.svelte';
 
-	let activeMenuItem = $derived(findActiveItem(navigation, page, resolve));
+	let activeMenuItem = $derived(
+		navigation.find((item) => resolve(item.href as any) === page.url.pathname)
+	);
 
 	interface Props {
 		tocItems?: any[];
