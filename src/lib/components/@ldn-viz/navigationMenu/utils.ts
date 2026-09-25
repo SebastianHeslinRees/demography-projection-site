@@ -1,4 +1,4 @@
-import type { NavigationMenuItemProps } from './types';
+import type { NavigationMenuItemProps } from './types.ts';
 
 /*
  	USAGE: import page and resolve in your sveltekit app. Pass to the function and bing the resulting id to NavigationMenu 
@@ -15,28 +15,28 @@ import type { NavigationMenuItemProps } from './types';
 */
 
 const getItems = (item: NavigationMenuItemProps): NavigationMenuItemProps[] => {
-    return [item, ...(item.children || []).flatMap((it) => getItems(it))];
+	return [item, ...(item.children || []).flatMap((it) => getItems(it))];
 };
 
 export const findActiveItem = (
-    items: NavigationMenuItemProps[],
-    page: { url?: URL },
-    resolve: (url: string) => string,
+	items: NavigationMenuItemProps[],
+	page: { url?: URL },
+	resolve: (url: string) => string
 ) => {
-    let bestMatch: NavigationMenuItemProps | undefined = undefined;
+	let bestMatch: NavigationMenuItemProps | undefined = undefined;
 
-    const flattenedItemList = (items || [])?.flatMap((it) => getItems(it));
+	const flattenedItemList = (items || [])?.flatMap((it) => getItems(it));
 
-    for (const item of flattenedItemList) {
-        if (page.url?.pathname.startsWith(resolve(item.href || '/'))) {
-            const itemPath = item?.href ?? '';
-            const bestMatchPath = bestMatch?.href ?? '';
+	for (const item of flattenedItemList) {
+		if (page.url?.pathname.startsWith(resolve(item.href || '/'))) {
+			const itemPath = item?.href ?? '';
+			const bestMatchPath = bestMatch?.href ?? '';
 
-            if (itemPath.split('/').length > bestMatchPath.split('/').length) {
-                bestMatch = item;
-            }
-        }
-    }
+			if (itemPath.split('/').length > bestMatchPath.split('/').length) {
+				bestMatch = item;
+			}
+		}
+	}
 
-    return bestMatch;
+	return bestMatch;
 };
