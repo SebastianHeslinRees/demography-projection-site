@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import PageContainer from '$lib/components/PageContainer.svelte';
 	import PageHead from '$lib/components/PageHead.svelte';
@@ -17,14 +16,11 @@
 		CookieControlSettings,
 		Footer,
 		Header,
-		HeaderTitle,
 		PrivacyPolicyLink,
 		Theme,
 		ThemeSwitcher
 	} from '@ldn-viz/ui';
 	import '../app.postcss';
-
-	import { PageMetadata } from '@ldn-viz/ui';
 
 	let breakPoint: number = $state(0);
 
@@ -89,20 +85,25 @@
 					{/if}
 				</Button>
 			{/if}
-			<HeaderTitle base={resolve('/')}>GLA 2024-based Population Projections Report</HeaderTitle>
+			<a href={resolve('/')}>
+				<span class="product body font-semibold">
+					<span class="max-sm:hidden">GLA 2024-based</span>
+					Population Projections Report
+				</span>
+			</a>
 		</Header>
 	</div>
 
-<PageHead
-	title={data.metadata.title}
-	subTitle={data.metadata.description}
-	image={data.metadata.heroImage}
-	intro={data.metadata.intro}
-></PageHead>
+	<PageHead
+		title={data.metadata.title}
+		subTitle={data.metadata.description}
+		image={data.metadata.heroImage}
+		intro={data.metadata.intro}
+	></PageHead>
 
-<PageContainer {tocItems}>
-	{@render children()}
-</PageContainer>
+	<PageContainer {tocItems}>
+		{@render children()}
+	</PageContainer>
 
 	<Footer showCiuLogo>
 		<div class="pb-4 text-sm lg:w-1/6">
@@ -110,11 +111,7 @@
 				<h3 class="mb-1 font-semibold">Links</h3>
 				<ul class="text-color-text-muted">
 					<li>
-						<a
-							href="https://data.london.gov.uk/demography"
-							target="_blank"
-							class="hover:underline"
-						>
+						<a href="https://data.london.gov.uk/demography" target="_blank" class="hover:underline">
 							London Data Store
 						</a>
 					</li>
@@ -126,11 +123,14 @@
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-muted">
-					<li><a href="mailto:demography@london.gov.uk?subject=Population Projections Report">demography@london.gov.uk</a></li>
+					<li>
+						<a href="mailto:demography@london.gov.uk?subject=Population Projections Report"
+							>demography@london.gov.uk</a
+						>
+					</li>
 				</ul>
 			</nav>
 		</div>
-
 
 		{#snippet footerCookieMenu()}
 			<div class="flex justify-between">
