@@ -106,7 +106,7 @@
 	</PageContainer>
 
 	<Footer showCiuLogo>
-		<div class="pb-4 text-sm lg:w-1/6">
+		<div class="product body-sm pb-4 lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Links</h3>
 				<ul class="text-color-text-muted">
@@ -119,7 +119,7 @@
 			</nav>
 		</div>
 
-		<div class="pb-4 text-sm lg:w-1/6">
+		<div class="product body-sm pb-4 lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-muted">
@@ -134,7 +134,7 @@
 
 		{#snippet footerCookieMenu()}
 			<div class="flex justify-between">
-				<ul class="flex space-x-2">
+				<ul class="label-sm-tight flex space-x-2">
 					<li><CookieControlSettings /></li>
 					<li><PrivacyPolicyLink /></li>
 				</ul>
