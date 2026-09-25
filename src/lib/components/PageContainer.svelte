@@ -3,8 +3,6 @@
 	import { page } from '$app/state';
 
 	import { navigation } from '$lib/navigation';
-	// import { extSidebarState } from '$lib/state/sidebarState.svelte';
-	// import { sidebarOpen } from '$lib/state.svelte';
 	import { sidebarState } from '$lib/state.svelte';
 	import { AppShell, NavigationMenu, Sidebar } from '@ldn-viz/ui';
 	import type { Snippet } from 'svelte';
@@ -14,13 +12,11 @@
 	let activeMenuItem = $derived(findActiveItem(navigation, page, resolve));
 
 	interface Props {
-		//Treat the content as prose
-		prose?: boolean;
 		tocItems?: any[];
 		children: Snippet;
 	}
 
-	let { children, tocItems, prose = true }: Props = $props();
+	let { children, tocItems }: Props = $props();
 </script>
 
 <div
@@ -44,7 +40,7 @@
 			</div>
 		{/snippet}
 		{#snippet sidebar()}
-			<div class="fixed inset-x-0 bottom-0 top-[50px] z-50 xl:absolute xl:inset-y-0">
+			<div class="fixed bottom-0 left-0 top-[50px] z-30 xl:absolute xl:inset-y-0">
 				<Sidebar width="slim" sidebarId="sideNav" theme="light" bind:state={sidebarState.state}>
 					{#snippet unstyledContent()}
 						<div class="px-6 pt-6 xl:sticky xl:top-[50px]">
