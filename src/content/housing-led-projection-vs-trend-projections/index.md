@@ -21,7 +21,9 @@ The size of the impact is dependent on the assumptions made about the relative l
 
 In all scenarios, housing delivery within London is assumed to be in line with the capacity identified in the 2026 Strategic Housing Land Availability Assessment - 56k per year over the period 2026-27 to 2035-36.  Given that delivery in a single year has not exceeded 41k at any point in the last 20 years, and that annual growth in London has slowed over the last decade, it seems reasonable to assume that projected growth in the Central and High housing-led variants would be higher than in the equivalent trend-based outputs. 
 
-> The assumptions about future housing development outside of London used in these projections are not based on analysis of capacity or judgment about the likelihood of any specific area delivering housing in line with assessed need. The NPPF Standard Method is used only as a mechanism for setting relative levels within the model. Scenarios were chosen on the basis that they reflected housing delivery in London being nominally in line with/above/below that of the wider region. These housing scenarios are used together with the scenarios of fertility, mortality, etc, primarily as a means to differentiate the Low/Central/High projection variants.
+Given that London's population growth has slowed over the last decade, it seems reasonable that housing-led projections based on this assumed level of delivery would result in higher populations than the equivalent trend-based outputs. 
+
+> The different scenarios of housing delivery are intended to reflect housing delivery in London being notionally in line with/above/below that of the wider region. 
 
 Total population (million)
 | Variant 		| 2011 	| 2024 	| 2036	| 2051 	|
