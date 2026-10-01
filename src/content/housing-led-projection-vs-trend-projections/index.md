@@ -19,7 +19,7 @@ The housing-led projections show higher projected overall growth for London than
 
 The size of the impact is dependent on the assumptions made about the relative levels of housing delivery within and outside London used in the projections. 
 
-In all scenarios, housing delivery within London is assumed to be in line with the capacity identified in the 2026 Strategic Housing Land Availability Assessment - 56k per year over the period 2026-27 to 2035-36. This is high in the context of past delivery, which has not exceeded 41k at any point in the last 20 years. 
+In all scenarios, housing delivery within London is assumed to be in line with the capacity identified in the 2026 Strategic Housing Land Availability Assessment - 56k per year over the period 2026-27 to 2035-36.  Given that delivery in a single year has not exceeded 41k at any point in the last 20 years, and that annual growth in London has slowed over the last decade, it seems reasonable to assume that projected growth in the Central and High housing-led variants would be higher than in the equivalent trend-based outputs. 
 
 Given that London's population growth has slowed over the last decade, it seems reasonable that housing-led projections based on this assumed level of delivery would result in higher populations than the equivalent trend-based outputs. 
 

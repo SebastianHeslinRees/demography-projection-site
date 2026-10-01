@@ -5,6 +5,10 @@ section: Demography
 navLabel: Overview
 ---
 
+<script>
+  import { base } from '$app/paths';
+</script>
+
 The GLA Demography team produces a range of demographic projections to support planning and policy across London.  
 
 Two different approaches are used to produce the population projections: 
@@ -53,8 +57,12 @@ The cohort component approach is essentially a framework for accounting for popu
 
 Cohort component models typically begin with a base population estimate and then project forward one period at a time (a single year in this case), ageing-on the population, calculating births, deaths, and migration flows, and then accounting for the impact of these to arrive at the population for the end of the period. 
 
-![Trend-based cohort component model diagram](/trend_model_diagram.png)
-Figure 1. Steps of the trend-based population projection model
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src={base + '/Diagram-Stage.svg'} alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-transparent" />
+    <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the trend-based projection model</figcaption>
+  </figure>
+</div>
 
 The GLA model is described as multi-regional because model areas are linked with one another through internal migration flows.  A benefit of this approach is that internal inflows to each area reflect changes to the structure of the wider population and maintain the coherence of the projections across different geographic levels. This feature is important for projections that:  
 
@@ -116,8 +124,12 @@ The model used by the GLA combines a simplified bi-regional cohort component mod
 
 As with the trend-based model, the housing-led model projects forward one year at a time from a base population, accounting for population change through the standard mechanisms of births, deaths, and migration.
 
-![Housing-led population model diagram](/hl_model_diagram.png)
-Figure 2. Steps of the housing-led population projection model
+<div class="mt-8 space-y-6">
+  <figure class="space-y-2">
+    <img src={base + '/Diagram-Stage-2 (5).svg'} alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-transparent" />
+    <figcaption class="text-sm text-color-text-muted">Fig 2: Steps of the housing-led projection model</figcaption>
+  </figure>
+</div>
 
 ## Reconciling with housing capacity 
 
