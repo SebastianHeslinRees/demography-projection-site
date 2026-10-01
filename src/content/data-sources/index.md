@@ -17,13 +17,12 @@ Local authority level estimates:
 
 Ward and MSOA level estimates:
 
-- published estimates from ONS are rescaled to be consistent with the adjusted local authority estimates series.
+- published estimates by LSOA are rescaled to be consistent with the adjusted local authority estimates series and then fit to ward and MSOA areas.
 
 - annual net migration for each area is estimated as the residual of annual population change, births and deaths.
 
-- synthetic in and out migration flows for each area, consistent with the net flows are modelled.
+- synthetic gross migration flows, consistent with estimated net migration, are modelled for each area.
 
-Annual estimates of births, deaths and internal migration are used unchanged from official data.
 
 ## Other inputs
 
@@ -37,6 +36,6 @@ Other inputs include:
 
 - Annual numbers of homes by Lower-layer Super Output Area (LSOA) published by the Valuation Office.
 
-- Net changes in housing stock by local authority, published by MHCLG
+- Net changes in housing stock by local authority, published by the Ministry of Housing and Local Government
 
-- Assumed future net change in dwellings by LSOA in London produced as part of the 2026 London Strategic Housing Land Availability Assessment.
+- Assumed future net change in dwellings by LSOA in London derived from the 2026 London Strategic Housing Land Availability Assessment.

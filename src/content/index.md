@@ -33,31 +33,33 @@ Two further sections provide an overview of the data used in the production of t
 
 ## Key results
 
-1. **The total population of London is projected to grow in all core variants**
+### The population of London is projected to grow
 
-- From **9.13 million** in 2024
+- From **9.13 million** in 2024, to:
 
-- To between **9.51 million** and **9.88 million** in 2036 (annualised growth of 32k to 62k)
+- **9.51 million** to **9.88 million** by 2036 (annualised growth **32k** to **62k**), and
 
-- And **9.76 million** to **10.77 million** by 2051 (annualised growth of 21k to 61k)
+- **9.76 million** to **10.77 million** by 2051 (annualised growth **21k** to **61k**)
 
-2. Projected change varies greatly between age groups:
+- This compares to past annualised growth of **51k** between 2016 and 2024, and **114k** between 2006 and 2016
 
-- **The population of Londoners aged 65 and over is projected to increase by more than 55 percent in all variants**.
+### Projected change varies greatly between age groups:
 
-- **The number of school-age children is projected to decrease over the next decade in all variants**. In the longer term, projected numbers span a wide range, reflecting the inherent uncertainty in future fertility rate trends.
+- **The number of Londoners aged 65 and over is projected to increase by more than 55 percent in all variants**.
+
+* **The number of school-age children is projected to decrease over the next decade in all variants**. In the longer term, projected numbers span a wide range, reflecting the inherent uncertainty in future fertility rate trends.
 
 - **The median age of London's population is projected to rise from 34.9 years to 38.6 to 39.6 years by 2051**. However, it is set to remain significantly younger than that of the rest of the country.
 
-3. **Natural change (births minus deaths) is not projected to return to past levels**
+### Natural change (births minus deaths) is not projected to return to past levels
 
 - Annual deaths are projected to increase as the population ages
 
-- In the most optimistic scenarios, it plateaus at 2024 levels (55k, already 30k below the 2011 peak)
+* In the most optimistic scenarios, natural change plateaus at 2024 levels (+55k per year). This is already 30k below the peak in 2011.
 
-- In all other variants it declines - falling to between 19k and 40k by 2051.
+* In all other variants natural change declines - falling as low as **19k** in the most pessimistic scenarios.
 
-#### Impacts of housing assumptions
+### Impacts of housing assumptions
 
 Accounting to housing delivery in line with capacity identified in the SHLAA results in higher absolute population growth
 
@@ -73,7 +75,7 @@ The more significant impacts of including housing are seen in the projected **di
 
 ## Accessing the projections
 
-The full outputs from the projections are available to download from the London Datastore:
+The projections are available to download from the London Datastore:
 
 - [Trend-based population projections](https://data.london.gov.uk/dataset/trend-based-population-projections-vqzo7)
 

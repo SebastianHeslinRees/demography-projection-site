@@ -5,6 +5,10 @@ section: Demography
 navLabel: Overview
 ---
 
+<script>
+  import { base } from '$app/paths';
+</script>
+
 The GLA Demography team produces a range of demographic projections to support planning and policy across London.
 
 Two different approaches are used to produce the population projections:
@@ -55,7 +59,7 @@ Cohort component models typically begin with a base population estimate and then
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src="/trend_model_diagram.png" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src="/Diagram-Stage.svg" alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the trend-based projection model</figcaption>
   </figure>
 </div>
@@ -120,7 +124,7 @@ As with the trend-based model, the housing-led model projects forward one year a
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src="/hl_model_daigram.png" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src="/Diagram-Stage-2.svg" alt="Housing-led projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 2: Steps of the housing-led projection model</figcaption>
   </figure>
 </div>
@@ -157,7 +161,8 @@ An important limitation of the method is that it does not explicitly account for
 
 As such, the results of the model will be less reliable in cases where large numbers of additional homes with characteristics that are significantly different to those of the existing stock are expected.
 
-> In such situations – e.g. when planning major housing schemes - it is common to apply yield-based methods to understand the potential number and characteristics of future residents. While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.
+> When planning major housing schemes, it is common to apply yield-based methods to understand the potential number and characteristics of future residents.
+> While such approaches can provide valuable insights for individual schemes, they typically have limitations which make them less suitable for use at larger scales or over longer time horizons.
 
 ## Constraining to an external population projection
 
@@ -321,7 +326,9 @@ Adjustments are made to the estimates of population and international migration 
 
 - Numbers of children on the GP patient register
 
-> ONS has been working to address issues with recent international migration estimates of children and the latest official estimates include revisions to the number of children for many local authorities. The revised estimates for mid-2024 have 135k fewer children aged 0 to 15 for England as a whole. Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information
+> ONS revised official estimates in July 2026 to address some issues with estimates of children.
+> The revisions reduced the number of children aged 0 to 15 in England by 135k for mid-2024.
+> Users of the estimates are encouraged to check the [latest documentation](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2025) for more information
 
 ### Small area population estimates
 
@@ -329,4 +336,4 @@ Population estimates for small areas are based on the published ONS series but a
 
 Estimates for electoral wards are best-fit from estimates for Lower Super Output Areas (LSOA). This is less precise than fitting from Output Area data (which is how ward estimates published by ONS are produced). Some inputs to the model are not readily available below LSOA-level and the decision was made to prioritise the consistency of inputs to the model over the precision of fit of those that are available for Output Areas.
 
-> Users should be aware that ward-level outputs from the projections will not be fully consistent with other sources of published data for wards
+> Users should be aware that ward-level outputs from the projections will not be fully consistent with other sources of published data for wards.

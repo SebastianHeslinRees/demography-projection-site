@@ -179,7 +179,7 @@ Starting from a value of 55k in 2024, the three core variants span a wide range 
 
 ### Fertility rates and births by age of mother
 
-Age-specific fertility rates (ASFR) describe the average number of births per woman. The rates used in the model are projected forward from past data and then held constant from 2032 onwards (rates for London as a whole continue to change after this point as the size of populations within it change).   
+Age-specific fertility rates (ASFR) describe the average number of births per woman. The rates used in the model are projected forward from past data and then held constant from 2032 onwards.   
 
 Total fertility rate (TFR) is a commonly used statistic that summarises the overall level of fertility within a population. It is defined as the average number of children that a woman would have during her lifetime if she experienced the current age-specific fertility rates throughout her reproductive years.
 
