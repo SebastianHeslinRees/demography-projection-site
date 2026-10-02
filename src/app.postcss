@@ -1,9 +1,13 @@
 /* Write your global styles here, in PostCSS syntax */
 @import '@ldn-viz/themes/styles/primitives.css';
+@import '@ldn-viz/themes/styles/primitive-scale.css';
 @import '@ldn-viz/themes/styles/light.css';
 @import '@ldn-viz/themes/styles/dark.css';
 @import '@ldn-viz/themes/styles/spacing.css';
 @import '@ldn-viz/themes/styles/typography.css';
+@import '@ldn-viz/themes/styles/flow.css';
+@import '@ldn-viz/themes/styles/grid-spacing.css';
+@import '@ldn-viz/themes/styles/shadows.css';
 
 @tailwind base;
 @tailwind components;
@@ -22,13 +26,13 @@ html.disable-smooth-scroll {
 }
 
 @layer components {
-	.tooltip p {
-		@apply prose !body-sm responsive;
-	}
+	/*.tooltip p {
+        @apply prose !body-sm responsive;
+    }
 
-	.footnotes-section p {
-		@apply prose !body-xs responsive;
-	}
+    .footnotes-section p {
+        @apply prose !body-xs responsive;
+    }*/
 
 	.footnotes-section .data-footnote-backref {
 		@apply inline-flex;
@@ -52,12 +56,12 @@ html.disable-smooth-scroll {
 	}
 
 	/* MB-Note: added override to adjust margin-top of H2s that start content */
-	.prose :where(h2):where(:first-child) {
-    	margin-top: 24px
-	}
-	.prose :where(h3):where(:first-child) {
-    	margin-top: 24px
-	}
+	/* .prose :where(h2):where(:first-child) {
+        margin-top: 24px;
+    }
+    .prose :where(h3):where(:first-child) {
+        margin-top: 24px;
+    } */
 
 	/* Rotate choropleth legend tick labels only (not hover text or other chart text) */
 	.map-legend-rotated .themed-chart svg.defaultColorLegendLabel-ramp g.tick text {

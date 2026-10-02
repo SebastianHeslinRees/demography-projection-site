@@ -9,7 +9,12 @@
 	// An Array of all the pages
 	const pages = navigation.flatMap((p) => [p, ...(p.children.length ? p.children : [])]);
 
-	const activeIndex = $derived(pages.findIndex((p) => p.href === page.data.metadata.slugFull));
+	// Home page slug is /index not /
+	const pageSlug = $derived(
+		page.data.metadata.slugFull === '/index' ? '/' : page.data.metadata.slugFull
+	);
+
+	const activeIndex = $derived(pages.findIndex((p) => p.href === pageSlug));
 
 	const hasActivePage = $derived(activeIndex !== -1);
 	const hasPrevPage = $derived(hasActivePage && activeIndex > 0);
@@ -33,7 +38,7 @@
 				/>
 				<div class="flex flex-col">
 					<span class="product label-sm text-color-interactive-primary"> Previous </span>
-					<span class="product body-lg responsive leading-snug">{prevPage.title}</span>
+					<span class="body-lg product leading-snug">{prevPage.title}</span>
 				</div>
 			</Button>
 		{/if}
@@ -49,7 +54,7 @@
 			>
 				<div class="flex flex-col">
 					<span class="product label-sm text-color-interactive-primary"> Next </span>
-					<span class="product body-lg responsive leading-snug">{nextPage.title}</span>
+					<span class="body-lg product leading-snug">{nextPage.title}</span>
 				</div>
 				<Icon
 					src={ArrowRightCircle}

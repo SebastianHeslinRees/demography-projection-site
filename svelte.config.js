@@ -15,9 +15,9 @@ const config = {
 		},
 		adapter: adapter(),
 		prerender: {
-			 entries: ['*', ...contentIndex.map((d) => d.slugFull)],
-			 handleMissingId: 'ignore' 
-			},
+			entries: ['*', ...contentIndex.map((d) => d.slugFull)],
+			handleMissingId: 'ignore'
+		},
 		paths: { base: dev ? '' : '/analysis/population-projections' }
 	},
 	onwarn: (warning, handler) => {

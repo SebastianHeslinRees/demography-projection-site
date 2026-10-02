@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import slugify from 'slugify';
-	import { fade } from 'svelte/transition';
 
 	interface PageHeadProps {
 		title: string;
@@ -9,11 +8,12 @@
 		alt?: string; // TODO: check image metadata
 		subTitle?: string;
 		intro?: string;
+		isHomePage?: boolean;
 	}
 
 	//TODO!!
 
-	let { title, image, alt = 'some alt text', subTitle, intro }: PageHeadProps = $props();
+	let { title, image, alt, subTitle, intro, isHomePage }: PageHeadProps = $props();
 
 	type ImgModule = {
 		default: {
@@ -51,14 +51,19 @@
 	);
 </script>
 
-<div class="dark relative">
+<div
+	class="dark relative flex aspect-[4/3] flex-col justify-center pb-24 sm:aspect-auto sm:h-[500px] xl:pb-32"
+>
 	{#key page.url.pathname}
-		<div class="absolute inset-0 bg-color-container" transition:fade={{ duration: 200 }}>
+		<!-- Removed transition as image currently doesn't change between pages -->
+		<!-- transition:fade={{ duration: 200 }} -->
+		<div class="absolute inset-0 bg-color-container">
 			<enhanced:img
 				src={imageToRender}
 				sizes="min(1536px, 100vw)"
 				{alt}
 				class="h-full w-full object-cover opacity-80"
+				aria-hidden={alt ? undefined : true}
 			/>
 		</div>
 	{/key}
@@ -67,22 +72,23 @@
 		aria-hidden="true"
 	></div>
 
-	<div class="h-[500px] md:px-4" id="header">
-		<!--TODO: fixed height may need adjustment-->
-		<div class="container relative mx-auto flex h-full pb-48 pt-24">
-			<div class="prose responsive">
-				<h1 class="headline format pt-12">{title}</h1>
+	<div class="md:px-4" id="header">
+		<div class="container relative mx-auto flex h-full py-4">
+			<div class="flow-prose prose max-w-none">
+				{#if isHomePage}
+					<h1 class="display max-w-[20ch] text-color-text">{title}</h1>
+				{:else}
+					<h1 class="headline max-w-[30ch] text-color-text">{title}</h1>
+				{/if}
 
 				{#if subTitle}
-					<p
-						class="subhead mb-typography-spacing-md max-w-[40ch] pt-typography-spacing-xxs text-color-text"
-					>
+					<p class="subhead max-w-[40ch] text-color-text">
 						{subTitle}
 					</p>
 				{/if}
 
 				{#if intro}
-					<p class="body-md text-color-text">
+					<p class="body text-color-text">
 						{intro}
 					</p>
 				{/if}

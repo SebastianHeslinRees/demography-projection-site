@@ -1,4 +1,3 @@
-
 <script lang="ts">
 	import PageContainer from '$lib/components/PageContainer.svelte';
 	import PageHead from '$lib/components/PageHead.svelte';
@@ -9,7 +8,6 @@
 	import { Bars3, XMark } from '@steeze-ui/heroicons';
 	import { Icon } from '@steeze-ui/svelte-icon';
 
-	import { page } from '$app/state';
 	import { sidebarState } from '$lib/state.svelte';
 	import {
 		AnalyticsAndCookieConsent,
@@ -17,14 +15,11 @@
 		CookieControlSettings,
 		Footer,
 		Header,
-		HeaderTitle,
 		PrivacyPolicyLink,
 		Theme,
 		ThemeSwitcher
 	} from '@ldn-viz/ui';
 	import '../app.postcss';
-
-	import { PageMetadata } from '@ldn-viz/ui';
 
 	let breakPoint: number = $state(0);
 
@@ -74,47 +69,47 @@
 <div class="flex min-h-dvh flex-col">
 	<div class="sticky top-0 z-50">
 		<Header>
-			{#if page.url.pathname !== resolve('/')}
-				<Button
-					variant="square"
-					size="sm"
-					emphasis="secondary"
-					class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
-					onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
-				>
-					{#if !sidebarState.state.isOpen}
-						<Icon src={Bars3} class="h-5 w-5"></Icon>
-					{:else}
-						<Icon src={XMark} class="h-5 w-5"></Icon>
-					{/if}
-				</Button>
-			{/if}
-			<HeaderTitle base={resolve('/')}>GLA 2024-based Population Projections Report</HeaderTitle>
+			<Button
+				variant="square"
+				size="sm"
+				emphasis="secondary"
+				class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
+				onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
+			>
+				{#if !sidebarState.state.isOpen}
+					<Icon src={Bars3} class="h-5 w-5"></Icon>
+				{:else}
+					<Icon src={XMark} class="h-5 w-5"></Icon>
+				{/if}
+			</Button>
+			<a href={resolve('/')}>
+				<span class="product body font-semibold">
+					<span class="max-sm:hidden">GLA 2024-based</span>
+					Population Projections Report
+				</span>
+			</a>
 		</Header>
 	</div>
 
-<PageHead
-	title={data.metadata.title}
-	subTitle={data.metadata.description}
-	image={data.metadata.heroImage}
-	intro={data.metadata.intro}
-></PageHead>
+	<PageHead
+		title={data.metadata.title}
+		subTitle={data.metadata.description}
+		image={data.metadata.heroImage}
+		intro={data.metadata.intro}
+		// isHomePage={page.url.pathname === resolve('/')} // ?? Is this the right font size?
+	></PageHead>
 
-<PageContainer {tocItems}>
-	{@render children()}
-</PageContainer>
+	<PageContainer {tocItems}>
+		{@render children()}
+	</PageContainer>
 
 	<Footer showCiuLogo>
-		<div class="pb-4 text-sm lg:w-1/6">
+		<div class="product body-sm pb-4 lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Links</h3>
 				<ul class="text-color-text-muted">
 					<li>
-						<a
-							href="https://data.london.gov.uk/demography"
-							target="_blank"
-							class="hover:underline"
-						>
+						<a href="https://data.london.gov.uk/demography" target="_blank" class="hover:underline">
 							London Data Store
 						</a>
 					</li>
@@ -122,19 +117,22 @@
 			</nav>
 		</div>
 
-		<div class="pb-4 text-sm lg:w-1/6">
+		<div class="product body-sm pb-4 lg:w-1/6">
 			<nav>
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-muted">
-					<li><a href="mailto:demography@london.gov.uk?subject=Population Projections Report">demography@london.gov.uk</a></li>
+					<li>
+						<a href="mailto:demography@london.gov.uk?subject=Population Projections Report"
+							>demography@london.gov.uk</a
+						>
+					</li>
 				</ul>
 			</nav>
 		</div>
 
-
 		{#snippet footerCookieMenu()}
 			<div class="flex justify-between">
-				<ul class="flex space-x-2">
+				<ul class="label-sm-tight flex space-x-2">
 					<li><CookieControlSettings /></li>
 					<li><PrivacyPolicyLink /></li>
 				</ul>
