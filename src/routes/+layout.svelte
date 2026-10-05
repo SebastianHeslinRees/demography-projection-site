@@ -1,14 +1,14 @@
 <script lang="ts">
-	import PageContainer from '$lib/components/PageContainer.svelte';
-	import PageHead from '$lib/components/PageHead.svelte';
+	import PageContainer from "$lib/components/PageContainer.svelte";
+	import PageHead from "$lib/components/PageHead.svelte";
 
-	import { resolve } from '$app/paths';
+	import { resolve } from "$app/paths";
 
-	import { afterNavigate, beforeNavigate } from '$app/navigation';
-	import { Bars3, XMark } from '@steeze-ui/heroicons';
-	import { Icon } from '@steeze-ui/svelte-icon';
+	import { afterNavigate, beforeNavigate } from "$app/navigation";
+	import { Bars3, XMark } from "@steeze-ui/heroicons";
+	import { Icon } from "@steeze-ui/svelte-icon";
 
-	import { sidebarState } from '$lib/state.svelte';
+	import { sidebarState } from "$lib/state.svelte";
 	import {
 		AnalyticsAndCookieConsent,
 		Button,
@@ -17,9 +17,9 @@
 		Header,
 		PrivacyPolicyLink,
 		Theme,
-		ThemeSwitcher
-	} from '@ldn-viz/ui';
-	import '../app.postcss';
+		ThemeSwitcher,
+	} from "@ldn-viz/ui";
+	import "../app.postcss";
 
 	let breakPoint: number = $state(0);
 
@@ -28,12 +28,12 @@
 	});
 
 	beforeNavigate(() => {
-		document.documentElement.classList.add('disable-smooth-scroll');
+		document.documentElement.classList.add("disable-smooth-scroll");
 	});
 
 	afterNavigate(() => {
 		requestAnimationFrame(() => {
-			document.documentElement.classList.remove('disable-smooth-scroll');
+			document.documentElement.classList.remove("disable-smooth-scroll");
 		});
 	});
 
@@ -59,8 +59,8 @@
 -->
 <svelte:head>
 	<script>
-		window.ldnVizCivicApiKey = 'b08bca6362c188d40519ea5501ffd4a94d8003dc';
-		window.ldnVizCivicAppName = 'state-of-london';
+		window.ldnVizCivicApiKey = "b08bca6362c188d40519ea5501ffd4a94d8003dc";
+		window.ldnVizCivicAppName = "state-of-london";
 	</script>
 </svelte:head>
 
@@ -74,7 +74,8 @@
 				size="sm"
 				emphasis="secondary"
 				class="-ml-3 mr-1 !bg-transparent text-color-text no-underline hover:!text-color-text-muted xl:hidden"
-				onclick={() => (sidebarState.state.isOpen = !sidebarState.state.isOpen)}
+				onclick={() =>
+					(sidebarState.state.isOpen = !sidebarState.state.isOpen)}
 			>
 				{#if !sidebarState.state.isOpen}
 					<Icon src={Bars3} class="h-5 w-5"></Icon>
@@ -82,7 +83,7 @@
 					<Icon src={XMark} class="h-5 w-5"></Icon>
 				{/if}
 			</Button>
-			<a href={resolve('/')}>
+			<a href={resolve("/")}>
 				<span class="product body font-semibold">
 					<span class="max-sm:hidden">GLA 2024-based</span>
 					Population Projections Report
@@ -96,7 +97,6 @@
 		subTitle={data.metadata.description}
 		image={data.metadata.heroImage}
 		intro={data.metadata.intro}
-		// isHomePage={page.url.pathname === resolve('/')} // ?? Is this the right font size?
 	></PageHead>
 
 	<PageContainer {tocItems}>
@@ -109,7 +109,11 @@
 				<h3 class="mb-1 font-semibold">Links</h3>
 				<ul class="text-color-text-muted">
 					<li>
-						<a href="https://data.london.gov.uk/demography" target="_blank" class="hover:underline">
+						<a
+							href="https://data.london.gov.uk/demography"
+							target="_blank"
+							class="hover:underline"
+						>
 							London Data Store
 						</a>
 					</li>
@@ -122,7 +126,8 @@
 				<h3 class="mb-1 font-semibold">Contact</h3>
 				<ul class="text-color-text-muted">
 					<li>
-						<a href="mailto:demography@london.gov.uk?subject=Population Projections Report"
+						<a
+							href="mailto:demography@london.gov.uk?subject=Population Projections Report"
 							>demography@london.gov.uk</a
 						>
 					</li>

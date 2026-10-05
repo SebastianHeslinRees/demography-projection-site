@@ -6,6 +6,7 @@ import contentIndex from './.velite/docs.json' with { type: 'json' }; //TODO - o
 import { mdsxConfig } from './mdsx.config.ts';
 
 const dev = process.env.NODE_ENV === 'development';
+const basePath = dev ? '' : '/analysis/population-projections';
 
 const config = {
 	preprocess: [vitePreprocess(), mdsx(mdsxConfig)],
@@ -18,7 +19,7 @@ const config = {
 			entries: ['*', ...contentIndex.map((d) => d.slugFull)],
 			handleMissingId: 'ignore'
 		},
-		paths: { base: dev ? '' : '/analysis/population-projections' }
+		paths: { base: basePath }
 	},
 	onwarn: (warning, handler) => {
 		if (warning.code === 'css_unused_selector') return;

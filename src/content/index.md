@@ -25,7 +25,7 @@ This site provides an overview of the results of the core variants for London. T
 
 A further section provides a comparison of the results of the two projection types, including a map showing the differences in the spatial distribution of population.
 
-An explanation of the different projection types, the methods used to produce them, and the scenarios used is provided in [_**Overview of the projections**_](/overview-of-the-projections).
+An explanation of the different projection types, the methods used to produce them, and the scenarios used is provided in [_**Overview of the projections**_](overview-of-the-projections).
 
 Two further sections provide an overview of the data used in the production of the projections, including a breakdown of assumed housing development by local authority and _component_.
 
