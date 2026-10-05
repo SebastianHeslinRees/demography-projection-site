@@ -28,7 +28,7 @@ export const findActiveItem = (
 	const flattenedItemList = (items || [])?.flatMap((it) => getItems(it));
 
 	for (const item of flattenedItemList) {
-		if (page.url?.pathname.startsWith(resolve(item.href ?? '/'))) {
+		if (page.url?.pathname.startsWith(resolve(item.href || '/'))) {
 			const itemPath = item?.href ?? '';
 			const bestMatchPath = bestMatch?.href ?? '';
 
