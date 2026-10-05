@@ -134,7 +134,7 @@
 
 	let combinedNote = $derived([lloLabel, note].filter(Boolean).join(' | '));
 
-	let columnMapping = $derived(getColumnMapping(dataset));
+	let columnMapping = $derived(getColumnMapping(dataset, data));
 
 	let description = $derived(getDescription(options, data, colorChoice));
 

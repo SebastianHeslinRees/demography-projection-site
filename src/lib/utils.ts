@@ -80,16 +80,28 @@ export const clickToCopy: Attachment = (node: HTMLElement, target: any) => {
 };
 
 
-export const getColumnMapping = (dataset: string) => {
-	const cols = chartColumns.find((d) => d.dataset === dataset);
+export const getColumnMapping = (dataset: string, data: Array<Record<string, unknown>> = []) => {
+	const cols =
+		chartColumns.find((d) => d.dataset === dataset) ??
+		chartColumns.find((d) => d.dataset === '__default__');
 
 	if (cols) {
-		return {
-			xd: cols.xd_source,
-			b: cols.b_source,
-			y: cols.y_source,
-			z2: cols.z2_source
+		const mapping = {
+			xd: cols.xd_source ?? 'Date',
+			b: cols.b_source ?? 'Trend',
+			y: cols.y_source ?? 'Value'
 		};
+
+		const hasSecondaryValueData = data.some((row) => {
+			const value = row.z2;
+			return value !== null && value !== undefined && value !== '';
+		});
+
+		if (hasSecondaryValueData && (cols.z2_source ?? 'Secondary Value')) {
+			mapping.z2 = cols.z2_source ?? 'Secondary Value';
+		}
+
+		return mapping;
 	}
 
 	return undefined;

@@ -30,8 +30,8 @@ export const navigation = [
 	},
 	{
 		title: 'Trend-based population',
-		id: 'projection-population-2',
-		href: '/projection-population-2',
+		id: 'trend-based',
+		href: '/trend-based',
 		children: []
 	},
 	{
