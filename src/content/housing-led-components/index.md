@@ -49,7 +49,7 @@ const filteredFertilityData = (dataset) => {
 };
 </script>
 
-### Background
+## Background
 
 Changes to the size of the total population occur through three mechanisms – often referred to as components of change – these are births, deaths, and migration.   
 

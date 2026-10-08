@@ -9,8 +9,7 @@ navLabel: Trend-based components
 import Chart from "$lib/components/charts/Chart.svelte";
 </script>
 
-### Background
-Changes to the size of the total population occur through three mechanisms – often referred to as components of change – these are births, deaths, and migration.   
+## Background
 
 Natural change, which is the difference between the number of births and deaths, is higher for London than for the rest of the country and has been the largest direct contributor to London's population growth over recent decades.  
 
