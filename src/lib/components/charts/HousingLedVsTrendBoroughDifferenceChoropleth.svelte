@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { chartOptions } from '$lib/components/charts/chartOptions';
-	import { loadChartData, type ChartDataRow } from '$lib/components/charts/utils';
+	import { chartOptions } from '$lib/components/charts/chartOptions.svelte';
+	import { loadChartData } from '$lib/components/charts/utils';
+	import type { ChartDataRow } from '@ldn-viz/charts';
 	import Chart from './Chart.svelte';
 
 	let {
@@ -13,7 +14,7 @@
 		controls
 	} = $props();
 
-	let options = $derived(chartOptions[dataset]);
+	let options = $derived(chartOptions.options[dataset]);
 	let allData = $state<ChartDataRow[]>([]);
 
 	$effect(() => {

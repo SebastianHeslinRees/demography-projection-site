@@ -21,9 +21,9 @@
 		"test:unit": "vitest run"
 	},
 	"dependencies": {
-		"@ldn-viz/charts": "9.2.1",
+		"@ldn-viz/charts": "9.4.1",
 		"@ldn-viz/themes": "9.2.0",
-		"@ldn-viz/ui": "24.3.0",
+		"@ldn-viz/ui": "24.3.1",
 		"@ldn-viz/utils": "4.0.0",
 		"@turf/rewind": "^7.4.0",
 		"d3-format": "^3.1.2",
