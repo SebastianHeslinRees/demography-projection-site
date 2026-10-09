@@ -5,6 +5,10 @@ section: Demography
 navLabel: Overview
 ---
 
+<script>
+  import { base } from '$app/paths';
+</script>
+
 The GLA Demography team produces a range of demographic projections to support planning and policy across London.
 
 Two different approaches are used to produce the population projections:
@@ -55,7 +59,7 @@ Cohort component models typically begin with a base population estimate and then
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src={"/Diagram-Stage.svg"} alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
+    <img src={`${base}/Diagram-Stage.svg`} alt="Trend-based projection flow diagram" class="w-full rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 1: Steps of the trend-based projection model</figcaption>
   </figure>
 </div>
@@ -120,7 +124,7 @@ As with the trend-based model, the housing-led model projects forward one year a
 
 <div class="mt-8 space-y-6">
   <figure class="space-y-2">
-    <img src={"/Diagram-Stage-2.svg"} alt="Housing-led projection flow diagram" class="mx-auto w-full max-w-[1200px] rounded-lg border border-color-border-subtle" />
+    <img src={`${base}/Diagram-Stage-2.svg`} alt="Housing-led projection flow diagram" class="mx-auto w-full max-w-[1200px] rounded-lg border border-color-border-subtle" />
     <figcaption class="text-sm text-color-text-muted">Fig 2: Steps of the housing-led projection model</figcaption>
   </figure>
 </div>
