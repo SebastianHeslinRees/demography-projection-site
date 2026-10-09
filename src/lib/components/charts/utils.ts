@@ -39,7 +39,17 @@ function getLocalDatasetRows(dataset: string): ChartDataRow[] {
 		.concat(housingLedVsTrendProjectionData as ChartDataRow[])
 		.concat(housingLedComponentsData as ChartDataRow[])
 		.concat(housingLedFertilityAgeData as ChartDataRow[])
-		.filter((d) => d.dataset === dataset);
+		.filter((d) => d.dataset === dataset)
+		.sort((a, b) => variantRank(a.b) - variantRank(b.b));
+}
+
+// re-order lines so the dark 'High' lines are on top,
+// for historical data where the series are equal
+const VARIANT_ORDER = ['Low', 'Central', 'High'];
+function variantRank(b: unknown): number {
+	if (b === 'Trend - High') return VARIANT_ORDER.length + 1;
+	const index = VARIANT_ORDER.indexOf(b as string);
+	return index === -1 ? VARIANT_ORDER.length : index;
 }
 
 function getDatasetRows(dataset: string): Promise<ChartDataRow[]> {
