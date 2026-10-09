@@ -69,4 +69,9 @@ html.disable-smooth-scroll {
 		transform-origin: center;
 		transform: rotate(45deg);
 	}
+
+	/* Blockquote size */
+	.prose :where(blockquote p):not(:where(.not-prose, .not-prose *)) {
+		font-size: 1.125rem;
+	}
 }
