@@ -66,9 +66,10 @@ export const boroughChoropleth = (
 		),
 		color: {
 			domain: options.colorScale?.domain ?? [0],
-			range: theme.currentMode === 'light' ? 
-				( options.colorScaleLight?.range ?? options.colorScale?.range  ?? [0]) :
-				( options.colorScaleDark?.range ?? options.colorScale?.range  ?? [0]) ,
+			range:
+				theme.currentMode === 'light'
+					? (options.colorScaleLight?.range ?? options.colorScale?.range ?? [0])
+					: (options.colorScaleDark?.range ?? options.colorScale?.range ?? [0]),
 			type: 'threshold',
 			legend: true,
 			label: '',

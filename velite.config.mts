@@ -13,10 +13,7 @@ const docSchema = baseSchema
 	.extend({
 		toc: s.toc(),
 		heroImage: s.string().optional(),
-		section: s.enum([
-			'Demography',
-			'Foreword'
-		])
+		section: s.enum(['Demography', 'Foreword'])
 	})
 	.transform((data) => {
 		return {
@@ -25,8 +22,6 @@ const docSchema = baseSchema
 			slugFull: `/${data.path}`
 		};
 	});
-
-
 
 const index = defineCollection({
 	name: 'Index',
@@ -47,7 +42,6 @@ const docs = defineCollection({
 	schema: docSchema
 });
 
-
 export default defineConfig({
 	root: './src/content',
 	markdown: {
@@ -55,8 +49,8 @@ export default defineConfig({
 	},
 	collections: {
 		index,
-		docs,
-	//	stateOfLondon
-	//	dataVizGuide
+		docs
+		//	stateOfLondon
+		//	dataVizGuide
 	}
 }) as UserConfig;

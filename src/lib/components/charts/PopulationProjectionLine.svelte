@@ -57,7 +57,12 @@
 	}));
 
 	let spec = $derived({
-		x: { type: 'utc', insetLeft: 72, insetRight: 24, domain: [new Date('2011-01-01'), new Date('2048-01-01')] },
+		x: {
+			type: 'utc',
+			insetLeft: 72,
+			insetRight: 24,
+			domain: [new Date('2011-01-01'), new Date('2048-01-01')]
+		},
 		y: { domain: [7.9, 10.5] },
 		color: {
 			legend: true,
@@ -93,7 +98,10 @@
 			Plot.axisY({ label: 'Population (millions)', tickFormat: (d) => `${formatMillions(d)}m` }),
 			Plot.line(chartData, { x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' }),
 			Plot.ruleX(chartData, Plot.pointerX({ x: 'yearDate' })),
-			Plot.point(chartData, Plot.pointer({ x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' })),
+			Plot.point(
+				chartData,
+				Plot.pointer({ x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' })
+			),
 			Plot.tip(
 				chartData,
 				Plot.pointer({
@@ -118,7 +126,7 @@
 
 <ObservablePlot
 	data={chartData}
-	spec={spec}
+	{spec}
 	{title}
 	subTitle={subtitle}
 	{byline}

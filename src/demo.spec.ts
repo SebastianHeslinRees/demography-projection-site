@@ -1,18 +1,37 @@
 import { describe, it, expect } from 'vitest';
-import { filterDataToXDomain, lineChartWithForecast } from './lib/components/charts/chartTypes/lineChartWithForecast';
-import { formatAxisTick, getColorChoice, loadChartData, makeTooltip, sortChartData } from './lib/components/charts/utils';
+import {
+	filterDataToXDomain,
+	lineChartWithForecast
+} from './lib/components/charts/chartTypes/lineChartWithForecast';
+import {
+	formatAxisTick,
+	getColorChoice,
+	loadChartData,
+	makeTooltip,
+	sortChartData
+} from './lib/components/charts/utils';
 
 describe('comparison chart colors', () => {
 	it('formats tooltip dates as years and rounds values to whole numbers by default', () => {
 		const tooltip = makeTooltip({});
-		const row = { dataset: 'proj_total_population', xd: new Date('2024-01-01T00:00:00Z'), b: 'Central', y: 12345.67 };
+		const row = {
+			dataset: 'proj_total_population',
+			xd: new Date('2024-01-01T00:00:00Z'),
+			b: 'Central',
+			y: 12345.67
+		};
 
 		expect(tooltip(row)).toBe('Central\n2024\n12,346');
 	});
 
 	it('ignores compact SI axis formats for tooltips so hover values stay as whole numbers', () => {
 		const tooltip = makeTooltip({ ytickformat: '.0s' });
-		const row = { dataset: 'proj_total_population', xd: new Date('2024-01-01T00:00:00Z'), b: 'Central', y: 9923644.42 };
+		const row = {
+			dataset: 'proj_total_population',
+			xd: new Date('2024-01-01T00:00:00Z'),
+			b: 'Central',
+			y: 9923644.42
+		};
 
 		expect(tooltip(row)).toBe('Central\n2024\n9,923,644');
 	});
@@ -40,8 +59,18 @@ describe('comparison chart colors', () => {
 			timeperiod_type: 'Annual'
 		});
 
-		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2011)).toBe(false);
-		expect(data.some((row) => row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
+		expect(
+			data.some(
+				(row) =>
+					row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2011
+			)
+		).toBe(false);
+		expect(
+			data.some(
+				(row) =>
+					row.b.startsWith('Housing-led') && row.xd instanceof Date && row.xd.getFullYear() === 2012
+			)
+		).toBe(true);
 	});
 
 	it('removes the 2011 housing-led zero point from the housing-led annual population change chart', async () => {
@@ -50,20 +79,57 @@ describe('comparison chart colors', () => {
 			timeperiod_type: 'Annual'
 		});
 
-		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2011)).toBe(false);
-		expect(data.some((row) => ['Central', 'High', 'Low'].includes(String(row.b)) && row.xd instanceof Date && row.xd.getFullYear() === 2012)).toBe(true);
+		expect(
+			data.some(
+				(row) =>
+					['Central', 'High', 'Low'].includes(String(row.b)) &&
+					row.xd instanceof Date &&
+					row.xd.getFullYear() === 2011
+			)
+		).toBe(false);
+		expect(
+			data.some(
+				(row) =>
+					['Central', 'High', 'Low'].includes(String(row.b)) &&
+					row.xd instanceof Date &&
+					row.xd.getFullYear() === 2012
+			)
+		).toBe(true);
 	});
 
 	it('uses the new low/central/high trend labels in the housing-led comparison data', async () => {
-		const rows = (await import('./lib/data/housingLedVsTrendProjectionData.json')).default as Array<{ dataset: string; b: string }>;
-		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Low')).toBe(true);
-		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Central')).toBe(true);
-		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - High')).toBe(true);
-		expect(rows.some((row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - 5-year trend')).toBe(false);
+		const rows = (await import('./lib/data/housingLedVsTrendProjectionData.json'))
+			.default as Array<{ dataset: string; b: string }>;
+		expect(
+			rows.some(
+				(row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Low'
+			)
+		).toBe(true);
+		expect(
+			rows.some(
+				(row) =>
+					row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - Central'
+			)
+		).toBe(true);
+		expect(
+			rows.some(
+				(row) => row.dataset === 'housing_led_vs_trend_total_population' && row.b === 'Trend - High'
+			)
+		).toBe(true);
+		expect(
+			rows.some(
+				(row) =>
+					row.dataset === 'housing_led_vs_trend_total_population' &&
+					row.b === 'Trend - 5-year trend'
+			)
+		).toBe(false);
 	});
 
 	it('uses low/central/high labels in the components-of-change trend data', async () => {
-		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{
+			dataset: string;
+			b: string;
+		}>;
 		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Low')).toBe(true);
 		expect(rows.some((row) => row.dataset === 'births' && row.b === 'Central')).toBe(true);
 		expect(rows.some((row) => row.dataset === 'births' && row.b === 'High')).toBe(true);
@@ -71,18 +137,45 @@ describe('comparison chart colors', () => {
 	});
 
 	it('derives total net migration from the domestic and international in/out components', async () => {
-		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{ dataset: string; b: string }>;
+		const rows = (await import('./lib/data/ComponentsOfChangeChartData.json')).default as Array<{
+			dataset: string;
+			b: string;
+		}>;
 		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Low')).toBe(true);
-		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Central')).toBe(true);
-		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'High')).toBe(true);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'Central')).toBe(
+			true
+		);
+		expect(rows.some((row) => row.dataset === 'total_net_migration' && row.b === 'High')).toBe(
+			true
+		);
 	});
 
 	it('removes pre-domain line trails when xDomain is set on a forecast chart', () => {
 		const data = [
-			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2020-01-01'), b: 'Trend - Central', y: 1000 },
-			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2021-01-01'), b: 'Trend - Central', y: 1100 },
-			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2022-01-01'), b: 'Trend - Central', y: 1200 },
-			{ dataset: 'housing_led_vs_trend_total_population', xd: new Date('2030-01-01'), b: 'Trend - Central', y: 1400 }
+			{
+				dataset: 'housing_led_vs_trend_total_population',
+				xd: new Date('2020-01-01'),
+				b: 'Trend - Central',
+				y: 1000
+			},
+			{
+				dataset: 'housing_led_vs_trend_total_population',
+				xd: new Date('2021-01-01'),
+				b: 'Trend - Central',
+				y: 1100
+			},
+			{
+				dataset: 'housing_led_vs_trend_total_population',
+				xd: new Date('2022-01-01'),
+				b: 'Trend - Central',
+				y: 1200
+			},
+			{
+				dataset: 'housing_led_vs_trend_total_population',
+				xd: new Date('2030-01-01'),
+				b: 'Trend - Central',
+				y: 1400
+			}
 		];
 
 		const filtered = filterDataToXDomain(data, {
@@ -140,15 +233,28 @@ describe('comparison chart colors', () => {
 	it('keeps housing-led low/central/high labels visible when those series share the same final age', () => {
 		const data = [
 			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - Low', y: 110000 },
-			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - Central', y: 120000 },
+			{
+				dataset: 'housing_led_vs_trend_age_structure',
+				xd: 90,
+				b: 'Housing-led - Central',
+				y: 120000
+			},
 			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Housing-led - High', y: 130000 },
-			{ dataset: 'housing_led_vs_trend_age_structure', xd: 90, b: 'Trend - 5-year trend', y: 140000 }
+			{
+				dataset: 'housing_led_vs_trend_age_structure',
+				xd: 90,
+				b: 'Trend - 5-year trend',
+				y: 140000
+			}
 		];
 
 		const spec = lineChartWithForecast(
 			{ type: 'integer', timeperiod_type: 'year', includeZero: true },
 			data,
-			{ domain: ['Housing-led - Low', 'Housing-led - Central', 'Housing-led - High'], range: ['#111827', '#ef4444', '#f59e0b'] }
+			{
+				domain: ['Housing-led - Low', 'Housing-led - Central', 'Housing-led - High'],
+				range: ['#111827', '#ef4444', '#f59e0b']
+			}
 		);
 
 		const textPayload = JSON.stringify(spec.marks);

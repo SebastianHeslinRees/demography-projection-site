@@ -4,13 +4,13 @@ import { defineConfig } from 'vitest/config';
 import { resolve } from 'node:path';
 
 export default defineConfig({
-    plugins: [enhancedImages(), sveltekit()],
-    server: {
-        fs: {
-            allow: [resolve(import.meta.dirname, './.velite')],
-        },
-    },
-    test: {
-        include: ['src/**/*.{test,spec}.{js,ts}'],
-    },
+	plugins: [enhancedImages(), sveltekit()],
+	server: {
+		fs: {
+			allow: [resolve(import.meta.dirname, './.velite')]
+		}
+	},
+	test: {
+		include: ['src/**/*.{test,spec}.{js,ts}']
+	}
 });

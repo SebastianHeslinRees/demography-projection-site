@@ -3,11 +3,11 @@
 	 * This is based on the @ldn-viz/ui Tooltip ocmponent, but with:
 	 * - the disableHoverableContent option removed
 	 * - the max-w-[200px] class removed
-	 * 
-	*/
+	 *
+	 */
 	import { Tooltip } from 'bits-ui';
 	import type { Snippet } from 'svelte';
-	import { Trigger } from "@ldn-viz/ui";
+	import { Trigger } from '@ldn-viz/ui';
 
 	type Props = Tooltip.RootProps & {
 		hintLabel?: string;
@@ -40,12 +40,12 @@
 {/snippet}
 
 <Tooltip.Provider delayDuration={100}>
-	<Tooltip.Root disableCloseOnTriggerClick  bind:open>
+	<Tooltip.Root disableCloseOnTriggerClick bind:open>
 		{@render tooltipTrigger()}
 
 		<Tooltip.Portal>
 			<Tooltip.Content
-				class="z-50 border border-color-ui-border-secondary bg-color-container-level-0 p-2 text-sm shadow-lg"
+				class="border-color-ui-border-secondary bg-color-container-level-0 z-50 border p-2 text-sm shadow-lg"
 			>
 				{@render children?.()}
 

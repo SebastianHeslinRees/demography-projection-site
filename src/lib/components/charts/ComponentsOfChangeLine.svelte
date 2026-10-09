@@ -55,7 +55,10 @@
 			Plot.ruleY([0]),
 			Plot.line(filteredData, { x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' }),
 			Plot.ruleX(filteredData, Plot.pointerX({ x: 'yearDate' })),
-			Plot.point(filteredData, Plot.pointer({ x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' })),
+			Plot.point(
+				filteredData,
+				Plot.pointer({ x: 'yearDate', y: 'value', stroke: 'variant', z: 'variant' })
+			),
 			Plot.tip(
 				filteredData,
 				Plot.pointer({
@@ -88,4 +91,3 @@
 	note="Shows three projection variants based on low, central and high trend assumptions about migration and natural change"
 	alt="Line chart showing {dataset} components for London, with low, central and high trend lines"
 />
-

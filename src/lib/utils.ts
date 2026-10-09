@@ -1,4 +1,4 @@
-import { docs, index, type Doc, type Guide} from '$content/index';
+import { docs, index, type Doc, type Guide } from '$content/index';
 import { error } from '@sveltejs/kit';
 import type { Component } from 'svelte';
 import type { Attachment } from 'svelte/attachments';
@@ -78,7 +78,6 @@ export const clickToCopy: Attachment = (node: HTMLElement, target: any) => {
 		}
 	};
 };
-
 
 export const getColumnMapping = (dataset: string, data: Array<Record<string, unknown>> = []) => {
 	const cols =

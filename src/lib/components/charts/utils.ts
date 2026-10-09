@@ -1,5 +1,5 @@
 // import { PUBLIC_CHART_DATA_API_URL } from "$env/static/public";
-export const PUBLIC_CHART_DATA_API_URL = "";
+export const PUBLIC_CHART_DATA_API_URL = '';
 
 import { Plot } from '@ldn-viz/charts';
 import { theme } from '@ldn-viz/ui';
@@ -8,197 +8,196 @@ import { formatLocale } from 'd3-format';
 import { utcFormat } from 'd3-time-format';
 import type { ChartOptions } from './chartOptions';
 
-
 // Bundled projected population chart rows shipped with the app build.
-import projectedPopulationChartData from "$lib/data/projectedPopulationChartData.json" with { type: "json" };
-import projectedPopulation2ChartData from "$lib/data/projectedPopulation2ChartData.json" with { type: "json" };
+import projectedPopulationChartData from '$lib/data/projectedPopulationChartData.json' with { type: 'json' };
+import projectedPopulation2ChartData from '$lib/data/projectedPopulation2ChartData.json' with { type: 'json' };
 // Bundled components-of-change chart rows shipped with the app build.
-import componentsOfChangeData from "$lib/data/ComponentsOfChangeChartData.json" with { type: "json" };
+import componentsOfChangeData from '$lib/data/ComponentsOfChangeChartData.json' with { type: 'json' };
 // Bundled borough-level population data.
-import boroughPopulationData from "$lib/data/boroughPopulationData.json" with { type: "json" };
-import housingLedVsTrendCentralBoroughDifferenceData from "$lib/data/housingLedVsTrendCentralBoroughDifferenceData.json" with { type: "json" };
+import boroughPopulationData from '$lib/data/boroughPopulationData.json' with { type: 'json' };
+import housingLedVsTrendCentralBoroughDifferenceData from '$lib/data/housingLedVsTrendCentralBoroughDifferenceData.json' with { type: 'json' };
 // Bundled ward-level population data.
-import wardPopulationData from "$lib/data/wardPopulationData.json" with { type: "json" };
-import housingLedWardPopulationData from "$lib/data/housingLedWardPopulationData.json" with { type: "json" };
-import housingLedProjectedPopulationData from "$lib/data/housingLedProjectedPopulation.json" with { type: "json" };
-import housingLedVsTrendProjectionData from "$lib/data/housingLedVsTrendProjectionData.json" with { type: "json" };
-import housingLedComponentsData from "$lib/data/HousingLedComponentsData.json" with { type: "json" };
-import housingLedFertilityAgeData from "$lib/data/HousingLedFertilityAgeData.json" with { type: "json" };
-import { boroughCapacityMapData } from "$lib/data/boroughCapacityMapData";
-import londonSitesCumulativeData from "$lib/data/londonSitesCumulativeData.json" with { type: "json" };
+import wardPopulationData from '$lib/data/wardPopulationData.json' with { type: 'json' };
+import housingLedWardPopulationData from '$lib/data/housingLedWardPopulationData.json' with { type: 'json' };
+import housingLedProjectedPopulationData from '$lib/data/housingLedProjectedPopulation.json' with { type: 'json' };
+import housingLedVsTrendProjectionData from '$lib/data/housingLedVsTrendProjectionData.json' with { type: 'json' };
+import housingLedComponentsData from '$lib/data/HousingLedComponentsData.json' with { type: 'json' };
+import housingLedFertilityAgeData from '$lib/data/HousingLedFertilityAgeData.json' with { type: 'json' };
+import { boroughCapacityMapData } from '$lib/data/boroughCapacityMapData';
+import londonSitesCumulativeData from '$lib/data/londonSitesCumulativeData.json' with { type: 'json' };
 
 export type ChartDataRow = {
-  dataset: string;
-  xd: string | number | Date;
-  b: string;
-  y: number;
+	dataset: string;
+	xd: string | number | Date;
+	b: string;
+	y: number;
 };
 
 export type ChartDataOptions = {
-  type?: string;
-  timeperiod_type?: string;
-  hide?: string[];
+	type?: string;
+	timeperiod_type?: string;
+	hide?: string[];
 };
 
 export function fetchChartData(dataset: string): Promise<Response> {
-  return fetch(`${PUBLIC_CHART_DATA_API_URL}?dataset=eq.${dataset}`);
+	return fetch(`${PUBLIC_CHART_DATA_API_URL}?dataset=eq.${dataset}`);
 }
 
 function getLocalDatasetRows(dataset: string): ChartDataRow[] {
-  return (projectedPopulationChartData as ChartDataRow[])
+	return (projectedPopulationChartData as ChartDataRow[])
 		.concat(projectedPopulation2ChartData as ChartDataRow[])
-    .concat(componentsOfChangeData as ChartDataRow[])
-    .concat(boroughPopulationData as ChartDataRow[])
-    .concat(housingLedVsTrendCentralBoroughDifferenceData as ChartDataRow[])
+		.concat(componentsOfChangeData as ChartDataRow[])
+		.concat(boroughPopulationData as ChartDataRow[])
+		.concat(housingLedVsTrendCentralBoroughDifferenceData as ChartDataRow[])
 		.concat(boroughCapacityMapData as ChartDataRow[])
 		.concat(londonSitesCumulativeData as ChartDataRow[])
-    .concat(wardPopulationData as ChartDataRow[])
-    .concat(housingLedWardPopulationData as ChartDataRow[])
-    .concat(housingLedProjectedPopulationData as ChartDataRow[])
-    .concat(housingLedVsTrendProjectionData as ChartDataRow[])
-    .concat(housingLedComponentsData as ChartDataRow[])
-    .concat(housingLedFertilityAgeData as ChartDataRow[])
-    .filter((d) => d.dataset === dataset);
+		.concat(wardPopulationData as ChartDataRow[])
+		.concat(housingLedWardPopulationData as ChartDataRow[])
+		.concat(housingLedProjectedPopulationData as ChartDataRow[])
+		.concat(housingLedVsTrendProjectionData as ChartDataRow[])
+		.concat(housingLedComponentsData as ChartDataRow[])
+		.concat(housingLedFertilityAgeData as ChartDataRow[])
+		.filter((d) => d.dataset === dataset);
 }
 
 function getDatasetRows(dataset: string): Promise<ChartDataRow[]> {
-  const localRows = getLocalDatasetRows(dataset);
+	const localRows = getLocalDatasetRows(dataset);
 
-  if (localRows.length > 0) {
-    return Promise.resolve(localRows);
-  }
+	if (localRows.length > 0) {
+		return Promise.resolve(localRows);
+	}
 
-  return fetchChartData(dataset).then((res) => res.json());
+	return fetchChartData(dataset).then((res) => res.json());
 }
 
 function deriveTotalNetMigrationRows(
-  internationalRows: ChartDataRow[],
-  domesticRows: ChartDataRow[],
+	internationalRows: ChartDataRow[],
+	domesticRows: ChartDataRow[]
 ): ChartDataRow[] {
-  const internationalByKey = new Map<string, ChartDataRow>();
+	const internationalByKey = new Map<string, ChartDataRow>();
 
-  for (const row of internationalRows) {
-    internationalByKey.set(`${row.b}::${row.xd}`, row);
-  }
+	for (const row of internationalRows) {
+		internationalByKey.set(`${row.b}::${row.xd}`, row);
+	}
 
-  const combinedRows: ChartDataRow[] = [];
+	const combinedRows: ChartDataRow[] = [];
 
-  for (const domesticRow of domesticRows) {
-    const matchingInternational = internationalByKey.get(`${domesticRow.b}::${domesticRow.xd}`);
+	for (const domesticRow of domesticRows) {
+		const matchingInternational = internationalByKey.get(`${domesticRow.b}::${domesticRow.xd}`);
 
-    if (!matchingInternational) continue;
+		if (!matchingInternational) continue;
 
-    combinedRows.push({
-      dataset: "total_net_migration",
-      xd: domesticRow.xd,
-      b: domesticRow.b,
-      y: matchingInternational.y + domesticRow.y,
-    });
-  }
+		combinedRows.push({
+			dataset: 'total_net_migration',
+			xd: domesticRow.xd,
+			b: domesticRow.b,
+			y: matchingInternational.y + domesticRow.y
+		});
+	}
 
-  return combinedRows;
+	return combinedRows;
 }
 
 export function getColorChoice(
-  options?: { colorScale?: { domain: string[]; range: string[] }; colorScaleLight?: { domain: string[]; range: string[] }; colorScaleDark?: { domain: string[]; range: string[] } },
-  mode: 'light' | 'dark' = 'light'
+	options?: {
+		colorScale?: { domain: string[]; range: string[] };
+		colorScaleLight?: { domain: string[]; range: string[] };
+		colorScaleDark?: { domain: string[]; range: string[] };
+	},
+	mode: 'light' | 'dark' = 'light'
 ): { type?: string; domain?: string[]; range?: string[] } {
-  if (!options) {
-    return {};
-  }
+	if (!options) {
+		return {};
+	}
 
-  if (mode === 'dark') {
-    return options.colorScaleDark ?? options.colorScale ?? {};
-  }
+	if (mode === 'dark') {
+		return options.colorScaleDark ?? options.colorScale ?? {};
+	}
 
-  return options.colorScaleLight ?? options.colorScale ?? {};
+	return options.colorScaleLight ?? options.colorScale ?? {};
 }
 
 export function sortChartData<T extends ChartDataRow>(
-  rows: T[],
-  xField: keyof ChartDataRow = 'xd',
-  seriesField: keyof ChartDataRow = 'b'
+	rows: T[],
+	xField: keyof ChartDataRow = 'xd',
+	seriesField: keyof ChartDataRow = 'b'
 ): T[] {
-  return [...rows].sort((a, b) => {
-    const aSeries = String(a[seriesField] ?? '');
-    const bSeries = String(b[seriesField] ?? '');
-    if (aSeries !== bSeries) return aSeries.localeCompare(bSeries);
+	return [...rows].sort((a, b) => {
+		const aSeries = String(a[seriesField] ?? '');
+		const bSeries = String(b[seriesField] ?? '');
+		if (aSeries !== bSeries) return aSeries.localeCompare(bSeries);
 
-    const aX = a[xField];
-    const bX = b[xField];
+		const aX = a[xField];
+		const bX = b[xField];
 
-    if (aX instanceof Date && bX instanceof Date) {
-      return aX.getTime() - bX.getTime();
-    }
+		if (aX instanceof Date && bX instanceof Date) {
+			return aX.getTime() - bX.getTime();
+		}
 
-    if (typeof aX === 'number' && typeof bX === 'number') {
-      return aX - bX;
-    }
+		if (typeof aX === 'number' && typeof bX === 'number') {
+			return aX - bX;
+		}
 
-    return String(aX).localeCompare(String(bX));
-  });
+		return String(aX).localeCompare(String(bX));
+	});
 }
 
-export function loadChartData(
-  dataset: string,
-  options: ChartDataOptions,
-): Promise<ChartDataRow[]> {
-  const convertVal = (val: string): string | number | Date => {
-    if (options.type === "integer") return +val;
-    if (options.type === "date" && !["Financial Year"].includes(options.timeperiod_type ?? ""))
-      return new Date(val);
-    return val;
-  };
+export function loadChartData(dataset: string, options: ChartDataOptions): Promise<ChartDataRow[]> {
+	const convertVal = (val: string): string | number | Date => {
+		if (options.type === 'integer') return +val;
+		if (options.type === 'date' && !['Financial Year'].includes(options.timeperiod_type ?? ''))
+			return new Date(val);
+		return val;
+	};
 
-  const dataPromise = getDatasetRows(dataset).then((rows) => {
-    if (rows.length > 0 || dataset !== "total_net_migration") {
-      return rows;
-    }
+	const dataPromise = getDatasetRows(dataset).then((rows) => {
+		if (rows.length > 0 || dataset !== 'total_net_migration') {
+			return rows;
+		}
 
-    return Promise.all([
-      getDatasetRows("international_net_migration"),
-      getDatasetRows("domestic_net_migration"),
-    ]).then(([internationalRows, domesticRows]) =>
-      deriveTotalNetMigrationRows(internationalRows, domesticRows),
-    );
-  });
+		return Promise.all([
+			getDatasetRows('international_net_migration'),
+			getDatasetRows('domestic_net_migration')
+		]).then(([internationalRows, domesticRows]) =>
+			deriveTotalNetMigrationRows(internationalRows, domesticRows)
+		);
+	});
 
-  return dataPromise
-    .then((dataRes) => {
-      const newData = dataRes
-        .map((d: ChartDataRow) => ({ ...d, xd: convertVal(d.xd as string) }))
-        .filter((d: ChartDataRow) => !options.hide || !options.hide.includes(d.b))
-        .filter((d: ChartDataRow) => {
-          const isHousingLedAnnualPopulationChange =
-            dataset === 'housing_led_annual_population_change' ||
-            dataset === 'housing_led_vs_trend_annual_population_change';
+	return dataPromise.then((dataRes) => {
+		const newData = dataRes
+			.map((d: ChartDataRow) => ({ ...d, xd: convertVal(d.xd as string) }))
+			.filter((d: ChartDataRow) => !options.hide || !options.hide.includes(d.b))
+			.filter((d: ChartDataRow) => {
+				const isHousingLedAnnualPopulationChange =
+					dataset === 'housing_led_annual_population_change' ||
+					dataset === 'housing_led_vs_trend_annual_population_change';
 
-          const isHousingLedZeroPoint =
-            isHousingLedAnnualPopulationChange &&
-            typeof d.b === 'string' &&
-            ((dataset === 'housing_led_annual_population_change' && ['Central', 'High', 'Low'].includes(d.b)) ||
-              (dataset === 'housing_led_vs_trend_annual_population_change' && d.b.startsWith('Housing-led'))) &&
-            d.y === 0 &&
-            d.xd instanceof Date &&
-            d.xd.getFullYear() === 2011;
+				const isHousingLedZeroPoint =
+					isHousingLedAnnualPopulationChange &&
+					typeof d.b === 'string' &&
+					((dataset === 'housing_led_annual_population_change' &&
+						['Central', 'High', 'Low'].includes(d.b)) ||
+						(dataset === 'housing_led_vs_trend_annual_population_change' &&
+							d.b.startsWith('Housing-led'))) &&
+					d.y === 0 &&
+					d.xd instanceof Date &&
+					d.xd.getFullYear() === 2011;
 
-          if (isHousingLedZeroPoint) {
-            return false;
-          }
-          return true;
-        });
+				if (isHousingLedZeroPoint) {
+					return false;
+				}
+				return true;
+			});
 
-      if (options.type === "date" || dataset === "job_posts") {
-        newData.sort((a: ChartDataRow, b: ChartDataRow) => (a.xd as number) - (b.xd as number));
-      }
+		if (options.type === 'date' || dataset === 'job_posts') {
+			newData.sort((a: ChartDataRow, b: ChartDataRow) => (a.xd as number) - (b.xd as number));
+		}
 
-      return newData;
-    });
+		return newData;
+	});
 }
-
 
 /********************************************************************************************/
-
 
 export function getTooltip(
 	d: ChartDataRow,
@@ -222,7 +221,11 @@ export function makeTooltip(
 	const rawSpec = options.tooltipFormatValue ?? options.ytickformat ?? ',.0f';
 	const spec = rawSpec.includes('s') ? ',.0f' : rawSpec;
 	// N.B. we need to define the format locale to ensure the currency formatter is set to use £ rather than $
-	const valueFormatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec);
+	const valueFormatter = formatLocale({
+		currency: ['£', ''],
+		thousands: ',',
+		grouping: [3]
+	}).format(spec);
 
 	const dateFormat = options.tooltipFormatDate ?? '%Y';
 	const dateFormatter = utcFormat(dateFormat);
@@ -239,7 +242,9 @@ export const formatAxisTick = (value: number, spec?: string | null): string => {
 		}
 	}
 
-	const formatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(spec ?? ',.0f');
+	const formatter = formatLocale({ currency: ['£', ''], thousands: ',', grouping: [3] }).format(
+		spec ?? ',.0f'
+	);
 	return formatter(value);
 };
 

@@ -61,11 +61,11 @@ function footnoteBackContent(_referenceIndex: number, rereferenceIndex: number):
 }
 
 // N.B. we want the tables and footnote features from GitHub Flavoured Markdwon
-//  (GFM), but we can't just use remarkGfm, as this also enables "autolink 
+//  (GFM), but we can't just use remarkGfm, as this also enables "autolink
 // literals", which replaces URLs passed as props to components with <a>
 //  elements. This gives errors for components like <FurtherReading>.
 // Arguably this is an upstream bug.
-// remark-gfm is a thin wrapper around micromark-extensions-gfm 
+// remark-gfm is a thin wrapper around micromark-extensions-gfm
 // (https://github.com/remarkjs/remark-gfm/blob/main/lib/index.js)
 // which combines micromark-extension-gfm-footnote and micromark-extension-gfm-table;
 // we can write similar wrappers for the separarate micromark pacakges.
