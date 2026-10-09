@@ -7,8 +7,8 @@ import { geoMercator } from 'd3-geo';
 
 import type { Feature, FeatureCollection } from 'geojson';
 
-import wards from './wards_simplified.json' with { type: 'json' };
 import { theme } from '@ldn-viz/ui';
+import wards from './wards_simplified.json' with { type: 'json' };
 
 export const wardChoropleth = (
 	options: ChartOptions,
@@ -52,7 +52,7 @@ export const wardChoropleth = (
 		height: width
 	};
 
-	let f = format(options.tooltipFormatValue ?? options.ytickformat ?? '.0f');
+	const f = format(options.tooltipFormatValue ?? options.ytickformat ?? '.0f');
 
 	return {
 		projection: geoMercator().fitExtent(

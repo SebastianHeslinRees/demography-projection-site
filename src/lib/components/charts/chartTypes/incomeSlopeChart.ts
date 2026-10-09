@@ -1,15 +1,15 @@
 import { Plot } from '@ldn-viz/charts';
 import { theme } from '@ldn-viz/ui';
 import { format } from 'd3-format';
-import type { ChartDataRow, ChartOptions, ColorChoice } from '../chartOptions';
+import type { ChartDataRow, ChartOptions } from '../chartOptions';
 import { getAxisTypeAndTickFormat, getZeroYLine, makeTooltip } from '../utils';
 
 const thresholds = ['10', '50', '90'];
 
 export const incomeSlopeChart = (
 	options: ChartOptions,
-	data: ChartDataRow[],
-	colorChoice: ColorChoice
+	data: ChartDataRow[]
+	// colorChoice: ColorChoice
 ) => ({
 	x: {
 		label: null,

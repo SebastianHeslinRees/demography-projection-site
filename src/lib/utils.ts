@@ -50,7 +50,7 @@ export const getContent = async (slug: string = 'index') => {
 // Action that copies details to clipboard
 export const clickToCopy: Attachment = (node: HTMLElement, target: any) => {
 	async function copyText() {
-		let text = target ? document.querySelector(target).innerText : node.innerText;
+		const text = target ? document.querySelector(target).innerText : node.innerText;
 
 		try {
 			await navigator.clipboard.writeText(text);

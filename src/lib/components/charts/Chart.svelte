@@ -10,7 +10,7 @@
 
 	import {
 		getColorChoice,
-		getColorScale,
+		// getColorScale,
 		loadChartData,
 		sortChartData,
 		type ChartDataRow
@@ -25,7 +25,7 @@
 		 * N.B. this prop name is lowercase as all YAML keys are converted to lowercase by our pipeline
 		 */
 		subtitle?: string;
-		source?: string;
+		// source?: string;
 		byline?: string;
 		lloindicator?: string;
 		note?: string;
@@ -44,7 +44,7 @@
 	let {
 		title,
 		subtitle,
-		source,
+		// source,
 		byline,
 		dataset,
 		lloindicator,

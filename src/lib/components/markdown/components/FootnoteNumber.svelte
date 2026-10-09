@@ -2,7 +2,6 @@
 	import type { Snippet } from 'svelte';
 	import type { HTMLAttributes } from 'svelte/elements';
 
-	import { Overlay } from '@ldn-viz/ui';
 	import Tooltip from './Tooltip.svelte';
 
 	let { children, ...restProps }: { children: Snippet } & HTMLAttributes<HTMLElement> = $props();
@@ -16,6 +15,7 @@
 	{/snippet}
 
 	<div class="tooltip prose !w-fit px-1.5">
+		<!-- eslint-disable-next-line TODO anything that can be done to avoid svelte/no-at-html-tags error? -->
 		{@html document.getElementById(restProps.href.slice(1))?.innerHTML}
 	</div>
 </Tooltip>

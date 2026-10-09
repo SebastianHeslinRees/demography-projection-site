@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { Input } from '@ldn-viz/ui';
 
-	let { selectedYear = $bindable(), baseYear, label = 'Comparison Year' } = $props();
+	let {
+		selectedYear = $bindable(),
+		// baseYear,
+		label = 'Comparison Year'
+	} = $props();
 </script>
 
 <div class="w-full space-y-4 md:w-1/2">

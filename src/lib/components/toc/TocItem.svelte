@@ -16,6 +16,7 @@
 
 <li class="pl-4">
 	<a
+		// eslint-disable-next-line TODO ensure resolve is used
 		href={url}
 		class={`product caption text-color-text-muted hover:text-color-interactive-primary-hover hover:underline ${highlighted ? 'text-color-interactive-primary' : 'text-color-text-muted'}`}
 		>{title}</a
@@ -23,7 +24,7 @@
 
 	{#if items?.length}
 		<ul>
-			{#each items as item}
+			{#each items as item, i (i)}
 				<TocItem
 					title={item.title}
 					url={item.url}

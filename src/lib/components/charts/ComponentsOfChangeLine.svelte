@@ -1,8 +1,8 @@
 <script lang="ts">
+	import componentsOfChangeData from '$lib/data/ComponentsOfChangeChartData.json' with { type: 'json' };
 	import { ObservablePlot, Plot } from '@ldn-viz/charts';
 	import { theme } from '@ldn-viz/ui';
 	import { format } from 'd3-format';
-	import componentsOfChangeData from '$lib/data/ComponentsOfChangeChartData.json' with { type: 'json' };
 
 	interface ChartDataRow {
 		dataset: string;
@@ -23,7 +23,7 @@
 
 	const formatThousands = format(',.0f');
 
-	const variants = ['Low', 'Central', 'High'];
+	// const variants = ['Low', 'Central', 'High'];
 
 	// Filter data for this dataset
 	$: filteredData = (componentsOfChangeData as ChartDataRow[])

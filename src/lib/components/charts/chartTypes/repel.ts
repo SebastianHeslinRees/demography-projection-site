@@ -64,7 +64,10 @@ function repel(k, h, minDistance, options) {
 						const dist = (hi - lo) / (items.length - 1);
 						items.sort((i, j) => K[i] - K[j]);
 						let p = lo;
-						for (const i of items) ((K[i] = p), (p += dist));
+						for (const i of items) {
+							K[i] = p;
+							p += dist;
+						}
 					}
 				}
 			}

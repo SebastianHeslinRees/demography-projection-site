@@ -70,7 +70,7 @@ export const getDescription = (
 	} else if (options.chartType === 'pairedDotPlot') {
 		// this data doesn't have time as xd
 
-		let timeStatement = `showing values between ${formatDate(min(colorChoice.domain))} and ${formatDate(max(colorChoice.domain))}`;
+		const timeStatement = `showing values between ${formatDate(min(colorChoice.domain))} and ${formatDate(max(colorChoice.domain))}`;
 		const xds = data.map((d) => d.xd);
 
 		return `Paired dot plot ${timeStatement}, with categories ${join(unique(xds))}.`;

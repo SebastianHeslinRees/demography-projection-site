@@ -54,7 +54,7 @@ export const boroughChoropleth = (
 		height: width
 	};
 
-	let f = format(optionsWithTooltip.tooltipFormatValue ?? options.ytickformat ?? '.0f');
+	const f = format(optionsWithTooltip.tooltipFormatValue ?? options.ytickformat ?? '.0f');
 
 	return {
 		projection: geoMercator().fitExtent(
