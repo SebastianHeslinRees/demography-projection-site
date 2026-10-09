@@ -35,8 +35,6 @@ const colorHousingLedWithContext = $derived({
 			theme.tokenNameToValue('data.context')
 		]
 	}
-
-	// 			theme.tokenNameToValue('data.context')
 });
 
 const colorScaleCombined = $derived({
@@ -434,6 +432,7 @@ class ChartOptionsClass {
 			timeperiod_type: 'Annual',
 			includeZeroLine: true,
 			projectedStart: '2024-01-01',
+			autoDodgeLabels: true,
 			...colorHousingLed
 		},
 
@@ -472,6 +471,7 @@ class ChartOptionsClass {
 			timeperiod_type: 'year',
 			includeZero: true,
 			xAxisLabel: 'Age',
+			autoDodgeLabels: true,
 			...colorHousingLed
 		},
 
@@ -493,6 +493,7 @@ class ChartOptionsClass {
 			timeperiod_type: 'year',
 			includeZero: true,
 			xAxisLabel: 'Age',
+			autoDodgeLabels: true,
 			...colorHousingLed
 		},
 
@@ -805,7 +806,8 @@ class ChartOptionsClass {
 			timeperiod_type: 'Annual',
 			includeZeroLine: true,
 			projectedStart: '2024-01-01',
-			...colorsTrendBased
+			...colorsTrendBased,
+			autoDodgeLabels: true
 		},
 
 		domestic_net_migration: {
@@ -817,6 +819,7 @@ class ChartOptionsClass {
 			includeZeroLine: true,
 			yDomain: [-200000, 0],
 			projectedStart: '2024-01-01',
+			autoDodgeLabels: true,
 			...colorsTrendBased
 		},
 
@@ -846,6 +849,7 @@ class ChartOptionsClass {
 			timeperiod_type: 'Annual',
 			includeZeroLine: true,
 			projectedStart: '2024-01-01',
+			autoDodgeLabels: true,
 			...colorsTrendBased
 		}
 	});
