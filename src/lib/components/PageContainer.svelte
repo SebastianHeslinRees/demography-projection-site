@@ -8,9 +8,7 @@
 	import type { Snippet } from 'svelte';
 	import Toc from './toc/Toc.svelte';
 
-	let activeMenuItem = $derived(
-		navigation.find((item) => resolve(item.href as any) === page.url.pathname)
-	);
+	let activeMenuItem = $derived(navigation.find((item) => item.href === page.url.pathname));
 
 	interface Props {
 		tocItems?: any[];
