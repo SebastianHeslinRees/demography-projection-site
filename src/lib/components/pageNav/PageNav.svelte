@@ -14,7 +14,13 @@
 		page.data.metadata.slugFull === '/index' ? '/' : page.data.metadata.slugFull
 	);
 
-	const activeIndex = $derived(pages.findIndex((p) => p.href === pageSlug));
+	const activeIndex = $derived(
+		pages.findIndex(
+			(p) =>
+				p.href ===
+				(resolve(pageSlug).endsWith('/') ? resolve(pageSlug).slice(0, -1) : resolve(pageSlug))
+		)
+	);
 
 	const hasActivePage = $derived(activeIndex !== -1);
 	const hasPrevPage = $derived(hasActivePage && activeIndex > 0);
@@ -25,11 +31,7 @@
 	<div>
 		{#if hasPrevPage}
 			{@const prevPage = pages[activeIndex - 1]}
-			<Button
-				href={resolve(prevPage.href)}
-				variant="outline"
-				class="!border-color-border-muted !px-3"
-			>
+			<Button href={prevPage.href} variant="outline" class="!border-color-border-muted !px-3">
 				<Icon
 					src={ArrowLeftCircle}
 					theme="outline"
@@ -47,11 +49,7 @@
 		{#if hasNextPage}
 			{@const nextPage = pages[activeIndex + 1]}
 
-			<Button
-				href={resolve(nextPage.href)}
-				variant="outline"
-				class="!border-color-border-muted !px-3"
-			>
+			<Button href={nextPage.href} variant="outline" class="!border-color-border-muted !px-3">
 				<div class="flex flex-col">
 					<span class="product label-sm text-color-interactive-primary"> Next </span>
 					<span class="body-lg product leading-snug">{nextPage.title}</span>
